@@ -1,0 +1,14 @@
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<h1>404 Not Found</h1>
+<ul>
+<li>Code: NoSuchKey</li>
+<li>Message: The specified key does not exist.</li>
+<li>Key: pkgs/archive/linux-aarch64/repodata.json</li>
+<li>RequestId: 6715AA52A270C140</li>
+<li>HostId: OdFUGgx4UDZT59VBKFtNCgKNYfKEeWIoW1qDGLagMcqgbnQvxDkaFxOBs1GTjukeNh6IIp34Sws=</li>
+</ul>
+<hr/>
+</body>
+</html>
