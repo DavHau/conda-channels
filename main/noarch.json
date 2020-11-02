@@ -40150,6 +40150,36 @@
       "timestamp": 1590158038794,
       "version": "2.2.1"
     },
+    "tensorboard-2.3.0-pyh4dce500_0.tar.bz2": {
+      "build": "pyh4dce500_0",
+      "build_number": 0,
+      "depends": [
+        "absl-py >=0.7",
+        "google-auth >=1.6.3,<2",
+        "google-auth-oauthlib >=0.4.1,<0.5",
+        "grpcio >=1.24.3",
+        "markdown >=2.6.8",
+        "numpy >=1.16",
+        "protobuf >=3.8.0",
+        "python >=3.5",
+        "requests >=2.21.0,<3",
+        "setuptools >=41.4",
+        "six >=1.12",
+        "tensorboard-plugin-wit >=1.6.0",
+        "werkzeug >=0.11.15",
+        "wheel >=0.26"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "f4e036b82400aa919ba7725d96c263d6",
+      "name": "tensorboard",
+      "noarch": "python",
+      "sha256": "ad8783c10e50c8f206d926253c04944c5d3e2adcbe3facd7fbfa9a01207a6e44",
+      "size": 6513164,
+      "subdir": "noarch",
+      "timestamp": 1604313690945,
+      "version": "2.3.0"
+    },
     "tensorboard-plugin-wit-1.6.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -81663,6 +81693,36 @@
       "subdir": "noarch",
       "timestamp": 1590158038794,
       "version": "2.2.1"
+    },
+    "tensorboard-2.3.0-pyh4dce500_0.conda": {
+      "build": "pyh4dce500_0",
+      "build_number": 0,
+      "depends": [
+        "absl-py >=0.7",
+        "google-auth >=1.6.3,<2",
+        "google-auth-oauthlib >=0.4.1,<0.5",
+        "grpcio >=1.24.3",
+        "markdown >=2.6.8",
+        "numpy >=1.16",
+        "protobuf >=3.8.0",
+        "python >=3.5",
+        "requests >=2.21.0,<3",
+        "setuptools >=41.4",
+        "six >=1.12",
+        "tensorboard-plugin-wit >=1.6.0",
+        "werkzeug >=0.11.15",
+        "wheel >=0.26"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "c762d44fb304dbdfbc8eaed6c3d6d38e",
+      "name": "tensorboard",
+      "noarch": "python",
+      "sha256": "e3d390ca16929f14dc2426ffb29ae1109633a8c4a5d3de8f26f1a19db351b573",
+      "size": 5445783,
+      "subdir": "noarch",
+      "timestamp": 1604313690945,
+      "version": "2.3.0"
     },
     "tensorboard-plugin-wit-1.6.0-py_0.conda": {
       "build": "py_0",
