@@ -1480,6 +1480,22 @@
       "timestamp": 1591890827406,
       "version": "4.5.0"
     },
+    "archspec-0.1.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "75cd315387cd0f583af234056fcf0d5c",
+      "name": "archspec",
+      "noarch": "python",
+      "sha256": "df0380f4e24b55c70b64f877f6b82371ad2566658ac908036273b300abfdfa65",
+      "size": 26468,
+      "subdir": "noarch",
+      "timestamp": 1604328067179,
+      "version": "0.1.1"
+    },
     "argcomplete-1.10.2-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -3873,6 +3889,26 @@
       "subdir": "noarch",
       "timestamp": 1603939326615,
       "version": "1.16.7"
+    },
+    "boto3-1.16.9-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.9,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "f36106ae1670505ff285ba302d3d6f9e",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "9391efc48b43a57d15519797893e2e953ee676aea8e37aeb2692ac21ad20cc94",
+      "size": 71549,
+      "subdir": "noarch",
+      "timestamp": 1604160366575,
+      "version": "1.16.9"
     },
     "boto3-1.9.111-py_0.tar.bz2": {
       "build": "py_0",
@@ -30421,6 +30457,25 @@
       "timestamp": 1594386474208,
       "version": "0.1.3"
     },
+    "prison-0.1.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "requests",
+        "six"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7e1ebd95bbb96a19dbd862dfcfaefbc2",
+      "name": "prison",
+      "noarch": "python",
+      "sha256": "911142aad49b2413df53f4230fae2f4102d2d9685f3890535aded6f1ec00ff1e",
+      "size": 9653,
+      "subdir": "noarch",
+      "timestamp": 1604347162817,
+      "version": "0.1.3"
+    },
     "prometheus_client-0.7.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -38110,6 +38165,29 @@
       "timestamp": 1597003971415,
       "version": "1.5.0"
     },
+    "spaghetti-1.5.3-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "esda",
+        "libpysal",
+        "numpy >=1.3",
+        "pandas >=1.0",
+        "python >=3",
+        "rtree",
+        "scipy >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "cbc7478eafd5d99d78beef15bde2b293",
+      "name": "spaghetti",
+      "noarch": "python",
+      "sha256": "0dfe9c0278e6b25a0e0ffef65d7bb45c80e417c31305bdea5236bd6472c19241",
+      "size": 40920,
+      "subdir": "noarch",
+      "timestamp": 1604343820247,
+      "version": "1.5.3"
+    },
     "sparkmagic-0.12.9-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -44949,6 +45027,22 @@
       "timestamp": 1591890827406,
       "version": "4.5.0"
     },
+    "archspec-0.1.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "2f3c34ab9a81f952ca092d988578b1ef",
+      "name": "archspec",
+      "noarch": "python",
+      "sha256": "a2974d3e45aa84598fd00c8af7b3d4288b988b8f1484358ca92dc81dee65f9a6",
+      "size": 25142,
+      "subdir": "noarch",
+      "timestamp": 1604328067179,
+      "version": "0.1.1"
+    },
     "argcomplete-1.10.2-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -47290,6 +47384,26 @@
       "subdir": "noarch",
       "timestamp": 1603939326615,
       "version": "1.16.7"
+    },
+    "boto3-1.16.9-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.9,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "c89cbe410df12ba55e6831aa5a7d7cef",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "eb54c44af215a0492941b7dfc6811fbb2b7a71f8671905fa9b16f98f28149e40",
+      "size": 71447,
+      "subdir": "noarch",
+      "timestamp": 1604160366575,
+      "version": "1.16.9"
     },
     "boto3-1.9.111-py_0.conda": {
       "build": "py_0",
@@ -71984,6 +72098,25 @@
       "timestamp": 1594386474208,
       "version": "0.1.3"
     },
+    "prison-0.1.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "requests",
+        "six"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5c54f9b9a6963e52773abf1e6cb046c2",
+      "name": "prison",
+      "noarch": "python",
+      "sha256": "c7850be423f4db6aeef747bf44e20c32fae6a2077e8d6438a0f22523dce24250",
+      "size": 10348,
+      "subdir": "noarch",
+      "timestamp": 1604347162817,
+      "version": "0.1.3"
+    },
     "prometheus_client-0.7.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -79672,6 +79805,29 @@
       "subdir": "noarch",
       "timestamp": 1597003971415,
       "version": "1.5.0"
+    },
+    "spaghetti-1.5.3-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "esda",
+        "libpysal",
+        "numpy >=1.3",
+        "pandas >=1.0",
+        "python >=3",
+        "rtree",
+        "scipy >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "cf8990f5d594e4c0c97a61eeacd3da75",
+      "name": "spaghetti",
+      "noarch": "python",
+      "sha256": "2a504aa9c26576b9730ad716f35666c0fdcdcfac3464575ba16667eaf83a4d69",
+      "size": 43421,
+      "subdir": "noarch",
+      "timestamp": 1604343820247,
+      "version": "1.5.3"
     },
     "sparkmagic-0.12.9-py_0.conda": {
       "build": "py_0",
