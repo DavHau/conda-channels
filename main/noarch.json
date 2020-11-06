@@ -7173,6 +7173,25 @@
       "timestamp": 1597266613080,
       "version": "1.0.2"
     },
+    "conda-token-0.1.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "conda >=4.3",
+        "packaging",
+        "python"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b34212955062439ce54260f4571b9c42",
+      "name": "conda-token",
+      "noarch": "python",
+      "sha256": "ae69702dbe2630bcff8e1068eb1c7818903205dbe7f72eb3b55a64ad74737461",
+      "size": 8872,
+      "subdir": "noarch",
+      "timestamp": 1604592963743,
+      "version": "0.1.2"
+    },
     "conda-verify-3.4.2-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -50597,6 +50616,25 @@
       "subdir": "noarch",
       "timestamp": 1597266613080,
       "version": "1.0.2"
+    },
+    "conda-token-0.1.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "conda >=4.3",
+        "packaging",
+        "python"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "6a699e62c09cb8f5797af6c50fa52527",
+      "name": "conda-token",
+      "noarch": "python",
+      "sha256": "08e26f17b9f485f679def2cac602bcadbb04d4c327285f64d9b668f4b2571ef7",
+      "size": 9219,
+      "subdir": "noarch",
+      "timestamp": 1604592963743,
+      "version": "0.1.2"
     },
     "conda-verify-3.4.2-py_0.conda": {
       "build": "py_0",
