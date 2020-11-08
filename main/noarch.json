@@ -2025,6 +2025,23 @@
       "timestamp": 1600298438912,
       "version": "20.2.0"
     },
+    "attrs-20.3.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "edd2d539d41f1ba06544dc6dae005bb1",
+      "name": "attrs",
+      "noarch": "python",
+      "sha256": "b434b87d30ed5eaa0c95794bce06a566c9a4d62becc9b7a796f7441555f43cce",
+      "size": 42585,
+      "subdir": "noarch",
+      "timestamp": 1604765619426,
+      "version": "20.3.0"
+    },
     "audit-libs-cos6-i686-2.4.5-0.tar.bz2": {
       "build": "0",
       "build_number": 0,
@@ -2467,6 +2484,26 @@
       "subdir": "noarch",
       "timestamp": 1603924399568,
       "version": "1.28.1"
+    },
+    "aws-sam-translator-1.29.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "boto3 >=1.5,<2.0a0",
+        "jsonschema >=3.0,<4.0a0",
+        "python",
+        "six >=1.11,<2.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "7360d3d0f333126d738339d5371d1677",
+      "name": "aws-sam-translator",
+      "noarch": "python",
+      "sha256": "17f93b8da724b655150496c6c580071eb360b9ebe8bd7c149f0be788c832c7b6",
+      "size": 120123,
+      "subdir": "noarch",
+      "timestamp": 1604765737533,
+      "version": "1.29.0"
     },
     "aws-xray-sdk-0.95-py_0.tar.bz2": {
       "build": "py_0",
@@ -45556,6 +45593,23 @@
       "timestamp": 1600298438912,
       "version": "20.2.0"
     },
+    "attrs-20.3.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5605773235ba2c3d097b130132bc5907",
+      "name": "attrs",
+      "noarch": "python",
+      "sha256": "ce707e806cc3d408edf953b2cefffce24095b124e7bb6b2ac66f8697a6db931e",
+      "size": 44318,
+      "subdir": "noarch",
+      "timestamp": 1604765619426,
+      "version": "20.3.0"
+    },
     "audit-libs-cos6-i686-2.4.5-0.conda": {
       "build": "0",
       "build_number": 0,
@@ -45998,6 +46052,26 @@
       "subdir": "noarch",
       "timestamp": 1603924399568,
       "version": "1.28.1"
+    },
+    "aws-sam-translator-1.29.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "boto3 >=1.5,<2.0a0",
+        "jsonschema >=3.0,<4.0a0",
+        "python",
+        "six >=1.11,<2.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "d0bca42472496e8b7e27ab652a51696d",
+      "name": "aws-sam-translator",
+      "noarch": "python",
+      "sha256": "5c8d46737d3f64e9605a1146b3533f40e73ca65fb732a65d7a19d70b482e1e84",
+      "size": 123284,
+      "subdir": "noarch",
+      "timestamp": 1604765737533,
+      "version": "1.29.0"
     },
     "aws-xray-sdk-0.95-py_0.conda": {
       "build": "py_0",
