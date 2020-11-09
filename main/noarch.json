@@ -43351,6 +43351,28 @@
       "timestamp": 1597785548273,
       "version": "0.25.2"
     },
+    "yq-2.11.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "argcomplete >=1.8.1",
+        "jq",
+        "python",
+        "pyyaml >=3.11",
+        "setuptools",
+        "xmltodict >=0.11.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "079dc69ecf05e07190421064514ca41d",
+      "name": "yq",
+      "noarch": "python",
+      "sha256": "6753c986cb8484c8d2774e098188b47e3cb3b8ed8b65af20737a398597315694",
+      "size": 22554,
+      "subdir": "noarch",
+      "timestamp": 1604832856215,
+      "version": "2.11.1"
+    },
     "zarr-2.2.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -85011,6 +85033,28 @@
       "subdir": "noarch",
       "timestamp": 1597785548273,
       "version": "0.25.2"
+    },
+    "yq-2.11.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "argcomplete >=1.8.1",
+        "jq",
+        "python",
+        "pyyaml >=3.11",
+        "setuptools",
+        "xmltodict >=0.11.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "3690738a98a66c2a88ec15a802b1af52",
+      "name": "yq",
+      "noarch": "python",
+      "sha256": "612802163a294f4c06eb656687ac3305c0e571be1ec8fb92660e198f358bfa73",
+      "size": 21366,
+      "subdir": "noarch",
+      "timestamp": 1604832856215,
+      "version": "2.11.1"
     },
     "zarr-2.2.0-py_0.conda": {
       "build": "py_0",
