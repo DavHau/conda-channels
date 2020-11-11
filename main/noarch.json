@@ -818,6 +818,24 @@
       "timestamp": 1600298007168,
       "version": "5.0.1"
     },
+    "amqp-5.0.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "vine >=1.1.3"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "a4879f1f93767fd75863466a26154979",
+      "name": "amqp",
+      "noarch": "python",
+      "sha256": "020749f534624936391b16f6e72120ff59a23e7179cd7e4032029f38529c7155",
+      "size": 41472,
+      "subdir": "noarch",
+      "timestamp": 1605055515649,
+      "version": "5.0.2"
+    },
     "anaconda-docs-2.0.24-0.tar.bz2": {
       "build": "0",
       "build_number": 0,
@@ -1709,6 +1727,23 @@
       "timestamp": 1602513597298,
       "version": "3.3.0"
     },
+    "asgiref-3.3.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "36c1a6cad9278202133127131e6276dd",
+      "name": "asgiref",
+      "noarch": "python",
+      "sha256": "31b79a98eb0061b535c85a115daa2b661b503397b7765bd564b87dff5db243dd",
+      "size": 20319,
+      "subdir": "noarch",
+      "timestamp": 1605055811345,
+      "version": "3.3.1"
+    },
     "asn1crypto-1.4.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -2338,6 +2373,27 @@
       "subdir": "noarch",
       "timestamp": 1599163184916,
       "version": "0.15.0"
+    },
+    "autovizwidget-0.17.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "hdijupyterutils >=0.6.0",
+        "ipywidgets >=5.0.0",
+        "notebook >=4.2",
+        "pandas >=0.20.1",
+        "plotly >=3",
+        "python"
+      ],
+      "license": "BSD 3-clause",
+      "md5": "5c4d1b9e4d5d576ef0a83df2715a2d80",
+      "name": "autovizwidget",
+      "noarch": "python",
+      "sha256": "e74454e55b5382b09f947d004956b34a1d7d4af57d0d93fb25c2ca1a546fe310",
+      "size": 13577,
+      "subdir": "noarch",
+      "timestamp": 1605056018081,
+      "version": "0.17.0"
     },
     "avahi-libs-cos6-i686-0.6.25-0.tar.bz2": {
       "build": "0",
@@ -3867,6 +3923,26 @@
       "timestamp": 1603222703029,
       "version": "1.16.0"
     },
+    "boto3-1.16.15-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.15,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "f3f6196b5cfc8d383ccc2a630f410dfd",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "2ecfe5fe38742906ed10843e3e1a8db65e742d1d89d84301ea931b87f22b37ca",
+      "size": 71827,
+      "subdir": "noarch",
+      "timestamp": 1605065304918,
+      "version": "1.16.15"
+    },
     "boto3-1.16.3-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -5306,6 +5382,27 @@
       "timestamp": 1603298035353,
       "version": "1.19.1"
     },
+    "botocore-1.19.15-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "558a6652ed4733ba75b51ec037c82e6e",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "f6a85a4f9a26de7d0f8f2b0c0918a18ba82da2dc4fad7b615434757293eee4c7",
+      "size": 4335661,
+      "subdir": "noarch",
+      "timestamp": 1605061404979,
+      "version": "1.19.15"
+    },
     "botocore-1.19.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -5960,6 +6057,34 @@
       "subdir": "noarch",
       "timestamp": 1603291481020,
       "version": "5.0.1"
+    },
+    "celery-5.0.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "sphinx >=2.0"
+      ],
+      "depends": [
+        "billiard >=3.6.3,<4.0",
+        "click-didyoumean",
+        "click-repl",
+        "cryptography",
+        "future >=0.18.0",
+        "kombu >=4.6.10,<4.7",
+        "python",
+        "pytz",
+        "sqlalchemy",
+        "vine 1.3.0.*"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "c137fc583f0a4b3c6b43fac55e7025a5",
+      "name": "celery",
+      "noarch": "python",
+      "sha256": "552ad50ed1e0b2aa33a2ec0c0f548fe31fdd06455d0bde6c787f98e80e0bfd95",
+      "size": 441675,
+      "subdir": "noarch",
+      "timestamp": 1605061758184,
+      "version": "5.0.2"
     },
     "celery-redbeat-0.13.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -11508,6 +11633,23 @@
       "timestamp": 1593202342440,
       "version": "0.3.2"
     },
+    "dill-0.3.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "4369063b2a49d946026b7b2e2ef1a0af",
+      "name": "dill",
+      "noarch": "python",
+      "sha256": "20bcfdc569828a40f5b55cc0e70ebc6ac75050ec734a845ff78c3adf16d0f24e",
+      "size": 61447,
+      "subdir": "noarch",
+      "timestamp": 1605066489260,
+      "version": "0.3.3"
+    },
     "distributed-2.0.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -12158,6 +12300,26 @@
       "timestamp": 1601563394723,
       "version": "3.1.2"
     },
+    "django-3.1.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "asgiref",
+        "psycopg2",
+        "python",
+        "pytz",
+        "sqlparse"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "9f041005ec960a4eb4db4982634d8b8a",
+      "name": "django",
+      "noarch": "python",
+      "sha256": "9a01b6d80d8f6bad6d87325c8786c172e586a6cfb087522ed7e66916414a9418",
+      "size": 3957114,
+      "subdir": "noarch",
+      "timestamp": 1605066630195,
+      "version": "3.1.3"
+    },
     "django-pyodbc-azure-2.1.0.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -12384,6 +12546,25 @@
       "subdir": "noarch",
       "timestamp": 1597787423100,
       "version": "1.1.1"
+    },
+    "email-validator-1.1.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dnspython >=1.15.0",
+        "idna >=2.0.0",
+        "python"
+      ],
+      "license": "CC0-1.0",
+      "license_family": "CC",
+      "md5": "7bd29e33a71ca4b6b06a3eb006d0ea76",
+      "name": "email-validator",
+      "noarch": "python",
+      "sha256": "aed603ccd7ec1d7d82181425f4cb0676accd1afee51cd862c344f404fda54631",
+      "size": 23404,
+      "subdir": "noarch",
+      "timestamp": 1605066697359,
+      "version": "1.1.2"
     },
     "envisage-4.7.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -44460,6 +44641,24 @@
       "timestamp": 1600298007168,
       "version": "5.0.1"
     },
+    "amqp-5.0.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "vine >=1.1.3"
+      ],
+      "license": "BSD 3-clause",
+      "license_family": "BSD",
+      "md5": "842ccb863b11515067596f1c6ed23ea3",
+      "name": "amqp",
+      "noarch": "python",
+      "sha256": "f8ea83f4ce0cce66fdf5927211139c454036521048b34807ecd36efed4e9b38c",
+      "size": 42326,
+      "subdir": "noarch",
+      "timestamp": 1605055515649,
+      "version": "5.0.2"
+    },
     "anaconda-docs-2.0.24-0.conda": {
       "build": "0",
       "build_number": 0,
@@ -45351,6 +45550,23 @@
       "timestamp": 1602513597298,
       "version": "3.3.0"
     },
+    "asgiref-3.3.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "f613e2a24fe0298e9b034dca7b31e0be",
+      "name": "asgiref",
+      "noarch": "python",
+      "sha256": "ceb351869e68681257ecdf1b609784e43a4539f03a3e997252b8b6349a2044ff",
+      "size": 22016,
+      "subdir": "noarch",
+      "timestamp": 1605055811345,
+      "version": "3.3.1"
+    },
     "asn1crypto-1.4.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -45928,6 +46144,27 @@
       "subdir": "noarch",
       "timestamp": 1599163184916,
       "version": "0.15.0"
+    },
+    "autovizwidget-0.17.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "hdijupyterutils >=0.6.0",
+        "ipywidgets >=5.0.0",
+        "notebook >=4.2",
+        "pandas >=0.20.1",
+        "plotly >=3",
+        "python"
+      ],
+      "license": "BSD 3-clause",
+      "md5": "532fcfa04273156e9442636054144049",
+      "name": "autovizwidget",
+      "noarch": "python",
+      "sha256": "82ef015ce79bfa5c1c2246459e9b5a4bdfad60c28a0b9cf1fb8c11880aa3fd6a",
+      "size": 13806,
+      "subdir": "noarch",
+      "timestamp": 1605056018081,
+      "version": "0.17.0"
     },
     "avahi-libs-cos6-i686-0.6.25-0.conda": {
       "build": "0",
@@ -47457,6 +47694,26 @@
       "timestamp": 1603222703029,
       "version": "1.16.0"
     },
+    "boto3-1.16.15-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.15,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "3d0cbe2cba2313ff90a4f08ccfda9d23",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "cc3b97423fee9fb54d5890a78731d0a26d7b9256d6c41c4ce9bcd8b312755127",
+      "size": 72003,
+      "subdir": "noarch",
+      "timestamp": 1605065304918,
+      "version": "1.16.15"
+    },
     "boto3-1.16.3-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -48896,6 +49153,27 @@
       "timestamp": 1603298035353,
       "version": "1.19.1"
     },
+    "botocore-1.19.15-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2a92f49f83d3e1b617d323ba86c8ffb0",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "48351a6bf21f132ec53595220d5597ec81f1a7f0291b2d5d6e5a4aac8e619d15",
+      "size": 3419610,
+      "subdir": "noarch",
+      "timestamp": 1605061404979,
+      "version": "1.19.15"
+    },
     "botocore-1.19.3-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -49477,6 +49755,34 @@
       "subdir": "noarch",
       "timestamp": 1603291481020,
       "version": "5.0.1"
+    },
+    "celery-5.0.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "sphinx >=2.0"
+      ],
+      "depends": [
+        "billiard >=3.6.3,<4.0",
+        "click-didyoumean",
+        "click-repl",
+        "cryptography",
+        "future >=0.18.0",
+        "kombu >=4.6.10,<4.7",
+        "python",
+        "pytz",
+        "sqlalchemy",
+        "vine 1.3.0.*"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "6f377762c4188de3031ba7262dd9612d",
+      "name": "celery",
+      "noarch": "python",
+      "sha256": "40595cf8b271ca866003df5706f762cd50a5a48c72a1bed285dc1bf6f9d08fe4",
+      "size": 438434,
+      "subdir": "noarch",
+      "timestamp": 1605061758184,
+      "version": "5.0.2"
     },
     "celery-redbeat-0.13.0-py_0.conda": {
       "build": "py_0",
@@ -54960,6 +55266,23 @@
       "timestamp": 1593202342440,
       "version": "0.3.2"
     },
+    "dill-0.3.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "e4a56a6757400369c276de22f34bbf26",
+      "name": "dill",
+      "noarch": "python",
+      "sha256": "886cfbd73aa7f65a2892dfec2f7cf92c69b52925abf0cc7d2c0f608269c46fb8",
+      "size": 60470,
+      "subdir": "noarch",
+      "timestamp": 1605066489260,
+      "version": "0.3.3"
+    },
     "distributed-2.0.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -55610,6 +55933,26 @@
       "timestamp": 1601563394723,
       "version": "3.1.2"
     },
+    "django-3.1.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "asgiref",
+        "psycopg2",
+        "python",
+        "pytz",
+        "sqlparse"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "d4f63d899ec9fe6ca02be1d103366e90",
+      "name": "django",
+      "noarch": "python",
+      "sha256": "bddcef84a78d83af6d19aa3e385d454d1670886e24fae52970232c84a5d4ef4e",
+      "size": 3206295,
+      "subdir": "noarch",
+      "timestamp": 1605066630195,
+      "version": "3.1.3"
+    },
     "django-pyodbc-azure-2.1.0.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -55836,6 +56179,25 @@
       "subdir": "noarch",
       "timestamp": 1597787423100,
       "version": "1.1.1"
+    },
+    "email-validator-1.1.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dnspython >=1.15.0",
+        "idna >=2.0.0",
+        "python"
+      ],
+      "license": "CC0-1.0",
+      "license_family": "CC",
+      "md5": "17f3cd3839536f4114ef8746c59122ad",
+      "name": "email-validator",
+      "noarch": "python",
+      "sha256": "4eade14165b0e99e71e32f9d809a362826382a10d9462cddd44fe4c1a57f452f",
+      "size": 23484,
+      "subdir": "noarch",
+      "timestamp": 1605066697359,
+      "version": "1.1.2"
     },
     "envisage-4.7.1-py_0.conda": {
       "build": "py_0",
