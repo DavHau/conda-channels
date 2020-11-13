@@ -5420,6 +5420,27 @@
       "timestamp": 1605061404979,
       "version": "1.19.15"
     },
+    "botocore-1.19.16-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "d4983ccbe13e5e568ba55a8b8381dbe6",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "9782ef84c6fa946e130c50224a0404ae14b3eee5adfbfc94540c39116ba628a8",
+      "size": 4349445,
+      "subdir": "noarch",
+      "timestamp": 1605213922993,
+      "version": "1.19.16"
+    },
     "botocore-1.19.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -18563,6 +18584,25 @@
       "timestamp": 1598407577792,
       "version": "5.29.0"
     },
+    "hypothesis-5.29.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.5",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL 2.0",
+      "license_family": "Other",
+      "md5": "f945d6db425130e5a6c4ae862d12c4b5",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "9a57564aa5198c36783894f7f7739860e221742bc40da7be2e67b88b0addf2ac",
+      "size": 259551,
+      "subdir": "noarch",
+      "timestamp": 1605213957095,
+      "version": "5.29.0"
+    },
     "hypothesis-5.35.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -19100,6 +19140,32 @@
       "subdir": "noarch",
       "timestamp": 1578412011207,
       "version": "1.2.0"
+    },
+    "imgaug-0.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "imageio",
+        "matplotlib-base",
+        "numpy >=1.15",
+        "opencv",
+        "pillow",
+        "python",
+        "scikit-image >=0.14.2",
+        "scipy",
+        "shapely",
+        "six"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d37032a190a7136135ee76d887b44c6d",
+      "name": "imgaug",
+      "noarch": "python",
+      "sha256": "1ccbd46965b0727c30d09715a3755cbfc97b6a8f89424c05b3bf74dabd915ead",
+      "size": 855564,
+      "subdir": "noarch",
+      "timestamp": 1605226584498,
+      "version": "0.4.0"
     },
     "importlib-metadata-2.0.0-py_1.tar.bz2": {
       "build": "py_1",
@@ -42374,6 +42440,20 @@
       "timestamp": 1602081371600,
       "version": "2020a"
     },
+    "tzdata-2020a-h52ac0ba_0.tar.bz2": {
+      "build": "h52ac0ba_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "Public Domain",
+      "md5": "3ff6d5350766ebfc4e02c18642b67125",
+      "name": "tzdata",
+      "noarch": "generic",
+      "sha256": "92f2c9a7ce5c066db44b49ce35f63fbc70de5d3be9fe655e923ca9f73ed0b42e",
+      "size": 182645,
+      "subdir": "noarch",
+      "timestamp": 1605201675676,
+      "version": "2020a"
+    },
     "tzdata-2020a-h7b6447c_0.tar.bz2": {
       "build": "h7b6447c_0",
       "build_number": 0,
@@ -42528,6 +42608,25 @@
       "subdir": "noarch",
       "timestamp": 1592328054850,
       "version": "1.25.9"
+    },
+    "validators-0.18.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "decorator >=3.4.0",
+        "python",
+        "six >=1.4.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "dadae4a00acfdf40d52a0a9cca6fbc32",
+      "name": "validators",
+      "noarch": "python",
+      "sha256": "9bb00374aa0c2ff13f5edb078a51a4ba2f43c9500014f7d0cabf3025933842b6",
+      "size": 20472,
+      "subdir": "noarch",
+      "timestamp": 1605213952027,
+      "version": "0.18.1"
     },
     "vega_datasets-0.7.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -49555,6 +49654,27 @@
       "subdir": "noarch",
       "timestamp": 1605061404979,
       "version": "1.19.15"
+    },
+    "botocore-1.19.16-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "7d3231970a3fee6de144d4dd4d8bda2f",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "79ebb4cc46821df13f00f885191a790c5d1aa934b46f8ee98307b7b19a1c97b1",
+      "size": 3421991,
+      "subdir": "noarch",
+      "timestamp": 1605213922993,
+      "version": "1.19.16"
     },
     "botocore-1.19.3-py_0.conda": {
       "build": "py_0",
@@ -62170,6 +62290,25 @@
       "timestamp": 1598407577792,
       "version": "5.29.0"
     },
+    "hypothesis-5.29.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.5",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL 2.0",
+      "license_family": "Other",
+      "md5": "02f4c38e64b99e82444fadd28fe82842",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "8343ee88f53cf59ba6e149430600899dec041ecb5441e958d4a8b4927cebbf47",
+      "size": 268560,
+      "subdir": "noarch",
+      "timestamp": 1605213957095,
+      "version": "5.29.0"
+    },
     "hypothesis-5.35.3-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -62707,6 +62846,32 @@
       "subdir": "noarch",
       "timestamp": 1578412011207,
       "version": "1.2.0"
+    },
+    "imgaug-0.4.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "imageio",
+        "matplotlib-base",
+        "numpy >=1.15",
+        "opencv",
+        "pillow",
+        "python",
+        "scikit-image >=0.14.2",
+        "scipy",
+        "shapely",
+        "six"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c06449b7b98a44eaa3536ae95a928e9e",
+      "name": "imgaug",
+      "noarch": "python",
+      "sha256": "d7e1d5795cd9593edec594d239db932e78d4111818b8dfcac0ca39875e9a4520",
+      "size": 767036,
+      "subdir": "noarch",
+      "timestamp": 1605226584498,
+      "version": "0.4.0"
     },
     "importlib-metadata-2.0.0-py_1.conda": {
       "build": "py_1",
@@ -84637,6 +84802,20 @@
       "timestamp": 1602081371600,
       "version": "2020a"
     },
+    "tzdata-2020a-h52ac0ba_0.conda": {
+      "build": "h52ac0ba_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "Public Domain",
+      "md5": "16965421c1dd5535ddf72c125fd255f3",
+      "name": "tzdata",
+      "noarch": "generic",
+      "sha256": "cb86f83df2d4a33e9747e80e5a783a07515e103fac4c585418f52a33919407a4",
+      "size": 145008,
+      "subdir": "noarch",
+      "timestamp": 1605201675676,
+      "version": "2020a"
+    },
     "tzdata-2020a-h7b6447c_0.conda": {
       "build": "h7b6447c_0",
       "build_number": 0,
@@ -84791,6 +84970,25 @@
       "subdir": "noarch",
       "timestamp": 1592328054850,
       "version": "1.25.9"
+    },
+    "validators-0.18.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "decorator >=3.4.0",
+        "python",
+        "six >=1.4.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b52d779d7d4807331755ad7e3b9e13f5",
+      "name": "validators",
+      "noarch": "python",
+      "sha256": "09f63e0721ecee54c974f0ae3e8eebda098c18bb5a871f55d0558e74c87b1100",
+      "size": 20265,
+      "subdir": "noarch",
+      "timestamp": 1605213952027,
+      "version": "0.18.1"
     },
     "vega_datasets-0.7.0-py_0.conda": {
       "build": "py_0",
