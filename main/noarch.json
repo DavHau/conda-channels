@@ -2686,6 +2686,22 @@
       "timestamp": 1560264455404,
       "version": "1.0"
     },
+    "backports-1.0-pyhd3eb1b0_2.tar.bz2": {
+      "build": "pyhd3eb1b0_2",
+      "build_number": 2,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD",
+      "md5": "231b03327fa1584a5d27a5dff042cd71",
+      "name": "backports",
+      "noarch": "python",
+      "sha256": "b0f0173e4f9b3283de56324ecebd5c4b1f3baf2d143e4aef2f0caf6711d22677",
+      "size": 189867,
+      "subdir": "noarch",
+      "timestamp": 1605305077210,
+      "version": "1.0"
+    },
     "backports.functools_lru_cache-1.5-py_2.tar.bz2": {
       "build": "py_2",
       "build_number": 2,
@@ -2722,6 +2738,25 @@
       "size": 11583,
       "subdir": "noarch",
       "timestamp": 1574272534882,
+      "version": "1.6.1"
+    },
+    "backports.functools_lru_cache-1.6.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "backports",
+        "python",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "825d68ac20377065d8e6866c13bd88c4",
+      "name": "backports.functools_lru_cache",
+      "noarch": "python",
+      "sha256": "d863af4dd17bf8f0cf759c34d95059a0eeab644c6949e8c9002e89244bf985a5",
+      "size": 11852,
+      "subdir": "noarch",
+      "timestamp": 1605305196530,
       "version": "1.6.1"
     },
     "backports.tempfile-1.0-py_0.tar.bz2": {
@@ -5557,6 +5592,23 @@
       "size": 3713,
       "subdir": "noarch",
       "timestamp": 1591286116109,
+      "version": "4.9.1"
+    },
+    "bs4-4.9.1-hd3eb1b0_0.tar.bz2": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "beautifulsoup4 >=4.9.1,<4.9.2.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2d8504edd791619b0a4c78b625e77148",
+      "name": "bs4",
+      "noarch": "generic",
+      "sha256": "590b03a19e4a33a40bc4d0304b23b02e81d258e2326ac146071cdbdb50686849",
+      "size": 9595,
+      "subdir": "noarch",
+      "timestamp": 1605302432809,
       "version": "4.9.1"
     },
     "bs4-4.9.3-0.tar.bz2": {
@@ -12720,6 +12772,23 @@
       "timestamp": 1596834015622,
       "version": "2.3.1"
     },
+    "essential_generators-0.9.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "100ef21fe9be2af93b8d0b6d20f52a11",
+      "name": "essential_generators",
+      "noarch": "python",
+      "sha256": "35e45eb9467bbf846fb011f0561281c742c7c7d32ce3e1f6572a546c0c536648",
+      "size": 6521274,
+      "subdir": "noarch",
+      "timestamp": 1605231238900,
+      "version": "0.9.2"
+    },
     "et_xmlfile-1.0.1-py_1001.tar.bz2": {
       "build": "py_1001",
       "build_number": 1001,
@@ -16691,6 +16760,24 @@
       "size": 29815,
       "subdir": "noarch",
       "timestamp": 1602085204980,
+      "version": "1.4.3"
+    },
+    "google-cloud-core-1.4.3-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "google-api-core >=1.19.0,<2.0.0dev",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "6b2628f116f2b1bb2c42729d586d82ad",
+      "name": "google-cloud-core",
+      "noarch": "python",
+      "sha256": "3e20327bd19b680857dc1a82dce74b4c806dac3ef642dc4f23559254f23b6674",
+      "size": 29790,
+      "subdir": "noarch",
+      "timestamp": 1605284590932,
       "version": "1.4.3"
     },
     "google-cloud-storage-1.27.0-py_0.tar.bz2": {
@@ -42068,6 +42155,23 @@
       "timestamp": 1602185238155,
       "version": "4.50.2"
     },
+    "tqdm-4.51.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MPLv2.0, MIT",
+      "license_family": "MIT",
+      "md5": "d5f0c81a78bb84dab0eaa780484a51de",
+      "name": "tqdm",
+      "noarch": "python",
+      "sha256": "3c7ab22374679d7d8397b2ead3824b817b2d7925908c3f6eae7356d698ed1821",
+      "size": 67288,
+      "subdir": "noarch",
+      "timestamp": 1605303692479,
+      "version": "4.51.0"
+    },
     "traceback2-1.4.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -43214,6 +43318,22 @@
       "size": 36987,
       "subdir": "noarch",
       "timestamp": 1598371004588,
+      "version": "0.35.1"
+    },
+    "wheel-0.35.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "4b8b35af9c0ea16f368eece1b331605d",
+      "name": "wheel",
+      "noarch": "python",
+      "sha256": "f596b4e7fcd72e69f405bbe37ecd9e61443ccbdb8a1cecb7554dd20f1d161bdb",
+      "size": 37378,
+      "subdir": "noarch",
+      "timestamp": 1605289315954,
       "version": "0.35.1"
     },
     "whoosh-2.7.4-py_1.tar.bz2": {
@@ -46921,6 +47041,22 @@
       "timestamp": 1560264455404,
       "version": "1.0"
     },
+    "backports-1.0-pyhd3eb1b0_2.conda": {
+      "build": "pyhd3eb1b0_2",
+      "build_number": 2,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD",
+      "md5": "89d7f90ab01dff218fa28fc4256e95a9",
+      "name": "backports",
+      "noarch": "python",
+      "sha256": "f7d85db723ac2e4c40bd4b0085434225c4bd7ec4e792cc01e7db834819181b71",
+      "size": 214545,
+      "subdir": "noarch",
+      "timestamp": 1605305077210,
+      "version": "1.0"
+    },
     "backports.functools_lru_cache-1.5-py_2.conda": {
       "build": "py_2",
       "build_number": 2,
@@ -46957,6 +47093,25 @@
       "size": 11672,
       "subdir": "noarch",
       "timestamp": 1574272534882,
+      "version": "1.6.1"
+    },
+    "backports.functools_lru_cache-1.6.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "backports",
+        "python",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ebc41e667f162172e694e01521907c4d",
+      "name": "backports.functools_lru_cache",
+      "noarch": "python",
+      "sha256": "72afae3b6850a488e2d0a6eecd9f9ef2beb24dc2ea96ee5c204e61611768058c",
+      "size": 12004,
+      "subdir": "noarch",
+      "timestamp": 1605305196530,
       "version": "1.6.1"
     },
     "backports.tempfile-1.0-py_0.conda": {
@@ -49792,6 +49947,23 @@
       "size": 3985,
       "subdir": "noarch",
       "timestamp": 1591286116109,
+      "version": "4.9.1"
+    },
+    "bs4-4.9.1-hd3eb1b0_0.conda": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "beautifulsoup4 >=4.9.1,<4.9.2.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "978727783c33797e9057721c4e63069a",
+      "name": "bs4",
+      "noarch": "generic",
+      "sha256": "ef552f41f531b0cd69c4c07655b4573f7f9a703da9267873d5c750fcb3503f81",
+      "size": 9897,
+      "subdir": "noarch",
+      "timestamp": 1605302432809,
       "version": "4.9.1"
     },
     "bs4-4.9.3-0.conda": {
@@ -56817,6 +56989,23 @@
       "timestamp": 1596834015622,
       "version": "2.3.1"
     },
+    "essential_generators-0.9.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "92b5153970f247b6d71c0bf7b4b9e325",
+      "name": "essential_generators",
+      "noarch": "python",
+      "sha256": "d4c4d2367c87fe59a0ff9b82b236bce6c97fa1d99e000f5d1e8236a1bf916e19",
+      "size": 6050838,
+      "subdir": "noarch",
+      "timestamp": 1605231238900,
+      "version": "0.9.2"
+    },
     "et_xmlfile-1.0.1-py_1001.conda": {
       "build": "py_1001",
       "build_number": 1001,
@@ -60495,6 +60684,24 @@
       "size": 28624,
       "subdir": "noarch",
       "timestamp": 1602085204980,
+      "version": "1.4.3"
+    },
+    "google-cloud-core-1.4.3-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "google-api-core >=1.19.0,<2.0.0dev",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "b6aaafa1c3b3a602e3a1e9bce23e6bbc",
+      "name": "google-cloud-core",
+      "noarch": "python",
+      "sha256": "2ce1fa4788097e188776337b6609b7824462eff91c23b509a85aca80719f03f1",
+      "size": 28701,
+      "subdir": "noarch",
+      "timestamp": 1605284590932,
       "version": "1.4.3"
     },
     "google-cloud-storage-1.27.0-py_0.conda": {
@@ -84430,6 +84637,23 @@
       "timestamp": 1602185238155,
       "version": "4.50.2"
     },
+    "tqdm-4.51.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MPLv2.0, MIT",
+      "license_family": "MIT",
+      "md5": "537ecfcae2d1d8ddedc5693a0c05f50f",
+      "name": "tqdm",
+      "noarch": "python",
+      "sha256": "b3830a9c6c3366117bfe78efee7e89d6aa6128e3d53776741633719c70940cb4",
+      "size": 67141,
+      "subdir": "noarch",
+      "timestamp": 1605303692479,
+      "version": "4.51.0"
+    },
     "traceback2-1.4.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -85542,6 +85766,22 @@
       "size": 38326,
       "subdir": "noarch",
       "timestamp": 1598371004588,
+      "version": "0.35.1"
+    },
+    "wheel-0.35.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "d1ee41d76a454a4330cd221f2582ca48",
+      "name": "wheel",
+      "noarch": "python",
+      "sha256": "cce672a81d3083c98496490c0e6535326f5e741b4cf51bb7ecc854de70f5ad29",
+      "size": 38680,
+      "subdir": "noarch",
+      "timestamp": 1605289315954,
       "version": "0.35.1"
     },
     "whoosh-2.7.4-py_1.conda": {
