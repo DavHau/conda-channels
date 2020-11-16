@@ -33492,6 +33492,26 @@
       "timestamp": 1597600912202,
       "version": "2.10.1"
     },
+    "pytest-cov-2.10.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "coverage >=4.4",
+        "pytest >=4.6",
+        "python",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1bff91515e0d1506e1595a3c615bee58",
+      "name": "pytest-cov",
+      "noarch": "python",
+      "sha256": "986ed8aecbdcbbe95b8d613f4956b7c7b8297e2ee2aca66cba01e380d15d4290",
+      "size": 24542,
+      "subdir": "noarch",
+      "timestamp": 1605474599316,
+      "version": "2.10.1"
+    },
     "pytest-cov-2.7.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -75991,6 +76011,26 @@
       "size": 20868,
       "subdir": "noarch",
       "timestamp": 1597600912202,
+      "version": "2.10.1"
+    },
+    "pytest-cov-2.10.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "coverage >=4.4",
+        "pytest >=4.6",
+        "python",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "43741c92076bd75f9531aaf88a386d6e",
+      "name": "pytest-cov",
+      "noarch": "python",
+      "sha256": "2a2caad7c8204182f95623946bd01a8fd17edd940fed7b51f4a067a5dacbcb01",
+      "size": 24855,
+      "subdir": "noarch",
+      "timestamp": 1605474599316,
       "version": "2.10.1"
     },
     "pytest-cov-2.7.1-py_0.conda": {
