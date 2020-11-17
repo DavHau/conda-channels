@@ -7719,6 +7719,23 @@
       "timestamp": 1585075624208,
       "version": "2.4"
     },
+    "cookies-2.2.1-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "fbc03569935713579786e65ac2ae0ba7",
+      "name": "cookies",
+      "noarch": "python",
+      "sha256": "2667a53552b11d5b65ead2af990160a03b3aefa859f59bb1e79355be96e9616f",
+      "size": 39795,
+      "subdir": "noarch",
+      "timestamp": 1605596173235,
+      "version": "2.2.1"
+    },
     "copy-jdk-configs-cos7-ppc64le-3.3-0.tar.bz2": {
       "build": "0",
       "build_number": 0,
@@ -30231,6 +30248,24 @@
       "timestamp": 1602100365190,
       "version": "1.6.8"
     },
+    "pexpect-4.8.0-pyhd3eb1b0_3.tar.bz2": {
+      "build": "pyhd3eb1b0_3",
+      "build_number": 3,
+      "depends": [
+        "ptyprocess >=0.5",
+        "python"
+      ],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "5122a68ef2c53409eda11f07f1c3d7c7",
+      "name": "pexpect",
+      "noarch": "python",
+      "sha256": "543fe5710ecf50274fd6a8ac77c7e9058d15c9daee0aec04e85c2509e5cff9ed",
+      "size": 52491,
+      "subdir": "noarch",
+      "timestamp": 1605563236879,
+      "version": "4.8.0"
+    },
     "pg8000-1.13.2-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -37083,6 +37118,26 @@
       "subdir": "noarch",
       "timestamp": 1602265340597,
       "version": "0.1.2"
+    },
+    "responses-0.12.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cookies",
+        "python",
+        "requests >=2.0",
+        "six"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "APACHE",
+      "md5": "b272ceb64bb08fccc04fa588e039127b",
+      "name": "responses",
+      "noarch": "python",
+      "sha256": "8bd82df1a711b0a51f50ea3c2f762be69639cc504455695f32d88dfdf10bb91c",
+      "size": 21769,
+      "subdir": "noarch",
+      "timestamp": 1605594232985,
+      "version": "0.12.1"
     },
     "retrying-1.3.3-py_2.tar.bz2": {
       "build": "py_2",
@@ -52041,6 +52096,23 @@
       "subdir": "noarch",
       "timestamp": 1585075624208,
       "version": "2.4"
+    },
+    "cookies-2.2.1-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "97331cf896ef72241d1ad0c423b6d2d3",
+      "name": "cookies",
+      "noarch": "python",
+      "sha256": "2dac02f876c14038dc16cbdf6e2923dfe8f867d8be78e39fab5873378acaa202",
+      "size": 42372,
+      "subdir": "noarch",
+      "timestamp": 1605596173235,
+      "version": "2.2.1"
     },
     "copy-jdk-configs-cos7-ppc64le-3.3-0.conda": {
       "build": "0",
@@ -72821,6 +72893,24 @@
       "timestamp": 1602100365190,
       "version": "1.6.8"
     },
+    "pexpect-4.8.0-pyhd3eb1b0_3.conda": {
+      "build": "pyhd3eb1b0_3",
+      "build_number": 3,
+      "depends": [
+        "ptyprocess >=0.5",
+        "python"
+      ],
+      "license": "ISC",
+      "license_family": "Other",
+      "md5": "765b2562d6cdd14bb6d44fc170a04331",
+      "name": "pexpect",
+      "noarch": "python",
+      "sha256": "fb4b14fdb5e57becda5b8b88b453626ce12edb49fc8cec88ddaea40b52277494",
+      "size": 53770,
+      "subdir": "noarch",
+      "timestamp": 1605563236879,
+      "version": "4.8.0"
+    },
     "pg8000-1.13.2-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -79639,6 +79729,26 @@
       "subdir": "noarch",
       "timestamp": 1602265340597,
       "version": "0.1.2"
+    },
+    "responses-0.12.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cookies",
+        "python",
+        "requests >=2.0",
+        "six"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "APACHE",
+      "md5": "74be3c7ef5d98569efee3b6a352c9b3a",
+      "name": "responses",
+      "noarch": "python",
+      "sha256": "89e37151fbb6f9f1c2535e163a13b63a96b198e5715a314d0207267f4a6b1b23",
+      "size": 20930,
+      "subdir": "noarch",
+      "timestamp": 1605594232985,
+      "version": "0.12.1"
     },
     "retrying-1.3.3-py_2.conda": {
       "build": "py_2",
