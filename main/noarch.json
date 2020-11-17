@@ -31590,6 +31590,22 @@
       "timestamp": 1596913623851,
       "version": "0.7.4"
     },
+    "ptyprocess-0.6.0-pyhd3eb1b0_2.tar.bz2": {
+      "build": "pyhd3eb1b0_2",
+      "build_number": 2,
+      "depends": [
+        "python"
+      ],
+      "license": "ISC",
+      "md5": "b24292a435222f238f695aa372ecdaa4",
+      "name": "ptyprocess",
+      "noarch": "python",
+      "sha256": "404a8b5ae5c66f98099c33b700c6a14eac8287919beaada95e4926c46d9860d0",
+      "size": 19635,
+      "subdir": "noarch",
+      "timestamp": 1605560652079,
+      "version": "0.6.0"
+    },
     "pure-sasl-0.6.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -32688,6 +32704,25 @@
       "size": 48128,
       "subdir": "noarch",
       "timestamp": 1594392953044,
+      "version": "19.1.0"
+    },
+    "pyopenssl-19.1.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "cryptography >=2.8",
+        "python",
+        "six >=1.5.2"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "2f12e7a6725ba679c65653fdda4de38c",
+      "name": "pyopenssl",
+      "noarch": "python",
+      "sha256": "877984c6fb9655f3189e87b8729a45d76c11232889c28055daee5ecc31dc2d20",
+      "size": 52792,
+      "subdir": "noarch",
+      "timestamp": 1605545655813,
       "version": "19.1.0"
     },
     "pypandoc-1.4-py_1.tar.bz2": {
@@ -74111,6 +74146,22 @@
       "timestamp": 1596913623851,
       "version": "0.7.4"
     },
+    "ptyprocess-0.6.0-pyhd3eb1b0_2.conda": {
+      "build": "pyhd3eb1b0_2",
+      "build_number": 2,
+      "depends": [
+        "python"
+      ],
+      "license": "ISC",
+      "md5": "e00ce02d479ca5ded953d4b091575ca2",
+      "name": "ptyprocess",
+      "noarch": "python",
+      "sha256": "6fcc2fd0decd82f3f860813a70ca50ca18a117f45a3771ad226bc0cb69fabcd3",
+      "size": 20091,
+      "subdir": "noarch",
+      "timestamp": 1605560652079,
+      "version": "0.6.0"
+    },
     "pure-sasl-0.6.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -75209,6 +75260,25 @@
       "size": 49242,
       "subdir": "noarch",
       "timestamp": 1594392953044,
+      "version": "19.1.0"
+    },
+    "pyopenssl-19.1.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "cryptography >=2.8",
+        "python",
+        "six >=1.5.2"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "84d79e6afc7919495a34cd6087ca71b3",
+      "name": "pyopenssl",
+      "noarch": "python",
+      "sha256": "1768cf122725c18fb4d0d8a6df833e7f66c27103770d278928697b88a657bcc2",
+      "size": 53378,
+      "subdir": "noarch",
+      "timestamp": 1605545655813,
       "version": "19.1.0"
     },
     "pypandoc-1.4-py_1.conda": {
