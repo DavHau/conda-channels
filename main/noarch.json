@@ -836,6 +836,19 @@
       "timestamp": 1605055515649,
       "version": "5.0.2"
     },
+    "anaconda-doc-2020.11-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "3b038c9f4ff77e3261f0a4e43912a7fe",
+      "name": "anaconda-doc",
+      "noarch": "generic",
+      "sha256": "9cde0421b17270eb40bb8d527eb6ccd0c131e5794b7f041709e61ce2769b3186",
+      "size": 137768721,
+      "subdir": "noarch",
+      "timestamp": 1605906187039,
+      "version": "2020.11"
+    },
     "anaconda-docs-2.0.24-0.tar.bz2": {
       "build": "0",
       "build_number": 0,
@@ -1173,6 +1186,32 @@
       "subdir": "noarch",
       "timestamp": 1601070178511,
       "version": "2020.09"
+    },
+    "anaconda-oss-docs-2020.10-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "7d7299ac674282c42d32b5883395a9d6",
+      "name": "anaconda-oss-docs",
+      "noarch": "generic",
+      "sha256": "4d68cfe1e0d05e13418c1f5e9bb8cf5b7b87d1c3751061e887b3c73e663748fc",
+      "size": 359852839,
+      "subdir": "noarch",
+      "timestamp": 1605902180665,
+      "version": "2020.10"
+    },
+    "anaconda-oss-docs-2020.11-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "dec4379e7ef7a37b6c411022a65ebbc6",
+      "name": "anaconda-oss-docs",
+      "noarch": "generic",
+      "sha256": "deac09ac0299c2067794dcaba6568533e8c3ab90fa52b0c95d80b6fbc94ec856",
+      "size": 385329705,
+      "subdir": "noarch",
+      "timestamp": 1605905970831,
+      "version": "2020.11"
     },
     "anaconda-project-0.8.3-py_0.tar.bz2": {
       "build": "py_0",
@@ -13584,6 +13623,25 @@
       "subdir": "noarch",
       "timestamp": 1592429667181,
       "version": "1.5.4"
+    },
+    "flask-admin-1.5.7-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "flask >=0.7",
+        "python",
+        "wtforms"
+      ],
+      "license": "BSD 3-Clause",
+      "license_family": "BSD",
+      "md5": "a70e046080326e4c013fd3af16fb456f",
+      "name": "flask-admin",
+      "noarch": "python",
+      "sha256": "abd5672ad7e0a8350cfcc0d5a82e5c4736e1570aa41b20fdc5ad66136cb97dca",
+      "size": 5296478,
+      "subdir": "noarch",
+      "timestamp": 1605913094262,
+      "version": "1.5.7"
     },
     "flask-appbuilder-1.13.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -28854,6 +28912,38 @@
       "timestamp": 1595379349193,
       "version": "0.9.0"
     },
+    "pandas-profiling-2.9.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.3.0",
+        "confuse >=1.0.0",
+        "htmlmin >=0.1.12",
+        "imagehash",
+        "ipywidgets >=7.5.1",
+        "jinja2 >=2.11.1",
+        "joblib",
+        "matplotlib-base >=3.2.0",
+        "missingno >=0.4.2",
+        "numpy >=1.16.0",
+        "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2,!=1.1.0",
+        "phik >=0.9.10",
+        "python",
+        "requests >=2.23.0",
+        "scipy >=1.4.1",
+        "tqdm >=4.43.0",
+        "visions 0.5.0.*"
+      ],
+      "license": "MIT",
+      "md5": "1a2cd84091ebd084198846a73dc05a04",
+      "name": "pandas-profiling",
+      "noarch": "python",
+      "sha256": "b6ee998fb274cb8200960b4cb01472ea44a37706f3b15c09c1a0e1849bccc2f9",
+      "size": 179634,
+      "subdir": "noarch",
+      "timestamp": 1605884924697,
+      "version": "2.9.0"
+    },
     "panel-0.4.0-0.tar.bz2": {
       "build": "0",
       "build_number": 0,
@@ -43129,6 +43219,28 @@
       "timestamp": 1573237341752,
       "version": "16.7.5"
     },
+    "visions-0.5.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.3.0",
+        "networkx >=2.4",
+        "numpy",
+        "pandas >=0.25.3",
+        "python",
+        "tangled-up-in-unicode >=0.0.4"
+      ],
+      "license": "BSD-4-Clause",
+      "license_family": "BSD",
+      "md5": "6c29cdeb4690694a75b0c8008708f9ed",
+      "name": "visions",
+      "noarch": "python",
+      "sha256": "9d5d9672ac7b8b180ad6615d4c4d089d63ffc46fff31cc00378eeee0b280d376",
+      "size": 44908,
+      "subdir": "noarch",
+      "timestamp": 1605827829434,
+      "version": "0.5.0"
+    },
     "visions-0.6.4-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -45530,6 +45642,19 @@
       "timestamp": 1605055515649,
       "version": "5.0.2"
     },
+    "anaconda-doc-2020.11-0.conda": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "a8b1c40f1cfc502e08e5793407501d55",
+      "name": "anaconda-doc",
+      "noarch": "generic",
+      "sha256": "4856af3c3a1cbf99e2f795cbc9d70c55c3f25b3f4630213f73df031e7704b696",
+      "size": 122081393,
+      "subdir": "noarch",
+      "timestamp": 1605906187039,
+      "version": "2020.11"
+    },
     "anaconda-docs-2.0.24-0.conda": {
       "build": "0",
       "build_number": 0,
@@ -45867,6 +45992,32 @@
       "subdir": "noarch",
       "timestamp": 1601070178511,
       "version": "2020.09"
+    },
+    "anaconda-oss-docs-2020.10-0.conda": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "4d3226243c11ed55607f07cddc428196",
+      "name": "anaconda-oss-docs",
+      "noarch": "generic",
+      "sha256": "74b80dc5ced493ed2792763e252d0998eefb38924c751940aea1aa58c8d46d38",
+      "size": 199084789,
+      "subdir": "noarch",
+      "timestamp": 1605902180665,
+      "version": "2020.10"
+    },
+    "anaconda-oss-docs-2020.11-0.conda": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [],
+      "md5": "84899885368b9377b356d594a713d8df",
+      "name": "anaconda-oss-docs",
+      "noarch": "generic",
+      "sha256": "f417d105c1d176ac06670f97db6ae458981082073448d742d5ecf308c9f0863a",
+      "size": 222866082,
+      "subdir": "noarch",
+      "timestamp": 1605905970831,
+      "version": "2020.11"
     },
     "anaconda-project-0.8.3-py_0.conda": {
       "build": "py_0",
@@ -58039,6 +58190,25 @@
       "subdir": "noarch",
       "timestamp": 1592429667181,
       "version": "1.5.4"
+    },
+    "flask-admin-1.5.7-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "flask >=0.7",
+        "python",
+        "wtforms"
+      ],
+      "license": "BSD 3-Clause",
+      "license_family": "BSD",
+      "md5": "63411a89113c628865434ab4ffbbca89",
+      "name": "flask-admin",
+      "noarch": "python",
+      "sha256": "dd9df9636741cf5663ecf6df08ce08af24a9ff160356baded358616a67c29853",
+      "size": 3209764,
+      "subdir": "noarch",
+      "timestamp": 1605913094262,
+      "version": "1.5.7"
     },
     "flask-appbuilder-1.13.0-py_0.conda": {
       "build": "py_0",
@@ -71771,6 +71941,38 @@
       "subdir": "noarch",
       "timestamp": 1595379349193,
       "version": "0.9.0"
+    },
+    "pandas-profiling-2.9.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.3.0",
+        "confuse >=1.0.0",
+        "htmlmin >=0.1.12",
+        "imagehash",
+        "ipywidgets >=7.5.1",
+        "jinja2 >=2.11.1",
+        "joblib",
+        "matplotlib-base >=3.2.0",
+        "missingno >=0.4.2",
+        "numpy >=1.16.0",
+        "pandas >=0.25.3,!=1.0.1,!=1.0.0,!=1.0.2,!=1.1.0",
+        "phik >=0.9.10",
+        "python",
+        "requests >=2.23.0",
+        "scipy >=1.4.1",
+        "tqdm >=4.43.0",
+        "visions 0.5.0.*"
+      ],
+      "license": "MIT",
+      "md5": "16ed047de73f0903ed986505a93e0952",
+      "name": "pandas-profiling",
+      "noarch": "python",
+      "sha256": "b50fb1255b60fbfb389fb82da26d7c27d1b04730288afd3213a5a28cfbb478b4",
+      "size": 171535,
+      "subdir": "noarch",
+      "timestamp": 1605884924697,
+      "version": "2.9.0"
     },
     "panel-0.4.0-0.conda": {
       "build": "0",
@@ -85897,6 +86099,28 @@
       "subdir": "noarch",
       "timestamp": 1573237341752,
       "version": "16.7.5"
+    },
+    "visions-0.5.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.3.0",
+        "networkx >=2.4",
+        "numpy",
+        "pandas >=0.25.3",
+        "python",
+        "tangled-up-in-unicode >=0.0.4"
+      ],
+      "license": "BSD-4-Clause",
+      "license_family": "BSD",
+      "md5": "fd87df76ce6e78f41dbcd3c6a8b0621b",
+      "name": "visions",
+      "noarch": "python",
+      "sha256": "81cde55548d9a4efe773af58b8e5e7e5701bc8aa0ee6457daebc01e4a4467d9f",
+      "size": 45615,
+      "subdir": "noarch",
+      "timestamp": 1605827829434,
+      "version": "0.5.0"
     },
     "visions-0.6.4-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
