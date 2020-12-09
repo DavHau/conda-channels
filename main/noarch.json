@@ -3,6 +3,24 @@
     "subdir": "noarch"
   },
   "packages": {
+    "absl-py-0.11.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python",
+        "six"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "7c08fb12e46468f3bcbab0001456afe6",
+      "name": "absl-py",
+      "noarch": "python",
+      "sha256": "04cfc5f098a2558f625ac605caa0d0674b843bded452a3413630baf3962e70f7",
+      "size": 100931,
+      "subdir": "noarch",
+      "timestamp": 1607440006300,
+      "version": "0.11.0"
+    },
     "access-1.1.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -47039,6 +47057,24 @@
     }
   },
   "packages.conda": {
+    "absl-py-0.11.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python",
+        "six"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "87d1e0c67481b5525a7414bd3d4a4530",
+      "name": "absl-py",
+      "noarch": "python",
+      "sha256": "50430cbb99b9dee36001109c7e95d526d5619d28cbe2db761d89bca1a2ff127a",
+      "size": 105601,
+      "subdir": "noarch",
+      "timestamp": 1607440006300,
+      "version": "0.11.0"
+    },
     "access-1.1.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
