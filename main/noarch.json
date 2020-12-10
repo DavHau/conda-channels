@@ -3151,6 +3151,23 @@
       "timestamp": 1601924142713,
       "version": "4.9.3"
     },
+    "bidict-0.21.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "setuptools"
+      ],
+      "license": "MPL-2.0",
+      "md5": "72321882a4f4558df10858588b72af66",
+      "name": "bidict",
+      "noarch": "python",
+      "sha256": "19c434267d808aef2016578a17bccd95d49c587012e62591df9cc047b4cdf2c2",
+      "size": 34927,
+      "subdir": "noarch",
+      "timestamp": 1607541129811,
+      "version": "0.21.2"
+    },
     "black-19.10b0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -4400,6 +4417,26 @@
       "subdir": "noarch",
       "timestamp": 1607368840932,
       "version": "1.16.30"
+    },
+    "boto3-1.16.32-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.32,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "d033f687641792b13f0f0321c1664c8a",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "61d702220f118c165f78db7f978f09ac2992f270b27b957ab87490f458b933c2",
+      "size": 71846,
+      "subdir": "noarch",
+      "timestamp": 1607537837568,
+      "version": "1.16.32"
     },
     "boto3-1.16.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -6030,6 +6067,27 @@
       "timestamp": 1607365552445,
       "version": "1.19.30"
     },
+    "botocore-1.19.32-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "8f2c6e0fa8aef5691ee332555785dd9c",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "a5f527a489981049ff63527aa73658f5efece222c232732815f3548883c3f538",
+      "size": 4520879,
+      "subdir": "noarch",
+      "timestamp": 1607533931914,
+      "version": "1.19.32"
+    },
     "botocore-1.19.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -6726,6 +6784,35 @@
       "subdir": "noarch",
       "timestamp": 1605061758184,
       "version": "5.0.2"
+    },
+    "celery-5.0.4-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "sphinx >=2.0"
+      ],
+      "depends": [
+        "billiard >=3.6.3,<4.0",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "cryptography",
+        "future >=0.18.0",
+        "kombu >=4.6.10,<4.7",
+        "python",
+        "pytz",
+        "sqlalchemy",
+        "vine 1.3.0.*"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "81411d8c55c504141405686cadfeafec",
+      "name": "celery",
+      "noarch": "python",
+      "sha256": "0bddc07a846debe6e595fc4ab69cb052eefda3c0a06d93d52107058bb9e610c5",
+      "size": 444850,
+      "subdir": "noarch",
+      "timestamp": 1607541414260,
+      "version": "5.0.4"
     },
     "celery-redbeat-0.13.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -8897,6 +8984,22 @@
       "timestamp": 1603896989202,
       "version": "3.2.1"
     },
+    "cryptography-vectors-3.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD-3-Clause (or Apache 2.0)",
+      "md5": "56ca82d5ad3781c120781fc99603b0fc",
+      "name": "cryptography-vectors",
+      "noarch": "python",
+      "sha256": "151834b4e2c3038ab9eb75bdff9a7828c500bdde06f9ea645ebd66e41e8c30bc",
+      "size": 32147753,
+      "subdir": "noarch",
+      "timestamp": 1607534401171,
+      "version": "3.3"
+    },
     "cssselect-1.1.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -9174,6 +9277,32 @@
       "subdir": "noarch",
       "timestamp": 1604012627048,
       "version": "1.17.0"
+    },
+    "dash-1.18.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dash-core-components 1.3.1",
+        "dash-html-components 1.0.1",
+        "dash-renderer 1.1.2",
+        "dash-table 4.4.1",
+        "flask >=1.0.2",
+        "flask-compress",
+        "future",
+        "plotly",
+        "python",
+        "pyyaml >=5.1.1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d465fdcd317fd5520a86a3543448a6c4",
+      "name": "dash",
+      "noarch": "python",
+      "sha256": "94d9c91ea0de876062fc4e75ff92cb9c99e1ee6ddff745d863a8e2f4a76ceafa",
+      "size": 69559,
+      "subdir": "noarch",
+      "timestamp": 1607534536980,
+      "version": "1.18.0"
     },
     "dash-1.4.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -15575,6 +15704,26 @@
       "timestamp": 1607112421508,
       "version": "4.18.0"
     },
+    "fonttools-4.18.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "brotli",
+        "munkres",
+        "python",
+        "unicodedata2"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3ac58442b58ca408981eb01721a57d19",
+      "name": "fonttools",
+      "noarch": "python",
+      "sha256": "bd5a0cdafe219664d78bb4f90cb7b12b4f6458e67a256b2438c907ac7a1f4058",
+      "size": 656847,
+      "subdir": "noarch",
+      "timestamp": 1607534938642,
+      "version": "4.18.1"
+    },
     "freetype-cos6-i686-2.3.11-h85374aa_0.tar.bz2": {
       "build": "h85374aa_0",
       "build_number": 0,
@@ -19978,6 +20127,25 @@
       "subdir": "noarch",
       "timestamp": 1607366787813,
       "version": "5.41.5"
+    },
+    "hypothesis-5.43.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.5",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL 2.0",
+      "license_family": "Other",
+      "md5": "4c0fba44fe04271536dd9c626b8a0697",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "db0d788e36a611577e6c026b2ecb3e3d8af2f3e79523c26d3f199e382da55227",
+      "size": 231323,
+      "subdir": "noarch",
+      "timestamp": 1607535233061,
+      "version": "5.43.0"
     },
     "hypothesis-5.5.4-py_0.tar.bz2": {
       "build": "py_0",
@@ -29740,6 +29908,27 @@
       "timestamp": 1594380079303,
       "version": "0.20.0"
     },
+    "owslib-0.21.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pyproj >=2",
+        "python >=3.6",
+        "python-dateutil >=1.5",
+        "pytz",
+        "pyyaml",
+        "requests >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "69699928634ac407b0eadd794e821d9f",
+      "name": "owslib",
+      "noarch": "python",
+      "sha256": "60398c58c3fc82b1ecd47c1fab7578389b263bbf4e493553e0299d169a6cfcae",
+      "size": 133860,
+      "subdir": "noarch",
+      "timestamp": 1607536435190,
+      "version": "0.21.0"
+    },
     "p11-kit-cos6-i686-0.18.5-h9207712_0.tar.bz2": {
       "build": "h9207712_0",
       "build_number": 0,
@@ -32394,6 +32583,25 @@
       "timestamp": 1607368567097,
       "version": "4.14.0"
     },
+    "plotly-4.14.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "retrying >=1.3.3",
+        "setuptools",
+        "six"
+      ],
+      "license": "MIT",
+      "md5": "ab04730a7aec6962b2fec755fb832b5b",
+      "name": "plotly",
+      "noarch": "python",
+      "sha256": "adef71b291d1fbce79380f6794597ca19b2a7141ab74bf342fc19aeda822d9b3",
+      "size": 6211973,
+      "subdir": "noarch",
+      "timestamp": 1607536736948,
+      "version": "4.14.1"
+    },
     "plotly-4.2.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -34195,6 +34403,43 @@
       "timestamp": 1579614749355,
       "version": "1.3.0"
     },
+    "pyls-black-0.4.6-hd3eb1b0_0.tar.bz2": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "black",
+        "python-language-server",
+        "toml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7619d6abfa059f1c2720e151b488332a",
+      "name": "pyls-black",
+      "noarch": "python",
+      "sha256": "5acc4697c87ee51aa38f9db4e20918b26520970c82045e3980dfb6950e79efd7",
+      "size": 8094,
+      "subdir": "noarch",
+      "timestamp": 1607553174023,
+      "version": "0.4.6"
+    },
+    "pyls-spyder-0.2.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "python-language-server"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d922d83f4699e032fff8f228ce9ed531",
+      "name": "pyls-spyder",
+      "noarch": "python",
+      "sha256": "0015ddf36c323d0046e2de05e9955e7aedbd1ee94060ddacc61755bfe28e5360",
+      "size": 10967,
+      "subdir": "noarch",
+      "timestamp": 1607553202686,
+      "version": "0.2.1"
+    },
     "pymc3-3.7-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -35943,6 +36188,24 @@
       "timestamp": 1598295668672,
       "version": "1.2.1"
     },
+    "pytest-replay-1.3.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=3.0.0",
+        "python >=3.6"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "eb6e238ffc373831ea61a994d5c79d4e",
+      "name": "pytest-replay",
+      "noarch": "python",
+      "sha256": "500cf28c657b9f28d540f0bf3c05cae77a278047ac629797fe278443a5dd8b91",
+      "size": 9889,
+      "subdir": "noarch",
+      "timestamp": 1607537101499,
+      "version": "1.3.0"
+    },
     "pytest-rerunfailures-8.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -36709,6 +36972,25 @@
       "subdir": "noarch",
       "timestamp": 1569419365182,
       "version": "3.9.3"
+    },
+    "python-engineio-4.0.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e3bc09b7fc7b23650207a7e6304d7199",
+      "name": "python-engineio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "d39da9d1f1e13352e73c188e3a0819cffe10d647c117ed901499c698bc4d1fdb",
+      "size": 33434,
+      "subdir": "noarch",
+      "timestamp": 1607537153192,
+      "version": "4.0.0"
     },
     "python-fastjsonschema-2.14.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -37564,6 +37846,27 @@
       "subdir": "noarch",
       "timestamp": 1606604722708,
       "version": "4.6.1"
+    },
+    "python-socketio-5.0.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bf6040972b8fc9d5d6eaefab9864d47f",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "71364857b42918bfadc766e5daadaacc39ee4c80253615366f6b37ec4688326e",
+      "size": 32656,
+      "subdir": "noarch",
+      "timestamp": 1607546969553,
+      "version": "5.0.1"
     },
     "python-tzdata-2020.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -40078,6 +40381,23 @@
       "subdir": "noarch",
       "timestamp": 1574367831985,
       "version": "2.9.0"
+    },
+    "send2trash-1.5.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "1e2697e4a68a4cbff22fe5890bb2e55d",
+      "name": "send2trash",
+      "noarch": "python",
+      "sha256": "8690c3d4fc20690b7e9c87765b3970f9303f4823c24892775b9abbe773398b7a",
+      "size": 13981,
+      "subdir": "noarch",
+      "timestamp": 1607525535403,
+      "version": "1.5.0"
     },
     "sendgrid-6.4.7-py_0.tar.bz2": {
       "build": "py_0",
@@ -43942,6 +44262,24 @@
       "subdir": "noarch",
       "timestamp": 1592429752036,
       "version": "2.1.0"
+    },
+    "three-merge-0.1.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "diff-match-patch",
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5b636c1b924357e4d25f03d0e33b6dcc",
+      "name": "three-merge",
+      "noarch": "python",
+      "sha256": "ec6f23cbff3846395f29d9a5f6d282ce2a0afd6f6826d833d87fab3d9b1dd8c4",
+      "size": 9713,
+      "subdir": "noarch",
+      "timestamp": 1607553295880,
+      "version": "0.1.1"
     },
     "tifffile-2020.10.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -50086,6 +50424,23 @@
       "timestamp": 1601924142713,
       "version": "4.9.3"
     },
+    "bidict-0.21.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "setuptools"
+      ],
+      "license": "MPL-2.0",
+      "md5": "f56f67b0c2dd291b772b4c9aedf5626b",
+      "name": "bidict",
+      "noarch": "python",
+      "sha256": "257e828b15a5b48088ffd68c7316467d1d0bdb905788eaa5a2a6ba4dbb80f680",
+      "size": 33357,
+      "subdir": "noarch",
+      "timestamp": 1607541129811,
+      "version": "0.21.2"
+    },
     "black-19.10b0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -51335,6 +51690,26 @@
       "subdir": "noarch",
       "timestamp": 1607368840932,
       "version": "1.16.30"
+    },
+    "boto3-1.16.32-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.32,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "3a33405b81bdeb671a1fa113323bb433",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "b33b41899b643d83287d1851e61f0c541b39a52c6a7e0b0de5f1e877a92a92f9",
+      "size": 71832,
+      "subdir": "noarch",
+      "timestamp": 1607537837568,
+      "version": "1.16.32"
     },
     "boto3-1.16.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
@@ -52965,6 +53340,27 @@
       "timestamp": 1607365552445,
       "version": "1.19.30"
     },
+    "botocore-1.19.32-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "b030d8cae496f983b9b8a8ad88a2af9f",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "07147513342ac4aa428dd909ed2bf7b84177544fa29bad714aeb76fb18f58ff8",
+      "size": 3580138,
+      "subdir": "noarch",
+      "timestamp": 1607533931914,
+      "version": "1.19.32"
+    },
     "botocore-1.19.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -53588,6 +53984,35 @@
       "subdir": "noarch",
       "timestamp": 1605061758184,
       "version": "5.0.2"
+    },
+    "celery-5.0.4-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "sphinx >=2.0"
+      ],
+      "depends": [
+        "billiard >=3.6.3,<4.0",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "cryptography",
+        "future >=0.18.0",
+        "kombu >=4.6.10,<4.7",
+        "python",
+        "pytz",
+        "sqlalchemy",
+        "vine 1.3.0.*"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "80b1fe61c822b76385d44d17b47efde3",
+      "name": "celery",
+      "noarch": "python",
+      "sha256": "c4e8bd1782c0390ad126bf04dca23884e317d5aba6be26c2cacc0974f3d69407",
+      "size": 440182,
+      "subdir": "noarch",
+      "timestamp": 1607541414260,
+      "version": "5.0.4"
     },
     "celery-redbeat-0.13.0-py_0.conda": {
       "build": "py_0",
@@ -55745,6 +56170,22 @@
       "timestamp": 1603896989202,
       "version": "3.2.1"
     },
+    "cryptography-vectors-3.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD-3-Clause (or Apache 2.0)",
+      "md5": "a25cacd3787af66a10f7ba0a74b9b9cf",
+      "name": "cryptography-vectors",
+      "noarch": "python",
+      "sha256": "c324206bf9d6e759d6218189e8fbf6207081968c4b8a1b97f9168a65ab693e4a",
+      "size": 27585634,
+      "subdir": "noarch",
+      "timestamp": 1607534401171,
+      "version": "3.3"
+    },
     "cssselect-1.1.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -55989,6 +56430,32 @@
       "subdir": "noarch",
       "timestamp": 1604012627048,
       "version": "1.17.0"
+    },
+    "dash-1.18.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dash-core-components 1.3.1",
+        "dash-html-components 1.0.1",
+        "dash-renderer 1.1.2",
+        "dash-table 4.4.1",
+        "flask >=1.0.2",
+        "flask-compress",
+        "future",
+        "plotly",
+        "python",
+        "pyyaml >=5.1.1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "178846f98cb955513dd45a226a7186b1",
+      "name": "dash",
+      "noarch": "python",
+      "sha256": "611a8d4fa4c5d1b1ab733145e4aa3d25b8074b654bd5f85a3b175950a3b288cd",
+      "size": 70650,
+      "subdir": "noarch",
+      "timestamp": 1607534536980,
+      "version": "1.18.0"
     },
     "dash-1.4.1-py_0.conda": {
       "build": "py_0",
@@ -62270,6 +62737,26 @@
       "timestamp": 1607112421508,
       "version": "4.18.0"
     },
+    "fonttools-4.18.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "brotli",
+        "munkres",
+        "python",
+        "unicodedata2"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b3304987de7315f964ec8d9704fbba91",
+      "name": "fonttools",
+      "noarch": "python",
+      "sha256": "bc3e4975e7bfa1257024c8693e13084e06405c5f334218c5441d83d38e856e5e",
+      "size": 618720,
+      "subdir": "noarch",
+      "timestamp": 1607534938642,
+      "version": "4.18.1"
+    },
     "freetype-cos6-i686-2.3.11-h85374aa_0.conda": {
       "build": "h85374aa_0",
       "build_number": 0,
@@ -66384,6 +66871,25 @@
       "subdir": "noarch",
       "timestamp": 1607366787813,
       "version": "5.41.5"
+    },
+    "hypothesis-5.43.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.5",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL 2.0",
+      "license_family": "Other",
+      "md5": "04d31a1a7b07ab1cd7aa3168fc2485b4",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "0852eaa125541afdcac7d9fe8dc54dffea70c119803eb905c5c0c15e05fd1db4",
+      "size": 239370,
+      "subdir": "noarch",
+      "timestamp": 1607535233061,
+      "version": "5.43.0"
     },
     "hypothesis-5.5.4-py_0.conda": {
       "build": "py_0",
@@ -74983,6 +75489,27 @@
       "timestamp": 1594380079303,
       "version": "0.20.0"
     },
+    "owslib-0.21.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pyproj >=2",
+        "python >=3.6",
+        "python-dateutil >=1.5",
+        "pytz",
+        "pyyaml",
+        "requests >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "6964247c58bb26c0b1e4eb17dfc8a67b",
+      "name": "owslib",
+      "noarch": "python",
+      "sha256": "0c603ccfb3c3325cb647656d847b0a15b9112213f63857ce3c121f539ec1928d",
+      "size": 130427,
+      "subdir": "noarch",
+      "timestamp": 1607536435190,
+      "version": "0.21.0"
+    },
     "p11-kit-cos6-i686-0.18.5-h9207712_0.conda": {
       "build": "h9207712_0",
       "build_number": 0,
@@ -77475,6 +78002,25 @@
       "timestamp": 1607368567097,
       "version": "4.14.0"
     },
+    "plotly-4.14.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "retrying >=1.3.3",
+        "setuptools",
+        "six"
+      ],
+      "license": "MIT",
+      "md5": "88007a7fa1b66f90f194ab25ad8ebf8b",
+      "name": "plotly",
+      "noarch": "python",
+      "sha256": "4b2aab6539f1b2d59fd35fd7f5ccdad3347ce5ac1c8e7dba5afc0e019e8793ec",
+      "size": 3790534,
+      "subdir": "noarch",
+      "timestamp": 1607536736948,
+      "version": "4.14.1"
+    },
     "plotly-4.2.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -79276,6 +79822,43 @@
       "timestamp": 1579614749355,
       "version": "1.3.0"
     },
+    "pyls-black-0.4.6-hd3eb1b0_0.conda": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "black",
+        "python-language-server",
+        "toml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "cdb49993ecbe9d5ccb5eee81a0cfa534",
+      "name": "pyls-black",
+      "noarch": "python",
+      "sha256": "dbaca803956dfe0b39fbc1be3cc8356ce66b7b4ce4595153e028e139ca3674f6",
+      "size": 9023,
+      "subdir": "noarch",
+      "timestamp": 1607553174023,
+      "version": "0.4.6"
+    },
+    "pyls-spyder-0.2.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "python-language-server"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "83cc42aace7206338ad712ca40dd80ce",
+      "name": "pyls-spyder",
+      "noarch": "python",
+      "sha256": "c3ec27a722f65d8155d81a254fee5eb629dfdc84e0c2516546e8f7effb2b81e1",
+      "size": 10981,
+      "subdir": "noarch",
+      "timestamp": 1607553202686,
+      "version": "0.2.1"
+    },
     "pymc3-3.7-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -81024,6 +81607,24 @@
       "timestamp": 1598295668672,
       "version": "1.2.1"
     },
+    "pytest-replay-1.3.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=3.0.0",
+        "python >=3.6"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3bccef4358d0cbf4e26052a7fb02e309",
+      "name": "pytest-replay",
+      "noarch": "python",
+      "sha256": "99cf34d19657bc7e3e792999a457f1552d7ca9a41db51f0916aa13e47043eda7",
+      "size": 10199,
+      "subdir": "noarch",
+      "timestamp": 1607537101499,
+      "version": "1.3.0"
+    },
     "pytest-rerunfailures-8.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -81790,6 +82391,25 @@
       "subdir": "noarch",
       "timestamp": 1569419365182,
       "version": "3.9.3"
+    },
+    "python-engineio-4.0.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f6b8bf1e73d745b86fc357ae6d02f9d7",
+      "name": "python-engineio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "7f8dd9822778d454aed4e5a0191e755cb39d1eddcb9417f8cfb29d10a294ea11",
+      "size": 32890,
+      "subdir": "noarch",
+      "timestamp": 1607537153192,
+      "version": "4.0.0"
     },
     "python-fastjsonschema-2.14.1-py_0.conda": {
       "build": "py_0",
@@ -82645,6 +83265,27 @@
       "subdir": "noarch",
       "timestamp": 1606604722708,
       "version": "4.6.1"
+    },
+    "python-socketio-5.0.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "024d57d4ed06a4a5734d7c9fcec3668d",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "35af7359d098457eac7591c21c6e3b2998deb4ffb701ab1bed653b80428ec548",
+      "size": 31425,
+      "subdir": "noarch",
+      "timestamp": 1607546969553,
+      "version": "5.0.1"
     },
     "python-tzdata-2020.1-py_0.conda": {
       "build": "py_0",
@@ -85159,6 +85800,23 @@
       "subdir": "noarch",
       "timestamp": 1574367831985,
       "version": "2.9.0"
+    },
+    "send2trash-1.5.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "0e7ec21f7c16d7119c0e465d8868a549",
+      "name": "send2trash",
+      "noarch": "python",
+      "sha256": "41d8e5680c79f2c1095b37b05125476557d34b49093df3190753df23246ccbdc",
+      "size": 13874,
+      "subdir": "noarch",
+      "timestamp": 1607525535403,
+      "version": "1.5.0"
     },
     "sendgrid-6.4.7-py_0.conda": {
       "build": "py_0",
@@ -89004,6 +89662,24 @@
       "subdir": "noarch",
       "timestamp": 1592429752036,
       "version": "2.1.0"
+    },
+    "three-merge-0.1.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "diff-match-patch",
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5ae0f5c203a35f7138e0199df9c7d5bc",
+      "name": "three-merge",
+      "noarch": "python",
+      "sha256": "cf3640f388912718c0e54bda4d284c48c44af90fc0bcc4239c6aca3f3a782d8f",
+      "size": 9907,
+      "subdir": "noarch",
+      "timestamp": 1607553295880,
+      "version": "0.1.1"
     },
     "tifffile-2020.10.1-py_0.conda": {
       "build": "py_0",
