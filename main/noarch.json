@@ -26449,6 +26449,23 @@
       "timestamp": 1599257524552,
       "version": "10.0.1"
     },
+    "lit-10.0.1-pyhd3eb1b0_5.tar.bz2": {
+      "build": "pyhd3eb1b0_5",
+      "build_number": 5,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0 WITH LLVM-exception",
+      "license_family": "Apache",
+      "md5": "0f985ecc3a9aa217354d93f943f67f25",
+      "name": "lit",
+      "noarch": "python",
+      "sha256": "bf3d61cb3291e9eb2eeb26520bc98f99265a0cce0f6e62e2243242d72bfae68d",
+      "size": 126252,
+      "subdir": "noarch",
+      "timestamp": 1607703110588,
+      "version": "10.0.1"
+    },
     "lit-9.0.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -72443,6 +72460,23 @@
       "size": 127303,
       "subdir": "noarch",
       "timestamp": 1599257524552,
+      "version": "10.0.1"
+    },
+    "lit-10.0.1-pyhd3eb1b0_5.conda": {
+      "build": "pyhd3eb1b0_5",
+      "build_number": 5,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0 WITH LLVM-exception",
+      "license_family": "Apache",
+      "md5": "7f1bf8380e1a7e663608a3bba9b81b2b",
+      "name": "lit",
+      "noarch": "python",
+      "sha256": "8170970b846c12e189e7279e5f713c0b932ca7062314aa650767a3df02670ebf",
+      "size": 127564,
+      "subdir": "noarch",
+      "timestamp": 1607703110588,
       "version": "10.0.1"
     },
     "lit-9.0.1-py_0.conda": {
