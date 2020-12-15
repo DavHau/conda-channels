@@ -4438,6 +4438,26 @@
       "timestamp": 1607537837568,
       "version": "1.16.32"
     },
+    "boto3-1.16.33-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.33,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "8992d17df61a07243e7118a6b7b9c84c",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "932f8553c8ed6acaf801b8dcde01148a459246b2ecf9810d4a26c3246d2c57de",
+      "size": 71882,
+      "subdir": "noarch",
+      "timestamp": 1607966805045,
+      "version": "1.16.33"
+    },
     "boto3-1.16.34-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -6108,6 +6128,27 @@
       "timestamp": 1607533931914,
       "version": "1.19.32"
     },
+    "botocore-1.19.33-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "a41eba851672ecdfef080f2ebc600ad9",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "d15fb4f84fb0dd94d6647aa93f319d60491823e590ff05673700db971bd65b46",
+      "size": 4544911,
+      "subdir": "noarch",
+      "timestamp": 1607620464474,
+      "version": "1.19.33"
+    },
     "botocore-1.19.34-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -6128,6 +6169,27 @@
       "subdir": "noarch",
       "timestamp": 1607700316481,
       "version": "1.19.34"
+    },
+    "botocore-1.19.35-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "26f536a18af6dec2d85d0b787d6603bf",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "455ac6d4b6234cc27b65522b7cbdbb4c29496d52e292eede3ece568667edeedc",
+      "size": 4542075,
+      "subdir": "noarch",
+      "timestamp": 1607968948117,
+      "version": "1.19.35"
     },
     "botocore-1.19.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -13924,6 +13986,27 @@
       "timestamp": 1603821286100,
       "version": "0.29.1"
     },
+    "eventlet-0.30.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dnspython >=1.15.0,<2.0.0",
+        "greenlet >=0.3",
+        "pyopenssl",
+        "python >=3.5",
+        "six >=1.10.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "600e26689bdc124b24c3fefeababf0b1",
+      "name": "eventlet",
+      "noarch": "python",
+      "sha256": "8fec2598ad19a68dbd3a771d969c794e3536a04d30a71cba8dcfc86f199c1e48",
+      "size": 162811,
+      "subdir": "noarch",
+      "timestamp": 1607969438065,
+      "version": "0.30.0"
+    },
     "execnet-1.6.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -15302,6 +15385,25 @@
       "subdir": "noarch",
       "timestamp": 1606774217627,
       "version": "4.3.2"
+    },
+    "flask-socketio-5.0.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "flask >=0.9",
+        "python",
+        "python-socketio >=4.3.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "793163fa8373da68f8acfdaec51552ad",
+      "name": "flask-socketio",
+      "noarch": "python",
+      "sha256": "efdf54a7264052c2d38f9ce3d8c6d6ee793036d6d6eac85616efa6c3c3c55217",
+      "size": 18089,
+      "subdir": "noarch",
+      "timestamp": 1607969744516,
+      "version": "5.0.0"
     },
     "flask-sqlalchemy-2.4.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -17819,6 +17921,29 @@
       "timestamp": 1604100432031,
       "version": "1.23.0"
     },
+    "google-auth-1.24.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "aiohttp",
+        "cachetools >=2.0.0,<5.0",
+        "pyasn1-modules >=0.2.1",
+        "python >=3",
+        "rsa >=3.1.4,<5",
+        "setuptools >=40.3.0",
+        "six >=1.9.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "59f45f25eec63da4837704f7f54871b0",
+      "name": "google-auth",
+      "noarch": "python",
+      "sha256": "2be3075b46fa3fa2cbbcbb575b7d1a0388d03b8e8fdcd1d29bdb4833993497e9",
+      "size": 63905,
+      "subdir": "noarch",
+      "timestamp": 1607969937636,
+      "version": "1.24.0"
+    },
     "google-auth-oauthlib-0.4.1-py_2.tar.bz2": {
       "build": "py_2",
       "build_number": 2,
@@ -18119,6 +18244,30 @@
       "subdir": "noarch",
       "timestamp": 1606083843203,
       "version": "1.33.0"
+    },
+    "google-cloud-storage-1.34.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "google-auth >=1.11.0,<2.0dev",
+        "google-cloud-core >=1.4.1,<2.0dev",
+        "google-crc32c",
+        "google-resumable-media >=1.0.0,<2.0dev",
+        "python",
+        "requests >=2.18.0,<3.0.0dev",
+        "yarl <1.6.0,>=1.0",
+        "yarl >=1.0,<1.6.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "663a4e1595134d23182cccc76b2adaa4",
+      "name": "google-cloud-storage",
+      "noarch": "python",
+      "sha256": "4177a053be5d3fffb1f77b35ec1f2a6dbac27ae6af881b4ef37c6a72d76cc923",
+      "size": 67776,
+      "subdir": "noarch",
+      "timestamp": 1607970208002,
+      "version": "1.34.0"
     },
     "google-pasta-0.1.7-py_0.tar.bz2": {
       "build": "py_0",
@@ -19716,6 +19865,22 @@
       "subdir": "noarch",
       "timestamp": 1603214054081,
       "version": "3.1.0"
+    },
+    "humanize-3.2.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "MIT",
+      "md5": "09e0220d73f2b392168385efbfe247ce",
+      "name": "humanize",
+      "noarch": "python",
+      "sha256": "cc76563ee6f96bf34dbf94a01e912a15045bf1cc84e850d16c1196d109d024e6",
+      "size": 39686,
+      "subdir": "noarch",
+      "timestamp": 1607970312441,
+      "version": "3.2.0"
     },
     "hvplot-0.4.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -22217,6 +22382,23 @@
       "subdir": "noarch",
       "timestamp": 1601912935875,
       "version": "0.17.0"
+    },
+    "joblib-1.0.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "setuptools"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "b6f8fb19aecede79da419dbf65060e0b",
+      "name": "joblib",
+      "noarch": "python",
+      "sha256": "e6380800481e0401b241969b4d429113d6904b88210347ed75eb782a0cc2eb6e",
+      "size": 211667,
+      "subdir": "noarch",
+      "timestamp": 1607970691266,
+      "version": "1.0.0"
     },
     "jpackage-utils-cos6-i686-1.7.5-h1c0cc2e_0.tar.bz2": {
       "build": "h1c0cc2e_0",
@@ -26793,6 +26975,28 @@
       "timestamp": 1594371127546,
       "version": "2.3.0"
     },
+    "mapclassify-2.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "networkx",
+        "numpy >=1.3",
+        "pandas >=1.0",
+        "python >=3.5",
+        "scikit-learn",
+        "scipy >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "7137b141d108939c76a10204682bc367",
+      "name": "mapclassify",
+      "noarch": "python",
+      "sha256": "9e43f3646b3205c9d99e2cc30c212650edeec470da0b125059e90cf0d48a322b",
+      "size": 36817,
+      "subdir": "noarch",
+      "timestamp": 1607971402975,
+      "version": "2.4.0"
+    },
     "markdown2-2.3.10-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -28322,6 +28526,24 @@
       "timestamp": 1603378397148,
       "version": "3.3.2"
     },
+    "mpl_sample_data-3.3.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib-base >=3.3.2,<3.4.0a0",
+        "python"
+      ],
+      "license": "LicenseRef-PSF-based",
+      "license_family": "PSF",
+      "md5": "46fcdc85dcee4cca5537e2cda0e296a1",
+      "name": "mpl_sample_data",
+      "noarch": "python",
+      "sha256": "945e29ff9dff88fdb1461be46ec3bd6ab9b98083939532a617bb0ab82a3a2be7",
+      "size": 1855753,
+      "subdir": "noarch",
+      "timestamp": 1607957681668,
+      "version": "3.3.2"
+    },
     "msgpack-numpy-0.4.4.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -29310,6 +29532,23 @@
       "subdir": "noarch",
       "timestamp": 1607368077579,
       "version": "0.6.10"
+    },
+    "nuitka-0.6.10.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "ff902ed325c842dda1b5e55e5da1b355",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "d0fef13d09baa59685a2740fd8f66f674be091e18e3cf0b21f5d35ee06f1b58e",
+      "size": 1189016,
+      "subdir": "noarch",
+      "timestamp": 1607971642835,
+      "version": "0.6.10.1"
     },
     "nuitka-0.6.9.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -30379,6 +30618,24 @@
       "subdir": "noarch",
       "timestamp": 1606930884327,
       "version": "20.7"
+    },
+    "packaging-20.8-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pyparsing >=2.0.2",
+        "python",
+        "six"
+      ],
+      "license": "Apache 2.0 or BSD 2-Clause",
+      "md5": "0b599fe051a54e808d8075b5923bb968",
+      "name": "packaging",
+      "noarch": "python",
+      "sha256": "667115e61f080ef717073c133170f4810a44083dcffd8bc79882cd7214f05988",
+      "size": 35487,
+      "subdir": "noarch",
+      "timestamp": 1607971758191,
+      "version": "20.8"
     },
     "palettable-3.1.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -33795,6 +34052,22 @@
       "timestamp": 1600458082296,
       "version": "0.6.2"
     },
+    "py-1.10.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=2.7"
+      ],
+      "license": "MIT",
+      "md5": "a1c14ab46a6cc82261c42a4ccf60ca39",
+      "name": "py",
+      "noarch": "python",
+      "sha256": "0e968d8bc4487c798dbc6309208487832410fd7c47020cbfed9e2374257e1876",
+      "size": 75816,
+      "subdir": "noarch",
+      "timestamp": 1607971620561,
+      "version": "1.10.0"
+    },
     "py-1.8.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -36197,6 +36470,24 @@
       "timestamp": 1607369199076,
       "version": "3.1.0"
     },
+    "pytest-html-3.1.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=5.0,!=6.0.0",
+        "pytest-metadata",
+        "python >=3.6"
+      ],
+      "license": "MPL-2.0",
+      "md5": "570edbdd4b502d761f285a2acda50759",
+      "name": "pytest-html",
+      "noarch": "python",
+      "sha256": "01fbf394e1bc69442453d2de5d0dd6cc92a47094cdfac0a0d8288da769ecedfe",
+      "size": 17059,
+      "subdir": "noarch",
+      "timestamp": 1607972321317,
+      "version": "3.1.1"
+    },
     "pytest-json-0.4.0-py_1.tar.bz2": {
       "build": "py_1",
       "build_number": 1,
@@ -36718,6 +37009,24 @@
       "timestamp": 1603289691991,
       "version": "0.3.2"
     },
+    "pytest-subtests-0.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=4.4.0",
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1d665b99a67bfa0f58d408153f945bec",
+      "name": "pytest-subtests",
+      "noarch": "python",
+      "sha256": "c03f36fcd45d4b1a7a37b087326211e49aacb9932423ee63d0c14fbe9c715931",
+      "size": 11864,
+      "subdir": "noarch",
+      "timestamp": 1607972408943,
+      "version": "0.4.0"
+    },
     "pytest-timeout-1.3.4-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -36988,6 +37297,28 @@
       "subdir": "noarch",
       "timestamp": 1598373526094,
       "version": "2.1.0"
+    },
+    "pytest-xdist-2.2.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "psutil >=3.0"
+      ],
+      "depends": [
+        "execnet >=1.1",
+        "pytest >=6.0.0",
+        "pytest-forked",
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "md5": "768846efca86d881213557baed6ed1a8",
+      "name": "pytest-xdist",
+      "noarch": "python",
+      "sha256": "96b9a262d8361e6735610bee9e7f5251ea87af532e0f0c6620ce224d466f44f2",
+      "size": 31503,
+      "subdir": "noarch",
+      "timestamp": 1607972426239,
+      "version": "2.2.0"
     },
     "python-clang-10.0.0-default_h6bfbf51_0.tar.bz2": {
       "build": "default_h6bfbf51_0",
@@ -37834,6 +38165,37 @@
       "timestamp": 1606518154710,
       "version": "0.36.1"
     },
+    "python-language-server-0.36.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "autopep8",
+        "flake8 >=3.8.0",
+        "jedi >=0.17.2,<0.18.0a0",
+        "mccabe >=0.6.0,<0.7.0",
+        "pluggy",
+        "pycodestyle >=2.6.0,<2.7.0",
+        "pydocstyle >=2.0.0",
+        "pyflakes >=2.2.0,<2.3.0",
+        "pylint >=2.5.0",
+        "python >=3.6",
+        "python-jsonrpc-server >=0.4.0",
+        "rope >=0.10.5",
+        "setuptools",
+        "ujson >=3.0",
+        "yapf"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7d5e6fdf513f1786c0fff699942edcee",
+      "name": "python-language-server",
+      "noarch": "python",
+      "sha256": "a5fb2c447b12b342a88e81aca440f96d96568bf7911c73ff0d3179f227a60854",
+      "size": 40433,
+      "subdir": "noarch",
+      "timestamp": 1607972539592,
+      "version": "0.36.2"
+    },
     "python-libarchive-c-2.9-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -38162,6 +38524,27 @@
       "subdir": "noarch",
       "timestamp": 1607546969553,
       "version": "5.0.1"
+    },
+    "python-socketio-5.0.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bfb8510708f609df1fbff4679d07fe71",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "50e35e7ce7d61433ec69a08f26602616a5288e1680f4b6a81f60feaad194bc40",
+      "size": 32657,
+      "subdir": "noarch",
+      "timestamp": 1607972586718,
+      "version": "5.0.2"
     },
     "python-tzdata-2020.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -40918,6 +41301,26 @@
       "timestamp": 1606865024193,
       "version": "0.11.5"
     },
+    "setuptools-rust-0.11.6-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5",
+        "semantic_version >=2.6.0",
+        "setuptools >=41",
+        "toml >=0.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5783545e601a6ee7276fe1cc5695a025",
+      "name": "setuptools-rust",
+      "noarch": "python",
+      "sha256": "d46d739648c639d95676d3af5c1927b8342731ede88db1570fc606f4f926043e",
+      "size": 19729,
+      "subdir": "noarch",
+      "timestamp": 1607972886532,
+      "version": "0.11.6"
+    },
     "setuptools-scm-3.5.0-py_1.tar.bz2": {
       "build": "py_1",
       "build_number": 1,
@@ -40951,6 +41354,23 @@
       "subdir": "noarch",
       "timestamp": 1593435668046,
       "version": "4.1.2"
+    },
+    "setuptools-scm-5.0.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "md5": "f71e5b7c596d9d46581c0c3cf1c30a14",
+      "name": "setuptools-scm",
+      "noarch": "python",
+      "sha256": "75a966946dacf6e070ca8e08195a13b79542661da9115c92900eb0661e212c66",
+      "size": 27369,
+      "subdir": "noarch",
+      "timestamp": 1607972901586,
+      "version": "5.0.1"
     },
     "setuptools-scm-git-archive-1.1-0.tar.bz2": {
       "build": "0",
@@ -41052,6 +41472,22 @@
       "subdir": "noarch",
       "timestamp": 1593435669449,
       "version": "4.1.2"
+    },
+    "setuptools_scm-5.0.1-hd3eb1b0_0.tar.bz2": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "setuptools-scm >=5.0.1,<5.0.2.0a0"
+      ],
+      "license": "MIT",
+      "md5": "fd6e9140db175f7d8a2998e4329faa19",
+      "name": "setuptools_scm",
+      "noarch": "generic",
+      "sha256": "5988bcc260c088c00fa79c99d78fa0b0d7bb9da359caf5804d1d9cd5858ecb8e",
+      "size": 3946,
+      "subdir": "noarch",
+      "timestamp": 1607972902821,
+      "version": "5.0.1"
     },
     "shellingham-1.3.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -41695,6 +42131,23 @@
       "subdir": "noarch",
       "timestamp": 1590081281472,
       "version": "2.0.1"
+    },
+    "soupsieve-2.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "beautifulsoup4",
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "md5": "2f3e6963ae62427940a9863213e896d2",
+      "name": "soupsieve",
+      "noarch": "python",
+      "sha256": "ca667d28d78de9229a36a7bf3a8d76cd52537507b3822d5203bd362718fa824b",
+      "size": 30949,
+      "subdir": "noarch",
+      "timestamp": 1607965911255,
+      "version": "2.1"
     },
     "spaghetti-1.4.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -44668,6 +45121,25 @@
       "timestamp": 1607369897000,
       "version": "2020.12.4"
     },
+    "tifffile-2020.12.8-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "imagecodecs",
+        "numpy >=1.15.1",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "7bea12762a79f47b348afc3391452355",
+      "name": "tifffile",
+      "noarch": "python",
+      "sha256": "198b89958ad7d586c2fa7a1320246c78edac8fa3536060f602fd502327971211",
+      "size": 127603,
+      "subdir": "noarch",
+      "timestamp": 1607624060199,
+      "version": "2020.12.8"
+    },
     "tobler-0.2.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -46099,6 +46571,25 @@
       "timestamp": 1598413545233,
       "version": "1.12.4"
     },
+    "visvis-1.13.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "numpy",
+        "pyopengl",
+        "python"
+      ],
+      "license": "BSD 3-Clause",
+      "license_family": "BSD",
+      "md5": "9c385769b18209e3fa1aed8704e66a9d",
+      "name": "visvis",
+      "noarch": "python",
+      "sha256": "78b7125ab754cf793acf929ce42fc4f6d3d21a50e6da6b1571447b81ed7e52f4",
+      "size": 4788810,
+      "subdir": "noarch",
+      "timestamp": 1607973296611,
+      "version": "1.13.0"
+    },
     "w3lib-1.21.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -46562,6 +47053,22 @@
       "subdir": "noarch",
       "timestamp": 1607370148773,
       "version": "0.36.1"
+    },
+    "wheel-0.36.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "283aa9533b88c0a33e23e013af1d7548",
+      "name": "wheel",
+      "noarch": "python",
+      "sha256": "46d62d840c140350fb32c964c58774056b15e13d3d37c916b07af385f2cba39e",
+      "size": 31642,
+      "subdir": "noarch",
+      "timestamp": 1607973297157,
+      "version": "0.36.2"
     },
     "whoosh-2.7.4-py_1.tar.bz2": {
       "build": "py_1",
@@ -52059,6 +52566,26 @@
       "timestamp": 1607537837568,
       "version": "1.16.32"
     },
+    "boto3-1.16.33-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.33,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2391630ff76603700abba3dd6042846f",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "2b29b6f829bd3ecfc3df01bcda93a148729808ad8170911697a4cfdc0e57abd0",
+      "size": 71789,
+      "subdir": "noarch",
+      "timestamp": 1607966805045,
+      "version": "1.16.33"
+    },
     "boto3-1.16.34-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -53729,6 +54256,27 @@
       "timestamp": 1607533931914,
       "version": "1.19.32"
     },
+    "botocore-1.19.33-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "cad83572020a9c2481db3730d82315b6",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "a9f2820feb8c6eb2476bd27702498c662fb52c5f7060e47c06c42919ddb75c98",
+      "size": 3579851,
+      "subdir": "noarch",
+      "timestamp": 1607620464474,
+      "version": "1.19.33"
+    },
     "botocore-1.19.34-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -53749,6 +54297,27 @@
       "subdir": "noarch",
       "timestamp": 1607700316481,
       "version": "1.19.34"
+    },
+    "botocore-1.19.35-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "46bae9b3403661a524aead7115fec6ad",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "4ad9f41d5897853e3c6a48fc755d03514ac15b862b5375861c86fccdf6f35543",
+      "size": 3587933,
+      "subdir": "noarch",
+      "timestamp": 1607968948117,
+      "version": "1.19.35"
     },
     "botocore-1.19.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
@@ -61407,6 +61976,27 @@
       "timestamp": 1603821286100,
       "version": "0.29.1"
     },
+    "eventlet-0.30.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dnspython >=1.15.0,<2.0.0",
+        "greenlet >=0.3",
+        "pyopenssl",
+        "python >=3.5",
+        "six >=1.10.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4f174fbe8f396d24d2a417d4eb8c5acd",
+      "name": "eventlet",
+      "noarch": "python",
+      "sha256": "4386714b7e06326e4e68e0bf7763d33b591d54034acadc4022e3e16f95f6d2ef",
+      "size": 167817,
+      "subdir": "noarch",
+      "timestamp": 1607969438065,
+      "version": "0.30.0"
+    },
     "execnet-1.6.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -62736,6 +63326,25 @@
       "subdir": "noarch",
       "timestamp": 1606774217627,
       "version": "4.3.2"
+    },
+    "flask-socketio-5.0.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "flask >=0.9",
+        "python",
+        "python-socketio >=4.3.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4dcfdec29bb2704a12366b457d08b7d3",
+      "name": "flask-socketio",
+      "noarch": "python",
+      "sha256": "bdb93b5c09ec61b1e96e3c42aeaef3edd4edd85153f8179e4f2fa404815112b6",
+      "size": 18478,
+      "subdir": "noarch",
+      "timestamp": 1607969744516,
+      "version": "5.0.0"
     },
     "flask-sqlalchemy-2.4.0-py_0.conda": {
       "build": "py_0",
@@ -65009,6 +65618,29 @@
       "timestamp": 1604100432031,
       "version": "1.23.0"
     },
+    "google-auth-1.24.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "aiohttp",
+        "cachetools >=2.0.0,<5.0",
+        "pyasn1-modules >=0.2.1",
+        "python >=3",
+        "rsa >=3.1.4,<5",
+        "setuptools >=40.3.0",
+        "six >=1.9.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2c690af8a82621f8c8c9fd5310a35574",
+      "name": "google-auth",
+      "noarch": "python",
+      "sha256": "bae3315e09e0b06d4a9766f597ed6522578133f4b3f1f8f2d66b0d69f38b3afd",
+      "size": 62418,
+      "subdir": "noarch",
+      "timestamp": 1607969937636,
+      "version": "1.24.0"
+    },
     "google-auth-oauthlib-0.4.1-py_2.conda": {
       "build": "py_2",
       "build_number": 2,
@@ -65309,6 +65941,30 @@
       "subdir": "noarch",
       "timestamp": 1606083843203,
       "version": "1.33.0"
+    },
+    "google-cloud-storage-1.34.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "google-auth >=1.11.0,<2.0dev",
+        "google-cloud-core >=1.4.1,<2.0dev",
+        "google-crc32c",
+        "google-resumable-media >=1.0.0,<2.0dev",
+        "python",
+        "requests >=2.18.0,<3.0.0dev",
+        "yarl <1.6.0,>=1.0",
+        "yarl >=1.0,<1.6.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "ff4310f394aa3f0c3357e1a4c4370806",
+      "name": "google-cloud-storage",
+      "noarch": "python",
+      "sha256": "37e9edec2a31668cefc5a265da00479e46622528a602ae73dc55964323c49559",
+      "size": 67000,
+      "subdir": "noarch",
+      "timestamp": 1607970208002,
+      "version": "1.34.0"
     },
     "google-pasta-0.1.7-py_0.conda": {
       "build": "py_0",
@@ -66808,6 +67464,22 @@
       "subdir": "noarch",
       "timestamp": 1603214054081,
       "version": "3.1.0"
+    },
+    "humanize-3.2.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "MIT",
+      "md5": "37ea24e6ee5570f907b0f4e051fd87ca",
+      "name": "humanize",
+      "noarch": "python",
+      "sha256": "94f49850d84926830d6c567a352bc69e208d9afb13b9aa9e3b6f304b4bb583d4",
+      "size": 39494,
+      "subdir": "noarch",
+      "timestamp": 1607970312441,
+      "version": "3.2.0"
     },
     "hvplot-0.4.0-py_0.conda": {
       "build": "py_0",
@@ -69195,6 +69867,23 @@
       "subdir": "noarch",
       "timestamp": 1601912935875,
       "version": "0.17.0"
+    },
+    "joblib-1.0.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "setuptools"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "1a7e7d209b6cf04bfe9506f70ea593a6",
+      "name": "joblib",
+      "noarch": "python",
+      "sha256": "cc9f58f1f3744beacac4d574bdea9eebc0f419c147ab8e0adee7a571763ade5f",
+      "size": 213459,
+      "subdir": "noarch",
+      "timestamp": 1607970691266,
+      "version": "1.0.0"
     },
     "jpackage-utils-cos6-i686-1.7.5-h1c0cc2e_0.conda": {
       "build": "h1c0cc2e_0",
@@ -72806,6 +73495,28 @@
       "timestamp": 1594371127546,
       "version": "2.3.0"
     },
+    "mapclassify-2.4.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "networkx",
+        "numpy >=1.3",
+        "pandas >=1.0",
+        "python >=3.5",
+        "scikit-learn",
+        "scipy >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "eda3726dd1e2d400228aacfc60088e13",
+      "name": "mapclassify",
+      "noarch": "python",
+      "sha256": "9d1f7c181a3e28aac5fa1250ab3152016d5100e7f53aab569b43bd49114e73c6",
+      "size": 36875,
+      "subdir": "noarch",
+      "timestamp": 1607971402975,
+      "version": "2.4.0"
+    },
     "markdown2-2.3.10-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -74251,6 +74962,24 @@
       "timestamp": 1603378397148,
       "version": "3.3.2"
     },
+    "mpl_sample_data-3.3.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib-base >=3.3.2,<3.4.0a0",
+        "python"
+      ],
+      "license": "LicenseRef-PSF-based",
+      "license_family": "PSF",
+      "md5": "7ac14c4698b6b69ca2eb54b9703e7ad0",
+      "name": "mpl_sample_data",
+      "noarch": "python",
+      "sha256": "0a8e4f55b20344f4a9f5393ff6890d795a0dda9029e9d826c6094a67e0a75c1c",
+      "size": 1830882,
+      "subdir": "noarch",
+      "timestamp": 1607957681668,
+      "version": "3.3.2"
+    },
     "msgpack-numpy-0.4.4.3-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -75239,6 +75968,23 @@
       "subdir": "noarch",
       "timestamp": 1607368077579,
       "version": "0.6.10"
+    },
+    "nuitka-0.6.10.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "b8581dadd53dd8400075c51a2440cc26",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "af919d2529b17b7abcd34bc362d25a761299c8b893818debae2358e775db774b",
+      "size": 997082,
+      "subdir": "noarch",
+      "timestamp": 1607971642835,
+      "version": "0.6.10.1"
     },
     "nuitka-0.6.9.1-py_0.conda": {
       "build": "py_0",
@@ -76308,6 +77054,24 @@
       "subdir": "noarch",
       "timestamp": 1606930884327,
       "version": "20.7"
+    },
+    "packaging-20.8-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pyparsing >=2.0.2",
+        "python",
+        "six"
+      ],
+      "license": "Apache 2.0 or BSD 2-Clause",
+      "md5": "d402baf8ff8b836c34609f6b572438b2",
+      "name": "packaging",
+      "noarch": "python",
+      "sha256": "bce8c3be3ce12043f473a216ff48b685ef1fa53b4cb3d22b970cdb75f4608702",
+      "size": 36647,
+      "subdir": "noarch",
+      "timestamp": 1607971758191,
+      "version": "20.8"
     },
     "palettable-3.1.1-py_0.conda": {
       "build": "py_0",
@@ -79562,6 +80326,22 @@
       "timestamp": 1600458082296,
       "version": "0.6.2"
     },
+    "py-1.10.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=2.7"
+      ],
+      "license": "MIT",
+      "md5": "b0af4a71b430f3700de3ea0ab3bd9771",
+      "name": "py",
+      "noarch": "python",
+      "sha256": "7fd76d5a09c63a552d6d3fc1b176bf53ef8d476190ba00a6648bc65acfe385af",
+      "size": 77899,
+      "subdir": "noarch",
+      "timestamp": 1607971620561,
+      "version": "1.10.0"
+    },
     "py-1.8.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -81964,6 +82744,24 @@
       "timestamp": 1607369199076,
       "version": "3.1.0"
     },
+    "pytest-html-3.1.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=5.0,!=6.0.0",
+        "pytest-metadata",
+        "python >=3.6"
+      ],
+      "license": "MPL-2.0",
+      "md5": "4177f4156767c3100e212603c42c5511",
+      "name": "pytest-html",
+      "noarch": "python",
+      "sha256": "af0ada22b317577738b8a1128c61a7377b36148de7985893ffe30ccf454f6706",
+      "size": 17338,
+      "subdir": "noarch",
+      "timestamp": 1607972321317,
+      "version": "3.1.1"
+    },
     "pytest-json-0.4.0-py_1.conda": {
       "build": "py_1",
       "build_number": 1,
@@ -82485,6 +83283,24 @@
       "timestamp": 1603289691991,
       "version": "0.3.2"
     },
+    "pytest-subtests-0.4.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=4.4.0",
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e3eb603eaa8e813f39181f9c7a493a56",
+      "name": "pytest-subtests",
+      "noarch": "python",
+      "sha256": "b5e730c0f59334036b72c864cee5af08e9215272b35ac0a9753946f623f5a8d6",
+      "size": 12166,
+      "subdir": "noarch",
+      "timestamp": 1607972408943,
+      "version": "0.4.0"
+    },
     "pytest-timeout-1.3.4-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -82755,6 +83571,28 @@
       "subdir": "noarch",
       "timestamp": 1598373526094,
       "version": "2.1.0"
+    },
+    "pytest-xdist-2.2.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "psutil >=3.0"
+      ],
+      "depends": [
+        "execnet >=1.1",
+        "pytest >=6.0.0",
+        "pytest-forked",
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "md5": "c4eac926d38f2fa9c1082e4273f31cf7",
+      "name": "pytest-xdist",
+      "noarch": "python",
+      "sha256": "9e4361212f38f23da5eae4cabb5357c652881dbd0f19c36ebe3f9b8f47f28cb3",
+      "size": 32460,
+      "subdir": "noarch",
+      "timestamp": 1607972426239,
+      "version": "2.2.0"
     },
     "python-clang-10.0.0-default_h6bfbf51_0.conda": {
       "build": "default_h6bfbf51_0",
@@ -83601,6 +84439,37 @@
       "timestamp": 1606518154710,
       "version": "0.36.1"
     },
+    "python-language-server-0.36.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "autopep8",
+        "flake8 >=3.8.0",
+        "jedi >=0.17.2,<0.18.0a0",
+        "mccabe >=0.6.0,<0.7.0",
+        "pluggy",
+        "pycodestyle >=2.6.0,<2.7.0",
+        "pydocstyle >=2.0.0",
+        "pyflakes >=2.2.0,<2.3.0",
+        "pylint >=2.5.0",
+        "python >=3.6",
+        "python-jsonrpc-server >=0.4.0",
+        "rope >=0.10.5",
+        "setuptools",
+        "ujson >=3.0",
+        "yapf"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "8ecfba3c1ae04ebd2c5f07c7a289d347",
+      "name": "python-language-server",
+      "noarch": "python",
+      "sha256": "a30db8f0d6844bbaee87c0ea2f27f5616aafdaebb4b5ddd07d775f5dfe733a5d",
+      "size": 42235,
+      "subdir": "noarch",
+      "timestamp": 1607972539592,
+      "version": "0.36.2"
+    },
     "python-libarchive-c-2.9-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -83929,6 +84798,27 @@
       "subdir": "noarch",
       "timestamp": 1607546969553,
       "version": "5.0.1"
+    },
+    "python-socketio-5.0.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a5d063fb01eb1980cc1a52e5b3567a8f",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "a0c74b414f3ddd926edeea6e3dd24226fc54b8b25092bb207b145a8d52277896",
+      "size": 31447,
+      "subdir": "noarch",
+      "timestamp": 1607972586718,
+      "version": "5.0.2"
     },
     "python-tzdata-2020.1-py_0.conda": {
       "build": "py_0",
@@ -86685,6 +87575,26 @@
       "timestamp": 1606865024193,
       "version": "0.11.5"
     },
+    "setuptools-rust-0.11.6-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5",
+        "semantic_version >=2.6.0",
+        "setuptools >=41",
+        "toml >=0.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "25a5f4383f0bccf9541cfb1a57c059aa",
+      "name": "setuptools-rust",
+      "noarch": "python",
+      "sha256": "32c0886a726270dc36db533e01c5c24cc97c9d292bae2fb4c680565ff89ba765",
+      "size": 20317,
+      "subdir": "noarch",
+      "timestamp": 1607972886532,
+      "version": "0.11.6"
+    },
     "setuptools-scm-3.5.0-py_1.conda": {
       "build": "py_1",
       "build_number": 1,
@@ -86718,6 +87628,23 @@
       "subdir": "noarch",
       "timestamp": 1593435668046,
       "version": "4.1.2"
+    },
+    "setuptools-scm-5.0.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "md5": "3e2984c29191a3cc1336b41b33323720",
+      "name": "setuptools-scm",
+      "noarch": "python",
+      "sha256": "40d5c891d51ee978b3d1046960b59a0c001d7cc967edbb4076bf28aebbf4e98e",
+      "size": 28323,
+      "subdir": "noarch",
+      "timestamp": 1607972901586,
+      "version": "5.0.1"
     },
     "setuptools-scm-git-archive-1.1-0.conda": {
       "build": "0",
@@ -86819,6 +87746,22 @@
       "subdir": "noarch",
       "timestamp": 1593435669449,
       "version": "4.1.2"
+    },
+    "setuptools_scm-5.0.1-hd3eb1b0_0.conda": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "setuptools-scm >=5.0.1,<5.0.2.0a0"
+      ],
+      "license": "MIT",
+      "md5": "fd176435873ff52152523bc26ac2a5a1",
+      "name": "setuptools_scm",
+      "noarch": "generic",
+      "sha256": "2ea695cad5ef6954c05205eb8b022c7108da77c3fa03489ff576ce641632f868",
+      "size": 4438,
+      "subdir": "noarch",
+      "timestamp": 1607972902821,
+      "version": "5.0.1"
     },
     "shellingham-1.3.1-py_0.conda": {
       "build": "py_0",
@@ -87462,6 +88405,23 @@
       "subdir": "noarch",
       "timestamp": 1590081281472,
       "version": "2.0.1"
+    },
+    "soupsieve-2.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "beautifulsoup4",
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "md5": "a65dee706b85af42088f5b4f7575fa2d",
+      "name": "soupsieve",
+      "noarch": "python",
+      "sha256": "29f0a3cbaefbd0c99603687b4dfaf1e94d15f49ceee7d638331196b784176865",
+      "size": 31891,
+      "subdir": "noarch",
+      "timestamp": 1607965911255,
+      "version": "2.1"
     },
     "spaghetti-1.4.1-py_0.conda": {
       "build": "py_0",
@@ -90416,6 +91376,25 @@
       "timestamp": 1607369897000,
       "version": "2020.12.4"
     },
+    "tifffile-2020.12.8-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "imagecodecs",
+        "numpy >=1.15.1",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "7eb184d1a375c1785b9369ee932456f5",
+      "name": "tifffile",
+      "noarch": "python",
+      "sha256": "39a071d7de6938987bcad430bcee4c11dcac719776a7d20b1e62566003d9ecf9",
+      "size": 130065,
+      "subdir": "noarch",
+      "timestamp": 1607624060199,
+      "version": "2020.12.8"
+    },
     "tobler-0.2.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -91847,6 +92826,25 @@
       "timestamp": 1598413545233,
       "version": "1.12.4"
     },
+    "visvis-1.13.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "numpy",
+        "pyopengl",
+        "python"
+      ],
+      "license": "BSD 3-Clause",
+      "license_family": "BSD",
+      "md5": "692604438770c923b5414239870a09bb",
+      "name": "visvis",
+      "noarch": "python",
+      "sha256": "050afeceec148f03114e7e60942bb66e3d133aecc07f26ac8edb541a8f10d915",
+      "size": 4530787,
+      "subdir": "noarch",
+      "timestamp": 1607973296611,
+      "version": "1.13.0"
+    },
     "w3lib-1.21.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -92276,6 +93274,22 @@
       "subdir": "noarch",
       "timestamp": 1607370148773,
       "version": "0.36.1"
+    },
+    "wheel-0.36.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "31029affc034e8c7203202417cebd157",
+      "name": "wheel",
+      "noarch": "python",
+      "sha256": "1ace8eb47d5fd0cc9eb98f865220ae0e54874f9d365f123c0c66aa879d8d4c9f",
+      "size": 33337,
+      "subdir": "noarch",
+      "timestamp": 1607973297157,
+      "version": "0.36.2"
     },
     "whoosh-2.7.4-py_1.conda": {
       "build": "py_1",
