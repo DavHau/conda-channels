@@ -4478,6 +4478,46 @@
       "timestamp": 1607703005061,
       "version": "1.16.34"
     },
+    "boto3-1.16.35-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.35,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "bfa840df552d0aba74e2f204ec3c793f",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "2132f0d6d26dd6904cde8070a297ed2ec4b97c1c262abc30974d80e576ddbc19",
+      "size": 71891,
+      "subdir": "noarch",
+      "timestamp": 1608049974743,
+      "version": "1.16.35"
+    },
+    "boto3-1.16.36-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.36,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "48dd317a457565d373db3ba04905bc78",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "d7a349f4ad7361841fb8910a353aa67a33e3800938ec5e57d7a077b9ac63cb0c",
+      "size": 72074,
+      "subdir": "noarch",
+      "timestamp": 1608071327998,
+      "version": "1.16.36"
+    },
     "boto3-1.16.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -6191,6 +6231,27 @@
       "timestamp": 1607968948117,
       "version": "1.19.35"
     },
+    "botocore-1.19.36-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "6ffdd2b958ed3a85bb7ba9a7f2e262fc",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "0a49f158fdcaf3fb47a6158bf83df2e8c9570749a4b652168a5bbe296a61d7f9",
+      "size": 4568340,
+      "subdir": "noarch",
+      "timestamp": 1608055263664,
+      "version": "1.19.36"
+    },
     "botocore-1.19.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -7436,6 +7497,27 @@
       "subdir": "noarch",
       "timestamp": 1606156137071,
       "version": "0.1.4"
+    },
+    "clickhouse-sqlalchemy-0.1.5-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "clickhouse-driver >=0.0.14",
+        "python",
+        "requests",
+        "six",
+        "sqlalchemy"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5eec1926e7483aaef796adfaf7f6b29b",
+      "name": "clickhouse-sqlalchemy",
+      "noarch": "python",
+      "sha256": "c2fcad6571416d2bf770f0c09ecd76a8ee540a599d0179fbd1e778de240e456d",
+      "size": 31835,
+      "subdir": "noarch",
+      "timestamp": 1608055580495,
+      "version": "0.1.5"
     },
     "clikit-0.4.1-py_1.tar.bz2": {
       "build": "py_1",
@@ -18092,6 +18174,24 @@
       "timestamp": 1606934173182,
       "version": "1.4.4"
     },
+    "google-cloud-core-1.5.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "google-api-core >=1.19.0,<2.0.0dev",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "553d771f7f73191ce73be501ffdc9af5",
+      "name": "google-cloud-core",
+      "noarch": "python",
+      "sha256": "35b9900f420cc57693be59998655446f90c1692180e5d9bb5fc45d5b8779dea5",
+      "size": 26393,
+      "subdir": "noarch",
+      "timestamp": 1608056132544,
+      "version": "1.5.0"
+    },
     "google-cloud-storage-1.27.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -18427,6 +18527,27 @@
       "subdir": "noarch",
       "timestamp": 1601995673914,
       "version": "1.1.0"
+    },
+    "google-resumable-media-1.2.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "constrains": [
+        "requests >=2.18.0,<3.0.0dev"
+      ],
+      "depends": [
+        "python",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "a380cedb0fdaa5301d4d2c3d237277a0",
+      "name": "google-resumable-media",
+      "noarch": "python",
+      "sha256": "f7f9ecccadcc2297becf323de8fdbbad0b77023bf55b77ba4f0b808c3ed81769",
+      "size": 43969,
+      "subdir": "noarch",
+      "timestamp": 1608056288586,
+      "version": "1.2.0"
     },
     "gperf-cos6-x86_64-3.0.3-h3be4c48_0.tar.bz2": {
       "build": "h3be4c48_0",
@@ -35272,6 +35393,25 @@
       "timestamp": 1606517907867,
       "version": "20.0.0"
     },
+    "pyopenssl-20.0.1-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "cryptography >=2.8",
+        "python",
+        "six >=1.5.2"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "525075d4b015206933ba28ceb5163d63",
+      "name": "pyopenssl",
+      "noarch": "python",
+      "sha256": "23777ed5961a0474951fccde25e5e74d644db40a59fa8d5df2e263eeb2f0aebd",
+      "size": 49074,
+      "subdir": "noarch",
+      "timestamp": 1608057995890,
+      "version": "20.0.1"
+    },
     "pypandoc-1.4-py_1.tar.bz2": {
       "build": "py_1",
       "build_number": 1,
@@ -36643,6 +36783,24 @@
       "subdir": "noarch",
       "timestamp": 1601659321544,
       "version": "3.3.1"
+    },
+    "pytest-mock-3.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=2.7",
+        "python >=3.5",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "md5": "45f58271a103c9883c4df7579b7d9bca",
+      "name": "pytest-mock",
+      "noarch": "python",
+      "sha256": "582681b30e31f6322eaa2ed344cd4ae65d1085d2eaa4af4217558f49bbc87395",
+      "size": 19535,
+      "subdir": "noarch",
+      "timestamp": 1608058160798,
+      "version": "3.4.0"
     },
     "pytest-openfiles-0.4.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -38546,6 +38704,27 @@
       "timestamp": 1607972586718,
       "version": "5.0.2"
     },
+    "python-socketio-5.0.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "878c00fa53ed3a96d74a67c4f019b58e",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "a1015554e37289e70c72a66cc4589cef296c6850c3813b8d8da138ea3bc19693",
+      "size": 32717,
+      "subdir": "noarch",
+      "timestamp": 1608058274674,
+      "version": "5.0.3"
+    },
     "python-tzdata-2020.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -40437,6 +40616,25 @@
       "subdir": "noarch",
       "timestamp": 1600553110421,
       "version": "0.5.1"
+    },
+    "s3fs-0.5.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "aiobotocore",
+        "botocore",
+        "fsspec >=0.8.0",
+        "python >=3.6"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "d75c26aeef9a1f0131636fa88c103df7",
+      "name": "s3fs",
+      "noarch": "python",
+      "sha256": "92fb4fcde8571ea0350eb98b96a2c80b2115a46e3e90bf9c146fb5fce1b62323",
+      "size": 23447,
+      "subdir": "noarch",
+      "timestamp": 1608058421856,
+      "version": "0.5.2"
     },
     "s3transfer-0.3.3-pyhd3eb1b0_3.tar.bz2": {
       "build": "pyhd3eb1b0_3",
@@ -47346,6 +47544,23 @@
       "timestamp": 1573662561270,
       "version": "1.2.0"
     },
+    "xlrd-2.0.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD 3-Clause and BSD with advertising",
+      "license_family": "BSD",
+      "md5": "9b4bf6b3a138e052c69afe906cdf54ae",
+      "name": "xlrd",
+      "noarch": "python",
+      "sha256": "749288f9ff0a29c1b7b5f42797a06a6718aab6b968e56208b01d30b68fb9021c",
+      "size": 94380,
+      "subdir": "noarch",
+      "timestamp": 1608072552786,
+      "version": "2.0.1"
+    },
     "xlsxwriter-1.1.6-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -52606,6 +52821,46 @@
       "timestamp": 1607703005061,
       "version": "1.16.34"
     },
+    "boto3-1.16.35-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.35,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "121c4548ceb829c2f20e1a241466eb67",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "2c46af96c23780910dd5235d4269de1fd65b9955134c5ae9a8486049977b95d2",
+      "size": 71887,
+      "subdir": "noarch",
+      "timestamp": 1608049974743,
+      "version": "1.16.35"
+    },
+    "boto3-1.16.36-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.36,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "b2ef05526e9b50988f6a0876973e91ec",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "1987d38770633ee6364f2fceb4ae69cdd85d68a2f9d2b4cd2128b1b95c19bccc",
+      "size": 72085,
+      "subdir": "noarch",
+      "timestamp": 1608071327998,
+      "version": "1.16.36"
+    },
     "boto3-1.16.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -54319,6 +54574,27 @@
       "timestamp": 1607968948117,
       "version": "1.19.35"
     },
+    "botocore-1.19.36-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "5f35e761b5fdcd3d1aeb7bf0a435a2b0",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "46926d8cc626bf24e04b4fa177a8d5286056987ac92247356871fb9dff2d75f7",
+      "size": 3589976,
+      "subdir": "noarch",
+      "timestamp": 1608055263664,
+      "version": "1.19.36"
+    },
     "botocore-1.19.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -55477,6 +55753,27 @@
       "subdir": "noarch",
       "timestamp": 1606156137071,
       "version": "0.1.4"
+    },
+    "clickhouse-sqlalchemy-0.1.5-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "clickhouse-driver >=0.0.14",
+        "python",
+        "requests",
+        "six",
+        "sqlalchemy"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "30430c51d228acdcf6adbda396bdb179",
+      "name": "clickhouse-sqlalchemy",
+      "noarch": "python",
+      "sha256": "ae7e8e84965962a4b8d5b8eda5cd49ce7862d92aa99d0cdadff03df27869e443",
+      "size": 33162,
+      "subdir": "noarch",
+      "timestamp": 1608055580495,
+      "version": "0.1.5"
     },
     "clikit-0.4.1-py_1.conda": {
       "build": "py_1",
@@ -65789,6 +66086,24 @@
       "timestamp": 1606934173182,
       "version": "1.4.4"
     },
+    "google-cloud-core-1.5.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "google-api-core >=1.19.0,<2.0.0dev",
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "23f53ec84ca081dadbe017e512e52985",
+      "name": "google-cloud-core",
+      "noarch": "python",
+      "sha256": "00783e1e3b66549f7184e26758d26ab00f834a3d020bd5e13f70a63853ec850f",
+      "size": 25380,
+      "subdir": "noarch",
+      "timestamp": 1608056132544,
+      "version": "1.5.0"
+    },
     "google-cloud-storage-1.27.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -66124,6 +66439,27 @@
       "subdir": "noarch",
       "timestamp": 1601995673914,
       "version": "1.1.0"
+    },
+    "google-resumable-media-1.2.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "constrains": [
+        "requests >=2.18.0,<3.0.0dev"
+      ],
+      "depends": [
+        "python",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "edda6486aaa23709492ac08d0124b4ee",
+      "name": "google-resumable-media",
+      "noarch": "python",
+      "sha256": "f782023c9e1777ba5d023f087fcb1c3c0b0f431ec49035c8c01e160b9df05e83",
+      "size": 41727,
+      "subdir": "noarch",
+      "timestamp": 1608056288586,
+      "version": "1.2.0"
     },
     "gperf-cos6-x86_64-3.0.3-h3be4c48_0.conda": {
       "build": "h3be4c48_0",
@@ -81546,6 +81882,25 @@
       "timestamp": 1606517907867,
       "version": "20.0.0"
     },
+    "pyopenssl-20.0.1-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "cryptography >=2.8",
+        "python",
+        "six >=1.5.2"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "ac62ddccf2e89f7a35867b2478a278af",
+      "name": "pyopenssl",
+      "noarch": "python",
+      "sha256": "b85bc153d977c4a950e58a767df11b4153d681fcef023233006320731cf1ddc1",
+      "size": 50088,
+      "subdir": "noarch",
+      "timestamp": 1608057995890,
+      "version": "20.0.1"
+    },
     "pypandoc-1.4-py_1.conda": {
       "build": "py_1",
       "build_number": 1,
@@ -82917,6 +83272,24 @@
       "subdir": "noarch",
       "timestamp": 1601659321544,
       "version": "3.3.1"
+    },
+    "pytest-mock-3.4.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "pytest >=2.7",
+        "python >=3.5",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "md5": "6134aa31eb3d3cc7a94f8693c841d117",
+      "name": "pytest-mock",
+      "noarch": "python",
+      "sha256": "21e04fd8d5b3d467ec6ac453b840d821f7e9654d56d609564c4f14a9e9030d26",
+      "size": 20720,
+      "subdir": "noarch",
+      "timestamp": 1608058160798,
+      "version": "3.4.0"
     },
     "pytest-openfiles-0.4.0-py_0.conda": {
       "build": "py_0",
@@ -84820,6 +85193,27 @@
       "timestamp": 1607972586718,
       "version": "5.0.2"
     },
+    "python-socketio-5.0.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a611bae058e265e2938836a8e32b06be",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "f7bc7732d8f046c67f4dc74ba6452b3c02415386791e12de5bd3b7d4d141a814",
+      "size": 31477,
+      "subdir": "noarch",
+      "timestamp": 1608058274674,
+      "version": "5.0.3"
+    },
     "python-tzdata-2020.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -86711,6 +87105,25 @@
       "subdir": "noarch",
       "timestamp": 1600553110421,
       "version": "0.5.1"
+    },
+    "s3fs-0.5.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "aiobotocore",
+        "botocore",
+        "fsspec >=0.8.0",
+        "python >=3.6"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "9a0cdb83517ea26bff2958f6a103cd6d",
+      "name": "s3fs",
+      "noarch": "python",
+      "sha256": "0774cf3d0f3f545b61fc38b354679e3c12475e462cdf9c8b849121b8a807c031",
+      "size": 25044,
+      "subdir": "noarch",
+      "timestamp": 1608058421856,
+      "version": "0.5.2"
     },
     "s3transfer-0.3.3-pyhd3eb1b0_3.conda": {
       "build": "pyhd3eb1b0_3",
@@ -93566,6 +93979,23 @@
       "subdir": "noarch",
       "timestamp": 1573662561270,
       "version": "1.2.0"
+    },
+    "xlrd-2.0.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD 3-Clause and BSD with advertising",
+      "license_family": "BSD",
+      "md5": "a1b5a33a6098c182d359ecf7d73da6e1",
+      "name": "xlrd",
+      "noarch": "python",
+      "sha256": "588acd745446b989612a1dcea9af90a428da2ba01097d5adaaf0510e9488b299",
+      "size": 92286,
+      "subdir": "noarch",
+      "timestamp": 1608072552786,
+      "version": "2.0.1"
     },
     "xlsxwriter-1.1.6-py_0.conda": {
       "build": "py_0",
