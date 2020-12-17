@@ -63,6 +63,27 @@
       "timestamp": 1607109616151,
       "version": "1.1.2"
     },
+    "access-1.1.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "numpy >=1.3",
+        "pandas >=0.23.4",
+        "python >=3.5",
+        "requests >=2",
+        "scipy >=0.11"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c1b023d6c1bf7ccccff5dc2fc6cc2f86",
+      "name": "access",
+      "noarch": "python",
+      "sha256": "dbaf2353863ac1f1ca3d6aac686dd39ed5b0b06a6e1fb8f900d164d3d0b0c71e",
+      "size": 23488,
+      "subdir": "noarch",
+      "timestamp": 1608141466818,
+      "version": "1.1.3"
+    },
     "adal-1.2.4-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -6252,6 +6273,27 @@
       "timestamp": 1608055263664,
       "version": "1.19.36"
     },
+    "botocore-1.19.37-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "6a7de4f656f64dcf4690364849d1b3a8",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "1b0aec4b88418fff2df8432b9f0824dff7001c0205fbad9fca83a1c446f6b250",
+      "size": 4589607,
+      "subdir": "noarch",
+      "timestamp": 1608141796607,
+      "version": "1.19.37"
+    },
     "botocore-1.19.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -6994,6 +7036,35 @@
       "subdir": "noarch",
       "timestamp": 1607541414260,
       "version": "5.0.4"
+    },
+    "celery-5.0.5-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "sphinx >=2.0"
+      ],
+      "depends": [
+        "billiard >=3.6.3,<4.0",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "cryptography",
+        "future >=0.18.0",
+        "kombu >=4.6.10,<4.7",
+        "python",
+        "pytz",
+        "sqlalchemy",
+        "vine 1.3.0.*"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "ca3ae7b63bd4af8db27f98e5b964173c",
+      "name": "celery",
+      "noarch": "python",
+      "sha256": "65cb8ecb993b2400dbb9d90d63e7e972313ebdb3512909c39af2d9df0f60e16b",
+      "size": 444206,
+      "subdir": "noarch",
+      "timestamp": 1608142000947,
+      "version": "5.0.5"
     },
     "celery-redbeat-0.13.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -14514,6 +14585,24 @@
       "timestamp": 1564697349274,
       "version": "0.15"
     },
+    "fasteners-0.16-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "monotonic >=0.1",
+        "python",
+        "six"
+      ],
+      "license": "Apache 2.0",
+      "md5": "e8b408ec72314ab08bf60f2f182bbbd8",
+      "name": "fasteners",
+      "noarch": "python",
+      "sha256": "79a8f447e1b39c2ace1179cfd30551bd4cdb244ef53da035715cddd8cab14c0c",
+      "size": 26244,
+      "subdir": "noarch",
+      "timestamp": 1608142319863,
+      "version": "0.16"
+    },
     "filelock-3.0.12-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -16089,6 +16178,26 @@
       "subdir": "noarch",
       "timestamp": 1607534938642,
       "version": "4.18.1"
+    },
+    "fonttools-4.18.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "brotli",
+        "munkres",
+        "python",
+        "unicodedata2"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f9e414aca5723073d06ea01ec2c25747",
+      "name": "fonttools",
+      "noarch": "python",
+      "sha256": "28c86de7a17ee7079bf79665a0033bc7df476e00e6e2bd873f9a24dd5ed09586",
+      "size": 657808,
+      "subdir": "noarch",
+      "timestamp": 1608142506098,
+      "version": "4.18.2"
     },
     "freetype-cos6-i686-2.3.11-h85374aa_0.tar.bz2": {
       "build": "h85374aa_0",
@@ -18368,6 +18477,30 @@
       "subdir": "noarch",
       "timestamp": 1607970208002,
       "version": "1.34.0"
+    },
+    "google-cloud-storage-1.35.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "google-auth >=1.11.0,<2.0dev",
+        "google-cloud-core >=1.4.1,<2.0dev",
+        "google-crc32c",
+        "google-resumable-media >=1.0.0,<2.0dev",
+        "python",
+        "requests >=2.18.0,<3.0.0dev",
+        "yarl <1.6.0,>=1.0",
+        "yarl >=1.0,<1.6.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "003e2931f6a6b419b19bd63a2e18fe64",
+      "name": "google-cloud-storage",
+      "noarch": "python",
+      "sha256": "9fc417244da4e51078be43fed6b09fc79476ff8bdb89cee5afdfd495d36c113e",
+      "size": 67792,
+      "subdir": "noarch",
+      "timestamp": 1608139090446,
+      "version": "1.35.0"
     },
     "google-pasta-0.1.7-py_0.tar.bz2": {
       "build": "py_0",
@@ -32815,6 +32948,23 @@
       "timestamp": 1607368373631,
       "version": "8.12.14"
     },
+    "phonenumbers-8.12.15-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "a1e5ba59215f6eaebe859e8435ddc920",
+      "name": "phonenumbers",
+      "noarch": "python",
+      "sha256": "4f7089879bbf791758ce27f740a99058fbdbfa041c0fa73f4771b2392f48fc88",
+      "size": 1634278,
+      "subdir": "noarch",
+      "timestamp": 1608143940944,
+      "version": "8.12.15"
+    },
     "phonenumbers-8.12.9-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -35128,6 +35278,24 @@
       "subdir": "noarch",
       "timestamp": 1607553202686,
       "version": "0.2.1"
+    },
+    "pyls-spyder-0.3.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "python-language-server >=0.36.2"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e797704c207b1f817657a46236f3be86",
+      "name": "pyls-spyder",
+      "noarch": "python",
+      "sha256": "367ae32ce8d19f2d32ea32d09cbf4e45315a596ab3ff0bc14f33420ec8259798",
+      "size": 10151,
+      "subdir": "noarch",
+      "timestamp": 1608134212811,
+      "version": "0.3.0"
     },
     "pymc3-3.7-py_0.tar.bz2": {
       "build": "py_0",
@@ -45111,6 +45279,22 @@
       "timestamp": 1607623941052,
       "version": "6.16.0"
     },
+    "testfixtures-6.17.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "7e25368294ebc94ebcd31bc08ae2360c",
+      "name": "testfixtures",
+      "noarch": "python",
+      "sha256": "bde27a4f52665c4f0d616909c16e6562d53d1a8007acfe2b033fce4d8312182f",
+      "size": 72604,
+      "subdir": "noarch",
+      "timestamp": 1608144768715,
+      "version": "6.17.0"
+    },
     "testfixtures-6.6.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -48524,6 +48708,27 @@
       "subdir": "noarch",
       "timestamp": 1607109616151,
       "version": "1.1.2"
+    },
+    "access-1.1.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "numpy >=1.3",
+        "pandas >=0.23.4",
+        "python >=3.5",
+        "requests >=2",
+        "scipy >=0.11"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "6d0f8f5df7724dbf4071079c5f0350cd",
+      "name": "access",
+      "noarch": "python",
+      "sha256": "cb4018c4838376275cbc34904b8572fb3481e6e2a7fc588c92a492b32dd506fd",
+      "size": 23395,
+      "subdir": "noarch",
+      "timestamp": 1608141466818,
+      "version": "1.1.3"
     },
     "adal-1.2.4-py_0.conda": {
       "build": "py_0",
@@ -54595,6 +54800,27 @@
       "timestamp": 1608055263664,
       "version": "1.19.36"
     },
+    "botocore-1.19.37-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "1c39e73cb8d2bcecb64ab434add5cdb5",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "a14dfaccdd048637a4ecc3d17b68376a1d7154f7c0ce86d5c63f49fc8986b8b5",
+      "size": 3613780,
+      "subdir": "noarch",
+      "timestamp": 1608141796607,
+      "version": "1.19.37"
+    },
     "botocore-1.19.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -55264,6 +55490,35 @@
       "subdir": "noarch",
       "timestamp": 1607541414260,
       "version": "5.0.4"
+    },
+    "celery-5.0.5-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "constrains": [
+        "sphinx >=2.0"
+      ],
+      "depends": [
+        "billiard >=3.6.3,<4.0",
+        "click-didyoumean",
+        "click-plugins",
+        "click-repl",
+        "cryptography",
+        "future >=0.18.0",
+        "kombu >=4.6.10,<4.7",
+        "python",
+        "pytz",
+        "sqlalchemy",
+        "vine 1.3.0.*"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "ebae5e8db8eed5c119ae430fafa2115d",
+      "name": "celery",
+      "noarch": "python",
+      "sha256": "d16e9fd11e835d4c00b53eef59b8288a3210a60b56b7d3a6e53ee526a3f6c34d",
+      "size": 440057,
+      "subdir": "noarch",
+      "timestamp": 1608142000947,
+      "version": "5.0.5"
     },
     "celery-redbeat-0.13.0-py_0.conda": {
       "build": "py_0",
@@ -62670,6 +62925,24 @@
       "timestamp": 1564697349274,
       "version": "0.15"
     },
+    "fasteners-0.16-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "monotonic >=0.1",
+        "python",
+        "six"
+      ],
+      "license": "Apache 2.0",
+      "md5": "a7e12fd13f23a65bb01641d9388a0483",
+      "name": "fasteners",
+      "noarch": "python",
+      "sha256": "0e9c6a52d7cd0528037aa0cc6bd443d16c0458a9271590e535da251e730fff76",
+      "size": 24768,
+      "subdir": "noarch",
+      "timestamp": 1608142319863,
+      "version": "0.16"
+    },
     "filelock-3.0.12-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -64192,6 +64465,26 @@
       "subdir": "noarch",
       "timestamp": 1607534938642,
       "version": "4.18.1"
+    },
+    "fonttools-4.18.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "brotli",
+        "munkres",
+        "python",
+        "unicodedata2"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "78a9f2a1ba85739e8245f3eeb3f5e284",
+      "name": "fonttools",
+      "noarch": "python",
+      "sha256": "9361c25d6b9210c316b569845ab13fcfc987741012e37ab1d1680c12feed2b7a",
+      "size": 619120,
+      "subdir": "noarch",
+      "timestamp": 1608142506098,
+      "version": "4.18.2"
     },
     "freetype-cos6-i686-2.3.11-h85374aa_0.conda": {
       "build": "h85374aa_0",
@@ -66280,6 +66573,30 @@
       "subdir": "noarch",
       "timestamp": 1607970208002,
       "version": "1.34.0"
+    },
+    "google-cloud-storage-1.35.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "google-auth >=1.11.0,<2.0dev",
+        "google-cloud-core >=1.4.1,<2.0dev",
+        "google-crc32c",
+        "google-resumable-media >=1.0.0,<2.0dev",
+        "python",
+        "requests >=2.18.0,<3.0.0dev",
+        "yarl <1.6.0,>=1.0",
+        "yarl >=1.0,<1.6.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "a433ede8cd835e1afeef24c915e639b0",
+      "name": "google-cloud-storage",
+      "noarch": "python",
+      "sha256": "1bb360375c93dea947dc150adb2faaac576b1cb1022b969ca286429fe6b18705",
+      "size": 66684,
+      "subdir": "noarch",
+      "timestamp": 1608139090446,
+      "version": "1.35.0"
     },
     "google-pasta-0.1.7-py_0.conda": {
       "build": "py_0",
@@ -79338,6 +79655,23 @@
       "timestamp": 1607368373631,
       "version": "8.12.14"
     },
+    "phonenumbers-8.12.15-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "76a0a7116b1427f64c85b1c399401258",
+      "name": "phonenumbers",
+      "noarch": "python",
+      "sha256": "05940ad3638ed726a59c51a9ac1bcf98d9424f9a72d312750242398aaececc0e",
+      "size": 1426497,
+      "subdir": "noarch",
+      "timestamp": 1608143940944,
+      "version": "8.12.15"
+    },
     "phonenumbers-8.12.9-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -81617,6 +81951,24 @@
       "subdir": "noarch",
       "timestamp": 1607553202686,
       "version": "0.2.1"
+    },
+    "pyls-spyder-0.3.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "python-language-server >=0.36.2"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6e0b515800c110395f842c0698f84077",
+      "name": "pyls-spyder",
+      "noarch": "python",
+      "sha256": "2d0684aa2660db8912ae24576648e365f33f40b982a9153cdb1149a9183f9432",
+      "size": 10254,
+      "subdir": "noarch",
+      "timestamp": 1608134212811,
+      "version": "0.3.0"
     },
     "pymc3-3.7-py_0.conda": {
       "build": "py_0",
@@ -91580,6 +91932,22 @@
       "subdir": "noarch",
       "timestamp": 1607623941052,
       "version": "6.16.0"
+    },
+    "testfixtures-6.17.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "7ceb9f3764969ca01443402c2b28f4ee",
+      "name": "testfixtures",
+      "noarch": "python",
+      "sha256": "7f0992a8d65f155e351a6b15a0e4768bf71485622ee50c79e6a9e7c7d010067d",
+      "size": 74001,
+      "subdir": "noarch",
+      "timestamp": 1608144768715,
+      "version": "6.17.0"
     },
     "testfixtures-6.6.0-py_0.conda": {
       "build": "py_0",
