@@ -21418,6 +21418,23 @@
       "timestamp": 1593446603877,
       "version": "1.7.0"
     },
+    "importlib_metadata-1.7.0-hd3eb1b0_0.tar.bz2": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "importlib-metadata >=1.7.0,<1.7.1.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "3880d02f0ca1d10ddef9116a1ed13c6a",
+      "name": "importlib_metadata",
+      "noarch": "generic",
+      "sha256": "e6f109d5875614158570377bd167286cb503aaa5e522eeac08cdc65a1b3ee39d",
+      "size": 10945,
+      "subdir": "noarch",
+      "timestamp": 1608273560025,
+      "version": "1.7.0"
+    },
     "importlib_metadata-2.0.0-1.tar.bz2": {
       "build": "1",
       "build_number": 1,
@@ -69590,6 +69607,23 @@
       "size": 11293,
       "subdir": "noarch",
       "timestamp": 1593446603877,
+      "version": "1.7.0"
+    },
+    "importlib_metadata-1.7.0-hd3eb1b0_0.conda": {
+      "build": "hd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "importlib-metadata >=1.7.0,<1.7.1.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "fef27074285b0614be257d424f3ee4b3",
+      "name": "importlib_metadata",
+      "noarch": "generic",
+      "sha256": "74420baeb7f931c79ffdd98a70650dd05a1ee383d31bc8e413f90991253f092c",
+      "size": 11382,
+      "subdir": "noarch",
+      "timestamp": 1608273560025,
       "version": "1.7.0"
     },
     "importlib_metadata-2.0.0-1.conda": {
