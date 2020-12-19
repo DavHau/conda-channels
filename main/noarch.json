@@ -33325,6 +33325,23 @@
       "timestamp": 1505723907637,
       "version": "0.23"
     },
+    "plac-0.9.6-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD 2-Clause",
+      "license_family": "BSD",
+      "md5": "31df2b0cabb8fc8c1c58ea50266baec2",
+      "name": "plac",
+      "noarch": "python",
+      "sha256": "f803285294bc1f79034b15a8521184bc1e43b6fab33aaee96a42033e192436be",
+      "size": 20650,
+      "subdir": "noarch",
+      "timestamp": 1608319382824,
+      "version": "0.9.6"
+    },
     "plotly-3.10.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -80190,6 +80207,23 @@
       "subdir": "noarch",
       "timestamp": 1505723907637,
       "version": "0.23"
+    },
+    "plac-0.9.6-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD 2-Clause",
+      "license_family": "BSD",
+      "md5": "5133f9abd6d217111b7b013dce7ecd62",
+      "name": "plac",
+      "noarch": "python",
+      "sha256": "79af94f3f44d469c75f8fa5bd95212514e6a776a620bd32fd505d1f09e1ae360",
+      "size": 21908,
+      "subdir": "noarch",
+      "timestamp": 1608319382824,
+      "version": "0.9.6"
     },
     "plotly-3.10.0-py_0.conda": {
       "build": "py_0",
