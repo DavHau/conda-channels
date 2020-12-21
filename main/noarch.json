@@ -14842,6 +14842,24 @@
       "timestamp": 1601911462369,
       "version": "3.8.4"
     },
+    "flake8-polyfill-1.0.2-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "flake8",
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5498c1e5946529cffafeff1a3765ece2",
+      "name": "flake8-polyfill",
+      "noarch": "python",
+      "sha256": "be9435eb56c8a1df6ca03a6e1c92820a28d7373390211665e5a1cb854f34af2b",
+      "size": 9553,
+      "subdir": "noarch",
+      "timestamp": 1608500939708,
+      "version": "1.0.2"
+    },
     "flaky-3.6.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -63391,6 +63409,24 @@
       "subdir": "noarch",
       "timestamp": 1601911462369,
       "version": "3.8.4"
+    },
+    "flake8-polyfill-1.0.2-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "flake8",
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "baeec48bfd2ea9a64f5e21d711ee9ceb",
+      "name": "flake8-polyfill",
+      "noarch": "python",
+      "sha256": "9a17366eaf8872a98cc6e2701b969554c2f4ca1c8461e10783746e53a4cc2ec7",
+      "size": 9988,
+      "subdir": "noarch",
+      "timestamp": 1608500939708,
+      "version": "1.0.2"
     },
     "flaky-3.6.0-py_0.conda": {
       "build": "py_0",
