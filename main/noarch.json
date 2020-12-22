@@ -16032,6 +16032,29 @@
       "timestamp": 1600357680324,
       "version": "0.9.5"
     },
+    "flower-0.9.7-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "babel >=1.0",
+        "celery >=4.3.0,<5.0.0",
+        "humanize >=0.5.1",
+        "prometheus_client",
+        "python >=3.7",
+        "pytz",
+        "setuptools",
+        "tornado >=5.0.0,<7.0.0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "4a4691cbf4f7191613f26c58ca145019",
+      "name": "flower",
+      "noarch": "python",
+      "sha256": "391e567b375c3cda7dabb833c8a671acf9bed7676ff70b6a2b6c1babe0f12b57",
+      "size": 344953,
+      "subdir": "noarch",
+      "timestamp": 1608588988786,
+      "version": "0.9.7"
+    },
     "font-ttf-dejavu-sans-mono-2.37-h6964260_0.tar.bz2": {
       "build": "h6964260_0",
       "build_number": 0,
@@ -27526,6 +27549,22 @@
       "timestamp": 1545410506761,
       "version": "2.16.3"
     },
+    "marshmallow-3.10.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "md5": "913648c804f47cf023be05f006308c02",
+      "name": "marshmallow",
+      "noarch": "python",
+      "sha256": "3d0c73896aa20eaaaba643fafa3130e0984d3c926907237d10c1e3f679928231",
+      "size": 79199,
+      "subdir": "noarch",
+      "timestamp": 1608577416359,
+      "version": "3.10.0"
+    },
     "marshmallow-3.2.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -29994,6 +30033,23 @@
       "subdir": "noarch",
       "timestamp": 1607971642835,
       "version": "0.6.10.1"
+    },
+    "nuitka-0.6.10.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "7718ac54d99e4df045ad2ca3d58249d1",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "123f53550db2777b38acf7f9ffa417815101d86e0135c4fe49a08bb105004ae8",
+      "size": 1194549,
+      "subdir": "noarch",
+      "timestamp": 1608577737681,
+      "version": "0.6.10.2"
     },
     "nuitka-0.6.9.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -41495,6 +41551,27 @@
       "timestamp": 1600553611141,
       "version": "0.11.0"
     },
+    "seaborn-0.11.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib >=2.1.2",
+        "numpy >=1.13.3",
+        "pandas >=0.22.0",
+        "python >=3.6",
+        "scipy >=1.0.1"
+      ],
+      "license": "BSD 3-Clause",
+      "license_family": "BSD",
+      "md5": "eadb0b3f944f5e0128e0b1e70b971c4c",
+      "name": "seaborn",
+      "noarch": "python",
+      "sha256": "a6bc4ce9324f4ba7e03ccf32a5c38aaa37f6e2a76d9a7a30633bcc45affc5420",
+      "size": 222396,
+      "subdir": "noarch",
+      "timestamp": 1608578583840,
+      "version": "0.11.1"
+    },
     "seaborn-0.9.0-pyh91ea838_1.tar.bz2": {
       "build": "pyh91ea838_1",
       "build_number": 1,
@@ -43523,6 +43600,39 @@
       "subdir": "noarch",
       "timestamp": 1597428830511,
       "version": "3.2.1"
+    },
+    "sphinx-3.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "alabaster >=0.7,<0.8",
+        "babel >=1.3,!=2.0",
+        "colorama",
+        "docutils >=0.12",
+        "imagesize",
+        "jinja2 >=2.3",
+        "packaging",
+        "pygments >=2.0",
+        "python >=3.5",
+        "requests >=2.5.0",
+        "setuptools",
+        "snowballstemmer >=1.1",
+        "sphinxcontrib-applehelp",
+        "sphinxcontrib-devhelp",
+        "sphinxcontrib-htmlhelp",
+        "sphinxcontrib-jsmath",
+        "sphinxcontrib-qthelp",
+        "sphinxcontrib-serializinghtml"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "524aeea483b75b832aca7e09bd04c4a9",
+      "name": "sphinx",
+      "noarch": "python",
+      "sha256": "2438d9327dc85a6df848d624da9130448cf6a487dd52be9bebc7e7677fd86dbb",
+      "size": 1522389,
+      "subdir": "noarch",
+      "timestamp": 1608578762222,
+      "version": "3.4.0"
     },
     "sphinx_rtd_theme-0.4.3-py_0.tar.bz2": {
       "build": "py_0",
@@ -46811,6 +46921,22 @@
       "subdir": "noarch",
       "timestamp": 1569351724438,
       "version": "1.1.1"
+    },
+    "unidecode-1.1.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=2.7"
+      ],
+      "license": "GPL-2.0-or-later",
+      "md5": "3f34ba7f6a2049d4717b70a432000de7",
+      "name": "unidecode",
+      "noarch": "python",
+      "sha256": "32081fa2206e9c584c0caa70f3282dbbe288cc3978bcbecc0c82609fcc821a7b",
+      "size": 157292,
+      "subdir": "noarch",
+      "timestamp": 1608579722883,
+      "version": "1.1.2"
     },
     "unittest2-1.1.0-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -64600,6 +64726,29 @@
       "timestamp": 1600357680324,
       "version": "0.9.5"
     },
+    "flower-0.9.7-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "babel >=1.0",
+        "celery >=4.3.0,<5.0.0",
+        "humanize >=0.5.1",
+        "prometheus_client",
+        "python >=3.7",
+        "pytz",
+        "setuptools",
+        "tornado >=5.0.0,<7.0.0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "9c0a0ebfc5ddca76220bcd712e4aa681",
+      "name": "flower",
+      "noarch": "python",
+      "sha256": "7edc78ca1902e0c2740fcf8e559b5d6b99626f7c048ebe9a2ecd7797f429825d",
+      "size": 323733,
+      "subdir": "noarch",
+      "timestamp": 1608588988786,
+      "version": "0.9.7"
+    },
     "font-ttf-dejavu-sans-mono-2.37-h6964260_0.conda": {
       "build": "h6964260_0",
       "build_number": 0,
@@ -74673,6 +74822,22 @@
       "timestamp": 1545410506761,
       "version": "2.16.3"
     },
+    "marshmallow-3.10.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.5"
+      ],
+      "license": "MIT",
+      "md5": "c447aacdb3eca0eb0bbb6eb43a14525b",
+      "name": "marshmallow",
+      "noarch": "python",
+      "sha256": "624ad383a7ccc6eae28d9bac2fc7e749a4bef2e3224de3ab1cb3df280d5994f9",
+      "size": 83691,
+      "subdir": "noarch",
+      "timestamp": 1608577416359,
+      "version": "3.10.0"
+    },
     "marshmallow-3.2.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -77057,6 +77222,23 @@
       "subdir": "noarch",
       "timestamp": 1607971642835,
       "version": "0.6.10.1"
+    },
+    "nuitka-0.6.10.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "a08e03ce81207931a990ee5151853e84",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "7c852f68a08c4d43290537c29bd5015a0872f2e3416d311000c43b090ed17ef5",
+      "size": 995331,
+      "subdir": "noarch",
+      "timestamp": 1608577737681,
+      "version": "0.6.10.2"
     },
     "nuitka-0.6.9.1-py_0.conda": {
       "build": "py_0",
@@ -88396,6 +88578,27 @@
       "timestamp": 1600553611141,
       "version": "0.11.0"
     },
+    "seaborn-0.11.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "matplotlib >=2.1.2",
+        "numpy >=1.13.3",
+        "pandas >=0.22.0",
+        "python >=3.6",
+        "scipy >=1.0.1"
+      ],
+      "license": "BSD 3-Clause",
+      "license_family": "BSD",
+      "md5": "ffbd2d692d2acdc84f2cdbd2c66d1098",
+      "name": "seaborn",
+      "noarch": "python",
+      "sha256": "37a3d96b5cc0b888727f3cd2243f6ddf872a0be2431be17403ce225ade1d1187",
+      "size": 217146,
+      "subdir": "noarch",
+      "timestamp": 1608578583840,
+      "version": "0.11.1"
+    },
     "seaborn-0.9.0-pyh91ea838_1.conda": {
       "build": "pyh91ea838_1",
       "build_number": 1,
@@ -90424,6 +90627,39 @@
       "subdir": "noarch",
       "timestamp": 1597428830511,
       "version": "3.2.1"
+    },
+    "sphinx-3.4.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "alabaster >=0.7,<0.8",
+        "babel >=1.3,!=2.0",
+        "colorama",
+        "docutils >=0.12",
+        "imagesize",
+        "jinja2 >=2.3",
+        "packaging",
+        "pygments >=2.0",
+        "python >=3.5",
+        "requests >=2.5.0",
+        "setuptools",
+        "snowballstemmer >=1.1",
+        "sphinxcontrib-applehelp",
+        "sphinxcontrib-devhelp",
+        "sphinxcontrib-htmlhelp",
+        "sphinxcontrib-jsmath",
+        "sphinxcontrib-qthelp",
+        "sphinxcontrib-serializinghtml"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "6d742d7865fd30983410891b5ec5a49d",
+      "name": "sphinx",
+      "noarch": "python",
+      "sha256": "c5a527fe93b8b35eb2d811bd977dab43688074175bbac376edf71abfb84809b9",
+      "size": 1190126,
+      "subdir": "noarch",
+      "timestamp": 1608578762222,
+      "version": "3.4.0"
     },
     "sphinx_rtd_theme-0.4.3-py_0.conda": {
       "build": "py_0",
@@ -93693,6 +93929,22 @@
       "subdir": "noarch",
       "timestamp": 1569351724438,
       "version": "1.1.1"
+    },
+    "unidecode-1.1.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=2.7"
+      ],
+      "license": "GPL-2.0-or-later",
+      "md5": "c64b984421f319fd0a9f07c3a4ee1880",
+      "name": "unidecode",
+      "noarch": "python",
+      "sha256": "02226c0e1312176a2d00b0d1791eb2a890af3b4236bd7cb147f6c53bde02ea92",
+      "size": 158857,
+      "subdir": "noarch",
+      "timestamp": 1608579722883,
+      "version": "1.1.2"
     },
     "unittest2-1.1.0-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
