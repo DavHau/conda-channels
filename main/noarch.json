@@ -27526,6 +27526,28 @@
       "timestamp": 1607971402975,
       "version": "2.4.0"
     },
+    "mapclassify-2.4.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "networkx",
+        "numpy >=1.3",
+        "pandas >=1.0",
+        "python >=3.5",
+        "scikit-learn",
+        "scipy >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "234623721220418b2f7f7650803eb293",
+      "name": "mapclassify",
+      "noarch": "python",
+      "sha256": "fbe94eb82b6ecd97ce009b33f0a59f8e5818145d243572bcfc13a798c5a4c3d3",
+      "size": 36939,
+      "subdir": "noarch",
+      "timestamp": 1608756700698,
+      "version": "2.4.2"
+    },
     "markdown2-2.3.10-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -46001,6 +46023,33 @@
       "subdir": "noarch",
       "timestamp": 1597769014965,
       "version": "0.4.0"
+    },
+    "tobler-0.5.4-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "geopandas",
+        "libpysal >=4.2.0",
+        "numpy >=1.16",
+        "pandas",
+        "pyproj >=2",
+        "python >=3.5",
+        "rasterio",
+        "rasterstats",
+        "scipy",
+        "statsmodels",
+        "tqdm"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "a6110a10f5f4ab71282893c0ab95963b",
+      "name": "tobler",
+      "noarch": "python",
+      "sha256": "98c7203d2dc6948207c417c79fd702ee5bbdb53217c949d2bef07b01905736ff",
+      "size": 21349,
+      "subdir": "noarch",
+      "timestamp": 1608674363010,
+      "version": "0.5.4"
     },
     "toml-0.10.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -74860,6 +74909,28 @@
       "timestamp": 1607971402975,
       "version": "2.4.0"
     },
+    "mapclassify-2.4.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "networkx",
+        "numpy >=1.3",
+        "pandas >=1.0",
+        "python >=3.5",
+        "scikit-learn",
+        "scipy >=1.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "df5cf7fd3742730ad42efc3a2d15d303",
+      "name": "mapclassify",
+      "noarch": "python",
+      "sha256": "333540066079998dfe20fa44d1493ad8871492af85bd14a7d63325fcec9d1dd1",
+      "size": 36898,
+      "subdir": "noarch",
+      "timestamp": 1608756700698,
+      "version": "2.4.2"
+    },
     "markdown2-2.3.10-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -93070,6 +93141,33 @@
       "subdir": "noarch",
       "timestamp": 1597769014965,
       "version": "0.4.0"
+    },
+    "tobler-0.5.4-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "geopandas",
+        "libpysal >=4.2.0",
+        "numpy >=1.16",
+        "pandas",
+        "pyproj >=2",
+        "python >=3.5",
+        "rasterio",
+        "rasterstats",
+        "scipy",
+        "statsmodels",
+        "tqdm"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "4f036dd7b4d062e6e61c120fbdfd8326",
+      "name": "tobler",
+      "noarch": "python",
+      "sha256": "a41f204856d872a619a01ba51dadbcfc3bf92c51a2f153fc9a68e2bbfd33215f",
+      "size": 21690,
+      "subdir": "noarch",
+      "timestamp": 1608674363010,
+      "version": "0.5.4"
     },
     "toml-0.10.0-py_0.conda": {
       "build": "py_0",
