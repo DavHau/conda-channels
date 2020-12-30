@@ -22162,6 +22162,28 @@
       "timestamp": 1601490194859,
       "version": "7.5.1"
     },
+    "ipywidgets-7.6.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "ipykernel >=4.5.1",
+        "ipython >=4.0.0",
+        "nbformat >=4.2.0",
+        "python",
+        "traitlets >=4.3.1,<6.0.0",
+        "widgetsnbextension >=3.5.0,<3.6.0"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "2f1d5b514b878987625f5e29cfeb1b2d",
+      "name": "ipywidgets",
+      "noarch": "python",
+      "sha256": "818abe12ca5e1db24e9d45a393d932cfbc16fc37bcd2b2d0de8e11a1aa428aa7",
+      "size": 104074,
+      "subdir": "noarch",
+      "timestamp": 1608834406535,
+      "version": "7.6.0"
+    },
     "isodate-0.6.0-py_1.tar.bz2": {
       "build": "py_1",
       "build_number": 1,
@@ -30173,6 +30195,23 @@
       "subdir": "noarch",
       "timestamp": 1608577737681,
       "version": "0.6.10.2"
+    },
+    "nuitka-0.6.10.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "b4b3e9e1f67d0938cf796a681b59a8c0",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "9ad2629bc44c5925faf59a7c4fef8b08907fb30085c99df24567baa0f4796fc6",
+      "size": 1194821,
+      "subdir": "noarch",
+      "timestamp": 1608921609688,
+      "version": "0.6.10.3"
     },
     "nuitka-0.6.9.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -39280,6 +39319,27 @@
       "timestamp": 1608058274674,
       "version": "5.0.3"
     },
+    "python-socketio-5.0.4-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "84d855a7399d47ba25a1b3b7d03e97c5",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "1a75a0f878bd7a9ed96ae798f8e25b9d9f42be40b9b75efec815fd6030b69b90",
+      "size": 32967,
+      "subdir": "noarch",
+      "timestamp": 1609008520846,
+      "version": "5.0.4"
+    },
     "python-tzdata-2020.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -39327,6 +39387,22 @@
       "subdir": "noarch",
       "timestamp": 1606604787438,
       "version": "2020.4"
+    },
+    "python-tzdata-2020.5-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "md5": "dd5927ea01f13e7a538821960170c4e2",
+      "name": "python-tzdata",
+      "noarch": "python",
+      "sha256": "db4d4cedca650a4669e0ef6062ee641b82407478cb32cf58b34452f4abe27f4b",
+      "size": 155306,
+      "subdir": "noarch",
+      "timestamp": 1609008572273,
+      "version": "2020.5"
     },
     "python3-saml-1.9.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -39477,6 +39553,22 @@
       "subdir": "noarch",
       "timestamp": 1606604804335,
       "version": "2020.4"
+    },
+    "pytz-2020.5-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "929fde7fb16c9a94a3365693f407a641",
+      "name": "pytz",
+      "noarch": "python",
+      "sha256": "8bf0664383ac1fc1429b78f8dc20e005dfa3e7be0438bf9043e16933d0195988",
+      "size": 244873,
+      "subdir": "noarch",
+      "timestamp": 1608922300579,
+      "version": "2020.5"
     },
     "pytzdata-2019.3-py_0.tar.bz2": {
       "build": "py_0",
@@ -43757,6 +43849,39 @@
       "timestamp": 1608578762222,
       "version": "3.4.0"
     },
+    "sphinx-3.4.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "alabaster >=0.7,<0.8",
+        "babel >=1.3,!=2.0",
+        "colorama",
+        "docutils >=0.12",
+        "imagesize",
+        "jinja2 >=2.3",
+        "packaging",
+        "pygments >=2.0",
+        "python >=3.5",
+        "requests >=2.5.0",
+        "setuptools",
+        "snowballstemmer >=1.1",
+        "sphinxcontrib-applehelp",
+        "sphinxcontrib-devhelp",
+        "sphinxcontrib-htmlhelp",
+        "sphinxcontrib-jsmath",
+        "sphinxcontrib-qthelp",
+        "sphinxcontrib-serializinghtml"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "9f5202ed0a5c7872f1e450506289d8f9",
+      "name": "sphinx",
+      "noarch": "python",
+      "sha256": "488f542e5cbe489f563105518474a348bb103da5aa733803eeab8277cac062d3",
+      "size": 1521369,
+      "subdir": "noarch",
+      "timestamp": 1608836654768,
+      "version": "3.4.1"
+    },
     "sphinx_rtd_theme-0.4.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -46581,6 +46706,23 @@
       "subdir": "noarch",
       "timestamp": 1607369953968,
       "version": "4.54.1"
+    },
+    "tqdm-4.55.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=2.7"
+      ],
+      "license": "MPL-2.0 or MIT",
+      "license_family": "MOZILLA",
+      "md5": "04b06e055754a4b20facca8af245d92f",
+      "name": "tqdm",
+      "noarch": "python",
+      "sha256": "19545296bdc68690bd0a0e8fcb580ed39a87daabe0b9875e9ab131fd56687d38",
+      "size": 75049,
+      "subdir": "noarch",
+      "timestamp": 1608922793595,
+      "version": "4.55.0"
     },
     "traceback2-1.4.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -70664,6 +70806,28 @@
       "timestamp": 1601490194859,
       "version": "7.5.1"
     },
+    "ipywidgets-7.6.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "ipykernel >=4.5.1",
+        "ipython >=4.0.0",
+        "nbformat >=4.2.0",
+        "python",
+        "traitlets >=4.3.1,<6.0.0",
+        "widgetsnbextension >=3.5.0,<3.6.0"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "58ee3287e79222cdd74241b3cac33def",
+      "name": "ipywidgets",
+      "noarch": "python",
+      "sha256": "9673307a4b5f380f90c4a66127f368a5b96d78133db490059ee827fb8a188e25",
+      "size": 101004,
+      "subdir": "noarch",
+      "timestamp": 1608834406535,
+      "version": "7.6.0"
+    },
     "isodate-0.6.0-py_1.conda": {
       "build": "py_1",
       "build_number": 1,
@@ -77512,6 +77676,23 @@
       "subdir": "noarch",
       "timestamp": 1608577737681,
       "version": "0.6.10.2"
+    },
+    "nuitka-0.6.10.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "52716309ef64f02d77c8583eb7457a9a",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "2ab83544b44a510729ef9590d4a0908ba9ac3da0a98aa1a92f499a59fe0a31e7",
+      "size": 997486,
+      "subdir": "noarch",
+      "timestamp": 1608921609688,
+      "version": "0.6.10.3"
     },
     "nuitka-0.6.9.1-py_0.conda": {
       "build": "py_0",
@@ -86457,6 +86638,27 @@
       "timestamp": 1608058274674,
       "version": "5.0.3"
     },
+    "python-socketio-5.0.4-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict",
+        "python",
+        "python-engineio >=3.9.0",
+        "six >=1.9.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4a51bea28db156ea1094476136655e93",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "492578c0971ec242ccc78310f434e0aee97289dd15a2908ab3e3405e7b858918",
+      "size": 31638,
+      "subdir": "noarch",
+      "timestamp": 1609008520846,
+      "version": "5.0.4"
+    },
     "python-tzdata-2020.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -86504,6 +86706,22 @@
       "subdir": "noarch",
       "timestamp": 1606604787438,
       "version": "2020.4"
+    },
+    "python-tzdata-2020.5-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "md5": "a614091b49c938dc2693262fa978053a",
+      "name": "python-tzdata",
+      "noarch": "python",
+      "sha256": "6bd5dc863a899cdfaba1d78d64e692e70ef88147fe82060e628c24ae4a5a2dcc",
+      "size": 140999,
+      "subdir": "noarch",
+      "timestamp": 1609008572273,
+      "version": "2020.5"
     },
     "python3-saml-1.9.0-py_0.conda": {
       "build": "py_0",
@@ -86654,6 +86872,22 @@
       "subdir": "noarch",
       "timestamp": 1606604804335,
       "version": "2020.4"
+    },
+    "pytz-2020.5-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "md5": "cc864f05494b5085dfaa090ca3412a62",
+      "name": "pytz",
+      "noarch": "python",
+      "sha256": "e01acd113d48ed0517c7ec27ffed6386d1a403cd93a6dcd1fd154aa7a64afd6e",
+      "size": 186401,
+      "subdir": "noarch",
+      "timestamp": 1608922300579,
+      "version": "2020.5"
     },
     "pytzdata-2019.3-py_0.conda": {
       "build": "py_0",
@@ -90934,6 +91168,39 @@
       "timestamp": 1608578762222,
       "version": "3.4.0"
     },
+    "sphinx-3.4.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "alabaster >=0.7,<0.8",
+        "babel >=1.3,!=2.0",
+        "colorama",
+        "docutils >=0.12",
+        "imagesize",
+        "jinja2 >=2.3",
+        "packaging",
+        "pygments >=2.0",
+        "python >=3.5",
+        "requests >=2.5.0",
+        "setuptools",
+        "snowballstemmer >=1.1",
+        "sphinxcontrib-applehelp",
+        "sphinxcontrib-devhelp",
+        "sphinxcontrib-htmlhelp",
+        "sphinxcontrib-jsmath",
+        "sphinxcontrib-qthelp",
+        "sphinxcontrib-serializinghtml"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "7f0acc4107b4b76704c204e92d65f7d0",
+      "name": "sphinx",
+      "noarch": "python",
+      "sha256": "e29a541fdd29aa1e4279a9c80b455a16a6702eb6cc2f38bbfdb840f959f5195c",
+      "size": 1198677,
+      "subdir": "noarch",
+      "timestamp": 1608836654768,
+      "version": "3.4.1"
+    },
     "sphinx_rtd_theme-0.4.3-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -93739,6 +94006,23 @@
       "subdir": "noarch",
       "timestamp": 1607369953968,
       "version": "4.54.1"
+    },
+    "tqdm-4.55.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=2.7"
+      ],
+      "license": "MPL-2.0 or MIT",
+      "license_family": "MOZILLA",
+      "md5": "ab7a633aeab1baacaf14acb7c967144e",
+      "name": "tqdm",
+      "noarch": "python",
+      "sha256": "e2dfd9ac51852ec7736222d10aa4aa2d4d97f1661ba7776768f203419241516e",
+      "size": 78928,
+      "subdir": "noarch",
+      "timestamp": 1608922793595,
+      "version": "4.55.0"
     },
     "traceback2-1.4.0-py_0.conda": {
       "build": "py_0",
