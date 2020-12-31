@@ -30979,6 +30979,24 @@
       "timestamp": 1530612200972,
       "version": "2.14.19"
     },
+    "outcome-1.1.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.6"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6f1f69faff4210c67b1503bfcd491844",
+      "name": "outcome",
+      "noarch": "python",
+      "sha256": "2c80507a2d568a5630c995fb8ab65eb2e0825762597cb3613b0f0c2543759b6f",
+      "size": 14021,
+      "subdir": "noarch",
+      "timestamp": 1609338862484,
+      "version": "1.1.0"
+    },
     "owslib-0.17.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -78459,6 +78477,24 @@
       "subdir": "noarch",
       "timestamp": 1530612200972,
       "version": "2.14.19"
+    },
+    "outcome-1.1.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.6"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "35fe120094b2391b4fd3c0ab0a1bbbfd",
+      "name": "outcome",
+      "noarch": "python",
+      "sha256": "0e6309969e3ce27abd8284e408274e7af45d258a8aa1101e75fdc04f605f0483",
+      "size": 14222,
+      "subdir": "noarch",
+      "timestamp": 1609338862484,
+      "version": "1.1.0"
     },
     "owslib-0.17.1-py_0.conda": {
       "build": "py_0",
