@@ -2497,6 +2497,25 @@
       "timestamp": 1603204749528,
       "version": "0.15.2"
     },
+    "authlib-0.15.3-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "python",
+        "requests"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "a024994d9b352a12cf4b1a1fa33a30e7",
+      "name": "authlib",
+      "noarch": "python",
+      "sha256": "e346e029cc231b6edc49b85e808ddb3b67863c1996db562f35ac8ddb6d9370b4",
+      "size": 112559,
+      "subdir": "noarch",
+      "timestamp": 1610722946423,
+      "version": "0.15.3"
+    },
     "autoconf-archive-2018.03.13-1.tar.bz2": {
       "build": "1",
       "build_number": 1,
@@ -4963,6 +4982,26 @@
       "timestamp": 1610645534798,
       "version": "1.16.54"
     },
+    "boto3-1.16.55-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.55,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "425d3ac6ddb37eb05ff2a16eeacbfcc4",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "59d08959a503ff3167b3f5488708589e7cf483f2a15e41a40180ccbab12fab66",
+      "size": 72029,
+      "subdir": "noarch",
+      "timestamp": 1610728541322,
+      "version": "1.16.55"
+    },
     "boto3-1.16.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -7011,6 +7050,27 @@
       "subdir": "noarch",
       "timestamp": 1610638495933,
       "version": "1.19.54"
+    },
+    "botocore-1.19.55-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e6e6d8805a64b9f529bcda7a694012aa",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "d0de9a523ec0fa3d29bb98fde8d8c148ba403dc6b9718ca72b15287c3bcf0aa1",
+      "size": 4645563,
+      "subdir": "noarch",
+      "timestamp": 1610723194215,
+      "version": "1.19.55"
     },
     "botocore-1.19.6-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -21937,6 +21997,25 @@
       "timestamp": 1610563727100,
       "version": "6.0.1"
     },
+    "hypothesis-6.0.2-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.5",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL 2.0",
+      "license_family": "Other",
+      "md5": "6dbcebbb85c23711fe33742b11d6c3ed",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "af8e2fe2b206f55c534ac6a714bb3228697b873558d08bd93c964f55b74c1bfa",
+      "size": 235591,
+      "subdir": "noarch",
+      "timestamp": 1610736432948,
+      "version": "6.0.2"
+    },
     "icalendar-4.0.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -22779,6 +22858,27 @@
       "subdir": "noarch",
       "timestamp": 1602780332969,
       "version": "0.4.0"
+    },
+    "intake-xarray-0.4.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dask >=2.2",
+        "intake >=0.5.2",
+        "netcdf4",
+        "python >=3.5",
+        "xarray >=0.12.0",
+        "zarr"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "8cf277885b12b360d7469a071de5cf01",
+      "name": "intake-xarray",
+      "noarch": "python",
+      "sha256": "fa6db63e9de9abc9cd89660041cbc6d6057acd32685bdac4789667e3565cc861",
+      "size": 1501867,
+      "subdir": "noarch",
+      "timestamp": 1610736528052,
+      "version": "0.4.1"
     },
     "intervaltree-3.0.2-py_0.tar.bz2": {
       "build": "py_0",
@@ -31036,6 +31136,46 @@
       "timestamp": 1610664099043,
       "version": "5.1.1"
     },
+    "nbformat-5.1.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "ipython_genutils",
+        "jsonschema >=2.4,!=2.5.0",
+        "jupyter_core",
+        "python >=3.5",
+        "traitlets >=4.1"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "e3a8274750fa62c0bbc7fd832c27cb60",
+      "name": "nbformat",
+      "noarch": "python",
+      "sha256": "2166d7643b66687dbc0786e2b4b81e9f8a03e074e03f53a8086fcb4e942a6dd5",
+      "size": 67212,
+      "subdir": "noarch",
+      "timestamp": 1610739271296,
+      "version": "5.1.2"
+    },
+    "nbformat-5.1.2-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "ipython_genutils",
+        "jsonschema >=2.4,!=2.5.0",
+        "jupyter_core",
+        "python >=3.5",
+        "traitlets >=4.1"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "f2b2d5e1d9f8199f13a01b6e3e9e2a54",
+      "name": "nbformat",
+      "noarch": "python",
+      "sha256": "657204287691146cc99f0353ce283c9936f815ec5a27b29813bd88b44aa6c3ce",
+      "size": 71903,
+      "subdir": "noarch",
+      "timestamp": 1610738142887,
+      "version": "5.1.2"
+    },
     "nbsmoke-0.3.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -38566,6 +38706,25 @@
       "subdir": "noarch",
       "timestamp": 1598624136733,
       "version": "0.8.0"
+    },
+    "pytest-doctestplus-0.9.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "numpy >=1.10",
+        "pytest >=4.0",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "285f01545ad69a79e49f275ebcd3572b",
+      "name": "pytest-doctestplus",
+      "noarch": "python",
+      "sha256": "4b4679b6fd8becf88c0d5fe1159c7bb05051adc1d56e7a923f1140895dd73497",
+      "size": 20742,
+      "subdir": "noarch",
+      "timestamp": 1610738993550,
+      "version": "0.9.0"
     },
     "pytest-flakes-4.0.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -46224,6 +46383,25 @@
       "timestamp": 1597004711982,
       "version": "1.1.2.post1"
     },
+    "spreg-1.2.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "libpysal",
+        "numpy",
+        "python >=3",
+        "scipy"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "8cc20fa63352815a2567ac534de30f24",
+      "name": "spreg",
+      "noarch": "python",
+      "sha256": "d2c0fd1f9bc727e3b63a74784e6e61e54aa8c05139a226ca2506d262894f1f4d",
+      "size": 120436,
+      "subdir": "noarch",
+      "timestamp": 1610739501918,
+      "version": "1.2.2"
+    },
     "spvcm-0.3.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -46774,6 +46952,28 @@
       "subdir": "noarch",
       "timestamp": 1606925684472,
       "version": "0.6.1"
+    },
+    "streamz-0.6.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "setuptools",
+        "six",
+        "toolz",
+        "tornado",
+        "zict"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "97b3fc6584542ee6cf714baf41727af9",
+      "name": "streamz",
+      "noarch": "python",
+      "sha256": "1a5e60fd27614e9a3630ebacb20ffa5413e8a012057bf4b38585f863a88ba258",
+      "size": 61172,
+      "subdir": "noarch",
+      "timestamp": 1610739587311,
+      "version": "0.6.2"
     },
     "stripe-2.36.2-py_0.tar.bz2": {
       "build": "py_0",
@@ -48018,6 +48218,25 @@
       "subdir": "noarch",
       "timestamp": 1610566501313,
       "version": "2021.1.11"
+    },
+    "tifffile-2021.1.14-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "imagecodecs",
+        "numpy >=1.15.1",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b2e1a699c43b367d10c73b944b8b352d",
+      "name": "tifffile",
+      "noarch": "python",
+      "sha256": "293d5b50b75d7a70ff36cebc9e3c85e1a83569f499a55b3ee156e748dfa745d0",
+      "size": 128482,
+      "subdir": "noarch",
+      "timestamp": 1610739674072,
+      "version": "2021.1.14"
     },
     "tifffile-2021.1.8-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -53660,6 +53879,25 @@
       "timestamp": 1603204749528,
       "version": "0.15.2"
     },
+    "authlib-0.15.3-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "python",
+        "requests"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5a844936b83e3ecb9f8a58a97915e6f0",
+      "name": "authlib",
+      "noarch": "python",
+      "sha256": "531312c03aae969eb253422293b44117ba9f2aa8a0412097fb05954710796ff8",
+      "size": 117464,
+      "subdir": "noarch",
+      "timestamp": 1610722946423,
+      "version": "0.15.3"
+    },
     "autoconf-archive-2018.03.13-1.conda": {
       "build": "1",
       "build_number": 1,
@@ -56126,6 +56364,26 @@
       "timestamp": 1610645534798,
       "version": "1.16.54"
     },
+    "boto3-1.16.55-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.19.55,<1.20.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.3.0,<0.4.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "f1b5812b8c6a967eedcb0523ca925b0b",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "4e3fcdf7406daa43c7c84150bfbb3c6286c38161c874aa160c73b94e4ed064ef",
+      "size": 72223,
+      "subdir": "noarch",
+      "timestamp": 1610728541322,
+      "version": "1.16.55"
+    },
     "boto3-1.16.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -58174,6 +58432,27 @@
       "subdir": "noarch",
       "timestamp": 1610638495933,
       "version": "1.19.54"
+    },
+    "botocore-1.19.55-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "docutils >=0.10,<0.16",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.20,<1.26"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "21eda4a77642e22a8952fb47657e367b",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "1995c0a6ec984f888ad55c3cee77d09fdbeb0bbcfb3bd1db0ccee28a87c2f958",
+      "size": 3657152,
+      "subdir": "noarch",
+      "timestamp": 1610723194215,
+      "version": "1.19.55"
     },
     "botocore-1.19.6-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
@@ -72571,6 +72850,25 @@
       "timestamp": 1610563727100,
       "version": "6.0.1"
     },
+    "hypothesis-6.0.2-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "attrs >=19.2.0",
+        "python >=3.5",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL 2.0",
+      "license_family": "Other",
+      "md5": "55b3eca9bb3cc936ffeb712b75a68c91",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "3953188918dc065de6357d09933f443990641ff1f12cd582032deff30509f20e",
+      "size": 243660,
+      "subdir": "noarch",
+      "timestamp": 1610736432948,
+      "version": "6.0.2"
+    },
     "icalendar-4.0.3-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -73413,6 +73711,27 @@
       "subdir": "noarch",
       "timestamp": 1602780332969,
       "version": "0.4.0"
+    },
+    "intake-xarray-0.4.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "dask >=2.2",
+        "intake >=0.5.2",
+        "netcdf4",
+        "python >=3.5",
+        "xarray >=0.12.0",
+        "zarr"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "398ef6e4321b4f92f7fe354cf1c37d32",
+      "name": "intake-xarray",
+      "noarch": "python",
+      "sha256": "6ba576c8bf7113a09a45dc795b61f4baa94a5b9ae0b692c13f3eca6a563c6d9d",
+      "size": 1509292,
+      "subdir": "noarch",
+      "timestamp": 1610736528052,
+      "version": "0.4.1"
     },
     "intervaltree-3.0.2-py_0.conda": {
       "build": "py_0",
@@ -80506,6 +80825,46 @@
       "subdir": "noarch",
       "timestamp": 1610664099043,
       "version": "5.1.1"
+    },
+    "nbformat-5.1.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "ipython_genutils",
+        "jsonschema >=2.4,!=2.5.0",
+        "jupyter_core",
+        "python >=3.5",
+        "traitlets >=4.1"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "3359b3889f69999b9b7aba19e2941b58",
+      "name": "nbformat",
+      "noarch": "python",
+      "sha256": "ca67872e687630197dc6383520f3540c9bcca3662c52d879f9e86e12ea7ec099",
+      "size": 64694,
+      "subdir": "noarch",
+      "timestamp": 1610739271296,
+      "version": "5.1.2"
+    },
+    "nbformat-5.1.2-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "ipython_genutils",
+        "jsonschema >=2.4,!=2.5.0",
+        "jupyter_core",
+        "python >=3.5",
+        "traitlets >=4.1"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "b5160a14096c334182db97ab9aaf8cc9",
+      "name": "nbformat",
+      "noarch": "python",
+      "sha256": "d95ab995af94ba679d2693c5b01c337f4f4e5432c728e2c01db69ed282db463d",
+      "size": 69769,
+      "subdir": "noarch",
+      "timestamp": 1610738142887,
+      "version": "5.1.2"
     },
     "nbsmoke-0.3.0-py_0.conda": {
       "build": "py_0",
@@ -87875,6 +88234,25 @@
       "subdir": "noarch",
       "timestamp": 1598624136733,
       "version": "0.8.0"
+    },
+    "pytest-doctestplus-0.9.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "numpy >=1.10",
+        "pytest >=4.0",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "2f56414020f1e3b77141c85b56290c60",
+      "name": "pytest-doctestplus",
+      "noarch": "python",
+      "sha256": "4dc6e02254ae0d498a234fc2c063933cb37306ffae87c1f4af87033e8c0b7d6c",
+      "size": 21237,
+      "subdir": "noarch",
+      "timestamp": 1610738993550,
+      "version": "0.9.0"
     },
     "pytest-flakes-4.0.1-py_0.conda": {
       "build": "py_0",
@@ -95533,6 +95911,25 @@
       "timestamp": 1597004711982,
       "version": "1.1.2.post1"
     },
+    "spreg-1.2.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "libpysal",
+        "numpy",
+        "python >=3",
+        "scipy"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "7708eb370b11cdbb1f588bfb414151f6",
+      "name": "spreg",
+      "noarch": "python",
+      "sha256": "c93deef7b0387b7e6a3e3d3c3ff3606737ba8f65f09234df8fd17f3b9cfa1c1b",
+      "size": 107457,
+      "subdir": "noarch",
+      "timestamp": 1610739501918,
+      "version": "1.2.2"
+    },
     "spvcm-0.3.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -96083,6 +96480,28 @@
       "subdir": "noarch",
       "timestamp": 1606925684472,
       "version": "0.6.1"
+    },
+    "streamz-0.6.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "setuptools",
+        "six",
+        "toolz",
+        "tornado",
+        "zict"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "47a5dc80d4044c902ede01ef014dffe2",
+      "name": "streamz",
+      "noarch": "python",
+      "sha256": "23358381e71f61ff597c355bc0c40d441e969c776a0ecf721a23168e8c26f310",
+      "size": 62101,
+      "subdir": "noarch",
+      "timestamp": 1610739587311,
+      "version": "0.6.2"
     },
     "stripe-2.36.2-py_0.conda": {
       "build": "py_0",
@@ -97308,6 +97727,25 @@
       "subdir": "noarch",
       "timestamp": 1610566501313,
       "version": "2021.1.11"
+    },
+    "tifffile-2021.1.14-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "imagecodecs",
+        "numpy >=1.15.1",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "571bad4c07da7c40d611705bd10992df",
+      "name": "tifffile",
+      "noarch": "python",
+      "sha256": "f09dca9aa89d1824ee60002e1cef4e511b20f25d3bc0b06f7e4858bc72707d17",
+      "size": 129394,
+      "subdir": "noarch",
+      "timestamp": 1610739674072,
+      "version": "2021.1.14"
     },
     "tifffile-2021.1.8-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
