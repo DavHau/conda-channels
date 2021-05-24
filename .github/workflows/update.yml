@@ -1,0 +1,39 @@
+
+name: "conda channel fetcher"
+
+on:
+  push:
+    branches: [ "ci*" ]
+  schedule:
+    - cron:  "13 6,18 * * *"
+  workflow_dispatch:
+
+jobs:
+
+  update-conda:
+    name: Update conda channels
+    runs-on: ubuntu-latest
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+
+    - name: Install/Setup - NIX
+      uses: cachix/install-nix-action@v13
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+        install_url: https://nixos-nix-install-tests.cachix.org/serve/i41jvy44n7vlgwlvyvii49zzjrl6x9z1/install
+        install_options: '--tarball-url-prefix https://nixos-nix-install-tests.cachix.org/serve'
+        extra_nix_config: |
+          experimental-features = nix-command flakes
+
+    - name: update
+      run: |
+        set -x
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        nix run -L .#job-conda
+        git push
+
+      shell: bash
