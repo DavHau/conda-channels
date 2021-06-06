@@ -31,43 +31,45 @@
 
               echo $(date +%s) > UNIX_TIMESTAMP
 
+              mkdir -p channels
+
               # main repos
               for channel in main free r; do
-                [ ! -e $channel ] && mkdir $channel
+                [ ! -e channels/$channel ] && mkdir channels/$channel
                 for arch in linux-64 linux-aarch64 noarch osx-64; do
                   url=https://repo.anaconda.com/pkgs/$channel/$arch/repodata.json
                   echo "processing $url"
                   curl -H "Accept-Encoding: gzip" -L $url > .tmpfile
                   cat .tmpfile | gzip -d | sponge .tmpfile
                   if [ "$(cat .tmpfile)" == "" ]; then
-                    rm -f $channel/$arch.json
+                    rm -f channels/$channel/$arch.json
                   else
-                    mv .tmpfile $channel/$arch.json
-                    python3 ${./split-json.py} $channel/$arch.json
+                    mv .tmpfile channels/$channel/$arch.json
+                    python3 ${./split-json.py} channels/$channel/$arch.json
                   fi
                 done
               done
 
               # user repos
               for channel in conda-forge intel; do
-                [ ! -e $channel ] && mkdir $channel
+                [ ! -e channels/$channel ] && mkdir channels/$channel
                 for arch in linux-64 linux-aarch64 noarch osx-64; do
                   url=https://conda.anaconda.org/$channel/$arch/repodata.json
                   echo "processing $url"
                   curl -H "Accept-Encoding: gzip" -L $url > .tmpfile
                   cat .tmpfile | gzip -d | sponge .tmpfile
                   if [ "$(cat .tmpfile)" == "" ]; then
-                    rm -f $channel/$arch.json
+                    rm -f channels/$channel/$arch.json
                   else
-                    mv .tmpfile $channel/$arch.json
-                    python3 ${./split-json.py} $channel/$arch.json
+                    mv .tmpfile channels/$channel/$arch.json
+                    python3 ${./split-json.py} channels/$channel/$arch.json
                   fi
                 done
               done
 
               # generate checksums over files
               echo "{}" > sha256.json
-              for f in $(find . -type f -not -path './.git/*' -not -name '.*' -not -name 'sha256*'); do
+              for f in $(find channels/ -type f -not -path './.git/*' -not -name '.*' -not -name 'sha256*'); do
                 jq  ". + {\"$f\": \"$(cat $f | openssl dgst -binary -sha256 | openssl base64 | awk '{print $1}')\"}" sha256.json \
                   | sponge sha256.json
               done
