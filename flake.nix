@@ -27,7 +27,7 @@
             update-conda.program = toString (pkgs.writeScript "update-conda" ''
               #!/usr/bin/env bash
               set -e
-              export PATH=${makeBinPath (with pkgs; [ busybox curl git jq moreutils openssl ])}
+              export PATH=${makeBinPath (with pkgs; [ busybox curl git jq moreutils openssl python3 ])}
 
               echo $(date +%s) > UNIX_TIMESTAMP
 
@@ -38,10 +38,12 @@
                   url=https://repo.anaconda.com/pkgs/$channel/$arch/repodata.json
                   echo "processing $url"
                   curl -H "Accept-Encoding: gzip" -L $url > .tmpfile
-                  if cat .tmpfile | gzip -d | sponge .tmpfile; then
-                    mv .tmpfile $channel/$arch.json
-                  else
+                  cat .tmpfile | gzip -d | sponge .tmpfile
+                  if [ "$(cat .tmpfile)" == "" ]; then
                     rm -f $channel/$arch.json
+                  else
+                    mv .tmpfile $channel/$arch.json
+                    python3 ${./split-json.py} $channel/$arch.json
                   fi
                 done
               done
@@ -53,10 +55,12 @@
                   url=https://conda.anaconda.org/$channel/$arch/repodata.json
                   echo "processing $url"
                   curl -H "Accept-Encoding: gzip" -L $url > .tmpfile
-                  if cat .tmpfile | gzip -d | sponge .tmpfile; then
-                    mv .tmpfile $channel/$arch.json
-                  else
+                  cat .tmpfile | gzip -d | sponge .tmpfile
+                  if [ "$(cat .tmpfile)" == "" ]; then
                     rm -f $channel/$arch.json
+                  else
+                    mv .tmpfile $channel/$arch.json
+                    python3 ${./split-json.py} $channel/$arch.json
                   fi
                 done
               done
