@@ -4,7 +4,7 @@ import os
 import sys
 
 file = sys.argv[1]
-split_num = int((os.path.getsize(file) / 1024 ** 2) / 100 + 1)
+split_num = int((os.path.getsize(file) / 1024 ** 2) / 50 + 1)
 out_dir = os.path.dirname(file)
 data_split = {}
 
