@@ -4873,28 +4873,6 @@
       "timestamp": 1621475449428,
       "version": "20.1.0"
     },
-    "argon2-cffi-20.1.0-py37hfd63f10_1.tar.bz2": {
-      "build": "py37hfd63f10_1",
-      "build_number": 1,
-      "constrains": [
-        "argon2_cffi ==999"
-      ],
-      "depends": [
-        "cffi >=1.0.0",
-        "libgcc-ng >=10.2.0",
-        "python >=3.7,<3.8.0a0",
-        "six"
-      ],
-      "license": "MIT",
-      "license_family": "MIT",
-      "md5": "22df7b1e0da9e15f81f61f1fbeefe515",
-      "name": "argon2-cffi",
-      "sha256": "2e5fc8239424b724a69c0be78395fd56ba34704a36c9449a085b280b4a7c1045",
-      "size": 50312,
-      "subdir": "linux-aarch64",
-      "timestamp": 1615434523208,
-      "version": "20.1.0"
-    },
     "argon2-cffi-20.1.0-py38h2f4d8fa_1.tar.bz2": {
       "build": "py38h2f4d8fa_1",
       "build_number": 1,
@@ -4917,28 +4895,6 @@
       "timestamp": 1621475432325,
       "version": "20.1.0"
     },
-    "argon2-cffi-20.1.0-py38hfd63f10_1.tar.bz2": {
-      "build": "py38hfd63f10_1",
-      "build_number": 1,
-      "constrains": [
-        "argon2_cffi ==999"
-      ],
-      "depends": [
-        "cffi >=1.0.0",
-        "libgcc-ng >=10.2.0",
-        "python >=3.8,<3.9.0a0",
-        "six"
-      ],
-      "license": "MIT",
-      "license_family": "MIT",
-      "md5": "0dc102dbb64d0ed499236b389992342e",
-      "name": "argon2-cffi",
-      "sha256": "1b363b89b2228a786621272dad28e7767b9d86352b080075065ba4fb2d3707f5",
-      "size": 50477,
-      "subdir": "linux-aarch64",
-      "timestamp": 1615434541387,
-      "version": "20.1.0"
-    },
     "argon2-cffi-20.1.0-py39h2f4d8fa_1.tar.bz2": {
       "build": "py39h2f4d8fa_1",
       "build_number": 1,
@@ -4959,28 +4915,6 @@
       "size": 51112,
       "subdir": "linux-aarch64",
       "timestamp": 1621475466845,
-      "version": "20.1.0"
-    },
-    "argon2-cffi-20.1.0-py39hfd63f10_1.tar.bz2": {
-      "build": "py39hfd63f10_1",
-      "build_number": 1,
-      "constrains": [
-        "argon2_cffi ==999"
-      ],
-      "depends": [
-        "cffi >=1.0.0",
-        "libgcc-ng >=10.2.0",
-        "python >=3.9,<3.10.0a0",
-        "six"
-      ],
-      "license": "MIT",
-      "license_family": "MIT",
-      "md5": "aab3973742606bd5912b944e61a8fa14",
-      "name": "argon2-cffi",
-      "sha256": "f1d4621cdc9c31aaa6ec34364fce7dfc1cd1b8082a5b0afa99bb92a914cc750b",
-      "size": 50928,
-      "subdir": "linux-aarch64",
-      "timestamp": 1615434559871,
       "version": "20.1.0"
     },
     "astor-0.8.1-py37hd43f75c_0.tar.bz2": {

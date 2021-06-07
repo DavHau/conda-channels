@@ -20691,6 +20691,23 @@
       "timestamp": 1608142319863,
       "version": "0.16"
     },
+    "fasteners-0.16.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "5d6e19186fac67df8cf1628726c3bb86",
+      "name": "fasteners",
+      "noarch": "python",
+      "sha256": "97af4df78b7ad1d897a65acb78c36186403986909c5527405cf7b742bec05893",
+      "size": 25610,
+      "subdir": "noarch",
+      "timestamp": 1623062746071,
+      "version": "0.16.1"
+    },
     "filelock-3.0.12-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -43448,6 +43465,23 @@
       "timestamp": 1620707357066,
       "version": "0.6.14.7"
     },
+    "nuitka-0.6.15.1-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "0842c8f369a71d118017cbd801b20eb8",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "c8aab23821ec5f5bc03d8dbaa0e50779f08cfc92a7984ef484b67a13c5082c8b",
+      "size": 1275806,
+      "subdir": "noarch",
+      "timestamp": 1623057657328,
+      "version": "0.6.15.1"
+    },
     "nuitka-0.6.9.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -43694,6 +43728,26 @@
       "subdir": "noarch",
       "timestamp": 1569376321589,
       "version": "3.1.0"
+    },
+    "oauthlib-3.1.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "blinker >=1.4.0",
+        "cryptography >=3.0.0,<4",
+        "pyjwt >=2.0.0,<3",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "8f63d798c29dcf671ebf334d0ebfe62f",
+      "name": "oauthlib",
+      "noarch": "python",
+      "sha256": "f785d6d8db0216ca21f18f326950d32ed5b7756eb6a63241706fde306f035eac",
+      "size": 89092,
+      "subdir": "noarch",
+      "timestamp": 1623060264598,
+      "version": "3.1.1"
     },
     "olefile-0.46-py_0.tar.bz2": {
       "build": "py_0",
@@ -88298,6 +88352,23 @@
       "timestamp": 1608142319863,
       "version": "0.16"
     },
+    "fasteners-0.16.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e7bc43d786e644052ad0911c2c6e9e89",
+      "name": "fasteners",
+      "noarch": "python",
+      "sha256": "6c791bc9d708693f667134b7403d5d981da9f617638d9dc2f10bb9ba8a9e0e56",
+      "size": 24074,
+      "subdir": "noarch",
+      "timestamp": 1623062746071,
+      "version": "0.16.1"
+    },
     "filelock-3.0.12-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -107858,6 +107929,23 @@
       "timestamp": 1620707357066,
       "version": "0.6.14.7"
     },
+    "nuitka-0.6.15.1-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "5246bdab43ebe2a9806b925271a2d7d6",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "b508dacf24aa5d3f2a4ae5f5f684557ad674856f6e520b65222a506e6b4fbe3c",
+      "size": 1068235,
+      "subdir": "noarch",
+      "timestamp": 1623057657328,
+      "version": "0.6.15.1"
+    },
     "nuitka-0.6.9.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -108104,6 +108192,26 @@
       "subdir": "noarch",
       "timestamp": 1569376321589,
       "version": "3.1.0"
+    },
+    "oauthlib-3.1.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "blinker >=1.4.0",
+        "cryptography >=3.0.0,<4",
+        "pyjwt >=2.0.0,<3",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "fa372a5534d34619e17e160483fbd7a2",
+      "name": "oauthlib",
+      "noarch": "python",
+      "sha256": "17d63233f97afcd5cbc6e6a0ca9e1329e3657c2284a2aa8d9569b92e9ec17104",
+      "size": 92216,
+      "subdir": "noarch",
+      "timestamp": 1623060264598,
+      "version": "3.1.1"
     },
     "olefile-0.46-py_0.conda": {
       "build": "py_0",
