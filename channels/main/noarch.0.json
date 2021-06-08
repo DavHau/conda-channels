@@ -2420,6 +2420,24 @@
       "timestamp": 1621946052462,
       "version": "4.4.2"
     },
+    "apispec-4.5.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pyyaml >=3.10"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a941d29c420a4fa4772ef146029edaa1",
+      "name": "apispec",
+      "noarch": "python",
+      "sha256": "94109618fb65d5a7baf441dc87d48c8f94d446cbc427053b2c09f269eea76bee",
+      "size": 25537,
+      "subdir": "noarch",
+      "timestamp": 1623130409226,
+      "version": "4.5.0"
+    },
     "appdirs-1.4.3-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -9811,6 +9829,26 @@
       "timestamp": 1622485606215,
       "version": "1.20.84"
     },
+    "botocore-1.20.88-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.25.4,<1.27"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "16c74357acd55e6c8443f7070acab813",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "e9693a48162ad9ccaa072591a69dccb635e623438e9fa448d4019c9cdd445e4b",
+      "size": 4902574,
+      "subdir": "noarch",
+      "timestamp": 1623076187528,
+      "version": "1.20.88"
+    },
     "botocore-1.20.9-pyhd3eb1b0_1.tar.bz2": {
       "build": "pyhd3eb1b0_1",
       "build_number": 1,
@@ -16627,6 +16665,28 @@
       "subdir": "noarch",
       "timestamp": 1622531723273,
       "version": "2021.5.1"
+    },
+    "dask-core-2021.6.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cloudpickle >=1.1.1",
+        "fsspec >=0.6.0",
+        "partd >=0.3.10",
+        "python >=3.7",
+        "pyyaml",
+        "toolz >=0.8.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9236280cd5035dce14e87a94ccbdbcf7",
+      "name": "dask-core",
+      "noarch": "python",
+      "sha256": "f78237691a52a4060a2c238e57007a81417b06ff9ba7ec984ae476b0bc0119a1",
+      "size": 754833,
+      "subdir": "noarch",
+      "timestamp": 1623085895347,
+      "version": "2021.6.0"
     },
     "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -29939,6 +29999,27 @@
       "subdir": "noarch",
       "timestamp": 1622715985537,
       "version": "6.13.11"
+    },
+    "hypothesis-6.13.14-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "black >=19.10b0",
+        "click >=7.0",
+        "python >=3.6",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL-2.0",
+      "license_family": "Other",
+      "md5": "a462fb655421c60e1b3376028420624c",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "1f73e3229e504e2adcf12d3b8f0f1d1dcd3baa750f594d1f3b9b894fefa79810",
+      "size": 245867,
+      "subdir": "noarch",
+      "timestamp": 1622831183010,
+      "version": "6.13.14"
     },
     "hypothesis-6.2.0-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
@@ -47566,6 +47647,23 @@
       "subdir": "noarch",
       "timestamp": 1621539984444,
       "version": "8.12.23"
+    },
+    "phonenumbers-8.12.24-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "be15fc7eb679ea30c0e2e20c6229de3c",
+      "name": "phonenumbers",
+      "noarch": "python",
+      "sha256": "5ff7bcc34e23e45ff0d4756f104dd2353bedc28a99338a14b1b9d5cba39d3ded",
+      "size": 1633895,
+      "subdir": "noarch",
+      "timestamp": 1623153175174,
+      "version": "8.12.24"
     },
     "phonenumbers-8.12.9-py_0.tar.bz2": {
       "build": "py_0",
@@ -70672,6 +70770,24 @@
       "timestamp": 1621946052462,
       "version": "4.4.2"
     },
+    "apispec-4.5.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "pyyaml >=3.10"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "dbeed32555f6f9297eaf34aebf72b148",
+      "name": "apispec",
+      "noarch": "python",
+      "sha256": "6c0f8e24dea1eb678ff0020eb9a72fcb16a05f36669f2f2697a17fc1d67c8d8b",
+      "size": 26393,
+      "subdir": "noarch",
+      "timestamp": 1623130409226,
+      "version": "4.5.0"
+    },
     "appdirs-1.4.3-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -77861,6 +77977,26 @@
       "timestamp": 1622485606215,
       "version": "1.20.84"
     },
+    "botocore-1.20.88-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.25.4,<1.27"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "973a25ae581a9069c2a664bab4e9143b",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "823fa2453b99c17e0c1d4a6c18f80c5e870e719f4d40e26bc620d8628a79379f",
+      "size": 3894095,
+      "subdir": "noarch",
+      "timestamp": 1623076187528,
+      "version": "1.20.88"
+    },
     "botocore-1.20.9-pyhd3eb1b0_1.conda": {
       "build": "pyhd3eb1b0_1",
       "build_number": 1,
@@ -84388,6 +84524,28 @@
       "subdir": "noarch",
       "timestamp": 1622531723273,
       "version": "2021.5.1"
+    },
+    "dask-core-2021.6.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cloudpickle >=1.1.1",
+        "fsspec >=0.6.0",
+        "partd >=0.3.10",
+        "python >=3.7",
+        "pyyaml",
+        "toolz >=0.8.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "622dcc864df36dbca948e695ee596a7d",
+      "name": "dask-core",
+      "noarch": "python",
+      "sha256": "6dce298e5bb309936bd4fd8c3aacfb5aa83265d88fbf313f2ca2bf701a88d625",
+      "size": 704144,
+      "subdir": "noarch",
+      "timestamp": 1623085895347,
+      "version": "2021.6.0"
     },
     "dask-glm-0.2.0-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
@@ -96951,6 +97109,27 @@
       "subdir": "noarch",
       "timestamp": 1622715985537,
       "version": "6.13.11"
+    },
+    "hypothesis-6.13.14-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "attrs >=19.2.0",
+        "black >=19.10b0",
+        "click >=7.0",
+        "python >=3.6",
+        "sortedcontainers >=2.1.0,<3.0.0"
+      ],
+      "license": "MPL-2.0",
+      "license_family": "Other",
+      "md5": "98562ab80bbf08c3388c62bd7230282f",
+      "name": "hypothesis",
+      "noarch": "python",
+      "sha256": "bbbe1e8e8726ec55ab2ca224cc670ab38d9d76bfc6812787199b9658107e0fdf",
+      "size": 252559,
+      "subdir": "noarch",
+      "timestamp": 1622831183010,
+      "version": "6.13.14"
     },
     "hypothesis-6.2.0-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
@@ -111793,6 +111972,23 @@
       "subdir": "noarch",
       "timestamp": 1621539984444,
       "version": "8.12.23"
+    },
+    "phonenumbers-8.12.24-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "004062d8e9b0fd0b31dab4bb938ccf43",
+      "name": "phonenumbers",
+      "noarch": "python",
+      "sha256": "560b358c16857a8ce1eaaee68e74669dd4a2373cd6940f9f37e49c169b0f07d0",
+      "size": 1427777,
+      "subdir": "noarch",
+      "timestamp": 1623153175174,
+      "version": "8.12.24"
     },
     "phonenumbers-8.12.9-py_0.conda": {
       "build": "py_0",
