@@ -58863,6 +58863,36 @@
       "type": "app",
       "version": "5.0.3"
     },
+    "qtconsole-5.1.0-pyhd3eb1b0_0.tar.bz2": {
+      "app_entry": "jupyter-qtconsole",
+      "app_type": "desk",
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "ipykernel >=4.1",
+        "ipython_genutils",
+        "jupyter_client >=4.1",
+        "jupyter_core",
+        "pygments",
+        "pyqt",
+        "python >=3.6",
+        "pyzmq >=17.1",
+        "qtpy",
+        "traitlets"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b0e86585446dd9a9543d0439079dbbf7",
+      "name": "qtconsole",
+      "noarch": "python",
+      "sha256": "d06cf021b2c4d328a9aca45a9e4376f88258479eb745955e1c8fdd6e7eb1af3c",
+      "size": 98061,
+      "subdir": "noarch",
+      "summary": "Jupyter Qt Console",
+      "timestamp": 1623278375524,
+      "type": "app",
+      "version": "5.1.0"
+    },
     "qtpy-1.6.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -60091,6 +60121,24 @@
       "subdir": "noarch",
       "timestamp": 1616183192533,
       "version": "0.3.6"
+    },
+    "s3transfer-0.4.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.12.36,<2.0a.0",
+        "python >=3"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "67119f9f08b64fc274520f7af6b1fb92",
+      "name": "s3transfer",
+      "noarch": "python",
+      "sha256": "f28ce35ae3f103b0f6baccfc2b3b714f8fe91097f1bea68b9e5856c04b4e98d4",
+      "size": 62243,
+      "subdir": "noarch",
+      "timestamp": 1623278162387,
+      "version": "0.4.2"
     },
     "sas7bdat-2.2.3-py_0.tar.bz2": {
       "build": "py_0",
@@ -123023,6 +123071,36 @@
       "type": "app",
       "version": "5.0.3"
     },
+    "qtconsole-5.1.0-pyhd3eb1b0_0.conda": {
+      "app_entry": "jupyter-qtconsole",
+      "app_type": "desk",
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "ipykernel >=4.1",
+        "ipython_genutils",
+        "jupyter_client >=4.1",
+        "jupyter_core",
+        "pygments",
+        "pyqt",
+        "python >=3.6",
+        "pyzmq >=17.1",
+        "qtpy",
+        "traitlets"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "77d333c539ce4bd90809d80953651a26",
+      "name": "qtconsole",
+      "noarch": "python",
+      "sha256": "cb83046db73a0974c0570bf02ef424ff48204ba0a5010add2790c0700e38f20d",
+      "size": 99884,
+      "subdir": "noarch",
+      "summary": "Jupyter Qt Console",
+      "timestamp": 1623278375524,
+      "type": "app",
+      "version": "5.1.0"
+    },
     "qtpy-1.6.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -124202,6 +124280,24 @@
       "subdir": "noarch",
       "timestamp": 1616183192533,
       "version": "0.3.6"
+    },
+    "s3transfer-0.4.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.12.36,<2.0a.0",
+        "python >=3"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "4d812e4a243787b1779b3086bdca9d6e",
+      "name": "s3transfer",
+      "noarch": "python",
+      "sha256": "d19061f57933fdc8b1b299bade6b4f89aad28e1d145fd134413f1795b9779a75",
+      "size": 63290,
+      "subdir": "noarch",
+      "timestamp": 1623278162387,
+      "version": "0.4.2"
     },
     "sas7bdat-2.2.3-py_0.conda": {
       "build": "py_0",
