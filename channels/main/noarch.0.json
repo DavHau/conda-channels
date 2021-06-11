@@ -3560,6 +3560,25 @@
       "timestamp": 1610722946423,
       "version": "0.15.3"
     },
+    "authlib-0.15.4-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography >=3.2,<4",
+        "python >=2.7",
+        "requests"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c9527d169d74efe4b266cfe100e6761f",
+      "name": "authlib",
+      "noarch": "python",
+      "sha256": "f992570d796876b6067456b2ba0984fa48c4011de219911cddb60c6e28ba0758",
+      "size": 112833,
+      "subdir": "noarch",
+      "timestamp": 1623136310070,
+      "version": "0.15.4"
+    },
     "autoconf-archive-2018.03.13-1.tar.bz2": {
       "build": "1",
       "build_number": 1,
@@ -74264,6 +74283,25 @@
       "subdir": "noarch",
       "timestamp": 1610722946423,
       "version": "0.15.3"
+    },
+    "authlib-0.15.4-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography >=3.2,<4",
+        "python >=2.7",
+        "requests"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "6d9d0df4c51378a16d746e57cb2a0c1f",
+      "name": "authlib",
+      "noarch": "python",
+      "sha256": "7b89b473fc80cc3ff0b1f8a34968eafac580f129ecb0c35a6d8843c4dfa2933c",
+      "size": 117714,
+      "subdir": "noarch",
+      "timestamp": 1623136310070,
+      "version": "0.15.4"
     },
     "autoconf-archive-2018.03.13-1.conda": {
       "build": "1",
