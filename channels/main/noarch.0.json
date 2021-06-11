@@ -28004,6 +28004,32 @@
       "timestamp": 1613415823726,
       "version": "0.18.0"
     },
+    "hdijupyterutils-0.19.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "ipykernel >=4.2.2",
+        "ipython >=4.0.2",
+        "ipywidgets >5.0.0",
+        "jupyter >=1",
+        "mock",
+        "nose",
+        "notebook >=4.2",
+        "numpy",
+        "pandas >=0.17.1",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "9aceffca81e7ac408c95c227e34731bd",
+      "name": "hdijupyterutils",
+      "noarch": "python",
+      "sha256": "e86349b1109272ec70c89a19b7b13dcb77c1ca69f7a1a3e75e863ba782872a12",
+      "size": 9639,
+      "subdir": "noarch",
+      "timestamp": 1623321387542,
+      "version": "0.19.0"
+    },
     "heapdict-1.0.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -44183,6 +44209,28 @@
       "timestamp": 1613763674160,
       "version": "0.812"
     },
+    "mypy-0.901-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "mypy_extensions >=0.4.3,<0.5.0",
+        "psutil >=4.0",
+        "python >=3.5",
+        "toml",
+        "typed-ast >=1.4.0,<1.5.0",
+        "typing_extensions >=3.7.4"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "78e8bf60efd580a772831d6a71ad1946",
+      "name": "mypy",
+      "noarch": "python",
+      "sha256": "34e6a3b00ebcbfcfcb27eca30cc6d93badd863a311217728d52a7521a2d9e772",
+      "size": 1431002,
+      "subdir": "noarch",
+      "timestamp": 1623324119850,
+      "version": "0.901"
+    },
     "natsort-6.0.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -50785,6 +50833,26 @@
       "timestamp": 1616506830497,
       "version": "1.3.0"
     },
+    "pooch-1.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "appdirs",
+        "packaging",
+        "python >=3.6",
+        "requests"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "1514deb536673e9dba49776b39b61d2f",
+      "name": "pooch",
+      "noarch": "python",
+      "sha256": "4fb886668d2b14fd482bee23355e26f25ba63fdcdae07e586bf37778a8b4a886",
+      "size": 42038,
+      "subdir": "noarch",
+      "timestamp": 1623324813461,
+      "version": "1.4.0"
+    },
     "portend-2.4-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -52624,6 +52692,27 @@
       "subdir": "noarch",
       "timestamp": 1612299327246,
       "version": "1.54.1"
+    },
+    "pygithub-1.55-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "deprecated",
+        "pyjwt >=2.0",
+        "pynacl >=1.4.0",
+        "python >=3.6",
+        "requests >=2.14.0"
+      ],
+      "license": "LGPL-3.0-only",
+      "license_family": "LGPL",
+      "md5": "e7943a3e41ccba3d2fca8b04e54703fe",
+      "name": "pygithub",
+      "noarch": "python",
+      "sha256": "fb726dd4b0b15a16d9864eb60c0ae1377548e2271e656f670f6f012323445c23",
+      "size": 118602,
+      "subdir": "noarch",
+      "timestamp": 1623329144364,
+      "version": "1.55"
     },
     "pygments-2.4.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -97043,6 +97132,32 @@
       "timestamp": 1613415823726,
       "version": "0.18.0"
     },
+    "hdijupyterutils-0.19.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "ipykernel >=4.2.2",
+        "ipython >=4.0.2",
+        "ipywidgets >5.0.0",
+        "jupyter >=1",
+        "mock",
+        "nose",
+        "notebook >=4.2",
+        "numpy",
+        "pandas >=0.17.1",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "cb6e9670ff4c520a27e1c5b779fd10fc",
+      "name": "hdijupyterutils",
+      "noarch": "python",
+      "sha256": "ed8949a847d71a1bf4772d5f34ac22ddd10f790a9e63c931bb36626bd27bd964",
+      "size": 10046,
+      "subdir": "noarch",
+      "timestamp": 1623321387542,
+      "version": "0.19.0"
+    },
     "heapdict-1.0.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -109504,6 +109619,28 @@
       "timestamp": 1613763674160,
       "version": "0.812"
     },
+    "mypy-0.901-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "mypy_extensions >=0.4.3,<0.5.0",
+        "psutil >=4.0",
+        "python >=3.5",
+        "toml",
+        "typed-ast >=1.4.0,<1.5.0",
+        "typing_extensions >=3.7.4"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "26f415d678598e601033c19dc32c6c58",
+      "name": "mypy",
+      "noarch": "python",
+      "sha256": "7f4d965d37156f2144b35fe31bdfba39786b27f7191311223c15557d8291df97",
+      "size": 1364488,
+      "subdir": "noarch",
+      "timestamp": 1623324119850,
+      "version": "0.901"
+    },
     "natsort-6.0.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -115507,6 +115644,26 @@
       "timestamp": 1616506830497,
       "version": "1.3.0"
     },
+    "pooch-1.4.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "appdirs",
+        "packaging",
+        "python >=3.6",
+        "requests"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "69ec83cb3d152f9e854115555004f368",
+      "name": "pooch",
+      "noarch": "python",
+      "sha256": "fa5f82193f7523f5a4aff8b662e2602fdb3771182c8a3850b7cbcc90efaa4f45",
+      "size": 42054,
+      "subdir": "noarch",
+      "timestamp": 1623324813461,
+      "version": "1.4.0"
+    },
     "portend-2.4-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -117176,6 +117333,27 @@
       "subdir": "noarch",
       "timestamp": 1612299327246,
       "version": "1.54.1"
+    },
+    "pygithub-1.55-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "deprecated",
+        "pyjwt >=2.0",
+        "pynacl >=1.4.0",
+        "python >=3.6",
+        "requests >=2.14.0"
+      ],
+      "license": "LGPL-3.0-only",
+      "license_family": "LGPL",
+      "md5": "dcb50fa3b19fcc413ed2a74f408f4641",
+      "name": "pygithub",
+      "noarch": "python",
+      "sha256": "d24151189d72034af466c0612be4d7f463851d176cd3fbf7514222c8df688777",
+      "size": 122090,
+      "subdir": "noarch",
+      "timestamp": 1623329144364,
+      "version": "1.55"
     },
     "pygments-2.4.0-py_0.conda": {
       "build": "py_0",
