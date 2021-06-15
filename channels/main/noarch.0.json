@@ -6976,6 +6976,26 @@
       "timestamp": 1613576714734,
       "version": "1.17.8"
     },
+    "boto3-1.17.88-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.20.88,<1.21.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.4.0,<0.5.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2702469e4a604cf09a3752d382439e38",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "4d18ffdf2e96ff24a816c4dfced052444917eecf21c916bf233008aadc89ebf7",
+      "size": 72068,
+      "subdir": "noarch",
+      "timestamp": 1623679046467,
+      "version": "1.17.88"
+    },
     "boto3-1.17.9-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -24241,6 +24261,23 @@
       "subdir": "noarch",
       "timestamp": 1617959929050,
       "version": "0.9.0"
+    },
+    "fsspec-2021.6.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "eba9fce7e5216c90a6256d6613965de0",
+      "name": "fsspec",
+      "noarch": "python",
+      "sha256": "b1c29bc2de0df6da07ba2f36b6475d2436af1649a0b30d33d09065002787c0b3",
+      "size": 85963,
+      "subdir": "noarch",
+      "timestamp": 1623705589800,
+      "version": "2021.6.0"
     },
     "ftfy-5.5.1-py_0.tar.bz2": {
       "build": "py_0",
@@ -59833,6 +59870,23 @@
       "timestamp": 1602264139465,
       "version": "0.18.0"
     },
+    "rope-0.19.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "LGPL 3.0",
+      "license_family": "LGPL",
+      "md5": "f3ba6f32d7f8e223b22af26b849cabe7",
+      "name": "rope",
+      "noarch": "python",
+      "sha256": "b556074117a41bb3d624e4c299919f774c2f568b6e4699590f98a0d300f8b367",
+      "size": 122151,
+      "subdir": "noarch",
+      "timestamp": 1623703047286,
+      "version": "0.19.0"
+    },
     "routes-2.4.1-py_1.tar.bz2": {
       "build": "py_1",
       "build_number": 1,
@@ -61962,6 +62016,23 @@
       "subdir": "noarch",
       "timestamp": 1610970799007,
       "version": "1.15.0"
+    },
+    "six-1.16.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4b46cefc41f565ce5a7a5d572d851c49",
+      "name": "six",
+      "noarch": "python",
+      "sha256": "142b5c736cfec8981e631d63f2b0860ce31775cf24d1b5b504dbafbec6561c88",
+      "size": 18781,
+      "subdir": "noarch",
+      "timestamp": 1623709705233,
+      "version": "1.16.0"
     },
     "slicerator-0.9.8-py_1.tar.bz2": {
       "build": "py_1",
@@ -77729,6 +77800,26 @@
       "subdir": "noarch",
       "timestamp": 1613576714734,
       "version": "1.17.8"
+    },
+    "boto3-1.17.88-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "botocore >=1.20.88,<1.21.0",
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "s3transfer >=0.4.0,<0.5.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "307ccb6e462264a859c94834816d6b91",
+      "name": "boto3",
+      "noarch": "python",
+      "sha256": "7541d81d6c81ae31f1055cd6751ef6d25faa392f3330b0d4e13cae32a388cbd6",
+      "size": 71981,
+      "subdir": "noarch",
+      "timestamp": 1623679046467,
+      "version": "1.17.88"
     },
     "boto3-1.17.9-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
@@ -94090,6 +94181,23 @@
       "subdir": "noarch",
       "timestamp": 1617959929050,
       "version": "0.9.0"
+    },
+    "fsspec-2021.6.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5021bc4f221d9d0877ce81e09115aac4",
+      "name": "fsspec",
+      "noarch": "python",
+      "sha256": "64b3e0b58004f8642803586b409139a61ba3179d48a60079bdc210e449f6caa5",
+      "size": 90389,
+      "subdir": "noarch",
+      "timestamp": 1623705589800,
+      "version": "2021.6.0"
     },
     "ftfy-5.5.1-py_0.conda": {
       "build": "py_0",
@@ -124191,6 +124299,23 @@
       "timestamp": 1602264139465,
       "version": "0.18.0"
     },
+    "rope-0.19.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "LGPL 3.0",
+      "license_family": "LGPL",
+      "md5": "6b8ce9f79e070f831f4be5de720b4a74",
+      "name": "rope",
+      "noarch": "python",
+      "sha256": "6f3fe21f66c7206f2759c2be75887d07b05aaab8f61c75b431d7ca71b704b602",
+      "size": 129171,
+      "subdir": "noarch",
+      "timestamp": 1623703047286,
+      "version": "0.19.0"
+    },
     "routes-2.4.1-py_1.conda": {
       "build": "py_1",
       "build_number": 1,
@@ -126254,6 +126379,23 @@
       "subdir": "noarch",
       "timestamp": 1591384766747,
       "version": "1.15.0"
+    },
+    "six-1.16.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "529b369e1accc75b89f2d7e184a898d0",
+      "name": "six",
+      "noarch": "python",
+      "sha256": "5b04aac9e55ddd591d29bb842d30c6287d7f202b7dca849b1944c172c33d7dc7",
+      "size": 18538,
+      "subdir": "noarch",
+      "timestamp": 1623709705233,
+      "version": "1.16.0"
     },
     "slicerator-0.9.8-py_1.conda": {
       "build": "py_1",
