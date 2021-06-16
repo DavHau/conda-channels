@@ -418,7 +418,7 @@
       "depends": [
         "aiohttp >=3.3.1",
         "aioitertools >=0.5.1",
-        "botocore",
+        "botocore >=1.19.52,<1.19.53",
         "python >=3.6",
         "wrapt >=1.10.10"
       ],
@@ -439,7 +439,7 @@
       "depends": [
         "aiohttp >=3.3.1",
         "aioitertools >=0.5.1",
-        "botocore",
+        "botocore >=1.19.52,<1.19.53",
         "python >=3.6",
         "wrapt >=1.10.10"
       ],
@@ -460,7 +460,7 @@
       "depends": [
         "aiohttp >=3.3.1",
         "aioitertools >=0.5.1",
-        "botocore",
+        "botocore >=1.19.52,<1.19.53",
         "python >=3.6",
         "wrapt >=1.10.10"
       ],
@@ -10018,6 +10018,26 @@
       "timestamp": 1613586908140,
       "version": "1.20.9"
     },
+    "botocore-1.20.94-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.25.4,<1.27"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "77dd764aa0b833a6e47025b9bd65bb8c",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "eb97099d8456222f00e876671f0034be10c4e1f308b4b40cdb3eafd088cd34fb",
+      "size": 4899191,
+      "subdir": "noarch",
+      "timestamp": 1623784239666,
+      "version": "1.20.94"
+    },
     "bs4-4.9.0-0.tar.bz2": {
       "build": "0",
       "build_number": 0,
@@ -17846,6 +17866,36 @@
       "subdir": "noarch",
       "timestamp": 1618337130107,
       "version": "0.12.1"
+    },
+    "datashader-0.13.0-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "bokeh",
+        "colorcet >=0.9.0",
+        "dask >=0.18.0",
+        "datashape >=0.5.1",
+        "numba >=0.51",
+        "numpy >=1.7",
+        "pandas >=0.24.1",
+        "param >=1.6.1",
+        "pillow >=3.1.1",
+        "pyct >=0.4.5",
+        "python >=2.7",
+        "scipy",
+        "toolz >=0.7.4",
+        "xarray >=0.9.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "6cfe764bb04e756d7d1319a98a05dd70",
+      "name": "datashader",
+      "noarch": "python",
+      "sha256": "2de2d79a0e9784a1bf55cdb83c035072da1879753d109c0a36bbd5a357385c37",
+      "size": 14964307,
+      "subdir": "noarch",
+      "timestamp": 1623782401693,
+      "version": "0.13.0"
     },
     "datashader-0.6.8-py_0.tar.bz2": {
       "build": "py_0",
@@ -60289,6 +60339,25 @@
       "timestamp": 1618089005650,
       "version": "0.6.0"
     },
+    "s3fs-2021.6.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "aiobotocore >=1.0.1",
+        "fsspec 2021.6.0.*",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "ec6e74e3fe83a3d7433ea6f36a41ba5f",
+      "name": "s3fs",
+      "noarch": "python",
+      "sha256": "d870f08c301cb8aec734e4ff2e04d5eda2b1a3409cd6d00476106ce6474a6bb6",
+      "size": 25286,
+      "subdir": "noarch",
+      "timestamp": 1623782433375,
+      "version": "2021.6.0"
+    },
     "s3transfer-0.3.3-pyhd3eb1b0_3.tar.bz2": {
       "build": "pyhd3eb1b0_3",
       "build_number": 3,
@@ -71712,7 +71781,7 @@
       "depends": [
         "aiohttp >=3.3.1",
         "aioitertools >=0.5.1",
-        "botocore",
+        "botocore >=1.19.52,<1.19.53",
         "python >=3.6",
         "wrapt >=1.10.10"
       ],
@@ -71733,7 +71802,7 @@
       "depends": [
         "aiohttp >=3.3.1",
         "aioitertools >=0.5.1",
-        "botocore",
+        "botocore >=1.19.52,<1.19.53",
         "python >=3.6",
         "wrapt >=1.10.10"
       ],
@@ -71754,7 +71823,7 @@
       "depends": [
         "aiohttp >=3.3.1",
         "aioitertools >=0.5.1",
-        "botocore",
+        "botocore >=1.19.52,<1.19.53",
         "python >=3.6",
         "wrapt >=1.10.10"
       ],
@@ -80843,6 +80912,26 @@
       "timestamp": 1613586908140,
       "version": "1.20.9"
     },
+    "botocore-1.20.94-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "jmespath >=0.7.1,<1.0.0",
+        "python",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.25.4,<1.27"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e01a46e2bceff213d80908b178454708",
+      "name": "botocore",
+      "noarch": "python",
+      "sha256": "eabd35c162e97962fd6e87f1b64c85b56f8445257fc40850cd951d72abc1a5ba",
+      "size": 3909330,
+      "subdir": "noarch",
+      "timestamp": 1623784239666,
+      "version": "1.20.94"
+    },
     "bs4-4.9.0-0.conda": {
       "build": "0",
       "build_number": 0,
@@ -88250,6 +88339,36 @@
       "subdir": "noarch",
       "timestamp": 1618337130107,
       "version": "0.12.1"
+    },
+    "datashader-0.13.0-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "bokeh",
+        "colorcet >=0.9.0",
+        "dask >=0.18.0",
+        "datashape >=0.5.1",
+        "numba >=0.51",
+        "numpy >=1.7",
+        "pandas >=0.24.1",
+        "param >=1.6.1",
+        "pillow >=3.1.1",
+        "pyct >=0.4.5",
+        "python >=2.7",
+        "scipy",
+        "toolz >=0.7.4",
+        "xarray >=0.9.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "efbd78cf17d68866d26b8a300bd7fb38",
+      "name": "datashader",
+      "noarch": "python",
+      "sha256": "63fc0dd7f70ecab844989ca8ab9dcae46d29eeebc668c5f67a876ead46d2f642",
+      "size": 14698021,
+      "subdir": "noarch",
+      "timestamp": 1623782401693,
+      "version": "0.13.0"
     },
     "datashader-0.6.8-py_0.conda": {
       "build": "py_0",
@@ -124685,6 +124804,25 @@
       "subdir": "noarch",
       "timestamp": 1618089005650,
       "version": "0.6.0"
+    },
+    "s3fs-2021.6.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "aiobotocore >=1.0.1",
+        "fsspec 2021.6.0.*",
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "dbef476eb5ecd6ea81018935a5b17e57",
+      "name": "s3fs",
+      "noarch": "python",
+      "sha256": "20adae3bed84b285f17fea2196dc7a4c1d7593dbb2eb703d703467f0ed632eff",
+      "size": 27017,
+      "subdir": "noarch",
+      "timestamp": 1623782433375,
+      "version": "2021.6.0"
     },
     "s3transfer-0.3.3-pyhd3eb1b0_3.conda": {
       "build": "pyhd3eb1b0_3",
