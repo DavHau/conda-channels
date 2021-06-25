@@ -17498,6 +17498,28 @@
       "timestamp": 1624291435333,
       "version": "2021.6.1"
     },
+    "dask-core-2021.6.2-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cloudpickle >=1.1.1",
+        "fsspec >=0.6.0",
+        "partd >=0.3.10",
+        "python >=3.7",
+        "pyyaml",
+        "toolz >=0.8.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c716b45c2f3db4431713a286e34f0932",
+      "name": "dask-core",
+      "noarch": "python",
+      "sha256": "09328a97c729687a86fdc7b3ba74fb908242c570e5dbdbbbc16f5e13dd45c385",
+      "size": 761799,
+      "subdir": "noarch",
+      "timestamp": 1624382014043,
+      "version": "2021.6.2"
+    },
     "dask-glm-0.2.0-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -25875,6 +25897,25 @@
       "timestamp": 1623180391737,
       "version": "0.9.0"
     },
+    "geoalchemy2-0.9.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "setuptools",
+        "sqlalchemy >=1.1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "abdc4a502d16cc887c70aae8b7d15279",
+      "name": "geoalchemy2",
+      "noarch": "python",
+      "sha256": "87ab099d747698868350feb30edbb5085e19694c82d0b8ecf6b388585c8254f7",
+      "size": 31586,
+      "subdir": "noarch",
+      "timestamp": 1624462632735,
+      "version": "0.9.1"
+    },
     "geopandas-0.4.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -26889,7 +26930,8 @@
       "build_number": 0,
       "depends": [
         "gitdb >=4.0.1,<5",
-        "python >=3.5"
+        "python >=3.5",
+        "typing-extensions >=3.7.4.0"
       ],
       "license": "BSD-3-Clause",
       "license_family": "BSD",
@@ -47839,6 +47881,27 @@
       "timestamp": 1623324119850,
       "version": "0.901"
     },
+    "mypy-0.910-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "mypy_extensions >=0.4.3,<0.5.0",
+        "psutil >=4.0",
+        "python >=3.6",
+        "toml",
+        "typing_extensions >=3.7.4"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f806b88d40da45820a7a2a59af2e0f13",
+      "name": "mypy",
+      "noarch": "python",
+      "sha256": "dc969db9dab92733fbed508a943010084ac4cf0db2c68746a0a038b714f38d19",
+      "size": 1455260,
+      "subdir": "noarch",
+      "timestamp": 1624522130274,
+      "version": "0.910"
+    },
     "natsort-6.0.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -62023,6 +62086,26 @@
       "timestamp": 1615413110370,
       "version": "5.1.0"
     },
+    "python-socketio-5.3.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict >=0.21.0",
+        "python >=3.6",
+        "python-engineio >=4.1.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "835b5e254142fa9d2040c50290c3737d",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "e21f7c6a8fc8ca9f5eac6a3abdf7d17d76d3b888da7f72aeb4a7cc0291f06e1b",
+      "size": 33387,
+      "subdir": "noarch",
+      "timestamp": 1624540222895,
+      "version": "5.3.0"
+    },
     "python-tzdata-2020.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -69602,6 +69685,23 @@
       "timestamp": 1602011658451,
       "version": "1.1.0"
     },
+    "starkbank-ecdsa-1.1.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5c622161339dcbee02c6966867d4fbc4",
+      "name": "starkbank-ecdsa",
+      "noarch": "python",
+      "sha256": "4f502f96ded9538d385900eb073d17666b3b5d3298a1c4e133201c5e23607152",
+      "size": 15440,
+      "subdir": "noarch",
+      "timestamp": 1624543556568,
+      "version": "1.1.1"
+    },
     "statistics-1.0.3.5-py_1002.tar.bz2": {
       "build": "py_1002",
       "build_number": 1002,
@@ -70420,6 +70520,25 @@
       "subdir": "noarch",
       "timestamp": 1617569909004,
       "version": "4.0.2"
+    },
+    "tempora-4.1.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "jaraco.functools >=1.20",
+        "python >=3.6",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "11f3a7b14c5afc311de781c92f45a22a",
+      "name": "tempora",
+      "noarch": "python",
+      "sha256": "1c38d8d4234e23032a378d4e4b90d7b29e7d6638bb84fd99d26c5c210c24537c",
+      "size": 17912,
+      "subdir": "noarch",
+      "timestamp": 1624535180638,
+      "version": "4.1.1"
     },
     "tenacity-6.0.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -92295,6 +92414,28 @@
       "timestamp": 1624291435333,
       "version": "2021.6.1"
     },
+    "dask-core-2021.6.2-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "cloudpickle >=1.1.1",
+        "fsspec >=0.6.0",
+        "partd >=0.3.10",
+        "python >=3.7",
+        "pyyaml",
+        "toolz >=0.8.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "cd580d55398085a38c5462ea96df5bd2",
+      "name": "dask-core",
+      "noarch": "python",
+      "sha256": "1ca8b72768599f1d2598c8dbf6294c10009bc0199bb107d3e287b67cbe872a5c",
+      "size": 709099,
+      "subdir": "noarch",
+      "timestamp": 1624382014043,
+      "version": "2021.6.2"
+    },
     "dask-glm-0.2.0-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -99725,6 +99866,25 @@
       "timestamp": 1623180391737,
       "version": "0.9.0"
     },
+    "geoalchemy2-0.9.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python",
+        "setuptools",
+        "sqlalchemy >=1.1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "346d83670737e7d929757bf5de9c0ee3",
+      "name": "geoalchemy2",
+      "noarch": "python",
+      "sha256": "0a7b13ca85afc50d345a1910d87bebbe917c13f17ad45cd755b8d7d20a14c381",
+      "size": 32080,
+      "subdir": "noarch",
+      "timestamp": 1624462632735,
+      "version": "0.9.1"
+    },
     "geopandas-0.4.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -100585,7 +100745,8 @@
       "build_number": 0,
       "depends": [
         "gitdb >=4.0.1,<5",
-        "python >=3.5"
+        "python >=3.5",
+        "typing-extensions >=3.7.4.0"
       ],
       "license": "BSD-3-Clause",
       "license_family": "BSD",
@@ -115131,6 +115292,27 @@
       "timestamp": 1623324119850,
       "version": "0.901"
     },
+    "mypy-0.910-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "mypy_extensions >=0.4.3,<0.5.0",
+        "psutil >=4.0",
+        "python >=3.6",
+        "toml",
+        "typing_extensions >=3.7.4"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "10a6d732158367392816b1a0164102e8",
+      "name": "mypy",
+      "noarch": "python",
+      "sha256": "77c756a98d8bd747f9d300b75c90a16afa1c6b9a890aa83e1e1295dd05e5c21f",
+      "size": 1365041,
+      "subdir": "noarch",
+      "timestamp": 1624522130274,
+      "version": "0.910"
+    },
     "natsort-6.0.0-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -127736,6 +127918,26 @@
       "timestamp": 1615413110370,
       "version": "5.1.0"
     },
+    "python-socketio-5.3.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "bidict >=0.21.0",
+        "python >=3.6",
+        "python-engineio >=4.1.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f2400537b4f9a3eae88185d55744bb09",
+      "name": "python-socketio",
+      "namespace_in_name": true,
+      "noarch": "python",
+      "sha256": "7a1b794db81dbaab559bfcec2fe3251b4e0b71e53b0823073d75519bcaf1b10f",
+      "size": 31989,
+      "subdir": "noarch",
+      "timestamp": 1624540222895,
+      "version": "5.3.0"
+    },
     "python-tzdata-2020.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -134999,6 +135201,23 @@
       "timestamp": 1602011658451,
       "version": "1.1.0"
     },
+    "starkbank-ecdsa-1.1.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6eb519d343b8d98aeb67ec12095473cb",
+      "name": "starkbank-ecdsa",
+      "noarch": "python",
+      "sha256": "edc8c912061d6f479df659ac723c8b0700f1d438792c93fc8e1c6603e5421c25",
+      "size": 16050,
+      "subdir": "noarch",
+      "timestamp": 1624543556568,
+      "version": "1.1.1"
+    },
     "statistics-1.0.3.5-py_1002.conda": {
       "build": "py_1002",
       "build_number": 1002,
@@ -135556,6 +135775,25 @@
       "subdir": "noarch",
       "timestamp": 1617569909004,
       "version": "4.0.2"
+    },
+    "tempora-4.1.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "jaraco.functools >=1.20",
+        "python >=3.6",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2694c8b569158b4b9d0f1adad9df4a52",
+      "name": "tempora",
+      "noarch": "python",
+      "sha256": "e4128716ec1efd0c3799a6e09ecb0f079e7a8da139970aac13cb7c99d1a1e7c0",
+      "size": 18123,
+      "subdir": "noarch",
+      "timestamp": 1624535180638,
+      "version": "4.1.1"
     },
     "tenacity-6.0.0-py_0.conda": {
       "build": "py_0",
