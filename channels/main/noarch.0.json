@@ -49478,6 +49478,23 @@
       "timestamp": 1623057657328,
       "version": "0.6.15.1"
     },
+    "nuitka-0.6.16-pyhd3eb1b0_1.tar.bz2": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "9f0079df00f5dab7c75c0e63d41c43fa",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "7063ca8ff1fc5e10aa7ee4b5d8023d24f73b1b4e4facffc3e7337fc7cef72726",
+      "size": 1471887,
+      "subdir": "noarch",
+      "timestamp": 1624617539056,
+      "version": "0.6.16"
+    },
     "nuitka-0.6.9.1-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -71545,6 +71562,23 @@
       "subdir": "noarch",
       "timestamp": 1611930617099,
       "version": "0.4.4"
+    },
+    "testpath-0.5.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "a598d10094621c7b721a5508810764ce",
+      "name": "testpath",
+      "noarch": "python",
+      "sha256": "b0f8f52d9ab54e1844a5413837819609d2a66e483eec9dddfdd9cfbc5c08b211",
+      "size": 88138,
+      "subdir": "noarch",
+      "timestamp": 1624638998137,
+      "version": "0.5.0"
     },
     "text-unidecode-1.2-py_0.tar.bz2": {
       "build": "py_0",
@@ -116819,6 +116853,23 @@
       "timestamp": 1623057657328,
       "version": "0.6.15.1"
     },
+    "nuitka-0.6.16-pyhd3eb1b0_1.conda": {
+      "build": "pyhd3eb1b0_1",
+      "build_number": 1,
+      "depends": [
+        "python"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "dbb0188e343edf1da22afe799f1fff98",
+      "name": "nuitka",
+      "noarch": "python",
+      "sha256": "c0203c5e663bd040a22523249d4d4bf687f97d8d0fe2d551d0f590a186ad105b",
+      "size": 1213160,
+      "subdir": "noarch",
+      "timestamp": 1624617539056,
+      "version": "0.6.16"
+    },
     "nuitka-0.6.9.1-py_0.conda": {
       "build": "py_0",
       "build_number": 0,
@@ -136891,6 +136942,23 @@
       "subdir": "noarch",
       "timestamp": 1573942955161,
       "version": "0.4.4"
+    },
+    "testpath-0.5.0-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "bd2a5c664c982e8637ae17b1662bd9a4",
+      "name": "testpath",
+      "noarch": "python",
+      "sha256": "2b0bd8d29b8142a9fad8b70059576d22434144cff59f46c25e8e3b60fe9b8fac",
+      "size": 82507,
+      "subdir": "noarch",
+      "timestamp": 1624638998137,
+      "version": "0.5.0"
     },
     "text-unidecode-1.2-py_0.conda": {
       "build": "py_0",
