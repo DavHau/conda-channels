@@ -11557,6 +11557,23 @@
       "timestamp": 1592512765792,
       "version": "0.1.6"
     },
+    "cgroupspy-0.2.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "34cb4c59793bbae2859d76b46936c753",
+      "name": "cgroupspy",
+      "noarch": "python",
+      "sha256": "b37cd279bcf2c8dbd0f58ca3f9bc23819ff98bf67e008537f7ca8770ef6ca633",
+      "size": 16867,
+      "subdir": "noarch",
+      "timestamp": 1624615942863,
+      "version": "0.2.1"
+    },
     "chainer-6.3.0-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -86937,6 +86954,23 @@
       "subdir": "noarch",
       "timestamp": 1592512765792,
       "version": "0.1.6"
+    },
+    "cgroupspy-0.2.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "75683fd30e8e9c1fe1d8e84800043072",
+      "name": "cgroupspy",
+      "noarch": "python",
+      "sha256": "a59987590dace598b2dbaa5c4930e20cd8a12ecad3c87bd847c4ccebde86b6b5",
+      "size": 16556,
+      "subdir": "noarch",
+      "timestamp": 1624615942863,
+      "version": "0.2.1"
     },
     "chainer-6.3.0-py_0.conda": {
       "build": "py_0",
