@@ -35684,6 +35684,24 @@
       "timestamp": 1621238396297,
       "version": "3.0.0"
     },
+    "jinja2-3.0.1-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "markupsafe >=2.0",
+        "python >=3.6",
+        "setuptools"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "32c45fa304affd562c3f47294cadaf46",
+      "name": "jinja2",
+      "noarch": "python",
+      "sha256": "1beea362c31221c4c50b329fa02a820470ef2fcea00fab4a9735a35a851caa55",
+      "size": 104917,
+      "subdir": "noarch",
+      "timestamp": 1624781343368,
+      "version": "3.0.1"
+    },
     "jinja2-time-0.2.0-pyhd3eb1b0_2.tar.bz2": {
       "build": "pyhd3eb1b0_2",
       "build_number": 2,
@@ -108381,6 +108399,24 @@
       "subdir": "noarch",
       "timestamp": 1621238396297,
       "version": "3.0.0"
+    },
+    "jinja2-3.0.1-pyhd3eb1b0_0.conda": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "markupsafe >=2.0",
+        "python >=3.6",
+        "setuptools"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "bdc306d891e4dc2e5c4b21d45e38e4b5",
+      "name": "jinja2",
+      "noarch": "python",
+      "sha256": "d4038c9aa2a276b58410c719364c338ea040222f1d52b5210c031c0071933f18",
+      "size": 112139,
+      "subdir": "noarch",
+      "timestamp": 1624781343368,
+      "version": "3.0.1"
     },
     "jinja2-time-0.2.0-pyhd3eb1b0_2.conda": {
       "build": "pyhd3eb1b0_2",
