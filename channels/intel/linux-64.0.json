@@ -5448,34 +5448,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "mkl_umath-0.1.1-py37hc4b4d23_8.tar.bz2": {
-      "build_number": 8,
-      "name": "mkl_umath",
-      "license": "BSD-3-Clause",
-      "has_prefix": true,
-      "md5": "9e2edac2933b9f3d7b266450d9c97045",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+    "openvino-ie-2021.4-centos7_intel_582.tar.bz2": {
+      "features": "centos7",
+      "timestamp": 1624638453179,
       "depends": [
-        "dpcpp_cpp_rt",
-        "intelpython >=2019.0",
-        "mkl",
-        "numpy-base >=1.20.1,<2.0a0",
-        "python >=3.7,<3.8.0a0"
+        "tbb 2020.3"
       ],
-      "version": "0.1.1",
-      "build": "py37hc4b4d23_8",
-      "timestamp": 1615430327706,
-      "binstar": {
-        "package_id": "5f21fa4c78705809fac3b7cd",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 301218,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 24777888,
+      "build_number": 582,
+      "name": "openvino-ie",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "centos7_intel_582",
+      "binstar": {
+        "package_id": "5ed9379b83b66372f6a6b978",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a4a52899b29f4c1369b9071749affefb",
+      "requires": [],
       "subdir": "linux-64"
     },
     "ipp-static-2019.4-intel_235.tar.bz2": {
@@ -10027,6 +10024,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "openvino-ie4py-2021.4-py37_centos7_intel_582.tar.bz2": {
+      "features": "centos7",
+      "timestamp": 1624639358657,
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.7,<3.8"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 545296,
+      "build_number": 582,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "py37_centos7_intel_582",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "c996395116bb1528a107b5322c7bf232",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "notebook-4.2.1-py27_intel_3.tar.bz2": {
       "build_number": 3,
       "features": "intel",
@@ -10505,6 +10530,34 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "openvino-ie4py-2021.4-py37_ubuntu20_intel_582.tar.bz2": {
+      "features": "ubuntu20",
+      "timestamp": 1624641105667,
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.7,<3.8"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 583719,
+      "build_number": 582,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "py37_ubuntu20_intel_582",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e02c3b8526bce7d464632894643f4971",
+      "requires": [],
       "subdir": "linux-64"
     },
     "python-dateutil-2.6.0-py27_5.tar.bz2": {
@@ -17059,6 +17112,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "b5e4e1f204a4438da112b650c8ae58c5",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "openvino-ie4py-centos7-2021.4-intel_582.tar.bz2": {
+      "timestamp": 1624638074125,
+      "track_features": "centos7",
+      "depends": [
+        "openvino-ie4py 2021.4"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 12808,
+      "build_number": 582,
+      "name": "openvino-ie4py-centos7",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "intel_582",
+      "binstar": {
+        "package_id": "5f113f0583b6630a0e0dca55",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "bc53c4bb1ee3fa8975d9d66e25758537",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -24229,6 +24309,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "openvino-ie4py-2021.4-py36_ubuntu20_intel_582.tar.bz2": {
+      "features": "ubuntu20",
+      "timestamp": 1624640411860,
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.6,<3.7"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 583060,
+      "build_number": 582,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "py36_ubuntu20_intel_582",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3f87846aba15db83aa71e3154aa89bf2",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "caffe-1.1.1-py36_intel_0.tar.bz2": {
       "features": "intel",
       "timestamp": 1530587413491,
@@ -29536,6 +29644,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "openvino-ie4py-2021.4-py37_ubuntu18_intel_582.tar.bz2": {
+      "features": "ubuntu18",
+      "timestamp": 1624640226645,
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.7,<3.8"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 565571,
+      "build_number": 582,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "py37_ubuntu18_intel_582",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "affcd20842e2988dbfb6e782b08ae3ba",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "hugetlbfs-1.0-py36_0.tar.bz2": {
       "build_number": 0,
       "name": "hugetlbfs",
@@ -33734,6 +33870,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "mkl_umath-0.1.1-py37hc4b4d23_8.tar.bz2": {
+      "build_number": 8,
+      "name": "mkl_umath",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "md5": "9e2edac2933b9f3d7b266450d9c97045",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt",
+        "intelpython >=2019.0",
+        "mkl",
+        "numpy-base >=1.20.1,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "0.1.1",
+      "build": "py37hc4b4d23_8",
+      "timestamp": 1615430327706,
+      "binstar": {
+        "package_id": "5f21fa4c78705809fac3b7cd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 301218,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "intel-openmp-2020.0-intel_166.tar.bz2": {
       "timestamp": 1575020012007,
       "depends": [],
@@ -35357,6 +35523,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "8f68a29f11980ecd7563d813e1b03e32",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "openvino-ie4py-ubuntu18-2021.4-intel_582.tar.bz2": {
+      "timestamp": 1624639834884,
+      "track_features": "ubuntu18",
+      "depends": [
+        "openvino-ie4py 2021.4"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 12806,
+      "build_number": 582,
+      "name": "openvino-ie4py-ubuntu18",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "intel_582",
+      "binstar": {
+        "package_id": "5ed9384b778a87708da5983f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "f129a397ad340b6f9ca6bad6a8817608",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -40294,6 +40487,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "b554f243e9abbf611fab2b2ceb5f7bf4",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "openvino-ie4py-ubuntu20-2021.4-intel_582.tar.bz2": {
+      "timestamp": 1624638078419,
+      "track_features": "ubuntu20",
+      "depends": [
+        "openvino-ie4py 2021.4"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 12814,
+      "build_number": 582,
+      "name": "openvino-ie4py-ubuntu20",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "intel_582",
+      "binstar": {
+        "package_id": "5f7b169a78d4370a8702843e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "7fe6bd07db0ce31d39622504050b60d3",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -48329,6 +48549,34 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "openvino-ie4py-2021.4-py36_ubuntu18_intel_582.tar.bz2": {
+      "features": "ubuntu18",
+      "timestamp": 1624638411076,
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.6,<3.7"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 566119,
+      "build_number": 582,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "py36_ubuntu18_intel_582",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d92734b9c6f4202c7fcf7ed6745e1eaf",
+      "requires": [],
       "subdir": "linux-64"
     },
     "ipywidgets-6.0.0-py27_intel_0.tar.bz2": {
@@ -61464,6 +61712,34 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py27_2"
     },
+    "openvino-ie4py-2021.4-py36_centos7_intel_582.tar.bz2": {
+      "features": "centos7",
+      "timestamp": 1624638075479,
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.6,<3.7"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 547888,
+      "build_number": 582,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "py36_centos7_intel_582",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d776823e36b8d82313cf1befcb278d3b",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "decorator-4.3.0-py27_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -73155,6 +73431,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "openvino-ie-2021.4-ubuntu20_intel_582.tar.bz2": {
+      "features": "ubuntu20",
+      "timestamp": 1624640131550,
+      "depends": [
+        "tbb 2020.3"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 47326187,
+      "build_number": 582,
+      "name": "openvino-ie",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "ubuntu20_intel_582",
+      "binstar": {
+        "package_id": "5ed9379b83b66372f6a6b978",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "7a1bc6a080653604f9fc0b15853e8210",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "libpng-1.6.37-h17b3f18_7.tar.bz2": {
       "timestamp": 1604605212148,
       "depends": [
@@ -73575,6 +73878,33 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "openvino-ie-2021.4-ubuntu18_intel_582.tar.bz2": {
+      "features": "ubuntu18",
+      "timestamp": 1624638773140,
+      "depends": [
+        "tbb 2020.3"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 46483821,
+      "build_number": 582,
+      "name": "openvino-ie",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4",
+      "build": "ubuntu18_intel_582",
+      "binstar": {
+        "package_id": "5ed9379b83b66372f6a6b978",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a16a311da15ee3f3e9258389fef076d4",
+      "requires": [],
       "subdir": "linux-64"
     },
     "daal-2019.4-intel_235.tar.bz2": {
