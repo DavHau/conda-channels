@@ -4431,6 +4431,24 @@
       "timestamp": 1545421222437,
       "version": "0.95"
     },
+    "azure-core-1.14.0-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.6",
+        "requests >=2.18.4",
+        "six >=1.11.0"
+      ],
+      "license": "MIT",
+      "md5": "6ef8b824ff92a0b5ea1fc20459d0e4b0",
+      "name": "azure-core",
+      "noarch": "python",
+      "sha256": "22464bd306a61f5967779537f1adb1345807033455bd5396cd0c88032d1cb64a",
+      "size": 69307,
+      "subdir": "noarch",
+      "timestamp": 1624572669933,
+      "version": "1.14.0"
+    },
     "azure-cosmos-3.1.2-py_0.tar.bz2": {
       "build": "py_0",
       "build_number": 0,
@@ -20462,6 +20480,23 @@
       "subdir": "noarch",
       "timestamp": 1552375730282,
       "version": "0.4.0"
+    },
+    "ecdsa-0.13-pyhd3eb1b0_0.tar.bz2": {
+      "build": "pyhd3eb1b0_0",
+      "build_number": 0,
+      "depends": [
+        "python"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "26b045236555771f9c2aff48d3af4002",
+      "name": "ecdsa",
+      "noarch": "python",
+      "sha256": "b596f451c1a1ea4907ece93e0468a0ad7650333e3659a50003f24538e8c3b333",
+      "size": 42495,
+      "subdir": "noarch",
+      "timestamp": 1624478654271,
+      "version": "0.13"
     },
     "ecdsa-0.16.0-py_0.tar.bz2": {
       "build": "py_0",
@@ -57316,6 +57351,22 @@
       "subdir": "noarch",
       "timestamp": 1615748690635,
       "version": "2.0.2"
+    },
+    "pyinstaller-hooks-contrib-2020.11-pyhd8ed1ab_0.tar.bz2": {
+      "build": "pyhd8ed1ab_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3"
+      ],
+      "license": "Apache-2.0 OR GPL-2.0-or-later",
+      "md5": "c210a94edcdfa1d86ce9eb52632d968d",
+      "name": "pyinstaller-hooks-contrib",
+      "noarch": "python",
+      "sha256": "061cda68e5462679d228c8be2481f3fb64d28f0ba50c9f7b8e9205096ce3065c",
+      "size": 70079,
+      "subdir": "noarch",
+      "timestamp": 1613866529909,
+      "version": "2020.11"
     },
     "pyjks-18.0.0-py_0.tar.bz2": {
       "build": "py_0",
