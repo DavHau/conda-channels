@@ -35592,6 +35592,36 @@
       "timestamp": 1623234425775,
       "version": "2.5.0"
     },
+    "tensorflow-eigen-2.5.0-ha910685_1.tar.bz2": {
+      "build": "ha910685_1",
+      "build_number": 1,
+      "depends": [
+        "_tflow_select ==2.2.0 eigen",
+        "tensorflow 2.5.0"
+      ],
+      "md5": "7e7f2b689b8ee8deb58e1b46719232e2",
+      "name": "tensorflow-eigen",
+      "sha256": "b99c442e9719e1ac35bf2b3148791eafd7a9839094bb806c9636467aa701b1e3",
+      "size": 2427,
+      "subdir": "linux-aarch64",
+      "timestamp": 1625147011331,
+      "version": "2.5.0"
+    },
+    "tensorflow-mkl-2.5.0-h0f1514e_1.tar.bz2": {
+      "build": "h0f1514e_1",
+      "build_number": 1,
+      "depends": [
+        "_tflow_select ==2.3.0 mkl",
+        "tensorflow 2.5.0"
+      ],
+      "md5": "26dbdca4ceabc522d6425dace50733e9",
+      "name": "tensorflow-mkl",
+      "sha256": "a6d4e480fb5f6c93a18aec61fcd9968ac44e9b8c27fb21666cb672fc229ab3be",
+      "size": 2424,
+      "subdir": "linux-aarch64",
+      "timestamp": 1625147029447,
+      "version": "2.5.0"
+    },
     "tensorflow-mkl-2.5.0-h33597a0_0.tar.bz2": {
       "build": "h33597a0_0",
       "build_number": 0,
@@ -72959,6 +72989,36 @@
       "size": 5340,
       "subdir": "linux-aarch64",
       "timestamp": 1623234425775,
+      "version": "2.5.0"
+    },
+    "tensorflow-eigen-2.5.0-ha910685_1.conda": {
+      "build": "ha910685_1",
+      "build_number": 1,
+      "depends": [
+        "_tflow_select ==2.2.0 eigen",
+        "tensorflow 2.5.0"
+      ],
+      "md5": "157c2803287d4651a7ac4b7925cdb72e",
+      "name": "tensorflow-eigen",
+      "sha256": "d19fbfe2cb98acbbaf46e2812d8c97425f7c5e2ee7e34a46fe8d7f8ae498bb79",
+      "size": 2805,
+      "subdir": "linux-aarch64",
+      "timestamp": 1625147011331,
+      "version": "2.5.0"
+    },
+    "tensorflow-mkl-2.5.0-h0f1514e_1.conda": {
+      "build": "h0f1514e_1",
+      "build_number": 1,
+      "depends": [
+        "_tflow_select ==2.3.0 mkl",
+        "tensorflow 2.5.0"
+      ],
+      "md5": "dfa4da2475176e9e33959fec0c104998",
+      "name": "tensorflow-mkl",
+      "sha256": "6d891dcd9fe0ec4e0682ad4c130e45b227d88299a09179bde92262215d36de20",
+      "size": 2796,
+      "subdir": "linux-aarch64",
+      "timestamp": 1625147029447,
       "version": "2.5.0"
     },
     "tensorflow-mkl-2.5.0-h33597a0_0.conda": {
