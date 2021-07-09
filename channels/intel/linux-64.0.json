@@ -52520,6 +52520,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "urllib3-1.26.6-py37h794f152_0.tar.bz2": {
+      "timestamp": 1625725869422,
+      "depends": [
+        "certifi",
+        "cryptography >=1.3.4",
+        "idna >=2.0.0",
+        "intelpython >=2019.0",
+        "pyopenssl >=0.14",
+        "pysocks >=1.5.6,<2.0,!=1.5.7",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 177839,
+      "build_number": 0,
+      "name": "urllib3",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.26.6",
+      "build": "py37h794f152_0",
+      "binstar": {
+        "package_id": "5a060257307dba1229ce2cbd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d2cd1fcb0b568264fe06a08abe69c119",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "certifi-2018.1.18-py27_intel_0.tar.bz2": {
       "features": "intel",
       "depends": [
@@ -55189,33 +55222,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "freetype-2.5.5-intel_3.tar.bz2": {
-      "features": "intel",
-      "depends": [
-        "intelpython",
-        "libpng 1.6.*",
-        "zlib 1.2.*"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 1135861,
+    "idna-2.6-py37_3.tar.bz2": {
       "build_number": 3,
-      "name": "freetype",
-      "license": "FreeType License (http://freetype.sourceforge.net/FTL.TXT)",
-      "has_prefix": true,
-      "license_family": "Other",
+      "name": "idna",
+      "license": "BSD",
+      "has_prefix": false,
+      "md5": "784fa96b5a3c66386a0fb2db42aa87cf",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2.5.5",
-      "build": "intel_3",
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "2.6",
+      "build": "py37_3",
+      "timestamp": 1574459274722,
       "binstar": {
-        "package_id": "57b32469e5085d171034d04a",
+        "package_id": "5a062a1791d28d123ea47e22",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "fdba195cb70fddc1d17bffbf72bcb02f",
-      "requires": [],
+      "size": 93937,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "xgboost-1.2.0-1230_g9fedb40py38_1.tar.bz2": {
@@ -63451,31 +63482,33 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_1"
     },
-    "idna-2.6-py37_3.tar.bz2": {
-      "build_number": 3,
-      "name": "idna",
-      "license": "BSD",
-      "has_prefix": false,
-      "md5": "784fa96b5a3c66386a0fb2db42aa87cf",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+    "freetype-2.5.5-intel_3.tar.bz2": {
+      "features": "intel",
       "depends": [
-        "intelpython >=2019.0",
-        "python >=3.7,<3.8.0a0"
+        "intelpython",
+        "libpng 1.6.*",
+        "zlib 1.2.*"
       ],
-      "version": "2.6",
-      "build": "py37_3",
-      "timestamp": 1574459274722,
-      "binstar": {
-        "package_id": "5a062a1791d28d123ea47e22",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 93937,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 1135861,
+      "build_number": 3,
+      "name": "freetype",
+      "license": "FreeType License (http://freetype.sourceforge.net/FTL.TXT)",
+      "has_prefix": true,
+      "license_family": "Other",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.5.5",
+      "build": "intel_3",
+      "binstar": {
+        "package_id": "57b32469e5085d171034d04a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "fdba195cb70fddc1d17bffbf72bcb02f",
+      "requires": [],
       "subdir": "linux-64"
     },
     "pyparsing-2.2.0-py36_2.tar.bz2": {
@@ -72215,6 +72248,39 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "urllib3-1.26.6-py38h794f152_0.tar.bz2": {
+      "timestamp": 1625723163219,
+      "depends": [
+        "certifi",
+        "cryptography >=1.3.4",
+        "idna >=2.0.0",
+        "intelpython >=2019.0",
+        "pyopenssl >=0.14",
+        "pysocks >=1.5.6,<2.0,!=1.5.7",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 178697,
+      "build_number": 0,
+      "name": "urllib3",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.26.6",
+      "build": "py38h794f152_0",
+      "binstar": {
+        "package_id": "5a060257307dba1229ce2cbd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "21c388711653f305f116e1c5e0ed8d5d",
+      "requires": [],
       "subdir": "linux-64"
     },
     "joblib-0.13.2-py37_1.tar.bz2": {
