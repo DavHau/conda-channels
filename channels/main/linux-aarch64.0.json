@@ -23502,7 +23502,7 @@
       "depends": [
         "blas 1.0 openblas",
         "libopenblas 0.3.10 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "openblas-devel 0.3.10 hd43f75c_1"
       ],
       "license": "BSD",
@@ -23520,7 +23520,7 @@
       "depends": [
         "blas 1.0 openblas",
         "libopenblas 0.3.13 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "openblas-devel 0.3.13 hd43f75c_1"
       ],
       "license": "BSD",
@@ -63363,7 +63363,7 @@
       "depends": [
         "blas 1.0 openblas",
         "libopenblas 0.3.10 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "openblas-devel 0.3.10 hd43f75c_1"
       ],
       "license": "BSD",
@@ -63381,7 +63381,7 @@
       "depends": [
         "blas 1.0 openblas",
         "libopenblas 0.3.13 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "openblas-devel 0.3.13 hd43f75c_1"
       ],
       "license": "BSD",
