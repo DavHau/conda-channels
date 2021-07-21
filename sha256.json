@@ -12,12 +12,12 @@
   "channels/intel/linux-64.0.json": "f6ub6dFZAyoE4odBQ6yr/EN9nZ3UkqVh40N20LZW41U=",
   "channels/intel/noarch.0.json": "SUo9czk2w18ZJv/cANdF+5IaDCzrhL60LVx0a/8wdHM=",
   "channels/intel/osx-64.0.json": "K228neBunWElRKfLypkClLqL5qEZtFQqKcfWeJ8hDNI=",
-  "channels/conda-forge/linux-64.1.json": "RoZzCEQ9lfvXdZPufANRDhgjbBu2mGtzZiS2Wzko204=",
-  "channels/conda-forge/linux-64.2.json": "G+oyd2G/KKkzyrtijq3wbfyVq9s8fp7asQTUgL/cPnE=",
-  "channels/conda-forge/osx-64.1.json": "y9QSajwGi7Zk6+Mcd9Aqs7zT+uIP+4CGknFKbzzmDp0=",
-  "channels/conda-forge/linux-64.0.json": "IonBjik1z4WnksqrhO42XuP6krx4RTM+iDF3fLJzWM4=",
-  "channels/conda-forge/osx-64.2.json": "VqCbfr3NBvkTcEX71ju77A1lGObf5X6nv/vuaUp6cL4=",
-  "channels/conda-forge/noarch.0.json": "p6bktrA03kf6xHyYW/rV8mW5TgPWkbjjHOH7LJzcRPU=",
-  "channels/conda-forge/linux-aarch64.0.json": "Mbj8RHiqHc86/eeSPeKTCCKgCZRJ2dvOjV7SqrWmVes=",
-  "channels/conda-forge/osx-64.0.json": "/q94AoSYZ5bvN9qyk2OYxzC8fhdEk1+dKS1dPgAmAhg="
+  "channels/conda-forge/linux-64.1.json": "AqQzN4tBxJbeqp9CiVJXFEFo1+9skjjMtT7NKeqclLA=",
+  "channels/conda-forge/linux-64.2.json": "fOF6qXWumKBrAx2BVQ0IB49+ZJlRhpvQX+c3D+/eYk0=",
+  "channels/conda-forge/osx-64.1.json": "bmfes607H6+JsXHVg47fhIT1iUxbjTssu8k/A+O2Zhs=",
+  "channels/conda-forge/linux-64.0.json": "ekwW4VEBt8MtvcPH+CRPcAvLlriuOMPGNWyYp0Q8kvI=",
+  "channels/conda-forge/osx-64.2.json": "U6urYj45XegoGIB8DLathD8xjSU97a4Qjg8LvMD0sNM=",
+  "channels/conda-forge/noarch.0.json": "pVRvpJxIFjoFI0XhKpIPlXNGaFue3TKYAdGvdjSJN5I=",
+  "channels/conda-forge/linux-aarch64.0.json": "FRTKEPfcWcdvGk9cpuCGodDld88NNzeTtlOGmfDJNCA=",
+  "channels/conda-forge/osx-64.0.json": "wMhkNstJ1IyqdLbn17LP4XLo1jRG2DHzJIGRHSvIrrE="
 }
