@@ -28,39 +28,6 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "ilit-1.0b0-py_0.tar.bz2": {
-      "timestamp": 1598868423098,
-      "depends": [
-        "numpy",
-        "pip",
-        "python",
-        "pyyaml",
-        "schema",
-        "scikit-learn"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 3467474,
-      "build_number": 0,
-      "name": "ilit",
-      "license": "Apache 2.0",
-      "has_prefix": false,
-      "license_family": "Apache",
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "1.0b0",
-      "build": "py_0",
-      "binstar": {
-        "package_id": "5efabda483b6630a0e2bad06",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "00a7fe2de9e17d8a1352ae21507cea0d",
-      "requires": [],
-      "subdir": "noarch"
-    },
     "lpot-1.3-py_0.tar.bz2": {
       "timestamp": 1618585029626,
       "depends": [
@@ -135,31 +102,51 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "intel-quantization-1.1-py_0.tar.bz2": {
-      "timestamp": 1595645017052,
+    "lpot-1.5.1-py_0.tar.bz2": {
+      "timestamp": 1627223681650,
       "depends": [
-        "python"
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 139843,
+      "size": 47537254,
       "build_number": 0,
-      "name": "intel-quantization",
+      "name": "lpot",
       "license": "Apache 2.0",
       "has_prefix": false,
       "license_family": "Apache",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "1.1",
+      "version": "1.5.1",
       "build": "py_0",
       "binstar": {
-        "package_id": "5e1de54d83b6630f0d1550a1",
+        "package_id": "5fd8fe1c98a8ba6180306a53",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "5599ddc0d26e8fcca9763248bc00f37d",
+      "md5": "7e1e39bbab753c3d4ac3a1f0db7f62b4",
       "requires": [],
       "subdir": "noarch"
     },
@@ -206,6 +193,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "f9d627f651e49b220ba7c9d98fce4df6",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "dataclasses-0.8-pyh6d0b6a4_7.tar.bz2": {
+      "timestamp": 1614362671677,
+      "depends": [
+        "python >=3.7"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 7367,
+      "build_number": 7,
+      "name": "dataclasses",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "0.8",
+      "build": "pyh6d0b6a4_7",
+      "binstar": {
+        "package_id": "60661bfe69aed84d14f868d9",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "c8c177c84b3e5e6145156045660868e9",
       "requires": [],
       "subdir": "noarch"
     },
@@ -689,30 +703,36 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "dataclasses-0.8-pyh6d0b6a4_7.tar.bz2": {
-      "timestamp": 1614362671677,
+    "ilit-1.0b0-py_0.tar.bz2": {
+      "timestamp": 1598868423098,
       "depends": [
-        "python >=3.7"
+        "numpy",
+        "pip",
+        "python",
+        "pyyaml",
+        "schema",
+        "scikit-learn"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 7367,
-      "build_number": 7,
-      "name": "dataclasses",
-      "license": "Apache-2.0",
+      "size": 3467474,
+      "build_number": 0,
+      "name": "ilit",
+      "license": "Apache 2.0",
       "has_prefix": false,
+      "license_family": "Apache",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "0.8",
-      "build": "pyh6d0b6a4_7",
+      "version": "1.0b0",
+      "build": "py_0",
       "binstar": {
-        "package_id": "60661bfe69aed84d14f868d9",
+        "package_id": "5efabda483b6630a0e2bad06",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "c8c177c84b3e5e6145156045660868e9",
+      "md5": "00a7fe2de9e17d8a1352ae21507cea0d",
       "requires": [],
       "subdir": "noarch"
     },
@@ -784,6 +804,34 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "164f27c00b45f8d97e7725c78fcbcf7c",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "intel-quantization-1.1-py_0.tar.bz2": {
+      "timestamp": 1595645017052,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 139843,
+      "build_number": 0,
+      "name": "intel-quantization",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.1",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "5e1de54d83b6630f0d1550a1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "5599ddc0d26e8fcca9763248bc00f37d",
       "requires": [],
       "subdir": "noarch"
     }
