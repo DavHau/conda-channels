@@ -22262,6 +22262,21 @@
       "timestamp": 1617825400084,
       "version": "14.8.0"
     },
+    "nomkl-3.0-0.tar.bz2": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas"
+      ],
+      "license": "BSD",
+      "md5": "acc6957ec144010535da4c725f0ec4cf",
+      "name": "nomkl",
+      "sha256": "ae3c2919513e3d96bbc5ba73f0c481e6be6c7ed7ef02f08eee8669ceea1ac533",
+      "size": 8505,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627582636618,
+      "version": "3.0"
+    },
     "nomkl-3.0-hd43f75c_0.tar.bz2": {
       "build": "hd43f75c_0",
       "build_number": 0,
@@ -62122,6 +62137,21 @@
       "subdir": "linux-aarch64",
       "timestamp": 1617825400084,
       "version": "14.8.0"
+    },
+    "nomkl-3.0-0.conda": {
+      "build": "0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas"
+      ],
+      "license": "BSD",
+      "md5": "b2f51684b0a9a395c46a1b129a569d5f",
+      "name": "nomkl",
+      "sha256": "37ec53a3bbcfc7c99634d501ea79ca69344c7ad87e5c8efe46cb39a034e06d42",
+      "size": 8466,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627582636618,
+      "version": "3.0"
     },
     "nomkl-3.0-hd43f75c_0.conda": {
       "build": "hd43f75c_0",
