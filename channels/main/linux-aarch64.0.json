@@ -23552,7 +23552,7 @@
       "build_number": 1,
       "depends": [
         "libopenblas 0.3.10 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "blas * openblas"
       ],
       "md5": "2369cfd1b513e2375a4e2f96d6bfb42d",
@@ -23568,7 +23568,7 @@
       "build_number": 1,
       "depends": [
         "libopenblas 0.3.13 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "blas * openblas"
       ],
       "md5": "b2d9aa710cf5f1d4d01de3a857d17bb9",
@@ -63428,7 +63428,7 @@
       "build_number": 1,
       "depends": [
         "libopenblas 0.3.10 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "blas * openblas"
       ],
       "md5": "fd5359ab7d6b9b3cfe816c9ab8025bf5",
@@ -63444,7 +63444,7 @@
       "build_number": 1,
       "depends": [
         "libopenblas 0.3.13 hf4835c0_1",
-        "nomkl 3.0 hd43f75c_0",
+        "nomkl 3.0 0",
         "blas * openblas"
       ],
       "md5": "64f503a2f0d7b62e282c22ab8063d7e4",
