@@ -29840,6 +29840,30 @@
       "timestamp": 1619147777040,
       "version": "3.7.10"
     },
+    "python-3.7.11-hc137634_0.tar.bz2": {
+      "build": "hc137634_0",
+      "build_number": 0,
+      "depends": [
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.35.4,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "PSF",
+      "md5": "0172aafe1c3e18082ff789ae3f395f10",
+      "name": "python",
+      "sha256": "e3207fc84a8490597201bf897e74505a35d3eaf65466d68d46834bdad4da45f4",
+      "size": 57262730,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627399316814,
+      "version": "3.7.11"
+    },
     "python-3.8.8-he65049a_4.tar.bz2": {
       "build": "he65049a_4",
       "build_number": 4,
@@ -30039,6 +30063,31 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621517454802,
       "version": "3.9.5"
+    },
+    "python-3.9.6-hc137634_0.tar.bz2": {
+      "build": "hc137634_0",
+      "build_number": 0,
+      "depends": [
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.35.4,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "70ec2e5ca5204499b1d099449fe95433",
+      "name": "python",
+      "sha256": "ff64f598e766953b59fcd39e29da1fd075b3a420847db1261b87dc412d13a96a",
+      "size": 26684462,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627328518862,
+      "version": "3.9.6"
     },
     "python-blosc-1.10.4-py37h22f4aa5_0.tar.bz2": {
       "build": "py37h22f4aa5_0",
@@ -30566,6 +30615,19 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621517486890,
       "version": "3.9.5"
+    },
+    "python-regr-testsuite-3.9.6-hd43f75c_0.tar.bz2": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "Python-2.0",
+      "md5": "699aa9f7d24fea2ff223ce2bce0fe471",
+      "name": "python-regr-testsuite",
+      "sha256": "8389439d35dd7045183a9910622f3b615dbc23c181c17df41e654c2fe9acad7e",
+      "size": 7606869,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627328547011,
+      "version": "3.9.6"
     },
     "python-snappy-0.6.0-py37h7c1a80f_0.tar.bz2": {
       "build": "py37h7c1a80f_0",
@@ -69716,6 +69778,30 @@
       "timestamp": 1619147777040,
       "version": "3.7.10"
     },
+    "python-3.7.11-hc137634_0.conda": {
+      "build": "hc137634_0",
+      "build_number": 0,
+      "depends": [
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.35.4,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "PSF",
+      "md5": "0e7bc724063f418ad5c0dcb90c98354a",
+      "name": "python",
+      "sha256": "ea7b1bb83255af3c6db9f80161c62c3300547ac7c74b232135a7e6d738c06ed7",
+      "size": 49046246,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627399316814,
+      "version": "3.7.11"
+    },
     "python-3.8.8-he65049a_4.conda": {
       "build": "he65049a_4",
       "build_number": 4,
@@ -69915,6 +70001,31 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621517454802,
       "version": "3.9.5"
+    },
+    "python-3.9.6-hc137634_0.conda": {
+      "build": "hc137634_0",
+      "build_number": 0,
+      "depends": [
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.35.4,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "263bed1b2c45da8d0a4f5de52b62812b",
+      "name": "python",
+      "sha256": "e3e78f45e77db18b137edf423b5394eea45246b251656a6e830db1530e72274b",
+      "size": 21121506,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627328518862,
+      "version": "3.9.6"
     },
     "python-blosc-1.10.4-py37h22f4aa5_0.conda": {
       "build": "py37h22f4aa5_0",
@@ -70442,6 +70553,19 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621517486890,
       "version": "3.9.5"
+    },
+    "python-regr-testsuite-3.9.6-hd43f75c_0.conda": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "Python-2.0",
+      "md5": "d4ca31edf844337d13364e2015c1d851",
+      "name": "python-regr-testsuite",
+      "sha256": "6268a27ae07ff6b90bcc86f156f026136bf5b947ffd8420dd526bc178f06b6f3",
+      "size": 6460945,
+      "subdir": "linux-aarch64",
+      "timestamp": 1627328547011,
+      "version": "3.9.6"
     },
     "python-snappy-0.6.0-py37h7c1a80f_0.conda": {
       "build": "py37h7c1a80f_0",
