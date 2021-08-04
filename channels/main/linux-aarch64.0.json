@@ -33382,6 +33382,57 @@
       "timestamp": 1614689462393,
       "version": "52.0.0"
     },
+    "setuptools_scm_git_archive-1.1-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "setuptools_scm"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "66429b14b7c3653f1f8d79c269d78a68",
+      "name": "setuptools_scm_git_archive",
+      "sha256": "e5ed575c7083b97e3e78667be76ac9565783454425cc93bf46b6eed56818afda",
+      "size": 6528,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628082044469,
+      "version": "1.1"
+    },
+    "setuptools_scm_git_archive-1.1-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "setuptools_scm"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e5885179a78b8a6ee64f15be97389a09",
+      "name": "setuptools_scm_git_archive",
+      "sha256": "ed26c81a827b4d59b4b75f96ddb42cb46c85766174a1749499f09f0be3cc1d39",
+      "size": 6519,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628082074198,
+      "version": "1.1"
+    },
+    "setuptools_scm_git_archive-1.1-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "setuptools_scm"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9dfe1907ea6f6798910aef673a7dfddb",
+      "name": "setuptools_scm_git_archive",
+      "sha256": "fa49d5d8ae2236313c7578b8fe54987fe73b5ca863a8671885f65b6a994f4372",
+      "size": 6531,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628082058014,
+      "version": "1.1"
+    },
     "sh-1.14.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -73319,6 +73370,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614689462393,
       "version": "52.0.0"
+    },
+    "setuptools_scm_git_archive-1.1-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "setuptools_scm"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c34e8d0176e0ff042800fd2642e2858d",
+      "name": "setuptools_scm_git_archive",
+      "sha256": "0d54c85425861c164cb4343745158559e81d34ce627b341b9bca92965970d984",
+      "size": 7162,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628082044469,
+      "version": "1.1"
+    },
+    "setuptools_scm_git_archive-1.1-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "setuptools_scm"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ac41cb15b0dc73a4672daca9fd6447c0",
+      "name": "setuptools_scm_git_archive",
+      "sha256": "d0b378b546f1e05955fc37ab4b9ae9726036c5ff9e124f88f07a49e42d79197e",
+      "size": 7151,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628082074198,
+      "version": "1.1"
+    },
+    "setuptools_scm_git_archive-1.1-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "setuptools_scm"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "50596cb829368db0bb1e76c6c71fe294",
+      "name": "setuptools_scm_git_archive",
+      "sha256": "01e411a2a7d084fb671fc9f982ec6691e70e72d374bead184370109a37f69b8c",
+      "size": 7167,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628082058014,
+      "version": "1.1"
     },
     "sh-1.14.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
