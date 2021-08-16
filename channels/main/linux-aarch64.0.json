@@ -32527,6 +32527,19 @@
       "timestamp": 1615056870064,
       "version": "1.40.0"
     },
+    "rust-1.54.0-hd43f75c_0.tar.bz2": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "MIT",
+      "md5": "a9241f59560c4f738c4232b944a5578f",
+      "name": "rust",
+      "sha256": "8c1e19725602cf3a2f049c75a0563f933ce05559fc7dadf061597cef02606088",
+      "size": 331519724,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628284797442,
+      "version": "1.54.0"
+    },
     "rust_linux-aarch64-1.40.0-h7c1a80f_0.tar.bz2": {
       "build": "h7c1a80f_0",
       "build_number": 0,
@@ -72817,6 +72830,19 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615056870064,
       "version": "1.40.0"
+    },
+    "rust-1.54.0-hd43f75c_0.conda": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "MIT",
+      "md5": "7e57335a6e7e3d0ef773d339d2755aa6",
+      "name": "rust",
+      "sha256": "434e63acb209346f757b3c9cf419e8f4944f7c94c805e26fe0ce80076514a6e5",
+      "size": 181614088,
+      "subdir": "linux-aarch64",
+      "timestamp": 1628284797442,
+      "version": "1.54.0"
     },
     "rust_linux-aarch64-1.40.0-h7c1a80f_0.conda": {
       "build": "h7c1a80f_0",
