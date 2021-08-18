@@ -29133,6 +29133,63 @@
       "timestamp": 1621728615023,
       "version": "2.6.1.post1"
     },
+    "pyqt-5.15.2-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "qt >=5.15.2,<5.16.0a0"
+      ],
+      "license": "Commercial, GPL-2.0, GPL-3.0",
+      "license_family": "GPL",
+      "md5": "129426b30e6cd8e805c580573913794d",
+      "name": "pyqt",
+      "sha256": "8eacf06f5d0549a86c69578f101613ec5a6362f12a76ae7c06fb25c805d55dd6",
+      "size": 6901967,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629246882238,
+      "version": "5.15.2"
+    },
+    "pyqt-5.15.2-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "qt >=5.15.2,<5.16.0a0"
+      ],
+      "license": "Commercial, GPL-2.0, GPL-3.0",
+      "license_family": "GPL",
+      "md5": "1f14e833c155587277af6fe217e5bcc1",
+      "name": "pyqt",
+      "sha256": "cfef03a4786a15be51f489861ba54de43e0c0c3486a5c2866c12ebf7d4a17ac8",
+      "size": 6902883,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629248647119,
+      "version": "5.15.2"
+    },
+    "pyqt-5.15.2-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "qt >=5.15.2,<5.16.0a0"
+      ],
+      "license": "Commercial, GPL-2.0, GPL-3.0",
+      "license_family": "GPL",
+      "md5": "34ba05ba66f1e41f19337459abf5f7d6",
+      "name": "pyqt",
+      "sha256": "8c49ff8cb9df5cd5a1b9d4aa81494b92a4d584e74787cc99addc6d1841694d41",
+      "size": 6916567,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629249117776,
+      "version": "5.15.2"
+    },
     "pyquery-1.4.3-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -31434,6 +31491,44 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621475039917,
       "version": "1.3.1"
+    },
+    "qt-5.15.2-h4236ef2_3.tar.bz2": {
+      "build": "h4236ef2_3",
+      "build_number": 3,
+      "depends": [
+        "adwaita-icon-theme",
+        "dbus >=1.13.18,<2.0a0",
+        "expat >=2.3.0,<3.0a0",
+        "fontconfig >=2.13.1,<3.0a0",
+        "freetype >=2.10.4,<3.0a0",
+        "glib >=2.68.1,<3.0a0",
+        "gst-plugins-base >=1.14.1,<1.15.0a0",
+        "gstreamer >=1.14.1,<1.15.0a0",
+        "gtk3 >=3.24.21,<4.0a0",
+        "icu >=68.1,<69.0a0",
+        "jpeg >=9d,<10a",
+        "libevent >=2.1.10,<2.1.11.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libpq >=12.2,<13.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libxcb >=1.14,<2.0a0",
+        "libxkbcommon >=1.0.1,<2.0a0",
+        "libxml2 >=2.9.10,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd"
+      ],
+      "license": "LGPL-3.0-only",
+      "md5": "805f86c568e21a5ca7b052650b64e799",
+      "name": "qt",
+      "sha256": "776ba1c30c4d42fe694c1e51cd786d30ee40ebd89b061a0e91f3f9629f885a9b",
+      "size": 128168661,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629243015884,
+      "version": "5.15.2"
     },
     "quandl-3.6.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -69437,6 +69532,63 @@
       "timestamp": 1621728615023,
       "version": "2.6.1.post1"
     },
+    "pyqt-5.15.2-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "qt >=5.15.2,<5.16.0a0"
+      ],
+      "license": "Commercial, GPL-2.0, GPL-3.0",
+      "license_family": "GPL",
+      "md5": "04e55485b0c4952a1a911504ed31ce9b",
+      "name": "pyqt",
+      "sha256": "77789c2d15fde3173778512ac8c04c46724c0970ce4b515f83bb0f3e3b2870b0",
+      "size": 5618481,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629246882238,
+      "version": "5.15.2"
+    },
+    "pyqt-5.15.2-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "qt >=5.15.2,<5.16.0a0"
+      ],
+      "license": "Commercial, GPL-2.0, GPL-3.0",
+      "license_family": "GPL",
+      "md5": "42646bd9177aa3b3e2c3d7e2512b00a4",
+      "name": "pyqt",
+      "sha256": "9c0835af9579465f7ea28e60c20b4540c9fe2500791856c82585f59879988ecc",
+      "size": 5612282,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629248647119,
+      "version": "5.15.2"
+    },
+    "pyqt-5.15.2-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "qt >=5.15.2,<5.16.0a0"
+      ],
+      "license": "Commercial, GPL-2.0, GPL-3.0",
+      "license_family": "GPL",
+      "md5": "20e8844a5d5a945d47ed0e65e1d7e64d",
+      "name": "pyqt",
+      "sha256": "527cda4884fcb5a470a3a5abe1f7ec3cbb97b493e32e8d5ec4681ac4f2d1971c",
+      "size": 5607345,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629249117776,
+      "version": "5.15.2"
+    },
     "pyquery-1.4.3-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -71738,6 +71890,44 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621475039917,
       "version": "1.3.1"
+    },
+    "qt-5.15.2-h4236ef2_3.conda": {
+      "build": "h4236ef2_3",
+      "build_number": 3,
+      "depends": [
+        "adwaita-icon-theme",
+        "dbus >=1.13.18,<2.0a0",
+        "expat >=2.3.0,<3.0a0",
+        "fontconfig >=2.13.1,<3.0a0",
+        "freetype >=2.10.4,<3.0a0",
+        "glib >=2.68.1,<3.0a0",
+        "gst-plugins-base >=1.14.1,<1.15.0a0",
+        "gstreamer >=1.14.1,<1.15.0a0",
+        "gtk3 >=3.24.21,<4.0a0",
+        "icu >=68.1,<69.0a0",
+        "jpeg >=9d,<10a",
+        "libevent >=2.1.10,<2.1.11.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libpq >=12.2,<13.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libxcb >=1.14,<2.0a0",
+        "libxkbcommon >=1.0.1,<2.0a0",
+        "libxml2 >=2.9.10,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd"
+      ],
+      "license": "LGPL-3.0-only",
+      "md5": "5441fea1c32eaa8b27f0b19fc9e6a9c6",
+      "name": "qt",
+      "sha256": "34c458163ab9d1a8462f9c934da6c5175c4a4fad68798b4c7973c8e8b0412a62",
+      "size": 103354219,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629243015884,
+      "version": "5.15.2"
     },
     "quandl-3.6.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
