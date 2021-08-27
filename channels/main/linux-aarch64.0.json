@@ -5952,6 +5952,25 @@
       "timestamp": 1619010387130,
       "version": "2.5.3"
     },
+    "astroid-2.7.1-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools >=20.0",
+        "wrapt >=1.11,<1.13"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "2a30843c2df4556f20bd7694f6dc7469",
+      "name": "astroid",
+      "sha256": "260a188c0c032f99bbb9888ac8c9b206c051b203596bb7af9f7a20dde119e599",
+      "size": 336373,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629380703415,
+      "version": "2.7.1"
+    },
     "astropy-4.2-py37hfd0a847_1.tar.bz2": {
       "build": "py37hfd0a847_1",
       "build_number": 1,
@@ -7512,6 +7531,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615420479434,
       "version": "2.49.0"
+    },
+    "botocore-1.21.21-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "jmespath >=0.7.1,<1.0.0",
+        "python >=3.9,<3.10.0a0",
+        "python-dateutil >=2.1,<3.0.0",
+        "urllib3 >=1.25.4,<1.27"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "fd0c81e1d0c748c747919758a2a2cb53",
+      "name": "botocore",
+      "sha256": "ab985165dd489d23506884144155daf638f507477ca3f8efe56e6014935404e6",
+      "size": 5261996,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629399449211,
+      "version": "1.21.21"
     },
     "bottlechest-0.7.1-py37hcc56278_1.tar.bz2": {
       "build": "py37hcc56278_1",
@@ -19525,6 +19563,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1618857649843,
       "version": "3.1.20210216"
+    },
+    "libedit-3.1.20210714-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "973bfef8004aa73b92be5ecbf5207c5d",
+      "name": "libedit",
+      "sha256": "848b54f3604d6f5952d6428f76e477d8d669438f661716ab3d2bc5661764baf8",
+      "size": 203296,
+      "subdir": "linux-aarch64",
+      "timestamp": 1630072259646,
+      "version": "3.1.20210714"
     },
     "libev-4.33-hfd63f10_1.tar.bz2": {
       "build": "hfd63f10_1",
@@ -34167,6 +34222,23 @@
       "timestamp": 1619018634058,
       "version": "2021.4.4"
     },
+    "regex-2021.8.3-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "65baec4b683b03e1b25d18712234bf78",
+      "name": "regex",
+      "sha256": "43cfb5d5d142682167bc807483f3b5f812b2dc018e3f0ce579c65c37c8368e39",
+      "size": 388970,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629395577565,
+      "version": "2021.8.3"
+    },
     "reportlab-3.5.67-py37hf49dd1b_1.tar.bz2": {
       "build": "py37hf49dd1b_1",
       "build_number": 1,
@@ -40173,6 +40245,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623152100179,
       "version": "1.3.4"
+    },
+    "tqdm-4.62.1-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MPL-2.0 AND MIT",
+      "license_family": "MOZILLA",
+      "md5": "80943162a83ee72960e377d8b15d2bf5",
+      "name": "tqdm",
+      "sha256": "f90194aa4e0eb10986dbe8bbbfe4cdee89b73cfdee9152af9d3ef848b0e3912f",
+      "size": 123464,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629381099528,
+      "version": "4.62.1"
     },
     "traitlets-4.3.3-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -62146,6 +62234,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1618857649843,
       "version": "3.1.20210216"
+    },
+    "libedit-3.1.20210714-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "e6e7d0ac14c96cbd8b7da0a0e4b74a5d",
+      "name": "libedit",
+      "sha256": "ce271817f6890416a4e708eb9f2133ff3e1cab047ff6c91c7ebe61a33d14961b",
+      "size": 175619,
+      "subdir": "linux-aarch64",
+      "timestamp": 1630072259646,
+      "version": "3.1.20210714"
     },
     "libev-4.33-hfd63f10_1.conda": {
       "build": "hfd63f10_1",
