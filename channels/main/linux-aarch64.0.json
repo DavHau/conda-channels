@@ -25745,6 +25745,24 @@
       "timestamp": 1615932135744,
       "version": "2.3.0"
     },
+    "openjpeg-2.4.0-hf3eb033_0.tar.bz2": {
+      "build": "hf3eb033_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0"
+      ],
+      "license": "BSD 2-Clause",
+      "md5": "7cbbf5661e5a0230801219cc00442129",
+      "name": "openjpeg",
+      "sha256": "f4d2694ecce384b394817caab7be32ecc52433e394c7ba8e88d1cafc9e438c75",
+      "size": 564143,
+      "subdir": "linux-aarch64",
+      "timestamp": 1630093887922,
+      "version": "2.4.0"
+    },
     "openmpi-4.0.2-hcdd0750_1.tar.bz2": {
       "build": "hcdd0750_1",
       "build_number": 1,
@@ -68415,6 +68433,24 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615932135744,
       "version": "2.3.0"
+    },
+    "openjpeg-2.4.0-hf3eb033_0.conda": {
+      "build": "hf3eb033_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0"
+      ],
+      "license": "BSD 2-Clause",
+      "md5": "22c33a4b3d455cf07b8473cda018c054",
+      "name": "openjpeg",
+      "sha256": "20741fcb8a4dde534045091f1b2853e7b200a5db70914e32ac9b3c29d8fe85b1",
+      "size": 351168,
+      "subdir": "linux-aarch64",
+      "timestamp": 1630093887922,
+      "version": "2.4.0"
     },
     "openmpi-4.0.2-hcdd0750_1.conda": {
       "build": "hcdd0750_1",
