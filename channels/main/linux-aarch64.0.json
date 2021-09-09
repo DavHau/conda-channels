@@ -42654,6 +42654,23 @@
       "timestamp": 1616097901182,
       "version": "7.0.31"
     },
+    "xsimd-7.6.0-h59a28a9_0.tar.bz2": {
+      "build": "h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "a42e0ca80b50ccf4285f83eef45bc223",
+      "name": "xsimd",
+      "sha256": "05d48a7556fe992debe3ccca7cd2050638078a920c18943bcd9b2639a5ffb61c",
+      "size": 113527,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631125849059,
+      "version": "7.6.0"
+    },
     "xz-5.2.4-hfd63f10_4.tar.bz2": {
       "build": "hfd63f10_4",
       "build_number": 4,
@@ -85586,6 +85603,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1616097901182,
       "version": "7.0.31"
+    },
+    "xsimd-7.6.0-h59a28a9_0.conda": {
+      "build": "h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5d2b05e46ecfdd70fd332189d9326ba0",
+      "name": "xsimd",
+      "sha256": "950098d266e37c0a878257435bb64c013ce07a4a9f0802f1513e262ddde609a5",
+      "size": 113895,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631125849059,
+      "version": "7.6.0"
     },
     "xz-5.2.4-hfd63f10_4.conda": {
       "build": "hfd63f10_4",
