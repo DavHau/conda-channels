@@ -33579,6 +33579,32 @@
       "requires": [],
       "subdir": "osx-64"
     },
+    "openvino-ie-2021.4-intel_689.tar.bz2": {
+      "build_number": 689,
+      "name": "openvino-ie",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "timestamp": 1631146489071,
+      "license_family": "Proprietary",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "tbb 2020.3"
+      ],
+      "version": "2021.4",
+      "build": "intel_689",
+      "md5": "720dbf0ded15b4425c16d6bc936d5473",
+      "binstar": {
+        "package_id": "5ed9379b83b66372f6a6b978",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 26913768,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "pycosat-0.6.1-py27_intel_6.tar.bz2": {
       "build_number": 6,
       "features": "intel",
@@ -39913,6 +39939,33 @@
       },
       "md5": "6bad15e9d7e8e044f385407df2d8dfa9",
       "requires": [],
+      "subdir": "osx-64"
+    },
+    "openvino-ie4py-2021.4-py36_intel_689.tar.bz2": {
+      "build_number": 689,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "timestamp": 1631146549921,
+      "license_family": "Proprietary",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.6,<3.7"
+      ],
+      "version": "2021.4",
+      "build": "py36_intel_689",
+      "md5": "62b38e3f255c95ea7264db13f202ff95",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 620510,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
     "mkl-devel-2020.1-intel_216.tar.bz2": {
@@ -58012,6 +58065,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 158088,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
+    "openvino-ie4py-2021.4-py37_intel_689.tar.bz2": {
+      "build_number": 689,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "timestamp": 1631146585210,
+      "license_family": "Proprietary",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "openvino-ie 2021.4",
+        "python >=3.7,<3.8"
+      ],
+      "version": "2021.4",
+      "build": "py37_intel_689",
+      "md5": "c5a55b7f1aaa2f603e9374673b422e09",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 611416,
       "arch": "x86_64",
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",
