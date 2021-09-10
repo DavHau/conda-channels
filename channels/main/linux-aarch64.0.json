@@ -36135,6 +36135,72 @@
       "timestamp": 1619195011287,
       "version": "1.6.2"
     },
+    "scipy-1.7.1-py37ha4eada7_2.tar.bz2": {
+      "build": "py37ha4eada7_2",
+      "build_number": 2,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libgfortran-ng",
+        "libgfortran5 >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "910fe5b3fa4dfd4f2670142c9184d389",
+      "name": "scipy",
+      "sha256": "0851f657c51591c46aeca54935b046a22ac1a8c2c012a0b5f3cee34b57bfea0d",
+      "size": 23618992,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631212370921,
+      "version": "1.7.1"
+    },
+    "scipy-1.7.1-py38ha4eada7_2.tar.bz2": {
+      "build": "py38ha4eada7_2",
+      "build_number": 2,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libgfortran-ng",
+        "libgfortran5 >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "b181dc277a8bfcfc1f4f6b2ef7d1d250",
+      "name": "scipy",
+      "sha256": "d2f7d38b831136ebc7fcc5fec6d2c8ae06d05522c3d90cc9688a496d50760f16",
+      "size": 23743705,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631211493157,
+      "version": "1.7.1"
+    },
+    "scipy-1.7.1-py39ha4eada7_2.tar.bz2": {
+      "build": "py39ha4eada7_2",
+      "build_number": 2,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libgfortran-ng",
+        "libgfortran5 >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "a68cf3d729254725b8c48920708c91ff",
+      "name": "scipy",
+      "sha256": "50d5996cdb3fd55a6664271b9eec3e12019bda272eb1093c79b5019043eac90b",
+      "size": 23882902,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631210642259,
+      "version": "1.7.1"
+    },
     "scons-4.1.0.post1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -79181,6 +79247,72 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619195011287,
       "version": "1.6.2"
+    },
+    "scipy-1.7.1-py37ha4eada7_2.conda": {
+      "build": "py37ha4eada7_2",
+      "build_number": 2,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libgfortran-ng",
+        "libgfortran5 >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "a4ae80e94b2c8a0ba4924b679fbffb6a",
+      "name": "scipy",
+      "sha256": "59738490ffe46c863b3af047824c3569c797fdf1d674745ad48f670e0ce3e93b",
+      "size": 17583078,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631212370921,
+      "version": "1.7.1"
+    },
+    "scipy-1.7.1-py38ha4eada7_2.conda": {
+      "build": "py38ha4eada7_2",
+      "build_number": 2,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libgfortran-ng",
+        "libgfortran5 >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "da29edf3bc833ddb0942fcae602b2da2",
+      "name": "scipy",
+      "sha256": "ee8ef24fd6ab2d736bc9eed74647ae60b791abc95972582f345c7cbe5b4faea6",
+      "size": 17693789,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631211493157,
+      "version": "1.7.1"
+    },
+    "scipy-1.7.1-py39ha4eada7_2.conda": {
+      "build": "py39ha4eada7_2",
+      "build_number": 2,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libgfortran-ng",
+        "libgfortran5 >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "529b01302e9a3549da343ab029567e09",
+      "name": "scipy",
+      "sha256": "2332319c0056adf4e312e25a9c8515811acc9b44de09b37edb91524f71b15f20",
+      "size": 17803500,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631210642259,
+      "version": "1.7.1"
     },
     "scons-4.1.0.post1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
