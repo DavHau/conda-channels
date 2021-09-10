@@ -27095,6 +27095,22 @@
       "timestamp": 1614917692465,
       "version": "0.11"
     },
+    "patchelf-0.13-h22f4aa5_0.tar.bz2": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "GPL-3.0-or-later",
+      "md5": "2628caf1b89ce0734520b12f4cfb043f",
+      "name": "patchelf",
+      "sha256": "0c958572e1ad69a3b838a58ccdcbab2523d95d22933d9b147b3247b8ad4582c7",
+      "size": 99628,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631289285307,
+      "version": "0.13"
+    },
     "path-15.1.2-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -70224,6 +70240,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614917692465,
       "version": "0.11"
+    },
+    "patchelf-0.13-h22f4aa5_0.conda": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "GPL-3.0-or-later",
+      "md5": "959a7311909adf49c852244a9ece36f9",
+      "name": "patchelf",
+      "sha256": "5b3aba7274a225f87d79ca9867614b9c81fcc4103cfe4fcb2702432abbaf9524",
+      "size": 93540,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631289285307,
+      "version": "0.13"
     },
     "path-15.1.2-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
