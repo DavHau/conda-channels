@@ -5782,6 +5782,25 @@
       "timestamp": 1623795632755,
       "version": "4.0.1"
     },
+    "assimp-5.0.1-h3bcb8c9_6.tar.bz2": {
+      "build": "h3bcb8c9_6",
+      "build_number": 6,
+      "depends": [
+        "boost-cpp",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Modified BSD",
+      "license_family": "BSD",
+      "md5": "14f0f8c2a74757e3309e280f93922eac",
+      "name": "assimp",
+      "sha256": "06e765b36d13d9524d675063c4c71e2362e192adecfc843858d144c06f00a298",
+      "size": 4572803,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631710462275,
+      "version": "5.0.1"
+    },
     "astor-0.8.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -20952,6 +20971,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621561622126,
       "version": "0.13.0"
+    },
+    "libthrift-0.15.0-hc3a1926_0.tar.bz2": {
+      "build": "hc3a1926_0",
+      "build_number": 0,
+      "depends": [
+        "libevent >=2.1.10,<2.1.11.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "openssl",
+        "zlib"
+      ],
+      "license": "Apache-2.0",
+      "md5": "e5bcfd7d6837a1b6d96dcfb565ccf0c2",
+      "name": "libthrift",
+      "sha256": "71bfa7941f28bf0096a3d9389993eb854b4e7a818c31ce848b6f060928e21fcc",
+      "size": 4679262,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631783289871,
+      "version": "0.15.0"
     },
     "libtiff-4.1.0-h59767ab_0.tar.bz2": {
       "build": "h59767ab_0",
@@ -40177,6 +40215,23 @@
       "timestamp": 1621561640211,
       "version": "0.13.0"
     },
+    "thrift-compiler-0.15.0-hc3a1926_0.tar.bz2": {
+      "build": "hc3a1926_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "libthrift 0.15.0 hc3a1926_0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "aa177ee39af6507a8127e9107ff834b5",
+      "name": "thrift-compiler",
+      "sha256": "fa3bbec44f2cb2a29755f121b63ea57aa36252f56f05cf643a3f857c2a321f78",
+      "size": 28727934,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631783311717,
+      "version": "0.15.0"
+    },
     "thrift-cpp-0.13.0-hd43f75c_6.tar.bz2": {
       "build": "hd43f75c_6",
       "build_number": 6,
@@ -40192,6 +40247,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621561666008,
       "version": "0.13.0"
+    },
+    "thrift-cpp-0.15.0-hd43f75c_0.tar.bz2": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "libthrift 0.15.0 hc3a1926_0",
+        "thrift-compiler 0.15.0 hc3a1926_0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "71592989428eeb9338a8ba70b0057d39",
+      "name": "thrift-cpp",
+      "sha256": "b478a4f348eff74063a7497921ec7a31ad2ee30b36500dcadebf27bd987e3ccf",
+      "size": 12611,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631783335143,
+      "version": "0.15.0"
     },
     "thrift_sasl-0.4.2-py37hd43f75c_1.tar.bz2": {
       "build": "py37hd43f75c_1",
@@ -48965,6 +49036,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623795632755,
       "version": "4.0.1"
+    },
+    "assimp-5.0.1-h3bcb8c9_6.conda": {
+      "build": "h3bcb8c9_6",
+      "build_number": 6,
+      "depends": [
+        "boost-cpp",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Modified BSD",
+      "license_family": "BSD",
+      "md5": "81562e733769663010b487b7104a15bc",
+      "name": "assimp",
+      "sha256": "b9dd25f332d1b6fc58a7a5d603637274245742be559f8d72310be5a85b79be5a",
+      "size": 3918593,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631710462275,
+      "version": "5.0.1"
     },
     "astor-0.8.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
@@ -64098,6 +64188,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621561622126,
       "version": "0.13.0"
+    },
+    "libthrift-0.15.0-hc3a1926_0.conda": {
+      "build": "hc3a1926_0",
+      "build_number": 0,
+      "depends": [
+        "libevent >=2.1.10,<2.1.11.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "openssl",
+        "zlib"
+      ],
+      "license": "Apache-2.0",
+      "md5": "fcefaebc3699bc23677f428ad73400cb",
+      "name": "libthrift",
+      "sha256": "6baf84b320b5641604863d3ec85cf31eb7262f408154d27e88faf3127efb1faa",
+      "size": 3573673,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631783289871,
+      "version": "0.15.0"
     },
     "libtiff-4.1.0-h59767ab_0.conda": {
       "build": "h59767ab_0",
@@ -83306,6 +83415,23 @@
       "timestamp": 1621561640211,
       "version": "0.13.0"
     },
+    "thrift-compiler-0.15.0-hc3a1926_0.conda": {
+      "build": "hc3a1926_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "libthrift 0.15.0 hc3a1926_0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "910412d4979312489d62094c3bfbe496",
+      "name": "thrift-compiler",
+      "sha256": "00cd5d89e088bf9c650ae84b998784dc18d28d9f5883499e7af64fd559dd5de1",
+      "size": 20714757,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631783311717,
+      "version": "0.15.0"
+    },
     "thrift-cpp-0.13.0-hd43f75c_6.conda": {
       "build": "hd43f75c_6",
       "build_number": 6,
@@ -83321,6 +83447,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621561666008,
       "version": "0.13.0"
+    },
+    "thrift-cpp-0.15.0-hd43f75c_0.conda": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "libthrift 0.15.0 hc3a1926_0",
+        "thrift-compiler 0.15.0 hc3a1926_0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "9da300fe41a2edb232513f7421dfcec4",
+      "name": "thrift-cpp",
+      "sha256": "8c8252efbf676f345695018c8f51234f6bd0e70c74b9b0e1dc7a08bcb01ec9b0",
+      "size": 13104,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631783335143,
+      "version": "0.15.0"
     },
     "thrift_sasl-0.4.2-py37hd43f75c_1.conda": {
       "build": "py37hd43f75c_1",
