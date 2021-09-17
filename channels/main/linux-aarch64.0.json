@@ -20405,6 +20405,21 @@
       "timestamp": 1620686215852,
       "version": "1.5"
     },
+    "libntlm-1.6-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "652bff12532fe4fddd060437dbf3de68",
+      "name": "libntlm",
+      "sha256": "f670975516df1cf6ed09a0c3e3b1a52654f8d634b504fc37d0a8ef4a6157d155",
+      "size": 39604,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631837762803,
+      "version": "1.6"
+    },
     "libogg-1.3.4-hfd63f10_1.tar.bz2": {
       "build": "hfd63f10_1",
       "build_number": 1,
@@ -33029,6 +33044,31 @@
       "timestamp": 1629380377250,
       "version": "3.9.6"
     },
+    "python-3.9.7-hc137634_1.tar.bz2": {
+      "build": "hc137634_1",
+      "build_number": 1,
+      "depends": [
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.36.0,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "cc077c0bd188ab508a674fe529f89ab7",
+      "name": "python",
+      "sha256": "7541aa2a32695b1a0957f967b9681ea6f3a5f5ff9be956f08800bd9f45d68152",
+      "size": 26809540,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631810529673,
+      "version": "3.9.7"
+    },
     "python-blosc-1.10.4-py37h22f4aa5_0.tar.bz2": {
       "build": "py37h22f4aa5_0",
       "build_number": 0,
@@ -33581,6 +33621,19 @@
       "subdir": "linux-aarch64",
       "timestamp": 1629380405425,
       "version": "3.9.6"
+    },
+    "python-regr-testsuite-3.9.7-hd43f75c_1.tar.bz2": {
+      "build": "hd43f75c_1",
+      "build_number": 1,
+      "depends": [],
+      "license": "Python-2.0",
+      "md5": "f4fa3852e0b909070f97be1e1e79b3f7",
+      "name": "python-regr-testsuite",
+      "sha256": "bbb1cd83d06921267489ae5c0e142f36b5270fb5bae8d9200858bda104262a75",
+      "size": 7627602,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631810559446,
+      "version": "3.9.7"
     },
     "python-snappy-0.6.0-py37h7c1a80f_0.tar.bz2": {
       "build": "py37h7c1a80f_0",
@@ -36663,6 +36716,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614689462393,
       "version": "52.0.0"
+    },
+    "setuptools-58.0.4-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "71d7d0079b057c18a59de95e25210225",
+      "name": "setuptools",
+      "sha256": "4c9833fac7bb6ae270afec0cc1df36d936c46ae7d9259d74d5f3653a7ef90154",
+      "size": 952327,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631834745918,
+      "version": "58.0.4"
+    },
+    "setuptools-58.0.4-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1d0fc18d2e165538e2b17cae835e1d1a",
+      "name": "setuptools",
+      "sha256": "0a1d73f00a75f276959d0b65bac55e5e1a08076c0c0bd3322574c6651bdc6d4e",
+      "size": 955408,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631834775979,
+      "version": "58.0.4"
+    },
+    "setuptools-58.0.4-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d8954486e96e45c7e86ae7f765a2430d",
+      "name": "setuptools",
+      "sha256": "a916ca09cc098a2b135968a5975fb4df8196abc235f1de5cd0465c8e619b5d9e",
+      "size": 954026,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631834761038,
+      "version": "58.0.4"
     },
     "setuptools_scm_git_archive-1.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -63622,6 +63726,21 @@
       "timestamp": 1620686215852,
       "version": "1.5"
     },
+    "libntlm-1.6-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "79b78ec989586bcba07b50f505e70dc6",
+      "name": "libntlm",
+      "sha256": "67639268e6601544d5dbef7a65b4d446cb9429bebeae766a42139f67daea5821",
+      "size": 34992,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631837762803,
+      "version": "1.6"
+    },
     "libogg-1.3.4-hfd63f10_1.conda": {
       "build": "hfd63f10_1",
       "build_number": 1,
@@ -76246,6 +76365,31 @@
       "timestamp": 1629380377250,
       "version": "3.9.6"
     },
+    "python-3.9.7-hc137634_1.conda": {
+      "build": "hc137634_1",
+      "build_number": 1,
+      "depends": [
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.2,<7.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.36.0,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "3974691f7317c8e55570dde761d8c4ec",
+      "name": "python",
+      "sha256": "b24d7d7d489c2decd3b3109e5ed544dc6fa20d1d06f703258e2d86f761944c31",
+      "size": 21219451,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631810529673,
+      "version": "3.9.7"
+    },
     "python-blosc-1.10.4-py37h22f4aa5_0.conda": {
       "build": "py37h22f4aa5_0",
       "build_number": 0,
@@ -76798,6 +76942,19 @@
       "subdir": "linux-aarch64",
       "timestamp": 1629380405425,
       "version": "3.9.6"
+    },
+    "python-regr-testsuite-3.9.7-hd43f75c_1.conda": {
+      "build": "hd43f75c_1",
+      "build_number": 1,
+      "depends": [],
+      "license": "Python-2.0",
+      "md5": "f5dcce4671dae54664d87c1a1b0db723",
+      "name": "python-regr-testsuite",
+      "sha256": "a84a8f17caf75e6d47722d93a7b254f7a70c187f4784a465a7ea0aca0dd9e1c5",
+      "size": 6480511,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631810559446,
+      "version": "3.9.7"
     },
     "python-snappy-0.6.0-py37h7c1a80f_0.conda": {
       "build": "py37h7c1a80f_0",
@@ -79863,6 +80020,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614689462393,
       "version": "52.0.0"
+    },
+    "setuptools-58.0.4-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "dc5da9597254b9ba5dc2f824caeb6f24",
+      "name": "setuptools",
+      "sha256": "60be7346f1d8f1b8f5551d6e41429dc402c2b31e93868c000a9f01e3a720ba3a",
+      "size": 778399,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631834745918,
+      "version": "58.0.4"
+    },
+    "setuptools-58.0.4-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6a6fef9ff74d35c2d6bd71533f56226a",
+      "name": "setuptools",
+      "sha256": "ff71192d237de3f285f54ca02551a2ceb4b1ae8c01fb4a4b01101b096fbd35d1",
+      "size": 781676,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631834775979,
+      "version": "58.0.4"
+    },
+    "setuptools-58.0.4-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "certifi >=2016.9.26",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ea8a906d1a53d48753d8f294daacb052",
+      "name": "setuptools",
+      "sha256": "56c56b7f7e64c7d57b48f6f1555f379554b0876539972f5a6987d681cd17314d",
+      "size": 794555,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631834761038,
+      "version": "58.0.4"
     },
     "setuptools_scm_git_archive-1.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
