@@ -15036,6 +15036,26 @@
       "timestamp": 1619013054035,
       "version": "2.68.1"
     },
+    "glib-2.69.1-h7cb9b0f_0.tar.bz2": {
+      "build": "h7cb9b0f_0",
+      "build_number": 0,
+      "depends": [
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "pcre >=8.45,<9.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "b690aa7aec879d308d789e2a2459f6bf",
+      "name": "glib",
+      "sha256": "97f0221f1456ea9b1ac5e3c4b81b796353f68d1e85982e705aec8c166441386f",
+      "size": 2052698,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631872462270,
+      "version": "2.69.1"
+    },
     "glog-0.5.0-h22f4aa5_0.tar.bz2": {
       "build": "h22f4aa5_0",
       "build_number": 0,
@@ -18315,6 +18335,21 @@
       "subdir": "linux-aarch64",
       "timestamp": 1616027815247,
       "version": "9b"
+    },
+    "jpeg-9d-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "Custom free software license",
+      "md5": "e74995a9d759e5c624271b2b7ba55404",
+      "name": "jpeg",
+      "sha256": "9766ae6209bd89aa5ee36d87da7d8910a7c0287d179cc6d1053cc527de5ebf8a",
+      "size": 373540,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631865202044,
+      "version": "9d"
     },
     "jpeg-9d-hfd63f10_0.tar.bz2": {
       "build": "hfd63f10_0",
@@ -58357,6 +58392,26 @@
       "timestamp": 1619013054035,
       "version": "2.68.1"
     },
+    "glib-2.69.1-h7cb9b0f_0.conda": {
+      "build": "h7cb9b0f_0",
+      "build_number": 0,
+      "depends": [
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "pcre >=8.45,<9.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "bd622c9094918e5a62ab56f4dbc673b0",
+      "name": "glib",
+      "sha256": "50d4967334608b01b8710d8a27a1b47c572e83176e20be6e4dad248069b83bf1",
+      "size": 1869014,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631872462270,
+      "version": "2.69.1"
+    },
     "glog-0.5.0-h22f4aa5_0.conda": {
       "build": "h22f4aa5_0",
       "build_number": 0,
@@ -61636,6 +61691,21 @@
       "subdir": "linux-aarch64",
       "timestamp": 1616027815247,
       "version": "9b"
+    },
+    "jpeg-9d-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "Custom free software license",
+      "md5": "07ca768544ea83fc8ee90e52c1f2e083",
+      "name": "jpeg",
+      "sha256": "fc657bd15a453fa7ced9bbb81bfeb296f6cb1f0072c78311fc291355f8871a4d",
+      "size": 283013,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631865202044,
+      "version": "9d"
     },
     "jpeg-9d-hfd63f10_0.conda": {
       "build": "hfd63f10_0",
