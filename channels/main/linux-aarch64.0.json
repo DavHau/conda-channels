@@ -5053,6 +5053,22 @@
       "timestamp": 1621028581349,
       "version": "1.5.2"
     },
+    "ant-1.10.8-hd43f75c_0.tar.bz2": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "openjdk"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "a5c246a63261f988f0f43dd99fd3f972",
+      "name": "ant",
+      "sha256": "52605314cbd76759587a1f6ebc8a9dbdd4ef7b6859c8e644da9a5b7024543668",
+      "size": 2403416,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631895350957,
+      "version": "1.10.8"
+    },
     "anyio-2.2.0-py37hd43f75c_1.tar.bz2": {
       "build": "py37hd43f75c_1",
       "build_number": 1,
@@ -48512,6 +48528,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621028581349,
       "version": "1.5.2"
+    },
+    "ant-1.10.8-hd43f75c_0.conda": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "openjdk"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "8dc2ddef88fcf87ea6cf639123e50ff6",
+      "name": "ant",
+      "sha256": "d9f6dc267be43ca70785e4e11077a4944de7871d0b46d5c4ab33ab14d27962ec",
+      "size": 2346450,
+      "subdir": "linux-aarch64",
+      "timestamp": 1631895350957,
+      "version": "1.10.8"
     },
     "anyio-2.2.0-py37hd43f75c_1.conda": {
       "build": "py37hd43f75c_1",
