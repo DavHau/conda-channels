@@ -35853,6 +35853,26 @@
       "timestamp": 1624372293670,
       "version": "0.2.1"
     },
+    "sasl-0.2.1-py37hcd201e8_1.tar.bz2": {
+      "build": "py37hcd201e8_1",
+      "build_number": 1,
+      "depends": [
+        "cyrus-sasl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "ac99d97a5ef5382fc20431d8017005f0",
+      "name": "sasl",
+      "sha256": "c97ad57996dbc64a9a4c7665d763ba7cc2c1a5d195a153bcfaacd3bc9269f0bc",
+      "size": 59734,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632736924043,
+      "version": "0.2.1"
+    },
     "sasl-0.2.1-py38h22f4aa5_1.tar.bz2": {
       "build": "py38h22f4aa5_1",
       "build_number": 1,
@@ -35871,6 +35891,46 @@
       "size": 59827,
       "subdir": "linux-aarch64",
       "timestamp": 1624372312673,
+      "version": "0.2.1"
+    },
+    "sasl-0.2.1-py38hcd201e8_1.tar.bz2": {
+      "build": "py38hcd201e8_1",
+      "build_number": 1,
+      "depends": [
+        "cyrus-sasl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "6c1c64b51893a2a6f61e023c97dda2ef",
+      "name": "sasl",
+      "sha256": "f28a48d7dc0ae5ddbc965ce6af8f2bd63bd3773cf242177919fc388c401fb67e",
+      "size": 59851,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632736877676,
+      "version": "0.2.1"
+    },
+    "sasl-0.2.1-py39hcd201e8_1.tar.bz2": {
+      "build": "py39hcd201e8_1",
+      "build_number": 1,
+      "depends": [
+        "cyrus-sasl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "4217964f4460b12f74b9503e7d926622",
+      "name": "sasl",
+      "sha256": "711fbc1c2c45b26d40a1e47e8015f2578e3640348734c5bf992c0a534fa396c7",
+      "size": 59704,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632736900788,
       "version": "0.2.1"
     },
     "scikit-build-0.11.1-py37h22f4aa5_2.tar.bz2": {
@@ -40856,6 +40916,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624379240810,
       "version": "0.4.2"
+    },
+    "thriftpy-0.3.9-py37h2f4d8fa_2.tar.bz2": {
+      "build": "py37h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ply >=3.4,<4.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f451f59503420003dfd09177d788ab06",
+      "name": "thriftpy",
+      "sha256": "d974b709d31907dac7ad2d1192657faedfcd0e5c7f8b8d1e7a8d6efbb0c95f98",
+      "size": 193860,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632733370657,
+      "version": "0.3.9"
+    },
+    "thriftpy-0.3.9-py38h2f4d8fa_2.tar.bz2": {
+      "build": "py38h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ply >=3.4,<4.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "799e88fe46cdc08c08561396da0d70a1",
+      "name": "thriftpy",
+      "sha256": "ddd25d103f205092cd515a650598c0ef60107775ee5a704b501d496325a5cafe",
+      "size": 197855,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632733398051,
+      "version": "0.3.9"
+    },
+    "thriftpy-0.3.9-py39h2f4d8fa_2.tar.bz2": {
+      "build": "py39h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ply >=3.4,<4.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "530fb5e70356ea5e758448587d1606fc",
+      "name": "thriftpy",
+      "sha256": "6e7a2f4b38636b2b10e751ebda846b7ab0d1bb10b1fde6b5481992d64273cfa3",
+      "size": 195057,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632733423890,
+      "version": "0.3.9"
     },
     "thriftpy2-0.4.14-py37h2f4d8fa_0.tar.bz2": {
       "build": "py37h2f4d8fa_0",
@@ -79610,6 +79724,26 @@
       "timestamp": 1624372293670,
       "version": "0.2.1"
     },
+    "sasl-0.2.1-py37hcd201e8_1.conda": {
+      "build": "py37hcd201e8_1",
+      "build_number": 1,
+      "depends": [
+        "cyrus-sasl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "f116db0c5d1636f86d7f4171c4aedce3",
+      "name": "sasl",
+      "sha256": "c97b5ce40eb3da6e0205829211e377e2e491225cbe86488c37cb35814c733968",
+      "size": 58574,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632736924043,
+      "version": "0.2.1"
+    },
     "sasl-0.2.1-py38h22f4aa5_1.conda": {
       "build": "py38h22f4aa5_1",
       "build_number": 1,
@@ -79628,6 +79762,46 @@
       "size": 58543,
       "subdir": "linux-aarch64",
       "timestamp": 1624372312673,
+      "version": "0.2.1"
+    },
+    "sasl-0.2.1-py38hcd201e8_1.conda": {
+      "build": "py38hcd201e8_1",
+      "build_number": 1,
+      "depends": [
+        "cyrus-sasl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "4e084da13763be19b168b4c897bfa41b",
+      "name": "sasl",
+      "sha256": "b1a045d8a94f00fa60722d6936d84c8b7cf924b3f1226401496a0986476a04c2",
+      "size": 58798,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632736877676,
+      "version": "0.2.1"
+    },
+    "sasl-0.2.1-py39hcd201e8_1.conda": {
+      "build": "py39hcd201e8_1",
+      "build_number": 1,
+      "depends": [
+        "cyrus-sasl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "six"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "3cc34587e0311a79c940703053237b3b",
+      "name": "sasl",
+      "sha256": "70a2fe3961925310d8a953cfa725cdfa13ba1e5779d705f308ca82f4a66d6dcc",
+      "size": 58625,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632736900788,
       "version": "0.2.1"
     },
     "scikit-build-0.11.1-py37h22f4aa5_2.conda": {
@@ -84613,6 +84787,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624379240810,
       "version": "0.4.2"
+    },
+    "thriftpy-0.3.9-py37h2f4d8fa_2.conda": {
+      "build": "py37h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ply >=3.4,<4.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4bd399ea26f8259d9ca67605ee1db4b4",
+      "name": "thriftpy",
+      "sha256": "5e69b5f7cfd64e840d351918f0945326656ee92e559c0b8cbc1e1467de98d1bc",
+      "size": 184672,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632733370657,
+      "version": "0.3.9"
+    },
+    "thriftpy-0.3.9-py38h2f4d8fa_2.conda": {
+      "build": "py38h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ply >=3.4,<4.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d567ee58c2998f0ef55d8626ad8a62bf",
+      "name": "thriftpy",
+      "sha256": "8a45e799ebdb57a6dfb79ec5062f0857a9fc67dfa3bda69eee8bb7ba09c00b42",
+      "size": 189181,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632733398051,
+      "version": "0.3.9"
+    },
+    "thriftpy-0.3.9-py39h2f4d8fa_2.conda": {
+      "build": "py39h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ply >=3.4,<4.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9c5963d1e07fcaad4921aecf2ebbce8f",
+      "name": "thriftpy",
+      "sha256": "49b8c28f545f15f4c4a14553a7ac6ff56d8d1eb4a48e7187fdbf8bb30b9e3e32",
+      "size": 186378,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632733423890,
+      "version": "0.3.9"
     },
     "thriftpy2-0.4.14-py37h2f4d8fa_0.conda": {
       "build": "py37h2f4d8fa_0",
