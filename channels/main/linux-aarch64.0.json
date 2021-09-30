@@ -12273,6 +12273,63 @@
       "timestamp": 1619012174748,
       "version": "2021.4.0"
     },
+    "dm-tree-0.1.5-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "six >=1.12.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "99e1192b4d6e3facf528c8125e8af75d",
+      "name": "dm-tree",
+      "sha256": "08d96e3f3d36db530662625b5ffb068f876e7230c2adad2bd55d673273de7263",
+      "size": 110529,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633013743205,
+      "version": "0.1.5"
+    },
+    "dm-tree-0.1.5-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "six >=1.12.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "f0eb6e768db44bdb0c93931e320a6d95",
+      "name": "dm-tree",
+      "sha256": "66f86e699518bdaeea99dfb70ea1ae658959c8f4ea6cff7c88d877e9791ef6b9",
+      "size": 111733,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633013708110,
+      "version": "0.1.5"
+    },
+    "dm-tree-0.1.5-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "six >=1.12.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "315cba360f4cab02fd59304a41397dae",
+      "name": "dm-tree",
+      "sha256": "80e8e4bf653d57a989d9f90e35e7b6a6de303948a65a2e17fb744c1838207812",
+      "size": 111964,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633013777045,
+      "version": "0.1.5"
+    },
     "dnspython-1.16.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -41683,6 +41740,23 @@
       "timestamp": 1614903273001,
       "version": "8.6.10"
     },
+    "tk-8.6.11-h241ca14_0.tar.bz2": {
+      "build": "h241ca14_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Tcl/Tk",
+      "license_family": "BSD",
+      "md5": "7172cda613f67049e5cf78602adc0191",
+      "name": "tk",
+      "sha256": "f2442d1128572a38f97fd05cc2254ccc98155ce113beccd897cda9e4e2e86ab7",
+      "size": 3594312,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632752679464,
+      "version": "8.6.11"
+    },
     "tktable-2.10-hb2d88b4_0.tar.bz2": {
       "build": "hb2d88b4_0",
       "build_number": 0,
@@ -56808,6 +56882,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619012174748,
       "version": "2021.4.0"
+    },
+    "dm-tree-0.1.5-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "six >=1.12.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "4df8f10e2fc02b47982ac2acbf3c0d85",
+      "name": "dm-tree",
+      "sha256": "9369118e4efac71459c069dffadb273dbf0a8fa598e1ab3febe12bdca38d6ccc",
+      "size": 102577,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633013743205,
+      "version": "0.1.5"
+    },
+    "dm-tree-0.1.5-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "six >=1.12.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "f7fbc5ee320bb90f75acb3bda6ee26b5",
+      "name": "dm-tree",
+      "sha256": "dcfb73ee7732b4a2fefd7fc4d497296c330311003c399b9ae506f89e56cc3f13",
+      "size": 103463,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633013708110,
+      "version": "0.1.5"
+    },
+    "dm-tree-0.1.5-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "six >=1.12.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "6f882e3bde720cf5df8a73e59e8f7cbe",
+      "name": "dm-tree",
+      "sha256": "7fac1fa7f3b30f87dc8107ad77488f0cd284bc85d45b770a7f9112cdae929af4",
+      "size": 103679,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633013777045,
+      "version": "0.1.5"
     },
     "dnspython-1.16.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
@@ -86201,6 +86332,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614903273001,
       "version": "8.6.10"
+    },
+    "tk-8.6.11-h241ca14_0.conda": {
+      "build": "h241ca14_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Tcl/Tk",
+      "license_family": "BSD",
+      "md5": "3fe9e16ab57587e44135ee414b57e9cf",
+      "name": "tk",
+      "sha256": "3a30765255f4712659f17da46285ea24768fcbf35e804bcd47040852eb78b2ef",
+      "size": 3281942,
+      "subdir": "linux-aarch64",
+      "timestamp": 1632752679464,
+      "version": "8.6.11"
     },
     "tktable-2.10-hb2d88b4_0.conda": {
       "build": "hb2d88b4_0",
