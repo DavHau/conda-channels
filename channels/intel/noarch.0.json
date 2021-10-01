@@ -462,6 +462,35 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "sigopt-5.3.1-py_0.tar.bz2": {
+      "timestamp": 1591809917819,
+      "depends": [
+        "python",
+        "requests >=2.11.1"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 20646,
+      "build_number": 0,
+      "name": "sigopt",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "5.3.1",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "6155d13b73f6e1937e8d84cc",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "cff37206c62c5f292b2c33c740a7d603",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "python-flatbuffers-2.0-pyhd8ed1ab_0.tar.bz2": {
       "timestamp": 1620719110882,
       "depends": [
@@ -653,6 +682,86 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "c8c177c84b3e5e6145156045660868e9",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "flask-1.1.2-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1611932668094,
+      "depends": [
+        "click >=5.1",
+        "itsdangerous >=0.24",
+        "jinja2 >=2.10.1",
+        "python",
+        "werkzeug >=0.15"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 72032,
+      "build_number": 0,
+      "name": "flask",
+      "license": "BSD 3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.1.2",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "610dae9ada4065649d63cc5a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "eee9d2de0a27685197801b09c37b4762",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "lpot-1.5.1-pyhdless_1.tar.bz2": {
+      "timestamp": 1627522421692,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv-python-headless",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 48929209,
+      "build_number": 1,
+      "name": "lpot",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.5.1",
+      "build": "pyhdless_1",
+      "binstar": {
+        "package_id": "5fd8fe1c98a8ba6180306a53",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a5ded0a0aa3828cfc03c74a47eeb9dbd",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1252,6 +1361,37 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "00a7fe2de9e17d8a1352ae21507cea0d",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "prettytable-0.7.2-py_3.tar.bz2": {
+      "timestamp": 1544545070104,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 14939,
+      "constrains": [
+        "ptable >=9999"
+      ],
+      "build_number": 3,
+      "name": "prettytable",
+      "license": "BSD 3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "0.7.2",
+      "build": "py_3",
+      "binstar": {
+        "package_id": "6155d0f80532bdb2edad6eaa",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "b1e29376b71a43eb931bf7b01022d817",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1915,35 +2055,31 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "flask-1.1.2-pyhd3eb1b0_0.tar.bz2": {
-      "timestamp": 1611932668094,
+    "networkx-2.6.2-pyhd3eb1b0_2.tar.bz2": {
+      "timestamp": 1627459990358,
       "depends": [
-        "click >=5.1",
-        "itsdangerous >=0.24",
-        "jinja2 >=2.10.1",
-        "python",
-        "werkzeug >=0.15"
+        "python >=3.7"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 72032,
-      "build_number": 0,
-      "name": "flask",
-      "license": "BSD 3-Clause",
+      "size": 1519262,
+      "build_number": 2,
+      "name": "networkx",
+      "license": "BSD-3-Clause",
       "has_prefix": false,
       "license_family": "BSD",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "1.1.2",
-      "build": "pyhd3eb1b0_0",
+      "version": "2.6.2",
+      "build": "pyhd3eb1b0_2",
       "binstar": {
-        "package_id": "610dae9ada4065649d63cc5a",
+        "package_id": "589ced96fcf1cf1171317ba5",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "eee9d2de0a27685197801b09c37b4762",
+      "md5": "11327833c8b3a131b748deeb5d96f2f4",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1990,6 +2126,54 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "72cb00a8d8f915e2f23aa4dc3386145f",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "neural-compressor-1.7-py_0.tar.bz2": {
+      "timestamp": 1633064754871,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 21267928,
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.7",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "ec9767edc4bcb3a2a6c19003bd49cf6f",
       "requires": [],
       "subdir": "noarch"
     },

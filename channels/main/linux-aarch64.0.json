@@ -36450,6 +36450,19 @@
       "timestamp": 1615056870064,
       "version": "1.40.0"
     },
+    "rust-1.46.0-hd43f75c_0.tar.bz2": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "MIT",
+      "md5": "216677ac8f866481c0f25394d51f7d83",
+      "name": "rust",
+      "sha256": "96ee801abd2ecdd9497669dac4b2c3bfc8506f7e2892c6c88f919cadebad98e4",
+      "size": 181386951,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633049907345,
+      "version": "1.46.0"
+    },
     "rust-1.54.0-hd43f75c_0.tar.bz2": {
       "build": "hd43f75c_0",
       "build_number": 0,
@@ -36480,6 +36493,24 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615058099260,
       "version": "1.40.0"
+    },
+    "rust_linux-aarch64-1.46.0-h22f4aa5_0.tar.bz2": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "gcc_linux-aarch64 10.2.0.*",
+        "gxx_linux-aarch64 10.2.0.*",
+        "rust >=1.46.0"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "c222bf79ce62e2157ab9b5f1c8ad143d",
+      "name": "rust_linux-aarch64",
+      "sha256": "3d120b701943925810641c6a67df1e88692eab54316f2a5cee4007698cdc6b34",
+      "size": 6347,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633051045822,
+      "version": "1.46.0"
     },
     "sasl-0.2.1-py37h22f4aa5_1.tar.bz2": {
       "build": "py37h22f4aa5_1",
@@ -40086,6 +40117,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621375822244,
       "version": "7.0.0"
+    },
+    "tensorboard-data-server-0.6.0-py37h3144da0_0.tar.bz2": {
+      "build": "py37h3144da0_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "b313cb0d28ebc9e6daa17a3d12024c89",
+      "name": "tensorboard-data-server",
+      "sha256": "e02b7829372244241213401b6931adb78b53373305872b0a572ee5c751f1dae6",
+      "size": 12175,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633053555084,
+      "version": "0.6.0"
+    },
+    "tensorboard-data-server-0.6.0-py38h3144da0_0.tar.bz2": {
+      "build": "py38h3144da0_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "6b0539d7b86b2c74fc45fbf0b475188b",
+      "name": "tensorboard-data-server",
+      "sha256": "bf3698313fa83c933b4fc8259b022d9b619f9ba84d49bdc27d4104e8bf7f25d3",
+      "size": 12161,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633053528551,
+      "version": "0.6.0"
+    },
+    "tensorboard-data-server-0.6.0-py39h3144da0_0.tar.bz2": {
+      "build": "py39h3144da0_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "41163e0bd9200045bd6ecbe27a453a55",
+      "name": "tensorboard-data-server",
+      "sha256": "b04232c3ddbd6901389e5e1a00a8c49f75d8750b3b2c4c2799bbdfd5a70e5d51",
+      "size": 12173,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633053493553,
+      "version": "0.6.0"
     },
     "tensorflow-2.5.0-eigen_py37h1457a7e_0.tar.bz2": {
       "build": "eigen_py37h1457a7e_0",
@@ -81043,6 +81125,19 @@
       "timestamp": 1615056870064,
       "version": "1.40.0"
     },
+    "rust-1.46.0-hd43f75c_0.conda": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [],
+      "license": "MIT",
+      "md5": "c9760a34140c3f6794a4bb202be0f573",
+      "name": "rust",
+      "sha256": "ba9992144ab01b4fa00d227b882f6281ffffb975bb77d78c4e09ad845f7fec3a",
+      "size": 102640226,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633049907345,
+      "version": "1.46.0"
+    },
     "rust-1.54.0-hd43f75c_0.conda": {
       "build": "hd43f75c_0",
       "build_number": 0,
@@ -81073,6 +81168,24 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615058099260,
       "version": "1.40.0"
+    },
+    "rust_linux-aarch64-1.46.0-h22f4aa5_0.conda": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "gcc_linux-aarch64 10.2.0.*",
+        "gxx_linux-aarch64 10.2.0.*",
+        "rust >=1.46.0"
+      ],
+      "license": "BSD",
+      "license_family": "BSD",
+      "md5": "239879e20c49ad2ff4a509c5e0809cf5",
+      "name": "rust_linux-aarch64",
+      "sha256": "a4dab7d0c925fe59ae38f05296be0289f02c691e626d8c7bba0ba92aabe496b4",
+      "size": 7798,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633051045822,
+      "version": "1.46.0"
     },
     "sasl-0.2.1-py37h22f4aa5_1.conda": {
       "build": "py37h22f4aa5_1",
@@ -84679,6 +84792,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621375822244,
       "version": "7.0.0"
+    },
+    "tensorboard-data-server-0.6.0-py37h3144da0_0.conda": {
+      "build": "py37h3144da0_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "eebf8761b4395b40d3142266b17a72ff",
+      "name": "tensorboard-data-server",
+      "sha256": "5cc96d1699def20420fa01370d7f93a7fdfc0d68f89ff2f09df476a6fa527f95",
+      "size": 15424,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633053555084,
+      "version": "0.6.0"
+    },
+    "tensorboard-data-server-0.6.0-py38h3144da0_0.conda": {
+      "build": "py38h3144da0_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "e519e6b25310744c6d79c587d2ce77c6",
+      "name": "tensorboard-data-server",
+      "sha256": "3fce2b99905417fef1b1df14a97c4e8498da8ee89a8331278a5e26ab186a1e58",
+      "size": 15439,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633053528551,
+      "version": "0.6.0"
+    },
+    "tensorboard-data-server-0.6.0-py39h3144da0_0.conda": {
+      "build": "py39h3144da0_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "bddc5a28672401b7dcc4b21b7702e6e1",
+      "name": "tensorboard-data-server",
+      "sha256": "d530a761a99a2f4bd2b9be1397a9359cf1a6b65e3fc78f70706275d6b450b083",
+      "size": 15423,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633053493553,
+      "version": "0.6.0"
     },
     "tensorflow-2.5.0-eigen_py37h1457a7e_0.conda": {
       "build": "eigen_py37h1457a7e_0",

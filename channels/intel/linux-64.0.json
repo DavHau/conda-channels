@@ -908,36 +908,61 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "scipy-1.1.0-np114py27_6.tar.bz2": {
-      "build_number": 6,
-      "name": "scipy",
-      "license": "BSD",
-      "timestamp": 1533317516748,
-      "md5": "073f20008d4c579f8b27d331794b56e7",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+    "certifi-2020.12.5-py37he139614_0.tar.bz2": {
+      "timestamp": 1619155964461,
       "depends": [
-        "icc_rt >=16.0.3",
         "intelpython >=2019.0",
-        "mkl >=2018.0.0",
-        "mkl_fft",
-        "numpy >=1.14,<1.15.0a0",
-        "python >=2.7,<2.8.0a0"
+        "python >=3.7,<3.8.0a0"
       ],
-      "version": "1.1.0",
-      "subdir": "linux-64",
-      "has_prefix": true,
-      "binstar": {
-        "package_id": "5e416e0283b66372f9030a80",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 22896881,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "build": "np114py27_6"
+      "size": 146711,
+      "build_number": 0,
+      "name": "certifi",
+      "license": "ISC",
+      "has_prefix": false,
+      "license_family": "Other",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2020.12.5",
+      "build": "py37he139614_0",
+      "binstar": {
+        "package_id": "5e416dde83b66372f4394047",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "7569e45a3cf42be1de45a8c195a677da",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "setuptools-47.3.0-py37_0.tar.bz2": {
+      "timestamp": 1593148723736,
+      "depends": [
+        "certifi",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 651984,
+      "build_number": 0,
+      "name": "setuptools",
+      "license": "MIT",
+      "has_prefix": true,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "47.3.0",
+      "build": "py37_0",
+      "binstar": {
+        "package_id": "5e416e2783b66372f629ce0a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "0efaefa41c173d643f2f32545f9e04b4",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "simplegeneric-0.8.1-py35_intel_3.tar.bz2": {
       "features": "intel",
@@ -1007,32 +1032,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "openvino-ie4py-ubuntu18-2021.3-intel_394.tar.bz2": {
-      "timestamp": 1616167611392,
-      "track_features": "ubuntu18",
-      "depends": [
-        "openvino-ie4py 2021.3"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 13564,
-      "build_number": 394,
-      "name": "openvino-ie4py-ubuntu18",
-      "license": "proprietary - Intel",
+    "mkl-static-2021.4.0-intel_640.tar.bz2": {
+      "build_number": 640,
+      "name": "mkl-static",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "license_family": "Proprietary",
+      "md5": "cd124adc0b31ce92b8f3abf982716f8a",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2021.3",
-      "build": "intel_394",
+      "depends": [
+        "intel-openmp 2021.*",
+        "mkl-include 2021.4.0 intel_640",
+        "tbb 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_640",
+      "timestamp": 1632483830508,
       "binstar": {
-        "package_id": "5ed9384b778a87708da5983f",
+        "package_id": "5ba541678a41bc135c7616b7",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "26ae13b3bb2d68b7af900abf7a9f9cdf",
-      "requires": [],
+      "size": 218218520,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "idna-2.10-py37he452417_1.tar.bz2": {
@@ -2069,6 +2094,32 @@
       },
       "md5": "796a64d5d9e143b78b5fb63ffc45dd82",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "yaml-0.1.7-6.tar.bz2": {
+      "build_number": 6,
+      "name": "yaml",
+      "license": "MIT",
+      "has_prefix": true,
+      "md5": "2a1fb51c65efee79dce7dfccc4507634",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0"
+      ],
+      "version": "0.1.7",
+      "build": "6",
+      "timestamp": 1593149032692,
+      "binstar": {
+        "package_id": "5e416d7dfe6b2a019f639bfb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 94406,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "mkl_fft-1.0.11-py27h7b7c402_0.tar.bz2": {
@@ -3153,6 +3204,38 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "conda-package-handling-1.7.3-py37h75d4a17_0.tar.bz2": {
+      "timestamp": 1626236375713,
+      "depends": [
+        "libarchive >=3.3.3",
+        "libgcc-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "python-libarchive-c",
+        "six",
+        "tqdm"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 968044,
+      "build_number": 0,
+      "name": "conda-package-handling",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.7.3",
+      "build": "py37h75d4a17_0",
+      "binstar": {
+        "package_id": "5e416dd77870586e914ec700",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "411d1bf01e71ecbb9c5ea6d88684a236",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "tornado-4.4.1-py27_intel_2.tar.bz2": {
       "build_number": 2,
       "features": "intel",
@@ -3710,6 +3793,46 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "conda-4.10.3-py37hb2ebc77_1.tar.bz2": {
+      "timestamp": 1631222452875,
+      "depends": [
+        "conda-package-handling",
+        "intelpython >=2019.0",
+        "pycosat >=0.6.3",
+        "pyopenssl >=16.2.0",
+        "python >=3.7,<3.8.0a0",
+        "requests >=2.18.4,<3",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools >=31.0.1"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1883561,
+      "constrains": [
+        "conda-build >=3",
+        "conda-env >=2.6",
+        "conda-content-trust >=0.1.1",
+        "cytoolz >=0.8.1",
+        "setuptools >=31.0.1"
+      ],
+      "build_number": 1,
+      "name": "conda",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "4.10.3",
+      "build": "py37hb2ebc77_1",
+      "binstar": {
+        "package_id": "5e416d5b83b66372f902f584",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "76f81e4184d0a296e1708daf3a8f0bb6",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "cryptography-2.3-py27_1.tar.bz2": {
       "timestamp": 1551399655166,
       "depends": [
@@ -4048,27 +4171,27 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "yaml-0.1.7-6.tar.bz2": {
-      "build_number": 6,
-      "name": "yaml",
-      "license": "MIT",
-      "has_prefix": true,
-      "md5": "2a1fb51c65efee79dce7dfccc4507634",
+    "ipp-static-2021.4.0-intel_459.tar.bz2": {
+      "build_number": 459,
+      "name": "ipp-static",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "79d9a36d42a58a341e5a470fc460bba4",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "intelpython >=2019.0"
+        "ipp-include 2021.4.0 intel_459"
       ],
-      "version": "0.1.7",
-      "build": "6",
-      "timestamp": 1593149032692,
+      "version": "2021.4.0",
+      "build": "intel_459",
+      "timestamp": 1632482980663,
       "binstar": {
-        "package_id": "5e416d7dfe6b2a019f639bfb",
+        "package_id": "5a1d8769393ec61208cb8f6e",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 94406,
+      "size": 93737100,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -4269,6 +4392,34 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_5"
+    },
+    "uriparser-0.9.3-hf484d3e_1.tar.bz2": {
+      "timestamp": 1627693789121,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 50334,
+      "build_number": 1,
+      "name": "uriparser",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.9.3",
+      "build": "hf484d3e_1",
+      "binstar": {
+        "package_id": "60627ea759fd7d1c9322fe4d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d3a9ab0c3dd5d3b583942b9ccec7246e",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "libsodium-1.0.16-3.tar.bz2": {
       "build_number": 3,
@@ -5534,6 +5685,37 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "scipy-1.1.0-np114py27_6.tar.bz2": {
+      "build_number": 6,
+      "name": "scipy",
+      "license": "BSD",
+      "timestamp": 1533317516748,
+      "md5": "073f20008d4c579f8b27d331794b56e7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "icc_rt >=16.0.3",
+        "intelpython >=2019.0",
+        "mkl >=2018.0.0",
+        "mkl_fft",
+        "numpy >=1.14,<1.15.0a0",
+        "python >=2.7,<2.8.0a0"
+      ],
+      "version": "1.1.0",
+      "subdir": "linux-64",
+      "has_prefix": true,
+      "binstar": {
+        "package_id": "5e416e0283b66372f9030a80",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 22896881,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "build": "np114py27_6"
+    },
     "mistune-0.8.3-py27_1.tar.bz2": {
       "build_number": 1,
       "name": "mistune",
@@ -5631,6 +5813,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "mkl_random-1.0.1-np114py36_intel_0.tar.bz2": {
+      "build_number": 0,
+      "features": "intel",
+      "license": "BSD",
+      "has_prefix": false,
+      "requires": [],
+      "name": "mkl_random",
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "icc_rt >=16.0.3",
+        "intelpython",
+        "mkl",
+        "numpy 1.14*",
+        "python 3.6*"
+      ],
+      "version": "1.0.1",
+      "build": "np114py36_intel_0",
+      "md5": "bf3b6a5deef5b8a2f350545372c8db01",
+      "binstar": {
+        "package_id": "5e416e8cfe6b2a01a19cca28",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 384961,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "openvino-ie-2021.2-ubuntu18_intel_185.tar.bz2": {
       "features": "ubuntu18",
       "timestamp": 1607532012075,
@@ -5681,6 +5893,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 329309,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "mkl-service-2.4.0-py37h5c78031_2.tar.bz2": {
+      "build_number": 2,
+      "name": "mkl-service",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "715c6641453251ad1b3576d362296256",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "mkl",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "version": "2.4.0",
+      "build": "py37h5c78031_2",
+      "timestamp": 1630023468702,
+      "binstar": {
+        "package_id": "5e416e9f83b66372f629e6c8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 64379,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -6180,31 +6421,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "asn1crypto-0.24.0-py36_3.tar.bz2": {
-      "build_number": 3,
-      "name": "asn1crypto",
-      "license": "MIT",
+    "prompt_toolkit-1.0.15-py36_intel_0.tar.bz2": {
+      "build_number": 0,
+      "features": "intel",
+      "license": "BSD",
       "has_prefix": false,
-      "md5": "ca7423d775e490afa4c13129d017f1b3",
       "requires": [],
+      "name": "prompt_toolkit",
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "python >=3.6,<3.7.0a0"
+        "intelpython",
+        "pygments",
+        "python 3.6*",
+        "six >=1.9.0",
+        "wcwidth"
       ],
-      "version": "0.24.0",
-      "build": "py36_3",
-      "timestamp": 1533306966817,
+      "version": "1.0.15",
+      "subdir": "linux-64",
+      "md5": "10adca9de770c1ea9f8f2322271b2968",
       "binstar": {
-        "package_id": "5a062a03307dba122ab6a353",
+        "package_id": "5813ba9ed10fc211a7037e31",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 168786,
+      "size": 350316,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "subdir": "linux-64"
+      "build": "py36_intel_0"
     },
     "cffi-1.11.5-py27_3.tar.bz2": {
       "build_number": 3,
@@ -6262,6 +6507,34 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "openvino-ie4py-ubuntu18-2021.3-intel_394.tar.bz2": {
+      "timestamp": 1616167611392,
+      "track_features": "ubuntu18",
+      "depends": [
+        "openvino-ie4py 2021.3"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 13564,
+      "build_number": 394,
+      "name": "openvino-ie4py-ubuntu18",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.3",
+      "build": "intel_394",
+      "binstar": {
+        "package_id": "5ed9384b778a87708da5983f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "26ae13b3bb2d68b7af900abf7a9f9cdf",
+      "requires": [],
       "subdir": "linux-64"
     },
     "backcall-0.1.0-py36_2.tar.bz2": {
@@ -6549,28 +6822,25 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "mistune-0.7.4-py36_intel_1.tar.bz2": {
-      "build_number": 1,
-      "features": "intel",
-      "license": "BSD",
+    "ipp-2021.4.0-intel_459.tar.bz2": {
+      "build_number": 459,
+      "name": "ipp",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
+      "md5": "e8831257b20361ea77bd55885097ff63",
       "requires": [],
-      "name": "mistune",
       "machine": "x86_64",
       "platform": "linux",
-      "depends": [
-        "intelpython",
-        "python 3.6*"
-      ],
-      "version": "0.7.4",
-      "build": "py36_intel_1",
-      "md5": "a002c59c864950f2eb19de79dd1606da",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_459",
+      "timestamp": 1632483495399,
       "binstar": {
-        "package_id": "56fad41c4733c34f5c128350",
+        "package_id": "5909e4aab6da10122cd89992",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 867316,
+      "size": 134336504,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -8530,6 +8800,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "ruamel_yaml-0.15.99-py37hae09b62_7.tar.bz2": {
+      "timestamp": 1627702942723,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "yaml"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 270617,
+      "build_number": 7,
+      "name": "ruamel_yaml",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.15.99",
+      "build": "py37hae09b62_7",
+      "binstar": {
+        "package_id": "589cedf8fcf1cf1171318037",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e5ae7c5bdb497efefc0dfa7fca87bb87",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "mistune-0.7.3-py27_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -8789,6 +9088,36 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_5"
+    },
+    "mkl_umath-0.1.1-py37h244f2d4_9.tar.bz2": {
+      "build_number": 9,
+      "name": "mkl_umath",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "md5": "962eeb9a12b4b7759a794d28d89ffca2",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt",
+        "intelpython >=2019.0",
+        "mkl",
+        "numpy-base >=1.20.3,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "0.1.1",
+      "build": "py37h244f2d4_9",
+      "timestamp": 1630061068494,
+      "binstar": {
+        "package_id": "5f21fa4c78705809fac3b7cd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 308400,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "caffe-1.0.4-py27_intel_4.tar.bz2": {
       "build_number": 4,
@@ -9434,6 +9763,37 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "bcf8241c035ba3adc7dbcbde695a865e",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel-extension-for-pytorch-1.8.0-py37_1.tar.bz2": {
+      "timestamp": 1626695019863,
+      "depends": [
+        "impi_rt >=2021.3",
+        "lark-parser 0.9.*",
+        "python >=3.7,<3.8.0a0",
+        "pytorch 1.8.0.*",
+        "typing_extensions 3.7.4.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 126576150,
+      "build_number": 1,
+      "name": "intel-extension-for-pytorch",
+      "license": "Apache License 2.0",
+      "has_prefix": false,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.8.0",
+      "build": "py37_1",
+      "binstar": {
+        "package_id": "5f5d2c62d2ff9009fd549606",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "7d9bd3519f5d309e75c1091aa3ae506e",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -10088,6 +10448,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "cython-0.29.24-py37had034fe_0.tar.bz2": {
+      "build_number": 0,
+      "name": "cython",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "md5": "bdd4cb8248ea0db5c2205bd8141b76e7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools"
+      ],
+      "version": "0.29.24",
+      "build": "py37had034fe_0",
+      "timestamp": 1628052801084,
+      "binstar": {
+        "package_id": "5e416e1d7870586e914ecafa",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2692902,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "intelpython3_full-2017.0.3-1.tar.bz2": {
       "build_number": 1,
       "name": "intelpython3_full",
@@ -10460,6 +10850,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "openssl-1.1.1k-h14c3975_3.tar.bz2": {
+      "timestamp": 1630659552110,
+      "depends": [
+        "ca-certificates >=2020.12.0",
+        "libgcc-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 2271840,
+      "build_number": 3,
+      "name": "openssl",
+      "license": "OpenSSL Combined License",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1.1k",
+      "build": "h14c3975_3",
+      "binstar": {
+        "package_id": "56fad54c676dfa0a5afc98b8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "5b0e9bfa52d4a20e878b91106142e138",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "intelpython3_core-2018.0.2-1.tar.bz2": {
       "build_number": 1,
       "name": "intelpython3_core",
@@ -10664,6 +11082,40 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "numba-dppy-0.15.0-py37h62346ee_0.tar.bz2": {
+      "build_number": 0,
+      "name": "numba-dppy",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "md5": "7ad22671189e7e2738e78479bc250ef0",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpctl >=0.9*",
+        "dpnp >=0.7*",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "llvm-spirv",
+        "numba 0.54.*",
+        "packaging",
+        "python >=3.7,<3.8.0a0",
+        "spirv-tools"
+      ],
+      "version": "0.15.0",
+      "build": "py37h62346ee_0",
+      "timestamp": 1630545621052,
+      "binstar": {
+        "package_id": "60627cc9c0b1dfaea0eb81bd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 288170,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "sqlite-3.23.1-1.tar.bz2": {
       "timestamp": 1539372264258,
       "depends": [
@@ -10802,6 +11254,37 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "numpy-base-1.20.3-py37hf707ed8_2.tar.bz2": {
+      "build_number": 2,
+      "name": "numpy-base",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "md5": "6ce31ff60592ffd38b794b72e43e585f",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt",
+        "intelpython >=2019.0",
+        "mkl",
+        "mkl-service >=2.3.0",
+        "python >=3.7,<3.8.0a0",
+        "tbb4py"
+      ],
+      "version": "1.20.3",
+      "build": "py37hf707ed8_2",
+      "timestamp": 1630060879327,
+      "binstar": {
+        "package_id": "5e416e4bfe6b2a0199d6b59b",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 7826195,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mkl-static-2021.2.0-intel_296.tar.bz2": {
       "build_number": 296,
       "name": "mkl-static",
@@ -10893,6 +11376,35 @@
       },
       "md5": "e7de58d50e349f5f2f380583fcae1e3e",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "pyyaml-5.3.1-py37hae09b62_2.tar.bz2": {
+      "build_number": 2,
+      "name": "pyyaml",
+      "license": "MIT",
+      "has_prefix": false,
+      "md5": "dd58dab258b56a492cf52d78e62854a8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "yaml >=0.1.7"
+      ],
+      "version": "5.3.1",
+      "build": "py37hae09b62_2",
+      "timestamp": 1627702280674,
+      "binstar": {
+        "package_id": "56fad6734733c34f5b1001d8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 335889,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "numpy-1.20.1-py37h288f0c4_0.tar.bz2": {
@@ -12159,6 +12671,47 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "matplotlib-3.1.2-py37h8b3d3d0_10.tar.bz2": {
+      "timestamp": 1627698904760,
+      "depends": [
+        "cycler",
+        "freetype 2.10.*",
+        "freetype >=2.10.4,<3.0a0",
+        "intelpython >=2019.0",
+        "kiwisolver",
+        "libgcc-ng >=9.3.0",
+        "libpng 1.6.*",
+        "libstdcxx-ng >=9.3.0",
+        "numpy >=1.17.5,<2.0a0",
+        "pyparsing",
+        "python >=3.7,<3.8.0a0",
+        "python-dateutil",
+        "pytz",
+        "tcl",
+        "tk >=8.6.10,<8.7.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 8889232,
+      "build_number": 10,
+      "name": "matplotlib",
+      "license": "PSF-based",
+      "has_prefix": false,
+      "license_family": "PSF",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "3.1.2",
+      "build": "py37h8b3d3d0_10",
+      "binstar": {
+        "package_id": "5e416d4b778a87708c906c69",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "75ffa162c612d6216b49065c4acdbb87",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "chardet-3.0.4-py37_3.tar.bz2": {
       "build_number": 3,
       "name": "chardet",
@@ -12603,6 +13156,40 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "grpc-cpp-1.26.0-hdb13a8a_2.tar.bz2": {
+      "timestamp": 1627692772791,
+      "depends": [
+        "c-ares >=1.17.1,<2.0a0",
+        "gflags >=2.2.2,<2.3.0a0",
+        "libgcc-ng >=9.3.0",
+        "libprotobuf >=3.14.0,<3.14.1.0a0",
+        "libprotobuf >=3.14.0,<3.15.0a0",
+        "libstdcxx-ng >=9.3.0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 6460103,
+      "build_number": 2,
+      "name": "grpc-cpp",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.26.0",
+      "build": "hdb13a8a_2",
+      "binstar": {
+        "package_id": "60627ba7dcb792e0ca4ab382",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a8028ff60ee06d08d4bde3b84549d39a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "openvino-ie4py-centos7-2020.4-intel_303.tar.bz2": {
       "timestamp": 1594812582449,
       "track_features": "centos7",
@@ -12788,6 +13375,35 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "intel_3"
+    },
+    "sqlite-3.36.0-hb9a14ef_2.tar.bz2": {
+      "timestamp": 1632768737821,
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "zlib"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1905827,
+      "build_number": 2,
+      "name": "sqlite",
+      "license": "Public-Domain",
+      "has_prefix": true,
+      "license_family": "Public-Domain",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "3.36.0",
+      "build": "hb9a14ef_2",
+      "binstar": {
+        "package_id": "5e416e44778a8770880706a5",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d659aa3d463a5b7bbc1e7d53c22556be",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "intel-aikit-modin-2021.2-0.tar.bz2": {
       "build_number": 0,
@@ -13629,6 +14245,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel-opencl-rt-2021.4.0-intel_3561.tar.bz2": {
+      "timestamp": 1632475772569,
+      "depends": [
+        "intel-cmplr-lic-rt 2021.*",
+        "tbb 2021.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 80101970,
+      "constrains": [
+        "opencl_rt>=2021.3.0"
+      ],
+      "build_number": 3561,
+      "name": "intel-opencl-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "binstar": {
+        "package_id": "60d9db631fefdd6ed01e6027",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "dcb3bfc946cb5526de714ce6ce1800d5",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "caffe-1.1.5-py36_intel_0.tar.bz2": {
       "features": "intel",
       "timestamp": 1559036492804,
@@ -14154,6 +14800,35 @@
       },
       "md5": "0037290d70c6e7dfdab3cf8c414e3927",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "thrift-0.14.1-py37h84f2617_0.tar.bz2": {
+      "build_number": 0,
+      "name": "thrift",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "md5": "4dbd1661142412cf1579d19ce9d512f1",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "six >=1.7.2"
+      ],
+      "version": "0.14.1",
+      "build": "py37h84f2617_0",
+      "timestamp": 1627701718294,
+      "binstar": {
+        "package_id": "60627e6945c8b2069e298fc9",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 123937,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pyyaml-3.12-py36_intel_2.tar.bz2": {
@@ -15078,6 +15753,32 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_2"
+    },
+    "daal-devel-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "d0255e83ad5e66a10eb348618904cbf9",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal-devel 2021.4.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632483130275,
+      "binstar": {
+        "package_id": "59836c5939abc9076c711a14",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10232,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "impi-devel-2019.0-intel_120.tar.bz2": {
       "timestamp": 1535973397568,
@@ -16414,6 +17115,30 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "intel-openmp-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "intel-openmp",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "1760d4634f7272e10a2edcc7065fa5ec",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475104749,
+      "binstar": {
+        "package_id": "5e416e367870586e914ecc71",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9235297,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "freetype-2.10.1-1.tar.bz2": {
       "timestamp": 1574461894054,
       "depends": [
@@ -16870,6 +17595,37 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "scikit-ipp-1.2.0-py37he7a3b9b_6.tar.bz2": {
+      "timestamp": 1627690039539,
+      "depends": [
+        "intel-openmp",
+        "ipp",
+        "libgcc-ng >=9.3.0",
+        "numpy >=1.15",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 210214,
+      "build_number": 6,
+      "name": "scikit-ipp",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.2.0",
+      "build": "py37he7a3b9b_6",
+      "binstar": {
+        "package_id": "5f21fb0478705809fcd1c468",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3fbaa51f6b6497e7d39d87945bc1bd02",
+      "requires": [],
       "subdir": "linux-64"
     },
     "urllib3-1.25.9-py37_0.tar.bz2": {
@@ -18392,6 +19148,38 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "intel-fortran-rt-2021.4.0-intel_3561.tar.bz2": {
+      "timestamp": 1632476546165,
+      "depends": [
+        "impi_rt 2021.*",
+        "intel-cmplr-lib-rt 2021.4.0 intel_3561",
+        "intel-cmplr-lic-rt 2021.4.0 intel_3561",
+        "intel-openmp 2021.4.0 intel_3561"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1145195,
+      "constrains": [
+        "fortran_rt>=2021.3.0"
+      ],
+      "build_number": 3561,
+      "name": "intel-fortran-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "binstar": {
+        "package_id": "60d9db1adcb792e0ca70f7fc",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "ecb52c1a8ffe15b05c4bc8591648c1dd",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "tensorflow-1.11.0-py27_0.tar.bz2": {
       "timestamp": 1539980437686,
       "depends": [
@@ -18906,6 +19694,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 462895,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "ffmpeg-4.4-h3fd9d12_1.tar.bz2": {
+      "build_number": 1,
+      "name": "ffmpeg",
+      "license": "LGPL",
+      "has_prefix": false,
+      "md5": "af81ac207fc6428edba0d708171c39f9",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "freetype >=2.10.4,<3.0a0",
+        "gmp >=6.2.1",
+        "lame >=3.100,<3.101.0a0",
+        "libgcc-ng >=9.3.0",
+        "libiconv",
+        "libstdcxx-ng >=9.3.0",
+        "openh264 >=2.1.0,<2.2.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "version": "4.4",
+      "build": "h3fd9d12_1",
+      "timestamp": 1630501456755,
+      "binstar": {
+        "package_id": "61099d46931d4ac0f433a310",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10162972,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -20453,6 +21275,32 @@
       "target-triplet": "x86_64-any-linux",
       "build": "1"
     },
+    "daal-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "950abcbe2fa324e5bde56d379710d841",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.4.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632483715220,
+      "binstar": {
+        "package_id": "5e416dbe7870586e9465f998",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10219,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "libxml2-2.9.4-intel_10.tar.bz2": {
       "build_number": 10,
       "features": "intel",
@@ -21027,6 +21875,34 @@
       "md5": "092f075051d811b5656bcc843ec1720d",
       "requires": [],
       "build": "py27_intel_3"
+    },
+    "spirv-tools-2020.5-h6bb024c_1.tar.bz2": {
+      "timestamp": 1629290950222,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 363672189,
+      "build_number": 1,
+      "name": "spirv-tools",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2020.5",
+      "build": "h6bb024c_1",
+      "binstar": {
+        "package_id": "5f21fb30778a870a1e28adc6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "4b3ac8a76870644994d4111cd68664fb",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "libsodium-1.0.10-intel_4.tar.bz2": {
       "build_number": 4,
@@ -21861,6 +22737,36 @@
       "target-triplet": "x86_64-any-linux",
       "build": "np116py36_0"
     },
+    "libcurl-7.78.0-h471713a_2.tar.bz2": {
+      "timestamp": 1631238084098,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libssh2 >=1.9.0,<2.0a0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 331179,
+      "build_number": 2,
+      "name": "libcurl",
+      "license": "MIT",
+      "has_prefix": true,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "7.78.0",
+      "build": "h471713a_2",
+      "binstar": {
+        "package_id": "61393972a9d628b502e60d9d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3b765a19e0772a5fcec6654d75fda639",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "pytz-2018.4-py27_2.tar.bz2": {
       "build_number": 2,
       "name": "pytz",
@@ -21887,6 +22793,33 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_2"
+    },
+    "intel-cmplr-lic-rt-2021.4.0-intel_3561.tar.bz2": {
+      "timestamp": 1632475837748,
+      "depends": [],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 25099,
+      "constrains": [
+        "common_cmplr_lic_rt>=2021.3.0"
+      ],
+      "build_number": 3561,
+      "name": "intel-cmplr-lic-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "binstar": {
+        "package_id": "60d9db166befad0b16a05b50",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "245000ed5bfa6345d67be3b9f0bf231d",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "libxml2-2.9.10-h9aba842_4.tar.bz2": {
       "timestamp": 1600962238634,
@@ -22136,6 +23069,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "scikit-learn-intelex-2021.4.0-py37_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "dd8932cf61bf27ad31c1daedd28038da",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2021.4.0",
+        "python 3.7.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2021.4.0",
+      "build": "py37_intel_729",
+      "timestamp": 1632482980822,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 30012,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pyparsing-2.4.7-py37h0618fa2_2.tar.bz2": {
       "build_number": 2,
       "name": "pyparsing",
@@ -22247,6 +23208,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "libssh2-1.9.0-h4b1ad09_1.tar.bz2": {
+      "timestamp": 1630412453776,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1k,<1.1.2a"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 362004,
+      "build_number": 1,
+      "name": "libssh2",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.9.0",
+      "build": "h4b1ad09_1",
+      "binstar": {
+        "package_id": "6155d0625a1e30bf3fa00975",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "88f7ca3766fa278d0fd57694c08f9d93",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "memkind-1.10.1.rc2-0.tar.bz2": {
       "build_number": 0,
       "name": "memkind",
@@ -22266,6 +23255,34 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 9733108,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "daal4py-2021.4.0-py36_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "96df3d56859af219a4762c49b8b77d6c",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.4.0",
+        "numpy >=1.15",
+        "python 3.6.*"
+      ],
+      "version": "2021.4.0",
+      "build": "py36_intel_729",
+      "timestamp": 1632483801657,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9921835,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -24116,6 +25133,38 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "aws-sdk-cpp-1.8.185-hadc6d9a_1.tar.bz2": {
+      "timestamp": 1630618968774,
+      "depends": [
+        "aws-c-common >=0.6.8,<0.6.9.0a0",
+        "aws-c-event-stream >=0.1.6,<0.1.7.0a0",
+        "libcurl >=7.71.1,<8.0a0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "openssl >=1.1.1k,<1.1.2a"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 2584709,
+      "build_number": 1,
+      "name": "aws-sdk-cpp",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.8.185",
+      "build": "hadc6d9a_1",
+      "binstar": {
+        "package_id": "6155cfdfa9d628b5029d11f6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "98926f23230dfe3bd2a6dc41f2fafac9",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "daal-static-2020.1-intel_217.tar.bz2": {
       "timestamp": 1584982572147,
       "depends": [
@@ -24418,6 +25467,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onednn-devel-cpu-tbb-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-devel-cpu-tbb",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "f442e517e5ed75b9797c8fe0ed098524",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "onednn-cpu-tbb 2021.4.0 intel_467"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632483332331,
+      "binstar": {
+        "package_id": "5fc8adaea58f0d0a513b2a9e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 98911,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "prompt_toolkit-1.0.15-py36_2.tar.bz2": {
       "build_number": 2,
       "name": "prompt_toolkit",
@@ -24473,6 +25548,54 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "37820b39de704b98687765d407d7c971",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "neural-compressor-1.7-py38_0.tar.bz2": {
+      "timestamp": 1633064612938,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 346385680,
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.7",
+      "build": "py38_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "cb5b85c1a7e3667e4d11fef5c5cd39b0",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -26366,6 +27489,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "onednn-cpu-iomp-2021.2.0-intel_228.tar.bz2": {
+      "build_number": 228,
+      "name": "onednn-cpu-iomp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "71d4430682d8433998695f9e2cbfb538",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-openmp 2021.*"
+      ],
+      "version": "2021.2.0",
+      "build": "intel_228",
+      "timestamp": 1616670014113,
+      "binstar": {
+        "package_id": "5fc8ad7e78d4370a8d107728",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 26053465,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "python-3.6.9-5.tar.bz2": {
       "build_number": 5,
       "name": "python",
@@ -26607,6 +27756,39 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dpnp-0.7.1-py37h75156f8_35.tar.bz2": {
+      "build_number": 35,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "6c913123f226d756e9b7f22b89689599",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt >=2021.1.1",
+        "dpctl >=0.5.0a0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "mkl >=2021.1.1",
+        "mkl-dpcpp >=2021.1.1",
+        "numpy >=1.15",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "0.7.1",
+      "build": "py37h75156f8_35",
+      "timestamp": 1630401772582,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2956784,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "html5lib-0.999999999-py27_intel_0.tar.bz2": {
       "features": "intel",
       "depends": [
@@ -26724,6 +27906,31 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel-openmp-2019.0-intel_120.tar.bz2": {
+      "timestamp": 1535971924824,
+      "depends": [],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 732202,
+      "build_number": 120,
+      "name": "intel-openmp",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2019.0",
+      "build": "intel_120",
+      "binstar": {
+        "package_id": "5e416e367870586e914ecc71",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "1a6529ee9e3e1379e4b6fd576955d48a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "numba-0.42.1-np116py27_0.tar.bz2": {
       "build_number": 0,
       "name": "numba",
@@ -26756,6 +27963,30 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "np116py27_0"
+    },
+    "intel-cmplr-lib-rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "intel-cmplr-lib-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "29c5532daca973c3cf323d94cc88ba38",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632476440270,
+      "binstar": {
+        "package_id": "60d9db111116e579c32f12a1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 30024263,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "intel-aikit-pytorch-2021.2.0-0.tar.bz2": {
       "build_number": 0,
@@ -26923,6 +28154,33 @@
       "requires": [],
       "build": "py36_intel_0"
     },
+    "mkl-devel-dpcpp-2021.4.0-intel_640.tar.bz2": {
+      "build_number": 640,
+      "name": "mkl-devel-dpcpp",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "1360db4e54eee5d7cf938d41b49c1431",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "mkl-devel 2021.4.0 intel_640",
+        "mkl-dpcpp 2021.4.0 intel_640"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_640",
+      "timestamp": 1632484065796,
+      "binstar": {
+        "package_id": "5fc8aef5d2ff900a7418eacf",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 100370196,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mkl_random-1.2.0-py37h0107b67_1.tar.bz2": {
       "build_number": 1,
       "name": "mkl_random",
@@ -26984,6 +28242,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "tbb4py-2021.4.0-py38_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "tbb4py",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "5dd7a6e39b5fe32b2fbf29c3a30fede1",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "python 3.8.*",
+        "tbb 2021.4.0 intel_643"
+      ],
+      "version": "2021.4.0",
+      "build": "py38_intel_643",
+      "timestamp": 1632472549021,
+      "binstar": {
+        "package_id": "5e416d447870586e9465e55f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 332763,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "jupyter_core-4.2.0-py27_intel_1.tar.bz2": {
       "build_number": 1,
       "features": "intel",
@@ -27038,6 +28323,32 @@
       },
       "md5": "f3631596cdf961e41397a6687818437f",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "ipp_crypto-2021.4.0-intel_401.tar.bz2": {
+      "build_number": 401,
+      "name": "ipp_crypto",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "4de8156e532ac8b391c2688b1a990846",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "openssl >=1.1"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_401",
+      "timestamp": 1632472500592,
+      "binstar": {
+        "package_id": "5fc8abb778d4370a8d0fd53d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 4676368,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pycosat-0.6.3-py37_3.tar.bz2": {
@@ -27917,60 +29228,61 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "certifi-2020.12.5-py37he139614_0.tar.bz2": {
-      "timestamp": 1619155964461,
-      "depends": [
-        "intelpython >=2019.0",
-        "python >=3.7,<3.8.0a0"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 146711,
-      "build_number": 0,
-      "name": "certifi",
-      "license": "ISC",
-      "has_prefix": false,
-      "license_family": "Other",
-      "machine": "x86_64",
-      "platform": "linux",
-      "version": "2020.12.5",
-      "build": "py37he139614_0",
-      "binstar": {
-        "package_id": "5e416dde83b66372f4394047",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "7569e45a3cf42be1de45a8c195a677da",
-      "requires": [],
-      "subdir": "linux-64"
-    },
-    "setuptools-47.3.0-py37_0.tar.bz2": {
-      "timestamp": 1593148723736,
+    "urllib3-1.26.6-py37h6fed32d_0.tar.bz2": {
+      "timestamp": 1627703253677,
       "depends": [
         "certifi",
+        "cryptography >=1.3.4",
+        "idna >=2.0.0",
+        "intelpython >=2019.0",
+        "pyopenssl >=0.14",
+        "pysocks >=1.5.6,<2.0,!=1.5.7",
         "python >=3.7,<3.8.0a0"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 651984,
+      "size": 177268,
       "build_number": 0,
-      "name": "setuptools",
+      "name": "urllib3",
       "license": "MIT",
-      "has_prefix": true,
+      "has_prefix": false,
       "license_family": "MIT",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "47.3.0",
-      "build": "py37_0",
+      "version": "1.26.6",
+      "build": "py37h6fed32d_0",
       "binstar": {
-        "package_id": "5e416e2783b66372f629ce0a",
+        "package_id": "5a060257307dba1229ce2cbd",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "0efaefa41c173d643f2f32545f9e04b4",
+      "md5": "c721521a81844be8523e54e00c15f8f7",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "ipp-include-2021.4.0-intel_459.tar.bz2": {
+      "build_number": 459,
+      "name": "ipp-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "4c7764790b89610930e5c90a6534c1fc",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_459",
+      "timestamp": 1632482974428,
+      "binstar": {
+        "package_id": "59413712ca7a6112465e3c7d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 223799,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pyyaml-5.1.1-py36_0.tar.bz2": {
@@ -28924,6 +30236,30 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onednn-cpu-gomp-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-cpu-gomp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "b69f2259bcc1380229226e61c9576158",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632482975603,
+      "binstar": {
+        "package_id": "5fc8ada1a58f0d0a43df6999",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9659891,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "numba-0.51.2-py37h35a63e4_0.tar.bz2": {
       "build_number": 0,
       "name": "numba",
@@ -29085,6 +30421,62 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 652368,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "intelpython3_core-2021.4-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "intelpython3_core",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "b65388ac68fa2f61e6f3d9ac6ede2ba1",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "bzip2 1.0.8 hb9a14ef_8",
+        "dpcpp-cpp-rt >=2021.4",
+        "intel-openmp >=2021.4",
+        "intelpython 2021.4.0 0",
+        "libffi 3.3 13",
+        "libgcc-ng 9.3.0 hdf63c60_101",
+        "libstdcxx-ng 9.3.0 hdf63c60_101",
+        "mkl >=2021.4",
+        "mkl-service 2.4.0 py37h5c78031_1",
+        "mkl_fft 1.3.1 py37hbd9d9a5_0",
+        "mkl_random 1.2.2 py37hd708486_1",
+        "mkl_umath 0.1.1 py37h244f2d4_9",
+        "numpy 1.20.3 py37h2742bb4_2",
+        "numpy-base 1.20.3 py37hf707ed8_2",
+        "openssl 1.1.1k h14c3975_3",
+        "pip 21.1.1 py37_0",
+        "pyeditline 2.0.1 py37_1",
+        "python 3.7.11 h5762be8_3",
+        "pyyaml 5.3.1 py37hae09b62_2",
+        "scipy 1.6.2 py37h3fee769_0",
+        "setuptools 52.0.0 py37h0d5a7d4_0",
+        "six 1.16.0 py37_0",
+        "sqlite 3.36.0 hb9a14ef_2",
+        "tbb >=2021.4",
+        "tbb4py >=2021.4",
+        "tcl 8.6.10 1",
+        "tk 8.6.10 h8e2d9d6_3",
+        "wheel 0.36.2 py37ha11c92b_0",
+        "xz 5.2.5 h74280d8_2",
+        "yaml 0.1.7 7",
+        "zlib 1.2.11.1 h1e99aa7_4"
+      ],
+      "version": "2021.4",
+      "build": "py37_0",
+      "timestamp": 1633016532992,
+      "binstar": {
+        "package_id": "5702d0bc4733c3696cfffd1d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 4425,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -29254,6 +30646,32 @@
       },
       "md5": "ed5b4c8210e6d9b6ca93fdba82f75a6d",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "icc_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "icc_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "169d1a56a9ca4b2bc7f5e42c6fa130dd",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475102561,
+      "binstar": {
+        "package_id": "5e416d987870586e9465f4cf",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 22407,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "decorator-4.0.11-py27_intel_0.tar.bz2": {
@@ -29754,6 +31172,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "packaging-21.0-py37h1546d3d_3.tar.bz2": {
+      "build_number": 3,
+      "name": "packaging",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "md5": "a1af3942528cd8bf2137eef2ae7723af",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "pyparsing >=2.0.2",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "21.0",
+      "build": "py37h1546d3d_3",
+      "timestamp": 1631142083168,
+      "binstar": {
+        "package_id": "6155d0eab22cf15303835524",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 61030,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "urllib3-1.22-py36_2.tar.bz2": {
       "timestamp": 1533309649317,
       "depends": [
@@ -29867,6 +31312,32 @@
       },
       "md5": "1e520c8cba680d4aa0f36a720479ae62",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "daal-include-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "0eb3b5d470585e759b812fa88ebf03ae",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal-include 2021.4.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632483850280,
+      "binstar": {
+        "package_id": "5e416d8983b66372f15eb75e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10225,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "opencv-3.1.0-np113py27_intel_6.tar.bz2": {
@@ -30166,6 +31637,36 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "llvmlite-0.37.0-py37h188ca7a_0.tar.bz2": {
+      "build_number": 0,
+      "name": "llvmlite",
+      "license": "BSD-2-Clause",
+      "has_prefix": true,
+      "md5": "59b4671b27deabebe60083d6349add90",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libllvm11 >=11.0.0,<11.1.0a0",
+        "libstdcxx-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "0.37.0",
+      "build": "py37h188ca7a_0",
+      "timestamp": 1630542362977,
+      "binstar": {
+        "package_id": "5e416d6283b66372f6299174",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 4649455,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "cffi-1.14.5-py38h61521df_0.tar.bz2": {
       "build_number": 0,
       "name": "cffi",
@@ -30221,6 +31722,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "mkl-service-2.4.0-py37h5c78031_1.tar.bz2": {
+      "build_number": 1,
+      "name": "mkl-service",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "0f8cd4d190c6f1c6321400943d407894",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "mkl",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "version": "2.4.0",
+      "build": "py37h5c78031_1",
+      "timestamp": 1630023468702,
+      "binstar": {
+        "package_id": "5e416e9f83b66372f629e6c8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 64683,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mkl-devel-dpcpp-2021.3.0-intel_520.tar.bz2": {
       "build_number": 520,
       "name": "mkl-devel-dpcpp",
@@ -30243,6 +31773,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 92096137,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "brotli-1.0.9-hf484d3e_2.tar.bz2": {
+      "build_number": 2,
+      "name": "brotli",
+      "license": "MIT",
+      "has_prefix": true,
+      "md5": "4ffa783fc8a6390c21727ddbff4bc537",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "version": "1.0.9",
+      "build": "hf484d3e_2",
+      "timestamp": 1627692099308,
+      "binstar": {
+        "package_id": "60627b0af6b6213aa3fb32c1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1058246,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -30567,6 +32124,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 1744,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "six-1.15.0-py37_1.tar.bz2": {
+      "build_number": 1,
+      "name": "six",
+      "license": "MIT",
+      "has_prefix": false,
+      "md5": "e42ae055e3114ce3beb3f111b6460f1c",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "1.15.0",
+      "build": "py37_1",
+      "timestamp": 1612317700240,
+      "binstar": {
+        "package_id": "5e416e99fe6b2a019f63cb88",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 24444,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -31829,6 +33413,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "dal-devel-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "dal-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "55b135f8c87dc96bdee21320225afa78",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.4.0 intel_729",
+        "dal-include 2021.4.0 intel_729"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632483992032,
+      "binstar": {
+        "package_id": "5fb4e7eb78d4370a85c5ae16",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10852452,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "python-gflags-3.1.1-py36_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -32312,6 +33923,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "impi-devel-2021.4.0-intel_441.tar.bz2": {
+      "build_number": 441,
+      "name": "impi-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "e1a5f9de9173a73af6432b5c4f16addd",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "impi_rt 2021.4.0 intel_441"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_441",
+      "timestamp": 1632472360040,
+      "binstar": {
+        "package_id": "5b7bb67ec036d81348162a37",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 55555,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "daal4py-2020.0-py37ha68da19_5.tar.bz2": {
       "build_number": 5,
       "name": "daal4py",
@@ -32341,6 +33978,34 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py37ha68da19_5"
+    },
+    "scikit-learn-intelex-2021.4.0-py36_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "4f030f5da404fb51abe34154fe172fb7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2021.4.0",
+        "python 3.6.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2021.4.0",
+      "build": "py36_intel_729",
+      "timestamp": 1632483903227,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 30041,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "conda-4.8.4-py37h926af72_10.tar.bz2": {
       "timestamp": 1605127811098,
@@ -32381,29 +34046,54 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "intel-openmp-2019.0-intel_120.tar.bz2": {
-      "timestamp": 1535971924824,
-      "depends": [],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 732202,
-      "build_number": 120,
-      "name": "intel-openmp",
-      "license": "proprietary - Intel",
+    "impi_rt-2021.4.0-intel_441.tar.bz2": {
+      "build_number": 441,
+      "name": "impi_rt",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "license_family": "Proprietary",
+      "md5": "8f788136145c5871848d60dbb929feee",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2019.0",
-      "build": "intel_120",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_441",
+      "timestamp": 1632472401665,
       "binstar": {
-        "package_id": "5e416e367870586e914ecc71",
+        "package_id": "5e416d297870586e914eb0ee",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "1a6529ee9e3e1379e4b6fd576955d48a",
+      "size": 41499347,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "common_cmplr_lic_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "common_cmplr_lic_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "2ddd4b3759956fdda59c4ff77dbc4624",
       "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-cmplr-lic-rt >=2021.3.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632476295720,
+      "binstar": {
+        "package_id": "5f94c0abd2ff900a7aa995f1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 22453,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "lmdb-0.9.18-intel_2.tar.bz2": {
@@ -33860,6 +35550,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dpctl-0.9.0-py37h75156f8_0.tar.bz2": {
+      "build_number": 0,
+      "name": "dpctl",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "md5": "c92df0b66220a4e258d9f049e5020959",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt >=2021.2",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "numpy >=1.17",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "0.9.0",
+      "build": "py37h75156f8_0",
+      "timestamp": 1629933108060,
+      "binstar": {
+        "package_id": "5f94c107d2ff900a790b17d4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 944204,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "openmp-2017.0.4-intel_0.tar.bz2": {
       "build_number": 0,
       "name": "openmp",
@@ -34057,6 +35777,32 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "np113py27_intel_15"
+    },
+    "common_cmplr_lib_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "common_cmplr_lib_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "fec545f0f00ebcbc3b015b85612a2fff",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-cmplr-lib-rt >=2021.3.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475437018,
+      "binstar": {
+        "package_id": "5f94c0a178d4370a8dd321ff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 22425,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "jsonschema-2.5.1-py27_intel_4.tar.bz2": {
       "build_number": 4,
@@ -34953,6 +36699,34 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_0"
     },
+    "scikit-learn-intelex-2021.4.0-py38_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "16a14810b8ae9674e0f1b2b846207362",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2021.4.0",
+        "python 3.8.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2021.4.0",
+      "build": "py38_intel_729",
+      "timestamp": 1632483649272,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 30006,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mkl_fft-1.0.2-np114py36_6.tar.bz2": {
       "build_number": 6,
       "name": "mkl_fft",
@@ -35352,6 +37126,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "numba-0.54.0-py37h9556e7c_1.tar.bz2": {
+      "build_number": 1,
+      "name": "numba",
+      "license": "BSD-2-Clause",
+      "has_prefix": true,
+      "md5": "7156d48fa875a24f2db493e4d07deb6b",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "llvmlite 0.37.*",
+        "numpy >=1.17.5,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools",
+        "tbb4py"
+      ],
+      "version": "0.54.0",
+      "build": "py37h9556e7c_1",
+      "timestamp": 1629911766497,
+      "binstar": {
+        "package_id": "5e416d37fe6b2a019f638df4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 3821524,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "nose-1.3.7-py27_intel_16.tar.bz2": {
       "build_number": 16,
       "features": "intel",
@@ -35519,6 +37326,54 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "neural-compressor-1.7-py36_0.tar.bz2": {
+      "timestamp": 1633023544508,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python >=3.6,<3.7.0a0",
+        "python_abi 3.6.* *_cp36m",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 346417055,
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.7",
+      "build": "py36_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "9c40a9d48ef47640dd4f5dc22c9541aa",
+      "requires": [],
       "subdir": "linux-64"
     },
     "pytables-3.2.2-py27_intel_3.tar.bz2": {
@@ -37740,6 +39595,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "threadpoolctl-2.1.0-py37h2742bb4_1.tar.bz2": {
+      "timestamp": 1627701398910,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 24677,
+      "build_number": 1,
+      "name": "threadpoolctl",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.1.0",
+      "build": "py37h2742bb4_1",
+      "binstar": {
+        "package_id": "5f774f33d2ff900a74ed4a83",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "84484deeba8404dc43b15911d1e19fdd",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "cycler-0.10.0-py37_7.tar.bz2": {
       "build_number": 7,
       "name": "cycler",
@@ -37885,6 +39767,32 @@
       },
       "md5": "95d3ae05e9c8fef348d3bf2402b268d4",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "onednn-devel-cpu-gomp-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-devel-cpu-gomp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "61dbd49ea327411c53cce28c48bea59a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "onednn-cpu-gomp 2021.4.0 intel_467"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632483154028,
+      "binstar": {
+        "package_id": "5fc8adb778d4370a8d107b70",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 100275,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "ipywidgets-4.1.1-py35_intel_3.tar.bz2": {
@@ -38769,35 +40677,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "prompt_toolkit-1.0.15-py36_intel_0.tar.bz2": {
-      "build_number": 0,
-      "features": "intel",
-      "license": "BSD",
+    "asn1crypto-0.24.0-py36_3.tar.bz2": {
+      "build_number": 3,
+      "name": "asn1crypto",
+      "license": "MIT",
       "has_prefix": false,
+      "md5": "ca7423d775e490afa4c13129d017f1b3",
       "requires": [],
-      "name": "prompt_toolkit",
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "intelpython",
-        "pygments",
-        "python 3.6*",
-        "six >=1.9.0",
-        "wcwidth"
+        "python >=3.6,<3.7.0a0"
       ],
-      "version": "1.0.15",
-      "subdir": "linux-64",
-      "md5": "10adca9de770c1ea9f8f2322271b2968",
+      "version": "0.24.0",
+      "build": "py36_3",
+      "timestamp": 1533306966817,
       "binstar": {
-        "package_id": "5813ba9ed10fc211a7037e31",
+        "package_id": "5a062a03307dba122ab6a353",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 350316,
+      "size": 168786,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "build": "py36_intel_0"
+      "subdir": "linux-64"
     },
     "mkl-dnn-0.10-intel_0.tar.bz2": {
       "features": "intel",
@@ -39162,6 +41066,40 @@
       },
       "md5": "1eb6d3b47b3afbd71152bc31d80b4cea",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel-aikit-pytorch-2021.3.0-0.tar.bz2": {
+      "build_number": 0,
+      "name": "intel-aikit-pytorch",
+      "license": "Intel End User License Agreement for Developer Tools (Version September 2019)",
+      "has_prefix": false,
+      "md5": "747ce199478134af5fdbcd8e08ec760a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "cpuonly",
+        "intel-extension-for-pytorch 1.8.0",
+        "intel-openmp",
+        "lpot 1.4.1",
+        "numpy >=1.19.2,<1.21.0a0",
+        "python >=3.7,<3.8.0a0",
+        "pytorch 1.8.0",
+        "torch_ccl 1.1.0",
+        "torchvision 0.9.0"
+      ],
+      "version": "2021.3.0",
+      "build": "0",
+      "timestamp": 1628316339447,
+      "binstar": {
+        "package_id": "5f22088d778a870a1ce02b0a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 247233,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "cryptography-3.2-py37h89119f4_1.tar.bz2": {
@@ -40565,6 +42503,37 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "numpy-1.20.3-py37h2742bb4_2.tar.bz2": {
+      "build_number": 2,
+      "name": "numpy",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "4263daa905e682a60c794137811d5bfe",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "mkl_fft >=1.3.1,<2.0a0",
+        "mkl_random >=1.2.2,<2.0a0",
+        "mkl_umath >=0.1.1,<1.0a0",
+        "numpy-base 1.20.3 py37hf707ed8_2",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "1.20.3",
+      "build": "py37h2742bb4_2",
+      "timestamp": 1630061084872,
+      "binstar": {
+        "package_id": "5e416d3183b66372f902f38a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 4079,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "tensorflow-2.0.1-py37_0.tar.bz2": {
       "timestamp": 1582020486057,
       "depends": [
@@ -40740,6 +42709,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 360309,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "mistune-0.7.4-py36_intel_1.tar.bz2": {
+      "build_number": 1,
+      "features": "intel",
+      "license": "BSD",
+      "has_prefix": false,
+      "requires": [],
+      "name": "mistune",
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython",
+        "python 3.6*"
+      ],
+      "version": "0.7.4",
+      "build": "py36_intel_1",
+      "md5": "a002c59c864950f2eb19de79dd1606da",
+      "binstar": {
+        "package_id": "56fad41c4733c34f5c128350",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 867316,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -42454,6 +44450,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "tqdm-4.60.0-py37h483928c_0.tar.bz2": {
+      "timestamp": 1627698272700,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 99436,
+      "build_number": 0,
+      "name": "tqdm",
+      "license": "MPL-2.0",
+      "has_prefix": true,
+      "license_family": "MOZILLA",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "4.60.0",
+      "build": "py37h483928c_0",
+      "binstar": {
+        "package_id": "5df9423ffe6b2a2074f84d8d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "731fe2e6022ec234c19b3e0ab3292f64",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "get_terminal_size-1.0.0-py36_7.tar.bz2": {
       "build_number": 7,
       "name": "get_terminal_size",
@@ -42693,34 +44716,31 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "dpnp-0.6.2-py37h86f26c8_18.tar.bz2": {
-      "build_number": 18,
-      "name": "dpnp",
-      "license": "BSD-2-Clause",
+    "mkl_random-1.2.2-py37hd708486_1.tar.bz2": {
+      "build_number": 1,
+      "name": "mkl_random",
+      "license": "BSD-3-Clause",
       "has_prefix": false,
-      "md5": "ca6f998ded8204b9200899bb4bab03be",
+      "md5": "71c974203c1d038541fbbe842c085d26",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "dpcpp_cpp_rt >=2021.1.1",
-        "dpctl >=0.5.0a0",
-        "libgcc-ng >=9.3.0",
-        "libstdcxx-ng >=9.3.0",
-        "mkl >=2021.1.1",
-        "mkl-dpcpp >=2021.1.1",
-        "numpy >=1.15",
+        "dpcpp_cpp_rt",
+        "intelpython >=2019.0",
+        "mkl",
+        "numpy-base >=1.20.3,<2.0a0",
         "python >=3.7,<3.8.0a0"
       ],
-      "version": "0.6.2",
-      "build": "py37h86f26c8_18",
-      "timestamp": 1621875427493,
+      "version": "1.2.2",
+      "build": "py37hd708486_1",
+      "timestamp": 1630061000679,
       "binstar": {
-        "package_id": "5f94c110a58f0d0a51929a65",
+        "package_id": "5e416e8cfe6b2a01a19cca28",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 2083687,
+      "size": 365106,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -44639,6 +46659,38 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "llvm-spirv-11.0.0-h4616538_0.tar.bz2": {
+      "timestamp": 1630551902766,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libllvm11 >=11.0.0,<11.1.0a0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1114238,
+      "constrains": [
+        "llvmdev  11.0.0"
+      ],
+      "build_number": 0,
+      "name": "llvm-spirv",
+      "license": "NCSA",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "11.0.0",
+      "build": "h4616538_0",
+      "binstar": {
+        "package_id": "5f21fa12778a870a1aa556a4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "f81d6510552f4086a8e9fc0ab6bbb0a2",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "requests-2.25.1-py37_1.tar.bz2": {
       "build_number": 1,
       "name": "requests",
@@ -45054,6 +47106,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "ncurses-6.2-hf61fa16_1.tar.bz2": {
+      "build_number": 1,
+      "name": "ncurses",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "d0d19f4412362a9586dee48da3067f04",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0"
+      ],
+      "version": "6.2",
+      "build": "hf61fa16_1",
+      "timestamp": 1619162584435,
+      "binstar": {
+        "package_id": "6155d0aea9d628b5029d9ae2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1466742,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pyyaml-5.3.1-py38ha35b634_2.tar.bz2": {
       "build_number": 2,
       "name": "pyyaml",
@@ -45384,6 +47462,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onednn-cpu-tbb-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-cpu-tbb",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "033d9192f39c99474c8047f54d096a3f",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "tbb 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632482988252,
+      "binstar": {
+        "package_id": "5fc8ad86d2ff902a2d8c9943",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 24204288,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "onednn-cpu-dpcpp-gpu-dpcpp-2021.3.0-intel_344.tar.bz2": {
       "build_number": 344,
       "name": "onednn-cpu-dpcpp-gpu-dpcpp",
@@ -45406,6 +47510,36 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 12819938,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "mkl_fft-1.3.1-py37hbd9d9a5_0.tar.bz2": {
+      "build_number": 0,
+      "name": "mkl_fft",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "5b491704f989ec98a5c5239e48e85ccb",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt",
+        "intelpython >=2019.0",
+        "mkl",
+        "numpy-base >=1.20.3,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "1.3.1",
+      "build": "py37hbd9d9a5_0",
+      "timestamp": 1630060932640,
+      "binstar": {
+        "package_id": "5e416d6afe6b2a019b98cd48",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 244638,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -45553,6 +47687,39 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py27_12"
     },
+    "dpcpp-cpp-rt-2021.4.0-intel_3561.tar.bz2": {
+      "timestamp": 1632476772137,
+      "depends": [
+        "icc_rt 2021.4.*",
+        "intel-cmplr-lib-rt 2021.4.0 intel_3561",
+        "intel-cmplr-lic-rt 2021.4.0 intel_3561",
+        "intel-opencl-rt 2021.4.0 intel_3561",
+        "intel-openmp 2021.4.0 intel_3561"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1384704,
+      "constrains": [
+        "dpcpp_cpp_rt >=2021.3.0"
+      ],
+      "build_number": 3561,
+      "name": "dpcpp-cpp-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "binstar": {
+        "package_id": "60d9db265f0624224aef0354",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3fe54c1000f3089a8397c13ae2b30bcb",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "jupyter_core-4.4.0-py27_5.tar.bz2": {
       "build_number": 5,
       "name": "jupyter_core",
@@ -45671,6 +47838,34 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 378424,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "dpcpp_linux-64-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "dpcpp_linux-64",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "6307d702239e733999cf0cac3e74fee4",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_impl_linux-64 2021.4.0 intel_3561",
+        "libgcc-ng",
+        "libstdcxx-ng"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475327530,
+      "binstar": {
+        "package_id": "60b022a869aed84d14a3b6fa",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 24610,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -46179,6 +48374,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "daal4py-2021.4.0-py39_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal4py",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "6afb6f7c8f16703e6699d73357efd421",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.4.0",
+        "numpy >=1.15",
+        "python 3.9.*"
+      ],
+      "version": "2021.4.0",
+      "build": "py39_intel_729",
+      "timestamp": 1632483176569,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10098957,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "python-dateutil-2.6.0-py36_5.tar.bz2": {
       "build_number": 5,
       "name": "python-dateutil",
@@ -46431,6 +48654,32 @@
       },
       "md5": "543a6f9ea9b824ac983ffe6068d5a18f",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "onednn-devel-cpu-dpcpp-gpu-dpcpp-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-devel-cpu-dpcpp-gpu-dpcpp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "9502a2b274fd24d4c37dfc5062807583",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "onednn-cpu-dpcpp-gpu-dpcpp 2021.4.0 intel_467"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632483515159,
+      "binstar": {
+        "package_id": "5fc8ada4a58f0d0a43df6bc2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 103008,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pydaal-2017.0.3.20170412-np112py27_intel_3.tar.bz2": {
@@ -46808,6 +49057,84 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "neural-compressor-1.7-py37_0.tar.bz2": {
+      "timestamp": 1633024719014,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 346067799,
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.7",
+      "build": "py37_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "4b8f4594c2a39ac57e1db8ea9c5879a3",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "libxml2-2.9.12-h6441c91_0.tar.bz2": {
+      "timestamp": 1627696895179,
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 2301253,
+      "build_number": 0,
+      "name": "libxml2",
+      "license": "MIT",
+      "has_prefix": true,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.9.12",
+      "build": "h6441c91_0",
+      "binstar": {
+        "package_id": "57b32518e5085d193b3390cb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "36211c368c2abb2ffabe1e61e95abadb",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "llvm-tools-10.0.0-h44c00cf_8.tar.bz2": {
       "timestamp": 1603813110615,
       "depends": [
@@ -46921,6 +49248,35 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_0"
+    },
+    "pip-21.1.1-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "pip",
+      "license": "MIT",
+      "has_prefix": true,
+      "md5": "8abf8c1e567f3d477d916a48f7494e97",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools",
+        "wheel"
+      ],
+      "version": "21.1.1",
+      "build": "py37_0",
+      "timestamp": 1627705636643,
+      "binstar": {
+        "package_id": "5e416e5283b66372f4395015",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2106286,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "daal4py-2021.2.0-py38_intel_358.tar.bz2": {
       "build_number": 358,
@@ -47791,6 +50147,39 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dpnp-0.6.2-py37h86f26c8_18.tar.bz2": {
+      "build_number": 18,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "ca6f998ded8204b9200899bb4bab03be",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt >=2021.1.1",
+        "dpctl >=0.5.0a0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "mkl >=2021.1.1",
+        "mkl-dpcpp >=2021.1.1",
+        "numpy >=1.15",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "0.6.2",
+      "build": "py37h86f26c8_18",
+      "timestamp": 1621875427493,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2083687,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "zeromq-4.1.4-intel_5.tar.bz2": {
       "build_number": 5,
       "features": "intel",
@@ -48527,35 +50916,38 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "intel-aikit-pytorch-2021.3.0-0.tar.bz2": {
-      "build_number": 0,
-      "name": "intel-aikit-pytorch",
-      "license": "Intel End User License Agreement for Developer Tools (Version September 2019)",
-      "has_prefix": false,
-      "md5": "747ce199478134af5fdbcd8e08ec760a",
+    "pyarrow-4.0.1-py37h497cf44_1.tar.bz2": {
+      "build_number": 1,
+      "name": "pyarrow",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "md5": "1085d639024ad8ef3ba5248a32fa484e",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "cpuonly",
-        "intel-extension-for-pytorch 1.8.0",
-        "intel-openmp",
-        "lpot 1.4.1",
-        "numpy >=1.19.2,<1.21.0a0",
+        "arrow-cpp >=4.0.1,<4.0.2.0a0",
+        "arrow-cpp >=4.0.1,<5.0a0",
+        "gflags",
+        "glog",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "libthrift",
+        "numpy >=1.11,<2.0a0",
+        "pandas",
         "python >=3.7,<3.8.0a0",
-        "pytorch 1.8.0",
-        "torch_ccl 1.1.0",
-        "torchvision 0.9.0"
+        "six",
+        "snappy"
       ],
-      "version": "2021.3.0",
-      "build": "0",
-      "timestamp": 1628316339447,
+      "version": "4.0.1",
+      "build": "py37h497cf44_1",
+      "timestamp": 1630548249749,
       "binstar": {
-        "package_id": "5f22088d778a870a1ce02b0a",
+        "package_id": "5f21fa9a78705809fac3bca0",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 247233,
+      "size": 2735588,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -49228,6 +51620,54 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "neural-compressor-1.7-py39_0.tar.bz2": {
+      "timestamp": 1633056073853,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 346311888,
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.7",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "ecb3f7d3928afcf4a15dea5b1f656f2a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "weakref-1.0.post1-py27_0.tar.bz2": {
       "build_number": 0,
       "name": "weakref",
@@ -49488,6 +51928,41 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "scikit-learn-0.24.2-py37h8411759_4.tar.bz2": {
+      "timestamp": 1630459518462,
+      "depends": [
+        "icc_rt >=16.0.3",
+        "intelpython >=2019",
+        "joblib >=0.11",
+        "mkl >=2019",
+        "numpy >=1.17.5,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scikit-learn-intelex",
+        "scipy",
+        "threadpoolctl"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 9599087,
+      "build_number": 4,
+      "name": "scikit-learn",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.24.2",
+      "build": "py37h8411759_4",
+      "binstar": {
+        "package_id": "5e416e7083b66372f15eb9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "b06e5c767881b6aa0da4afdbd8088715",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "openvino-ie4py-2020.4-py36_ubuntu18_intel_303.tar.bz2": {
       "features": "ubuntu18",
       "timestamp": 1594812641335,
@@ -49662,6 +52137,34 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "libevent-2.1.10-h5969dba_0.tar.bz2": {
+      "timestamp": 1627702479306,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1k,<1.1.2a"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1170547,
+      "build_number": 0,
+      "name": "libevent",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.1.10",
+      "build": "h5969dba_0",
+      "binstar": {
+        "package_id": "60627bf3dcb792e0ca4abdd8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "eb34fe3516be1e9e2f6b2da0bb1e1b40",
+      "requires": [],
       "subdir": "linux-64"
     },
     "ipywidgets-6.0.0-py35_intel_0.tar.bz2": {
@@ -51163,6 +53666,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dal-include-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "dal-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "a2b3b2b5bc5c4abbde50e262f1fea095",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632483088981,
+      "binstar": {
+        "package_id": "5fb4e87478d4370a8da321ce",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 407249,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "daal-static-2018.0.2.20180124-0.tar.bz2": {
       "build_number": 0,
       "name": "daal-static",
@@ -51324,6 +53851,30 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 126484,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "tbb-2021.4.0-intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "tbb",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "fbb61cfad0bc654343d4316845e15fe2",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_643",
+      "timestamp": 1632472597426,
+      "binstar": {
+        "package_id": "5e416deb7870586e8e80bbdc",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1173424,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -51759,6 +54310,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "onednn-cpu-dpcpp-gpu-dpcpp-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-cpu-dpcpp-gpu-dpcpp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "f3a509468c56858e44d8702f8bdb5a37",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt 2021.*",
+        "intel-opencl-rt 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632483371810,
+      "binstar": {
+        "package_id": "5fc8ad7878d43729421c5a78",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 12281016,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "intelpython2_full-0.0.0.custom-0.tar.bz2": {
       "build_number": 0,
       "name": "intelpython2_full",
@@ -52171,6 +54749,30 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 8757,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "openjdk-8.0.302-h7f98852_0.tar.bz2": {
+      "build_number": 0,
+      "name": "openjdk",
+      "license": "GPL-2.0-or-later WITH Classpath-exception-2.0",
+      "has_prefix": false,
+      "md5": "8a190c85c9ded4671c1ef820f753affc",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "8.0.302",
+      "build": "h7f98852_0",
+      "timestamp": 1630863590900,
+      "binstar": {
+        "package_id": "61562bf90a76b26c1cef078c",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 102343335,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -53182,6 +55784,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "aws-c-event-stream-0.1.6-h9574fa7_1.tar.bz2": {
+      "timestamp": 1630547075718,
+      "depends": [
+        "aws-c-common >=0.6.8,<0.6.9.0a0",
+        "aws-checksums >=0.1.11,<0.1.12.0a0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 27306,
+      "build_number": 1,
+      "name": "aws-c-event-stream",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.1.6",
+      "build": "h9574fa7_1",
+      "binstar": {
+        "package_id": "6155cfd27fc781d3ff8aa09a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "65729a487f5d8b3eef7ad84e2c1ed428",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "impi-devel-2019.8-intel_254.tar.bz2": {
       "timestamp": 1593117405191,
       "depends": [
@@ -53488,6 +56120,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "tbb-devel-2021.4.0-intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "tbb-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "8d250a15158ef00afda3926da9134ef1",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "tbb 2021.4.0 intel_643"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_643",
+      "timestamp": 1632472355902,
+      "binstar": {
+        "package_id": "5ad7523b9645ee1207808062",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1411362,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "path.py-8.2.1-py35_intel_7.tar.bz2": {
       "build_number": 7,
       "features": "intel",
@@ -53786,6 +56444,29 @@
       },
       "md5": "70fdb58a3fba5c7aab3e4466e159444c",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "dpl-include-2021.4.0-intel_0.tar.bz2": {
+      "build_number": 0,
+      "name": "dpl-include",
+      "has_prefix": false,
+      "md5": "07f3d5f1def2f2ecb90915fe52a19b8f",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_0",
+      "timestamp": 1633031216692,
+      "binstar": {
+        "package_id": "61561ab616c93053c08c1dde",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 178538,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "libarchive-3.4.2-hf210573_4.tar.bz2": {
@@ -54659,6 +57340,34 @@
       },
       "md5": "cbb972ea6b0d0bbcad619f71bf58a719",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "daal4py-2021.4.0-py38_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "4381b91fe2622807deaa2a9a499c2ed7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.4.0",
+        "numpy >=1.15",
+        "python 3.8.*"
+      ],
+      "version": "2021.4.0",
+      "build": "py38_intel_729",
+      "timestamp": 1632483415068,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9998208,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pywavelets-0.5.2-np114py36_intel_3.tar.bz2": {
@@ -55763,6 +58472,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "python-dateutil-2.8.2-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "python-dateutil",
+      "license": "BSD 3-clause \"New\" or \"Revised\" License",
+      "has_prefix": false,
+      "md5": "22338f8db1e60f7f5fc0bddb81dc418d",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "version": "2.8.2",
+      "build": "py37_0",
+      "timestamp": 1629109525311,
+      "binstar": {
+        "package_id": "5e416d70fe6b2a01a19c9000",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 304445,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pip-20.1-py37_0.tar.bz2": {
       "build_number": 0,
       "name": "pip",
@@ -56070,6 +58807,40 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "cryptography-3.3.2-py37h5969dba_1.tar.bz2": {
+      "timestamp": 1627694262838,
+      "depends": [
+        "asn1crypto >=0.21.0",
+        "cffi >=1.7",
+        "idna >=2.1",
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "python >=3.7,<3.8.0a0",
+        "six >=1.4.1"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 430240,
+      "build_number": 1,
+      "name": "cryptography",
+      "license": "Apache-2.0 and BSD-3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "3.3.2",
+      "build": "py37h5969dba_1",
+      "binstar": {
+        "package_id": "5a062a23307dba1229cfbc8f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "adcc3bf111592d970c6f6a3bd5b93ec5",
+      "requires": [],
       "subdir": "linux-64"
     },
     "openvino-ie4py-2021.4-py37_ubuntu18_intel_689.tar.bz2": {
@@ -56396,6 +59167,33 @@
       "requires": [],
       "build": "intel_3"
     },
+    "dpcpp_impl_linux-64-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "dpcpp_impl_linux-64",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "7a259da725f9eab80566990ee3614345",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt 2021.4.0 intel_3561",
+        "dpl-include 2021.4.0 intel_0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475239628,
+      "binstar": {
+        "package_id": "60b022b837a0d3ff3394aa5d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 216662985,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pywavelets-0.5.2-py27_intel_2.tar.bz2": {
       "build_number": 2,
       "features": "intel",
@@ -56484,6 +59282,32 @@
       },
       "md5": "edf07920a1607beebe15a9c9159bfa74",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "ipp_crypto-static-2021.4.0-intel_401.tar.bz2": {
+      "build_number": 401,
+      "name": "ipp_crypto-static",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "95d4fd2fc023b38537e0ae427107f793",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "ipp_crypto-include 2021.4.0 intel_401"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_401",
+      "timestamp": 1632472733569,
+      "binstar": {
+        "package_id": "5fc8abc6a58f0d0a43dea8a9",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 5201616,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "futures-3.1.1-py27_intel_0.tar.bz2": {
@@ -56942,31 +59766,54 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "mkl_random-1.0.1-np114py36_intel_0.tar.bz2": {
-      "build_number": 0,
-      "features": "intel",
-      "license": "BSD",
-      "has_prefix": false,
+    "jpeg-9d-h36c2ea0_1.tar.bz2": {
+      "build_number": 1,
+      "name": "jpeg",
+      "license": "IJG",
+      "has_prefix": true,
+      "md5": "b47171247eb7560d713e683531368d02",
       "requires": [],
-      "name": "mkl_random",
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "icc_rt >=16.0.3",
-        "intelpython",
-        "mkl",
-        "numpy 1.14*",
-        "python 3.6*"
+        "libgcc-ng >=7.5.0"
       ],
-      "version": "1.0.1",
-      "build": "np114py36_intel_0",
-      "md5": "bf3b6a5deef5b8a2f350545372c8db01",
+      "version": "9d",
+      "build": "h36c2ea0_1",
+      "timestamp": 1604171556723,
       "binstar": {
-        "package_id": "5e416e8cfe6b2a01a19cca28",
+        "package_id": "589ced1b642fe011824cb83f",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 384961,
+      "size": 270047,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "mkl-2021.4.0-intel_640.tar.bz2": {
+      "build_number": 640,
+      "name": "mkl",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "5f6e457ce2cf9ebf33f2d9f744ab4459",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-openmp 2021.*",
+        "tbb 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_640",
+      "timestamp": 1632483337678,
+      "binstar": {
+        "package_id": "5e416d0f83b66372f902f036",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 229652794,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -57984,6 +60831,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "mkl-devel-2021.4.0-intel_640.tar.bz2": {
+      "build_number": 640,
+      "name": "mkl-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "74f599de68ec542491eac34864360454",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "mkl 2021.4.0 intel_640",
+        "mkl-include 2021.4.0 intel_640"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_640",
+      "timestamp": 1632483902505,
+      "binstar": {
+        "package_id": "5ba5415cab12f91345767dd2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 15471,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "python-2.7.15-11.tar.bz2": {
       "build_number": 11,
       "name": "python",
@@ -58063,6 +60937,34 @@
       },
       "md5": "ae95f6e3488a8c8c8a4dbe8492e0e381",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "scikit-learn-intelex-2021.4.0-py39_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "688064798a153ee268bb09f782479214",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2021.4.0",
+        "python 3.9.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2021.4.0",
+      "build": "py39_intel_729",
+      "timestamp": 1632482977543,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 29998,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "openmp-mic-2017.0.4-intel_0.tar.bz2": {
@@ -58251,6 +61153,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "ipp-devel-2021.4.0-intel_459.tar.bz2": {
+      "build_number": 459,
+      "name": "ipp-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "26701258e15ec5192972753416b9cafc",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "ipp 2021.4.0 intel_459",
+        "ipp-include 2021.4.0 intel_459"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_459",
+      "timestamp": 1632483196356,
+      "binstar": {
+        "package_id": "594137319cf16412714b2a59",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 8406,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "tensorflow-1.12.0-py27_0.tar.bz2": {
       "timestamp": 1544072608901,
       "depends": [
@@ -58365,6 +61294,30 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_0"
+    },
+    "oneccl-devel-2021.4.0-intel_433.tar.bz2": {
+      "build_number": 433,
+      "name": "oneccl-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "c1bcd560c4918f47f8201ae3e5e98315",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_433",
+      "timestamp": 1632473832716,
+      "binstar": {
+        "package_id": "5fc8ad34a58f0d0a43df5b32",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 8581422,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "traitlets-4.2.2-py35_intel_2.tar.bz2": {
       "build_number": 2,
@@ -58497,6 +61450,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 22413,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "sdc-0.40.0-py37h6eb09a8_0.tar.bz2": {
+      "build_number": 0,
+      "name": "sdc",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "e6d785d4e8d3f3914f77d14e3791b3f8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "numba 0.54.0",
+        "numpy >=1.17.5,<2.0a0",
+        "pandas 1.2.0",
+        "pyarrow 4.0.1",
+        "python >=3.7,<3.8.0a0",
+        "setuptools",
+        "tbb4py"
+      ],
+      "version": "0.40.0",
+      "build": "py37h6eb09a8_0",
+      "timestamp": 1631059845665,
+      "binstar": {
+        "package_id": "5e30642583b663722174d243",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2111414,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -59112,6 +62099,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "lz4-c-1.9.3-h688b341_1.tar.bz2": {
+      "build_number": 1,
+      "name": "lz4-c",
+      "license": "BSD-2-Clause",
+      "has_prefix": true,
+      "md5": "26b1020eaf3c4bf8efa2054b7d199756",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "version": "1.9.3",
+      "build": "h688b341_1",
+      "timestamp": 1627703903660,
+      "binstar": {
+        "package_id": "5df940fc778a87186412b5fa",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 184584,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "joblib-1.0.1-py37h71958a0_0.tar.bz2": {
       "build_number": 0,
       "name": "joblib",
@@ -59190,6 +62204,36 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "04fb55aa8481427a89f3e2d97a236dcf",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "kiwisolver-1.3.1-py37h9065164_0.tar.bz2": {
+      "timestamp": 1624691750057,
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 82938,
+      "build_number": 0,
+      "name": "kiwisolver",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.3.1",
+      "build": "py37h9065164_0",
+      "binstar": {
+        "package_id": "5e416d55fe6b2a0197aafc3d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "da32e082a5b267f75abfce783c50dffa",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -59769,6 +62813,34 @@
       "md5": "e0d98ee9fcbed958577760f41d4b6b73",
       "requires": [],
       "build": "py36_intel_3"
+    },
+    "daal4py-2021.4.0-py37_intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "4080c09877e99ea985f589b89a390847",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.4.0",
+        "numpy >=1.15",
+        "python 3.7.*"
+      ],
+      "version": "2021.4.0",
+      "build": "py37_intel_729",
+      "timestamp": 1632483727835,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10076098,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "path.py-11.0.1-py36_2.tar.bz2": {
       "build_number": 2,
@@ -60695,28 +63767,27 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "six-1.15.0-py37_1.tar.bz2": {
-      "build_number": 1,
-      "name": "six",
-      "license": "MIT",
+    "daal-static-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "daal-static",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "md5": "e42ae055e3114ce3beb3f111b6460f1c",
+      "md5": "7f20b72742a16c95477525a0dc94e826",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "intelpython >=2019.0",
-        "python >=3.7,<3.8.0a0"
+        "dal-static 2021.4.0"
       ],
-      "version": "1.15.0",
-      "build": "py37_1",
-      "timestamp": 1612317700240,
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632484071417,
       "binstar": {
-        "package_id": "5e416e99fe6b2a019f63cb88",
+        "package_id": "59836c880e7bb112cd7d14bf",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 24444,
+      "size": 10241,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -60772,6 +63843,56 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 62757,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "joblib-1.0.1-py37h3f38642_0.tar.bz2": {
+      "build_number": 0,
+      "name": "joblib",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "710ce83341171638d6b2fe6d2c6b92cd",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "1.0.1",
+      "build": "py37h3f38642_0",
+      "timestamp": 1627704255050,
+      "binstar": {
+        "package_id": "5d782105fe6b2a65c445a77e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 409799,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "mkl-include-2021.4.0-intel_640.tar.bz2": {
+      "build_number": 640,
+      "name": "mkl-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "66847ae4bd0d4ff7c48da36aa4021188",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_640",
+      "timestamp": 1632483881258,
+      "binstar": {
+        "package_id": "5e416e65fe6b2a01a19cc55e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 696999,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -61712,6 +64833,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "orc-1.6.6-h94e0d16_0.tar.bz2": {
+      "timestamp": 1627692019571,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libprotobuf >=3.14.0,<3.15.0a0",
+        "libstdcxx-ng >=9.3.0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0",
+        "zstd >=1.4.5,<1.4.6.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 791588,
+      "build_number": 0,
+      "name": "orc",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.6.6",
+      "build": "h94e0d16_0",
+      "binstar": {
+        "package_id": "60627cfbc0b1dfaea0eb954e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "822736bc30df73702163a1bec697e67a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "python-3.8.8-he985669_6.tar.bz2": {
       "build_number": 6,
       "name": "python",
@@ -62189,6 +65343,36 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_5"
+    },
+    "cffi-1.14.5-py37h3040615_0.tar.bz2": {
+      "build_number": 0,
+      "name": "cffi",
+      "license": "MIT",
+      "has_prefix": false,
+      "md5": "c3b94cb83314f7704cb78ca6f0cf1a7a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "libffi",
+        "libgcc-ng >=9.3.0",
+        "pycparser",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "1.14.5",
+      "build": "py37h3040615_0",
+      "timestamp": 1627694012867,
+      "binstar": {
+        "package_id": "5909e43f8e3b34123e6572d7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 232611,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "tbb4py-2021.1.1-py37_intel_119.tar.bz2": {
       "build_number": 119,
@@ -63995,6 +67179,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "ipp_crypto-include-2021.4.0-intel_401.tar.bz2": {
+      "build_number": 401,
+      "name": "ipp_crypto-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "8f8db4826d95ba1fad688b9c8b0ad5d2",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_401",
+      "timestamp": 1632472554981,
+      "binstar": {
+        "package_id": "5fc8abc0a58f0d0a54f3fafe",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 26432,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "numpy-base-1.18.5-py37_5.tar.bz2": {
       "build_number": 5,
       "name": "numpy-base",
@@ -64538,6 +67746,41 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "python-3.7.11-h5762be8_3.tar.bz2": {
+      "build_number": 3,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "22df18b1c8149d4dbcaeb2b38b1a643b",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "sqlite",
+        "tcl",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.7.11",
+      "build": "h5762be8_3",
+      "timestamp": 1631153780148,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 42196715,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "nose-1.3.7-py36_18.tar.bz2": {
       "build_number": 18,
       "name": "nose",
@@ -65052,6 +68295,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "tbb4py-2021.4.0-py37_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "tbb4py",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "dcf047db9a8d2465a38ff09fcfc14a57",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "python 3.7.*",
+        "tbb 2021.4.0 intel_643"
+      ],
+      "version": "2021.4.0",
+      "build": "py37_intel_643",
+      "timestamp": 1632472341165,
+      "binstar": {
+        "package_id": "5e416d447870586e9465e55f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 334038,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "jsonschema-2.6.0-py27_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -65219,6 +68489,32 @@
       },
       "md5": "8c95b5efb8aef3558a6758ae47f1806d",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "opencl_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "opencl_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "502839b50a26152ac80b0f4ae4aabda8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-opencl-rt >=2021.3.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475869630,
+      "binstar": {
+        "package_id": "5f94c2d3a58f0d0a5193cd72",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 22395,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "libstdcxx-ng-9.3.0-hdf63c60_101.tar.bz2": {
@@ -68653,6 +71949,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "six-1.16.0-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "six",
+      "license": "MIT",
+      "has_prefix": false,
+      "md5": "08c52722dedd5363f1211352d5ae47a5",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "1.16.0",
+      "build": "py37_0",
+      "timestamp": 1627705696305,
+      "binstar": {
+        "package_id": "5e416e99fe6b2a019f63cb88",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 24904,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "libxml2-2.9.5-intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -68887,6 +72210,32 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py36_6"
+    },
+    "dal-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "dal",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "a9552372b780b1c982a6434a22ba61e8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "tbb 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632483495347,
+      "binstar": {
+        "package_id": "5f94c0eba58f0d0a49b3c6a2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 74042289,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "mkl-static-2020.4-intel_304.tar.bz2": {
       "build_number": 304,
@@ -70072,6 +73421,33 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "libuv-1.40.0-h7b6447c_0.tar.bz2": {
+      "timestamp": 1601049115502,
+      "depends": [
+        "libgcc-ng >=7.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 955846,
+      "build_number": 0,
+      "name": "libuv",
+      "license": "MIT",
+      "has_prefix": true,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.40.0",
+      "build": "h7b6447c_0",
+      "binstar": {
+        "package_id": "61099deeaff4e3fc31115c4a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "440323c587792bbd97e2b3e62e214176",
+      "requires": [],
       "subdir": "linux-64"
     },
     "get_terminal_size-1.0.0-py36_intel_5.tar.bz2": {
@@ -71296,6 +74672,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onednn-cpu-iomp-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-cpu-iomp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "acdf9ef4fed75c97cb9db0c2c7b3a221",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-openmp 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632483342495,
+      "binstar": {
+        "package_id": "5fc8ad7e78d4370a8d107728",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 24417644,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pytorch-1.5.0-py3.7_cpu_1.tar.bz2": {
       "timestamp": 1598602950774,
       "depends": [
@@ -71381,6 +74783,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 26001641,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "thrift-cpp-0.13.0-6.tar.bz2": {
+      "build_number": 6,
+      "name": "thrift-cpp",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "md5": "bb60834824eea8ae7da82ef5682b4bd4",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libthrift 0.13.0 ha72d5fa_6",
+        "thrift-compiler 0.13.0 ha72d5fa_6"
+      ],
+      "version": "0.13.0",
+      "build": "6",
+      "timestamp": 1613741951347,
+      "binstar": {
+        "package_id": "5f21fbac83b6630a0e235926",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 11260,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -71885,6 +75314,35 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "11"
+    },
+    "libllvm11-11.0.0-ha451071_0.tar.bz2": {
+      "timestamp": 1626476659780,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 30575150,
+      "build_number": 0,
+      "name": "libllvm11",
+      "license": "Apache-2.0 with LLVM-exception",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "11.0.0",
+      "build": "ha451071_0",
+      "binstar": {
+        "package_id": "6155d05b7fc781d3ff8af1ca",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e78c0198ec74597e576481e91cbb43c2",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "scikit-image-0.13.1-np114py36_intel_1.tar.bz2": {
       "features": "intel",
@@ -72925,6 +76383,34 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "mkl-dpcpp-2021.4.0-intel_640.tar.bz2": {
+      "build_number": 640,
+      "name": "mkl-dpcpp",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "88f142846d37f25329d42bcddf515db6",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt 2021.*",
+        "intel-opencl-rt 2021.*",
+        "mkl 2021.4.0 intel_640"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_640",
+      "timestamp": 1632483067758,
+      "binstar": {
+        "package_id": "5f94c27278d4370a8dd57ac2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 185376909,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "tensorflow-avx2-1.10.0-py36_0.tar.bz2": {
       "build_number": 0,
       "name": "tensorflow-avx2",
@@ -73618,6 +77104,34 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "snappy-1.1.8-hf484d3e_4.tar.bz2": {
+      "timestamp": 1627694494567,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 42285,
+      "build_number": 4,
+      "name": "snappy",
+      "license": "BSD-3-clause \u0421ustomized",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1.8",
+      "build": "hf484d3e_4",
+      "binstar": {
+        "package_id": "589ceef4fcf1cf116ffeb996",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "64a262adfce7797ed6b8ca3654cbf31e",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "path.py-10.1-py35_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -73748,6 +77262,32 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 2756,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "onednn-devel-cpu-iomp-2021.4.0-intel_467.tar.bz2": {
+      "build_number": 467,
+      "name": "onednn-devel-cpu-iomp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "c6c8cfbcbcaad927b803c0b1e27f552d",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "onednn-cpu-iomp 2021.4.0 intel_467"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_467",
+      "timestamp": 1632482977849,
+      "binstar": {
+        "package_id": "5fc8ada978d4370a8d107abe",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 105798,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -74518,6 +78058,34 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "aws-checksums-0.1.11-h657cfb5_2.tar.bz2": {
+      "timestamp": 1630545664647,
+      "depends": [
+        "aws-c-common >=0.6.8,<0.6.9.0a0",
+        "libgcc-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 52771,
+      "build_number": 2,
+      "name": "aws-checksums",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.1.11",
+      "build": "h657cfb5_2",
+      "binstar": {
+        "package_id": "6155cfd816c93053c078cabc",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e8b2c17fc2db3607106643fce556e684",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "numba-0.52.0-py37h4a21a7f_1.tar.bz2": {
       "build_number": 1,
       "name": "numba",
@@ -74551,27 +78119,102 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "onednn-cpu-iomp-2021.2.0-intel_228.tar.bz2": {
-      "build_number": 228,
-      "name": "onednn-cpu-iomp",
-      "license": "Apache v2.0",
+    "intelpython3_full-2021.4-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "intelpython3_full",
       "has_prefix": false,
-      "md5": "71d4430682d8433998695f9e2cbfb538",
+      "md5": "fc0de8256c370c9a04e7d4c9ad9d89fb",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "intel-openmp 2021.*"
+        "arrow-cpp 4.0.1 py37h3fd0f77_4",
+        "asn1crypto 1.4.0 py37hcd5400e_2",
+        "aws-c-common 0.6.8 h14c3975_1",
+        "aws-c-event-stream 0.1.6 h9574fa7_1",
+        "aws-checksums 0.1.11 h657cfb5_2",
+        "aws-sdk-cpp 1.8.185 hadc6d9a_1",
+        "brotli 1.0.9 hf484d3e_2",
+        "c-ares 1.17.1 hff3d592_1",
+        "ca-certificates 2020.12.5 0",
+        "certifi 2020.12.5 py37he139614_0",
+        "cffi 1.14.5 py37h3040615_0",
+        "chardet 4.0.0 py37h7a55b9c_0",
+        "cryptography 3.3.2 py37h5969dba_1",
+        "cycler 0.10.0 py37h77b6139_8",
+        "cython 0.29.24 py37had034fe_0",
+        "daal4py >=2021.4",
+        "dal >=2021.4",
+        "double-conversion 3.1.5 h79a9dd4_0",
+        "dpctl 0.9.0 py37h75156f8_0",
+        "dpnp 0.7.1 py37h75156f8_35",
+        "freetype 2.10.4 h8e2d9d6_0",
+        "funcsigs 1.0.2 py37hef9829d_8",
+        "future 0.18.2 py37hfabd62d_0",
+        "gflags 2.2.2 h79a9dd4_0",
+        "glog 0.4.0 hf484d3e_1",
+        "grpc-cpp 1.26.0 hdb13a8a_2",
+        "idna 3.1 py37hf52dec2_0",
+        "impi_rt >=2021.4",
+        "intelpython3_core 2021.4",
+        "ipp >=2021.4",
+        "joblib 1.0.1 py37h3f38642_0",
+        "kiwisolver 1.3.1 py37h9065164_0",
+        "libcurl 7.78.0 h471713a_2",
+        "libedit 3.1.20210714 h8f6a7d7_0",
+        "libevent 2.1.10 h5969dba_0",
+        "libllvm11 11.0.0 ha451071_0",
+        "libpng 1.6.37 7",
+        "libprotobuf 3.14.0 h28fbd06_0",
+        "libssh2 1.9.0 h4b1ad09_1",
+        "libthrift 0.14.1 h36a55ba_0",
+        "libxml2 2.9.12 h6441c91_0",
+        "llvm 11.0.0 hbdd1d9c_0",
+        "llvm-spirv 11.0.0 h4616538_0",
+        "llvmlite 0.37.0 py37h188ca7a_0",
+        "matplotlib 3.1.2 py37h8b3d3d0_10",
+        "mpi4py 3.0.3 py37hf484d3e_9",
+        "ncurses 6.2 hf61fa16_1",
+        "numba 0.54.0 py37h9556e7c_1",
+        "numba-dppy 0.15.0 py37h62346ee_0",
+        "numexpr 2.7.3 py37hfdc8c6c_1",
+        "orc 1.6.6 h94e0d16_0",
+        "packaging 21.0 py37h1546d3d_3",
+        "pandas 1.2.0 py37hef31ef9_2",
+        "pyarrow 4.0.1 py37h497cf44_1",
+        "pycparser 2.20 py37hcb8faaf_2",
+        "pyopenssl 20.0.1 py37ha59826b_2",
+        "pyparsing 2.4.7 py37h0618fa2_2",
+        "pysocks 1.7.0 py37h0d5a7d4_2",
+        "python-dateutil 2.8.2 py37_0",
+        "pytz 2021.1 py37h854a350_0",
+        "re2 2021.04.01 hf7f620c_0",
+        "requests 2.25.1 py37h6282448_1",
+        "scikit-ipp 1.2.0 py37he7a3b9b_6",
+        "scikit-learn 0.24.2 py37h8411759_4",
+        "sdc 0.40.0 py37h6eb09a8_0",
+        "smp 0.1.4 py37hab8cbcd_1",
+        "snappy 1.1.8 hf484d3e_4",
+        "spirv-tools 2020.5 h6bb024c_1",
+        "sys_check 2021.4 0",
+        "threadpoolctl 2.1.0 py37h2742bb4_1",
+        "thrift 0.14.1 py37h84f2617_0",
+        "thrift-compiler 0.14.1 h36a55ba_0",
+        "thrift-cpp 0.14.1 0",
+        "uriparser 0.9.3 hf484d3e_1",
+        "urllib3 1.26.6 py37h6fed32d_0",
+        "utf8proc 2.6.1 h918b7a9_0",
+        "xgboost 1.4.2 1589_g3f5c8bpy37_3"
       ],
-      "version": "2021.2.0",
-      "build": "intel_228",
-      "timestamp": 1616670014113,
+      "version": "2021.4",
+      "build": "py37_0",
+      "timestamp": 1633017329526,
       "binstar": {
-        "package_id": "5fc8ad7e78d4370a8d107728",
+        "package_id": "57bb77d509b8ee2862bc3473",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 26053465,
+      "size": 2643,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -75081,6 +78724,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "dce1a2a82ce364d4cdc74d1b0f83a156",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "aws-c-common-0.6.8-h14c3975_1.tar.bz2": {
+      "timestamp": 1630415100928,
+      "depends": [
+        "libgcc-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 181050,
+      "build_number": 1,
+      "name": "aws-c-common",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.6.8",
+      "build": "h14c3975_1",
+      "binstar": {
+        "package_id": "6155cfcb0532bdb2edacfff3",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "4dce3591ea9bf4364ed82b0133e63589",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -75710,6 +79380,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onednn-devel-cpu-gomp-2021.3.0-intel_344.tar.bz2": {
+      "build_number": 344,
+      "name": "onednn-devel-cpu-gomp",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "23d981773410cc7fa1cbfe322484564b",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "onednn-cpu-gomp 2021.3.0 intel_344"
+      ],
+      "version": "2021.3.0",
+      "build": "intel_344",
+      "timestamp": 1624278648944,
+      "binstar": {
+        "package_id": "5fc8adb778d4370a8d107b70",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 98489,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "cffi-1.13.2-py37_2.tar.bz2": {
       "build_number": 2,
       "name": "cffi",
@@ -75766,6 +79462,30 @@
       },
       "md5": "1d545f17c70c2eceb1e8c8f2004c510e",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "sys_check-2021.4-0.tar.bz2": {
+      "build_number": 0,
+      "name": "sys_check",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "43e1800c089ab03691003c9b5877e59d",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4",
+      "build": "0",
+      "timestamp": 1627499407182,
+      "binstar": {
+        "package_id": "5f12111efe6b2a0a21a679cf",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9233,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "lzo-2.10-ha2aa7bf_4.tar.bz2": {
@@ -77718,6 +81438,35 @@
       "target-triplet": "x86_64-any-linux",
       "build": "intel_0"
     },
+    "numexpr-2.7.3-py37hfdc8c6c_1.tar.bz2": {
+      "build_number": 1,
+      "name": "numexpr",
+      "license": "MIT",
+      "has_prefix": true,
+      "md5": "b52a7cb29d50bc907939acb22253e9e8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "mkl >=2018.0.0",
+        "numpy >=1.17.5,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools"
+      ],
+      "version": "2.7.3",
+      "build": "py37hfdc8c6c_1",
+      "timestamp": 1628048490104,
+      "binstar": {
+        "package_id": "5e416d91fe6b2a019f639d3a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 444926,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "tensorflow-1.15.0-py36_0.tar.bz2": {
       "timestamp": 1574179075931,
       "depends": [
@@ -78468,6 +82217,34 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "zlib-1.2.11.1-h1e99aa7_4.tar.bz2": {
+      "timestamp": 1631060553989,
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 121388,
+      "build_number": 4,
+      "name": "zlib",
+      "license": "zlib",
+      "has_prefix": true,
+      "license_family": "Other",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.2.11.1",
+      "build": "h1e99aa7_4",
+      "binstar": {
+        "package_id": "5e416da5778a87708f19a6df",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "04c2e9ef670198c7f63244c2ce8a05bb",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "terminado-0.6-py35_intel_6.tar.bz2": {
       "build_number": 6,
       "features": "intel",
@@ -78868,6 +82645,33 @@
       },
       "md5": "f4aad566f3eb5ccd6661a9e35f229ed0",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "tbb4py-2021.4.0-py36_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "tbb4py",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "7280b79946b6994232873efd0b834a1c",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "python 3.6.*",
+        "tbb 2021.4.0 intel_643"
+      ],
+      "version": "2021.4.0",
+      "build": "py36_intel_643",
+      "timestamp": 1632472379077,
+      "binstar": {
+        "package_id": "5e416d447870586e9465e55f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 333512,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "six-1.16.0-py38h7c2029b_0.tar.bz2": {
@@ -79538,6 +83342,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "fortran_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "fortran_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "md5": "17219bafd0c10840b2de6bfb9c697443",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-fortran-rt >=2021.3.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475930504,
+      "binstar": {
+        "package_id": "5f94c14778d4370a872dabb2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 22404,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "llvmdev-10.0.1-ha451071_1.tar.bz2": {
       "timestamp": 1622039210970,
       "depends": [
@@ -79649,6 +83479,33 @@
       },
       "md5": "2e6bf91f92d5272a3ca0221149bc82c0",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "dal-static-2021.4.0-intel_729.tar.bz2": {
+      "build_number": 729,
+      "name": "dal-static",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "d12ceedce3a2b3f7ec2088b8a59e3ff4",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal-include 2021.4.0 intel_729",
+        "tbb 2021.*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_729",
+      "timestamp": 1632484045696,
+      "binstar": {
+        "package_id": "5fb4e8c3d2ff900a7a3ff492",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 192768543,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "daal-include-2019.4-intel_235.tar.bz2": {
@@ -80720,6 +84577,37 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "llvm-11.0.0-hbdd1d9c_0.tar.bz2": {
+      "timestamp": 1626476700451,
+      "depends": [
+        "libllvm11 11.0.0 ha451071_0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 52457,
+      "constrains": [
+        "llvmdev   11.0.0"
+      ],
+      "build_number": 0,
+      "name": "llvm",
+      "license": "Apache-2.0 with LLVM-exception",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "11.0.0",
+      "build": "hbdd1d9c_0",
+      "binstar": {
+        "package_id": "56fad2dd676dfa4f4adc80fb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "8a9e27cf52f829eaac5f1a7c0edc17e2",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "backports-1.0-py35_intel_4.tar.bz2": {
       "build_number": 4,
       "features": "intel",
@@ -80830,6 +84718,30 @@
       "md5": "236772246b3c5530c86e7665e9120b66",
       "requires": [],
       "build": "py35_intel_5"
+    },
+    "intelpython-2021.4.0-0.tar.bz2": {
+      "build_number": 0,
+      "name": "intelpython",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "a284a0a71216e8af05f315e7eb311fc7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "0",
+      "timestamp": 1627499160254,
+      "binstar": {
+        "package_id": "5e416db2778a87708f19a886",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 8313,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "matplotlib-2.2.4-py27_1.tar.bz2": {
       "timestamp": 1566160621619,
@@ -81780,28 +85692,84 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "thrift-cpp-0.13.0-6.tar.bz2": {
-      "build_number": 6,
-      "name": "thrift-cpp",
-      "license": "Apache-2.0",
+    "dpcpp_cpp_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "dpcpp_cpp_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
       "has_prefix": false,
-      "md5": "bb60834824eea8ae7da82ef5682b4bd4",
+      "md5": "25736aa6d576479e28bab968bdbfdaa3",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "libthrift 0.13.0 ha72d5fa_6",
-        "thrift-compiler 0.13.0 ha72d5fa_6"
+        "dpcpp-cpp-rt >=2021.3.0"
       ],
-      "version": "0.13.0",
-      "build": "6",
-      "timestamp": 1613741951347,
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632476393305,
       "binstar": {
-        "package_id": "5f21fbac83b6630a0e235926",
+        "package_id": "5f94c0f9a58f0d0a519298a2",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 11260,
+      "size": 22403,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "libedit-3.1.20210714-h8f6a7d7_0.tar.bz2": {
+      "timestamp": 1630547084421,
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "ncurses >=6.2,<7.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 217337,
+      "build_number": 0,
+      "name": "libedit",
+      "license": "BSD-2-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "3.1.20210714",
+      "build": "h8f6a7d7_0",
+      "binstar": {
+        "package_id": "6155d051a9d628b5029d7d01",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "695b6232dcee373c3a73f16815ce7244",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "pyyaml-5.3.1-py37hae09b62_3.tar.bz2": {
+      "build_number": 3,
+      "name": "pyyaml",
+      "license": "MIT",
+      "has_prefix": false,
+      "md5": "0cbd1774268480875cfa418d158e144f",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "yaml >=0.1.7"
+      ],
+      "version": "5.3.1",
+      "build": "py37hae09b62_3",
+      "timestamp": 1627702280674,
+      "binstar": {
+        "package_id": "56fad6734733c34f5b1001d8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 356275,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -81985,6 +85953,38 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "zstd-1.4.5-h3f200d0_0.tar.bz2": {
+      "timestamp": 1627693277092,
+      "depends": [
+        "intelpython >=2019.0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 428319,
+      "build_number": 0,
+      "name": "zstd",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.4.5",
+      "build": "h3f200d0_0",
+      "binstar": {
+        "package_id": "5df9426f83b663201d6ab85d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "15e3fdba20d8063a37b04e6d9ee83494",
+      "requires": [],
       "subdir": "linux-64"
     },
     "setuptools-51.1.2-py37_0.tar.bz2": {
@@ -82271,6 +86271,34 @@
       "md5": "140b57a0b82698279d37f44c099b1204",
       "build": "py27_intel_0"
     },
+    "glog-0.4.0-hf484d3e_1.tar.bz2": {
+      "build_number": 1,
+      "name": "glog",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "df7692e31459d5b1e4caf697c8078463",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "gflags >=2.2.2,<2.3.0a0",
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "version": "0.4.0",
+      "build": "hf484d3e_1",
+      "timestamp": 1627703948318,
+      "binstar": {
+        "package_id": "589cecdff9e4b211577b2d00",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 125685,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mpmath-0.19-py27_intel_4.tar.bz2": {
       "build_number": 4,
       "features": "intel",
@@ -82298,27 +86326,66 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "onednn-devel-cpu-gomp-2021.3.0-intel_344.tar.bz2": {
-      "build_number": 344,
-      "name": "onednn-devel-cpu-gomp",
-      "license": "Apache v2.0",
+    "pytorch-1.8.0-py37_1.tar.bz2": {
+      "timestamp": 1630502970857,
+      "depends": [
+        "dataclasses 0.8.*",
+        "future 0.18.*",
+        "impi_rt 2021.*",
+        "libuv >=1.40.0",
+        "mpi4py 3.0.3.*",
+        "numpy >=1.19,<1.21",
+        "python >=3.7,<3.8.0a0",
+        "pyyaml 5.3.1.*",
+        "requests 2.25.1.*",
+        "setuptools 52.0.0.*",
+        "six 1.16.0.*",
+        "typing_extensions 3.7.4.3.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 107011177,
+      "build_number": 1,
+      "name": "pytorch",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.8.0",
+      "build": "py37_1",
+      "binstar": {
+        "package_id": "5f21fad878705809fcd1bbf1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "f192b87ce66ba2fd35ae0e0a71fb68c9",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "tbb4py-2021.4.0-py35_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "tbb4py",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "md5": "23d981773410cc7fa1cbfe322484564b",
+      "md5": "452cd7a3c629fa2f5351e782451c0596",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "onednn-cpu-gomp 2021.3.0 intel_344"
+        "python 3.5.*",
+        "tbb 2021.4.0 intel_643"
       ],
-      "version": "2021.3.0",
-      "build": "intel_344",
-      "timestamp": 1624278648944,
+      "version": "2021.4.0",
+      "build": "py35_intel_643",
+      "timestamp": 1632472331490,
       "binstar": {
-        "package_id": "5fc8adb778d4370a8d107b70",
+        "package_id": "5e416d447870586e9465e55f",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 98489,
+      "size": 332228,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -83441,6 +87508,54 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 229662,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "arrow-cpp-4.0.1-py37h3fd0f77_4.tar.bz2": {
+      "build_number": 4,
+      "name": "arrow-cpp",
+      "license": "Apache-2.0",
+      "has_prefix": true,
+      "md5": "af52ace51f26b1d4f6f239b9297d6299",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "aws-sdk-cpp >=1.8.185,<1.8.186.0a0",
+        "brotli",
+        "bzip2 >=1.0.8,<2.0a0",
+        "c-ares >=1.17.1,<2.0a0",
+        "double-conversion",
+        "gflags >=2.2.2,<2.3.0a0",
+        "glog",
+        "grpc-cpp",
+        "libgcc-ng >=9.3.0",
+        "libprotobuf >=3.14.0,<3.15.0a0",
+        "libstdcxx-ng >=9.3.0",
+        "libthrift >=0.14.1,<0.15.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.11,<2.0a0",
+        "openssl >=1.1.1k,<1.1.2a",
+        "orc >=1.6.6,<1.6.7.0a0",
+        "python >=3.7,<3.8.0a0",
+        "re2",
+        "snappy >=1.1.8,<2.0a0",
+        "uriparser",
+        "utf8proc",
+        "zlib >=1.2.11.1,<1.3.0a0",
+        "zstd >=1.4.5,<1.4.6.0a0"
+      ],
+      "version": "4.0.1",
+      "build": "py37h3fd0f77_4",
+      "timestamp": 1630542553954,
+      "binstar": {
+        "package_id": "5f11bf4283b6630a14a08c97",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9796477,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
