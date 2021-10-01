@@ -6737,6 +6737,61 @@
       "timestamp": 1622064463070,
       "version": "3.7.2"
     },
+    "bcj-cffi-0.5.1-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.14.0",
+        "importlib-metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "7c240b246116c18e88efedeed826b4cb",
+      "name": "bcj-cffi",
+      "sha256": "4b7a170f5343259c152fc89407545092d4393a2c0255a61e44df93839fd081f3",
+      "size": 27187,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633091055623,
+      "version": "0.5.1"
+    },
+    "bcj-cffi-0.5.1-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.14.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "53f984e6e4e750ef5d49b5506a7d847d",
+      "name": "bcj-cffi",
+      "sha256": "04676e7e4fa173e4916eb9a4ab81c110c1710c60749f6f22858fac44d14b0c4e",
+      "size": 27177,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633091096483,
+      "version": "0.5.1"
+    },
+    "bcj-cffi-0.5.1-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.14.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "8861353de8441a2146f89f8a4862706e",
+      "name": "bcj-cffi",
+      "sha256": "21d0f0faff6adb31eaf5ccaf42f2b068c0e6c45f4769cdf2b2b7dc989d03c43b",
+      "size": 27162,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633091074813,
+      "version": "0.5.1"
+    },
     "bcrypt-3.2.0-py37hfd63f10_0.tar.bz2": {
       "build": "py37hfd63f10_0",
       "build_number": 0,
@@ -7869,6 +7924,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620758683313,
       "version": "1.0.9"
+    },
+    "brotlicffi-1.0.9.2-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.0.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "md5": "2aca29e3113e1eea211c23af8430f086",
+      "name": "brotlicffi",
+      "sha256": "b9d54a283d2aea248168929067e48c72068e1cfe2fa57544b324c38f7c29d194",
+      "size": 380007,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633096516657,
+      "version": "1.0.9.2"
+    },
+    "brotlicffi-1.0.9.2-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.0.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "md5": "8fb6a9fb5fdfa2e13e4d8d07eeed452a",
+      "name": "brotlicffi",
+      "sha256": "87483be79149ab45fc2f5648688a3385f1425b3629d392dd19fe75dc128c27a2",
+      "size": 379741,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633096554263,
+      "version": "1.0.9.2"
+    },
+    "brotlicffi-1.0.9.2-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.0.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "md5": "3d87a33c5ed17e4e6ea14d28eb7cc2ac",
+      "name": "brotlicffi",
+      "sha256": "9e51ab50ca4f5b885d709f752a4368bfba8803e66574a31ec5d05598c5ebe6c9",
+      "size": 380092,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633096481208,
+      "version": "1.0.9.2"
     },
     "brotlipy-0.7.0-py37hfd63f10_1002.tar.bz2": {
       "build": "py37hfd63f10_1002",
@@ -20459,6 +20568,22 @@
       "timestamp": 1615050398913,
       "version": "3.3"
     },
+    "libffi-3.4.2-h22f4aa5_0.tar.bz2": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "md5": "7e394e21f7a036c6d4b4972efa537933",
+      "name": "libffi",
+      "sha256": "837582b9958eecf2be11fecf9ba3349e5acf88d2abc45acc75f5996b0e548733",
+      "size": 66041,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633060893798,
+      "version": "3.4.2"
+    },
     "libgcc-devel_linux-aarch64-10.2.0-h1234567_0_bootstrapping.tar.bz2": {
       "build": "h1234567_0_bootstrapping",
       "build_number": 0,
@@ -24171,6 +24296,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615433593628,
       "version": "0.6.0"
+    },
+    "multiprocess-0.70.12.2-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "dill >=0.2.5",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "cd96b647a21ad0e8b4809c63ac797749",
+      "name": "multiprocess",
+      "sha256": "d77b8a0baf9040e61c39900cbed4d4c520c0a7c81e713b06c509590c2a160b67",
+      "size": 187876,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633090319992,
+      "version": "0.70.12.2"
+    },
+    "multiprocess-0.70.12.2-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "dill >=0.2.5",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "c9aa1fa5ad9f0b312afeaa2946259d98",
+      "name": "multiprocess",
+      "sha256": "db5c0de615629749b56c64d2fede5d9f46bb07ee46e0f0e6d808d769c714bf98",
+      "size": 213690,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633090302024,
+      "version": "0.70.12.2"
+    },
+    "multiprocess-0.70.12.2-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "dill >=0.2.5",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "e14450997cbf2d6b4ee396cba71fb579",
+      "name": "multiprocess",
+      "sha256": "3aa669b66e508e3ef1b7a89ea8560b1fa90d3ac2bab36d4130e8ba236d4dc70d",
+      "size": 215116,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633090338306,
+      "version": "0.70.12.2"
     },
     "murmurhash-1.0.5-py37h7c1a80f_0.tar.bz2": {
       "build": "py37h7c1a80f_0",
@@ -32637,6 +32813,60 @@
       "timestamp": 1621374428554,
       "version": "3.1.1a1"
     },
+    "pyppmd-0.16.1-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "importlib_metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "312930f5ea84979aefa3236d45c486e7",
+      "name": "pyppmd",
+      "sha256": "2c51caf63d9c8f6ea9795cd7d88efe720c31142c9ffa4212bd5d1ba561973665",
+      "size": 45852,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633095722536,
+      "version": "0.16.1"
+    },
+    "pyppmd-0.16.1-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "importlib_metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "6c445531b9b726f2e0ab3dc9f5de3f85",
+      "name": "pyppmd",
+      "sha256": "c77ca1d831f6b9ba80d8614c6f9bee0e93b20f55c3af743f331c41f5bc9ba735",
+      "size": 45963,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633095701956,
+      "version": "0.16.1"
+    },
+    "pyppmd-0.16.1-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "importlib_metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "18120575727841f29ca1b9f356256fd1",
+      "name": "pyppmd",
+      "sha256": "2518448be65949d10d42523854cbb45934af5e6918ae29de78bccb116ac45c15",
+      "size": 45922,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633095678006,
+      "version": "0.16.1"
+    },
     "pyproj-2.6.1.post1-py37hc41e337_1.tar.bz2": {
       "build": "py37hc41e337_1",
       "build_number": 1,
@@ -34784,6 +35014,60 @@
       "timestamp": 1621454770328,
       "version": "2.5.6"
     },
+    "python-xxhash-2.0.2-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "xxhash >=0.8.0,<0.8.1.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "a2259b12e6bb125ee24e0a38651ad1f0",
+      "name": "python-xxhash",
+      "sha256": "5393a8472addfae42cee73f7ee930188a3e8049e66f5614028573821a782ee0b",
+      "size": 21798,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633103946451,
+      "version": "2.0.2"
+    },
+    "python-xxhash-2.0.2-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "xxhash >=0.8.0,<0.8.1.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "5da877bd9e295643ee6c899c48d00ecc",
+      "name": "python-xxhash",
+      "sha256": "9c199e7e6e49744c906a43413df224274aa04f02513e0f7757740fcf5c322506",
+      "size": 21842,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633103928524,
+      "version": "2.0.2"
+    },
+    "python-xxhash-2.0.2-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "xxhash >=0.8.0,<0.8.1.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "ef6bf901873dfc2896f72bc757f5c127",
+      "name": "python-xxhash",
+      "sha256": "d0de8a3b09b63a68f77e89c2360a8f6434b46d2f3eec9a4665547beac7958d5e",
+      "size": 21727,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633103964607,
+      "version": "2.0.2"
+    },
     "pythran-0.9.11-py37h120ed44_3.tar.bz2": {
       "build": "py37h120ed44_3",
       "build_number": 3,
@@ -35197,6 +35481,114 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615479643369,
       "version": "20.0.0"
+    },
+    "pyzstd-0.14.4-py37h2f4d8fa_3.tar.bz2": {
+      "build": "py37h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "dc5960b7a21a49212c6cce28a25bddf6",
+      "name": "pyzstd",
+      "sha256": "61d57efabe213dfc78c9fcd2a1465d7a405d330a3411b4e3f8abd3e3bc58fded",
+      "size": 90786,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633097892364,
+      "version": "0.14.4"
+    },
+    "pyzstd-0.14.4-py38h2f4d8fa_3.tar.bz2": {
+      "build": "py38h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "8645bdb605d287a8476ea137886a45cf",
+      "name": "pyzstd",
+      "sha256": "088df3fc4666b6f9703a2f19754bf78a34cab862b036103f6cc78ed29a0b0058",
+      "size": 91283,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633097938751,
+      "version": "0.14.4"
+    },
+    "pyzstd-0.14.4-py39h2f4d8fa_3.tar.bz2": {
+      "build": "py39h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "67933cd6312201fc36e3bd6be7cf4c5a",
+      "name": "pyzstd",
+      "sha256": "c9bb9751f624ea6902db52daa0cd7b1b569184c08653d688fd9f504d23de3fb7",
+      "size": 91270,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633097914254,
+      "version": "0.14.4"
+    },
+    "pyzstd-0.15.0-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "dba0ec8831732082bbfdfa794c182984",
+      "name": "pyzstd",
+      "sha256": "1bd679371a2fc9c6a8dced658d84923d2c97f9996ed40fed741181949170a86d",
+      "size": 94617,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633093664226,
+      "version": "0.15.0"
+    },
+    "pyzstd-0.15.0-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "087aeb2313e4e7dd96f7bcdd19997b6a",
+      "name": "pyzstd",
+      "sha256": "03531f8d0b2a4093814498c7c72282b3f31c3fbee225c0f6607dd4108c1776c5",
+      "size": 94441,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633093620160,
+      "version": "0.15.0"
+    },
+    "pyzstd-0.15.0-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9509d4b87d3b1c0b70052771990dba8b",
+      "name": "pyzstd",
+      "sha256": "abde5b9d55bab8812a744e6df53a6fc8786027f5124a3b321fc15ad76044fabd",
+      "size": 94781,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633093642062,
+      "version": "0.15.0"
     },
     "qgrid-1.3.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -44323,6 +44715,21 @@
       "timestamp": 1631125849059,
       "version": "7.6.0"
     },
+    "xxhash-0.8.0-h2f4d8fa_3.tar.bz2": {
+      "build": "h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "2962e89424e3fc23baeb42ce06597162",
+      "name": "xxhash",
+      "sha256": "eb76593bd1ff598b25a894d35dd4d13d05cddc5bcb3878e37d0ece7d7df5f58d",
+      "size": 91962,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633100599596,
+      "version": "0.8.0"
+    },
     "xz-5.2.4-hfd63f10_4.tar.bz2": {
       "build": "hfd63f10_4",
       "build_number": 4,
@@ -51448,6 +51855,61 @@
       "timestamp": 1622064463070,
       "version": "3.7.2"
     },
+    "bcj-cffi-0.5.1-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.14.0",
+        "importlib-metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "f4890c235e8769cac348d38f5d2b2287",
+      "name": "bcj-cffi",
+      "sha256": "fed45cf9252dd3f56b0d8bef5979a75f915a4a25fcc74b2e050e67bf76614fcf",
+      "size": 24291,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633091055623,
+      "version": "0.5.1"
+    },
+    "bcj-cffi-0.5.1-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.14.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "7ea295936b31fea3f5a09349fd129877",
+      "name": "bcj-cffi",
+      "sha256": "8d0848707e1f8d1cdfe915dada67f244e1918e45aa2e03ea3b6beea3f92b9493",
+      "size": 24308,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633091096483,
+      "version": "0.5.1"
+    },
+    "bcj-cffi-0.5.1-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.14.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "LGPL-2.1",
+      "md5": "06f7480be5d612c156e55a615c1682be",
+      "name": "bcj-cffi",
+      "sha256": "9780ba490fef7ab384473c1ec4650d97b538bea2b97059275846b70d692ab5e6",
+      "size": 24321,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633091074813,
+      "version": "0.5.1"
+    },
     "bcrypt-3.2.0-py37hfd63f10_0.conda": {
       "build": "py37hfd63f10_0",
       "build_number": 0,
@@ -52561,6 +53023,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620758683313,
       "version": "1.0.9"
+    },
+    "brotlicffi-1.0.9.2-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.0.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "md5": "4d2c622c27bb6f76e5b9462120c0f6b6",
+      "name": "brotlicffi",
+      "sha256": "1adeccc285459eadf0ef1993f4faea5232a87aae3f5ad602f2c64a40b5f1961b",
+      "size": 343158,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633096516657,
+      "version": "1.0.9.2"
+    },
+    "brotlicffi-1.0.9.2-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.0.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "md5": "0f18d38b2f9047e00c8bd969cf607352",
+      "name": "brotlicffi",
+      "sha256": "ce6cd9b4530595bfad6f8f196682f98f1d17a0cf7a0b558823263b7f064d73f8",
+      "size": 343720,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633096554263,
+      "version": "1.0.9.2"
+    },
+    "brotlicffi-1.0.9.2-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.0.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "md5": "f72929c5db542f4fa6a44ae59d58d21b",
+      "name": "brotlicffi",
+      "sha256": "2d5fe18abf56298708c0ddcf4eadbd3abcc26c2873d5c188fa75afae5fe4456b",
+      "size": 344575,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633096481208,
+      "version": "1.0.9.2"
     },
     "brotlipy-0.7.0-py37hfd63f10_1002.conda": {
       "build": "py37hfd63f10_1002",
@@ -65151,6 +65667,22 @@
       "timestamp": 1615050398913,
       "version": "3.3"
     },
+    "libffi-3.4.2-h22f4aa5_0.conda": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "md5": "b4a54380e0d9ec65d9df8f684fb6e39a",
+      "name": "libffi",
+      "sha256": "1408ca28bcc6b9ffd20bf6fa8c9c9ec6bd1b93452c681cbeab02afa3fd156bc2",
+      "size": 60214,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633060893798,
+      "version": "3.4.2"
+    },
     "libgcc-devel_linux-aarch64-10.2.0-h1234567_0_bootstrapping.conda": {
       "build": "h1234567_0_bootstrapping",
       "build_number": 0,
@@ -68863,6 +69395,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615433593628,
       "version": "0.6.0"
+    },
+    "multiprocess-0.70.12.2-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "dill >=0.2.5",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "940dedfc544e041ab8c61e0fa1567cc5",
+      "name": "multiprocess",
+      "sha256": "3c001a6e984c7f29962f86adfe1a48611816e515e3a9156d416cf907a60b7b12",
+      "size": 199228,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633090319992,
+      "version": "0.70.12.2"
+    },
+    "multiprocess-0.70.12.2-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "dill >=0.2.5",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "01abbe26d4a2afc804b0f3ba09f95278",
+      "name": "multiprocess",
+      "sha256": "3cb8ee31b82d38033a98aef6d67b4e6a0554a94038f80d600a074139a5a934b6",
+      "size": 227202,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633090302024,
+      "version": "0.70.12.2"
+    },
+    "multiprocess-0.70.12.2-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "dill >=0.2.5",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "dfda62773f93ed7f1d8b7dc628e366ee",
+      "name": "multiprocess",
+      "sha256": "b78a6468002a9de8a091f7dba21279c861293fb1a905f9cf51ceb8ff54e400e0",
+      "size": 228442,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633090338306,
+      "version": "0.70.12.2"
     },
     "murmurhash-1.0.5-py37h7c1a80f_0.conda": {
       "build": "py37h7c1a80f_0",
@@ -77329,6 +77912,60 @@
       "timestamp": 1621374428554,
       "version": "3.1.1a1"
     },
+    "pyppmd-0.16.1-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "importlib_metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "adfdbd30e416d4f9097b0f66c8163dc9",
+      "name": "pyppmd",
+      "sha256": "2ecd37e77e86a49ef22905b36d16e45ac4c2c6c6b1279a1c0f7d99be402af52e",
+      "size": 42233,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633095722536,
+      "version": "0.16.1"
+    },
+    "pyppmd-0.16.1-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "importlib_metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "4a6d8269a9ee5c20611a2b514820ce49",
+      "name": "pyppmd",
+      "sha256": "e512536bc6aa587a4e580b680350ecb135ec2e71b1a5de188e4b3084abdda42a",
+      "size": 42385,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633095701956,
+      "version": "0.16.1"
+    },
+    "pyppmd-0.16.1-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "importlib_metadata",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "c16262bf0902ab76829b87a30d603896",
+      "name": "pyppmd",
+      "sha256": "0f078fffd9efd2584732bb92e14d00fc8254a3f94f0d9b7766ec68f2fcbbf836",
+      "size": 42388,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633095678006,
+      "version": "0.16.1"
+    },
     "pyproj-2.6.1.post1-py37hc41e337_1.conda": {
       "build": "py37hc41e337_1",
       "build_number": 1,
@@ -79476,6 +80113,60 @@
       "timestamp": 1621454770328,
       "version": "2.5.6"
     },
+    "python-xxhash-2.0.2-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "xxhash >=0.8.0,<0.8.1.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "e3cc70f2d4ba6d44ee8274583f31eeaa",
+      "name": "python-xxhash",
+      "sha256": "dd1dfdc1b6ffcc8e828575d9b5a9b9ac70c5479be8cc3fb2e2dd1c85b4dbc0af",
+      "size": 20416,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633103946451,
+      "version": "2.0.2"
+    },
+    "python-xxhash-2.0.2-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "xxhash >=0.8.0,<0.8.1.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "1ca45da4d5a8520418229551142409ea",
+      "name": "python-xxhash",
+      "sha256": "8920ee16bc182a206bf94c3d54a6ce96951da67e52ec72ccb269f4763563ca47",
+      "size": 20425,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633103928524,
+      "version": "2.0.2"
+    },
+    "python-xxhash-2.0.2-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "xxhash >=0.8.0,<0.8.1.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "2103f6bd61e9caae3182cf770cdb9d55",
+      "name": "python-xxhash",
+      "sha256": "7137ff297941c59c7b16173f78ee4f04e0d20ab8047b4c63cb787e2041cdce2a",
+      "size": 20390,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633103964607,
+      "version": "2.0.2"
+    },
     "pythran-0.9.11-py37h120ed44_3.conda": {
       "build": "py37h120ed44_3",
       "build_number": 3,
@@ -79889,6 +80580,114 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615479643369,
       "version": "20.0.0"
+    },
+    "pyzstd-0.14.4-py37h2f4d8fa_3.conda": {
+      "build": "py37h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b7734aca65a253d85d75a61f5f1786a0",
+      "name": "pyzstd",
+      "sha256": "f22d476351ccec9896e81d2f511e39f310fbee580bc95ffada7cd1204326e8c0",
+      "size": 92113,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633097892364,
+      "version": "0.14.4"
+    },
+    "pyzstd-0.14.4-py38h2f4d8fa_3.conda": {
+      "build": "py38h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b3006af74531182502b22d610f89d038",
+      "name": "pyzstd",
+      "sha256": "91d81dded5a545ebb6dbfa183425024241033e73647d60d89e0856fd40ae227b",
+      "size": 92323,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633097938751,
+      "version": "0.14.4"
+    },
+    "pyzstd-0.14.4-py39h2f4d8fa_3.conda": {
+      "build": "py39h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "e4e97e010265f05d5bd0aba004d7704d",
+      "name": "pyzstd",
+      "sha256": "83a70e5494d9d10d4cadf9e5c2d218635ccd5acf59f8bcf62f4e8aaaf0e393a2",
+      "size": 92397,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633097914254,
+      "version": "0.14.4"
+    },
+    "pyzstd-0.15.0-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "fc9b94ed28b5c313092c02ee05ea665d",
+      "name": "pyzstd",
+      "sha256": "fff1660ef05fba874c467051d23ac9024b3c34f4178bd26887fd109e0cbb989b",
+      "size": 95592,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633093664226,
+      "version": "0.15.0"
+    },
+    "pyzstd-0.15.0-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "474cf69ce847edc47a3dac8a0e4cee07",
+      "name": "pyzstd",
+      "sha256": "4cbb142468ec4e4f57aa3bc031c2f7519a61a4b276fe3e8059336dd39ec1dc60",
+      "size": 95441,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633093620160,
+      "version": "0.15.0"
+    },
+    "pyzstd-0.15.0-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "589955267e8a72fa8858e6133aa1bf1f",
+      "name": "pyzstd",
+      "sha256": "1268b6837844ba86a1f1e89b7dcffe66b9524e7ede1d2e449923d46fd435d691",
+      "size": 95793,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633093642062,
+      "version": "0.15.0"
     },
     "qgrid-1.3.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
@@ -88981,6 +89780,21 @@
       "subdir": "linux-aarch64",
       "timestamp": 1631125849059,
       "version": "7.6.0"
+    },
+    "xxhash-0.8.0-h2f4d8fa_3.conda": {
+      "build": "h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "BSD-2-Clause",
+      "md5": "71884df24cc0db2d1bc9c6b3821e06bb",
+      "name": "xxhash",
+      "sha256": "b402d246bb391cb537d5c54fb6b0f43a3d9522b93a945fca27f33cb55382879c",
+      "size": 83924,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633100599596,
+      "version": "0.8.0"
     },
     "xz-5.2.4-hfd63f10_4.conda": {
       "build": "hfd63f10_4",
