@@ -5750,6 +5750,58 @@
       "timestamp": 1624409014923,
       "version": "1.1.0"
     },
+    "arrow-1.1.1-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "python-dateutil >=2.7.0",
+        "typing_extensions"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "5040ba7c101570fdc9af67ed6b738521",
+      "name": "arrow",
+      "sha256": "d57493047fb5785eefdedc70e8437ec415c96e346df6b98e66f7b3a33bd64abf",
+      "size": 130677,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633112300262,
+      "version": "1.1.1"
+    },
+    "arrow-1.1.1-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "python-dateutil >=2.7.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "958e361a23f3276eaf50ae1b12f0dca9",
+      "name": "arrow",
+      "sha256": "18d08d134551d7a3d3f942fd9f6f0315a46cc0c752689940fc0406e58e27772f",
+      "size": 131749,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633112277624,
+      "version": "1.1.1"
+    },
+    "arrow-1.1.1-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "python-dateutil >=2.7.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "0f8741b8eebbd82678602ccd9fafb167",
+      "name": "arrow",
+      "sha256": "6626b97a23fb97e7581e50c2d1838d8eeb3faada2889a6b210ddced36fee72c6",
+      "size": 131162,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633112321062,
+      "version": "1.1.1"
+    },
     "arrow-cpp-4.0.1-py37h07e2d5b_3.tar.bz2": {
       "build": "py37h07e2d5b_3",
       "build_number": 3,
@@ -50886,6 +50938,58 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624409014923,
       "version": "1.1.0"
+    },
+    "arrow-1.1.1-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "python-dateutil >=2.7.0",
+        "typing_extensions"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "8bd8d26aea88b91f35bf1f2f00d7a6c3",
+      "name": "arrow",
+      "sha256": "0854dd9e25964ea08f3bc2592161486c9bb6722d827b89c39288f84a5060de8c",
+      "size": 130208,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633112300262,
+      "version": "1.1.1"
+    },
+    "arrow-1.1.1-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "python-dateutil >=2.7.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2948e5d4caa2bf47c243587b026e103e",
+      "name": "arrow",
+      "sha256": "5e5a5289af82dd5c2892a8419897b2488d99379ee6b785351d72a2e72e45e173",
+      "size": 131735,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633112277624,
+      "version": "1.1.1"
+    },
+    "arrow-1.1.1-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "python-dateutil >=2.7.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "8b0d04a1b3920390c2eb86406b085e84",
+      "name": "arrow",
+      "sha256": "99c92fd55d163215f52142d503850951f2c723a16f5c37399db565b76a127c4d",
+      "size": 132925,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633112321062,
+      "version": "1.1.1"
     },
     "arrow-cpp-4.0.1-py37h07e2d5b_3.conda": {
       "build": "py37h07e2d5b_3",
