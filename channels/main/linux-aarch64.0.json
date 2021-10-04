@@ -13444,6 +13444,54 @@
       "timestamp": 1624639967131,
       "version": "1.5.4"
     },
+    "et_xmlfile-1.1.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT AND PSF-2.0",
+      "license_family": "MIT",
+      "md5": "bef1d88237ae43e072fbd2ecfd7764cd",
+      "name": "et_xmlfile",
+      "sha256": "5bf4b12c57084995f87736141f11d0972f64cd7c46fcdfa056ec6e3fd403f151",
+      "size": 8797,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633354928091,
+      "version": "1.1.0"
+    },
+    "et_xmlfile-1.1.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT AND PSF-2.0",
+      "license_family": "MIT",
+      "md5": "00ca4f25d6b89e54d397567eb7e37891",
+      "name": "et_xmlfile",
+      "sha256": "4c5bf86bfaa0cc89c9e53b4b3f464257d8f390042f79be13061d8c4565e7af24",
+      "size": 8796,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633354944670,
+      "version": "1.1.0"
+    },
+    "et_xmlfile-1.1.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT AND PSF-2.0",
+      "license_family": "MIT",
+      "md5": "e5a67db414c4b1cabd40f2199964955f",
+      "name": "et_xmlfile",
+      "sha256": "eb4c4cd2a0823147edcbb9be4ec72be81bb98ad05ceeefc208862b687f010ab0",
+      "size": 8809,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633354912705,
+      "version": "1.1.0"
+    },
     "expat-2.2.9-h7c1a80f_2.tar.bz2": {
       "build": "h7c1a80f_2",
       "build_number": 2,
@@ -18004,6 +18052,58 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614804912340,
       "version": "1.7.0"
+    },
+    "importlib-metadata-4.8.1-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "typing_extensions >=3.6.4",
+        "zipp >=0.5"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "e4373ce0b6c7fbcb8b1f55223c17b69e",
+      "name": "importlib-metadata",
+      "sha256": "923f3125aa1ae319012107d5e3b4eb997fd92b32dc110db4006d363c7443bab8",
+      "size": 32815,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633331017510,
+      "version": "4.8.1"
+    },
+    "importlib-metadata-4.8.1-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "zipp >=0.5"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "7e16370b6b541cddead9700a4cef7d74",
+      "name": "importlib-metadata",
+      "sha256": "b19c053cf877f7ed457e937dc3d0caafac45887345f4556b5f64b30569057a35",
+      "size": 32944,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633331055832,
+      "version": "4.8.1"
+    },
+    "importlib-metadata-4.8.1-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "zipp >=0.5"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "5c8106d837c84aa1217dacf24e09660a",
+      "name": "importlib-metadata",
+      "sha256": "f9f29b9bbea3d7d7adb93beaa040c32aa2fd00bad75cf68d7949b2abaa588515",
+      "size": 32960,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633331038295,
+      "version": "4.8.1"
     },
     "impyla-0.16.3-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -58595,6 +58695,54 @@
       "timestamp": 1624639967131,
       "version": "1.5.4"
     },
+    "et_xmlfile-1.1.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT AND PSF-2.0",
+      "license_family": "MIT",
+      "md5": "0aec14ef19921015314104dd6ac69615",
+      "name": "et_xmlfile",
+      "sha256": "67acce1b1e371b097bc774cae6f70658a97e6db153a297b38a1656f325fe2acf",
+      "size": 9923,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633354928091,
+      "version": "1.1.0"
+    },
+    "et_xmlfile-1.1.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT AND PSF-2.0",
+      "license_family": "MIT",
+      "md5": "a9cdd229ac170aebc4bebe13a94f3962",
+      "name": "et_xmlfile",
+      "sha256": "fe623796eca9a104fae72a28182730625653dbd6e4607aa4e19feaa42cd9161a",
+      "size": 9897,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633354944670,
+      "version": "1.1.0"
+    },
+    "et_xmlfile-1.1.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT AND PSF-2.0",
+      "license_family": "MIT",
+      "md5": "5dc0da63a860f7aa76906785120b73d9",
+      "name": "et_xmlfile",
+      "sha256": "290a3358d1a288723f8527449ccc3b1351794659887ca2f4ab55b5b286f405e8",
+      "size": 9929,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633354912705,
+      "version": "1.1.0"
+    },
     "expat-2.2.9-h7c1a80f_2.conda": {
       "build": "h7c1a80f_2",
       "build_number": 2,
@@ -63155,6 +63303,58 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614804912340,
       "version": "1.7.0"
+    },
+    "importlib-metadata-4.8.1-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "typing_extensions >=3.6.4",
+        "zipp >=0.5"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "8e0659bd6fc228286ccd40ab17496c01",
+      "name": "importlib-metadata",
+      "sha256": "d5e3ffaa033eb80c7307b59a330c63edf46b329ebd59dde7b8cc183db2988a61",
+      "size": 33486,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633331017510,
+      "version": "4.8.1"
+    },
+    "importlib-metadata-4.8.1-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "zipp >=0.5"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "1884c9c302027c564cd3ecc07b85f5b7",
+      "name": "importlib-metadata",
+      "sha256": "ad7177031381172cbd317b004e5e73de4a58577ed36265823e39e5331f34a3b0",
+      "size": 33644,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633331055832,
+      "version": "4.8.1"
+    },
+    "importlib-metadata-4.8.1-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "zipp >=0.5"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "APACHE",
+      "md5": "06f732b3c6d8b4ac1c082bd50c8502b4",
+      "name": "importlib-metadata",
+      "sha256": "f9bfb899f00af8084ba53a71553dcfa88fcad6c267338c5999b5e1318623a421",
+      "size": 33652,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633331038295,
+      "version": "4.8.1"
     },
     "impyla-0.16.3-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
