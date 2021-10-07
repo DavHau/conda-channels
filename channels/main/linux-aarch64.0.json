@@ -12194,6 +12194,60 @@
       "timestamp": 1619012006244,
       "version": "1.13.18"
     },
+    "debugpy-1.4.1-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1dd2ce2e1fecc46b802c177390ac68d8",
+      "name": "debugpy",
+      "sha256": "04b9e9189794522e22e8c0f580093b181f22b2555a64172035316488584b9b3b",
+      "size": 2108273,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633546633615,
+      "version": "1.4.1"
+    },
+    "debugpy-1.4.1-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a744f0e34291cd8504ee77cb87634ba5",
+      "name": "debugpy",
+      "sha256": "e5c3f1dcd00b01da175749fb450c4b0f9bc229683e976e7fa022d3d697a89341",
+      "size": 2115859,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633546684834,
+      "version": "1.4.1"
+    },
+    "debugpy-1.4.1-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "05676415a8120763380365a8837ad232",
+      "name": "debugpy",
+      "sha256": "909fa5527b8410bd02b0000b437b04fde10fd0feb26542e5fa4e484f311702fb",
+      "size": 2116123,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633546579704,
+      "version": "1.4.1"
+    },
     "dicttoxml-1.7.4-py37hd43f75c_1.tar.bz2": {
       "build": "py37hd43f75c_1",
       "build_number": 1,
@@ -18547,6 +18601,77 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615571058400,
       "version": "5.3.4"
+    },
+    "ipykernel-6.4.1-py37hd43f75c_1.tar.bz2": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "argcomplete >=1.12.3",
+        "debugpy >=1,<2.0",
+        "importlib-metadata <5",
+        "ipython >=7.23.1,<8.0",
+        "ipython_genutils",
+        "jupyter_client <8.0",
+        "matplotlib-inline >=0.1.0,<0.2.0",
+        "python >=3.7,<3.8.0a0",
+        "tornado >=4.2,<7.0",
+        "traitlets >=4.1.0,<6.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "713ce099823e25df17ba18be7e518c89",
+      "name": "ipykernel",
+      "sha256": "37ac9b4436697478c0df462afc3217efb448002bef689246ffd4153c4c4c81ac",
+      "size": 177380,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633548633050,
+      "version": "6.4.1"
+    },
+    "ipykernel-6.4.1-py38hd43f75c_1.tar.bz2": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "debugpy >=1,<2.0",
+        "ipython >=7.23.1,<8.0",
+        "ipython_genutils",
+        "jupyter_client <8.0",
+        "matplotlib-inline >=0.1.0,<0.2.0",
+        "python >=3.8,<3.9.0a0",
+        "tornado >=4.2,<7.0",
+        "traitlets >=4.1.0,<6.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "30194fd329f0a9080a6aa6373c875ad1",
+      "name": "ipykernel",
+      "sha256": "648f3ec4cc00a29a59d257c10922b348e57dae1c6384cd56211d70bc7cdd22db",
+      "size": 177923,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633548704184,
+      "version": "6.4.1"
+    },
+    "ipykernel-6.4.1-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "debugpy >=1,<2.0",
+        "ipython >=7.23.1,<8.0",
+        "ipython_genutils",
+        "jupyter_client <8.0",
+        "matplotlib-inline >=0.1.0,<0.2.0",
+        "python >=3.9,<3.10.0a0",
+        "tornado >=4.2,<7.0",
+        "traitlets >=4.1.0,<6.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "1057995b2115774193ad3d36c709ba90",
+      "name": "ipykernel",
+      "sha256": "dee586628bd17e9203aff745e86a97d5d1088cfdf428db4f5de1207e883634a8",
+      "size": 178163,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633548775420,
+      "version": "6.4.1"
     },
     "ipyparallel-6.3.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -57580,6 +57705,60 @@
       "timestamp": 1619012006244,
       "version": "1.13.18"
     },
+    "debugpy-1.4.1-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "76f3a208ff6e821da841583c5bed862c",
+      "name": "debugpy",
+      "sha256": "909929e15a3ebc395ae1fbe30f69c7fcac080b7ff80179606d05ed901e805c95",
+      "size": 1824350,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633546633615,
+      "version": "1.4.1"
+    },
+    "debugpy-1.4.1-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "390941f56d5106c7b774bc9c02be8c87",
+      "name": "debugpy",
+      "sha256": "c435665d778de703f195a76f911d8ff27b2204e4d29441bd65a773a5c4b8ff06",
+      "size": 1836898,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633546684834,
+      "version": "1.4.1"
+    },
+    "debugpy-1.4.1-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2654d357e927673ffa7454568c9e5db2",
+      "name": "debugpy",
+      "sha256": "a19e198c5376123713acec37ef284c1c341ef788c7bc2ac74d94b591b2539205",
+      "size": 1835795,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633546579704,
+      "version": "1.4.1"
+    },
     "dicttoxml-1.7.4-py37hd43f75c_1.conda": {
       "build": "py37hd43f75c_1",
       "build_number": 1,
@@ -63933,6 +64112,77 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615571058400,
       "version": "5.3.4"
+    },
+    "ipykernel-6.4.1-py37hd43f75c_1.conda": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "argcomplete >=1.12.3",
+        "debugpy >=1,<2.0",
+        "importlib-metadata <5",
+        "ipython >=7.23.1,<8.0",
+        "ipython_genutils",
+        "jupyter_client <8.0",
+        "matplotlib-inline >=0.1.0,<0.2.0",
+        "python >=3.7,<3.8.0a0",
+        "tornado >=4.2,<7.0",
+        "traitlets >=4.1.0,<6.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "6681e91efbcdfa29834dededf8a3db4b",
+      "name": "ipykernel",
+      "sha256": "b218f86a8e7a89299cef1ab9943885cd0b87524b9f8f8618d51ee9ee07b43925",
+      "size": 183408,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633548633050,
+      "version": "6.4.1"
+    },
+    "ipykernel-6.4.1-py38hd43f75c_1.conda": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "debugpy >=1,<2.0",
+        "ipython >=7.23.1,<8.0",
+        "ipython_genutils",
+        "jupyter_client <8.0",
+        "matplotlib-inline >=0.1.0,<0.2.0",
+        "python >=3.8,<3.9.0a0",
+        "tornado >=4.2,<7.0",
+        "traitlets >=4.1.0,<6.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "26830704b9805a9492d71ef960ddcc87",
+      "name": "ipykernel",
+      "sha256": "651070a6b2db7a88be5a16b0ccc99802f4ae31285043860ae69acf2f197c473e",
+      "size": 184205,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633548704184,
+      "version": "6.4.1"
+    },
+    "ipykernel-6.4.1-py39hd43f75c_1.conda": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "debugpy >=1,<2.0",
+        "ipython >=7.23.1,<8.0",
+        "ipython_genutils",
+        "jupyter_client <8.0",
+        "matplotlib-inline >=0.1.0,<0.2.0",
+        "python >=3.9,<3.10.0a0",
+        "tornado >=4.2,<7.0",
+        "traitlets >=4.1.0,<6.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "667b8bb4da2f355db93b5aec0aa7047e",
+      "name": "ipykernel",
+      "sha256": "1236fa90ed7f79ffa1851c064756e26e8c5c2a9b2366eb2ed93973aec797568d",
+      "size": 184330,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633548775420,
+      "version": "6.4.1"
     },
     "ipyparallel-6.3.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
