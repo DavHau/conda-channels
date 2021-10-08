@@ -19278,6 +19278,24 @@
       "timestamp": 1622146826215,
       "version": "2.0.14"
     },
+    "jasper-2.0.14-hf85ac85_2.tar.bz2": {
+      "build": "hf85ac85_2",
+      "build_number": 2,
+      "depends": [
+        "freeglut >=3.0.0,<4.0a0",
+        "jpeg",
+        "libgcc-ng >=10.2.0",
+        "libglu >=9.0.0,<10.0a0"
+      ],
+      "license": "JasPer 2.0",
+      "md5": "5add8540e23934bd303c9a08d09be475",
+      "name": "jasper",
+      "sha256": "a60c0147f360b74915c1a237a9e1d4d8a257450dae351e51bc5ee53fe64859f7",
+      "size": 1522966,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633705694745,
+      "version": "2.0.14"
+    },
     "jbig-2.1-hfd63f10_0.tar.bz2": {
       "build": "hfd63f10_0",
       "build_number": 0,
@@ -65154,6 +65172,24 @@
       "size": 804554,
       "subdir": "linux-aarch64",
       "timestamp": 1622146826215,
+      "version": "2.0.14"
+    },
+    "jasper-2.0.14-hf85ac85_2.conda": {
+      "build": "hf85ac85_2",
+      "build_number": 2,
+      "depends": [
+        "freeglut >=3.0.0,<4.0a0",
+        "jpeg",
+        "libgcc-ng >=10.2.0",
+        "libglu >=9.0.0,<10.0a0"
+      ],
+      "license": "JasPer 2.0",
+      "md5": "dbd3bf22f22a7b65c562ef6c60ce0f61",
+      "name": "jasper",
+      "sha256": "9462dac01ce40fd1894fa80f0c0d4b8967db787ec04c4c26751b5304bb98d27c",
+      "size": 803242,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633705694745,
       "version": "2.0.14"
     },
     "jbig-2.1-hfd63f10_0.conda": {
