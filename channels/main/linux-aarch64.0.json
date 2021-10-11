@@ -2014,6 +2014,18 @@
       "timestamp": 1617219512888,
       "version": "0.1"
     },
+    "_mutex_mxnet-0.0.40-openblas.tar.bz2": {
+      "build": "openblas",
+      "build_number": 0,
+      "depends": [],
+      "md5": "423718b30ae7d8e66a8c44853bcb645f",
+      "name": "_mutex_mxnet",
+      "sha256": "906a808de5a25be7360c4b96c00517f08e6dccb070664d5da1295253ddc074dd",
+      "size": 4610,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633945610830,
+      "version": "0.0.40"
+    },
     "_openmp_mutex-5.1-1_gnu.tar.bz2": {
       "build": "1_gnu",
       "build_number": 0,
@@ -21595,6 +21607,27 @@
       "timestamp": 1613751068675,
       "version": "5.39"
     },
+    "libmxnet-1.5.0-openblas_hb605223_0.tar.bz2": {
+      "build": "openblas_hb605223_0",
+      "build_number": 0,
+      "depends": [
+        "_mutex_mxnet 0.0.40 openblas",
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.13,<1.0a0",
+        "libopencv >=4.5.2,<4.5.3.0a0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "c9d914b61d12e9078e88075be0633cee",
+      "name": "libmxnet",
+      "sha256": "e85783bca54268ce3554506d17a54db01a46ecf72ba61d14094a3c3fe6575266",
+      "size": 25768964,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946057475,
+      "version": "1.5.0"
+    },
     "libnetcdf-4.6.1-hbd76de4_2.tar.bz2": {
       "build": "hbd76de4_2",
       "build_number": 2,
@@ -24978,6 +25011,37 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620847673448,
       "version": "1.0.5"
+    },
+    "mxnet-1.5.0-h5ddf6e9_0.tar.bz2": {
+      "build": "h5ddf6e9_0",
+      "build_number": 0,
+      "depends": [
+        "libmxnet 1.5.0.*",
+        "py-mxnet 1.5.0.*"
+      ],
+      "md5": "f13ccfd4ecf7c5a56507f47a23ba6f8a",
+      "name": "mxnet",
+      "namespace": "python",
+      "sha256": "508f2dd29a76a3f3c1df8641c745b2e45fe204b84700e5981f7fe3dc70eb06fd",
+      "size": 4653,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946255680,
+      "version": "1.5.0"
+    },
+    "mxnet-openblas-1.5.0-h5a84b57_0.tar.bz2": {
+      "build": "h5a84b57_0",
+      "build_number": 0,
+      "depends": [
+        "_mutex_mxnet 0.0.40 openblas",
+        "mxnet 1.5.0.*"
+      ],
+      "md5": "ac65e738b9f33aca71eb0a516aec636f",
+      "name": "mxnet-openblas",
+      "sha256": "71c88c8a84e0414c51f659c4e80891173f5a06916bf79f17538a6003d4898e69",
+      "size": 4662,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946257650,
+      "version": "1.5.0"
     },
     "mypy_extensions-0.4.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -31112,6 +31176,69 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615243438026,
       "version": "0.10.1"
+    },
+    "py-mxnet-1.5.0-py37hd8609cb_0.tar.bz2": {
+      "build": "py37hd8609cb_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libmxnet 1.5.0.*",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.0,<=2.0.0",
+        "python >=3.7,<3.8.0a0",
+        "requests >=2.20.0,<3"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "a546c8106bdc6f542348228d33148789",
+      "name": "py-mxnet",
+      "sha256": "a12c8f5aff6c4466a8c6098cfc0cb1982bd6a1437261582ed63a70739df33d6f",
+      "size": 1329489,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946240465,
+      "version": "1.5.0"
+    },
+    "py-mxnet-1.5.0-py38hd8609cb_0.tar.bz2": {
+      "build": "py38hd8609cb_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libmxnet 1.5.0.*",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.0,<=2.0.0",
+        "python >=3.8,<3.9.0a0",
+        "requests >=2.20.0,<3"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "7a2388c4c20edaf54961d6b213a853e6",
+      "name": "py-mxnet",
+      "sha256": "c0b465bbdf6439f5636a05672a9d81292a01bde1e398ee878e6e93cce5d12f21",
+      "size": 1345475,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946151536,
+      "version": "1.5.0"
+    },
+    "py-mxnet-1.5.0-py39hd8609cb_0.tar.bz2": {
+      "build": "py39hd8609cb_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libmxnet 1.5.0.*",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.0,<=2.0.0",
+        "python >=3.9,<3.10.0a0",
+        "requests >=2.20.0,<3"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "77ae07f82ac1ed5fe0ecfe69d77b672c",
+      "name": "py-mxnet",
+      "sha256": "b945be97d297539ebeba5e6068a373b89b72cdf1e848f954b2253d61a6a03de0",
+      "size": 1343379,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946195983,
+      "version": "1.5.0"
     },
     "py-opencv-4.5.2-py37h7100cfe_0.tar.bz2": {
       "build": "py37h7100cfe_0",
@@ -48334,6 +48461,18 @@
       "subdir": "linux-aarch64",
       "timestamp": 1617219512888,
       "version": "0.1"
+    },
+    "_mutex_mxnet-0.0.40-openblas.conda": {
+      "build": "openblas",
+      "build_number": 0,
+      "depends": [],
+      "md5": "606cf8d118204623d385deec2b85d0a5",
+      "name": "_mutex_mxnet",
+      "sha256": "861edf08e02c1fa6a86ba58ede97a6a419906b515703b091e37e7c2940fdb90b",
+      "size": 5299,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633945610830,
+      "version": "0.0.40"
     },
     "_openmp_mutex-5.1-1_gnu.conda": {
       "build": "1_gnu",
@@ -67491,6 +67630,27 @@
       "timestamp": 1613751068675,
       "version": "5.39"
     },
+    "libmxnet-1.5.0-openblas_hb605223_0.conda": {
+      "build": "openblas_hb605223_0",
+      "build_number": 0,
+      "depends": [
+        "_mutex_mxnet 0.0.40 openblas",
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.13,<1.0a0",
+        "libopencv >=4.5.2,<4.5.3.0a0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "eb7c2f9dcc72022ee43dbcc50938968a",
+      "name": "libmxnet",
+      "sha256": "eeb92bca0dac5c816967f47a700866d8507428cce6207bae932f705b87bf49d5",
+      "size": 12473244,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946057475,
+      "version": "1.5.0"
+    },
     "libnetcdf-4.6.1-hbd76de4_2.conda": {
       "build": "hbd76de4_2",
       "build_number": 2,
@@ -70874,6 +71034,37 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620847673448,
       "version": "1.0.5"
+    },
+    "mxnet-1.5.0-h5ddf6e9_0.conda": {
+      "build": "h5ddf6e9_0",
+      "build_number": 0,
+      "depends": [
+        "libmxnet 1.5.0.*",
+        "py-mxnet 1.5.0.*"
+      ],
+      "md5": "df54d981aafb7cb1101022bcd20a1380",
+      "name": "mxnet",
+      "namespace": "python",
+      "sha256": "57858cc2a758baf151e8675fde662ae3f6d92f8fde257329b9bb987b925fc1a0",
+      "size": 5307,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946255680,
+      "version": "1.5.0"
+    },
+    "mxnet-openblas-1.5.0-h5a84b57_0.conda": {
+      "build": "h5a84b57_0",
+      "build_number": 0,
+      "depends": [
+        "_mutex_mxnet 0.0.40 openblas",
+        "mxnet 1.5.0.*"
+      ],
+      "md5": "9d97bd6b0457d8cfb29260700d5cd8ce",
+      "name": "mxnet-openblas",
+      "sha256": "e14c5ab211b85769f46930d45c77132975ac25250d74f2b0cc1f057e3118e01f",
+      "size": 5350,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946257650,
+      "version": "1.5.0"
     },
     "mypy_extensions-0.4.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
@@ -77008,6 +77199,69 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615243438026,
       "version": "0.10.1"
+    },
+    "py-mxnet-1.5.0-py37hd8609cb_0.conda": {
+      "build": "py37hd8609cb_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libmxnet 1.5.0.*",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.0,<=2.0.0",
+        "python >=3.7,<3.8.0a0",
+        "requests >=2.20.0,<3"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "0b81b3dbaab501b2f5212057e65da913",
+      "name": "py-mxnet",
+      "sha256": "461d0b413b09b95916b07432eb28bf5dc56b09ed22ce646f476e7ee7d495caeb",
+      "size": 893501,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946240465,
+      "version": "1.5.0"
+    },
+    "py-mxnet-1.5.0-py38hd8609cb_0.conda": {
+      "build": "py38hd8609cb_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libmxnet 1.5.0.*",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.0,<=2.0.0",
+        "python >=3.8,<3.9.0a0",
+        "requests >=2.20.0,<3"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "05933427676420194e3ccc5668e4dc2e",
+      "name": "py-mxnet",
+      "sha256": "81178906f69edc640c804792d21472aebf6a7d1a493225a058a89fb7876e427b",
+      "size": 898569,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946151536,
+      "version": "1.5.0"
+    },
+    "py-mxnet-1.5.0-py39hd8609cb_0.conda": {
+      "build": "py39hd8609cb_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libmxnet 1.5.0.*",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.0,<=2.0.0",
+        "python >=3.9,<3.10.0a0",
+        "requests >=2.20.0,<3"
+      ],
+      "license": "Apache-2",
+      "license_family": "Apache",
+      "md5": "fc8aa6192d0203e906f402e79294d1e0",
+      "name": "py-mxnet",
+      "sha256": "f73390201d6fe4582bc884f075e81b7eabaa2cbadc493944258e7856a393f37a",
+      "size": 897362,
+      "subdir": "linux-aarch64",
+      "timestamp": 1633946195983,
+      "version": "1.5.0"
     },
     "py-opencv-4.5.2-py37h7100cfe_0.conda": {
       "build": "py37h7100cfe_0",
