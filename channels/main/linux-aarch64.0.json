@@ -8661,6 +8661,51 @@
       "timestamp": 1614686179047,
       "version": "2020.12.5"
     },
+    "certifi-2021.10.8-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "ISC",
+      "md5": "7ef559d4720c7274642559000ab315f6",
+      "name": "certifi",
+      "sha256": "7472e86f0686800a9c1ab77b8dad99fa655065bd42ae895bd05f18e29d5e76f9",
+      "size": 147803,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634050837455,
+      "version": "2021.10.8"
+    },
+    "certifi-2021.10.8-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "ISC",
+      "md5": "7a3fdba59c6a1acf25b3127a1ba70663",
+      "name": "certifi",
+      "sha256": "b64c7ecd3bb4107d316e6a122dfe1c5bb29ecf9863633a515dd6db4dd6383226",
+      "size": 147510,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634050867996,
+      "version": "2021.10.8"
+    },
+    "certifi-2021.10.8-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "ISC",
+      "md5": "4bcd6cf33534cb8e488db8b04b2b35b9",
+      "name": "certifi",
+      "sha256": "c7b12b66cdca5ec7ac10ac528ddf80bc0085890ddb741795bbdd1aca57f34598",
+      "size": 147479,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634050851467,
+      "version": "2021.10.8"
+    },
     "certifi-2021.5.30-py310hd43f75c_0.tar.bz2": {
       "build": "py310hd43f75c_0",
       "build_number": 0,
@@ -54683,6 +54728,51 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614686179047,
       "version": "2020.12.5"
+    },
+    "certifi-2021.10.8-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "ISC",
+      "md5": "caa5a704ddecdbc89f8ca6a908b1ba8d",
+      "name": "certifi",
+      "sha256": "e65bc19d07fb3b4ba67d3dc6ca50316244c5400410a72d7641c0952851e9ac94",
+      "size": 145475,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634050837455,
+      "version": "2021.10.8"
+    },
+    "certifi-2021.10.8-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "ISC",
+      "md5": "f41762fa071685f89c01dcad5456463b",
+      "name": "certifi",
+      "sha256": "0d65eff3da83090e99dc05683aae3984f13155c7266603a14318ffcb8cc88d4b",
+      "size": 145507,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634050867996,
+      "version": "2021.10.8"
+    },
+    "certifi-2021.10.8-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "ISC",
+      "md5": "a86aa2fb1baf6769dfe9fa0f6bbc990e",
+      "name": "certifi",
+      "sha256": "4f6ac066b9479dcff62f4eec2473e3999c1210e6a4e9e52c99174f751e675a36",
+      "size": 145552,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634050851467,
+      "version": "2021.10.8"
     },
     "certifi-2021.5.30-py310hd43f75c_0.conda": {
       "build": "py310hd43f75c_0",
