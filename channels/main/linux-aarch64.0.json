@@ -14114,6 +14114,60 @@
       "timestamp": 1615421512690,
       "version": "1.1.0"
     },
+    "fastcluster-1.1.26-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.20.2,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-2-Clause AND GPL-2.0-or-later",
+      "md5": "2c42b930d051006924af73b81c5c18e6",
+      "name": "fastcluster",
+      "sha256": "f2b0f8ea8897e880abd9b3b601ec3a2a37b3f214322f23db692196b3ddbfff14",
+      "size": 44429,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634305935579,
+      "version": "1.1.26"
+    },
+    "fastcluster-1.1.26-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.20.2,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-2-Clause AND GPL-2.0-or-later",
+      "md5": "edf98ff9a1f9ab672dea2f8c3f2eedb1",
+      "name": "fastcluster",
+      "sha256": "f2a2a202dec1b9cbeba00085fe0e0de55a93065ecba7e82ca6540e0164a975ce",
+      "size": 44428,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634305980484,
+      "version": "1.1.26"
+    },
+    "fastcluster-1.1.26-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.20.2,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-2-Clause AND GPL-2.0-or-later",
+      "md5": "216a67717aea17e4b8ea9c03e60129e9",
+      "name": "fastcluster",
+      "sha256": "e2080720bbd295e103f90577e164e358ee3a77adc9553c84288d31ca34642129",
+      "size": 44436,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634305957094,
+      "version": "1.1.26"
+    },
     "fastcluster-1.2.4-py37h22f4aa5_0.tar.bz2": {
       "build": "py37h22f4aa5_0",
       "build_number": 0,
@@ -60308,6 +60362,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615421512690,
       "version": "1.1.0"
+    },
+    "fastcluster-1.1.26-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.20.2,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-2-Clause AND GPL-2.0-or-later",
+      "md5": "1d6170c61e3b771ecec4401e86388525",
+      "name": "fastcluster",
+      "sha256": "57ee21c9845f6823c7b01e4275f4e7a611611bde8a97057c33d32330d411138d",
+      "size": 40614,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634305935579,
+      "version": "1.1.26"
+    },
+    "fastcluster-1.1.26-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.20.2,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-2-Clause AND GPL-2.0-or-later",
+      "md5": "21e97d20f2e3cbe8a083d1947a7b5bb8",
+      "name": "fastcluster",
+      "sha256": "a8521b72b89492bf235b47b33edf8dd92d04229ba04f9c5a9d6a5eebca5b7a72",
+      "size": 40510,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634305980484,
+      "version": "1.1.26"
+    },
+    "fastcluster-1.1.26-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.20.2,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-2-Clause AND GPL-2.0-or-later",
+      "md5": "a33a11937aeb4259999df4999a01157b",
+      "name": "fastcluster",
+      "sha256": "e7bf358026d67c407768398b9ac486931680822eb2df8bb9fbd514839a7070b8",
+      "size": 40620,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634305957094,
+      "version": "1.1.26"
     },
     "fastcluster-1.2.4-py37h22f4aa5_0.conda": {
       "build": "py37h22f4aa5_0",
