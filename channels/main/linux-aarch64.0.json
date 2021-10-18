@@ -8391,6 +8391,19 @@
       "timestamp": 1625583831720,
       "version": "2021.7.5"
     },
+    "ca-certificates-2021.9.30-hd43f75c_2.tar.bz2": {
+      "build": "hd43f75c_2",
+      "build_number": 2,
+      "depends": [],
+      "license": "MPL 2.0",
+      "md5": "dd4dd7bfd7e45f614f68f88ec1312be8",
+      "name": "ca-certificates",
+      "sha256": "90793b519f0ffb3e9134624a2ec7c6fb1d63bf295f15cda27e1cefb524f149aa",
+      "size": 120928,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634577653880,
+      "version": "2021.9.30"
+    },
     "cairo-1.16.0-h81ccd62_1.tar.bz2": {
       "build": "h81ccd62_1",
       "build_number": 1,
@@ -54639,6 +54652,19 @@
       "subdir": "linux-aarch64",
       "timestamp": 1625583831720,
       "version": "2021.7.5"
+    },
+    "ca-certificates-2021.9.30-hd43f75c_2.conda": {
+      "build": "hd43f75c_2",
+      "build_number": 2,
+      "depends": [],
+      "license": "MPL 2.0",
+      "md5": "57635f9cff67a83f7c27f04903488af8",
+      "name": "ca-certificates",
+      "sha256": "dc0c7404f8e4dfe355c4c7a4a5b43387292a69854c48319a669cbfa1438a0dcd",
+      "size": 114746,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634577653880,
+      "version": "2021.9.30"
     },
     "cairo-1.16.0-h81ccd62_1.conda": {
       "build": "h81ccd62_1",
