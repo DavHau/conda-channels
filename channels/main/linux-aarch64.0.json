@@ -27543,6 +27543,63 @@
       "timestamp": 1624375962695,
       "version": "1.20.2"
     },
+    "numpy-1.20.3-py37h6fc94f6_0.tar.bz2": {
+      "build": "py37h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.20.3 py37h6ba5a95_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "d3fd8f6eaf7b98fadda98dc4d91ef1de",
+      "name": "numpy",
+      "sha256": "ce010d115adaf24a2aaa282e1834c263c76feb7be3425a243c7f87f698f35099",
+      "size": 8654,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762297395,
+      "version": "1.20.3"
+    },
+    "numpy-1.20.3-py38h6fc94f6_0.tar.bz2": {
+      "build": "py38h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.20.3 py38h6ba5a95_0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "45848061165cad1dc046a551a2e74749",
+      "name": "numpy",
+      "sha256": "494b046e5165088f377cb8622a0694169d7e890660e641b22f0ac52a3536d155",
+      "size": 8655,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634761836819,
+      "version": "1.20.3"
+    },
+    "numpy-1.20.3-py39h6fc94f6_0.tar.bz2": {
+      "build": "py39h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.20.3 py39h6ba5a95_0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "1539b7cf18c5e22726155459335151e0",
+      "name": "numpy",
+      "sha256": "0e5d7a81b7eeb5505777d836bb98c67da172632f2219f9c366dd7e7c2249a483",
+      "size": 8637,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762712230,
+      "version": "1.20.3"
+    },
     "numpy-base-1.16.6-py37h0361ad9_2.tar.bz2": {
       "build": "py37h0361ad9_2",
       "build_number": 2,
@@ -27860,6 +27917,69 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624375953842,
       "version": "1.20.2"
+    },
+    "numpy-base-1.20.3-py37h6ba5a95_0.tar.bz2": {
+      "build": "py37h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.20.3 py37h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "7f9f70404428d13f12bbc43364a159f3",
+      "name": "numpy-base",
+      "sha256": "a6bdf8962cad6363a483539b7f7cc22cd0e3bcb1cfbb92315a3c8ab6fb549608",
+      "size": 5756800,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762288224,
+      "version": "1.20.3"
+    },
+    "numpy-base-1.20.3-py38h6ba5a95_0.tar.bz2": {
+      "build": "py38h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.20.3 py38h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "7c6c42410afbbf15d99ed4ca75b64454",
+      "name": "numpy-base",
+      "sha256": "0c2dc7b99d999e1b6f606bbaf15082b6c2fe99d4e4041ecaac25a96cd4dc7623",
+      "size": 5779487,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634761827364,
+      "version": "1.20.3"
+    },
+    "numpy-base-1.20.3-py39h6ba5a95_0.tar.bz2": {
+      "build": "py39h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.20.3 py39h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "1ac2e81eb99669ed475f86ba21cf089c",
+      "name": "numpy-base",
+      "sha256": "8ac511f3cc418e3ba037c059f94f82fab1291039d0fd08cc301ac7b483a54bfd",
+      "size": 5783136,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762702841,
+      "version": "1.20.3"
     },
     "numpy-devel-1.16.6-py37h0571fa2_2.tar.bz2": {
       "build": "py37h0571fa2_2",
@@ -43272,6 +43392,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623447883377,
       "version": "1.0.5"
+    },
+    "theano-pymc-1.1.2-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "filelock",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=0.14"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "9faf91fe9e4da4d55ff5e4e4a03e7991",
+      "name": "theano-pymc",
+      "sha256": "889373c2ae93c6cb2ffe1158e53c52bc2bfecb88f994b30465a9c8c23c694438",
+      "size": 2288952,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634800033652,
+      "version": "1.1.2"
+    },
+    "theano-pymc-1.1.2-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "filelock",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=0.14"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "f591dd91c847a58ab29c5939822811bf",
+      "name": "theano-pymc",
+      "sha256": "48ff0cd55309ff44194c2dddcec0f684d4e3143f8e4cffe90ecaa70472a0fe46",
+      "size": 2299132,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634800064121,
+      "version": "1.1.2"
+    },
+    "theano-pymc-1.1.2-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "filelock",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=0.14"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "848f93aac18df645199b14e3624d0b6c",
+      "name": "theano-pymc",
+      "sha256": "bd71b598a1a268c4750139c8ac40c45d398c501abb8ae31589864f34680240a1",
+      "size": 2292932,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634800005444,
+      "version": "1.1.2"
     },
     "thinc-7.4.4-py37hc9482bd_0.tar.bz2": {
       "build": "py37hc9482bd_0",
@@ -74408,6 +74588,63 @@
       "timestamp": 1624375962695,
       "version": "1.20.2"
     },
+    "numpy-1.20.3-py37h6fc94f6_0.conda": {
+      "build": "py37h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.20.3 py37h6ba5a95_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "0de0ffa036fbedeca59a0327f1617409",
+      "name": "numpy",
+      "sha256": "df946aa4b7dfc8b29efe20aaaf33bc2a196601e8e1677c4ac1d3e1f1256a928f",
+      "size": 8856,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762297395,
+      "version": "1.20.3"
+    },
+    "numpy-1.20.3-py38h6fc94f6_0.conda": {
+      "build": "py38h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.20.3 py38h6ba5a95_0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "3299dbc7c6b6fb578c21c2fa2f7ec09a",
+      "name": "numpy",
+      "sha256": "214a246c2430e303affcaaa2dbe6c59a9e2ff10cd5c4942547553c615b9cf940",
+      "size": 8857,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634761836819,
+      "version": "1.20.3"
+    },
+    "numpy-1.20.3-py39h6fc94f6_0.conda": {
+      "build": "py39h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.20.3 py39h6ba5a95_0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "573b7e01791953e07f00f829e85c676e",
+      "name": "numpy",
+      "sha256": "7c5328222dab9681c1ee086d14bc10a3436400d6b856b264831e03a0e83758de",
+      "size": 8850,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762712230,
+      "version": "1.20.3"
+    },
     "numpy-base-1.16.6-py37h0361ad9_2.conda": {
       "build": "py37h0361ad9_2",
       "build_number": 2,
@@ -74725,6 +74962,69 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624375953842,
       "version": "1.20.2"
+    },
+    "numpy-base-1.20.3-py37h6ba5a95_0.conda": {
+      "build": "py37h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.20.3 py37h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "6d20028c00bec70bc9e457b5b90b046a",
+      "name": "numpy-base",
+      "sha256": "4d9599d645724ddd3888f072a2fd0526ec22e7241953e03536d247b1fd8c9ffd",
+      "size": 4496441,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762288224,
+      "version": "1.20.3"
+    },
+    "numpy-base-1.20.3-py38h6ba5a95_0.conda": {
+      "build": "py38h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.20.3 py38h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "fe805d98fb02a953a7ed16d2a55009f6",
+      "name": "numpy-base",
+      "sha256": "33439fe3f28c7441c6aea96ae09411092796c006394a20669e45fcccd36aaae0",
+      "size": 4545402,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634761827364,
+      "version": "1.20.3"
+    },
+    "numpy-base-1.20.3-py39h6ba5a95_0.conda": {
+      "build": "py39h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.20.3 py39h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "cff74ed3fb5da1248241e701a213f914",
+      "name": "numpy-base",
+      "sha256": "1ee2d3a3bb9f2f91380d7a30f192f2133b07fada02e3baababe0274c57410bad",
+      "size": 4520071,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634762702841,
+      "version": "1.20.3"
     },
     "numpy-devel-1.16.6-py37h0571fa2_2.conda": {
       "build": "py37h0571fa2_2",
@@ -90120,6 +90420,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623447883377,
       "version": "1.0.5"
+    },
+    "theano-pymc-1.1.2-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "filelock",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=0.14"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "50207f592de1fb07f68a16ad62c7c8db",
+      "name": "theano-pymc",
+      "sha256": "ce7c1f3b65212d313352d22479568f7ff312ff2ccac3c6f694bd36d0e5d77d33",
+      "size": 1910576,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634800033652,
+      "version": "1.1.2"
+    },
+    "theano-pymc-1.1.2-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "filelock",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=0.14"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "603a475099a827e4916b251d29bf5f41",
+      "name": "theano-pymc",
+      "sha256": "249ff3a293d12e4ddfad40e5b5f0b671b4f24863e2d519b60eaf92cac7899999",
+      "size": 1923717,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634800064121,
+      "version": "1.1.2"
+    },
+    "theano-pymc-1.1.2-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "filelock",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=0.14"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "de24c9790c42cb77fff2a9d79b4be5e5",
+      "name": "theano-pymc",
+      "sha256": "86293912341f927c48438c848c1c7d6776e2bd13c68dd1c5747991a3158520dc",
+      "size": 1922299,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634800005444,
+      "version": "1.1.2"
     },
     "thinc-7.4.4-py37hc9482bd_0.conda": {
       "build": "py37hc9482bd_0",
