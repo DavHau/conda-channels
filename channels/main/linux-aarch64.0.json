@@ -33396,6 +33396,63 @@
       "timestamp": 1624629357387,
       "version": "0.6.1"
     },
+    "pyicu-2.7.4-py37head9564_0.tar.bz2": {
+      "build": "py37head9564_0",
+      "build_number": 0,
+      "depends": [
+        "icu >=68.1,<69.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5b75241165fc80a53543133bf2cc9a03",
+      "name": "pyicu",
+      "sha256": "93fab9d2b2c034cf6389523a01d75d757acef2e5932869e76abf9af3a842ea1b",
+      "size": 369645,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634900287702,
+      "version": "2.7.4"
+    },
+    "pyicu-2.7.4-py38head9564_0.tar.bz2": {
+      "build": "py38head9564_0",
+      "build_number": 0,
+      "depends": [
+        "icu >=68.1,<69.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c9de278cc80c767c571583121cbc6635",
+      "name": "pyicu",
+      "sha256": "44c09584d0c4b057bd57d5b5917d4083d4656d804e77ca66e177c0a7ee930713",
+      "size": 370688,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634900364760,
+      "version": "2.7.4"
+    },
+    "pyicu-2.7.4-py39head9564_0.tar.bz2": {
+      "build": "py39head9564_0",
+      "build_number": 0,
+      "depends": [
+        "icu >=68.1,<69.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "96a6e6cc1e2b1f3952b7f18b0294cdf4",
+      "name": "pyicu",
+      "sha256": "6334379db50cc8ffc010672712980e29d00b61d3ef5487039f47c67ac7033e5f",
+      "size": 370407,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634900439505,
+      "version": "2.7.4"
+    },
     "pyinotify-0.9.6-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -33723,6 +33780,24 @@
       "timestamp": 1621556590719,
       "version": "1.3.4"
     },
+    "pykerberos-1.2.1-py37h2f4d8fa_3.tar.bz2": {
+      "build": "py37h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "46276157d778f1e1f22533557fef3907",
+      "name": "pykerberos",
+      "sha256": "66ffd130bd8a46e9f981a9f656ec2b461361276530e2d3f601665f3c7b76aa9a",
+      "size": 25689,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634905100846,
+      "version": "1.2.1"
+    },
     "pykerberos-1.2.1-py37hfd63f10_2.tar.bz2": {
       "build": "py37hfd63f10_2",
       "build_number": 2,
@@ -33740,6 +33815,24 @@
       "timestamp": 1621374828448,
       "version": "1.2.1"
     },
+    "pykerberos-1.2.1-py38h2f4d8fa_3.tar.bz2": {
+      "build": "py38h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "66317d904a6a4c4487547fc79fe8fd2b",
+      "name": "pykerberos",
+      "sha256": "451866d25c47ab27155d7410cd7e7f347d232c14ff591e9eb8b7550dae6ae02f",
+      "size": 25654,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634905082705,
+      "version": "1.2.1"
+    },
     "pykerberos-1.2.1-py38hfd63f10_2.tar.bz2": {
       "build": "py38hfd63f10_2",
       "build_number": 2,
@@ -33755,6 +33848,24 @@
       "size": 25782,
       "subdir": "linux-aarch64",
       "timestamp": 1621374841735,
+      "version": "1.2.1"
+    },
+    "pykerberos-1.2.1-py39h2f4d8fa_3.tar.bz2": {
+      "build": "py39h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "82f099ad4e4b50c496fdf733b15016ff",
+      "name": "pykerberos",
+      "sha256": "f5ef742094873b7ec65f37b6b28684abbd1a69019d339304540aac95d683c00e",
+      "size": 25664,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634905061837,
       "version": "1.2.1"
     },
     "pykerberos-1.2.1-py39hfd63f10_2.tar.bz2": {
@@ -33887,6 +33998,87 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619018093047,
       "version": "2.7.4"
+    },
+    "pymc3-3.11.4-py37hf83f34d_0.tar.bz2": {
+      "build": "py37hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "arviz >=0.11.0",
+        "cachetools >=4.2.1",
+        "dill",
+        "fastprogress >=0.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas >=0.24.0",
+        "patsy >=0.5.1",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.2.0",
+        "semver >=2.13.0",
+        "theano-pymc 1.1.2",
+        "typing-extensions >=3.7.4"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "a2b35d1d9d97b33ede43d0938ceabc10",
+      "name": "pymc3",
+      "sha256": "2016af29b91d6f27c3bcbb014ed90174042ef42be5546dacefd3ef0694485b89",
+      "size": 1102202,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634891992129,
+      "version": "3.11.4"
+    },
+    "pymc3-3.11.4-py38hf83f34d_0.tar.bz2": {
+      "build": "py38hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "arviz >=0.11.0",
+        "cachetools >=4.2.1",
+        "dill",
+        "fastprogress >=0.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas >=0.24.0",
+        "patsy >=0.5.1",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.2.0",
+        "semver >=2.13.0",
+        "theano-pymc 1.1.2",
+        "typing-extensions >=3.7.4"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "7cfc00dcd5adc78db9cd831c74c38957",
+      "name": "pymc3",
+      "sha256": "597dff68cd6df0a91026e0714238e58fc5a05e95c2d229adc27741700c111fd8",
+      "size": 1102993,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634891959449,
+      "version": "3.11.4"
+    },
+    "pymc3-3.11.4-py39hf83f34d_0.tar.bz2": {
+      "build": "py39hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "arviz >=0.11.0",
+        "cachetools >=4.2.1",
+        "dill",
+        "fastprogress >=0.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas >=0.24.0",
+        "patsy >=0.5.1",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.2.0",
+        "semver >=2.13.0",
+        "theano-pymc 1.1.2",
+        "typing-extensions >=3.7.4"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "3f8115a1c7ab4ce15f319b41e75437ff",
+      "name": "pymc3",
+      "sha256": "e0770fa798a77a6000296508455aa71b68012e79c4824f0b24138fda78abc8f7",
+      "size": 1105030,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634892021353,
+      "version": "3.11.4"
     },
     "pymongo-3.11.4-py37h22f4aa5_0.tar.bz2": {
       "build": "py37h22f4aa5_0",
@@ -80441,6 +80633,63 @@
       "timestamp": 1624629357387,
       "version": "0.6.1"
     },
+    "pyicu-2.7.4-py37head9564_0.conda": {
+      "build": "py37head9564_0",
+      "build_number": 0,
+      "depends": [
+        "icu >=68.1,<69.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0c3d266ae9b369f8b2e30e9691589dcc",
+      "name": "pyicu",
+      "sha256": "3e27c525361111cf6dbb01591be88aa2770a91424d23be54b5fcea932f6e1e10",
+      "size": 323745,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634900287702,
+      "version": "2.7.4"
+    },
+    "pyicu-2.7.4-py38head9564_0.conda": {
+      "build": "py38head9564_0",
+      "build_number": 0,
+      "depends": [
+        "icu >=68.1,<69.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9b829dc3f6bfb9990c6877d756c45e0d",
+      "name": "pyicu",
+      "sha256": "79a1a15f35aceba494d2f94da01ec75b84ece710af41ca3210269295597ee794",
+      "size": 324686,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634900364760,
+      "version": "2.7.4"
+    },
+    "pyicu-2.7.4-py39head9564_0.conda": {
+      "build": "py39head9564_0",
+      "build_number": 0,
+      "depends": [
+        "icu >=68.1,<69.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "62fbc4b4daa66e1e83aaf2be40563404",
+      "name": "pyicu",
+      "sha256": "60c049c3b4db05c11720ba5ea16ec0c304093b2587212c6e9121e9170808ed42",
+      "size": 324225,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634900439505,
+      "version": "2.7.4"
+    },
     "pyinotify-0.9.6-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -80768,6 +81017,24 @@
       "timestamp": 1621556590719,
       "version": "1.3.4"
     },
+    "pykerberos-1.2.1-py37h2f4d8fa_3.conda": {
+      "build": "py37h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "7dee3b44eba073f042b7f9d75069b43c",
+      "name": "pykerberos",
+      "sha256": "a3d2590bf485d5d06798a980e094fa6a9ac9f018d6b42598c431f2c0a8d88235",
+      "size": 25513,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634905100846,
+      "version": "1.2.1"
+    },
     "pykerberos-1.2.1-py37hfd63f10_2.conda": {
       "build": "py37hfd63f10_2",
       "build_number": 2,
@@ -80785,6 +81052,24 @@
       "timestamp": 1621374828448,
       "version": "1.2.1"
     },
+    "pykerberos-1.2.1-py38h2f4d8fa_3.conda": {
+      "build": "py38h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2ce57359e8b13900d69f61cf79d18824",
+      "name": "pykerberos",
+      "sha256": "631eaa557499db0f8eb4ee99ad63605df8b9004a1ca4f75e745b7b3770cf2ca4",
+      "size": 25438,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634905082705,
+      "version": "1.2.1"
+    },
     "pykerberos-1.2.1-py38hfd63f10_2.conda": {
       "build": "py38hfd63f10_2",
       "build_number": 2,
@@ -80800,6 +81085,24 @@
       "size": 25711,
       "subdir": "linux-aarch64",
       "timestamp": 1621374841735,
+      "version": "1.2.1"
+    },
+    "pykerberos-1.2.1-py39h2f4d8fa_3.conda": {
+      "build": "py39h2f4d8fa_3",
+      "build_number": 3,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "0c9c29a59098425d271a065fb17be186",
+      "name": "pykerberos",
+      "sha256": "9f49efa624948b36257efcdfb2ca8fd59bc56a4ef6e838b7769cdd472e199f11",
+      "size": 25665,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634905061837,
       "version": "1.2.1"
     },
     "pykerberos-1.2.1-py39hfd63f10_2.conda": {
@@ -80932,6 +81235,87 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619018093047,
       "version": "2.7.4"
+    },
+    "pymc3-3.11.4-py37hf83f34d_0.conda": {
+      "build": "py37hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "arviz >=0.11.0",
+        "cachetools >=4.2.1",
+        "dill",
+        "fastprogress >=0.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas >=0.24.0",
+        "patsy >=0.5.1",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.2.0",
+        "semver >=2.13.0",
+        "theano-pymc 1.1.2",
+        "typing-extensions >=3.7.4"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "7a630610b3978049134137d63eaeac97",
+      "name": "pymc3",
+      "sha256": "70737e0fb769c9db576e91c460d76fc67ddaf6ec6574a0fddf319f2c9085544c",
+      "size": 1025569,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634891992129,
+      "version": "3.11.4"
+    },
+    "pymc3-3.11.4-py38hf83f34d_0.conda": {
+      "build": "py38hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "arviz >=0.11.0",
+        "cachetools >=4.2.1",
+        "dill",
+        "fastprogress >=0.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas >=0.24.0",
+        "patsy >=0.5.1",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.2.0",
+        "semver >=2.13.0",
+        "theano-pymc 1.1.2",
+        "typing-extensions >=3.7.4"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "92e58893752dd0d7f364a303b668af23",
+      "name": "pymc3",
+      "sha256": "2aacf8658531d9de6fd73a336b5622e33a9b3fc57c65ead286e5c3676d229aba",
+      "size": 1032115,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634891959449,
+      "version": "3.11.4"
+    },
+    "pymc3-3.11.4-py39hf83f34d_0.conda": {
+      "build": "py39hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "arviz >=0.11.0",
+        "cachetools >=4.2.1",
+        "dill",
+        "fastprogress >=0.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas >=0.24.0",
+        "patsy >=0.5.1",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.2.0",
+        "semver >=2.13.0",
+        "theano-pymc 1.1.2",
+        "typing-extensions >=3.7.4"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2bae2708ab3dcabf7e0d0c507f361f4d",
+      "name": "pymc3",
+      "sha256": "d0aa7fb5f530bcad96263579cd4abed325cbb8590296c1afe6c79702bb0c94dc",
+      "size": 1031478,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634892021353,
+      "version": "3.11.4"
     },
     "pymongo-3.11.4-py37h22f4aa5_0.conda": {
       "build": "py37h22f4aa5_0",
