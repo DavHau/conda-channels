@@ -27135,6 +27135,93 @@
       "timestamp": 1619273976608,
       "version": "0.53.1"
     },
+    "numba-0.54.1-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "scipy >=1.0",
+        "tbb  >=2021.0",
+        "cudatoolkit >=9.0",
+        "numpy >=1.17,<1.21"
+      ],
+      "depends": [
+        "_openmp_mutex >=5.1",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "llvmlite >=0.37.0,<0.38.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools",
+        "tbb >=2021.4.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "e044efb11780d43c7ef31d87d05f5455",
+      "name": "numba",
+      "sha256": "f7568864777dd5bd2b60dc402272e69b6a605e843c3039e539ae60cc5aabbed5",
+      "size": 3878954,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635177526074,
+      "version": "0.54.1"
+    },
+    "numba-0.54.1-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "scipy >=1.0",
+        "tbb  >=2021.0",
+        "cudatoolkit >=9.0",
+        "numpy >=1.17,<1.21"
+      ],
+      "depends": [
+        "_openmp_mutex >=5.1",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "llvmlite >=0.37.0,<0.38.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools",
+        "tbb >=2021.4.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "19b7de1dfa6380a5d49a119d40c7bf18",
+      "name": "numba",
+      "sha256": "5ae4b2e8adf6fa57f90e452604ab5c5ed5b1e8557a3a4f6d3848dacd56af6120",
+      "size": 3878971,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635176916066,
+      "version": "0.54.1"
+    },
+    "numba-0.54.1-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "scipy >=1.0",
+        "tbb  >=2021.0",
+        "cudatoolkit >=9.0",
+        "numpy >=1.17,<1.21"
+      ],
+      "depends": [
+        "_openmp_mutex >=5.1",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "llvmlite >=0.37.0,<0.38.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "setuptools",
+        "tbb >=2021.4.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "f098ffb952750bd7871c80f049833f29",
+      "name": "numba",
+      "sha256": "66cee671413c69f49c2b4be4e4fc5da48fe827977344cd476b4ac1b57c20dabd",
+      "size": 3885363,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635177236854,
+      "version": "0.54.1"
+    },
     "numcodecs-0.7.3-py37h22f4aa5_0.tar.bz2": {
       "build": "py37h22f4aa5_0",
       "build_number": 0,
@@ -74488,6 +74575,93 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619273976608,
       "version": "0.53.1"
+    },
+    "numba-0.54.1-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "scipy >=1.0",
+        "tbb  >=2021.0",
+        "cudatoolkit >=9.0",
+        "numpy >=1.17,<1.21"
+      ],
+      "depends": [
+        "_openmp_mutex >=5.1",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "llvmlite >=0.37.0,<0.38.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools",
+        "tbb >=2021.4.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "ff9eb7772f26fe460a107d5704eb133d",
+      "name": "numba",
+      "sha256": "dc17bdc55621e7f47abfd9f7123c4c37ed6c56530f8f2695849e0902c447884c",
+      "size": 3447495,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635177526074,
+      "version": "0.54.1"
+    },
+    "numba-0.54.1-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "scipy >=1.0",
+        "tbb  >=2021.0",
+        "cudatoolkit >=9.0",
+        "numpy >=1.17,<1.21"
+      ],
+      "depends": [
+        "_openmp_mutex >=5.1",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "llvmlite >=0.37.0,<0.38.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools",
+        "tbb >=2021.4.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "f86e855497b2bbb2d0de5bf25013da5a",
+      "name": "numba",
+      "sha256": "df9728fbf9973ecdf92ae50872387d138b16540df0e41d0e6b6baa6e42b45074",
+      "size": 3472342,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635176916066,
+      "version": "0.54.1"
+    },
+    "numba-0.54.1-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "scipy >=1.0",
+        "tbb  >=2021.0",
+        "cudatoolkit >=9.0",
+        "numpy >=1.17,<1.21"
+      ],
+      "depends": [
+        "_openmp_mutex >=5.1",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "llvmlite >=0.37.0,<0.38.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "setuptools",
+        "tbb >=2021.4.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "4339b1648ca85326869efd754c861143",
+      "name": "numba",
+      "sha256": "822a1f9d489e271968ac656fca6d8999a70c818e2f16f95ac2408a47779aa94c",
+      "size": 3475928,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635177236854,
+      "version": "0.54.1"
     },
     "numcodecs-0.7.3-py37h22f4aa5_0.conda": {
       "build": "py37h22f4aa5_0",
