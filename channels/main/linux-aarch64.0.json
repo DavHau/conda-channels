@@ -5657,6 +5657,20 @@
       "timestamp": 1624473683336,
       "version": "19.1.0"
     },
+    "armpl-21.0-h9cd91d8_1.tar.bz2": {
+      "build": "h9cd91d8_1",
+      "build_number": 1,
+      "depends": [],
+      "license": "Arm Performance Libraries (free version) EULA",
+      "license_family": "OTHER",
+      "md5": "71fad39a0e811051588450215e970663",
+      "name": "armpl",
+      "sha256": "8b65d3f887e7539cecb7207cd2fb56d2500dbb339cf7560346c9049f0c8049dc",
+      "size": 152892269,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634130293542,
+      "version": "21.0"
+    },
     "arrow-0.13.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -28068,6 +28082,60 @@
       "timestamp": 1634762702841,
       "version": "1.20.3"
     },
+    "numpy-base-1.21.2-py37hd50e328_0.tar.bz2": {
+      "build": "py37hd50e328_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "f99bece0579ea5414e6a862c710de9f9",
+      "name": "numpy-base",
+      "sha256": "cffba208f2e2f06ad649e68dbd0b7a49465998f5f9a0990e684271c045982542",
+      "size": 6149720,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634131957398,
+      "version": "1.21.2"
+    },
+    "numpy-base-1.21.2-py38hd50e328_0.tar.bz2": {
+      "build": "py38hd50e328_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "963179a6f1809b06871b4e563f09a254",
+      "name": "numpy-base",
+      "sha256": "4b0d789534edb5de15721966029dbadc997bafb523c5f4fee58653ceb5a722c6",
+      "size": 6166343,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634131507966,
+      "version": "1.21.2"
+    },
+    "numpy-base-1.21.2-py39hd50e328_0.tar.bz2": {
+      "build": "py39hd50e328_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "55aceaf26aaa4742d6fc5d2be6319091",
+      "name": "numpy-base",
+      "sha256": "3b068b03fc263b075aaed70e7136a3448874c24cb0d0bdc732c486cb892167aa",
+      "size": 6117636,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634131052370,
+      "version": "1.21.2"
+    },
     "numpy-devel-1.16.6-py37h0571fa2_2.tar.bz2": {
       "build": "py37h0571fa2_2",
       "build_number": 2,
@@ -39260,6 +39328,75 @@
       "subdir": "linux-aarch64",
       "timestamp": 1629933779381,
       "version": "0.24.2"
+    },
+    "scikit-learn-1.0.1-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "ffacf94ce235cf94e6c87b9e0fb71cbf",
+      "name": "scikit-learn",
+      "sha256": "5bbe19959eefa3409a0b7ec9bf3a88df23293c9fa15e5c9815da1c7fb6a28afd",
+      "size": 7722816,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635349074907,
+      "version": "1.0.1"
+    },
+    "scikit-learn-1.0.1-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "0761bf47fb20eeab811942936c22c37f",
+      "name": "scikit-learn",
+      "sha256": "6a4d2989deed6bffbc19a0db271fa4a4411c1848b2fbb6cb5e73cd9ce78e1329",
+      "size": 7832125,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635350947623,
+      "version": "1.0.1"
+    },
+    "scikit-learn-1.0.1-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "ffb63e1573878bca7478fa40a7d091df",
+      "name": "scikit-learn",
+      "sha256": "8dde0bda91b839cbec41acb15dbfcb3814760cf7c9273e50d20f33df9de5e3a3",
+      "size": 7796455,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635350029775,
+      "version": "1.0.1"
     },
     "scipy-1.6.1-py37h0c56726_0.tar.bz2": {
       "build": "py37h0c56726_0",
@@ -75509,6 +75646,60 @@
       "timestamp": 1634762702841,
       "version": "1.20.3"
     },
+    "numpy-base-1.21.2-py37hd50e328_0.conda": {
+      "build": "py37hd50e328_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "edc9e6ed583309916296ae56736548ea",
+      "name": "numpy-base",
+      "sha256": "fb067980323f3d1cd19552fcc1247e5cb65b43392fba1d8712eaeba50068f768",
+      "size": 4735639,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634131957398,
+      "version": "1.21.2"
+    },
+    "numpy-base-1.21.2-py38hd50e328_0.conda": {
+      "build": "py38hd50e328_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "8b64f0a21dfb70e171c4b442208b9dc4",
+      "name": "numpy-base",
+      "sha256": "dc724ac2ed6029faed5e736dc9da7fb4a43a3fefbba0b4c6b59f5b4b459d9050",
+      "size": 4791132,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634131507966,
+      "version": "1.21.2"
+    },
+    "numpy-base-1.21.2-py39hd50e328_0.conda": {
+      "build": "py39hd50e328_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "36912730c6fd112ae051a2f51dd3a7ee",
+      "name": "numpy-base",
+      "sha256": "79affca4a47aa63bd4eeb2521289bc225e805c6d50a3759da634be8c83286d0a",
+      "size": 4767922,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634131052370,
+      "version": "1.21.2"
+    },
     "numpy-devel-1.16.6-py37h0571fa2_2.conda": {
       "build": "py37h0571fa2_2",
       "build_number": 2,
@@ -86684,6 +86875,75 @@
       "subdir": "linux-aarch64",
       "timestamp": 1629933779381,
       "version": "0.24.2"
+    },
+    "scikit-learn-1.0.1-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "01269632aa328f74681d6ae687458710",
+      "name": "scikit-learn",
+      "sha256": "9d4b077a281a8e9078c490b252317e6f7b7f91d5cfc4050b4a312a3a702aa8f6",
+      "size": 5676225,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635349074907,
+      "version": "1.0.1"
+    },
+    "scikit-learn-1.0.1-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "32ac1534fe97cbee3bae6ce0863787c8",
+      "name": "scikit-learn",
+      "sha256": "944e483382d3a9a16f880bc2656d58cce6cb324a1d512acbf19bd074ac8ddc72",
+      "size": 5796033,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635350947623,
+      "version": "1.0.1"
+    },
+    "scikit-learn-1.0.1-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "30ab0b1c4accf9714aecf6fde79db9d4",
+      "name": "scikit-learn",
+      "sha256": "70b49752232da044351b723ae063f348ed35a000cdf045520d4e605757ddd29f",
+      "size": 5787388,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635350029775,
+      "version": "1.0.1"
     },
     "scipy-1.6.1-py37h0c56726_0.conda": {
       "build": "py37h0c56726_0",
