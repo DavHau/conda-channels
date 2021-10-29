@@ -15228,6 +15228,23 @@
       "timestamp": 1613884782056,
       "version": "2.10.4"
     },
+    "freetype-2.11.0-hb3ad586_0.tar.bz2": {
+      "build": "hb3ad586_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "GPL-2.0-only and LicenseRef-FreeType",
+      "md5": "103fa9c75de295325939e3d104b58a4d",
+      "name": "freetype",
+      "sha256": "3c9a3d1d90743ac95707ce74928f94dc06a95e1f07a385bfe6140acba76e1dcd",
+      "size": 1038746,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635493441726,
+      "version": "2.11.0"
+    },
     "freexl-1.0.6-h2f4d8fa_0.tar.bz2": {
       "build": "h2f4d8fa_0",
       "build_number": 0,
@@ -18698,6 +18715,135 @@
       "timestamp": 1629750731251,
       "version": "2021.6.8"
     },
+    "imagecodecs-2021.8.26-py37h586b9b7_0.tar.bz2": {
+      "build": "py37h586b9b7_0",
+      "build_number": 0,
+      "depends": [
+        "blosc >=1.21.0,<2.0a0",
+        "brotli >=1.0.9,<1.1.0a0",
+        "brotli >=1.0.9,<2.0a0",
+        "brunsli >=0.1,<1.0a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "cfitsio >=3.470,<3.471.0a0",
+        "charls >=2.2.0,<2.3.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "jpeg >=9d,<10a",
+        "jxrlib >=1.1,<1.2.0a0",
+        "lcms2 >=2.12,<3.0a0",
+        "lerc >=3.0,<4.0a0",
+        "libaec >=1.0.4,<2.0a0",
+        "libdeflate >=1.7,<1.8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libzopfli >=1.0.3,<1.1.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "python >=3.7,<3.8.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "835c74148789b9a042e6dcb0534483e4",
+      "name": "imagecodecs",
+      "sha256": "11b886d9994cebb2b040374501d0ad5caf91a61c4154feacf2f61d904b5e8e62",
+      "size": 7121213,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635529354921,
+      "version": "2021.8.26"
+    },
+    "imagecodecs-2021.8.26-py38h586b9b7_0.tar.bz2": {
+      "build": "py38h586b9b7_0",
+      "build_number": 0,
+      "depends": [
+        "blosc >=1.21.0,<2.0a0",
+        "brotli >=1.0.9,<1.1.0a0",
+        "brotli >=1.0.9,<2.0a0",
+        "brunsli >=0.1,<1.0a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "cfitsio >=3.470,<3.471.0a0",
+        "charls >=2.2.0,<2.3.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "jpeg >=9d,<10a",
+        "jxrlib >=1.1,<1.2.0a0",
+        "lcms2 >=2.12,<3.0a0",
+        "lerc >=3.0,<4.0a0",
+        "libaec >=1.0.4,<2.0a0",
+        "libdeflate >=1.7,<1.8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libzopfli >=1.0.3,<1.1.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "python >=3.8,<3.9.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "e977cb8334fe64fcfffc1579a6bf1c94",
+      "name": "imagecodecs",
+      "sha256": "7cf91b6d2893e21b6f73233454e33b02fd20a13cc4a8f3873e0a2852b1850592",
+      "size": 7194018,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635530084952,
+      "version": "2021.8.26"
+    },
+    "imagecodecs-2021.8.26-py39h586b9b7_0.tar.bz2": {
+      "build": "py39h586b9b7_0",
+      "build_number": 0,
+      "depends": [
+        "blosc >=1.21.0,<2.0a0",
+        "brotli >=1.0.9,<1.1.0a0",
+        "brotli >=1.0.9,<2.0a0",
+        "brunsli >=0.1,<1.0a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "cfitsio >=3.470,<3.471.0a0",
+        "charls >=2.2.0,<2.3.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "jpeg >=9d,<10a",
+        "jxrlib >=1.1,<1.2.0a0",
+        "lcms2 >=2.12,<3.0a0",
+        "lerc >=3.0,<4.0a0",
+        "libaec >=1.0.4,<2.0a0",
+        "libdeflate >=1.7,<1.8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libzopfli >=1.0.3,<1.1.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "python >=3.9,<3.10.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "154b7ff67c56a86864e82770e68d3e23",
+      "name": "imagecodecs",
+      "sha256": "647800f575a64ef99beb4995ab0f72f99be064115370c3c37bca90a8efd25636",
+      "size": 7110598,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635529717031,
+      "version": "2021.8.26"
+    },
     "iminuit-2.6.1-py37h22f4aa5_0.tar.bz2": {
       "build": "py37h22f4aa5_0",
       "build_number": 0,
@@ -21135,6 +21281,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615931951592,
       "version": "2.2.1"
+    },
+    "lerc-3.0-h22f4aa5_0.tar.bz2": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "29b9af942018090af65646982052c252",
+      "name": "lerc",
+      "sha256": "93e766dd20a0e1678a2dbd64f7f66fbc929e1213e00c2ed693d18341a6b971e7",
+      "size": 207916,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635523433166,
+      "version": "3.0"
     },
     "leveldb-1.22-h22f4aa5_0.tar.bz2": {
       "build": "h22f4aa5_0",
@@ -26442,6 +26605,21 @@
       "timestamp": 1614917490100,
       "version": "6.2"
     },
+    "ncurses-6.3-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "Free software (MIT-like)",
+      "md5": "40f684686ea65d79d4fe911c02317e06",
+      "name": "ncurses",
+      "sha256": "1ee664c36e28402db03a56d18f1c550280f587ee460412c66ab97a49477ead92",
+      "size": 1142344,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635499723812,
+      "version": "6.3"
+    },
     "neo4j-python-driver-4.2.1-py37h2f4d8fa_0.tar.bz2": {
       "build": "py37h2f4d8fa_0",
       "build_number": 0,
@@ -27148,6 +27326,135 @@
       "timestamp": 1629930913533,
       "type": "app",
       "version": "6.4.3"
+    },
+    "notebook-6.4.5-py37hd43f75c_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "prometheus_client",
+        "python >=3.7,<3.8.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.5.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "f26feba8a0025c10142d7c300d1f121a",
+      "name": "notebook",
+      "sha256": "ce55d0e0667400b48a658f5bc02b1c9c02886e2decbb70a07b7349a92fc3d089",
+      "size": 6815365,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1635504767095,
+      "type": "app",
+      "version": "6.4.5"
+    },
+    "notebook-6.4.5-py38hd43f75c_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "prometheus_client",
+        "python >=3.8,<3.9.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.5.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c17010788564ac575415db12e72c93c1",
+      "name": "notebook",
+      "sha256": "4749c7aa10c2bbba16e39d3dfe730ccb04de60499830675c41e0f5584b72a247",
+      "size": 6817417,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1635504812637,
+      "type": "app",
+      "version": "6.4.5"
+    },
+    "notebook-6.4.5-py39hd43f75c_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "prometheus_client",
+        "python >=3.9,<3.10.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.5.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "7b9a56d57bae304f7a174bae9359e243",
+      "name": "notebook",
+      "sha256": "18a3d11645cfa3a96660d83f1b7c6ab545e585a27fe4993463e995502c0ec2a4",
+      "size": 6817348,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1635504857424,
+      "type": "app",
+      "version": "6.4.5"
     },
     "nspr-4.28-h7c1a80f_0.tar.bz2": {
       "build": "h7c1a80f_0",
@@ -28002,6 +28309,63 @@
       "timestamp": 1634762712230,
       "version": "1.20.3"
     },
+    "numpy-1.21.2-py37h6fc94f6_0.tar.bz2": {
+      "build": "py37h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.21.2 py37h6ba5a95_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "5741c49e45741ba4034d9d90f8c74c19",
+      "name": "numpy",
+      "sha256": "64cd83c1da8c457e0a9fd5b30bfacd322486c9010b459c7fc104a559dac959a8",
+      "size": 11454,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328807858,
+      "version": "1.21.2"
+    },
+    "numpy-1.21.2-py38h6fc94f6_0.tar.bz2": {
+      "build": "py38h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.21.2 py38h6ba5a95_0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "405f1e6a9f6254201b6d3ac95846d676",
+      "name": "numpy",
+      "sha256": "fd16dabbdcce01a5bd8799f35f670cdaddf0ea3007793acc51f7bd917a80f7f1",
+      "size": 11451,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328345505,
+      "version": "1.21.2"
+    },
+    "numpy-1.21.2-py39h6fc94f6_0.tar.bz2": {
+      "build": "py39h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.21.2 py39h6ba5a95_0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "af753f807d3c3387f1502f1c59c63b8e",
+      "name": "numpy",
+      "sha256": "de36fa98a2655d3b8e5d5f257251e76ac147834fc7c5859efcb876573d0a0f13",
+      "size": 11457,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635329230410,
+      "version": "1.21.2"
+    },
     "numpy-base-1.16.6-py37h0361ad9_2.tar.bz2": {
       "build": "py37h0361ad9_2",
       "build_number": 2,
@@ -28383,6 +28747,27 @@
       "timestamp": 1634762702841,
       "version": "1.20.3"
     },
+    "numpy-base-1.21.2-py37h6ba5a95_0.tar.bz2": {
+      "build": "py37h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.21.2 py37h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "0c389eb7c42c98b371cb0742de15b26d",
+      "name": "numpy-base",
+      "sha256": "ce2ade47f1b0552b22873a8c51dd57fd0b5bf612ced959f072227ff04a590e4b",
+      "size": 6101888,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328796494,
+      "version": "1.21.2"
+    },
     "numpy-base-1.21.2-py37hd50e328_0.tar.bz2": {
       "build": "py37hd50e328_0",
       "build_number": 0,
@@ -28401,6 +28786,27 @@
       "timestamp": 1634131957398,
       "version": "1.21.2"
     },
+    "numpy-base-1.21.2-py38h6ba5a95_0.tar.bz2": {
+      "build": "py38h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.21.2 py38h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "0ee18ee9e91cf849f7bace633fbdeeac",
+      "name": "numpy-base",
+      "sha256": "8c384480d628b689d4048ab9ca96005ff5a81e955afd2bdc575e299b93b70912",
+      "size": 6140995,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328334091,
+      "version": "1.21.2"
+    },
     "numpy-base-1.21.2-py38hd50e328_0.tar.bz2": {
       "build": "py38hd50e328_0",
       "build_number": 0,
@@ -28417,6 +28823,27 @@
       "size": 6166343,
       "subdir": "linux-aarch64",
       "timestamp": 1634131507966,
+      "version": "1.21.2"
+    },
+    "numpy-base-1.21.2-py39h6ba5a95_0.tar.bz2": {
+      "build": "py39h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.21.2 py39h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "3e3700900f48ab2c104b1fb953a8726f",
+      "name": "numpy-base",
+      "sha256": "004817989da61b635f3daf5e350bcc8e23b3a75a4ac9d84482b54738e6507c70",
+      "size": 6086132,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635329218675,
       "version": "1.21.2"
     },
     "numpy-base-1.21.2-py39hd50e328_0.tar.bz2": {
@@ -53799,6 +54226,20 @@
       "timestamp": 1624473683336,
       "version": "19.1.0"
     },
+    "armpl-21.0-h9cd91d8_1.conda": {
+      "build": "h9cd91d8_1",
+      "build_number": 1,
+      "depends": [],
+      "license": "Arm Performance Libraries (free version) EULA",
+      "license_family": "OTHER",
+      "md5": "7485431c5c2ce3891bd4ce1ba49e61a1",
+      "name": "armpl",
+      "sha256": "a8b98c2a546d9b037d26731d02818789f4175d83e712e131137ea542137c37f2",
+      "size": 53031800,
+      "subdir": "linux-aarch64",
+      "timestamp": 1634130293542,
+      "version": "21.0"
+    },
     "arrow-0.13.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -63156,6 +63597,23 @@
       "timestamp": 1613884782056,
       "version": "2.10.4"
     },
+    "freetype-2.11.0-hb3ad586_0.conda": {
+      "build": "hb3ad586_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "GPL-2.0-only and LicenseRef-FreeType",
+      "md5": "c518013ab615631d2c4331930bc46568",
+      "name": "freetype",
+      "sha256": "fa3944b88f748594d1bebae063f4b7dccbdac5e682347a77f3e5d5c92b9df46d",
+      "size": 648968,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635493441726,
+      "version": "2.11.0"
+    },
     "freexl-1.0.6-h2f4d8fa_0.conda": {
       "build": "h2f4d8fa_0",
       "build_number": 0,
@@ -66626,6 +67084,135 @@
       "timestamp": 1629750731251,
       "version": "2021.6.8"
     },
+    "imagecodecs-2021.8.26-py37h586b9b7_0.conda": {
+      "build": "py37h586b9b7_0",
+      "build_number": 0,
+      "depends": [
+        "blosc >=1.21.0,<2.0a0",
+        "brotli >=1.0.9,<1.1.0a0",
+        "brotli >=1.0.9,<2.0a0",
+        "brunsli >=0.1,<1.0a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "cfitsio >=3.470,<3.471.0a0",
+        "charls >=2.2.0,<2.3.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "jpeg >=9d,<10a",
+        "jxrlib >=1.1,<1.2.0a0",
+        "lcms2 >=2.12,<3.0a0",
+        "lerc >=3.0,<4.0a0",
+        "libaec >=1.0.4,<2.0a0",
+        "libdeflate >=1.7,<1.8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libzopfli >=1.0.3,<1.1.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "python >=3.7,<3.8.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5b3dcd45d14913fc2b178b5586ad2b99",
+      "name": "imagecodecs",
+      "sha256": "1dfed2e661e54b90236829096e25769d85fb95dbf626b2c24904262a686bec30",
+      "size": 6260550,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635529354921,
+      "version": "2021.8.26"
+    },
+    "imagecodecs-2021.8.26-py38h586b9b7_0.conda": {
+      "build": "py38h586b9b7_0",
+      "build_number": 0,
+      "depends": [
+        "blosc >=1.21.0,<2.0a0",
+        "brotli >=1.0.9,<1.1.0a0",
+        "brotli >=1.0.9,<2.0a0",
+        "brunsli >=0.1,<1.0a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "cfitsio >=3.470,<3.471.0a0",
+        "charls >=2.2.0,<2.3.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "jpeg >=9d,<10a",
+        "jxrlib >=1.1,<1.2.0a0",
+        "lcms2 >=2.12,<3.0a0",
+        "lerc >=3.0,<4.0a0",
+        "libaec >=1.0.4,<2.0a0",
+        "libdeflate >=1.7,<1.8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libzopfli >=1.0.3,<1.1.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "python >=3.8,<3.9.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "a2e4b132cf0d679019cddcd17ca9970c",
+      "name": "imagecodecs",
+      "sha256": "e55e4379f643d8f5c8314d1d7f5bbad20a9762ecff4fe16251610d2b1c1ba818",
+      "size": 6322250,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635530084952,
+      "version": "2021.8.26"
+    },
+    "imagecodecs-2021.8.26-py39h586b9b7_0.conda": {
+      "build": "py39h586b9b7_0",
+      "build_number": 0,
+      "depends": [
+        "blosc >=1.21.0,<2.0a0",
+        "brotli >=1.0.9,<1.1.0a0",
+        "brotli >=1.0.9,<2.0a0",
+        "brunsli >=0.1,<1.0a0",
+        "bzip2 >=1.0.8,<2.0a0",
+        "cfitsio >=3.470,<3.471.0a0",
+        "charls >=2.2.0,<2.3.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "jpeg >=9d,<10a",
+        "jxrlib >=1.1,<1.2.0a0",
+        "lcms2 >=2.12,<3.0a0",
+        "lerc >=3.0,<4.0a0",
+        "libaec >=1.0.4,<2.0a0",
+        "libdeflate >=1.7,<1.8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp >=1.2.0,<1.3.0a0",
+        "libzopfli >=1.0.3,<1.1.0a0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "python >=3.9,<3.10.0a0",
+        "snappy >=1.1.8,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5b95dc3d7dc2923501dbd60f652d4e2e",
+      "name": "imagecodecs",
+      "sha256": "fb6125bb90ad47773a05f9177bc01d8d8ae6a5c51c7fba5745b8b764116963f8",
+      "size": 6307900,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635529717031,
+      "version": "2021.8.26"
+    },
     "iminuit-2.6.1-py37h22f4aa5_0.conda": {
       "build": "py37h22f4aa5_0",
       "build_number": 0,
@@ -69063,6 +69650,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615931951592,
       "version": "2.2.1"
+    },
+    "lerc-3.0-h22f4aa5_0.conda": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "3677a567f13cc2847898a9eb42d0579f",
+      "name": "lerc",
+      "sha256": "dd4e106666b8104d7c4bcaab419ff6bda8ae1c0f360cbe10bd18f41b0eb50140",
+      "size": 173418,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635523433166,
+      "version": "3.0"
     },
     "leveldb-1.22-h22f4aa5_0.conda": {
       "build": "h22f4aa5_0",
@@ -74370,6 +74974,21 @@
       "timestamp": 1614917490100,
       "version": "6.2"
     },
+    "ncurses-6.3-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "Free software (MIT-like)",
+      "md5": "4fce9aa7c5b77f85a60a6404f05a864f",
+      "name": "ncurses",
+      "sha256": "8b7f293c86efa2b72e4240b89ff40f2f84b4b14bf0f75685baea0a71c5c2e9d4",
+      "size": 829914,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635499723812,
+      "version": "6.3"
+    },
     "neo4j-python-driver-4.2.1-py37h2f4d8fa_0.conda": {
       "build": "py37h2f4d8fa_0",
       "build_number": 0,
@@ -75076,6 +75695,135 @@
       "timestamp": 1629930913533,
       "type": "app",
       "version": "6.4.3"
+    },
+    "notebook-6.4.5-py37hd43f75c_0.conda": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "prometheus_client",
+        "python >=3.7,<3.8.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.5.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "d0b8e6886ea3f4622d2fe45a03750d9b",
+      "name": "notebook",
+      "sha256": "71bb0a474e6b5d16c22d66041cd377ca382e114e14c5ecbccf393d0453bad451",
+      "size": 4378315,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1635504767095,
+      "type": "app",
+      "version": "6.4.5"
+    },
+    "notebook-6.4.5-py38hd43f75c_0.conda": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "prometheus_client",
+        "python >=3.8,<3.9.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.5.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "d58e4b0df0d86545e98ea10b9de776cd",
+      "name": "notebook",
+      "sha256": "3020bd7e390d9dc63eea25d9a5d90443aa2dce002caae0d279d02bbf8694a68d",
+      "size": 4378907,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1635504812637,
+      "type": "app",
+      "version": "6.4.5"
+    },
+    "notebook-6.4.5-py39hd43f75c_0.conda": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "prometheus_client",
+        "python >=3.9,<3.10.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.5.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5a2904782db7b8810554aa3a3fd6d42e",
+      "name": "notebook",
+      "sha256": "dc4f23afd24b12bd8f9f7f8303ac194198ae1f1c556bec7c362209089cb3baba",
+      "size": 4381609,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1635504857424,
+      "type": "app",
+      "version": "6.4.5"
     },
     "nspr-4.28-h7c1a80f_0.conda": {
       "build": "h7c1a80f_0",
@@ -75930,6 +76678,63 @@
       "timestamp": 1634762712230,
       "version": "1.20.3"
     },
+    "numpy-1.21.2-py37h6fc94f6_0.conda": {
+      "build": "py37h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.21.2 py37h6ba5a95_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "84b59f74a7035ceab5e9c462d175d0e9",
+      "name": "numpy",
+      "sha256": "851fa2ffafcecbbdd6c622727b48ec8e3037f010b9427b76e5386c0643852774",
+      "size": 11943,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328807858,
+      "version": "1.21.2"
+    },
+    "numpy-1.21.2-py38h6fc94f6_0.conda": {
+      "build": "py38h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.21.2 py38h6ba5a95_0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "60cd24a950ca3e67a5a65269347af56c",
+      "name": "numpy",
+      "sha256": "d1c1d730b0a196debad1d44b2f7405501404febb8fd6a8f4fdd904828045cddc",
+      "size": 11952,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328345505,
+      "version": "1.21.2"
+    },
+    "numpy-1.21.2-py39h6fc94f6_0.conda": {
+      "build": "py39h6fc94f6_0",
+      "build_number": 0,
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "numpy-base 1.21.2 py39h6ba5a95_0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "69cb93eaaeb8a981786e46ad156a2972",
+      "name": "numpy",
+      "sha256": "5b45f51083442649955666779c097e091850a73241a14966169f08ea9df8d7d9",
+      "size": 11936,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635329230410,
+      "version": "1.21.2"
+    },
     "numpy-base-1.16.6-py37h0361ad9_2.conda": {
       "build": "py37h0361ad9_2",
       "build_number": 2,
@@ -76311,6 +77116,27 @@
       "timestamp": 1634762702841,
       "version": "1.20.3"
     },
+    "numpy-base-1.21.2-py37h6ba5a95_0.conda": {
+      "build": "py37h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.21.2 py37h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "83bd64130879d7e1454e341aea744c90",
+      "name": "numpy-base",
+      "sha256": "932808839d6944a36d22d687111d2250cf46fb0ad602425b4a349bff049c6031",
+      "size": 4762199,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328796494,
+      "version": "1.21.2"
+    },
     "numpy-base-1.21.2-py37hd50e328_0.conda": {
       "build": "py37hd50e328_0",
       "build_number": 0,
@@ -76329,6 +77155,27 @@
       "timestamp": 1634131957398,
       "version": "1.21.2"
     },
+    "numpy-base-1.21.2-py38h6ba5a95_0.conda": {
+      "build": "py38h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.21.2 py38h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "44ebcf017e91fdf9d8aa09b27d0c4196",
+      "name": "numpy-base",
+      "sha256": "e1c052fb036067cd65e3884fae95119f83fe5befea0bdf71774c444b554ca610",
+      "size": 4812224,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635328334091,
+      "version": "1.21.2"
+    },
     "numpy-base-1.21.2-py38hd50e328_0.conda": {
       "build": "py38hd50e328_0",
       "build_number": 0,
@@ -76345,6 +77192,27 @@
       "size": 4791132,
       "subdir": "linux-aarch64",
       "timestamp": 1634131507966,
+      "version": "1.21.2"
+    },
+    "numpy-base-1.21.2-py39h6ba5a95_0.conda": {
+      "build": "py39h6ba5a95_0",
+      "build_number": 0,
+      "constrains": [
+        "numpy 1.21.2 py39h6fc94f6_0"
+      ],
+      "depends": [
+        "blas * openblas",
+        "libgcc-ng >=10.2.0",
+        "libopenblas >=0.3.10,<1.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "5c2fe797a38054b7ecb4d207098a2deb",
+      "name": "numpy-base",
+      "sha256": "96ef75d3b6d30fffdf9a36e267256818e0902be52806cc75d8da4b3498a50fdb",
+      "size": 4788780,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635329218675,
       "version": "1.21.2"
     },
     "numpy-base-1.21.2-py39hd50e328_0.conda": {
