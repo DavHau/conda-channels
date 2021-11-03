@@ -19832,6 +19832,84 @@
       "timestamp": 1632147431845,
       "version": "7.27.0"
     },
+    "ipython-7.29.0-py37hf83f34d_0.tar.bz2": {
+      "build": "py37hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "backcall",
+        "decorator",
+        "jedi >=0.16,<1.0",
+        "matplotlib-inline >=0.1.2",
+        "pexpect >4.3",
+        "pickleshare",
+        "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+        "pygments",
+        "python >=3.7,<3.8.0a0",
+        "setuptools >=18.5",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "aaa19364c604ca317d819ce69090bd77",
+      "name": "ipython",
+      "sha256": "a3ab22a30fce34240c7facac621a0573f9ae0465f519e80b2bdb25e2478e5947",
+      "size": 1181913,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635944860414,
+      "version": "7.29.0"
+    },
+    "ipython-7.29.0-py38hf83f34d_0.tar.bz2": {
+      "build": "py38hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "backcall",
+        "decorator",
+        "jedi >=0.16,<1.0",
+        "matplotlib-inline >=0.1.2",
+        "pexpect >4.3",
+        "pickleshare",
+        "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+        "pygments",
+        "python >=3.8,<3.9.0a0",
+        "setuptools >=18.5",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "d53aaa611a27430fecd2eee3ff46a308",
+      "name": "ipython",
+      "sha256": "f4847019caeb34341bf10808eedc880e42e714406f3067228019177c9c80752b",
+      "size": 1182740,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635944951962,
+      "version": "7.29.0"
+    },
+    "ipython-7.29.0-py39hf83f34d_0.tar.bz2": {
+      "build": "py39hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "backcall",
+        "decorator",
+        "jedi >=0.16,<1.0",
+        "matplotlib-inline >=0.1.2",
+        "pexpect >4.3",
+        "pickleshare",
+        "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+        "pygments",
+        "python >=3.9,<3.10.0a0",
+        "setuptools >=18.5",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "764adebfb1715dc9dffecefa48ada0b0",
+      "name": "ipython",
+      "sha256": "5191474cf265e1ec2d0c8bd23ef220491532471672b780f3ba67eb7dafdd1b79",
+      "size": 1185552,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635944769789,
+      "version": "7.29.0"
+    },
     "isl-0.15-h920789f_0.tar.bz2": {
       "build": "h920789f_0",
       "build_number": 0,
@@ -48963,6 +49041,25 @@
       "timestamp": 1619276812213,
       "version": "1.4.9"
     },
+    "zstd-1.5.0-hfcb3217_0.tar.bz2": {
+      "build": "hfcb3217_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "cabc3b09ba3064558f4ea540929e8a4b",
+      "name": "zstd",
+      "sha256": "a002db746841454881de4b1a06fab93f0508d37beaededd0c0dc72a9ca1b953b",
+      "size": 906714,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635867445879,
+      "version": "1.5.0"
+    },
     "zstd-static-1.4.8-h7c1a80f_1.tar.bz2": {
       "build": "h7c1a80f_1",
       "build_number": 1,
@@ -68391,6 +68488,84 @@
       "subdir": "linux-aarch64",
       "timestamp": 1632147431845,
       "version": "7.27.0"
+    },
+    "ipython-7.29.0-py37hf83f34d_0.conda": {
+      "build": "py37hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "backcall",
+        "decorator",
+        "jedi >=0.16,<1.0",
+        "matplotlib-inline >=0.1.2",
+        "pexpect >4.3",
+        "pickleshare",
+        "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+        "pygments",
+        "python >=3.7,<3.8.0a0",
+        "setuptools >=18.5",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "a196562d97bde7abd9af53627862256f",
+      "name": "ipython",
+      "sha256": "8d4a5d3542e7d52f196e796bde328fa386675f5cd08482fdff79dbd76caf26ca",
+      "size": 1007790,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635944860414,
+      "version": "7.29.0"
+    },
+    "ipython-7.29.0-py38hf83f34d_0.conda": {
+      "build": "py38hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "backcall",
+        "decorator",
+        "jedi >=0.16,<1.0",
+        "matplotlib-inline >=0.1.2",
+        "pexpect >4.3",
+        "pickleshare",
+        "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+        "pygments",
+        "python >=3.8,<3.9.0a0",
+        "setuptools >=18.5",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c9d97533d3a7953ee0aa3dff79070a56",
+      "name": "ipython",
+      "sha256": "415f696234d736b9f4377d25d9d338a40ee0c425aa5255e5d03c6bcb2dd71f9e",
+      "size": 1011998,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635944951962,
+      "version": "7.29.0"
+    },
+    "ipython-7.29.0-py39hf83f34d_0.conda": {
+      "build": "py39hf83f34d_0",
+      "build_number": 0,
+      "depends": [
+        "backcall",
+        "decorator",
+        "jedi >=0.16,<1.0",
+        "matplotlib-inline >=0.1.2",
+        "pexpect >4.3",
+        "pickleshare",
+        "prompt-toolkit >=2.0.0,!=3.0.0,!=3.0.1,<3.1.0",
+        "pygments",
+        "python >=3.9,<3.10.0a0",
+        "setuptools >=18.5",
+        "traitlets >=4.2"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "60c1cda21d4db950739a87aa1244cb7c",
+      "name": "ipython",
+      "sha256": "8e5f8e1b9bd66c901bcaa7645509e40fd4edcf56658ba22c088c610ae346bafe",
+      "size": 1015161,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635944769789,
+      "version": "7.29.0"
     },
     "isl-0.15-h920789f_0.conda": {
       "build": "h920789f_0",
@@ -97435,6 +97610,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619276812213,
       "version": "1.4.9"
+    },
+    "zstd-1.5.0-hfcb3217_0.conda": {
+      "build": "hfcb3217_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD 3-Clause",
+      "md5": "f22a388131926f2562544943d42f1843",
+      "name": "zstd",
+      "sha256": "9aa34f1f6ec17151c66894ef616a55d5e166aa00123cf05269f50c6727a6c0b0",
+      "size": 494891,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635867445879,
+      "version": "1.5.0"
     },
     "zstd-static-1.4.8-h7c1a80f_1.conda": {
       "build": "h7c1a80f_1",
