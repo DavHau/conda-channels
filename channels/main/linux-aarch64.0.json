@@ -12727,6 +12727,105 @@
       "timestamp": 1621375908117,
       "version": "1.7.4"
     },
+    "distributed-2021.10.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "openssl !=1.1.1e"
+      ],
+      "depends": [
+        "click >=6.6",
+        "cloudpickle >=1.5.0",
+        "cytoolz >=0.8.2",
+        "dask-core 2021.10.0.*",
+        "jinja2",
+        "msgpack-python >=0.6.0",
+        "psutil >=5.0",
+        "python >=3.7,<3.8.0a0",
+        "pyyaml",
+        "setuptools",
+        "sortedcontainers !=2.0.0,!=2.0.1",
+        "tblib >=1.6.0",
+        "toolz >=0.8.2",
+        "tornado >=5",
+        "zict >=0.1.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "8021b49ce047a314deff116bb757cd33",
+      "name": "distributed",
+      "sha256": "4f546981a3646641694b91594fd6e782bcb74f5e142abf511393dfde3f8d0cb6",
+      "size": 1105904,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635968564208,
+      "version": "2021.10.0"
+    },
+    "distributed-2021.10.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "openssl !=1.1.1e"
+      ],
+      "depends": [
+        "click >=6.6",
+        "cloudpickle >=1.5.0",
+        "cytoolz >=0.8.2",
+        "dask-core 2021.10.0.*",
+        "jinja2",
+        "msgpack-python >=0.6.0",
+        "psutil >=5.0",
+        "python >=3.8,<3.9.0a0",
+        "pyyaml",
+        "setuptools",
+        "sortedcontainers !=2.0.0,!=2.0.1",
+        "tblib >=1.6.0",
+        "toolz >=0.8.2",
+        "tornado >=6.0.3",
+        "zict >=0.1.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "25b71ccc55610d6482a15180a15f0112",
+      "name": "distributed",
+      "sha256": "47ab70e2eccb89ab1c1343508662be9ef9fb7d41a4c95b56bc56112429eb1d96",
+      "size": 1110818,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635968588761,
+      "version": "2021.10.0"
+    },
+    "distributed-2021.10.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "openssl !=1.1.1e"
+      ],
+      "depends": [
+        "click >=6.6",
+        "cloudpickle >=1.5.0",
+        "cytoolz >=0.8.2",
+        "dask-core 2021.10.0.*",
+        "jinja2",
+        "msgpack-python >=0.6.0",
+        "psutil >=5.0",
+        "python >=3.9,<3.10.0a0",
+        "pyyaml",
+        "setuptools",
+        "sortedcontainers !=2.0.0,!=2.0.1",
+        "tblib >=1.6.0",
+        "toolz >=0.8.2",
+        "tornado >=6.0.3",
+        "zict >=0.1.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "f08696c8802348b2a97a35995ad1410d",
+      "name": "distributed",
+      "sha256": "d325971019253753f2eedcc7d83412645f135857e75671db4c43ef6b9ab9c37e",
+      "size": 1112323,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635968612546,
+      "version": "2021.10.0"
+    },
     "distributed-2021.3.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -61383,6 +61482,105 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621375908117,
       "version": "1.7.4"
+    },
+    "distributed-2021.10.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "openssl !=1.1.1e"
+      ],
+      "depends": [
+        "click >=6.6",
+        "cloudpickle >=1.5.0",
+        "cytoolz >=0.8.2",
+        "dask-core 2021.10.0.*",
+        "jinja2",
+        "msgpack-python >=0.6.0",
+        "psutil >=5.0",
+        "python >=3.7,<3.8.0a0",
+        "pyyaml",
+        "setuptools",
+        "sortedcontainers !=2.0.0,!=2.0.1",
+        "tblib >=1.6.0",
+        "toolz >=0.8.2",
+        "tornado >=5",
+        "zict >=0.1.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "4fc1e7f6c52d5a3fe2107c8b0ef81e20",
+      "name": "distributed",
+      "sha256": "15551bde205cbce2ea600ea8475c8107fd5aeda18beced6dfc22140fd765f589",
+      "size": 999651,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635968564208,
+      "version": "2021.10.0"
+    },
+    "distributed-2021.10.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "openssl !=1.1.1e"
+      ],
+      "depends": [
+        "click >=6.6",
+        "cloudpickle >=1.5.0",
+        "cytoolz >=0.8.2",
+        "dask-core 2021.10.0.*",
+        "jinja2",
+        "msgpack-python >=0.6.0",
+        "psutil >=5.0",
+        "python >=3.8,<3.9.0a0",
+        "pyyaml",
+        "setuptools",
+        "sortedcontainers !=2.0.0,!=2.0.1",
+        "tblib >=1.6.0",
+        "toolz >=0.8.2",
+        "tornado >=6.0.3",
+        "zict >=0.1.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "bd7edfa4e84503bdc23b9b09359c7e27",
+      "name": "distributed",
+      "sha256": "10e51d747eea621de17871076d27b2ddd361b45352a9f5ed224ff1eac38ea0dd",
+      "size": 1005674,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635968588761,
+      "version": "2021.10.0"
+    },
+    "distributed-2021.10.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "openssl !=1.1.1e"
+      ],
+      "depends": [
+        "click >=6.6",
+        "cloudpickle >=1.5.0",
+        "cytoolz >=0.8.2",
+        "dask-core 2021.10.0.*",
+        "jinja2",
+        "msgpack-python >=0.6.0",
+        "psutil >=5.0",
+        "python >=3.9,<3.10.0a0",
+        "pyyaml",
+        "setuptools",
+        "sortedcontainers !=2.0.0,!=2.0.1",
+        "tblib >=1.6.0",
+        "toolz >=0.8.2",
+        "tornado >=6.0.3",
+        "zict >=0.1.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "336e8ded66666fdf751d09cf79da3403",
+      "name": "distributed",
+      "sha256": "47d13efd8b8ca15dcc1a6653ef1b1c1f8efca059a9780a70d656de7faa58c789",
+      "size": 1006138,
+      "subdir": "linux-aarch64",
+      "timestamp": 1635968612546,
+      "version": "2021.10.0"
     },
     "distributed-2021.3.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
