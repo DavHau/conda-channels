@@ -21949,6 +21949,23 @@
       "timestamp": 1630072259646,
       "version": "3.1.20210714"
     },
+    "libedit-3.1.20210910-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.3,<7.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "7d7581a2755bcab9e84a395d9ab191a9",
+      "name": "libedit",
+      "sha256": "56656a38b643d148300274789c410870b7299b642645abf356b9eba160b20931",
+      "size": 204092,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636034388207,
+      "version": "3.1.20210910"
+    },
     "libev-4.33-hfd63f10_1.tar.bz2": {
       "build": "hfd63f10_1",
       "build_number": 1,
@@ -40230,6 +40247,108 @@
       "timestamp": 1619235805568,
       "version": "0.18.1"
     },
+    "scikit-image-0.18.3-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "pooch >=1.3.0"
+      ],
+      "depends": [
+        "_openmp_mutex",
+        "cloudpickle >=0.2.1",
+        "cytoolz >=0.7.3",
+        "dask-core >=0.15.0",
+        "imageio >=2.3.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "matplotlib-base >=2.0.0,!=3.0.0",
+        "networkx >=2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pillow >=4.3.0,!=7.1.0,!=7.1.1,!=8.3.0",
+        "python >=3.7,<3.8.0a0",
+        "pywavelets >=1.1.1",
+        "scipy >=1.0.1",
+        "tifffile >=2019.7.26",
+        "toolz >=0.7.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "dc46333f8327a386b9244c3a08522c0f",
+      "name": "scikit-image",
+      "sha256": "d2aca1352336df682eddec4be45b83ace5f8b6f6cce1268010b3be9270e1bd0e",
+      "size": 11446100,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636012474623,
+      "version": "0.18.3"
+    },
+    "scikit-image-0.18.3-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "pooch >=1.3.0"
+      ],
+      "depends": [
+        "_openmp_mutex",
+        "cloudpickle >=0.2.1",
+        "cytoolz >=0.7.3",
+        "dask-core >=0.15.0",
+        "imageio >=2.3.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "matplotlib-base >=2.0.0,!=3.0.0",
+        "networkx >=2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pillow >=4.3.0,!=7.1.0,!=7.1.1,!=8.3.0",
+        "python >=3.8,<3.9.0a0",
+        "pywavelets >=1.1.1",
+        "scipy >=1.0.1",
+        "tifffile >=2019.7.26",
+        "toolz >=0.7.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "2967748de087a2f9986a0d7eac72419c",
+      "name": "scikit-image",
+      "sha256": "bc2efde8f974f723ad046469d46edc0056d7e1bd5cc826d218e3c5485d12bdba",
+      "size": 11561403,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636011642995,
+      "version": "0.18.3"
+    },
+    "scikit-image-0.18.3-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "pooch >=1.3.0"
+      ],
+      "depends": [
+        "_openmp_mutex",
+        "cloudpickle >=0.2.1",
+        "cytoolz >=0.7.3",
+        "dask-core >=0.15.0",
+        "imageio >=2.3.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "matplotlib-base >=2.0.0,!=3.0.0",
+        "networkx >=2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pillow >=4.3.0,!=7.1.0,!=7.1.1,!=8.3.0",
+        "python >=3.9,<3.10.0a0",
+        "pywavelets >=1.1.1",
+        "scipy >=1.0.1",
+        "tifffile >=2019.7.26",
+        "toolz >=0.7.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "7dc3e99dc8cf3549739e50ec70002514",
+      "name": "scikit-image",
+      "sha256": "98ac0e60f9965f1ea7a3ac07c5e0e70df25f48e5d7afe8bf03602820b2c631ba",
+      "size": 11507089,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636012056361,
+      "version": "0.18.3"
+    },
     "scikit-learn-0.24.1-py37hfba8312_0.tar.bz2": {
       "build": "py37hfba8312_0",
       "build_number": 0,
@@ -45834,6 +45953,30 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624647295374,
       "version": "2.2.9"
+    },
+    "tiledb-2.3.3-h3290839_1.tar.bz2": {
+      "build": "h3290839_1",
+      "build_number": 1,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "curl",
+        "libcurl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.5.0,<1.6.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "24ad7b385d7a7ee017ca9e587cf5647c",
+      "name": "tiledb",
+      "sha256": "fff59e6428707acee53e728a5b60e23c6aac7b8f2bf8a241af6959563dd0ff02",
+      "size": 3165360,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636020666546,
+      "version": "2.3.3"
     },
     "tk-8.6.10-h8ea0f78_0.tar.bz2": {
       "build": "h8ea0f78_0",
@@ -70705,6 +70848,23 @@
       "timestamp": 1630072259646,
       "version": "3.1.20210714"
     },
+    "libedit-3.1.20210910-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "ncurses >=6.3,<7.0a0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "c02c7a976e9d0c02266a573592ffd8b8",
+      "name": "libedit",
+      "sha256": "e711688ff9abd503cbfdec5aecae67d7472733cd6765830411674ba0dbaf5440",
+      "size": 176001,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636034388207,
+      "version": "3.1.20210910"
+    },
     "libev-4.33-hfd63f10_1.conda": {
       "build": "hfd63f10_1",
       "build_number": 1,
@@ -88915,6 +89075,108 @@
       "timestamp": 1619235805568,
       "version": "0.18.1"
     },
+    "scikit-image-0.18.3-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "pooch >=1.3.0"
+      ],
+      "depends": [
+        "_openmp_mutex",
+        "cloudpickle >=0.2.1",
+        "cytoolz >=0.7.3",
+        "dask-core >=0.15.0",
+        "imageio >=2.3.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "matplotlib-base >=2.0.0,!=3.0.0",
+        "networkx >=2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pillow >=4.3.0,!=7.1.0,!=7.1.1,!=8.3.0",
+        "python >=3.7,<3.8.0a0",
+        "pywavelets >=1.1.1",
+        "scipy >=1.0.1",
+        "tifffile >=2019.7.26",
+        "toolz >=0.7.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "92ac96245623b5233ba3b8e423adece0",
+      "name": "scikit-image",
+      "sha256": "a1983158aaa320ceb0f4db0d2f586061824b4c2e33cb7883aa5da2c04c5f747c",
+      "size": 9730972,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636012474623,
+      "version": "0.18.3"
+    },
+    "scikit-image-0.18.3-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "pooch >=1.3.0"
+      ],
+      "depends": [
+        "_openmp_mutex",
+        "cloudpickle >=0.2.1",
+        "cytoolz >=0.7.3",
+        "dask-core >=0.15.0",
+        "imageio >=2.3.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "matplotlib-base >=2.0.0,!=3.0.0",
+        "networkx >=2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pillow >=4.3.0,!=7.1.0,!=7.1.1,!=8.3.0",
+        "python >=3.8,<3.9.0a0",
+        "pywavelets >=1.1.1",
+        "scipy >=1.0.1",
+        "tifffile >=2019.7.26",
+        "toolz >=0.7.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5967c2a8b86d04f23d3a58e5220a5371",
+      "name": "scikit-image",
+      "sha256": "973819621ac97ee039ebe41a003077fb38b9b436d53d45e179000ca955b6ea29",
+      "size": 9852653,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636011642995,
+      "version": "0.18.3"
+    },
+    "scikit-image-0.18.3-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "constrains": [
+        "pooch >=1.3.0"
+      ],
+      "depends": [
+        "_openmp_mutex",
+        "cloudpickle >=0.2.1",
+        "cytoolz >=0.7.3",
+        "dask-core >=0.15.0",
+        "imageio >=2.3.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "matplotlib-base >=2.0.0,!=3.0.0",
+        "networkx >=2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "pillow >=4.3.0,!=7.1.0,!=7.1.1,!=8.3.0",
+        "python >=3.9,<3.10.0a0",
+        "pywavelets >=1.1.1",
+        "scipy >=1.0.1",
+        "tifffile >=2019.7.26",
+        "toolz >=0.7.3"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "f442c5ca81c0ed4b2bc6d1b4716fd137",
+      "name": "scikit-image",
+      "sha256": "63372508d7b3835068cdcd67f1fac1aa30f6812cb7e10587399a53bc084f2441",
+      "size": 9826836,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636012056361,
+      "version": "0.18.3"
+    },
     "scikit-learn-0.24.1-py37hfba8312_0.conda": {
       "build": "py37hfba8312_0",
       "build_number": 0,
@@ -94519,6 +94781,30 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624647295374,
       "version": "2.2.9"
+    },
+    "tiledb-2.3.3-h3290839_1.conda": {
+      "build": "h3290839_1",
+      "build_number": 1,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "curl",
+        "libcurl",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "lz4-c >=1.9.3,<1.10.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.5.0,<1.6.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4a542df893717f0e6068441d1cd4d494",
+      "name": "tiledb",
+      "sha256": "b09a4b72fd2283a51a8c62dd09765c234131293b50b8111ae9584dbea413f800",
+      "size": 2704003,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636020666546,
+      "version": "2.3.3"
     },
     "tk-8.6.10-h8ea0f78_0.conda": {
       "build": "h8ea0f78_0",
