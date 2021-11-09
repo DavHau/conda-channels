@@ -36802,6 +36802,33 @@
       "timestamp": 1633543028084,
       "version": "3.10.0"
     },
+    "python-3.10.0-hc137634_2.tar.bz2": {
+      "build": "hc137634_2",
+      "build_number": 2,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "libuuid >=1.0.3,<2.0a0",
+        "ncurses >=6.3,<7.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.36.0,<4.0a0",
+        "tk >=8.6.11,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "9cf59fcda14ba40d553aa68f23619a84",
+      "name": "python",
+      "sha256": "2ac22d5d28d7e387a6584fd2ceb634bba80fb5f4adfba8faf53770932e334760",
+      "size": 26415826,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636455394159,
+      "version": "3.10.0"
+    },
     "python-3.7.10-he65049a_0.tar.bz2": {
       "build": "he65049a_0",
       "build_number": 0,
@@ -39100,6 +39127,23 @@
       "timestamp": 1619018634058,
       "version": "2021.4.4"
     },
+    "regex-2021.8.3-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "65a8e360ba49acbfbc6fefea5d867f25",
+      "name": "regex",
+      "sha256": "6703f67e61a27dbcb3538a088b0d28efa8f715ac931851b5434747a0a44b5e7a",
+      "size": 385454,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636469384696,
+      "version": "2021.8.3"
+    },
     "regex-2021.8.3-py38h2f4d8fa_0.tar.bz2": {
       "build": "py38h2f4d8fa_0",
       "build_number": 0,
@@ -39115,6 +39159,23 @@
       "size": 388970,
       "subdir": "linux-aarch64",
       "timestamp": 1629395577565,
+      "version": "2021.8.3"
+    },
+    "regex-2021.8.3-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "58e7f22fb6f9ae0766b4a4f15346a032",
+      "name": "regex",
+      "sha256": "83b44d46f76701edf18a8cbbe084ed321d3c5019e2b7579a5bdec12134ddfd37",
+      "size": 385713,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636469354792,
       "version": "2021.8.3"
     },
     "reportlab-3.5.67-py37hf49dd1b_1.tar.bz2": {
@@ -85789,6 +85850,33 @@
       "timestamp": 1633543028084,
       "version": "3.10.0"
     },
+    "python-3.10.0-hc137634_2.conda": {
+      "build": "hc137634_2",
+      "build_number": 2,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "libuuid >=1.0.3,<2.0a0",
+        "ncurses >=6.3,<7.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.36.0,<4.0a0",
+        "tk >=8.6.11,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "8fcef242326ed90325e98f7f644952af",
+      "name": "python",
+      "sha256": "2bac04a787d705de5cb66aa65aa6244439a15a5a6f0eff408478975edef4a1b6",
+      "size": 18500626,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636455394159,
+      "version": "3.10.0"
+    },
     "python-3.7.10-he65049a_0.conda": {
       "build": "he65049a_0",
       "build_number": 0,
@@ -88032,6 +88120,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619018634058,
       "version": "2021.4.4"
+    },
+    "regex-2021.8.3-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "08146eb698b0aefde32aaf82b4484c72",
+      "name": "regex",
+      "sha256": "ef272eb748e43c1e6b1d854d3b25fd77f5d359c9183b557d55d7a45824ca38e6",
+      "size": 333850,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636469384696,
+      "version": "2021.8.3"
+    },
+    "regex-2021.8.3-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "ca24605a28c92d31579d8789d61af34b",
+      "name": "regex",
+      "sha256": "3a629dd37e6883880bfa78bdb7cb39bad8df25c22be2a5d702be68adfbba03a3",
+      "size": 335282,
+      "subdir": "linux-aarch64",
+      "timestamp": 1629395577565,
+      "version": "2021.8.3"
+    },
+    "regex-2021.8.3-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "93dd1005faee69bcf26797453b699b05",
+      "name": "regex",
+      "sha256": "364a54fa70c79a33afc29da0a8c0e6c9265ce0650db03ddc6b920f3e36e6a977",
+      "size": 334358,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636469354792,
+      "version": "2021.8.3"
     },
     "reportlab-3.5.67-py37hf49dd1b_1.conda": {
       "build": "py37hf49dd1b_1",
