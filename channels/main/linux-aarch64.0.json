@@ -27088,6 +27088,21 @@
       "timestamp": 1636115130519,
       "version": "6.3"
     },
+    "ncurses-6.3-h2f4d8fa_2.tar.bz2": {
+      "build": "h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "Free software (MIT-like)",
+      "md5": "a08885a0fb0f4cc4c4616080b4fef6c2",
+      "name": "ncurses",
+      "sha256": "30276ecfb037d46db954a1886992d15bf6a9a8dd7fd3c3645dd2a0484c6ca483",
+      "size": 1144890,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636574362881,
+      "version": "6.3"
+    },
     "neo4j-python-driver-4.2.1-py37h2f4d8fa_0.tar.bz2": {
       "build": "py37h2f4d8fa_0",
       "build_number": 0,
@@ -36970,6 +36985,33 @@
       "size": 26415826,
       "subdir": "linux-aarch64",
       "timestamp": 1636455394159,
+      "version": "3.10.0"
+    },
+    "python-3.10.0-hc137634_3.tar.bz2": {
+      "build": "hc137634_3",
+      "build_number": 3,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "libuuid >=1.0.3,<2.0a0",
+        "ncurses >=6.3,<7.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.36.0,<4.0a0",
+        "tk >=8.6.11,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "982443032373ccb8ae971adcaefa91e0",
+      "name": "python",
+      "sha256": "5fd0bcb68f0ef72033268ac9cfae4c4831fee7e299afbb961101c852136a17eb",
+      "size": 26339644,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636576162110,
       "version": "3.10.0"
     },
     "python-3.7.10-he65049a_0.tar.bz2": {
@@ -76450,6 +76492,21 @@
       "timestamp": 1636115130519,
       "version": "6.3"
     },
+    "ncurses-6.3-h2f4d8fa_2.conda": {
+      "build": "h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "Free software (MIT-like)",
+      "md5": "94796425684cc390a8c980ac6ce22ff6",
+      "name": "ncurses",
+      "sha256": "2e0e09c1a92345843d56a0af867df3935f408481e03c94b2c1724f4ef489f71a",
+      "size": 834815,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636574362881,
+      "version": "6.3"
+    },
     "neo4j-python-driver-4.2.1-py37h2f4d8fa_0.conda": {
       "build": "py37h2f4d8fa_0",
       "build_number": 0,
@@ -86332,6 +86389,33 @@
       "size": 18500626,
       "subdir": "linux-aarch64",
       "timestamp": 1636455394159,
+      "version": "3.10.0"
+    },
+    "python-3.10.0-hc137634_3.conda": {
+      "build": "hc137634_3",
+      "build_number": 3,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "ld_impl_linux-aarch64",
+        "libffi >=3.3,<3.4.0a0",
+        "libgcc-ng >=10.2.0",
+        "libuuid >=1.0.3,<2.0a0",
+        "ncurses >=6.3,<7.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "readline >=8.1,<9.0a0",
+        "sqlite >=3.36.0,<4.0a0",
+        "tk >=8.6.11,<8.7.0a0",
+        "tzdata",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Python-2.0",
+      "md5": "2ce35aac6416833797fbd0f7fae7d3d1",
+      "name": "python",
+      "sha256": "3d0c18e83b0c4d2bd902a3b55d8bfc1a75ab750d19c7058111ee55d3e255f247",
+      "size": 18464051,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636576162110,
       "version": "3.10.0"
     },
     "python-3.7.10-he65049a_0.conda": {
