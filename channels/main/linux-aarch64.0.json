@@ -86947,33 +86947,6 @@
       "timestamp": 1636455394159,
       "version": "3.10.0"
     },
-    "python-3.10.0-hc137634_3.conda": {
-      "build": "hc137634_3",
-      "build_number": 3,
-      "depends": [
-        "bzip2 >=1.0.8,<2.0a0",
-        "ld_impl_linux-aarch64",
-        "libffi >=3.3,<3.4.0a0",
-        "libgcc-ng >=10.2.0",
-        "libuuid >=1.0.3,<2.0a0",
-        "ncurses >=6.3,<7.0a0",
-        "openssl >=1.1.1l,<1.1.2a",
-        "readline >=8.1,<9.0a0",
-        "sqlite >=3.36.0,<4.0a0",
-        "tk >=8.6.11,<8.7.0a0",
-        "tzdata",
-        "xz >=5.2.5,<6.0a0",
-        "zlib >=1.2.11,<1.3.0a0"
-      ],
-      "license": "Python-2.0",
-      "md5": "2ce35aac6416833797fbd0f7fae7d3d1",
-      "name": "python",
-      "sha256": "3d0c18e83b0c4d2bd902a3b55d8bfc1a75ab750d19c7058111ee55d3e255f247",
-      "size": 18464051,
-      "subdir": "linux-aarch64",
-      "timestamp": 1636576162110,
-      "version": "3.10.0"
-    },
     "python-3.7.10-he65049a_0.conda": {
       "build": "he65049a_0",
       "build_number": 0,
