@@ -18291,6 +18291,64 @@
       "timestamp": 1622141612964,
       "version": "3.2.1"
     },
+    "h5py-3.5.0-py37h6050212_0.tar.bz2": {
+      "build": "py37h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "cached-property",
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "71b6f1f8cccdffb82d540dd55a36fde7",
+      "name": "h5py",
+      "sha256": "ec623e21a34be77c17dc07db8612fabe28629174372a69abdd478b6938ae3442",
+      "size": 1274177,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636992076566,
+      "version": "3.5.0"
+    },
+    "h5py-3.5.0-py38h6050212_0.tar.bz2": {
+      "build": "py38h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "797e876018dc64fa883c706f3c5e68d8",
+      "name": "h5py",
+      "sha256": "68a147534f8091a96eed576d12534bf3a15158d1b386b25cccc534818cda35a8",
+      "size": 1293928,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636992324983,
+      "version": "3.5.0"
+    },
+    "h5py-3.5.0-py39h6050212_0.tar.bz2": {
+      "build": "py39h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9a689c42628796a21ddf4f722a188816",
+      "name": "h5py",
+      "sha256": "a954e1e1a096a2741f76835419d1db825765736c881c1c9a2a4aee5646ef8eb8",
+      "size": 1265809,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636992194352,
+      "version": "3.5.0"
+    },
     "harfbuzz-2.4.0-h045a43e_1.tar.bz2": {
       "build": "h045a43e_1",
       "build_number": 1,
@@ -68013,6 +68071,64 @@
       "subdir": "linux-aarch64",
       "timestamp": 1622141612964,
       "version": "3.2.1"
+    },
+    "h5py-3.5.0-py37h6050212_0.conda": {
+      "build": "py37h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "cached-property",
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "337da890e4de13fba8a1f216702bf881",
+      "name": "h5py",
+      "sha256": "46014b0341d3811672d443e16775b4a1ef7dbc6eb3e9210bb654e91c8c73d352",
+      "size": 1073861,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636992076566,
+      "version": "3.5.0"
+    },
+    "h5py-3.5.0-py38h6050212_0.conda": {
+      "build": "py38h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "d627475960183e23fd366e7b341a7bea",
+      "name": "h5py",
+      "sha256": "53fc284f248b0e21188f54d3b84c375e1b9da554eec03854d04950a89d4c0377",
+      "size": 1099379,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636992324983,
+      "version": "3.5.0"
+    },
+    "h5py-3.5.0-py39h6050212_0.conda": {
+      "build": "py39h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "960668a620ababf9ac255f4400036963",
+      "name": "h5py",
+      "sha256": "3bedd77a05cb94c43a4b282af888c76de612ffc9944a618fbc98f869c6b21a85",
+      "size": 1092695,
+      "subdir": "linux-aarch64",
+      "timestamp": 1636992194352,
+      "version": "3.5.0"
     },
     "harfbuzz-2.4.0-h045a43e_1.conda": {
       "build": "h045a43e_1",
