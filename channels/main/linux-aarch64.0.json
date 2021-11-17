@@ -18403,6 +18403,64 @@
       "timestamp": 1636992194352,
       "version": "3.5.0"
     },
+    "h5py-3.6.0-py37h6050212_0.tar.bz2": {
+      "build": "py37h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "cached-property",
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "5d4d5ae50a40d517a7f6b663c26ec9d9",
+      "name": "h5py",
+      "sha256": "f115bcaba04b30aa1327fd88d137eb6de4b5a4d4c314e142cbae575e7a9a8ab4",
+      "size": 1268687,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637163129688,
+      "version": "3.6.0"
+    },
+    "h5py-3.6.0-py38h6050212_0.tar.bz2": {
+      "build": "py38h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c2f7b58a773672260e78459411228c2f",
+      "name": "h5py",
+      "sha256": "e55439d06d8b6e1327fa3190cc1e577ffb8e02a5fd064b4b65159f5cba4bb0b4",
+      "size": 1293600,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637162871014,
+      "version": "3.6.0"
+    },
+    "h5py-3.6.0-py39h6050212_0.tar.bz2": {
+      "build": "py39h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9e28f12bf4ed7041f2514c8c9c222607",
+      "name": "h5py",
+      "sha256": "51891df6e7fd1ee54707be0e85938740d645e9bc0876d9632f3e2e097e05d341",
+      "size": 1271125,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637162998317,
+      "version": "3.6.0"
+    },
     "harfbuzz-2.4.0-h045a43e_1.tar.bz2": {
       "build": "h045a43e_1",
       "build_number": 1,
@@ -23022,6 +23080,29 @@
       "timestamp": 1621632069836,
       "version": "4.6.1"
     },
+    "libnghttp2-1.46.0-hb87466c_0.tar.bz2": {
+      "build": "hb87466c_0",
+      "build_number": 0,
+      "depends": [
+        "c-ares >=1.17.1,<2.0a0",
+        "c-ares >=1.7.5",
+        "libev >=4.11",
+        "libev >=4.33,<4.34.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5bacf7faaf5b9b1c7307883983e2a3a6",
+      "name": "libnghttp2",
+      "sha256": "33cf54df50bc3c0f6123a04ee54a9dc0f44f68cae259748792f157a38df8787c",
+      "size": 943590,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637163542552,
+      "version": "1.46.0"
+    },
     "libnghttp2-static-1.43.0-h4de3ea5_0.tar.bz2": {
       "build": "h4de3ea5_0",
       "build_number": 0,
@@ -23058,6 +23139,26 @@
       "subdir": "linux-aarch64",
       "timestamp": 1613504914236,
       "version": "1.43.0"
+    },
+    "libnghttp2-static-1.46.0-h22f4aa5_0.tar.bz2": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "c-ares-static",
+        "libev-static",
+        "libgcc-ng >=10.2.0",
+        "libnghttp2 1.46.0 hb87466c_0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "828f85692bec00dd0270edc66bd9cc24",
+      "name": "libnghttp2-static",
+      "sha256": "0987046b6afc2857b62ac1d498ba924c760fa61152c05db3ca22bca23ad32393",
+      "size": 91125,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637163548530,
+      "version": "1.46.0"
     },
     "libntlm-1.5-hfd63f10_0.tar.bz2": {
       "build": "hfd63f10_0",
@@ -28233,6 +28334,138 @@
       "timestamp": 1635504857424,
       "type": "app",
       "version": "6.4.5"
+    },
+    "notebook-6.4.6-py37hd43f75c_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "nest-asyncio >=1.5",
+        "prometheus_client",
+        "python >=3.7,<3.8.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.8.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "0f94280daad9048e8d2c2c505722e726",
+      "name": "notebook",
+      "sha256": "385c132634a62387b71e0897fdc1a85855a117145ff949cdcc847a994b33687a",
+      "size": 6882472,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1637167337740,
+      "type": "app",
+      "version": "6.4.6"
+    },
+    "notebook-6.4.6-py38hd43f75c_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "nest-asyncio >=1.5",
+        "prometheus_client",
+        "python >=3.8,<3.9.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.8.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "57d1f8f25dd0d088bb5d63e13ecddf01",
+      "name": "notebook",
+      "sha256": "45ceb2fafa649fd38ad624f18dd4b40c4d2ab3c91ca5aba6670123384c49f301",
+      "size": 6882830,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1637167380416,
+      "type": "app",
+      "version": "6.4.6"
+    },
+    "notebook-6.4.6-py39hd43f75c_0.tar.bz2": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "nest-asyncio >=1.5",
+        "prometheus_client",
+        "python >=3.9,<3.10.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.8.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "d3c1ce61cecea524dfe176e3223ab673",
+      "name": "notebook",
+      "sha256": "b28f57fc7a0e9c953ed4ec1233d4edc2c8e2ad9ba9dc52c5f65979a109575fc6",
+      "size": 6878705,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1637167293615,
+      "type": "app",
+      "version": "6.4.6"
     },
     "nspr-4.28-h7c1a80f_0.tar.bz2": {
       "build": "h7c1a80f_0",
@@ -44436,6 +44669,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623257190707,
       "version": "0.2"
+    },
+    "tabula-py-2.3.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "distro",
+        "numpy",
+        "openjdk >=8",
+        "pandas >=0.25.3",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f42cd29ad87e0c9e4cd200e1362bbc1c",
+      "name": "tabula-py",
+      "sha256": "f3753852ea2a344deb476726c8643cffa4cd48580db0930bf1ca7bf67b2b2891",
+      "size": 12065831,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637141555756,
+      "version": "2.3.0"
+    },
+    "tabula-py-2.3.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "distro",
+        "numpy",
+        "openjdk >=8",
+        "pandas >=0.25.3",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "05b3eff40b7135c71286fc228ee8b907",
+      "name": "tabula-py",
+      "sha256": "73a603f132f5a08523204df7ac22cefd6b58e0bb1bb70570bea24655ef012d1f",
+      "size": 12065764,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637141588607,
+      "version": "2.3.0"
+    },
+    "tabula-py-2.3.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "distro",
+        "numpy",
+        "openjdk >=8",
+        "pandas >=0.25.3",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bb7ec52e68191fee1c9a956e438ea06e",
+      "name": "tabula-py",
+      "sha256": "1fc275c6a4c4c27e3e74c3609625f2051cf2183e902ea5056ae6c0b4fed0fb55",
+      "size": 12065259,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637141616412,
+      "version": "2.3.0"
     },
     "tabulate-0.8.9-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -68352,6 +68645,64 @@
       "timestamp": 1636992194352,
       "version": "3.5.0"
     },
+    "h5py-3.6.0-py37h6050212_0.conda": {
+      "build": "py37h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "cached-property",
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "64e6f9f5f6477af9999e7fb15a82cc2a",
+      "name": "h5py",
+      "sha256": "bcad8b008bb5474f4dce0b697a1ed18bad58d32993c1d37646926cf04cd4de6a",
+      "size": 1075027,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637163129688,
+      "version": "3.6.0"
+    },
+    "h5py-3.6.0-py38h6050212_0.conda": {
+      "build": "py38h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "8583d062a4611ddad216873cf29d91c2",
+      "name": "h5py",
+      "sha256": "a894203aa293bf61ef59634baff6e0cf1e89e94c44c3ca27c7210c9dda4216d3",
+      "size": 1100958,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637162871014,
+      "version": "3.6.0"
+    },
+    "h5py-3.6.0-py39h6050212_0.conda": {
+      "build": "py39h6050212_0",
+      "build_number": 0,
+      "depends": [
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "libgcc-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "1298726e87ffa08dcb63ce71da1cd28c",
+      "name": "h5py",
+      "sha256": "0b179c569af3b3abad95d303644b8e2b26e83d162a3b1ffcbc628658d735361e",
+      "size": 1093703,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637162998317,
+      "version": "3.6.0"
+    },
     "harfbuzz-2.4.0-h045a43e_1.conda": {
       "build": "h045a43e_1",
       "build_number": 1,
@@ -72971,6 +73322,29 @@
       "timestamp": 1621632069836,
       "version": "4.6.1"
     },
+    "libnghttp2-1.46.0-hb87466c_0.conda": {
+      "build": "hb87466c_0",
+      "build_number": 0,
+      "depends": [
+        "c-ares >=1.17.1,<2.0a0",
+        "c-ares >=1.7.5",
+        "libev >=4.11",
+        "libev >=4.33,<4.34.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "19677e00b8afd1a55507b455718430e1",
+      "name": "libnghttp2",
+      "sha256": "f0cd70351748311de5c70bf5ce77dafbc1e280a817a529666a7a4e724b435b7c",
+      "size": 769521,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637163542552,
+      "version": "1.46.0"
+    },
     "libnghttp2-static-1.43.0-h4de3ea5_0.conda": {
       "build": "h4de3ea5_0",
       "build_number": 0,
@@ -73007,6 +73381,26 @@
       "subdir": "linux-aarch64",
       "timestamp": 1613504914236,
       "version": "1.43.0"
+    },
+    "libnghttp2-static-1.46.0-h22f4aa5_0.conda": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "c-ares-static",
+        "libev-static",
+        "libgcc-ng >=10.2.0",
+        "libnghttp2 1.46.0 hb87466c_0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6e6cccfba45e5f55c50019492e5680b9",
+      "name": "libnghttp2-static",
+      "sha256": "16e38277f2f38263714d13b333b715493e87147f79adaa69354a17883cd7a61c",
+      "size": 85800,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637163548530,
+      "version": "1.46.0"
     },
     "libntlm-1.5-hfd63f10_0.conda": {
       "build": "hfd63f10_0",
@@ -78182,6 +78576,138 @@
       "timestamp": 1635504857424,
       "type": "app",
       "version": "6.4.5"
+    },
+    "notebook-6.4.6-py37hd43f75c_0.conda": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "nest-asyncio >=1.5",
+        "prometheus_client",
+        "python >=3.7,<3.8.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.8.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9b7d5db1666a2396d2d6e766ab1db46d",
+      "name": "notebook",
+      "sha256": "8ca4e802e80b159e92d5bc2dfdff1813323a67ab2aa8264c612e0e18b9093cdc",
+      "size": 4378986,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1637167337740,
+      "type": "app",
+      "version": "6.4.6"
+    },
+    "notebook-6.4.6-py38hd43f75c_0.conda": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "nest-asyncio >=1.5",
+        "prometheus_client",
+        "python >=3.8,<3.9.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.8.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b921f34d1dca11aa2466ec061852d099",
+      "name": "notebook",
+      "sha256": "353fdf284748fdcc67c282605dd99bd7e33afd832a6bc044dc74c88834286344",
+      "size": 4382388,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1637167380416,
+      "type": "app",
+      "version": "6.4.6"
+    },
+    "notebook-6.4.6-py39hd43f75c_0.conda": {
+      "app_cli_opts": [
+        {
+          "args": "--port %s",
+          "default": "8080",
+          "name": "port",
+          "summary": "Server port ..."
+        }
+      ],
+      "app_entry": "jupyter-notebook",
+      "app_type": "web",
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "argon2-cffi",
+        "ipykernel",
+        "ipython_genutils",
+        "jinja2",
+        "jupyter_client >=5.3.4",
+        "jupyter_core >=4.6.1",
+        "nbconvert",
+        "nbformat",
+        "nest-asyncio >=1.5",
+        "prometheus_client",
+        "python >=3.9,<3.10.0a0",
+        "pyzmq >=17",
+        "send2trash >=1.8.0",
+        "terminado >=0.8.3",
+        "tornado >=6.1",
+        "traitlets >=4.2.1"
+      ],
+      "icon": "df7feebede9861a203b480c119e38b49.png",
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "f5f0a9899889b6919c9c913eec10a1a1",
+      "name": "notebook",
+      "sha256": "2ce52b932c8ebc2ae06a72f720ec9102ec5eb278b632d46e5f25de0ae4048963",
+      "size": 4383982,
+      "subdir": "linux-aarch64",
+      "summary": "Jupyter Notebook",
+      "timestamp": 1637167293615,
+      "type": "app",
+      "version": "6.4.6"
     },
     "nspr-4.28-h7c1a80f_0.conda": {
       "build": "h7c1a80f_0",
@@ -94304,6 +94830,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623257190707,
       "version": "0.2"
+    },
+    "tabula-py-2.3.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "distro",
+        "numpy",
+        "openjdk >=8",
+        "pandas >=0.25.3",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3f0f184b4fcdd2fb84423e66e290f9d1",
+      "name": "tabula-py",
+      "sha256": "2d3b5b3bc92d0a6cd8ccc772c5bb7995b0b8a4d5b56eee19fb7e3b5f2a7e3ac5",
+      "size": 11820406,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637141555756,
+      "version": "2.3.0"
+    },
+    "tabula-py-2.3.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "distro",
+        "numpy",
+        "openjdk >=8",
+        "pandas >=0.25.3",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d892a3de3b1c8a045f8e434e84467822",
+      "name": "tabula-py",
+      "sha256": "ce4edcebf3aa9e366f7b256ed0e17557b6909e3775293f347bede9edc797c30a",
+      "size": 11820301,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637141588607,
+      "version": "2.3.0"
+    },
+    "tabula-py-2.3.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "distro",
+        "numpy",
+        "openjdk >=8",
+        "pandas >=0.25.3",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2ff752173dc17a7c4d087b41922ba617",
+      "name": "tabula-py",
+      "sha256": "06f553151e387c77aa34a20bc3e3aaa6e0308e58c38f6c816e6043bcc89a2939",
+      "size": 11820328,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637141616412,
+      "version": "2.3.0"
     },
     "tabulate-0.8.9-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
