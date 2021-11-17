@@ -12861,6 +12861,60 @@
       "timestamp": 1633546579704,
       "version": "1.4.1"
     },
+    "debugpy-1.5.1-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f41461fcc96e4b651a385d9376d3d6ec",
+      "name": "debugpy",
+      "sha256": "cff40764ea34249bcc78fe1db613278d772320f8e1826a937b005000287de447",
+      "size": 2102374,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637092321271,
+      "version": "1.5.1"
+    },
+    "debugpy-1.5.1-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "47dabfb942149bd8ee7a0e8b86b76c01",
+      "name": "debugpy",
+      "sha256": "e8a9a24c96a2bad06c05cba183f8bc4a38b8cfe555a75f4e5abac71a6329e60c",
+      "size": 2116080,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637092374232,
+      "version": "1.5.1"
+    },
+    "debugpy-1.5.1-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "acbd0503097d8b04a0feefca02383a8b",
+      "name": "debugpy",
+      "sha256": "e7b412e72c7f3d3d7910a6fa62a8315f955b3e80cf8baebb1bff7ba577a63511",
+      "size": 2118035,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637092266632,
+      "version": "1.5.1"
+    },
     "dicttoxml-1.7.4-py37hd43f75c_1.tar.bz2": {
       "build": "py37hd43f75c_1",
       "build_number": 1,
@@ -62755,6 +62809,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1633546579704,
       "version": "1.4.1"
+    },
+    "debugpy-1.5.1-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "97930e01c10c2e0f5d5fda743d59bbc2",
+      "name": "debugpy",
+      "sha256": "8d8497dcfaa926c11933c00e7968927897456cf85fee4bb41d7c09d56e9fa572",
+      "size": 1803695,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637092321271,
+      "version": "1.5.1"
+    },
+    "debugpy-1.5.1-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b3453cdb0ea0858a1755926d7fe53603",
+      "name": "debugpy",
+      "sha256": "57e7b0915fe285f417f0fd0ae19c1b34922646e2ed44e581caa84dacbaaca27b",
+      "size": 1818027,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637092374232,
+      "version": "1.5.1"
+    },
+    "debugpy-1.5.1-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "87f20882718e19f10f0d391a9fdc68d6",
+      "name": "debugpy",
+      "sha256": "80aa19afeb92e9a9bdcee66f21556999939790e942e304796cd6ac099cfd882c",
+      "size": 1816225,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637092266632,
+      "version": "1.5.1"
     },
     "dicttoxml-1.7.4-py37hd43f75c_1.conda": {
       "build": "py37hd43f75c_1",
