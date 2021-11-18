@@ -23249,6 +23249,34 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "modin-0.11.0-py39h06a4308_0.tar.bz2": {
+      "timestamp": 1633013260010,
+      "depends": [
+        "modin-dask 0.11.0 py39h06a4308_0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 16816,
+      "build_number": 0,
+      "name": "modin",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.11.0",
+      "build": "py39h06a4308_0",
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "2387574e14b1422f6fc1439dc6f45469",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "numba-0.42.1-np116py36_0.tar.bz2": {
       "build_number": 0,
       "name": "numba",
@@ -37571,6 +37599,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "modin-0.11.0-py38h06a4308_0.tar.bz2": {
+      "timestamp": 1633013265133,
+      "depends": [
+        "modin-dask 0.11.0 py38h06a4308_0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 16804,
+      "build_number": 0,
+      "name": "modin",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.11.0",
+      "build": "py38h06a4308_0",
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "4da097db1bfa059228368d9193ecc9c3",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "pydaal-2018.0.3.20180405-np114py27_intel_0.tar.bz2": {
       "features": "intel",
       "depends": [
@@ -47044,6 +47100,34 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_5"
+    },
+    "modin-0.11.0-py37h06a4308_0.tar.bz2": {
+      "timestamp": 1633013254457,
+      "depends": [
+        "modin-dask 0.11.0 py37h06a4308_0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 16807,
+      "build_number": 0,
+      "name": "modin",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.11.0",
+      "build": "py37h06a4308_0",
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "0abc56ffc36060f78f0a64a37af98134",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "daal-devel-2021.3.0-intel_557.tar.bz2": {
       "build_number": 557,
