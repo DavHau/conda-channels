@@ -3592,6 +3592,80 @@
       "timestamp": 1620846252818,
       "version": "3.7.4"
     },
+    "aiohttp-3.8.1-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "aiosignal >=1.1.2",
+        "async-timeout >=4.0.0a3,<5.0",
+        "asynctest 0.13.0.*",
+        "attrs >=17.3.0",
+        "charset-normalizer >=2.0,<3.0",
+        "frozenlist >=1.1.1",
+        "libgcc-ng >=10.2.0",
+        "multidict >=4.5,<7.0",
+        "python >=3.7,<3.8.0a0",
+        "typing-extensions >=3.7.4",
+        "yarl >=1.0,<2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "8e68006d51f9d37dcd64cbd137b2c88a",
+      "name": "aiohttp",
+      "sha256": "b06a01ef69247fb27c9d10cab058bbd3c856a85e949a46b22f498e6aa10c198f",
+      "size": 587902,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637857844680,
+      "version": "3.8.1"
+    },
+    "aiohttp-3.8.1-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "aiosignal >=1.1.2",
+        "async-timeout >=4.0.0a3,<5.0",
+        "attrs >=17.3.0",
+        "charset-normalizer >=2.0,<3.0",
+        "frozenlist >=1.1.1",
+        "libgcc-ng >=10.2.0",
+        "multidict >=4.5,<7.0",
+        "python >=3.8,<3.9.0a0",
+        "yarl >=1.0,<2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e494163f87e77fe30b8c9118e0c38c03",
+      "name": "aiohttp",
+      "sha256": "49f017f3ffd67f3abdf84a00c6161d2ff8f9fb2722373383ba6ec04808a4ae16",
+      "size": 593093,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637857910938,
+      "version": "3.8.1"
+    },
+    "aiohttp-3.8.1-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "aiosignal >=1.1.2",
+        "async-timeout >=4.0.0a3,<5.0",
+        "attrs >=17.3.0",
+        "charset-normalizer >=2.0,<3.0",
+        "frozenlist >=1.1.1",
+        "libgcc-ng >=10.2.0",
+        "multidict >=4.5,<7.0",
+        "python >=3.9,<3.10.0a0",
+        "yarl >=1.0,<2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "d2d7f38fa891603921559cefac67b06c",
+      "name": "aiohttp",
+      "sha256": "a6aff93dfd7663e211ba17b31a29716e0048456a8044d57908fe2015500d1729",
+      "size": 593572,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637857877877,
+      "version": "3.8.1"
+    },
     "anaconda-2021.04-py37_0.tar.bz2": {
       "build": "py37_0",
       "build_number": 0,
@@ -17987,6 +18061,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614885744498,
       "version": "1.0.10"
+    },
+    "frozenlist-1.2.0-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "703db8c9f8a3a629ebfb2fab39971490",
+      "name": "frozenlist",
+      "sha256": "c0df862c39d6882e7f5347722ac9297d8d4fe7401f04d6b0caec3494cae04fe1",
+      "size": 78943,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637850662602,
+      "version": "1.2.0"
+    },
+    "frozenlist-1.2.0-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "a2e9879948c338c6fbc993f6f03ebe24",
+      "name": "frozenlist",
+      "sha256": "979be4b3c0b26395f1ee4065a29297ba055f81372076ed516d9769cb846bdb1d",
+      "size": 79218,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637850642737,
+      "version": "1.2.0"
+    },
+    "frozenlist-1.2.0-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "258b97a4d29ba379223f3c034da53a5e",
+      "name": "frozenlist",
+      "sha256": "23d4fe3fe0a61d5f249daaa6f78e3aba1d8d06b05a73c2308e4c3741798551fc",
+      "size": 78753,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637850682869,
+      "version": "1.2.0"
     },
     "funcsigs-1.0.2-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -56739,6 +56864,80 @@
       "timestamp": 1620846252818,
       "version": "3.7.4"
     },
+    "aiohttp-3.8.1-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "aiosignal >=1.1.2",
+        "async-timeout >=4.0.0a3,<5.0",
+        "asynctest 0.13.0.*",
+        "attrs >=17.3.0",
+        "charset-normalizer >=2.0,<3.0",
+        "frozenlist >=1.1.1",
+        "libgcc-ng >=10.2.0",
+        "multidict >=4.5,<7.0",
+        "python >=3.7,<3.8.0a0",
+        "typing-extensions >=3.7.4",
+        "yarl >=1.0,<2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "b637c84dfd821aecb7d9f8f878940525",
+      "name": "aiohttp",
+      "sha256": "c5d5756f0fa001fcc278849c185c984b6aa44efd6d6685fdd09aa4b4e3290e84",
+      "size": 516070,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637857844680,
+      "version": "3.8.1"
+    },
+    "aiohttp-3.8.1-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "aiosignal >=1.1.2",
+        "async-timeout >=4.0.0a3,<5.0",
+        "attrs >=17.3.0",
+        "charset-normalizer >=2.0,<3.0",
+        "frozenlist >=1.1.1",
+        "libgcc-ng >=10.2.0",
+        "multidict >=4.5,<7.0",
+        "python >=3.8,<3.9.0a0",
+        "yarl >=1.0,<2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "16317e4f9b26251f6c9970cfcf22abc9",
+      "name": "aiohttp",
+      "sha256": "cfceefb088fee91ff53b9b8f7b0937d7c8337727c8b80bcf64c20601b62c4a0c",
+      "size": 521044,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637857910938,
+      "version": "3.8.1"
+    },
+    "aiohttp-3.8.1-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "aiosignal >=1.1.2",
+        "async-timeout >=4.0.0a3,<5.0",
+        "attrs >=17.3.0",
+        "charset-normalizer >=2.0,<3.0",
+        "frozenlist >=1.1.1",
+        "libgcc-ng >=10.2.0",
+        "multidict >=4.5,<7.0",
+        "python >=3.9,<3.10.0a0",
+        "yarl >=1.0,<2.0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "02344f1c0b399b7d14b76ceaf2073ae2",
+      "name": "aiohttp",
+      "sha256": "7690a79d9a91ca161f981f78038a04cde0eea4081ea48756ddf449b1e45ac0df",
+      "size": 521848,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637857877877,
+      "version": "3.8.1"
+    },
     "anaconda-2021.04-py37_0.conda": {
       "build": "py37_0",
       "build_number": 0,
@@ -70709,6 +70908,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614885744498,
       "version": "1.0.10"
+    },
+    "frozenlist-1.2.0-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "2c516ea2471097ad3e298f2a72445136",
+      "name": "frozenlist",
+      "sha256": "c3ea202b1d734c2939a4bee278b46a97c0474cdea3f8e760633ef436a9ef54b0",
+      "size": 76922,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637850662602,
+      "version": "1.2.0"
+    },
+    "frozenlist-1.2.0-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "70b9bdb8b9b71064baf10ffa45b7dc7d",
+      "name": "frozenlist",
+      "sha256": "63ed14ad2a1faa1fd5705a9a4e3e8aca16c1a1376bb9533e41cf2efbdecdd175",
+      "size": 77246,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637850642737,
+      "version": "1.2.0"
+    },
+    "frozenlist-1.2.0-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "dbe481ba399357dfaf5ace5c56e6d63e",
+      "name": "frozenlist",
+      "sha256": "d9308c143c36383a3e699c75fe2a05648f00b8a2f3d8f986b8966358af3ab630",
+      "size": 76929,
+      "subdir": "linux-aarch64",
+      "timestamp": 1637850682869,
+      "version": "1.2.0"
     },
     "funcsigs-1.0.2-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",

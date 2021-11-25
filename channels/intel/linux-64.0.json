@@ -7212,23 +7212,23 @@
       "build_number": 0,
       "name": "modin",
       "has_prefix": false,
-      "md5": "90921e91f7d391bc92fdb77598c4bcfb",
+      "md5": "2fa9ec59c0f143110ba6a2888bd60091",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "modin-ray 0.11.0 py39h06a4308_0",
+        "modin-omnisci 0.11.0 py39h06a4308_0",
         "python >=3.9,<3.10.0a0"
       ],
       "version": "0.11.0",
       "build": "py39_0",
-      "timestamp": 1637747294898,
+      "timestamp": 1637829933642,
       "binstar": {
         "package_id": "5f22f1a883b6630a0e74a3f7",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 5922,
+      "size": 6087,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -7971,23 +7971,23 @@
       "build_number": 0,
       "name": "modin",
       "has_prefix": false,
-      "md5": "7ab8e615215dec9504cca74daf71f495",
+      "md5": "bde084f48353cc924ae2382928f7cd52",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "modin-ray 0.11.0 py37h06a4308_0",
+        "modin-omnisci 0.11.0 py37h06a4308_0",
         "python >=3.7,<3.8.0a0"
       ],
       "version": "0.11.0",
       "build": "py37_0",
-      "timestamp": 1637745563144,
+      "timestamp": 1637829599563,
       "binstar": {
         "package_id": "5f22f1a883b6630a0e74a3f7",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 5913,
+      "size": 6052,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -20812,6 +20812,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "modin-0.11.3-py39_0.tar.bz2": {
+      "build_number": 0,
+      "name": "modin",
+      "has_prefix": false,
+      "md5": "d3059a41da23eb9b752c8f8cf53972de",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "modin-omnisci 0.11.3 py39hf3d152e_0",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+      ],
+      "version": "0.11.3",
+      "build": "py39_0",
+      "timestamp": 1637853562622,
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 6788,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "python-3.7.10-h31e4372_1.tar.bz2": {
       "build_number": 1,
       "name": "python",
@@ -26443,6 +26470,33 @@
       },
       "md5": "d0090ea77e108b05e7ec424c2d078de5",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "modin-0.11.3-py38_0.tar.bz2": {
+      "build_number": 0,
+      "name": "modin",
+      "has_prefix": false,
+      "md5": "e63c00cf2af8319b499f7107a36c699f",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "modin-omnisci 0.11.3 py38h578d9bd_0",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38"
+      ],
+      "version": "0.11.3",
+      "build": "py38_0",
+      "timestamp": 1637853196170,
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 6764,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "notebook-5.0.0-py36_intel_0.tar.bz2": {
@@ -47267,23 +47321,23 @@
       "build_number": 0,
       "name": "modin",
       "has_prefix": false,
-      "md5": "a4e857fd98dc4334a42f3beb6d26192e",
+      "md5": "98c5d4969766d1db91828c445115c374",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "modin-ray 0.11.0 py38h06a4308_0",
+        "modin-omnisci 0.11.0 py38h06a4308_0",
         "python >=3.8,<3.9.0a0"
       ],
       "version": "0.11.0",
       "build": "py38_0",
-      "timestamp": 1637747095832,
+      "timestamp": 1637829764998,
       "binstar": {
         "package_id": "5f22f1a883b6630a0e74a3f7",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 5900,
+      "size": 6085,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -81634,6 +81688,33 @@
       },
       "md5": "cf45268bc13a3b55e9ee7e29d876ca07",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "modin-0.11.3-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "modin",
+      "has_prefix": false,
+      "md5": "0b4058933aeca6382b1cea1b4e8904c0",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "modin-omnisci 0.11.3 py37h89c1867_0",
+        "python >=3.7,<3.8.0a0",
+        "python_abi 3.7.* *_cp37m"
+      ],
+      "version": "0.11.3",
+      "build": "py37_0",
+      "timestamp": 1637852811561,
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 6761,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "tensorflow-1.2.1-np113py27_1.tar.bz2": {
