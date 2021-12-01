@@ -26677,6 +26677,23 @@
       "timestamp": 1620747940237,
       "version": "1.3.3"
     },
+    "libxgboost-1.5.0-h22f4aa5_1.tar.bz2": {
+      "build": "h22f4aa5_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "0604970bf8703ebe2072c12cdcbd9360",
+      "name": "libxgboost",
+      "sha256": "7a87fc17d531cb5c5cf9c75accc8bc0e8553642d6e65b452e9c4347a37680d29",
+      "size": 4290047,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300810475,
+      "version": "1.5.0"
+    },
     "libxkbcommon-1.0.1-h1897131_0.tar.bz2": {
       "build": "h1897131_0",
       "build_number": 0,
@@ -36533,6 +36550,69 @@
       "timestamp": 1620747955125,
       "version": "1.3.3"
     },
+    "py-xgboost-1.5.0-py37hd43f75c_1.tar.bz2": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "_py-xgboost-mutex 2.0 cpu_0",
+        "libxgboost 1.5.0 h22f4aa5_1",
+        "numpy",
+        "python >=3.7,<3.8.0a0",
+        "scikit-learn",
+        "scipy",
+        "setuptools"
+      ],
+      "license": "Apache-2.0",
+      "md5": "2c0715153d4831c501923ae39175d892",
+      "name": "py-xgboost",
+      "sha256": "de9fa4d8ad41627a2f7a115026ef9d1ca73b92afbfcd2cb0664d6c3022f3834f",
+      "size": 154562,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300834936,
+      "version": "1.5.0"
+    },
+    "py-xgboost-1.5.0-py38hd43f75c_1.tar.bz2": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "_py-xgboost-mutex 2.0 cpu_0",
+        "libxgboost 1.5.0 h22f4aa5_1",
+        "numpy",
+        "python >=3.8,<3.9.0a0",
+        "scikit-learn",
+        "scipy",
+        "setuptools"
+      ],
+      "license": "Apache-2.0",
+      "md5": "c7bd00096fa4fc1df8d323f780976763",
+      "name": "py-xgboost",
+      "sha256": "aa74ffe8236fae541429d5fb00e1f594a2d7a3e40d4ee1cb3b432a4c8168fa86",
+      "size": 156171,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300828157,
+      "version": "1.5.0"
+    },
+    "py-xgboost-1.5.0-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "_py-xgboost-mutex 2.0 cpu_0",
+        "libxgboost 1.5.0 h22f4aa5_1",
+        "numpy",
+        "python >=3.9,<3.10.0a0",
+        "scikit-learn",
+        "scipy",
+        "setuptools"
+      ],
+      "license": "Apache-2.0",
+      "md5": "639463c7709f629731feb0fcc6862a7d",
+      "name": "py-xgboost",
+      "sha256": "f8e24f2c1f4d347c15997cbc874c6c695ae27bf5144190907badb97d2401fd95",
+      "size": 155523,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300820483,
+      "version": "1.5.0"
+    },
     "py-xgboost-cpu-1.3.3-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -36580,6 +36660,54 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620747979925,
       "version": "1.3.3"
+    },
+    "py-xgboost-cpu-1.5.0-py37hd43f75c_1.tar.bz2": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py37hd43f75c_1",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "d80efab9cbc524962cfc6afb70ac9953",
+      "name": "py-xgboost-cpu",
+      "sha256": "7e7798855a478672eb3791ddcc863670fc50d25fc34013ea923fa28feac1d160",
+      "size": 13787,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300856490,
+      "version": "1.5.0"
+    },
+    "py-xgboost-cpu-1.5.0-py38hd43f75c_1.tar.bz2": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py38hd43f75c_1",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "dfd9306d2577bac2f09f071e2e8f1414",
+      "name": "py-xgboost-cpu",
+      "sha256": "68b30805cb14877d76982ef46d06786c2430d146c4de05118e9a674831c9ec99",
+      "size": 13762,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300849605,
+      "version": "1.5.0"
+    },
+    "py-xgboost-cpu-1.5.0-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py39hd43f75c_1",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "c8620c640ba1e74464ff28cb4afd6855",
+      "name": "py-xgboost-cpu",
+      "sha256": "9d345e3b3c2cdabd2013c9f1e3bfc383d98940e4b8d61ba136e2e43685edaf34",
+      "size": 13798,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300842777,
+      "version": "1.5.0"
     },
     "pyarrow-4.0.1-py37h06310bd_3.tar.bz2": {
       "build": "py37h06310bd_3",
@@ -52346,6 +52474,54 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620747996140,
       "version": "1.3.3"
+    },
+    "xgboost-1.5.0-py37hd43f75c_1.tar.bz2": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py37hd43f75c_1",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "fc7785e92a1785f84a9c46ce2c27bd86",
+      "name": "xgboost",
+      "sha256": "5d89aa27a28c9459442c401d7cbedc7beb44d8683baa65b8acf0eadb893862d2",
+      "size": 13757,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300867239,
+      "version": "1.5.0"
+    },
+    "xgboost-1.5.0-py38hd43f75c_1.tar.bz2": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py38hd43f75c_1",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "72ab1b8586d8508e6cb6acfa46224354",
+      "name": "xgboost",
+      "sha256": "77194c4978b720c6f851733f2f1d9215d578a56dc7a13e44ecc4085676db8a8c",
+      "size": 13761,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300863781,
+      "version": "1.5.0"
+    },
+    "xgboost-1.5.0-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py39hd43f75c_1",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "39cb7424d9f3308e036865827d1a97b0",
+      "name": "xgboost",
+      "sha256": "51434f79991795bbb9ef6156a0b0b4527141d291bbac7ccfd0fb2b9e4d0de6e2",
+      "size": 13795,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300860300,
+      "version": "1.5.0"
     },
     "xlwt-1.3.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -79524,6 +79700,23 @@
       "timestamp": 1620747940237,
       "version": "1.3.3"
     },
+    "libxgboost-1.5.0-h22f4aa5_1.conda": {
+      "build": "h22f4aa5_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "6d48f228107af32cfb6e2c2552027582",
+      "name": "libxgboost",
+      "sha256": "bb0654df67328eb11a49c436772faa38c8253553f5f2258cd0f205ad9e6f6470",
+      "size": 2323509,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300810475,
+      "version": "1.5.0"
+    },
     "libxkbcommon-1.0.1-h1897131_0.conda": {
       "build": "h1897131_0",
       "build_number": 0,
@@ -89380,6 +89573,69 @@
       "timestamp": 1620747955125,
       "version": "1.3.3"
     },
+    "py-xgboost-1.5.0-py37hd43f75c_1.conda": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "_py-xgboost-mutex 2.0 cpu_0",
+        "libxgboost 1.5.0 h22f4aa5_1",
+        "numpy",
+        "python >=3.7,<3.8.0a0",
+        "scikit-learn",
+        "scipy",
+        "setuptools"
+      ],
+      "license": "Apache-2.0",
+      "md5": "a9c8514d7abbc8f18eb6b959c303d831",
+      "name": "py-xgboost",
+      "sha256": "cde03799fcbf113eeb3e7d1e5f15ca7562d0f6d82216aa9d9ae5c6bf29273424",
+      "size": 156873,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300834936,
+      "version": "1.5.0"
+    },
+    "py-xgboost-1.5.0-py38hd43f75c_1.conda": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "_py-xgboost-mutex 2.0 cpu_0",
+        "libxgboost 1.5.0 h22f4aa5_1",
+        "numpy",
+        "python >=3.8,<3.9.0a0",
+        "scikit-learn",
+        "scipy",
+        "setuptools"
+      ],
+      "license": "Apache-2.0",
+      "md5": "3bcf4df083061e12eb2e18f2562348c8",
+      "name": "py-xgboost",
+      "sha256": "9dfb8eaa7e4c4e74a8a200aeadbd7e81d17f4b0903a2b19128c4858e13cc5f94",
+      "size": 158394,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300828157,
+      "version": "1.5.0"
+    },
+    "py-xgboost-1.5.0-py39hd43f75c_1.conda": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "_py-xgboost-mutex 2.0 cpu_0",
+        "libxgboost 1.5.0 h22f4aa5_1",
+        "numpy",
+        "python >=3.9,<3.10.0a0",
+        "scikit-learn",
+        "scipy",
+        "setuptools"
+      ],
+      "license": "Apache-2.0",
+      "md5": "055478f4b23340937dddf79aa3f5b08e",
+      "name": "py-xgboost",
+      "sha256": "5a2ff71ca8afe886369981ec0324fbfac35a19d0dd04b2f15b095ad79921987e",
+      "size": 158155,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300820483,
+      "version": "1.5.0"
+    },
     "py-xgboost-cpu-1.3.3-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -89427,6 +89683,54 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620747979925,
       "version": "1.3.3"
+    },
+    "py-xgboost-cpu-1.5.0-py37hd43f75c_1.conda": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py37hd43f75c_1",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "f5dd57fd5f8bac920ac65c7811c0b2a4",
+      "name": "py-xgboost-cpu",
+      "sha256": "1899fd40f0c3b4e77e86d59efe6ef4d74c2fc3e0e082e24eb022f345dde9e0b1",
+      "size": 13810,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300856490,
+      "version": "1.5.0"
+    },
+    "py-xgboost-cpu-1.5.0-py38hd43f75c_1.conda": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py38hd43f75c_1",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "1261040fb9bba9f6ea40fa1d9d6e2e37",
+      "name": "py-xgboost-cpu",
+      "sha256": "aae6ca03d2cf3bfe28356bc1c70c7d23e887c266069164fed02dbda65accaade",
+      "size": 13810,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300849605,
+      "version": "1.5.0"
+    },
+    "py-xgboost-cpu-1.5.0-py39hd43f75c_1.conda": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py39hd43f75c_1",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "aa723272ae637e0bf7fd4ec00f6dcb5f",
+      "name": "py-xgboost-cpu",
+      "sha256": "c524b1646f706fc872638759cac8a784a745ca7f156d22762bf10a4e21995647",
+      "size": 13831,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300842777,
+      "version": "1.5.0"
     },
     "pyarrow-4.0.1-py37h06310bd_3.conda": {
       "build": "py37h06310bd_3",
@@ -105096,6 +105400,54 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620747996140,
       "version": "1.3.3"
+    },
+    "xgboost-1.5.0-py37hd43f75c_1.conda": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py37hd43f75c_1",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "bf1ae6cc5b2dae532393a77ce5a4b083",
+      "name": "xgboost",
+      "sha256": "68d2703688d98acf8d6c5ab04909477beeb943577c95a816ce31e02ab4f0e259",
+      "size": 13773,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300867239,
+      "version": "1.5.0"
+    },
+    "xgboost-1.5.0-py38hd43f75c_1.conda": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py38hd43f75c_1",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "ab02712ddee4cda0222272d989fbe7a7",
+      "name": "xgboost",
+      "sha256": "3bd8bb465ae6e747c3f72195ad7de6f83cc432e63be607f5f499f763b000f976",
+      "size": 13769,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300863781,
+      "version": "1.5.0"
+    },
+    "xgboost-1.5.0-py39hd43f75c_1.conda": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "py-xgboost 1.5.0 py39hd43f75c_1",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "md5": "d733fea706e011689636af72ffb10962",
+      "name": "xgboost",
+      "sha256": "108a526ab37843a19a88f3bce07f44b9a6b12cbe4c1b8cf5f6922fcd48b6ab48",
+      "size": 13791,
+      "subdir": "linux-aarch64",
+      "timestamp": 1638300860300,
+      "version": "1.5.0"
     },
     "xlwt-1.3.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
