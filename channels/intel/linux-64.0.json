@@ -36912,28 +36912,27 @@
       "requires": [],
       "build": "py36_intel_0"
     },
-    "tbb4py-2021.3.0-py38_intel_511.tar.bz2": {
-      "build_number": 511,
-      "name": "tbb4py",
+    "impi_rt-2021.4.0-intel_pycpuinfo_442.tar.bz2": {
+      "build_number": 442,
+      "name": "impi_rt",
       "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "md5": "baff2441479d5252a0d1124bdc084707",
+      "md5": "c172f28fd6336a02d63071f519943190",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "python 3.8.*",
-        "tbb 2021.3.0 intel_511"
+        "py-cpuinfo"
       ],
-      "version": "2021.3.0",
-      "build": "py38_intel_511",
-      "timestamp": 1624272239698,
+      "version": "2021.4.0",
+      "build": "intel_pycpuinfo_442",
+      "timestamp": 1632472401665,
       "binstar": {
-        "package_id": "5e416d447870586e9465e55f",
+        "package_id": "5e416d297870586e914eb0ee",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 331068,
+      "size": 41032361,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -55951,6 +55950,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "impi-devel-2021.4.0-intel_442.tar.bz2": {
+      "build_number": 442,
+      "name": "impi-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "77de9d844f66744150b03d50dc9c3d40",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "impi_rt 2021.4.0 intel*_44*"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_442",
+      "timestamp": 1632472360040,
+      "binstar": {
+        "package_id": "5b7bb67ec036d81348162a37",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 55638,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "setuptools-41.0.1-py27_0.tar.bz2": {
       "timestamp": 1566157905909,
       "depends": [
@@ -71707,6 +71732,33 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "tbb4py-2021.3.0-py38_intel_511.tar.bz2": {
+      "build_number": 511,
+      "name": "tbb4py",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "baff2441479d5252a0d1124bdc084707",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "python 3.8.*",
+        "tbb 2021.3.0 intel_511"
+      ],
+      "version": "2021.3.0",
+      "build": "py38_intel_511",
+      "timestamp": 1624272239698,
+      "binstar": {
+        "package_id": "5e416d447870586e9465e55f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 331068,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "backports_abc-0.4-py27_intel_6.tar.bz2": {
       "build_number": 6,
       "features": "intel",
@@ -82802,6 +82854,33 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "impi_rt-2021.4.0-intel_444.tar.bz2": {
+      "timestamp": 1632472401665,
+      "depends": [],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 41606094,
+      "constrains": [
+        "py-cpuinfo <0.1.0"
+      ],
+      "build_number": 444,
+      "name": "impi_rt",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.4.0",
+      "build": "intel_444",
+      "binstar": {
+        "package_id": "5e416d297870586e914eb0ee",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e0bf19e6f62d28a93c7eaea56b304264",
+      "requires": [],
       "subdir": "linux-64"
     },
     "bzip2-1.0.6-intel_14.tar.bz2": {
