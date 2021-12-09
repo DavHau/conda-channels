@@ -17522,6 +17522,57 @@
       "timestamp": 1621374061365,
       "version": "3.7.7.1"
     },
+    "ephem-4.1.2-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e3e95bbb7e393f80002b5258e3d03529",
+      "name": "ephem",
+      "sha256": "4e4e6140af2897e2d90e2e295b6cfd5042b2dc990de453186c3b5b2eaa1502c9",
+      "size": 1484211,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040144071,
+      "version": "4.1.2"
+    },
+    "ephem-4.1.2-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f404e70ccbf729b95d1ffb66722653f0",
+      "name": "ephem",
+      "sha256": "3ce00358e5e1ab146eec4574eeec7534dfd03b8f34773565a2ae6509ef1d0e2c",
+      "size": 1485172,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040203680,
+      "version": "4.1.2"
+    },
+    "ephem-4.1.2-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "08eec45e559e18548d3244331c4e506b",
+      "name": "ephem",
+      "sha256": "84bc72760fc5104430a9d7c09a074b97979c7702c415cc07b999a1830e3cb820",
+      "size": 1467820,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040173795,
+      "version": "4.1.2"
+    },
     "epoxy-1.5.4-h2f4d8fa_2.tar.bz2": {
       "build": "h2f4d8fa_2",
       "build_number": 2,
@@ -22603,6 +22654,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621527800616,
       "version": "2.6.1"
+    },
+    "iminuit-2.8.4-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "LGPL-2.1-or-later AND MIT",
+      "license_family": "LGPL",
+      "md5": "da4794444c4874f0b9e89afd17b56b71",
+      "name": "iminuit",
+      "sha256": "015d18366b840bfbf924c3d1d8167a826dff63c03e0573f07ef72f44ff31b4d7",
+      "size": 370307,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040224474,
+      "version": "2.8.4"
+    },
+    "iminuit-2.8.4-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "LGPL-2.1-or-later AND MIT",
+      "license_family": "LGPL",
+      "md5": "5f902702d5e7aa4cad1e00ca973831b4",
+      "name": "iminuit",
+      "sha256": "cfe1a4f5da00c050da080d6df39642fdf04bf21ba72a2a78461437d23aa8bd0d",
+      "size": 364040,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040275277,
+      "version": "2.8.4"
+    },
+    "iminuit-2.8.4-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "LGPL-2.1-or-later AND MIT",
+      "license_family": "LGPL",
+      "md5": "47018892ca2a7d4e07c3f1a5b386e305",
+      "name": "iminuit",
+      "sha256": "dd63c8304670eb6681872cb88cf91ffdc5f75169b66bc1fae564594acb1497ed",
+      "size": 364390,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040171469,
+      "version": "2.8.4"
     },
     "immutables-0.15-py37h2f4d8fa_0.tar.bz2": {
       "build": "py37h2f4d8fa_0",
@@ -72099,6 +72207,57 @@
       "timestamp": 1621374061365,
       "version": "3.7.7.1"
     },
+    "ephem-4.1.2-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b5fd2fda1aabd010126ce2f3d6980c98",
+      "name": "ephem",
+      "sha256": "eac193a9de5a5d6ee9747e3633d4d00a8ebac046f27e0d4504c1622db1ff4c6b",
+      "size": 1372717,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040144071,
+      "version": "4.1.2"
+    },
+    "ephem-4.1.2-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5627fa612a576956cf2b23acb97a0d82",
+      "name": "ephem",
+      "sha256": "e61e1875f02c8738ec503be7e80600f3b55bfac565f79c13b55ca81a9a88455b",
+      "size": 1373282,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040203680,
+      "version": "4.1.2"
+    },
+    "ephem-4.1.2-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "73ec33d433b3fe674e90e7b85427fc6d",
+      "name": "ephem",
+      "sha256": "4b837016d81694251a0f59d9509d2c5a0ab21ada61a12cce3e8ec5668542c213",
+      "size": 1373867,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040173795,
+      "version": "4.1.2"
+    },
     "epoxy-1.5.4-h2f4d8fa_2.conda": {
       "build": "h2f4d8fa_2",
       "build_number": 2,
@@ -77180,6 +77339,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621527800616,
       "version": "2.6.1"
+    },
+    "iminuit-2.8.4-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "LGPL-2.1-or-later AND MIT",
+      "license_family": "LGPL",
+      "md5": "9163fbfd15e245e558c1f5292274ee50",
+      "name": "iminuit",
+      "sha256": "cec7c49ea0db747829544feb2700cbae00017fa41f377736e723bba2e282786c",
+      "size": 342898,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040224474,
+      "version": "2.8.4"
+    },
+    "iminuit-2.8.4-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "LGPL-2.1-or-later AND MIT",
+      "license_family": "LGPL",
+      "md5": "548f38dfc0fd03039e3c164cd7331fe2",
+      "name": "iminuit",
+      "sha256": "1101ea80bdfa74dad5d7ac1072c0fd4f4228074f95a5acf8e15d9775a1197f4d",
+      "size": 331844,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040275277,
+      "version": "2.8.4"
+    },
+    "iminuit-2.8.4-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "LGPL-2.1-or-later AND MIT",
+      "license_family": "LGPL",
+      "md5": "5ef8c586ec3c62ad795ea3a58db58cb4",
+      "name": "iminuit",
+      "sha256": "f733f93258eaf0c715aa495cb43fced9018583b2cc30cef726d1fbbc9111543a",
+      "size": 332323,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639040171469,
+      "version": "2.8.4"
     },
     "immutables-0.15-py37h2f4d8fa_0.conda": {
       "build": "py37h2f4d8fa_0",
