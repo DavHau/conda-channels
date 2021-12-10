@@ -8894,6 +8894,67 @@
       "timestamp": 1629380703415,
       "version": "2.7.1"
     },
+    "astroid-2.9.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools >=20.0",
+        "typed-ast >=1.4.0,<2.0",
+        "typing-extensions >=3.10",
+        "wrapt >=1.11,<1.14"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "3db0bd9ec7eadc0c3754f009374e00d8",
+      "name": "astroid",
+      "sha256": "384a13d740f38524c366653ef96bd2720bea4506dea78d19d48575138f4dc1c5",
+      "size": 358450,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639128743020,
+      "version": "2.9.0"
+    },
+    "astroid-2.9.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools >=20.0",
+        "typing-extensions >=3.10",
+        "wrapt >=1.11,<1.14"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "f7b926484d6a316dee626f672309cad1",
+      "name": "astroid",
+      "sha256": "af7c76748a08902ceac21c19505d1c5bfbb6557ac760a0de0ca11fa6561414d3",
+      "size": 359126,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639128723891,
+      "version": "2.9.0"
+    },
+    "astroid-2.9.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.9,<3.10.0a0",
+        "setuptools >=20.0",
+        "typing-extensions >=3.10",
+        "wrapt >=1.11,<1.14"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "7d405604ddb21e482d9196b4ba06ee1e",
+      "name": "astroid",
+      "sha256": "eeb34e1d9e37ffb1a4c59f6d5866447ac6b9610a91ec6821cc0444341e445e2b",
+      "size": 360535,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639128704468,
+      "version": "2.9.0"
+    },
     "astropy-4.2-py37hfd0a847_1.tar.bz2": {
       "build": "py37hfd0a847_1",
       "build_number": 1,
@@ -14943,6 +15004,23 @@
       "timestamp": 1615047233606,
       "version": "7.71.1"
     },
+    "curl-7.80.0-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libcurl 7.80.0 h13c8431_0",
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "curl",
+      "license_family": "MIT",
+      "md5": "3105950c891adacf1ffd27d0ffba7584",
+      "name": "curl",
+      "sha256": "083ff3620900521c4360cb9761aa784433defb3e974a8a994b6e5b5535cf15b2",
+      "size": 92865,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157779258,
+      "version": "7.80.0"
+    },
     "curtsies-0.3.4-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -18076,6 +18154,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621281830660,
       "version": "1.4.0"
+    },
+    "fastavro-1.4.7-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f39f27b8b90a328773dde1a344bc93aa",
+      "name": "fastavro",
+      "sha256": "107fb3b31db57af161e4f27848f4b71393839ca66e883bab5d00174c4def9316",
+      "size": 449507,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639056799569,
+      "version": "1.4.7"
+    },
+    "fastavro-1.4.7-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "542c290014f52c7d9b685a22d50b3e02",
+      "name": "fastavro",
+      "sha256": "dba44014cb39116f05a6974092f6f3ec436baf31f6eace0a149bebc743c58dff",
+      "size": 461934,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639056751120,
+      "version": "1.4.7"
+    },
+    "fastavro-1.4.7-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5e788c956c02f8a28ea4b48f6361f694",
+      "name": "fastavro",
+      "sha256": "163b1a1b7b5fc252a6d58af573edbd947a8a2217943e83a8b0bb4c8910f7e141",
+      "size": 456475,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639056846007,
+      "version": "1.4.7"
     },
     "fastcache-1.1.0-py37hfd63f10_0.tar.bz2": {
       "build": "py37hfd63f10_0",
@@ -22027,6 +22159,54 @@
       "timestamp": 1628108026011,
       "version": "0.17"
     },
+    "humanfriendly-10.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "19d8ecb389927906651e611423875c6f",
+      "name": "humanfriendly",
+      "sha256": "342c70ece38c607b64b1f8967d7acb820c52dab84d2322c601a4345f869dad6d",
+      "size": 121020,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639148518620,
+      "version": "10.0"
+    },
+    "humanfriendly-10.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ac71a1ca48a6b06ee00611dbd05a4700",
+      "name": "humanfriendly",
+      "sha256": "e772cf80fd4426dc856309f04185b5dbc3fc15c66c637130385074deda215381",
+      "size": 121137,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639148534908,
+      "version": "10.0"
+    },
+    "humanfriendly-10.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c08096f6be49b8887c2ae250181450a3",
+      "name": "humanfriendly",
+      "sha256": "9f55aa4610080004c46e9c6057d67bdad5cb541d55255a0f2ae1c13d0cabe6cd",
+      "size": 121573,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639148502311,
+      "version": "10.0"
+    },
     "humanfriendly-9.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -25889,6 +26069,27 @@
       "timestamp": 1615047229790,
       "version": "7.71.1"
     },
+    "libcurl-7.80.0-h13c8431_0.tar.bz2": {
+      "build": "h13c8431_0",
+      "build_number": 0,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "libnghttp2 >=1.46.0,<2.0a0",
+        "libssh2 >=1.9.0,<2.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "curl",
+      "license_family": "MIT",
+      "md5": "b88f9b9f0dd6555a3e251f73a2aa4b0b",
+      "name": "libcurl",
+      "sha256": "6fb69af93ee184fc0be2c3b4a6a6c8d334b098d4b12301cf32fc647be6ccc890",
+      "size": 361860,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157774414,
+      "version": "7.80.0"
+    },
     "libcurl-static-7.71.1-hd64e4df_8.tar.bz2": {
       "build": "hd64e4df_8",
       "build_number": 8,
@@ -25908,6 +26109,26 @@
       "subdir": "linux-aarch64",
       "timestamp": 1613590931451,
       "version": "7.71.1"
+    },
+    "libcurl-static-7.80.0-ha9ffb65_0.tar.bz2": {
+      "build": "ha9ffb65_0",
+      "build_number": 0,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libcurl 7.80.0 h13c8431_0",
+        "libgcc-ng >=10.2.0",
+        "libssh2 >=1.9.0,<2.0a0",
+        "openssl >=1.1.1l,<1.1.2a"
+      ],
+      "license": "curl",
+      "license_family": "MIT",
+      "md5": "5480e8bf0491db1e69c4925f62392621",
+      "name": "libcurl-static",
+      "sha256": "d7f2d61badd0a2132d174d13985348afa1760073cd71b47e01c8940fc4eed01a",
+      "size": 367800,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157783564,
+      "version": "7.80.0"
     },
     "libdap4-3.19.1-h0ed7611_0.tar.bz2": {
       "build": "h0ed7611_0",
@@ -26304,6 +26525,30 @@
       "subdir": "linux-aarch64",
       "timestamp": 1622746675587,
       "version": "2.2.5"
+    },
+    "libgd-2.3.3-hbda19f9_0.tar.bz2": {
+      "build": "hbda19f9_0",
+      "build_number": 0,
+      "depends": [
+        "expat",
+        "fontconfig >=2.13.1,<3.0a0",
+        "freetype >=2.10.4,<3.0a0",
+        "icu",
+        "jpeg >=9d,<10a",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp-base"
+      ],
+      "license": "GD",
+      "license_family": "BSD",
+      "md5": "d7f997ef732921ed5fae9e3d2becc86c",
+      "name": "libgd",
+      "sha256": "ce600cfab257a752b8d34b6c1aa28196e3c348b4f9e1bb932e10b8be7d7aaea4",
+      "size": 326494,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157785625,
+      "version": "2.3.3"
     },
     "libgdal-3.0.2-h38ff7b5_0.tar.bz2": {
       "build": "h38ff7b5_0",
@@ -28753,6 +28998,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619013958142,
       "version": "4.6.3"
+    },
+    "lxml-4.6.4-py37h61baf6c_0.tar.bz2": {
+      "build": "py37h61baf6c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+      "md5": "4b4dd141799f2c75c688cf1530a38aea",
+      "name": "lxml",
+      "sha256": "47757486eeeaf14cb60293c9efbaa8e89e0ea8c1696afd5d1ef1c7596cb5fba1",
+      "size": 1397941,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639073709093,
+      "version": "4.6.4"
+    },
+    "lxml-4.6.4-py38h61baf6c_0.tar.bz2": {
+      "build": "py38h61baf6c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+      "md5": "d294b5fa80fb954aff0e9d17c21e93e2",
+      "name": "lxml",
+      "sha256": "c6325ee4d3566898f7a781dbf629c5a4a39edd64c5b6b3bc665742e40a8ab5b7",
+      "size": 1429905,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639073831415,
+      "version": "4.6.4"
+    },
+    "lxml-4.6.4-py39h61baf6c_0.tar.bz2": {
+      "build": "py39h61baf6c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+      "md5": "78a12051a5381c0b7f65a82b79e252b9",
+      "name": "lxml",
+      "sha256": "aac00969df764bb797fa6ab2746c339cb6c5b5b6a57e549a987992efe790ff28",
+      "size": 1420568,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639073580754,
+      "version": "4.6.4"
     },
     "lz4-3.1.3-py37hfd63f10_0.tar.bz2": {
       "build": "py37hfd63f10_0",
@@ -40497,6 +40796,63 @@
       "timestamp": 1615419758379,
       "version": "4.0.30"
     },
+    "pyodbc-4.0.32-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "unixodbc >=2.3.9,<2.4.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6753bfa51d5104fbe1a57cbed41600ce",
+      "name": "pyodbc",
+      "sha256": "f8addba0a262dbe2fae9c1bebe574bd5084742ab26e5799d35240bcedd560427",
+      "size": 77653,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639071890052,
+      "version": "4.0.32"
+    },
+    "pyodbc-4.0.32-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "unixodbc >=2.3.9,<2.4.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b367a9ff126fe9c6cce64b907e08ef2c",
+      "name": "pyodbc",
+      "sha256": "4532405a62a8168f11075f2dcd69907224e70f0e0a7a217704ec71a04641476e",
+      "size": 78535,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639071837970,
+      "version": "4.0.32"
+    },
+    "pyodbc-4.0.32-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "unixodbc >=2.3.9,<2.4.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2fc0be6f562eef571bd83d0145aa0689",
+      "name": "pyodbc",
+      "sha256": "31bf9343b097cd2f8ab596485cf1d086ff6752455fbf8b59190521c93df9f35c",
+      "size": 78566,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639071863692,
+      "version": "4.0.32"
+    },
     "pyopengl-3.1.1a1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -42856,6 +43212,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621543695986,
       "version": "1.0"
+    },
+    "python-rapidjson-1.5-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ee5d43f044ee1acead68fad3282ae4ef",
+      "name": "python-rapidjson",
+      "namespace_in_name": true,
+      "sha256": "920911eb69afeba573412e60a158a72a28c6120536e25e19840cd3eab319c809",
+      "size": 186512,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639147811725,
+      "version": "1.5"
+    },
+    "python-rapidjson-1.5-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6525868eefb27fcdf959d5502f242dc7",
+      "name": "python-rapidjson",
+      "namespace_in_name": true,
+      "sha256": "9bb0b08a1117e2c93fd26d0ba6e5cbc55a6ec02f3bd5c7f961f69bd5f9d00b77",
+      "size": 189126,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639147886212,
+      "version": "1.5"
+    },
+    "python-rapidjson-1.5-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d3ef8c67084d33bbde5ccd0d9fa52338",
+      "name": "python-rapidjson",
+      "namespace_in_name": true,
+      "sha256": "32f7fcf0a36d2a68400ee12204227519b914d110c46a4f1f68de89e56fcc3127",
+      "size": 186550,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639147848937,
+      "version": "1.5"
     },
     "python-regr-testsuite-3.9.4-hd43f75c_2.tar.bz2": {
       "build": "hd43f75c_2",
@@ -47092,6 +47505,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620825375391,
       "version": "3.17.2"
+    },
+    "simplejson-3.17.6-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ca325c1c46b2ec2d3bf9886978555574",
+      "name": "simplejson",
+      "sha256": "0109cee8092869097332c3a8a21661694b3096c164f42ab5b98114fed14d161d",
+      "size": 106008,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639153083041,
+      "version": "3.17.6"
+    },
+    "simplejson-3.17.6-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bb238ed99578616e862358f7cbe4ccba",
+      "name": "simplejson",
+      "sha256": "6a823e57fcbd2b0eefb57b4d4a17c9e21ad7d86f27cf9c0102fa4c30882a916f",
+      "size": 106824,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639153062399,
+      "version": "3.17.6"
+    },
+    "simplejson-3.17.6-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "65c24e0961ee6e78fcb7c9283a9a9f30",
+      "name": "simplejson",
+      "sha256": "5c63233573af4d374adadcd138484ff8e3916c39f7e17a1ab39616ebbeaa425c",
+      "size": 106265,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639153041064,
+      "version": "3.17.6"
     },
     "sip-4.19.25-py37h7c1a80f_0.tar.bz2": {
       "build": "py37h7c1a80f_0",
@@ -63938,6 +64402,67 @@
       "timestamp": 1619010387130,
       "version": "2.5.3"
     },
+    "astroid-2.9.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools >=20.0",
+        "typed-ast >=1.4.0,<2.0",
+        "typing-extensions >=3.10",
+        "wrapt >=1.11,<1.14"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "372ff90046438c036f4ddfa93520d291",
+      "name": "astroid",
+      "sha256": "0b029e6045ade052fc415df460a9f1e99d7becac5868cc1a42d8e635af4cc3cd",
+      "size": 334547,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639128743020,
+      "version": "2.9.0"
+    },
+    "astroid-2.9.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools >=20.0",
+        "typing-extensions >=3.10",
+        "wrapt >=1.11,<1.14"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "36bf78ea690f53d3db2f1bc5759d37e9",
+      "name": "astroid",
+      "sha256": "8988b8d8b19d6a59140c6e9da26f399ccf4885865858d855e8f5e7aab4533551",
+      "size": 336867,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639128723891,
+      "version": "2.9.0"
+    },
+    "astroid-2.9.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "lazy-object-proxy >=1.4.0",
+        "python >=3.9,<3.10.0a0",
+        "setuptools >=20.0",
+        "typing-extensions >=3.10",
+        "wrapt >=1.11,<1.14"
+      ],
+      "license": "LGPL-2.1-or-later",
+      "license_family": "LGPL",
+      "md5": "eba7f486e9c6184b0671df01f3327211",
+      "name": "astroid",
+      "sha256": "c41750a06063488bf461ff30613d6c0f2a650142a26b5105d900ffad834cf757",
+      "size": 336887,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639128704468,
+      "version": "2.9.0"
+    },
     "astropy-4.2-py37hfd0a847_1.conda": {
       "build": "py37hfd0a847_1",
       "build_number": 1,
@@ -69968,6 +70493,23 @@
       "timestamp": 1615047233606,
       "version": "7.71.1"
     },
+    "curl-7.80.0-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libcurl 7.80.0 h13c8431_0",
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "curl",
+      "license_family": "MIT",
+      "md5": "154644ef86b84383cedf7aa5f57e2f38",
+      "name": "curl",
+      "sha256": "5f1a3e60121629b1b51151d1f3efc63dd4b6d0517886724fd35c3e1ae0abf81a",
+      "size": 87781,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157779258,
+      "version": "7.80.0"
+    },
     "curtsies-0.3.4-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -73101,6 +73643,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621281830660,
       "version": "1.4.0"
+    },
+    "fastavro-1.4.7-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2838610e084044fd02fd3b3072c6fe3e",
+      "name": "fastavro",
+      "sha256": "e316c0b028d6271c9162653ce2e20a98f58a575ce72cb7b30fdcb446c272c7d4",
+      "size": 404394,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639056799569,
+      "version": "1.4.7"
+    },
+    "fastavro-1.4.7-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4612ab6fc82d48292d0bfd8a1d20e7df",
+      "name": "fastavro",
+      "sha256": "dcf4a8dd7e8c2fe5c11643b714afb1f8041cd5ac6f5b29f214119043714b39a1",
+      "size": 418976,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639056751120,
+      "version": "1.4.7"
+    },
+    "fastavro-1.4.7-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "pytz"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "fe3204cede1b766ffdee1f4b229d23ea",
+      "name": "fastavro",
+      "sha256": "6155190e95351d7bab65422e6f6e358b8a2911df59b48508578aa3888533426c",
+      "size": 414107,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639056846007,
+      "version": "1.4.7"
     },
     "fastcache-1.1.0-py37hfd63f10_0.conda": {
       "build": "py37hfd63f10_0",
@@ -77052,6 +77648,54 @@
       "timestamp": 1628108026011,
       "version": "0.17"
     },
+    "humanfriendly-10.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "336b1f8943052348aa2c7f4bb9543d49",
+      "name": "humanfriendly",
+      "sha256": "cd058b347227eb748691bb762f19de37bdc8fc2fbd8c00f9a0213aaa2a7d3fbc",
+      "size": 116418,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639148518620,
+      "version": "10.0"
+    },
+    "humanfriendly-10.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e5ae721a18a4332257cd9c48d6375c0a",
+      "name": "humanfriendly",
+      "sha256": "dcc79b1f41633e7ba2236c652e23f08e2551bf6c71ee09d692411cd4c5fbd929",
+      "size": 116564,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639148534908,
+      "version": "10.0"
+    },
+    "humanfriendly-10.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2f17722d409cec5f88b802c5bcd40f72",
+      "name": "humanfriendly",
+      "sha256": "508774a9e73b68eba7e284f57379f9a7a18846742545026316057cea4530ca23",
+      "size": 116764,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639148502311,
+      "version": "10.0"
+    },
     "humanfriendly-9.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -80914,6 +81558,27 @@
       "timestamp": 1615047229790,
       "version": "7.71.1"
     },
+    "libcurl-7.80.0-h13c8431_0.conda": {
+      "build": "h13c8431_0",
+      "build_number": 0,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "libnghttp2 >=1.46.0,<2.0a0",
+        "libssh2 >=1.9.0,<2.0a0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "curl",
+      "license_family": "MIT",
+      "md5": "c0d50e5e2131d2a1117901b2d548c050",
+      "name": "libcurl",
+      "sha256": "61c1b68b4ed05c68862873ee04a0726a3c8f1e4fb53d63e48da32304cbae0c4c",
+      "size": 350156,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157774414,
+      "version": "7.80.0"
+    },
     "libcurl-static-7.71.1-hd64e4df_8.conda": {
       "build": "hd64e4df_8",
       "build_number": 8,
@@ -80933,6 +81598,26 @@
       "subdir": "linux-aarch64",
       "timestamp": 1613590931451,
       "version": "7.71.1"
+    },
+    "libcurl-static-7.80.0-ha9ffb65_0.conda": {
+      "build": "ha9ffb65_0",
+      "build_number": 0,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libcurl 7.80.0 h13c8431_0",
+        "libgcc-ng >=10.2.0",
+        "libssh2 >=1.9.0,<2.0a0",
+        "openssl >=1.1.1l,<1.1.2a"
+      ],
+      "license": "curl",
+      "license_family": "MIT",
+      "md5": "6df796562e3394b53105e02ea1e890c1",
+      "name": "libcurl-static",
+      "sha256": "cd54381b3e342fa75caf695125a8363fd25633caa13bc07125368d3ee92e3f62",
+      "size": 371843,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157783564,
+      "version": "7.80.0"
     },
     "libdap4-3.19.1-h0ed7611_0.conda": {
       "build": "h0ed7611_0",
@@ -81329,6 +82014,30 @@
       "subdir": "linux-aarch64",
       "timestamp": 1622746675587,
       "version": "2.2.5"
+    },
+    "libgd-2.3.3-hbda19f9_0.conda": {
+      "build": "hbda19f9_0",
+      "build_number": 0,
+      "depends": [
+        "expat",
+        "fontconfig >=2.13.1,<3.0a0",
+        "freetype >=2.10.4,<3.0a0",
+        "icu",
+        "jpeg >=9d,<10a",
+        "libgcc-ng >=10.2.0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libwebp-base"
+      ],
+      "license": "GD",
+      "license_family": "BSD",
+      "md5": "0d595878e6f06d012f2a25d271823d21",
+      "name": "libgd",
+      "sha256": "36f0b45680856e9b32008c81e7dff33062a23a14c6db05241c5fee7840a8a942",
+      "size": 235382,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639157785625,
+      "version": "2.3.3"
     },
     "libgdal-3.0.2-h38ff7b5_0.conda": {
       "build": "h38ff7b5_0",
@@ -83778,6 +84487,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1619013958142,
       "version": "4.6.3"
+    },
+    "lxml-4.6.4-py37h61baf6c_0.conda": {
+      "build": "py37h61baf6c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+      "md5": "11fbc03d4400bc4cc57cc7f823b002a6",
+      "name": "lxml",
+      "sha256": "7cee6278d2a356a6ba9c989201f96716363fbc5b25e02688c70716233cef44e5",
+      "size": 1244579,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639073709093,
+      "version": "4.6.4"
+    },
+    "lxml-4.6.4-py38h61baf6c_0.conda": {
+      "build": "py38h61baf6c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+      "md5": "ae190d3cb620028d60d26b84f88d205f",
+      "name": "lxml",
+      "sha256": "378fe8beafa2cd9086f2ff2a21d5da9fba746bce77ac8c496ffcf7a5d94fa313",
+      "size": 1278793,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639073831415,
+      "version": "4.6.4"
+    },
+    "lxml-4.6.4-py39h61baf6c_0.conda": {
+      "build": "py39h61baf6c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "libxslt >=1.1.34,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause and GPL-2.0-only and ZPL-2.0 and LicenseRef-ElementTree",
+      "md5": "20df4e979091f0b00cd74e2c4bfb77ad",
+      "name": "lxml",
+      "sha256": "c97abb99c49242595dd1022f234256a132f34c6c4ea6623602deae2073428491",
+      "size": 1265957,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639073580754,
+      "version": "4.6.4"
     },
     "lz4-3.1.3-py37hfd63f10_0.conda": {
       "build": "py37hfd63f10_0",
@@ -95522,6 +96285,63 @@
       "timestamp": 1615419758379,
       "version": "4.0.30"
     },
+    "pyodbc-4.0.32-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "unixodbc >=2.3.9,<2.4.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "492620f8ce74af1e3b069acb8885f80a",
+      "name": "pyodbc",
+      "sha256": "5a9b9d4ee670db41ad88cfef91e8139d76789a5efabe8bd4c418a0602695cc7b",
+      "size": 75770,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639071890052,
+      "version": "4.0.32"
+    },
+    "pyodbc-4.0.32-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "unixodbc >=2.3.9,<2.4.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "47525d22294d94ffc8679714bce4f77f",
+      "name": "pyodbc",
+      "sha256": "de33ff257a1ff9794cede2692f6a181f9519da578a80aa34e2eaae4ddc0dfb65",
+      "size": 76631,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639071837970,
+      "version": "4.0.32"
+    },
+    "pyodbc-4.0.32-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "unixodbc >=2.3.9,<2.4.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e6e049399b756b8a018f82f59682cd83",
+      "name": "pyodbc",
+      "sha256": "036a00ed8ee368e6e9fe4add2a1113122969e873998bdc28fc3e187078e6a361",
+      "size": 76775,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639071863692,
+      "version": "4.0.32"
+    },
     "pyopengl-3.1.1a1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -97854,6 +98674,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621543695986,
       "version": "1.0"
+    },
+    "python-rapidjson-1.5-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "eee6959bcfc03ce7bfdfdea28e100ef3",
+      "name": "python-rapidjson",
+      "namespace_in_name": true,
+      "sha256": "e08c604bb703871ca3c7a0e01fab5edaced64e17c00c611e32382ae23b875cbd",
+      "size": 157841,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639147811725,
+      "version": "1.5"
+    },
+    "python-rapidjson-1.5-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "af476a5c3600d324a096775e87873aa4",
+      "name": "python-rapidjson",
+      "namespace_in_name": true,
+      "sha256": "df366d77d1e88a17a32b391eb91cf44dd56a84710729defa80ca098cd80afe61",
+      "size": 159917,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639147886212,
+      "version": "1.5"
+    },
+    "python-rapidjson-1.5-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3ba297e0fc103e25dabb668d3a85eed1",
+      "name": "python-rapidjson",
+      "namespace_in_name": true,
+      "sha256": "0dfc853b73adc1ed56feb54c0109c66b02d738f4964146d7ce00416181815547",
+      "size": 157244,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639147848937,
+      "version": "1.5"
     },
     "python-regr-testsuite-3.9.4-hd43f75c_2.conda": {
       "build": "hd43f75c_2",
@@ -102036,6 +102913,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620825375391,
       "version": "3.17.2"
+    },
+    "simplejson-3.17.6-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2e002f2deb5eb752f78f4adff9ff3948",
+      "name": "simplejson",
+      "sha256": "771fcd27fa892eb841c07df550db628e8b170859b4cf011d22c08bc09ccbbc96",
+      "size": 101649,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639153083041,
+      "version": "3.17.6"
+    },
+    "simplejson-3.17.6-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5bbbda297d35c23498bba389d8af71a8",
+      "name": "simplejson",
+      "sha256": "4da1b63b3958ae07318619a4227efefec019bddcb8c3956e9e19d9c5dd1e02c4",
+      "size": 102511,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639153062399,
+      "version": "3.17.6"
+    },
+    "simplejson-3.17.6-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e13d87952335775f89b639fc663342db",
+      "name": "simplejson",
+      "sha256": "e71a38617a23c0cc9e7b447e72d9bc8e7f7613e23428c34988dd22b51102782d",
+      "size": 101874,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639153041064,
+      "version": "3.17.6"
     },
     "sip-4.19.25-py37h7c1a80f_0.conda": {
       "build": "py37h7c1a80f_0",

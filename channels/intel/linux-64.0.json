@@ -52126,6 +52126,43 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "intel-aikit-modin-2021.4.1-py37_0.tar.bz2": {
+      "build_number": 0,
+      "name": "intel-aikit-modin",
+      "has_prefix": false,
+      "md5": "337cd23232ce6ebf06010f6d1d5ddccb",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "_openmp_mutex >=4.5",
+        "daal4py >=2021.4",
+        "intel-openmp",
+        "mkl 2021.4.*",
+        "mkl-service 2.4.0.*",
+        "modin-all 0.11.3.*",
+        "numpy >1.19.2",
+        "python >=3.7,<3.8.0a0",
+        "scikit-ipp >=1.2.0",
+        "scikit-learn >=0.22",
+        "sqlite >=3.36.0",
+        "threadpoolctl",
+        "xgboost >=1.4.2"
+      ],
+      "version": "2021.4.1",
+      "build": "py37_0",
+      "timestamp": 1639063504739,
+      "binstar": {
+        "package_id": "5f2879f878705809fc1ed752",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 7208,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "brotli-1.0.9-h79a9dd4_2.tar.bz2": {
       "build_number": 2,
       "name": "brotli",
