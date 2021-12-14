@@ -14498,6 +14498,28 @@
       "timestamp": 1621532861482,
       "version": "4.0.1"
     },
+    "console_shortcut-0.1.1-hd43f75c_5.tar.bz2": {
+      "app_entry": "start cmd.exe /K \"${CONDA_ROOT_PREFIX}\\\\Scripts\\\\activate.bat\" \"${CONDA_PREFIX}\"",
+      "app_type": "desk",
+      "build": "hd43f75c_5",
+      "build_number": 5,
+      "constrains": [
+        "anaconda-navigator >=1.9.8"
+      ],
+      "depends": [
+        "python"
+      ],
+      "license": "BSD",
+      "md5": "5a80924f01333aa0f6886850a6351660",
+      "name": "console_shortcut",
+      "sha256": "330d097e854ee0db3a4aaa6ad9e9acbafeaf54ca6eb6a6631894e3420e3d003e",
+      "size": 50883,
+      "subdir": "linux-aarch64",
+      "summary": "Anaconda Powershell Prompt",
+      "timestamp": 1639498025576,
+      "type": "app",
+      "version": "0.1.1"
+    },
     "constructor-3.0.2-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -14897,6 +14919,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1635432253687,
       "version": "35.0.0"
+    },
+    "cryptography-36.0.0-py37h3d58568_0.tar.bz2": {
+      "build": "py37h3d58568_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.12",
+        "libgcc-ng",
+        "openssl",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+      "license_family": "BSD",
+      "md5": "66a2eef6030754669a543d543b97f2de",
+      "name": "cryptography",
+      "sha256": "95c3b5c9a4cd4437ed60218139b2af5cef0872b503e677f400a67e64b44cc4a4",
+      "size": 1570809,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639499207076,
+      "version": "36.0.0"
+    },
+    "cryptography-36.0.0-py38h3d58568_0.tar.bz2": {
+      "build": "py38h3d58568_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.12",
+        "libgcc-ng",
+        "openssl",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+      "license_family": "BSD",
+      "md5": "b5d83e9bb5c1735fd0e6cd369729b95c",
+      "name": "cryptography",
+      "sha256": "91e84cc9e515f8699f3561208cd06480a170b91110648279eaff2a94e43a1dfe",
+      "size": 1572958,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639499879623,
+      "version": "36.0.0"
+    },
+    "cryptography-36.0.0-py39h3d58568_0.tar.bz2": {
+      "build": "py39h3d58568_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.12",
+        "libgcc-ng",
+        "openssl",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+      "license_family": "BSD",
+      "md5": "dc116bda62d1eda725f581472ac39f95",
+      "name": "cryptography",
+      "sha256": "751d02386561e12610bcad6601fee9a1cb051c235a6ddb2f54195645c546520e",
+      "size": 1569375,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639499544969,
+      "version": "36.0.0"
     },
     "cryptominisat-5.6.6-h879a6b1_0.tar.bz2": {
       "build": "h879a6b1_0",
@@ -25407,6 +25486,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621456289394,
       "version": "4.0.2"
+    },
+    "keyrings.alt-4.1.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "keyring",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3fc98dbdcfbef2da903b1f63d1467bed",
+      "name": "keyrings.alt",
+      "sha256": "9cbd2862969518203c71ac5095b340fed0e2159550f27a494a963e89bc21d812",
+      "size": 33318,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498129888,
+      "version": "4.1.0"
+    },
+    "keyrings.alt-4.1.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "keyring",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "723e77ae47e9177232ff66f9f930b495",
+      "name": "keyrings.alt",
+      "sha256": "882392f4f9fdffbb4e2acfbd6841f7ee01a63a293aa1324375a4f8dde54fffca",
+      "size": 33451,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498112442,
+      "version": "4.1.0"
+    },
+    "keyrings.alt-4.1.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "keyring",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a429a6794c9caae47a578df9dbe2cc6a",
+      "name": "keyrings.alt",
+      "sha256": "df65646ebecdeb37233dbfa95bf04320074d4d358a55de1a407a97d7ae45168a",
+      "size": 33476,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498093916,
+      "version": "4.1.0"
     },
     "kiwisolver-1.3.1-py37h7c1a80f_0.tar.bz2": {
       "build": "py37h7c1a80f_0",
@@ -47396,6 +47526,54 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621470133977,
       "version": "1.14.1"
+    },
+    "sh-1.14.2-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e540b7b38f9020c93a967efd7d99336f",
+      "name": "sh",
+      "sha256": "bb89d62a42b232c2997d37724b069cd6c579ece1fa5f28443f80ac1e64f731b2",
+      "size": 65628,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498043157,
+      "version": "1.14.2"
+    },
+    "sh-1.14.2-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b118d19c47b4992c2d815e6e4f6d48b7",
+      "name": "sh",
+      "sha256": "04cece152e49cc7dfff5c7ab92b8f501a46d02089bb96ee6dec26bf8b78aaac6",
+      "size": 65884,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498075767,
+      "version": "1.14.2"
+    },
+    "sh-1.14.2-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2e046ca3aed949a922a5bd05f1238587",
+      "name": "sh",
+      "sha256": "bfa03c24729bb6ec90a42cedd2404e56dc92ab96cfc5486c8b2847c2e22dd08c",
+      "size": 65986,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498058987,
+      "version": "1.14.2"
     },
     "shap-0.39.0-py37h839d321_0.tar.bz2": {
       "build": "py37h839d321_0",
@@ -70109,6 +70287,28 @@
       "timestamp": 1621532861482,
       "version": "4.0.1"
     },
+    "console_shortcut-0.1.1-hd43f75c_5.conda": {
+      "app_entry": "start cmd.exe /K \"${CONDA_ROOT_PREFIX}\\\\Scripts\\\\activate.bat\" \"${CONDA_PREFIX}\"",
+      "app_type": "desk",
+      "build": "hd43f75c_5",
+      "build_number": 5,
+      "constrains": [
+        "anaconda-navigator >=1.9.8"
+      ],
+      "depends": [
+        "python"
+      ],
+      "license": "BSD",
+      "md5": "991115795b0f0fb8805becf959b65bb1",
+      "name": "console_shortcut",
+      "sha256": "39f3007aa7e6f722ee3ed8c1ffa878f591c38726936bc008c600033ded7ada8f",
+      "size": 56869,
+      "subdir": "linux-aarch64",
+      "summary": "Anaconda Powershell Prompt",
+      "timestamp": 1639498025576,
+      "type": "app",
+      "version": "0.1.1"
+    },
     "constructor-3.0.2-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -70508,6 +70708,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1635432253687,
       "version": "35.0.0"
+    },
+    "cryptography-36.0.0-py37h3d58568_0.conda": {
+      "build": "py37h3d58568_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.12",
+        "libgcc-ng",
+        "openssl",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+      "license_family": "BSD",
+      "md5": "bbc665fc2b7eb4142ab49f211b57bd0d",
+      "name": "cryptography",
+      "sha256": "ac64f5dff86849dd2450be942fbf0e0df7240761e89cf96fcd65c4ec64672ebe",
+      "size": 1355841,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639499207076,
+      "version": "36.0.0"
+    },
+    "cryptography-36.0.0-py38h3d58568_0.conda": {
+      "build": "py38h3d58568_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.12",
+        "libgcc-ng",
+        "openssl",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+      "license_family": "BSD",
+      "md5": "f298e56b36b4363201bd0769409fe210",
+      "name": "cryptography",
+      "sha256": "0e6736a35d28f44effb44d654ff15ae61225e11732b1bb93b411270454e52eae",
+      "size": 1359650,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639499879623,
+      "version": "36.0.0"
+    },
+    "cryptography-36.0.0-py39h3d58568_0.conda": {
+      "build": "py39h3d58568_0",
+      "build_number": 0,
+      "depends": [
+        "cffi >=1.12",
+        "libgcc-ng",
+        "openssl",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0 AND BSD-3-Clause AND PSF-2.0 AND MIT",
+      "license_family": "BSD",
+      "md5": "183593677530e87c4ebe8504e5087a6b",
+      "name": "cryptography",
+      "sha256": "ad0809fe20f1c18f46cd64809bd3eca0bfeccbe2de8bea0de9e9d893125d58b2",
+      "size": 1359128,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639499544969,
+      "version": "36.0.0"
     },
     "cryptominisat-5.6.6-h879a6b1_0.conda": {
       "build": "h879a6b1_0",
@@ -81018,6 +81275,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621456289394,
       "version": "4.0.2"
+    },
+    "keyrings.alt-4.1.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "keyring",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d96aef1419fff607d303f2a64bed83a8",
+      "name": "keyrings.alt",
+      "sha256": "602a3455704ac128e45d87ca6a4f16d23d3dabb983da4c1f4e23263bb7e689e9",
+      "size": 34993,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498129888,
+      "version": "4.1.0"
+    },
+    "keyrings.alt-4.1.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "keyring",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9fdc6fa227cceb0152634e293b444f06",
+      "name": "keyrings.alt",
+      "sha256": "cf46478460ba2d46e9d8c06f5e73310bbf426455ed525b44c4306ae3dbb190d9",
+      "size": 35159,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498112442,
+      "version": "4.1.0"
+    },
+    "keyrings.alt-4.1.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "keyring",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a9242ca2adddc350b14db0d0d59331e6",
+      "name": "keyrings.alt",
+      "sha256": "e66444dac7f57d63a1156f262e4e9106c6ecc10bded0ffd26a547a7c1f39bac9",
+      "size": 35147,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498093916,
+      "version": "4.1.0"
     },
     "kiwisolver-1.3.1-py37h7c1a80f_0.conda": {
       "build": "py37h7c1a80f_0",
@@ -102926,6 +103234,54 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621470133977,
       "version": "1.14.1"
+    },
+    "sh-1.14.2-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e9485a3214ba6a4e51f8a55a793d3a4b",
+      "name": "sh",
+      "sha256": "f6d0c9dea88bd929b4c6e0416cb8811722d56f8666156392e4d952170aefaa34",
+      "size": 68005,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498043157,
+      "version": "1.14.2"
+    },
+    "sh-1.14.2-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "84dda9c9af41bde27867415e77655e7f",
+      "name": "sh",
+      "sha256": "ed07df01ac172874418667343be48e70a490535169916496f56baddbd208bd77",
+      "size": 68255,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498075767,
+      "version": "1.14.2"
+    },
+    "sh-1.14.2-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9bb385a8b7e0f5215b24e24ad44d9324",
+      "name": "sh",
+      "sha256": "970a93d6fd45b67158b5e56ef0bf302ab05cb19c215866055cf1a1a0fcb281ce",
+      "size": 68311,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639498058987,
+      "version": "1.14.2"
     },
     "shap-0.39.0-py37h839d321_0.conda": {
       "build": "py37h839d321_0",
