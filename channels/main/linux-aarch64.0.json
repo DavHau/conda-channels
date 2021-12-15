@@ -9713,6 +9713,52 @@
       "timestamp": 1633091074813,
       "version": "0.5.1"
     },
+    "bcolz-1.2.1-py37h839d321_1.tar.bz2": {
+      "build": "py37h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "dask >=0.9.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numexpr >=2.5.2",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas",
+        "pytables",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "a4ebb67ce0d38a7acff5339b4ef76f96",
+      "name": "bcolz",
+      "sha256": "18bbaa1fd931cfd663a95b1ccc6fa59e45201bf320bb4468c143e95c8fde0a88",
+      "size": 842297,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639567943551,
+      "version": "1.2.1"
+    },
+    "bcolz-1.2.1-py38h839d321_1.tar.bz2": {
+      "build": "py38h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "dask >=0.9.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numexpr >=2.5.2",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas",
+        "pytables",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "ab87d64105c01f86980d77236cd14720",
+      "name": "bcolz",
+      "sha256": "f3e5830dcf7570e0bb7266fe7951dbc76cc7ba0a0a337c4f41c57047b6502506",
+      "size": 852403,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639568082739,
+      "version": "1.2.1"
+    },
     "bcrypt-3.2.0-py37hfd63f10_0.tar.bz2": {
       "build": "py37hfd63f10_0",
       "build_number": 0,
@@ -19728,6 +19774,27 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623425964060,
       "version": "1.6.0"
+    },
+    "geotiff-1.7.0-h8ad8837_0.tar.bz2": {
+      "build": "h8ad8837_0",
+      "build_number": 0,
+      "depends": [
+        "jpeg",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "proj >=6.2.1,<6.2.2.0a0",
+        "zlib"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5bf5b8a7f9e59bea044583769ae1fbb6",
+      "name": "geotiff",
+      "sha256": "53465b86732202bd15e0816e072be62bb312ec145ce28ec040d3a200289f2848",
+      "size": 324013,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639578831253,
+      "version": "1.7.0"
     },
     "get_terminal_size-1.0.0-hd43f75c_0.tar.bz2": {
       "build": "hd43f75c_0",
@@ -65709,6 +65776,52 @@
       "timestamp": 1633091074813,
       "version": "0.5.1"
     },
+    "bcolz-1.2.1-py37h839d321_1.conda": {
+      "build": "py37h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "dask >=0.9.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numexpr >=2.5.2",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas",
+        "pytables",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "da21784dbdcf0c128db4f626146191a9",
+      "name": "bcolz",
+      "sha256": "8a7c3eb6aed236265befa010cbd838df7ffa62e1bbf9b6a3aa94184d9049482a",
+      "size": 758386,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639567943551,
+      "version": "1.2.1"
+    },
+    "bcolz-1.2.1-py38h839d321_1.conda": {
+      "build": "py38h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "dask >=0.9.0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numexpr >=2.5.2",
+        "numpy >=1.16.6,<2.0a0",
+        "pandas",
+        "pytables",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-clause",
+      "license_family": "BSD",
+      "md5": "89ed8813c28ca576027eebb088c5644d",
+      "name": "bcolz",
+      "sha256": "8663ec7fdb326db39de2d90e70066fd1555e20bf11aa6ff38a9a9ae98616e755",
+      "size": 767442,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639568082739,
+      "version": "1.2.1"
+    },
     "bcrypt-3.2.0-py37hfd63f10_0.conda": {
       "build": "py37hfd63f10_0",
       "build_number": 0,
@@ -75705,6 +75818,27 @@
       "subdir": "linux-aarch64",
       "timestamp": 1623425964060,
       "version": "1.6.0"
+    },
+    "geotiff-1.7.0-h8ad8837_0.conda": {
+      "build": "h8ad8837_0",
+      "build_number": 0,
+      "depends": [
+        "jpeg",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "proj >=6.2.1,<6.2.2.0a0",
+        "zlib"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f76b7b3d0cd00649fc268797016abf96",
+      "name": "geotiff",
+      "sha256": "796970bf8869ba194db9d62225ca3bbd6afe2c59ee2a098e89049c665e92d075",
+      "size": 270449,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639578831253,
+      "version": "1.7.0"
     },
     "get_terminal_size-1.0.0-hd43f75c_0.conda": {
       "build": "hd43f75c_0",
