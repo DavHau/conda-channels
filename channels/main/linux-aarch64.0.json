@@ -14577,6 +14577,75 @@
       "timestamp": 1615324817966,
       "version": "3.0.2"
     },
+    "constructor-3.2.1-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "chardet",
+        "conda >=4.6",
+        "conda-standalone",
+        "pip",
+        "python >=3.7,<3.8.0a0",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "db75aa33d3e5cdd1e879804dddb76cef",
+      "name": "constructor",
+      "sha256": "7182757d0fb2053dee3325f169d046c84f47b8c3d681a4c26f524f1f76df1e39",
+      "size": 166034,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514867770,
+      "version": "3.2.1"
+    },
+    "constructor-3.2.1-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "chardet",
+        "conda >=4.6",
+        "conda-standalone",
+        "pip",
+        "python >=3.8,<3.9.0a0",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "1b03a3fba7461812dbf8f96b8e4dd585",
+      "name": "constructor",
+      "sha256": "5700bcf6ab5bf846ea27428237c9200952f1fb9f14ca9f8afc8cfa240d29e28c",
+      "size": 166181,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514848864,
+      "version": "3.2.1"
+    },
+    "constructor-3.2.1-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "chardet",
+        "conda >=4.6",
+        "conda-standalone",
+        "pip",
+        "python >=3.9,<3.10.0a0",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b350cdf5666dc80520be5545a7b8a0d8",
+      "name": "constructor",
+      "sha256": "d66d9e8606fc504be0996ef205f96204451ee189f148f8c15d93fd33a40f858f",
+      "size": 166230,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514885326,
+      "version": "3.2.1"
+    },
     "coremltools-4.1-py37h085440b_1.tar.bz2": {
       "build": "py37h085440b_1",
       "build_number": 1,
@@ -18598,6 +18667,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624585631761,
       "version": "5.2.1"
+    },
+    "feedparser-6.0.8-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "sgmllib3k"
+      ],
+      "license": "OSI Approved",
+      "license_family": "Other",
+      "md5": "6a5d6927c96a082f981daf84e53658fa",
+      "name": "feedparser",
+      "sha256": "62dcec3bfbaacd2d72d18a3ccbad141affc4fad98bc191ef597a7f273bb9490a",
+      "size": 93300,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514415001,
+      "version": "6.0.8"
+    },
+    "feedparser-6.0.8-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "sgmllib3k"
+      ],
+      "license": "OSI Approved",
+      "license_family": "Other",
+      "md5": "698c17fb60a8eb01c78706b642cf077d",
+      "name": "feedparser",
+      "sha256": "c44a82689127a858a105ab7014b5443bbdccdc50b06b70478631e34907c1c27f",
+      "size": 93705,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514429490,
+      "version": "6.0.8"
+    },
+    "feedparser-6.0.8-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "sgmllib3k"
+      ],
+      "license": "OSI Approved",
+      "license_family": "Other",
+      "md5": "e93d9af77b88d415bfea59002df97297",
+      "name": "feedparser",
+      "sha256": "545b79ec05563c3ff7a044704677a974e4e36945faccf2045d67954923ead265",
+      "size": 91977,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514399581,
+      "version": "6.0.8"
     },
     "ffmpeg-4.2-he7f4557_0.tar.bz2": {
       "build": "he7f4557_0",
@@ -31962,6 +32082,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620829285251,
       "version": "3.7.2"
+    },
+    "nettle-3.7.3-h82288b7_1.tar.bz2": {
+      "build": "h82288b7_1",
+      "build_number": 1,
+      "depends": [
+        "gmp >=6.1.2",
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "GPL-2.0-or-later AND LGPL-3.0-or-later",
+      "license_family": "GPL",
+      "md5": "07996b48eb943067033a99541ddde8b0",
+      "name": "nettle",
+      "sha256": "f23419f8a1ea1f5e0badd0e5c1d4c42074b19c771fc4e1a115b7e1c34cd10e6e",
+      "size": 1094749,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514601907,
+      "version": "3.7.3"
     },
     "nginx-1.19.10-h3e11345_0.tar.bz2": {
       "build": "h3e11345_0",
@@ -54020,6 +54157,57 @@
       "timestamp": 1617832999332,
       "version": "0.14.0"
     },
+    "uvloop-0.16.0-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "44694713cb4a6241ac5489d22c62f0c3",
+      "name": "uvloop",
+      "sha256": "b41d8aaece91720c02e118fce418dd4f68ce3f305a973fedd29ba3ea802d88df",
+      "size": 1064194,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639504782217,
+      "version": "0.16.0"
+    },
+    "uvloop-0.16.0-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "444232f62a38070b8a2ba4ef8ef289d4",
+      "name": "uvloop",
+      "sha256": "24a3e9a57f71d8022bfe8e82e76fcb47a5f2e19bf634ed5798ece3908d1e00bb",
+      "size": 1075653,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639504631279,
+      "version": "0.16.0"
+    },
+    "uvloop-0.16.0-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "876d47ecd09bda869ba6eedecc3f0a0e",
+      "name": "uvloop",
+      "sha256": "f109245ba7fb60107ac93b42d0e60d2ca70e6adb7dfb2b15f31ae569db562990",
+      "size": 1060821,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639504699629,
+      "version": "0.16.0"
+    },
     "vcrpy-4.1.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -70366,6 +70554,75 @@
       "timestamp": 1615324817966,
       "version": "3.0.2"
     },
+    "constructor-3.2.1-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "chardet",
+        "conda >=4.6",
+        "conda-standalone",
+        "pip",
+        "python >=3.7,<3.8.0a0",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "251de74ff980f6edb54f0d8fbd7abba8",
+      "name": "constructor",
+      "sha256": "f9ddd57ee9e4d6e0cc542567ccd5fd0bcf5e8499f108eee4c9995080efc004f7",
+      "size": 156337,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514867770,
+      "version": "3.2.1"
+    },
+    "constructor-3.2.1-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "chardet",
+        "conda >=4.6",
+        "conda-standalone",
+        "pip",
+        "python >=3.8,<3.9.0a0",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b220ff96408dcf2fc40cd1f61d273348",
+      "name": "constructor",
+      "sha256": "16a883120be26118fb772da1491ab88882b0eb4e56845751cf2e75863e133b72",
+      "size": 156500,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514848864,
+      "version": "3.2.1"
+    },
+    "constructor-3.2.1-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "chardet",
+        "conda >=4.6",
+        "conda-standalone",
+        "pip",
+        "python >=3.9,<3.10.0a0",
+        "ruamel_yaml >=0.11.14,<0.16",
+        "setuptools",
+        "wheel"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "e2d613e97d62afd9fa4645fd33c51084",
+      "name": "constructor",
+      "sha256": "411717207a5ffe91b503a7d5f7145dba64b37994662ddc9b57b3b15aa0d42076",
+      "size": 156467,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514885326,
+      "version": "3.2.1"
+    },
     "coremltools-4.1-py37h085440b_1.conda": {
       "build": "py37h085440b_1",
       "build_number": 1,
@@ -74387,6 +74644,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624585631761,
       "version": "5.2.1"
+    },
+    "feedparser-6.0.8-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "sgmllib3k"
+      ],
+      "license": "OSI Approved",
+      "license_family": "Other",
+      "md5": "c25a40a4d58e4037ec45f8286128902e",
+      "name": "feedparser",
+      "sha256": "0b24db7c06e48b5c821c5d1a3345a0822e94cfd1debc1343880585b86bd70fca",
+      "size": 94111,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514415001,
+      "version": "6.0.8"
+    },
+    "feedparser-6.0.8-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0",
+        "sgmllib3k"
+      ],
+      "license": "OSI Approved",
+      "license_family": "Other",
+      "md5": "2df21c69bc7e5e9fc6c9661f698047c9",
+      "name": "feedparser",
+      "sha256": "fbac4a5849518ecc220a02934f7ffa91cba9e281a6f7e6d3ab5851b554375e4f",
+      "size": 94625,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514429490,
+      "version": "6.0.8"
+    },
+    "feedparser-6.0.8-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "sgmllib3k"
+      ],
+      "license": "OSI Approved",
+      "license_family": "Other",
+      "md5": "9926c636dbd40f0556ea91ace8e7ba1b",
+      "name": "feedparser",
+      "sha256": "5f98841258231c8b320de8690da9d0ebf1e2e4c82fa14362183ff9719c70bb55",
+      "size": 93731,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514399581,
+      "version": "6.0.8"
     },
     "ffmpeg-4.2-he7f4557_0.conda": {
       "build": "he7f4557_0",
@@ -87751,6 +88059,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620829285251,
       "version": "3.7.2"
+    },
+    "nettle-3.7.3-h82288b7_1.conda": {
+      "build": "h82288b7_1",
+      "build_number": 1,
+      "depends": [
+        "gmp >=6.1.2",
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "GPL-2.0-or-later AND LGPL-3.0-or-later",
+      "license_family": "GPL",
+      "md5": "73498e8041bc4cf1efce6acb65a5b8e5",
+      "name": "nettle",
+      "sha256": "34de0de7c96369ca8fb3e291c397b61fe90593c645b08b813045d1e8c4fc57ca",
+      "size": 913573,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639514601907,
+      "version": "3.7.3"
     },
     "nginx-1.19.10-h3e11345_0.conda": {
       "build": "h3e11345_0",
@@ -109711,6 +110036,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1617832999332,
       "version": "0.14.0"
+    },
+    "uvloop-0.16.0-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "be74185af249c97e9718c2027b2e86a6",
+      "name": "uvloop",
+      "sha256": "f2b266f239fa28aa478a1d6e62bf81da30f54f355becdbc35f4f9e1b26dbd339",
+      "size": 963342,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639504782217,
+      "version": "0.16.0"
+    },
+    "uvloop-0.16.0-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "9a8b346ba0ada5e2829bf1628d164ab6",
+      "name": "uvloop",
+      "sha256": "93b52bc3a2a63caf27cdb63ccf96c32ad81c8dcead8ecdca6df089d16f2debd1",
+      "size": 969390,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639504631279,
+      "version": "0.16.0"
+    },
+    "uvloop-0.16.0-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT OR Apache-2.0",
+      "md5": "81e98d3622083caacf4ff53455b11dc6",
+      "name": "uvloop",
+      "sha256": "fb149b7b849cb7cb2b3e146959fc925b2a09e96da3673269f9bedddd7ec7f329",
+      "size": 949304,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639504699629,
+      "version": "0.16.0"
     },
     "vcrpy-4.1.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
