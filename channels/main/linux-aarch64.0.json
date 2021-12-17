@@ -10100,6 +10100,23 @@
       "timestamp": 1614902436937,
       "version": "3.7.4"
     },
+    "bison-3.7.5-h22f4aa5_1.tar.bz2": {
+      "build": "h22f4aa5_1",
+      "build_number": 1,
+      "depends": [
+        "flex",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "GPL-3.0",
+      "md5": "59e017e58457bda012f5d84140e90970",
+      "name": "bison",
+      "sha256": "811639e952f1b1fefda7a5d39e2bda74a4753f26f2093e792ceb2c26f738e6e8",
+      "size": 835390,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639747221510,
+      "version": "3.7.5"
+    },
     "bitarray-1.7.0-py37hfd63f10_1.tar.bz2": {
       "build": "py37hfd63f10_1",
       "build_number": 1,
@@ -66336,6 +66353,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614902436937,
       "version": "3.7.4"
+    },
+    "bison-3.7.5-h22f4aa5_1.conda": {
+      "build": "h22f4aa5_1",
+      "build_number": 1,
+      "depends": [
+        "flex",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "GPL-3.0",
+      "md5": "3a91b2defab96f860bb1196ab3a8c123",
+      "name": "bison",
+      "sha256": "9a9e7a581f472c278459b138352888b0f8b102c579f2e241a8f6e41ed18dca3f",
+      "size": 746618,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639747221510,
+      "version": "3.7.5"
     },
     "bitarray-1.7.0-py37hfd63f10_1.conda": {
       "build": "py37hfd63f10_1",
