@@ -56220,6 +56220,22 @@
       "timestamp": 1622055254350,
       "version": "3.0"
     },
+    "zlib-1.2.11-h2f4d8fa_4.tar.bz2": {
+      "build": "h2f4d8fa_4",
+      "build_number": 4,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "zlib",
+      "license_family": "Other",
+      "md5": "12554fc6ab455d19c4426a4c2c13f96f",
+      "name": "zlib",
+      "sha256": "44ce55cbcbbcde9824dc73041dfef1187faebe122f226baf521238e2817580c4",
+      "size": 117584,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639763423030,
+      "version": "1.2.11"
+    },
     "zlib-1.2.11-hfd63f10_3.tar.bz2": {
       "build": "hfd63f10_3",
       "build_number": 3,
@@ -112357,6 +112373,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1622055254350,
       "version": "3.0"
+    },
+    "zlib-1.2.11-h2f4d8fa_4.conda": {
+      "build": "h2f4d8fa_4",
+      "build_number": 4,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "zlib",
+      "license_family": "Other",
+      "md5": "0f9259b87fc31da856ca095ba1e01014",
+      "name": "zlib",
+      "sha256": "b605871f68ae8eb7023d880a5886220c1df32b2b1a92aecb50a64fe42d4386b0",
+      "size": 99750,
+      "subdir": "linux-aarch64",
+      "timestamp": 1639763423030,
+      "version": "1.2.11"
     },
     "zlib-1.2.11-hfd63f10_3.conda": {
       "build": "hfd63f10_3",
