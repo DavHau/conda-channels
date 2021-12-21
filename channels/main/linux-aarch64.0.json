@@ -27793,6 +27793,24 @@
       "timestamp": 1621415975457,
       "version": "3.14.0"
     },
+    "libprotobuf-3.19.1-h549d06d_0.tar.bz2": {
+      "build": "h549d06d_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "0c1859bf3e319d0d5a37c2f0c6f76878",
+      "name": "libprotobuf",
+      "sha256": "8428db7bce2cdc5f3cce8d487925df985e53317686b200ad73ae22c7c9c76970",
+      "size": 2733897,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640021001578,
+      "version": "3.19.1"
+    },
     "libprotobuf-static-3.14.0-h549d06d_0.tar.bz2": {
       "build": "h549d06d_0",
       "build_number": 0,
@@ -27810,6 +27828,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621415983571,
       "version": "3.14.0"
+    },
+    "libprotobuf-static-3.19.1-h549d06d_0.tar.bz2": {
+      "build": "h549d06d_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libprotobuf 3.19.1 h549d06d_0",
+        "libstdcxx-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "83b2346b706b1db6ff0547861ba84845",
+      "name": "libprotobuf-static",
+      "sha256": "8b4ecb6e173c9ca7ad15bf4651ed8ee044b5a37dd76938b80db684887c87fa03",
+      "size": 3256942,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640021010929,
+      "version": "3.19.1"
     },
     "libpython-static-3.8.11-h22f4aa5_0.tar.bz2": {
       "build": "h22f4aa5_0",
@@ -34724,6 +34761,23 @@
       "timestamp": 1622822318217,
       "version": "1.8.0"
     },
+    "openh264-2.1.1-h549d06d_0.tar.bz2": {
+      "build": "h549d06d_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "d844f248313c577ec7b48a90a8206a34",
+      "name": "openh264",
+      "sha256": "39760d5cf2afbea56dd4e63a8d9b3ee6cf803f32256663ea006d3c1705264b63",
+      "size": 1815025,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640014394610,
+      "version": "2.1.1"
+    },
     "openjdk-11.0.6-h241ca14_1.tar.bz2": {
       "build": "h241ca14_1",
       "build_number": 1,
@@ -37110,6 +37164,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615499945254,
       "version": "1.5.2"
+    },
+    "pkgconfig-1.5.5-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "pkg-config",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4d27b0518f84c207885e613e4e7a87f8",
+      "name": "pkgconfig",
+      "sha256": "98a5f2debb35d8710e87dd0163e2e1dff2dfb1d2bb9df85ad91a199ca5ce3920",
+      "size": 13642,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640037448293,
+      "version": "1.5.5"
+    },
+    "pkgconfig-1.5.5-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "pkg-config",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "582eac1231f75e9bc51010327c3bba94",
+      "name": "pkgconfig",
+      "sha256": "0c5120fd3f38d4a09d585d88173a8626f736e52c838c8c08f242d30c698e6770",
+      "size": 13649,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640037474563,
+      "version": "1.5.5"
+    },
+    "pkgconfig-1.5.5-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "pkg-config",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1158ec80b4e310a47ee18dbed424540c",
+      "name": "pkgconfig",
+      "sha256": "33d88d1e81154f068c30b5598bd6da883d6271f14861cef0a2b5f743a662fee5",
+      "size": 13701,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640037421758,
+      "version": "1.5.5"
     },
     "pkginfo-1.7.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -84110,6 +84215,24 @@
       "timestamp": 1621415975457,
       "version": "3.14.0"
     },
+    "libprotobuf-3.19.1-h549d06d_0.conda": {
+      "build": "h549d06d_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "1e273ee5fe58f724cf19f5fd21c69439",
+      "name": "libprotobuf",
+      "sha256": "e44ab67c206e161f4788da73013a13acd105df23bc2f6ae21da12b99a8c88adc",
+      "size": 2288867,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640021001578,
+      "version": "3.19.1"
+    },
     "libprotobuf-static-3.14.0-h549d06d_0.conda": {
       "build": "h549d06d_0",
       "build_number": 0,
@@ -84127,6 +84250,25 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621415983571,
       "version": "3.14.0"
+    },
+    "libprotobuf-static-3.19.1-h549d06d_0.conda": {
+      "build": "h549d06d_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libprotobuf 3.19.1 h549d06d_0",
+        "libstdcxx-ng >=10.2.0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "dd4a39559fad0ffdf956b208248fc062",
+      "name": "libprotobuf-static",
+      "sha256": "0d8dce32f45f5844849abad41e39144cabadaa9e3f67cf91145332de53ed7b8c",
+      "size": 2338713,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640021010929,
+      "version": "3.19.1"
     },
     "libpython-static-3.8.11-h22f4aa5_0.conda": {
       "build": "h22f4aa5_0",
@@ -91041,6 +91183,23 @@
       "timestamp": 1622822318217,
       "version": "1.8.0"
     },
+    "openh264-2.1.1-h549d06d_0.conda": {
+      "build": "h549d06d_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "44e062142763961904b64767b7a14fdc",
+      "name": "openh264",
+      "sha256": "8154c799fb3dfbe5e91c74f256875af509d55def7171b23ff3b7d3edb62e66fb",
+      "size": 769833,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640014394610,
+      "version": "2.1.1"
+    },
     "openjdk-11.0.6-h241ca14_1.conda": {
       "build": "h241ca14_1",
       "build_number": 1,
@@ -93427,6 +93586,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615499945254,
       "version": "1.5.2"
+    },
+    "pkgconfig-1.5.5-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "pkg-config",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c7a327056ca02479d062a476ae0c6c72",
+      "name": "pkgconfig",
+      "sha256": "5c078fc7026afff4398f2867acb35979a1856d6fc5454c9054201c69593f8fd8",
+      "size": 13672,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640037448293,
+      "version": "1.5.5"
+    },
+    "pkgconfig-1.5.5-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "pkg-config",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "89d8f28e7a3551a31010d1ad1362436d",
+      "name": "pkgconfig",
+      "sha256": "80c71d87abd5bad7ddcdb09d34c80e4af49318abd0afdf53e882107b3c69a510",
+      "size": 13679,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640037474563,
+      "version": "1.5.5"
+    },
+    "pkgconfig-1.5.5-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "pkg-config",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0f8cf2e69b996eccfa94c8fb050f5039",
+      "name": "pkgconfig",
+      "sha256": "42e3fb77bc534106bd0eb0ac125d9354812ac774b4639285991740707cf1978a",
+      "size": 13689,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640037421758,
+      "version": "1.5.5"
     },
     "pkginfo-1.7.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
