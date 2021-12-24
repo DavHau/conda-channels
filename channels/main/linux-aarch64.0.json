@@ -42368,6 +42368,63 @@
       "timestamp": 1614704984880,
       "version": "1.7.1"
     },
+    "pyspnego-0.3.1-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "ruamel.yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9d2d35976ba349d65c697d1a587c0c43",
+      "name": "pyspnego",
+      "sha256": "652fa8ec5375994fba53b93a69a26c156fcc8794f7ad3ce75dc0188167dc04d5",
+      "size": 160243,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640357512700,
+      "version": "0.3.1"
+    },
+    "pyspnego-0.3.1-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "ruamel.yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4148e26bcbf49ea7da09f5b367c02cec",
+      "name": "pyspnego",
+      "sha256": "cd9130604c009735f967ef29301430b04a93a8e3847329485ff886ec342355a6",
+      "size": 160914,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640357474033,
+      "version": "0.3.1"
+    },
+    "pyspnego-0.3.1-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "ruamel.yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2614d21abea02ed2971028eabf7c88ca",
+      "name": "pyspnego",
+      "sha256": "3e5fdf503d58b20e8042bf042d8a814dab083701a5da69ced44ea0554a1f860a",
+      "size": 161333,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640357493358,
+      "version": "0.3.1"
+    },
     "pystan-2.19.1.1-py37h839d321_0.tar.bz2": {
       "build": "py37h839d321_0",
       "build_number": 0,
@@ -99192,6 +99249,63 @@
       "subdir": "linux-aarch64",
       "timestamp": 1614704984880,
       "version": "1.7.1"
+    },
+    "pyspnego-0.3.1-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0",
+        "ruamel.yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1e53fbf112e7b0123604218915d5c2ba",
+      "name": "pyspnego",
+      "sha256": "e8caefdaba4a9c5551a5e3c4908762970c3f87be062ba62f039f401aff7023b0",
+      "size": 163308,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640357512700,
+      "version": "0.3.1"
+    },
+    "pyspnego-0.3.1-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0",
+        "ruamel.yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ea491f04daa494341e5f308a90b16313",
+      "name": "pyspnego",
+      "sha256": "6321fa9f4b5e2504b025be849996dd184b1d5e287dbdc88ebca0775bcad6c752",
+      "size": 164133,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640357474033,
+      "version": "0.3.1"
+    },
+    "pyspnego-0.3.1-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "cryptography",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0",
+        "ruamel.yaml"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "32f5bdc1f4d16be8bd0f9dc89dda4773",
+      "name": "pyspnego",
+      "sha256": "18fdc7e19673a94239d47a32d3cfdd4b4f0ce3d7ff96fb9cb74d48baf12fadc3",
+      "size": 164184,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640357493358,
+      "version": "0.3.1"
     },
     "pystan-2.19.1.1-py37h839d321_0.conda": {
       "build": "py37h839d321_0",
