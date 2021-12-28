@@ -31416,6 +31416,108 @@
       "timestamp": 1620845705460,
       "version": "5.1.0"
     },
+    "multidict-5.2.0-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "a53a7c43f3270df9f0d93ea5c722dd67",
+      "name": "multidict",
+      "sha256": "0eb376560fbc65cfe619e950e7e7b5a15752d0bc4c0f42cfacd30c02c37c5754",
+      "size": 62963,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703824356,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py37h2f4d8fa_2.tar.bz2": {
+      "build": "py37h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "df866b5e87009cb399a8d54f7d394bba",
+      "name": "multidict",
+      "sha256": "3ca5707350539eb220ea807fdcc2fd17f59fd088bf18a82db415e480685cbd1d",
+      "size": 62967,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703801332,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "9656e9176b16ee6d627fce75ba7d405a",
+      "name": "multidict",
+      "sha256": "f5b2b9c95a2f5ca1f8b080b4d510fb633bfb111cd1bd30b750553bd4a182bb2b",
+      "size": 64917,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703801229,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py38h2f4d8fa_2.tar.bz2": {
+      "build": "py38h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "48e9701b527e52fdf80880440b04caaf",
+      "name": "multidict",
+      "sha256": "4e1641f665d522e6cf72ae525b6adc1dbc1a93b60236e048cf58253dddf6a36a",
+      "size": 64823,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703822769,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "579319acab52415579f38f03ddcd2d47",
+      "name": "multidict",
+      "sha256": "6c5d56696869790779c03b5302eed665a56cba09655650b4c6eb6345c037b7c8",
+      "size": 64363,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703777919,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py39h2f4d8fa_2.tar.bz2": {
+      "build": "py39h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "8a4a0a7d22e6a3795f46c17ca18255d7",
+      "name": "multidict",
+      "sha256": "a85465cf5990556cc80e207081bd35e18ce444d7bd775fbe5f1d7a9deaecd8d6",
+      "size": 64397,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703778420,
+      "version": "5.2.0"
+    },
     "multipledispatch-0.6.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -34003,6 +34105,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615408302074,
       "version": "2.7.3"
+    },
+    "numexpr-2.8.1-py37h9f9161b_0.tar.bz2": {
+      "build": "py37h9f9161b_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "packaging",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "84870ebf7d3bcc9a4377659fa4895d6f",
+      "name": "numexpr",
+      "sha256": "6c170b647dc855bbc0517c8c6230c0c661a5f98b41251c3bd65f4f8ce47d6777",
+      "size": 138441,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640704854325,
+      "version": "2.8.1"
+    },
+    "numexpr-2.8.1-py38h9f9161b_0.tar.bz2": {
+      "build": "py38h9f9161b_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "packaging",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7213926689f5263a110e6b95e5c0f988",
+      "name": "numexpr",
+      "sha256": "f030cbbd0c7740c583c8e4479ea04cedf73578b6b0496a7e88d40327a912c46a",
+      "size": 139071,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640704783207,
+      "version": "2.8.1"
+    },
+    "numexpr-2.8.1-py39h9f9161b_0.tar.bz2": {
+      "build": "py39h9f9161b_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "packaging",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "8438c9184f88927712937f92299b5daf",
+      "name": "numexpr",
+      "sha256": "0936921b78e368ba6033620144cb67dcf3a6a6245a15eddb7ee2c3e970c63044",
+      "size": 138062,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640704818570,
+      "version": "2.8.1"
     },
     "numpy-1.16.6-py37h6e6f1e0_2.tar.bz2": {
       "build": "py37h6e6f1e0_2",
@@ -50131,6 +50293,23 @@
       "timestamp": 1629928597304,
       "version": "3.36.0"
     },
+    "sqlite-3.37.0-h6632b73_0.tar.bz2": {
+      "build": "h6632b73_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "readline >=8.1,<9.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Unlicense",
+      "md5": "1b5fac8cc4729df4f3dfea977d279549",
+      "name": "sqlite",
+      "sha256": "09d3d1c283a3473e3082e4b99a5b153f60ab05b65869df3506d01c6dfc144959",
+      "size": 2018657,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703940203,
+      "version": "3.37.0"
+    },
     "srsly-1.0.5-py37h7c1a80f_0.tar.bz2": {
       "build": "py37h7c1a80f_0",
       "build_number": 0,
@@ -54768,6 +54947,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615423098599,
       "version": "4.0.2"
+    },
+    "ujson-4.2.0-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "6144c232e61b42d1f9f82eb6fa1b32c9",
+      "name": "ujson",
+      "sha256": "0f58b9fd46709620054530f5292b27b30199e592770f48065b73833d94c4ce52",
+      "size": 51294,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703936948,
+      "version": "4.2.0"
+    },
+    "ujson-4.2.0-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "25acd5adb6e024af7a896d85fa510681",
+      "name": "ujson",
+      "sha256": "6f137932a3e0f6b99ca3c34abd5468ba2243b6efd026d263485ff7d6702e527b",
+      "size": 51216,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703889856,
+      "version": "4.2.0"
+    },
+    "ujson-4.2.0-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "edda4906908f7c839b7a20d7b7046845",
+      "name": "ujson",
+      "sha256": "62cb61a510e682f97339b7744dcd4856f8607da105a9021b0fb25955a5834b4e",
+      "size": 51804,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703913257,
+      "version": "4.2.0"
     },
     "unicodecsv-0.14.1-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -88298,6 +88528,108 @@
       "timestamp": 1620845705460,
       "version": "5.1.0"
     },
+    "multidict-5.2.0-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e5933320c7c1848b1eb35541a5bb15b8",
+      "name": "multidict",
+      "sha256": "0f8bbc14738a3930b6724e465d718f4f3b55d10d65c53a57bd975b5bf5fab754",
+      "size": 61994,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703824356,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py37h2f4d8fa_2.conda": {
+      "build": "py37h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "ae3599000117af9a571d3c3e7d88ef6f",
+      "name": "multidict",
+      "sha256": "f1de733110956469ad8bc2b592608b06e060b3d0be32cbdfbcf2efd9992c2202",
+      "size": 62027,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703801332,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "77b11ac9c1b618da60b3d7543f704999",
+      "name": "multidict",
+      "sha256": "72ce5612713d66867544761ce5e21467bdc3eec2dc1efb594d066856b3a76ede",
+      "size": 63644,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703801229,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py38h2f4d8fa_2.conda": {
+      "build": "py38h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "44a455fbfc5805533ea4e00267245f28",
+      "name": "multidict",
+      "sha256": "0744411fde9e438b67a5f0a317ec0e167aecbad3be3939882bb2c4172115dcf9",
+      "size": 63674,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703822769,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "a2b64ec63ce93e02ce9e003a7cc27965",
+      "name": "multidict",
+      "sha256": "f535e89aca1b13229969bc83e409513a27fa4b907331ddd53ed46c3677661851",
+      "size": 63315,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703777919,
+      "version": "5.2.0"
+    },
+    "multidict-5.2.0-py39h2f4d8fa_2.conda": {
+      "build": "py39h2f4d8fa_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "3fa97b3ac41bf5d0e044726fe02e5960",
+      "name": "multidict",
+      "sha256": "67af5a32b26f1de80750672ef27ecc23f4e015e384a391253516529063e79d59",
+      "size": 63353,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703778420,
+      "version": "5.2.0"
+    },
     "multipledispatch-0.6.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -90885,6 +91217,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615408302074,
       "version": "2.7.3"
+    },
+    "numexpr-2.8.1-py37h9f9161b_0.conda": {
+      "build": "py37h9f9161b_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "packaging",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "633e2482ecc7a70c6d6f3e67fb98155e",
+      "name": "numexpr",
+      "sha256": "0b3cdd8db58375fc06510af0c8a3c3a8ac5c5ee3e304816540c96182d1f145a8",
+      "size": 129739,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640704854325,
+      "version": "2.8.1"
+    },
+    "numexpr-2.8.1-py38h9f9161b_0.conda": {
+      "build": "py38h9f9161b_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "packaging",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "35808b6a767329944aa7198486208bc3",
+      "name": "numexpr",
+      "sha256": "73cce805f81be273ad6b179337969de06197b98f9ba353ac0ede10dce47ee3ac",
+      "size": 130105,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640704783207,
+      "version": "2.8.1"
+    },
+    "numexpr-2.8.1-py39h9f9161b_0.conda": {
+      "build": "py39h9f9161b_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "packaging",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "73b611c00af666363aad1e3fb208e4c3",
+      "name": "numexpr",
+      "sha256": "ba3fb3589143b4859fa68d081c23c59ff940c9e88de47921d0be03101ed4451c",
+      "size": 129616,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640704818570,
+      "version": "2.8.1"
     },
     "numpy-1.16.6-py37h6e6f1e0_2.conda": {
       "build": "py37h6e6f1e0_2",
@@ -106851,6 +107243,23 @@
       "timestamp": 1629928597304,
       "version": "3.36.0"
     },
+    "sqlite-3.37.0-h6632b73_0.conda": {
+      "build": "h6632b73_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "readline >=8.1,<9.0a0",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "Unlicense",
+      "md5": "779cda443ec9f7ce52e0ee3d93d2ede0",
+      "name": "sqlite",
+      "sha256": "ee99772ebe04a910259b7a2248505964d8d2e1d88f49caa9711385289e027ade",
+      "size": 1318615,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703940203,
+      "version": "3.37.0"
+    },
     "srsly-1.0.5-py37h7c1a80f_0.conda": {
       "build": "py37h7c1a80f_0",
       "build_number": 0,
@@ -111472,6 +111881,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615423098599,
       "version": "4.0.2"
+    },
+    "ujson-4.2.0-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "66e0374b924cad676495c5c1bd4fd5bb",
+      "name": "ujson",
+      "sha256": "164181805e4e4ae620b3625699465faed127d302e7430246c0f66d876a44567e",
+      "size": 47917,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703936948,
+      "version": "4.2.0"
+    },
+    "ujson-4.2.0-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "0c755a93f75d96d8240d6d97bfa45a28",
+      "name": "ujson",
+      "sha256": "5880683111bc6e3a78c32877e7d320eb0f9d3091066594db3d5f3632e450a27a",
+      "size": 47998,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703889856,
+      "version": "4.2.0"
+    },
+    "ujson-4.2.0-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "md5": "2e11fa8f5e607e127535ccb45fd19837",
+      "name": "ujson",
+      "sha256": "e2809192f4c72073c63b16f48c03773f3b218672a48086c50a4cfdb475c7972e",
+      "size": 48479,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640703913257,
+      "version": "4.2.0"
     },
     "unicodecsv-0.14.1-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
