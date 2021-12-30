@@ -34265,6 +34265,66 @@
       "timestamp": 1621478584117,
       "version": "0.7.3"
     },
+    "numcodecs-0.9.1-py37h22f4aa5_0.tar.bz2": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "msgpack-python",
+        "numpy >=1.7",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0750a8d8e8dd01b41a2c0b2c5478febe",
+      "name": "numcodecs",
+      "sha256": "95381243a9c6afa6545fb33842b5052dde4f8b5ca7b209e762cb18c1f988bb8f",
+      "size": 1032850,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640877905440,
+      "version": "0.9.1"
+    },
+    "numcodecs-0.9.1-py38h22f4aa5_0.tar.bz2": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "msgpack-python",
+        "numpy >=1.7",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4f16746309b516fd64b5178d4f2a6942",
+      "name": "numcodecs",
+      "sha256": "0b6597c76d7e642abc19c6b90ddc68654c9f1b557198147bbe1abca994c03a53",
+      "size": 1043340,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640878021168,
+      "version": "0.9.1"
+    },
+    "numcodecs-0.9.1-py39h22f4aa5_0.tar.bz2": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "msgpack-python",
+        "numpy >=1.7",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f9c8b5f285edb3fed2206fd0ce348b5b",
+      "name": "numcodecs",
+      "sha256": "5426e15b05f479c08cea685516a567fa660402f80efec0cb80f5fb5e647f1fbe",
+      "size": 1036585,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640878133938,
+      "version": "0.9.1"
+    },
     "numexpr-2.7.3-py37hfbfe6b9_0.tar.bz2": {
       "build": "py37hfbfe6b9_0",
       "build_number": 0,
@@ -91611,6 +91671,66 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621478584117,
       "version": "0.7.3"
+    },
+    "numcodecs-0.9.1-py37h22f4aa5_0.conda": {
+      "build": "py37h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "msgpack-python",
+        "numpy >=1.7",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "29afdc3ba69602c440e28dcce49b704d",
+      "name": "numcodecs",
+      "sha256": "ef08a561c412db0ecb1fb90f6f8a7b4fb8f7ebaa535dfc81929c0356cefbd5fc",
+      "size": 644942,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640877905440,
+      "version": "0.9.1"
+    },
+    "numcodecs-0.9.1-py38h22f4aa5_0.conda": {
+      "build": "py38h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "msgpack-python",
+        "numpy >=1.7",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c816f4e7e6727f532a78ab9ad233501e",
+      "name": "numcodecs",
+      "sha256": "6323597e02dcfb88d1ace63af5bba38d8005b4b464dc39fe73489a541534e07f",
+      "size": 652170,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640878021168,
+      "version": "0.9.1"
+    },
+    "numcodecs-0.9.1-py39h22f4aa5_0.conda": {
+      "build": "py39h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "msgpack-python",
+        "numpy >=1.7",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3ff8fdf770c038d1e3392f485265b1e3",
+      "name": "numcodecs",
+      "sha256": "227c289ba51e5b5e23ace6d2e119ffaefafbf3461e948a18f3d89043ebc21e40",
+      "size": 654016,
+      "subdir": "linux-aarch64",
+      "timestamp": 1640878133938,
+      "version": "0.9.1"
     },
     "numexpr-2.7.3-py37hfbfe6b9_0.conda": {
       "build": "py37hfbfe6b9_0",
