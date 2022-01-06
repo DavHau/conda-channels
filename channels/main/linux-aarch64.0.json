@@ -27360,6 +27360,31 @@
       "timestamp": 1621994384568,
       "version": "1.8.1"
     },
+    "libhdfs3-2.3.0-h56ff460_2.tar.bz2": {
+      "build": "h56ff460_2",
+      "build_number": 2,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libboost >=1.73.0,<1.73.1.0a0",
+        "libcurl >=7.80.0,<8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libgsasl >=1.8.1,<2.0a0",
+        "libprotobuf >=3.14.0,<3.15.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libuuid >=1.0.3,<2.0a0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "openssl >=1.1.1l,<1.1.2a"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "bad11d74646bfd8ab6e09eaa0eece477",
+      "name": "libhdfs3",
+      "sha256": "3c8c143c2d2e3179394fdd680bd45fdfe717f03d1cfc5cb383d134bcec323f5b",
+      "size": 12920847,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641390547143,
+      "version": "2.3.0"
+    },
     "libiconv-1.16-h9cdd2b7_0.tar.bz2": {
       "build": "h9cdd2b7_0",
       "build_number": 0,
@@ -84902,6 +84927,31 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621994384568,
       "version": "1.8.1"
+    },
+    "libhdfs3-2.3.0-h56ff460_2.conda": {
+      "build": "h56ff460_2",
+      "build_number": 2,
+      "depends": [
+        "krb5 >=1.19.2,<1.20.0a0",
+        "libboost >=1.73.0,<1.73.1.0a0",
+        "libcurl >=7.80.0,<8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libgsasl >=1.8.1,<2.0a0",
+        "libprotobuf >=3.14.0,<3.15.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libuuid >=1.0.3,<2.0a0",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "openssl >=1.1.1l,<1.1.2a"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "b85445710dc63003b79e896eaed220af",
+      "name": "libhdfs3",
+      "sha256": "7bc25eee4967bd2191f9d06b83d405a9be21c8b97d0a35980532769385943334",
+      "size": 9539928,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641390547143,
+      "version": "2.3.0"
     },
     "libiconv-1.16-h9cdd2b7_0.conda": {
       "build": "h9cdd2b7_0",

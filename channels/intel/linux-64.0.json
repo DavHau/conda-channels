@@ -16600,7 +16600,7 @@
       "name": "mkl_fft",
       "license": "BSD-3-Clause",
       "has_prefix": false,
-      "md5": "64be2f1d5fa41ee286922147fd4f2181",
+      "md5": "0d5dc31f49f5cd7b060e48651a73e280",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
@@ -16608,7 +16608,7 @@
         "dpcpp_cpp_rt",
         "intelpython >=2019.0",
         "libgcc-ng >=9.3.0",
-        "mkl >=2022.0.0,<2023.0a0",
+        "mkl 2022.*",
         "numpy-base >=1.21.2,<1.22.0a0",
         "python >=3.7,<3.8.0a0"
       ],
@@ -16620,7 +16620,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 245164,
+      "size": 245414,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -18895,28 +18895,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "re2-2021.04.01-hf7f620c_0.tar.bz2": {
-      "build_number": 0,
-      "name": "re2",
+    "mkl-service-2.4.0-py37h4119f30_10.tar.bz2": {
+      "build_number": 10,
+      "name": "mkl-service",
       "license": "BSD-3-Clause",
-      "has_prefix": true,
-      "md5": "dec6c5c311b5cd414aa51b816d4b8451",
+      "has_prefix": false,
+      "md5": "2a367c3d9d02da7f892addb32205ded9",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
         "libgcc-ng >=9.3.0",
-        "libstdcxx-ng >=9.3.0"
+        "mkl 2022.*",
+        "python >=3.7,<3.8.0a0",
+        "six"
       ],
-      "version": "2021.04.01",
-      "build": "hf7f620c_0",
-      "timestamp": 1619154575733,
+      "version": "2.4.0",
+      "build": "py37h4119f30_10",
+      "timestamp": 1637021657545,
       "binstar": {
-        "package_id": "60627dcd45c8b2069e29616a",
+        "package_id": "5e416e9f83b66372f629e6c8",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 236045,
+      "size": 64759,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -25697,7 +25699,7 @@
       "name": "mkl_random",
       "license": "BSD-3-Clause",
       "has_prefix": false,
-      "md5": "79b30e6b5d18612c317e0d7e3ad37ed5",
+      "md5": "5e06c46c518e4032abb77bbc58298814",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
@@ -25705,7 +25707,7 @@
         "dpcpp_cpp_rt",
         "intelpython >=2019.0",
         "libgcc-ng >=9.3.0",
-        "mkl >=2022.0.0,<2023.0a0",
+        "mkl 2022.*",
         "numpy-base >=1.21.2,<1.22.0a0",
         "python >=3.7,<3.8.0a0"
       ],
@@ -25717,7 +25719,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 363475,
+      "size": 367254,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -25728,7 +25730,7 @@
       "name": "mkl_umath",
       "license": "BSD-3-Clause",
       "has_prefix": true,
-      "md5": "e51a24010c82633d07e83cfc70782b0f",
+      "md5": "1d57a42587e88b7bfbc69be37074c265",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
@@ -25736,7 +25738,7 @@
         "dpcpp_cpp_rt",
         "intelpython >=2019.0",
         "libgcc-ng >=9.3.0",
-        "mkl >=2022.0.0,<2023.0a0",
+        "mkl 2022.*",
         "numpy-base >=1.21.2,<1.22.0a0",
         "python >=3.7,<3.8.0a0"
       ],
@@ -25748,7 +25750,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 308249,
+      "size": 302489,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -34175,6 +34177,33 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_0"
+    },
+    "re2-2021.04.01-hf7f620c_0.tar.bz2": {
+      "build_number": 0,
+      "name": "re2",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "md5": "dec6c5c311b5cd414aa51b816d4b8451",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0"
+      ],
+      "version": "2021.04.01",
+      "build": "hf7f620c_0",
+      "timestamp": 1619154575733,
+      "binstar": {
+        "package_id": "60627dcd45c8b2069e29616a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 236045,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "fortran_rt-2021.2.0-intel_610.tar.bz2": {
       "build_number": 610,
@@ -53066,12 +53095,12 @@
       "name": "numexpr",
       "license": "MIT",
       "has_prefix": true,
-      "md5": "b7fddf43a26ecd9ae703bc16e243c202",
+      "md5": "62eb51851adc656cfa32cba096595e12",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "mkl >=2022.0.0,<2023.0a0",
+        "mkl 2022.*",
         "numpy >=1.19.5,<2.0a0",
         "python >=3.7,<3.8.0a0",
         "setuptools"
@@ -53084,7 +53113,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 441374,
+      "size": 443060,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -65558,7 +65587,7 @@
       "name": "scipy",
       "license": "BSD-3-Clause",
       "has_prefix": true,
-      "md5": "ba879d54207440b204941644001e2e2b",
+      "md5": "86ef0e8986c76bd3eed28bf94ec5a47a",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
@@ -65566,7 +65595,7 @@
         "dpcpp_cpp_rt",
         "fortran_rt",
         "intelpython >=2019.0",
-        "mkl >=2022.0.0,<2023.0a0",
+        "mkl 2022.*",
         "mkl_fft",
         "numpy >=1.19.5,<2.0a0",
         "python >=3.7,<3.8.0a0"
@@ -65579,7 +65608,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 28602546,
+      "size": 29076376,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -66826,7 +66855,7 @@
       "name": "numpy-base",
       "license": "BSD-3-Clause",
       "has_prefix": true,
-      "md5": "13c5b54fc901ad4c7a76628ffdeb0b61",
+      "md5": "b941915030870e25cbe5a4034625c1b4",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
@@ -66834,7 +66863,7 @@
         "dpcpp_cpp_rt",
         "intelpython >=2019.0",
         "libgcc-ng >=9.3.0",
-        "mkl >=2022.0.0,<2023.0a0",
+        "mkl 2022.*",
         "mkl-service >=2.3.0",
         "python >=3.7,<3.8.0a0",
         "tbb4py"
@@ -66847,7 +66876,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 8145027,
+      "size": 7988537,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
