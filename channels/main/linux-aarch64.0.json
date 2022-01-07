@@ -47300,6 +47300,57 @@
       "timestamp": 1624578531409,
       "version": "0.2.2"
     },
+    "ruamel.yaml.clib-0.2.6-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "ce31e6ac52bb82e4d9cb43455be6eee3",
+      "name": "ruamel.yaml.clib",
+      "sha256": "5362dcb8ad31c53cbf5448b43c7e7e95a6e753523f4f483e4991f3b44ec5e1c9",
+      "size": 148208,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641552577555,
+      "version": "0.2.6"
+    },
+    "ruamel.yaml.clib-0.2.6-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "8185d74111817a3d2246df5c2bdfb3d6",
+      "name": "ruamel.yaml.clib",
+      "sha256": "bdae1c0ce35e135f879c76b7c18660d9a00c18301655cb4c0e6c15b95f1964ca",
+      "size": 149504,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641552600839,
+      "version": "0.2.6"
+    },
+    "ruamel.yaml.clib-0.2.6-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0140ccfbc2ad0bdf18836ed908cc4c30",
+      "name": "ruamel.yaml.clib",
+      "sha256": "674719530c804dc838be5259a2c5ff9d906681cf626183e5949157486691404e",
+      "size": 146425,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641552623950,
+      "version": "0.2.6"
+    },
     "ruamel_yaml-0.15.100-py37h2f4d8fa_0.tar.bz2": {
       "build": "py37h2f4d8fa_0",
       "build_number": 0,
@@ -104916,6 +104967,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1624578531409,
       "version": "0.2.2"
+    },
+    "ruamel.yaml.clib-0.2.6-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "607c84ded4b82b236a2dda5f08924a88",
+      "name": "ruamel.yaml.clib",
+      "sha256": "df521fabfa9d829ea1a2bd27407cef5fe640b89e9b2c0390fa12bc58dd13dda6",
+      "size": 136267,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641552577555,
+      "version": "0.2.6"
+    },
+    "ruamel.yaml.clib-0.2.6-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d84fc8798beca29d53e07e1a6ccaa817",
+      "name": "ruamel.yaml.clib",
+      "sha256": "c25fa883eb745fdb3cba050539ce34ae8ac1d818bfd016827d34d7a20126146b",
+      "size": 138305,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641552600839,
+      "version": "0.2.6"
+    },
+    "ruamel.yaml.clib-0.2.6-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4bc1e64ac006d543b9f195270af8c4eb",
+      "name": "ruamel.yaml.clib",
+      "sha256": "80998831e5e4ef0c6bde026863dbe9a48bf2db56a278cb8a0bbce76228bb349b",
+      "size": 135286,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641552623950,
+      "version": "0.2.6"
     },
     "ruamel_yaml-0.15.100-py37h2f4d8fa_0.conda": {
       "build": "py37h2f4d8fa_0",
