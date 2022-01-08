@@ -55930,6 +55930,44 @@
       "timestamp": 1620664754673,
       "version": "2.6.1"
     },
+    "uvicorn-0.16.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "asgiref >=3.4.0",
+        "click >=7.*",
+        "h11 >=0.8",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b7aadfd0b37de931d31c166a3e4bbda1",
+      "name": "uvicorn",
+      "sha256": "221903017fb3462940ec2291573d44290f7baefad9828e2ef665fedfb1cde3dc",
+      "size": 80937,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641600755686,
+      "version": "0.16.0"
+    },
+    "uvicorn-0.16.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "asgiref >=3.4.0",
+        "click >=7.*",
+        "h11 >=0.8",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b4f0c4cffc0bef8fb7ba702c84db7ff9",
+      "name": "uvicorn",
+      "sha256": "6316c71ae39bdfe102b0a4d568695459234e4e0dcf47d808ef50740494581706",
+      "size": 80944,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641600738284,
+      "version": "0.16.0"
+    },
     "uvloop-0.14.0-py37hfd63f10_1.tar.bz2": {
       "build": "py37hfd63f10_1",
       "build_number": 1,
@@ -113581,6 +113619,44 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620664754673,
       "version": "2.6.1"
+    },
+    "uvicorn-0.16.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "asgiref >=3.4.0",
+        "click >=7.*",
+        "h11 >=0.8",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "122ee03ffaf47d30a518d08cb813a41b",
+      "name": "uvicorn",
+      "sha256": "98f9f593e691e8d59de6b324f4554d91e3fc30085c5169c312b34e29cde186cc",
+      "size": 83727,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641600755686,
+      "version": "0.16.0"
+    },
+    "uvicorn-0.16.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "asgiref >=3.4.0",
+        "click >=7.*",
+        "h11 >=0.8",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "e1159505fa4252b018fbd842d167bd37",
+      "name": "uvicorn",
+      "sha256": "b81aa2d8f5b055f975b5665564ca365c8ba06f937afe0f209bfff6c75d11f4f4",
+      "size": 83690,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641600738284,
+      "version": "0.16.0"
     },
     "uvloop-0.14.0-py37hfd63f10_1.conda": {
       "build": "py37hfd63f10_1",
