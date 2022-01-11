@@ -83110,6 +83110,40 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "python-3.8.12-h718aa4a_1.tar.bz2": {
+      "build_number": 1,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "7ee00c7bccf548cd2c21a2b8bc256af2",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1l,<1.1.2a",
+        "sqlite",
+        "tk 8.6.10.*",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.8.12",
+      "build": "h718aa4a_1",
+      "timestamp": 1641850885436,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 66175941,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "ipp-include-2019.2-intel_187.tar.bz2": {
       "timestamp": 1548337987963,
       "depends": [],
