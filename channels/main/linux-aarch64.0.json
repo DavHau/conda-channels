@@ -11532,6 +11532,22 @@
       "timestamp": 1615241317737,
       "version": "1.17.1"
     },
+    "c-ares-1.18.1-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "53f4dad356ae1f8b498e4e57b3280736",
+      "name": "c-ares",
+      "sha256": "1ab0bf412dea45aa6bb8863060a7ae917cdfd45dd850286f4a8c3d4902f935a2",
+      "size": 120501,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641919932676,
+      "version": "1.18.1"
+    },
     "c-ares-static-1.17.1-hfd63f10_0.tar.bz2": {
       "build": "hfd63f10_0",
       "build_number": 0,
@@ -11547,6 +11563,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615241332895,
       "version": "1.17.1"
+    },
+    "c-ares-static-1.18.1-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1ca1012f0f2284283ede6ba17eeea7ec",
+      "name": "c-ares-static",
+      "sha256": "e58941b3bfba984e890316d5e2b0efb8ebf67fb19b594d5418d533fab4dc74b0",
+      "size": 170500,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641919946645,
+      "version": "1.18.1"
     },
     "ca-certificates-2021.1.19-hd43f75c_0.tar.bz2": {
       "build": "hd43f75c_0",
@@ -69573,6 +69605,22 @@
       "timestamp": 1615241317737,
       "version": "1.17.1"
     },
+    "c-ares-1.18.1-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "113ae403e3a2d413cf359bc26d204d07",
+      "name": "c-ares",
+      "sha256": "8e7479c0875d2286e47110350db0aade4d48345121a185f422952de861f51189",
+      "size": 116171,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641919932676,
+      "version": "1.18.1"
+    },
     "c-ares-static-1.17.1-hfd63f10_0.conda": {
       "build": "hfd63f10_0",
       "build_number": 0,
@@ -69588,6 +69636,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615241332895,
       "version": "1.17.1"
+    },
+    "c-ares-static-1.18.1-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "81a00d986d7d42e536e6ed06f03717c2",
+      "name": "c-ares-static",
+      "sha256": "03a98bef7e712990c29f782ed1e754f31730e5cc160d7d9efd3c396c52067050",
+      "size": 148379,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641919946645,
+      "version": "1.18.1"
     },
     "ca-certificates-2021.1.19-hd43f75c_0.conda": {
       "build": "hd43f75c_0",
