@@ -11930,6 +11930,21 @@
       "timestamp": 1634050837455,
       "version": "2021.10.8"
     },
+    "certifi-2021.10.8-py37hd43f75c_2.tar.bz2": {
+      "build": "py37hd43f75c_2",
+      "build_number": 2,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MPL-2.0",
+      "md5": "b21e3f18cc1a3d9acf6f81e75650b909",
+      "name": "certifi",
+      "sha256": "d922c2f5252736dcb8daebfb6cff7e345c96a3cc59024fec18e6f21d17a63bdf",
+      "size": 148277,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641977605085,
+      "version": "2021.10.8"
+    },
     "certifi-2021.10.8-py38hd43f75c_0.tar.bz2": {
       "build": "py38hd43f75c_0",
       "build_number": 0,
@@ -11945,6 +11960,21 @@
       "timestamp": 1634050867996,
       "version": "2021.10.8"
     },
+    "certifi-2021.10.8-py38hd43f75c_2.tar.bz2": {
+      "build": "py38hd43f75c_2",
+      "build_number": 2,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MPL-2.0",
+      "md5": "b00875a4d7350c66fdd70d074b5c2478",
+      "name": "certifi",
+      "sha256": "a381dd566618ed8d4e7d81649528e4cda8ae68b706fbadcea3a087e1080828f2",
+      "size": 148193,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641977592011,
+      "version": "2021.10.8"
+    },
     "certifi-2021.10.8-py39hd43f75c_0.tar.bz2": {
       "build": "py39hd43f75c_0",
       "build_number": 0,
@@ -11958,6 +11988,21 @@
       "size": 147479,
       "subdir": "linux-aarch64",
       "timestamp": 1634050851467,
+      "version": "2021.10.8"
+    },
+    "certifi-2021.10.8-py39hd43f75c_2.tar.bz2": {
+      "build": "py39hd43f75c_2",
+      "build_number": 2,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MPL-2.0",
+      "md5": "42780d5060432dd1f20fd3d3ec1ce92a",
+      "name": "certifi",
+      "sha256": "b22441caf64ab78e73f7da860ee7e8a128ff65a73d8936879c3e75fe2f7a05e0",
+      "size": 148287,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641977577854,
       "version": "2021.10.8"
     },
     "certifi-2021.5.30-py310hd43f75c_0.tar.bz2": {
@@ -12902,6 +12947,32 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615202905029,
       "version": "3.19.6"
+    },
+    "cmake-3.22.1-h984d34b_0.tar.bz2": {
+      "build": "h984d34b_0",
+      "build_number": 0,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "expat >=2.3.0,<3.0a0",
+        "libcurl >=7.80.0,<8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "ncurses >=6.3,<7.0a0",
+        "rhash >=1.4.1,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.5.0,<1.6.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "96b9164a0e8fc1351210567a7bc82b5c",
+      "name": "cmake",
+      "sha256": "5cc53daf130ae7b0e62ac2f84b2fedb38d8a001d015e0fdb00e2eb87aefb06c1",
+      "size": 16241979,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641978648410,
+      "version": "3.22.1"
     },
     "cmake-binary-3.19.6-hd43f75c_0.tar.bz2": {
       "build": "hd43f75c_0",
@@ -32386,6 +32457,25 @@
       "timestamp": 1629844064211,
       "version": "0.2.1"
     },
+    "navigator-updater-0.2.1-py37hd43f75c_1.tar.bz2": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "psutil",
+        "pyqt >=5.6",
+        "python >=3.7,<3.8.0a0",
+        "qtpy >=1.2"
+      ],
+      "license": "proprietary - Continuum Analytics, Inc.",
+      "license_family": "Proprietary",
+      "md5": "a4d724056f956e57ae1489e19f6cf0d0",
+      "name": "navigator-updater",
+      "sha256": "8f8031efa7183c053b00ac06a582a47a24d5324612889616097559a506c0155d",
+      "size": 1313386,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641980710527,
+      "version": "0.2.1"
+    },
     "navigator-updater-0.2.1-py38_0.tar.bz2": {
       "build": "py38_0",
       "build_number": 0,
@@ -32404,6 +32494,25 @@
       "timestamp": 1629844041611,
       "version": "0.2.1"
     },
+    "navigator-updater-0.2.1-py38hd43f75c_1.tar.bz2": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "psutil",
+        "pyqt >=5.6",
+        "python >=3.8,<3.9.0a0",
+        "qtpy >=1.2"
+      ],
+      "license": "proprietary - Continuum Analytics, Inc.",
+      "license_family": "Proprietary",
+      "md5": "e06548aacaaa2f50c55208d756647c34",
+      "name": "navigator-updater",
+      "sha256": "68ec7c462ae14718c2f52c34a4f5059c22f0db561c96873c5e26577498bfe346",
+      "size": 1313078,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641980652956,
+      "version": "0.2.1"
+    },
     "navigator-updater-0.2.1-py39_0.tar.bz2": {
       "build": "py39_0",
       "build_number": 0,
@@ -32420,6 +32529,25 @@
       "size": 7767409,
       "subdir": "linux-aarch64",
       "timestamp": 1629844086918,
+      "version": "0.2.1"
+    },
+    "navigator-updater-0.2.1-py39hd43f75c_1.tar.bz2": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "psutil",
+        "pyqt >=5.6",
+        "python >=3.9,<3.10.0a0",
+        "qtpy >=1.2"
+      ],
+      "license": "proprietary - Continuum Analytics, Inc.",
+      "license_family": "Proprietary",
+      "md5": "01ded8c8796ecaa5405c2c09d55a3f4c",
+      "name": "navigator-updater",
+      "sha256": "230727165fba05e09ce0c6ed28a7502f35b7af0c2652526cc130bce0d5dda8b1",
+      "size": 1313564,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641980684976,
       "version": "0.2.1"
     },
     "nb_conda-2.2.1-py37hd43f75c_1.tar.bz2": {
@@ -36065,6 +36193,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1630515532072,
       "version": "1.1.1l"
+    },
+    "openssl-1.1.1m-h2f4d8fa_0.tar.bz2": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "ca-certificates",
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "OpenSSL",
+      "license_family": "Apache",
+      "md5": "933a84de85960159e528c47433abe6c8",
+      "name": "openssl",
+      "sha256": "9860fdd76190668e4cbbd1e11a01b5357ab2205dd581c6f31eb42b84a0212ecd",
+      "size": 3933523,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641990329037,
+      "version": "1.1.1m"
     },
     "opentracing-2.4.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
@@ -48590,6 +48735,75 @@
       "subdir": "linux-aarch64",
       "timestamp": 1635350029775,
       "version": "1.0.1"
+    },
+    "scikit-learn-1.0.2-py37h839d321_0.tar.bz2": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c430a03a65a0693c5f02c56f795fa5b7",
+      "name": "scikit-learn",
+      "sha256": "329715f83f8863e636ac1f3f4269f42f79afbaf0fad98a71467ee8c85c624f2c",
+      "size": 7703458,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641979028680,
+      "version": "1.0.2"
+    },
+    "scikit-learn-1.0.2-py38h839d321_0.tar.bz2": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "0028c5c4d7fedb620852ac3833b55543",
+      "name": "scikit-learn",
+      "sha256": "2bf30d6ac87cfac2020da155c1f526f7c3b1bc316a5365aa84d0a6cab2685af2",
+      "size": 7789104,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641979910198,
+      "version": "1.0.2"
+    },
+    "scikit-learn-1.0.2-py39h839d321_0.tar.bz2": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c274834a0353afda15893c37c3cae8da",
+      "name": "scikit-learn",
+      "sha256": "663603169c764ae4407e641c53da2c2cc898fe3a7a6916a3acc36a15e6ce4f55",
+      "size": 7737782,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641978166400,
+      "version": "1.0.2"
     },
     "scipy-1.6.1-py37h0c56726_0.tar.bz2": {
       "build": "py37h0c56726_0",
@@ -70003,6 +70217,21 @@
       "timestamp": 1634050837455,
       "version": "2021.10.8"
     },
+    "certifi-2021.10.8-py37hd43f75c_2.conda": {
+      "build": "py37hd43f75c_2",
+      "build_number": 2,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MPL-2.0",
+      "md5": "928f817d0b0ebee586f9ff11bfdf3151",
+      "name": "certifi",
+      "sha256": "827fc61471608c1aa08f233ff7de47f06131edef149ffdfad03ad056127cf7e0",
+      "size": 146056,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641977605085,
+      "version": "2021.10.8"
+    },
     "certifi-2021.10.8-py38hd43f75c_0.conda": {
       "build": "py38hd43f75c_0",
       "build_number": 0,
@@ -70018,6 +70247,21 @@
       "timestamp": 1634050867996,
       "version": "2021.10.8"
     },
+    "certifi-2021.10.8-py38hd43f75c_2.conda": {
+      "build": "py38hd43f75c_2",
+      "build_number": 2,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MPL-2.0",
+      "md5": "21c55ed8eff0a0b8d2568fc42e817269",
+      "name": "certifi",
+      "sha256": "8b0490005577ef23b615e01e3c0aa4f1ddb7418df2316c0291e3d778eb8260f9",
+      "size": 145940,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641977592011,
+      "version": "2021.10.8"
+    },
     "certifi-2021.10.8-py39hd43f75c_0.conda": {
       "build": "py39hd43f75c_0",
       "build_number": 0,
@@ -70031,6 +70275,21 @@
       "size": 145552,
       "subdir": "linux-aarch64",
       "timestamp": 1634050851467,
+      "version": "2021.10.8"
+    },
+    "certifi-2021.10.8-py39hd43f75c_2.conda": {
+      "build": "py39hd43f75c_2",
+      "build_number": 2,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MPL-2.0",
+      "md5": "369fa5dd0e17a4b251fdf50202a0a6a1",
+      "name": "certifi",
+      "sha256": "cde464197d2aeb78f18189b9664ee8f574c1332ae7bed6f63dee8c72cee0254b",
+      "size": 145938,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641977577854,
       "version": "2021.10.8"
     },
     "certifi-2021.5.30-py310hd43f75c_0.conda": {
@@ -70975,6 +71234,32 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615202905029,
       "version": "3.19.6"
+    },
+    "cmake-3.22.1-h984d34b_0.conda": {
+      "build": "h984d34b_0",
+      "build_number": 0,
+      "depends": [
+        "bzip2 >=1.0.8,<2.0a0",
+        "expat >=2.3.0,<3.0a0",
+        "libcurl >=7.80.0,<8.0a0",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "libuv >=1.40.0,<2.0a0",
+        "ncurses >=6.3,<7.0a0",
+        "rhash >=1.4.1,<2.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.5.0,<1.6.0a0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "ae09129d95bc3f746f5891cfec43e7dc",
+      "name": "cmake",
+      "sha256": "a9e85a72f40a51bb1d9b3edb0418bbbc6671d4f24236b20b06cfc6cfe09b0145",
+      "size": 8252798,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641978648410,
+      "version": "3.22.1"
     },
     "cmake-binary-3.19.6-hd43f75c_0.conda": {
       "build": "hd43f75c_0",
@@ -90459,6 +90744,25 @@
       "timestamp": 1629844064211,
       "version": "0.2.1"
     },
+    "navigator-updater-0.2.1-py37hd43f75c_1.conda": {
+      "build": "py37hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "psutil",
+        "pyqt >=5.6",
+        "python >=3.7,<3.8.0a0",
+        "qtpy >=1.2"
+      ],
+      "license": "proprietary - Continuum Analytics, Inc.",
+      "license_family": "Proprietary",
+      "md5": "7fbefc66804e5a55a615d73f7a180169",
+      "name": "navigator-updater",
+      "sha256": "2d082fb94d10380c07936e53cdc3abab55512eddca760edb6a0f054578532aef",
+      "size": 706037,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641980710527,
+      "version": "0.2.1"
+    },
     "navigator-updater-0.2.1-py38_0.conda": {
       "build": "py38_0",
       "build_number": 0,
@@ -90477,6 +90781,25 @@
       "timestamp": 1629844041611,
       "version": "0.2.1"
     },
+    "navigator-updater-0.2.1-py38hd43f75c_1.conda": {
+      "build": "py38hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "psutil",
+        "pyqt >=5.6",
+        "python >=3.8,<3.9.0a0",
+        "qtpy >=1.2"
+      ],
+      "license": "proprietary - Continuum Analytics, Inc.",
+      "license_family": "Proprietary",
+      "md5": "4d33fdb9d8a992f087490e5cc2aafc82",
+      "name": "navigator-updater",
+      "sha256": "cd819d9ce6ef644688313500caa02266669a0476dd2ac545a8695da57d5c0211",
+      "size": 706539,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641980652956,
+      "version": "0.2.1"
+    },
     "navigator-updater-0.2.1-py39_0.conda": {
       "build": "py39_0",
       "build_number": 0,
@@ -90493,6 +90816,25 @@
       "size": 6260078,
       "subdir": "linux-aarch64",
       "timestamp": 1629844086918,
+      "version": "0.2.1"
+    },
+    "navigator-updater-0.2.1-py39hd43f75c_1.conda": {
+      "build": "py39hd43f75c_1",
+      "build_number": 1,
+      "depends": [
+        "psutil",
+        "pyqt >=5.6",
+        "python >=3.9,<3.10.0a0",
+        "qtpy >=1.2"
+      ],
+      "license": "proprietary - Continuum Analytics, Inc.",
+      "license_family": "Proprietary",
+      "md5": "0ab5e5b696ed9a451557232260c12f80",
+      "name": "navigator-updater",
+      "sha256": "fe216debd3570c189cc1816698d3bdcf0789c8e2a8d472b5ffb9ca7208933aeb",
+      "size": 706178,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641980684976,
       "version": "0.2.1"
     },
     "nb_conda-2.2.1-py37hd43f75c_1.conda": {
@@ -94138,6 +94480,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1630515532072,
       "version": "1.1.1l"
+    },
+    "openssl-1.1.1m-h2f4d8fa_0.conda": {
+      "build": "h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "ca-certificates",
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "OpenSSL",
+      "license_family": "Apache",
+      "md5": "08cfea2fb04f73c93bb0fb26a145701b",
+      "name": "openssl",
+      "sha256": "1a99c32838467c8405ac2c62cd976d0a85ef085bf657c8e9cec8202a19c63b7d",
+      "size": 2622352,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641990329037,
+      "version": "1.1.1m"
     },
     "opentracing-2.4.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
@@ -106501,6 +106860,75 @@
       "subdir": "linux-aarch64",
       "timestamp": 1635350029775,
       "version": "1.0.1"
+    },
+    "scikit-learn-1.0.2-py37h839d321_0.conda": {
+      "build": "py37h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "03435980f6dd31569df3928f92bb9fb3",
+      "name": "scikit-learn",
+      "sha256": "acaedda733957ef989ff8dc1ccfb530f933c202cb59efa7133a4718afb5e5aa2",
+      "size": 5652963,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641979028680,
+      "version": "1.0.2"
+    },
+    "scikit-learn-1.0.2-py38h839d321_0.conda": {
+      "build": "py38h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "78a509f45028b40dd419e8ee1a5dfe7a",
+      "name": "scikit-learn",
+      "sha256": "d2a99d86b1f2ecd2e239e8748bb5fcf57406ba5d9a95eef35f659db39daf5244",
+      "size": 5768796,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641979910198,
+      "version": "1.0.2"
+    },
+    "scikit-learn-1.0.2-py39h839d321_0.conda": {
+      "build": "py39h839d321_0",
+      "build_number": 0,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "2550a372844b470fa3043203f35cdfd2",
+      "name": "scikit-learn",
+      "sha256": "ab65c866240aa0642d0ede7b791c507cf99d6ed93087a1ab4f41dfb0ae1c5100",
+      "size": 5759212,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641978166400,
+      "version": "1.0.2"
     },
     "scipy-1.6.1-py37h0c56726_0.conda": {
       "build": "py37h0c56726_0",
