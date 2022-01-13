@@ -15101,6 +15101,57 @@
       "timestamp": 1614705932097,
       "version": "5.5"
     },
+    "coverage-6.2-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "59844331237089a31f955d012fa77473",
+      "name": "coverage",
+      "sha256": "237c7215c70b8ff2162729aa35a105db2bb3808286a389b66f950b5b3d9b2829",
+      "size": 239822,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021504946,
+      "version": "6.2"
+    },
+    "coverage-6.2-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e6e382920e86209fe56955b9395cc175",
+      "name": "coverage",
+      "sha256": "5916133cc23c39ce6296236868ca827367138419ee849d1941519c87bfa40de4",
+      "size": 239929,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021467947,
+      "version": "6.2"
+    },
+    "coverage-6.2-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "02a426a66e768c4162a416f6eba751e8",
+      "name": "coverage",
+      "sha256": "68e32edbab17d50d15bf52fb9d6d2be156ee5d575233e6ec586057ec4e039416",
+      "size": 240536,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021488390,
+      "version": "6.2"
+    },
     "crosstool-ng-1.24.0_286-h5e4fccc_4.tar.bz2": {
       "build": "h5e4fccc_4",
       "build_number": 4,
@@ -20646,6 +20697,31 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615047492397,
       "version": "2.23.0"
+    },
+    "git-2.34.1-pl5262h0ad1dfb_0.tar.bz2": {
+      "build": "pl5262h0ad1dfb_0",
+      "build_number": 0,
+      "depends": [
+        "curl",
+        "expat >=2.3.0,<3.0a0",
+        "gettext",
+        "libcurl >=7.80.0,<8.0a0",
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "pcre2 >=10.37,<10.38.0a0",
+        "perl 5.*",
+        "tk",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+      "md5": "2a32eeabedb6c8bf79834513463d6a80",
+      "name": "git",
+      "namespace": "global",
+      "sha256": "c5d6beb869392580a422ecbb4deb8491f8342c5fa47f52fc099cc760416c1d49",
+      "size": 18063823,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642011412317,
+      "version": "2.34.1"
     },
     "glib-2.67.4-he94be5b_1.tar.bz2": {
       "build": "he94be5b_1",
@@ -46792,21 +46868,21 @@
       "timestamp": 1614918865248,
       "version": "8.1"
     },
-    "readline-8.1.2-h2f4d8fa_0.tar.bz2": {
-      "build": "h2f4d8fa_0",
-      "build_number": 0,
+    "readline-8.1.2-h2f4d8fa_1.tar.bz2": {
+      "build": "h2f4d8fa_1",
+      "build_number": 1,
       "depends": [
         "libgcc-ng >=10.2.0",
-        "ncurses"
+        "ncurses >=6.3,<7.0a0"
       ],
       "license": "GPL-3.0-only",
       "license_family": "GPL",
-      "md5": "4f3c5c6f34a046bae8916798c8e78cc1",
+      "md5": "6120bee4d8ce9f3ecddde8ae26d62296",
       "name": "readline",
-      "sha256": "0ef5e39b1fe7a913458032c3ee863ec6f47626d7d219d59180e7d3ecd9cb3e50",
-      "size": 515244,
+      "sha256": "0f34c451025ba7087a66101cc1436285f10d2c8b9c8b963ab67d2daf8a00d66a",
+      "size": 469049,
       "subdir": "linux-aarch64",
-      "timestamp": 1641824449540,
+      "timestamp": 1642022388740,
       "version": "8.1.2"
     },
     "readme_renderer-24.0-py37hd43f75c_0.tar.bz2": {
@@ -46944,6 +47020,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615410604090,
       "version": "2020.11.13"
+    },
+    "regex-2021.11.2-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "705bd26055d76432b2b133e5a0599bb5",
+      "name": "regex",
+      "sha256": "6a36bc5280951eada96747f9d7a59e78249aa2d555bd514c67879ae7d2efc11c",
+      "size": 392956,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021353572,
+      "version": "2021.11.2"
+    },
+    "regex-2021.11.2-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "e27aad2aea3acace9be4c2cdb847cea6",
+      "name": "regex",
+      "sha256": "1d3d5690eea3c316674d963a2065053259bf3d1404fe06fa94b6887242ab62a0",
+      "size": 394456,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021414491,
+      "version": "2021.11.2"
+    },
+    "regex-2021.11.2-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "690567d02f937bf5f26522367bc1926e",
+      "name": "regex",
+      "sha256": "4af1dcda038819bdc82208ee4cda81f5ea723c73739b6c62b880f8cd2aaaba22",
+      "size": 390624,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021386168,
+      "version": "2021.11.2"
     },
     "regex-2021.4.4-py37hfd63f10_0.tar.bz2": {
       "build": "py37hfd63f10_0",
@@ -73388,6 +73515,57 @@
       "timestamp": 1614705932097,
       "version": "5.5"
     },
+    "coverage-6.2-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "09712b932b2c0f976494c3b4b5c35405",
+      "name": "coverage",
+      "sha256": "bd0d2facffea765daa7737c9a3cc36031c87f9e678cb0a371032b08498160b37",
+      "size": 235937,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021504946,
+      "version": "6.2"
+    },
+    "coverage-6.2-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "e3b1b782a01409a481254b7627a0299b",
+      "name": "coverage",
+      "sha256": "d309a2925ed2bb4328455a05222a8ad5d6da4c9713bab259499544ce3a8fca84",
+      "size": 236601,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021467947,
+      "version": "6.2"
+    },
+    "coverage-6.2-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache-2.0",
+      "license_family": "Apache",
+      "md5": "48711116dabca969c37ef92e3a4b4a17",
+      "name": "coverage",
+      "sha256": "3102c7f185ecbbae0265a500172143293e03af7a92c54b408f6308d9bdf9b405",
+      "size": 236474,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021488390,
+      "version": "6.2"
+    },
     "crosstool-ng-1.24.0_286-h5e4fccc_4.conda": {
       "build": "h5e4fccc_4",
       "build_number": 4,
@@ -78933,6 +79111,31 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615047492397,
       "version": "2.23.0"
+    },
+    "git-2.34.1-pl5262h0ad1dfb_0.conda": {
+      "build": "pl5262h0ad1dfb_0",
+      "build_number": 0,
+      "depends": [
+        "curl",
+        "expat >=2.3.0,<3.0a0",
+        "gettext",
+        "libcurl >=7.80.0,<8.0a0",
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "pcre2 >=10.37,<10.38.0a0",
+        "perl 5.*",
+        "tk",
+        "zlib >=1.2.11,<1.3.0a0"
+      ],
+      "license": "GPL-2.0-or-later and LGPL-2.1-or-later",
+      "md5": "ab8e428233bd389e86ecf67e11610be6",
+      "name": "git",
+      "namespace": "global",
+      "sha256": "965e3291108123aa5d29f97a43c83391dbbf545e23b7aeae6f5c56ef719220fa",
+      "size": 7475814,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642011412317,
+      "version": "2.34.1"
     },
     "glib-2.67.4-he94be5b_1.conda": {
       "build": "he94be5b_1",
@@ -104917,21 +105120,21 @@
       "timestamp": 1614918865248,
       "version": "8.1"
     },
-    "readline-8.1.2-h2f4d8fa_0.conda": {
-      "build": "h2f4d8fa_0",
-      "build_number": 0,
+    "readline-8.1.2-h2f4d8fa_1.conda": {
+      "build": "h2f4d8fa_1",
+      "build_number": 1,
       "depends": [
         "libgcc-ng >=10.2.0",
-        "ncurses"
+        "ncurses >=6.3,<7.0a0"
       ],
       "license": "GPL-3.0-only",
       "license_family": "GPL",
-      "md5": "42641d661d3bf289f1fac1f714fe1ed4",
+      "md5": "ce808552143f13cf392fcfac45ef5c14",
       "name": "readline",
-      "sha256": "888c592fda74341ce7b586f7266ec5050986743b84d5e512777ba66349a51e40",
-      "size": 400449,
+      "sha256": "27be2a3d98ab5d5608f4a4dcc579354fc5d6f920a015e77d35e5d6873a0c2666",
+      "size": 383680,
       "subdir": "linux-aarch64",
-      "timestamp": 1641824449540,
+      "timestamp": 1642022388740,
       "version": "8.1.2"
     },
     "readme_renderer-24.0-py37hd43f75c_0.conda": {
@@ -105069,6 +105272,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1615410604090,
       "version": "2020.11.13"
+    },
+    "regex-2021.11.2-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "0bfc68907331132bd950c062789d84d4",
+      "name": "regex",
+      "sha256": "b11b2f2a366f89a908af1b69d2235d9978e5187e3c0a9c49107307328803f8ab",
+      "size": 335048,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021353572,
+      "version": "2021.11.2"
+    },
+    "regex-2021.11.2-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "d1e229337599310395dc2e0436b5cb80",
+      "name": "regex",
+      "sha256": "6b38c15a309aab325c3d736652630ed23c16db72ddd41ef54c7c3a2d9b30c3bc",
+      "size": 336129,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021414491,
+      "version": "2021.11.2"
+    },
+    "regex-2021.11.2-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "Apache 2.0",
+      "license_family": "Apache",
+      "md5": "e45f6069cf10e3dad82d4756b65251f0",
+      "name": "regex",
+      "sha256": "dc085fe1e1db9af45d3a013f3fa53d5ab0ca176f37cc024c8a9baf80ebaede90",
+      "size": 335335,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642021386168,
+      "version": "2021.11.2"
     },
     "regex-2021.4.4-py37hfd63f10_0.conda": {
       "build": "py37hfd63f10_0",
