@@ -29255,6 +29255,60 @@
       "timestamp": 1622732733567,
       "version": "3.2.1"
     },
+    "line_profiler-3.3.1-py37h59a28a9_0.tar.bz2": {
+      "build": "py37h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "ipython >=0.13",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD",
+      "md5": "d20e62ebf7556dd22b03022473d99a42",
+      "name": "line_profiler",
+      "sha256": "71d4550ff7668e285294114c79455e316fe853ac1aa81ddcb65fb3f2951ef737",
+      "size": 68648,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642087213678,
+      "version": "3.3.1"
+    },
+    "line_profiler-3.3.1-py38h59a28a9_0.tar.bz2": {
+      "build": "py38h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "ipython >=0.13",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD",
+      "md5": "c337bbe2a484f6934b7bc1b0df5c8e39",
+      "name": "line_profiler",
+      "sha256": "9357a38af419c70ea0200a35bf721c5eb6de5de792485f7762dfe421fe443ee3",
+      "size": 71216,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642087268891,
+      "version": "3.3.1"
+    },
+    "line_profiler-3.3.1-py39h59a28a9_0.tar.bz2": {
+      "build": "py39h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "ipython >=0.13",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD",
+      "md5": "a8ba05ba6cbd2429f5a2bce844913588",
+      "name": "line_profiler",
+      "sha256": "33558a29a5e560c0218026ba7f8ca5b3f5c259f6345d9408eb61ade1ec36c131",
+      "size": 70920,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642087243265,
+      "version": "3.3.1"
+    },
     "lit-11.1.0-pyhd3eb1b0_0.tar.bz2": {
       "build": "pyhd3eb1b0_0",
       "build_number": 0,
@@ -87668,6 +87722,60 @@
       "subdir": "linux-aarch64",
       "timestamp": 1622732733567,
       "version": "3.2.1"
+    },
+    "line_profiler-3.3.1-py37h59a28a9_0.conda": {
+      "build": "py37h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "ipython >=0.13",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "BSD",
+      "md5": "49df6c4c6254e3c05e749e304dbe13ec",
+      "name": "line_profiler",
+      "sha256": "6a7e45deec29707972e58d0f500514b3d3a858cb93c3d7750969ea9fe53b3447",
+      "size": 65359,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642087213678,
+      "version": "3.3.1"
+    },
+    "line_profiler-3.3.1-py38h59a28a9_0.conda": {
+      "build": "py38h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "ipython >=0.13",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "BSD",
+      "md5": "fc9d9cb4229f7b96b24171daf195e923",
+      "name": "line_profiler",
+      "sha256": "e5a173cd795772a8af084607bba2c85358c76328742b179267d2f90dcedbdaf7",
+      "size": 67802,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642087268891,
+      "version": "3.3.1"
+    },
+    "line_profiler-3.3.1-py39h59a28a9_0.conda": {
+      "build": "py39h59a28a9_0",
+      "build_number": 0,
+      "depends": [
+        "ipython >=0.13",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "BSD",
+      "md5": "c170c95bf5ef9ca8b31c02f7eb2f0b57",
+      "name": "line_profiler",
+      "sha256": "425800bbbcfc0825a914b3cbcf66dbbd51a67b06ad75e9977e76f922ab5c97e3",
+      "size": 67681,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642087243265,
+      "version": "3.3.1"
     },
     "lit-11.1.0-pyhd3eb1b0_0.conda": {
       "build": "pyhd3eb1b0_0",

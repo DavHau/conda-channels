@@ -57043,7 +57043,7 @@
       "build_number": 0,
       "name": "intel-aikit-modin",
       "has_prefix": false,
-      "md5": "337cd23232ce6ebf06010f6d1d5ddccb",
+      "md5": "4c11559c0f80e81a4827d7697a24d8d4",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
@@ -57060,17 +57060,17 @@
         "scikit-learn >=0.22",
         "sqlite >=3.36.0",
         "threadpoolctl",
-        "xgboost >=1.4.2"
+        "xgboost 1.4.2.*"
       ],
       "version": "2021.4.1",
       "build": "py37_0",
-      "timestamp": 1639063504739,
+      "timestamp": 1642069870140,
       "binstar": {
         "package_id": "5f2879f878705809fc1ed752",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 7208,
+      "size": 6880,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
