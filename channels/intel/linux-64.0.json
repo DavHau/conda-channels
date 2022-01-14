@@ -15106,6 +15106,35 @@
       "target-triplet": "x86_64-any-linux",
       "build": "intel_3"
     },
+    "oap-1.3.0.dataproc20-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": false,
+      "md5": "8ab62eba5af044abcc9cc553140f2eef",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.3.0.dataproc20",
+      "build": "3",
+      "timestamp": 1642042492468,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 471748475,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "dal-static-2021.2.0-intel_358.tar.bz2": {
       "build_number": 358,
       "name": "dal-static",
@@ -88004,6 +88033,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "oap-1.3.0-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": false,
+      "md5": "ad2744266e68a52183d4031856e757c9",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.3.0",
+      "build": "3",
+      "timestamp": 1642039214467,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 443243549,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "urllib3-1.22-py36_intel_0.tar.bz2": {
       "features": "intel",
       "depends": [
@@ -92075,6 +92133,35 @@
       },
       "md5": "3c2934d4a02c41b003f2250c452bf5a8",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "oap-1.3.0.emr630-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": false,
+      "md5": "35b4b01b7a8f5a77e8bfc30542333083",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.3.0.emr630",
+      "build": "3",
+      "timestamp": 1642044584740,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 443536051,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "sdc-0.39.0-py37h65e6efb_0.tar.bz2": {

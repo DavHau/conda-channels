@@ -27192,6 +27192,23 @@
       "timestamp": 1620662811345,
       "version": "2.1.10"
     },
+    "libevent-2.1.12-ha9ffb65_0.tar.bz2": {
+      "build": "ha9ffb65_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1m,<1.1.2a"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9811f0414810a2f49a604f357f819b47",
+      "name": "libevent",
+      "sha256": "f9196a1862e58e0fd76369355ce39f052feb2ba5de883f2bd7d23e89afc6e9ef",
+      "size": 550954,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642102504090,
+      "version": "2.1.12"
+    },
     "libffi-3.3-h7c1a80f_2.tar.bz2": {
       "build": "h7c1a80f_2",
       "build_number": 2,
@@ -85659,6 +85676,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620662811345,
       "version": "2.1.10"
+    },
+    "libevent-2.1.12-ha9ffb65_0.conda": {
+      "build": "ha9ffb65_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "openssl >=1.1.1m,<1.1.2a"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "296b4b6978ba1921e8586b683e8432bb",
+      "name": "libevent",
+      "sha256": "b1001c9cc36ea83c5ac54adabd4aa43850b72cc9a2abb75457accc253fed6270",
+      "size": 437739,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642102504090,
+      "version": "2.1.12"
     },
     "libffi-3.3-h7c1a80f_2.conda": {
       "build": "h7c1a80f_2",
