@@ -17608,6 +17608,22 @@
       "timestamp": 1621528630062,
       "version": "0.33.1"
     },
+    "dos2unix-7.4.2-hd43f75c_0.tar.bz2": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "4a19b2e112edee8abaab33b013157b41",
+      "name": "dos2unix",
+      "sha256": "4a24123b5555f03c64aaba4cbec258ea385569bf7ed49ef151329cc3f930034b",
+      "size": 330259,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642592488151,
+      "version": "7.4.2"
+    },
     "double-conversion-3.1.5-h7c1a80f_1.tar.bz2": {
       "build": "h7c1a80f_1",
       "build_number": 1,
@@ -76212,6 +76228,22 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621528630062,
       "version": "0.33.1"
+    },
+    "dos2unix-7.4.2-hd43f75c_0.conda": {
+      "build": "hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0"
+      ],
+      "license": "BSD-2-Clause",
+      "license_family": "BSD",
+      "md5": "c1665ff39353fa1b6ad42a16dea2468f",
+      "name": "dos2unix",
+      "sha256": "7b1ff2174b5aec76cd530e83d4f79cf0c93216fd63f1bd9467f8276a42c3bf3a",
+      "size": 270353,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642592488151,
+      "version": "7.4.2"
     },
     "double-conversion-3.1.5-h7c1a80f_1.conda": {
       "build": "h7c1a80f_1",
