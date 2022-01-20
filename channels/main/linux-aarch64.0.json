@@ -43026,6 +43026,60 @@
       "timestamp": 1624486132504,
       "version": "2.1.5"
     },
+    "pymssql-2.2.3-py37h2f4d8fa_0.tar.bz2": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "freetds >=1.3.3,<2.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "LGPL",
+      "license_family": "LGPL",
+      "md5": "0ea14ba2645590a0088558fbb61daac1",
+      "name": "pymssql",
+      "sha256": "4a2c8d54355a8343ba06375ebc8cbf2b19cbf237ed8a6209728810405e1d9ea6",
+      "size": 239188,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642624573874,
+      "version": "2.2.3"
+    },
+    "pymssql-2.2.3-py38h2f4d8fa_0.tar.bz2": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "freetds >=1.3.3,<2.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "LGPL",
+      "license_family": "LGPL",
+      "md5": "810268bbd38e5322fd108e35914d2da7",
+      "name": "pymssql",
+      "sha256": "6e4a3cb4fce64f08e2b36298898d01d08ba357fa992efbea6184543b5f6191b7",
+      "size": 248325,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642624498646,
+      "version": "2.2.3"
+    },
+    "pymssql-2.2.3-py39h2f4d8fa_0.tar.bz2": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "freetds >=1.3.3,<2.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "LGPL",
+      "license_family": "LGPL",
+      "md5": "4f8e8731381070c4fd3935a0e3daeb80",
+      "name": "pymssql",
+      "sha256": "650001859d7729bc1a3815bce64fbe11316a87e560facdd4bdf9e43af49e72e4",
+      "size": 245101,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642624537241,
+      "version": "2.2.3"
+    },
     "pymysql-1.0.2-py37hd43f75c_1.tar.bz2": {
       "build": "py37hd43f75c_1",
       "build_number": 1,
@@ -49093,6 +49147,29 @@
       "timestamp": 1641979028680,
       "version": "1.0.2"
     },
+    "scikit-learn-1.0.2-py37h839d321_1.tar.bz2": {
+      "build": "py37h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "ec0620eadbb0444727f69f2a146309f7",
+      "name": "scikit-learn",
+      "sha256": "3771b45fb1be1a0e2733b06a41d2d6b97385fce23833638d7f6ba53a5a469165",
+      "size": 7749605,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642622719024,
+      "version": "1.0.2"
+    },
     "scikit-learn-1.0.2-py38h839d321_0.tar.bz2": {
       "build": "py38h839d321_0",
       "build_number": 0,
@@ -49116,6 +49193,29 @@
       "timestamp": 1641979910198,
       "version": "1.0.2"
     },
+    "scikit-learn-1.0.2-py38h839d321_1.tar.bz2": {
+      "build": "py38h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "9dd02e5e0731224cce02eb24aabfcb0d",
+      "name": "scikit-learn",
+      "sha256": "76ef353c6b67f30bca6251f3cdf26032a2a5cb7d21bce07af2cd17b1cc5bcc52",
+      "size": 7789874,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642621774046,
+      "version": "1.0.2"
+    },
     "scikit-learn-1.0.2-py39h839d321_0.tar.bz2": {
       "build": "py39h839d321_0",
       "build_number": 0,
@@ -49137,6 +49237,29 @@
       "size": 7737782,
       "subdir": "linux-aarch64",
       "timestamp": 1641978166400,
+      "version": "1.0.2"
+    },
+    "scikit-learn-1.0.2-py39h839d321_1.tar.bz2": {
+      "build": "py39h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "b1647722d92fd9cc03b3e71fb5fba384",
+      "name": "scikit-learn",
+      "sha256": "39d764e0413d5290dff2874de9ed211aa1d88c59b6ecab4160c3dc375b4d5fca",
+      "size": 7748061,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642623590963,
       "version": "1.0.2"
     },
     "scipy-1.6.1-py37h0c56726_0.tar.bz2": {
@@ -101647,6 +101770,60 @@
       "timestamp": 1624486132504,
       "version": "2.1.5"
     },
+    "pymssql-2.2.3-py37h2f4d8fa_0.conda": {
+      "build": "py37h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "freetds >=1.3.3,<2.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "LGPL",
+      "license_family": "LGPL",
+      "md5": "e56461b6eb0ad1c69bdbb3fca13002e5",
+      "name": "pymssql",
+      "sha256": "447bf608f6e825ba7e9cb563dd4fa28d22f3da1658c0cafc231081c79634ffe7",
+      "size": 219344,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642624573874,
+      "version": "2.2.3"
+    },
+    "pymssql-2.2.3-py38h2f4d8fa_0.conda": {
+      "build": "py38h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "freetds >=1.3.3,<2.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "LGPL",
+      "license_family": "LGPL",
+      "md5": "8a4ea55878bfe48e2e7268eac432f362",
+      "name": "pymssql",
+      "sha256": "8bed6ad6d7d5bc228edcf4a123c589db32f35a9798e2cb5d44fbd0dc35780200",
+      "size": 228122,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642624498646,
+      "version": "2.2.3"
+    },
+    "pymssql-2.2.3-py39h2f4d8fa_0.conda": {
+      "build": "py39h2f4d8fa_0",
+      "build_number": 0,
+      "depends": [
+        "freetds >=1.3.3,<2.0a0",
+        "libgcc-ng >=10.2.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "LGPL",
+      "license_family": "LGPL",
+      "md5": "2b3e6c6d2c3eeca0ad8352eb60085a3c",
+      "name": "pymssql",
+      "sha256": "65716d7238705d289bddaeb4226b6544dc2d6bcd48be0dcffe6e4bbd0a9267ce",
+      "size": 224645,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642624537241,
+      "version": "2.2.3"
+    },
     "pymysql-1.0.2-py37hd43f75c_1.conda": {
       "build": "py37hd43f75c_1",
       "build_number": 1,
@@ -107552,6 +107729,29 @@
       "timestamp": 1641979028680,
       "version": "1.0.2"
     },
+    "scikit-learn-1.0.2-py37h839d321_1.conda": {
+      "build": "py37h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "938699e50ef68ef61e550d78998ff14f",
+      "name": "scikit-learn",
+      "sha256": "fa817d1d7cba846182492ec405db8b3ceddb4f9a8a3d3d1f3249f28ef3d8e79e",
+      "size": 5652756,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642622719024,
+      "version": "1.0.2"
+    },
     "scikit-learn-1.0.2-py38h839d321_0.conda": {
       "build": "py38h839d321_0",
       "build_number": 0,
@@ -107575,6 +107775,29 @@
       "timestamp": 1641979910198,
       "version": "1.0.2"
     },
+    "scikit-learn-1.0.2-py38h839d321_1.conda": {
+      "build": "py38h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "f86ffa1e6a38e0dfb3d22230b0301cb3",
+      "name": "scikit-learn",
+      "sha256": "82ba0b843a76f16d55d1c40b9a6a0c2fa9d12ca392113a486755367b4f938547",
+      "size": 5764315,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642621774046,
+      "version": "1.0.2"
+    },
     "scikit-learn-1.0.2-py39h839d321_0.conda": {
       "build": "py39h839d321_0",
       "build_number": 0,
@@ -107596,6 +107819,29 @@
       "size": 5759212,
       "subdir": "linux-aarch64",
       "timestamp": 1641978166400,
+      "version": "1.0.2"
+    },
+    "scikit-learn-1.0.2-py39h839d321_1.conda": {
+      "build": "py39h839d321_1",
+      "build_number": 1,
+      "depends": [
+        "_openmp_mutex",
+        "joblib >=0.11",
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "scipy >=1.1.0",
+        "threadpoolctl >=2.0.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "460ef59ee204a07bfb241d1890a277a8",
+      "name": "scikit-learn",
+      "sha256": "7a5e0b30a5e1206a873298ddb55f2268719df85e67bcb1aea758acb04782908f",
+      "size": 5761090,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642623590963,
       "version": "1.0.2"
     },
     "scipy-1.6.1-py37h0c56726_0.conda": {
