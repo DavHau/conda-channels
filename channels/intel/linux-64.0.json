@@ -21745,7 +21745,7 @@
       "subdir": "linux-64"
     },
     "modin-core-0.11.3-py38_0.tar.bz2": {
-      "timestamp": 1639669087602,
+      "timestamp": 1643022332760,
       "depends": [
         "numpy >=1.16.5",
         "packaging",
@@ -21755,7 +21755,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 984699,
+      "size": 1087425,
       "build_number": 0,
       "name": "modin-core",
       "license": "Apache-2.0",
@@ -21770,7 +21770,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "99eba6ecd48dd86ef2531ef5b3c3fbe3",
+      "md5": "17139039ffd153700870a675b08034b1",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -23075,7 +23075,7 @@
       "subdir": "linux-64"
     },
     "modin-0.11.3-py39_0.tar.bz2": {
-      "timestamp": 1639675668696,
+      "timestamp": 1643018316632,
       "depends": [
         "modin-dask 0.11.3 py39_0",
         "python >=3.9,<3.10.0a0"
@@ -23083,7 +23083,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11856,
+      "size": 100777,
       "build_number": 0,
       "name": "modin",
       "license": "Apache-2.0",
@@ -23098,7 +23098,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "65cde21b2e13639e4114f20f9fa3a494",
+      "md5": "7cd592f264d9c2a3b1c28162a4018ec5",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -23440,7 +23440,7 @@
       "subdir": "linux-64"
     },
     "modin-core-0.11.3-py39_0.tar.bz2": {
-      "timestamp": 1639675530874,
+      "timestamp": 1643018212585,
       "depends": [
         "numpy >=1.16.5",
         "packaging",
@@ -23450,7 +23450,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 985514,
+      "size": 1096369,
       "build_number": 0,
       "name": "modin-core",
       "license": "Apache-2.0",
@@ -23465,7 +23465,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "799ae219a3d582c9ea4b251659f34513",
+      "md5": "aabb5812dcc9ecea7cf1ecd62427211a",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -26723,7 +26723,7 @@
       "subdir": "linux-64"
     },
     "modin-omnisci-0.11.3-py38_0.tar.bz2": {
-      "timestamp": 1639669119901,
+      "timestamp": 1643022371943,
       "depends": [
         "modin-core 0.11.3 py38_0",
         "pyarrow >=3.0",
@@ -26733,7 +26733,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11949,
+      "size": 100827,
       "build_number": 0,
       "name": "modin-omnisci",
       "license": "Apache-2.0",
@@ -26748,7 +26748,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "7a47e4d8d2e1565a3c97393c760b7ffb",
+      "md5": "bda6dc4dd404d81dd3dc712215c6a107",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -29347,7 +29347,7 @@
       "subdir": "linux-64"
     },
     "modin-0.11.3-py38_0.tar.bz2": {
-      "timestamp": 1639669146549,
+      "timestamp": 1643022404884,
       "depends": [
         "modin-dask 0.11.3 py38_0",
         "python >=3.8,<3.9.0a0"
@@ -29355,7 +29355,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11842,
+      "size": 100797,
       "build_number": 0,
       "name": "modin",
       "license": "Apache-2.0",
@@ -29370,7 +29370,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "075fc805685174614bcd0ca69d63bda6",
+      "md5": "d31b851c74d90f712e684975ed922422",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -51027,7 +51027,7 @@
       "subdir": "linux-64"
     },
     "modin-all-0.11.3-py37_0.tar.bz2": {
-      "timestamp": 1639668509926,
+      "timestamp": 1643020965283,
       "depends": [
         "modin-core 0.11.3 py37_0",
         "modin-dask 0.11.3 py37_0",
@@ -51038,7 +51038,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11899,
+      "size": 100746,
       "build_number": 0,
       "name": "modin-all",
       "license": "Apache-2.0",
@@ -51053,7 +51053,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "0f54b90e8c7bfdade57b78e1b473f887",
+      "md5": "e17e881d78bf2dc9c7220d46905b93e7",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -52554,7 +52554,7 @@
       "subdir": "linux-64"
     },
     "modin-ray-0.11.3-py37_0.tar.bz2": {
-      "timestamp": 1639668487282,
+      "timestamp": 1643020928908,
       "depends": [
         "aioredis <2",
         "modin-core 0.11.3 py37_0",
@@ -52565,7 +52565,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11929,
+      "size": 100704,
       "build_number": 0,
       "name": "modin-ray",
       "license": "Apache-2.0",
@@ -52580,7 +52580,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "b80dcc589ad3c2e379ef0dd832b5e9ee",
+      "md5": "2a5490c3e4257476dfc873fa8e2685ed",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -53486,7 +53486,7 @@
       "subdir": "linux-64"
     },
     "modin-dask-0.11.3-py38_0.tar.bz2": {
-      "timestamp": 1639669106860,
+      "timestamp": 1643022355261,
       "depends": [
         "dask >=2.22.0",
         "distributed >=2.22.0",
@@ -53496,7 +53496,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11915,
+      "size": 100750,
       "build_number": 0,
       "name": "modin-dask",
       "license": "Apache-2.0",
@@ -53511,7 +53511,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "e96f73db1969633e2de4fc0b4a1315f8",
+      "md5": "61478d0ee6f9bc796fb1c28be99bc665",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -53570,7 +53570,7 @@
       "subdir": "linux-64"
     },
     "modin-all-0.11.3-py38_0.tar.bz2": {
-      "timestamp": 1639669157994,
+      "timestamp": 1643022421451,
       "depends": [
         "modin-core 0.11.3 py38_0",
         "modin-dask 0.11.3 py38_0",
@@ -53581,7 +53581,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11849,
+      "size": 100772,
       "build_number": 0,
       "name": "modin-all",
       "license": "Apache-2.0",
@@ -53596,7 +53596,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "216f03f6dbd1f329c8cf73184ae5dfec",
+      "md5": "1e6d8c9debb9371f4417059aaf38953f",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -54321,7 +54321,7 @@
       "subdir": "linux-64"
     },
     "modin-ray-0.11.3-py39_0.tar.bz2": {
-      "timestamp": 1639675636907,
+      "timestamp": 1643018294068,
       "depends": [
         "aioredis <2",
         "modin-core 0.11.3 py39_0",
@@ -54332,7 +54332,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11927,
+      "size": 100833,
       "build_number": 0,
       "name": "modin-ray",
       "license": "Apache-2.0",
@@ -54347,7 +54347,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "a09e84a3238cd053ee76a0691d14a455",
+      "md5": "ac68692333b9cf9237a380bee56f17ff",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -56174,7 +56174,7 @@
       "build": "py27_intel_4"
     },
     "modin-omnisci-0.11.3-py39_0.tar.bz2": {
-      "timestamp": 1639675604924,
+      "timestamp": 1643018271148,
       "depends": [
         "modin-core 0.11.3 py39_0",
         "pyarrow >=3.0",
@@ -56184,7 +56184,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11932,
+      "size": 100793,
       "build_number": 0,
       "name": "modin-omnisci",
       "license": "Apache-2.0",
@@ -56199,7 +56199,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "5b227589eb9175463f787ec29ad877e4",
+      "md5": "ed4851692622820e01f2e699620d814a",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -57069,13 +57069,7 @@
       "subdir": "linux-64"
     },
     "intel-aikit-modin-2021.4.1-py37_0.tar.bz2": {
-      "build_number": 0,
-      "name": "intel-aikit-modin",
-      "has_prefix": false,
-      "md5": "4c11559c0f80e81a4827d7697a24d8d4",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+      "timestamp": 1643027740011,
       "depends": [
         "_openmp_mutex >=4.5",
         "daal4py >=2021.4",
@@ -57091,18 +57085,26 @@
         "threadpoolctl",
         "xgboost 1.4.2.*"
       ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 190109,
+      "build_number": 0,
+      "name": "intel-aikit-modin",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
       "version": "2021.4.1",
       "build": "py37_0",
-      "timestamp": 1642069870140,
       "binstar": {
         "package_id": "5f2879f878705809fc1ed752",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 6880,
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
+      "md5": "f96365e72d4013a2afd19e8b0823d4e2",
+      "requires": [],
       "subdir": "linux-64"
     },
     "brotli-1.0.9-h79a9dd4_2.tar.bz2": {
@@ -75516,7 +75518,7 @@
       "subdir": "linux-64"
     },
     "modin-omnisci-0.11.3-py37_0.tar.bz2": {
-      "timestamp": 1639668475827,
+      "timestamp": 1643020910525,
       "depends": [
         "modin-core 0.11.3 py37_0",
         "pyarrow >=3.0",
@@ -75526,7 +75528,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11939,
+      "size": 100811,
       "build_number": 0,
       "name": "modin-omnisci",
       "license": "Apache-2.0",
@@ -75541,7 +75543,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "4dc1f72de24e6472673d5cd6355f196b",
+      "md5": "367e6cde340b4c3b56bd38dc1056cae7",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -78888,7 +78890,7 @@
       "subdir": "linux-64"
     },
     "modin-dask-0.11.3-py39_0.tar.bz2": {
-      "timestamp": 1639675573235,
+      "timestamp": 1643018247662,
       "depends": [
         "dask >=2.22.0",
         "distributed >=2.22.0",
@@ -78898,7 +78900,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11881,
+      "size": 100790,
       "build_number": 0,
       "name": "modin-dask",
       "license": "Apache-2.0",
@@ -78913,7 +78915,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "6f4be10b28f4ab1443d550294d3ccc40",
+      "md5": "55d8feaee4020d7ba241e5a1faa5cc0e",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -83199,7 +83201,7 @@
       "subdir": "linux-64"
     },
     "modin-all-0.11.3-py39_0.tar.bz2": {
-      "timestamp": 1639675700856,
+      "timestamp": 1643018340373,
       "depends": [
         "modin-core 0.11.3 py39_0",
         "modin-dask 0.11.3 py39_0",
@@ -83210,7 +83212,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11853,
+      "size": 100710,
       "build_number": 0,
       "name": "modin-all",
       "license": "Apache-2.0",
@@ -83225,7 +83227,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "c5c975028f86a48d0b1c8673a1a9ba24",
+      "md5": "c4e821bc6898caa7fd2269316cd6e280",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -84603,7 +84605,7 @@
       "subdir": "linux-64"
     },
     "modin-core-0.11.3-py37_0.tar.bz2": {
-      "timestamp": 1639668447308,
+      "timestamp": 1643020867400,
       "depends": [
         "numpy >=1.16.5",
         "packaging",
@@ -84613,7 +84615,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 980720,
+      "size": 1080779,
       "build_number": 0,
       "name": "modin-core",
       "license": "Apache-2.0",
@@ -84628,7 +84630,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "bd4b6d6eacd77a1d1676ec3dce8b1cb6",
+      "md5": "f8a2982318d860161fef8a00809707af",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -85981,7 +85983,7 @@
       "subdir": "linux-64"
     },
     "modin-dask-0.11.3-py37_0.tar.bz2": {
-      "timestamp": 1639668464309,
+      "timestamp": 1643020892203,
       "depends": [
         "dask >=2.22.0",
         "distributed >=2.22.0",
@@ -85991,7 +85993,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11933,
+      "size": 100795,
       "build_number": 0,
       "name": "modin-dask",
       "license": "Apache-2.0",
@@ -86006,7 +86008,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "dd7a66c375e438428d34a5ca4d58f34c",
+      "md5": "00b4edbcdea96c02a62878ff7116d7ee",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -90504,7 +90506,7 @@
       "subdir": "linux-64"
     },
     "modin-0.11.3-py37_0.tar.bz2": {
-      "timestamp": 1639668498416,
+      "timestamp": 1643020946938,
       "depends": [
         "modin-dask 0.11.3 py37_0",
         "python >=3.7,<3.8.0a0"
@@ -90512,7 +90514,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11854,
+      "size": 100765,
       "build_number": 0,
       "name": "modin",
       "license": "Apache-2.0",
@@ -90527,7 +90529,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "7e9a9facb21f7510b03929bafc748d67",
+      "md5": "32c45bdb4695b5236f60e37bcb0969c7",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -95603,7 +95605,7 @@
       "subdir": "linux-64"
     },
     "modin-ray-0.11.3-py38_0.tar.bz2": {
-      "timestamp": 1639669133315,
+      "timestamp": 1643022388517,
       "depends": [
         "aioredis <2",
         "modin-core 0.11.3 py38_0",
@@ -95614,7 +95616,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11943,
+      "size": 100708,
       "build_number": 0,
       "name": "modin-ray",
       "license": "Apache-2.0",
@@ -95629,7 +95631,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "3d32158106358887d1f429c29b434f18",
+      "md5": "95bedcf374fbd0b7f82562a177c500b9",
       "requires": [],
       "subdir": "linux-64"
     },
