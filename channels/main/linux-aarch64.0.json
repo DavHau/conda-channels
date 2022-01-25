@@ -25517,6 +25517,57 @@
       "timestamp": 1635866503987,
       "version": "0.18.0"
     },
+    "jedi-0.18.1-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "parso >=0.8.0,<0.9.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "482edbd8610cf09e3943b82766afb94a",
+      "name": "jedi",
+      "sha256": "f17894633eb24853c9b15d62d8ea338115bfd1b98072dca1e6f803a3ac636040",
+      "size": 1019481,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642692262801,
+      "version": "0.18.1"
+    },
+    "jedi-0.18.1-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "parso >=0.8.0,<0.9.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "abcd22f891ec5d333300a87ca239d81a",
+      "name": "jedi",
+      "sha256": "b28b914bfecbcaac37792f34d05e9b077b270b0286c8aa612b89d2afeb5c8cf8",
+      "size": 1021168,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642692237089,
+      "version": "0.18.1"
+    },
+    "jedi-0.18.1-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "parso >=0.8.0,<0.9.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7f9e147227d4a76572221ee9081d04e3",
+      "name": "jedi",
+      "sha256": "fabfab9fd7338ba8a12b8e4da60f98e867bb627a4c35929e400be1ad674dd752",
+      "size": 1021603,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642692211441,
+      "version": "0.18.1"
+    },
     "jpeg-9b-h1f385fa_2.tar.bz2": {
       "build": "h1f385fa_2",
       "build_number": 2,
@@ -84574,6 +84625,57 @@
       "subdir": "linux-aarch64",
       "timestamp": 1635866503987,
       "version": "0.18.0"
+    },
+    "jedi-0.18.1-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "parso >=0.8.0,<0.9.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3472dd51e4bb6d24122e50ad88738a6b",
+      "name": "jedi",
+      "sha256": "fc815b1d878a8c1c8d0926c0316092b4495b55ee95eb912f4a25bc7df761ff6b",
+      "size": 995437,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642692262801,
+      "version": "0.18.1"
+    },
+    "jedi-0.18.1-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "parso >=0.8.0,<0.9.0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "410430be3c2ee7c7efe16667977e33e7",
+      "name": "jedi",
+      "sha256": "4f27e4cff7d6b4e9d22186fcce9c479f429a595f99f586fd4585d53e3049e0db",
+      "size": 998515,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642692237089,
+      "version": "0.18.1"
+    },
+    "jedi-0.18.1-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "parso >=0.8.0,<0.9.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f7313920631a8282a1cb8e2c3452b065",
+      "name": "jedi",
+      "sha256": "2a3118e245994d369106d50dc9858c4384404ad7b495ce6aac3e9f6c4a4bad2f",
+      "size": 998077,
+      "subdir": "linux-aarch64",
+      "timestamp": 1642692211441,
+      "version": "0.18.1"
     },
     "jpeg-9b-h1f385fa_2.conda": {
       "build": "h1f385fa_2",
