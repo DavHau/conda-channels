@@ -33771,6 +33771,75 @@
       "timestamp": 1621632656570,
       "version": "1.5.6"
     },
+    "netcdf4-1.5.7-py37h6050212_1.tar.bz2": {
+      "build": "py37h6050212_1",
+      "build_number": 1,
+      "depends": [
+        "cftime",
+        "hdf5",
+        "libgcc-ng >=10.2.0",
+        "libnetcdf >=4.8,<4.9.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "09e600c530a16ed9e38cb8a717a5c3a4",
+      "name": "netcdf4",
+      "sha256": "d4be6c8873ce13418322a953990c441b793496f1bcafad39a0405cc526f8dc24",
+      "size": 453880,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643311987673,
+      "version": "1.5.7"
+    },
+    "netcdf4-1.5.7-py38h6050212_1.tar.bz2": {
+      "build": "py38h6050212_1",
+      "build_number": 1,
+      "depends": [
+        "cftime",
+        "hdf5",
+        "libgcc-ng >=10.2.0",
+        "libnetcdf >=4.8,<4.9.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9dad74f602735d81174ba3cecd885d1c",
+      "name": "netcdf4",
+      "sha256": "75b380b9291faa3a0a3708c5ff71c224e5511b1f8f7a69e73019fa767f9dfdde",
+      "size": 483620,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643312050033,
+      "version": "1.5.7"
+    },
+    "netcdf4-1.5.7-py39h6050212_1.tar.bz2": {
+      "build": "py39h6050212_1",
+      "build_number": 1,
+      "depends": [
+        "cftime",
+        "hdf5",
+        "libgcc-ng >=10.2.0",
+        "libnetcdf >=4.8,<4.9.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c4544073273733b1bba9389bedcb626b",
+      "name": "netcdf4",
+      "sha256": "7fb7270696b363cd493fa13e121835cb9359afe2bfd4587f24bfecd48b833a7c",
+      "size": 463456,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643311922514,
+      "version": "1.5.7"
+    },
     "nettle-3.7.2-h9b4fd24_1.tar.bz2": {
       "build": "h9b4fd24_1",
       "build_number": 1,
@@ -92803,6 +92872,75 @@
       "subdir": "linux-aarch64",
       "timestamp": 1621632656570,
       "version": "1.5.6"
+    },
+    "netcdf4-1.5.7-py37h6050212_1.conda": {
+      "build": "py37h6050212_1",
+      "build_number": 1,
+      "depends": [
+        "cftime",
+        "hdf5",
+        "libgcc-ng >=10.2.0",
+        "libnetcdf >=4.8,<4.9.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d5317ac6a6a160c37219f48c417fb155",
+      "name": "netcdf4",
+      "sha256": "d1d7eee5044654dbd3a4bd547800e228b3ff3e22abc861dbcb6a8a6e49aa0880",
+      "size": 418182,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643311987673,
+      "version": "1.5.7"
+    },
+    "netcdf4-1.5.7-py38h6050212_1.conda": {
+      "build": "py38h6050212_1",
+      "build_number": 1,
+      "depends": [
+        "cftime",
+        "hdf5",
+        "libgcc-ng >=10.2.0",
+        "libnetcdf >=4.8,<4.9.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bfdf0f106156f7682360f4e3f4e0f4b5",
+      "name": "netcdf4",
+      "sha256": "a0c921398a5fe6b422fc67bbe57d51a9bc410770f68d6074eae3577d579b436b",
+      "size": 445002,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643312050033,
+      "version": "1.5.7"
+    },
+    "netcdf4-1.5.7-py39h6050212_1.conda": {
+      "build": "py39h6050212_1",
+      "build_number": 1,
+      "depends": [
+        "cftime",
+        "hdf5",
+        "libgcc-ng >=10.2.0",
+        "libnetcdf >=4.8,<4.9.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "setuptools"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "44c375b3592371b0fdd552688f6741fb",
+      "name": "netcdf4",
+      "sha256": "59b9731201b31b87b87698670cad9da2cad18f577fd5c55e7396f875997303c7",
+      "size": 428172,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643311922514,
+      "version": "1.5.7"
     },
     "nettle-3.7.2-h9b4fd24_1.conda": {
       "build": "h9b4fd24_1",
