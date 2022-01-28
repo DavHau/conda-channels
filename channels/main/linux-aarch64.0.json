@@ -20007,6 +20007,25 @@
       "timestamp": 1624653263157,
       "version": "3.0.2"
     },
+    "gdal-3.0.2-py37h7b42fa2_2.tar.bz2": {
+      "build": "py37h7b42fa2_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgdal 3.0.2 hebbe89e_2",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "md5": "2136832a4daa032565de2aa3a68744de",
+      "name": "gdal",
+      "sha256": "9b26f0ec96f39cf57048c191ced02baa8560836f7d75e2ddd52a11925a47f9ef",
+      "size": 1303778,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382431980,
+      "version": "3.0.2"
+    },
     "gdal-3.0.2-py38h7b42fa2_0.tar.bz2": {
       "build": "py38h7b42fa2_0",
       "build_number": 0,
@@ -20045,6 +20064,25 @@
       "timestamp": 1624653318308,
       "version": "3.0.2"
     },
+    "gdal-3.0.2-py38h7b42fa2_2.tar.bz2": {
+      "build": "py38h7b42fa2_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgdal 3.0.2 hebbe89e_2",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "md5": "d41ff258e4e7072ffda0ac5827f8e292",
+      "name": "gdal",
+      "sha256": "5fdecda46539320795288afa73d79379fa394a4a6780a792a361dd96ab7d8c0c",
+      "size": 1311605,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382489879,
+      "version": "3.0.2"
+    },
     "gdal-3.0.2-py39h7b42fa2_0.tar.bz2": {
       "build": "py39h7b42fa2_0",
       "build_number": 0,
@@ -20081,6 +20119,25 @@
       "size": 1489020,
       "subdir": "linux-aarch64",
       "timestamp": 1624653207688,
+      "version": "3.0.2"
+    },
+    "gdal-3.0.2-py39h7b42fa2_2.tar.bz2": {
+      "build": "py39h7b42fa2_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgdal 3.0.2 hebbe89e_2",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "md5": "f1771531448099a4d1ed0b328a1c6eca",
+      "name": "gdal",
+      "sha256": "d58d9c90514a94594bc32191b9cfd2b2e10e14a0ea8042d207056b93ee99dba8",
+      "size": 1311968,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382374058,
       "version": "3.0.2"
     },
     "gdk-pixbuf-2.38.2-h920789f_4.tar.bz2": {
@@ -27727,6 +27784,55 @@
       "size": 21187007,
       "subdir": "linux-aarch64",
       "timestamp": 1624653137137,
+      "version": "3.0.2"
+    },
+    "libgdal-3.0.2-hebbe89e_2.tar.bz2": {
+      "build": "hebbe89e_2",
+      "build_number": 2,
+      "depends": [
+        "cfitsio >=3.470,<3.471.0a0",
+        "expat >=2.3.0,<3.0a0",
+        "freexl >=1.0.6,<2.0a0",
+        "geos >=3.8.0,<3.8.1.0a0",
+        "geotiff >=1.7.0,<1.8.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "hdf4 >=4.2.13,<4.2.14.0a0",
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "icu >=68.1,<69.0a0",
+        "jpeg >=9d,<10a",
+        "json-c >=0.13.1,<0.14.0a0",
+        "kealib >=1.4.14,<1.5.0a0",
+        "libcurl >=7.80.0,<8.0a0",
+        "libdap4 >=3.19.1,<3.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "libkml >=1.3.0,<1.4.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libpq >=12.9,<13.0a0",
+        "libspatialite >=4.3.0a,<4.4.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libuuid >=1.0.3,<2.0a0",
+        "libwebp-base",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "pcre >=8.45,<9.0a0",
+        "poppler >=0.81.0,<1.0a0",
+        "proj >=6.2.1,<6.2.2.0a0",
+        "sqlite >=3.37.0,<4.0a0",
+        "tiledb >=2.2,<3.0a0",
+        "xerces-c >=3.2.3,<3.3.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "md5": "a81e473f487a1dced16cf6fab0d1b8de",
+      "name": "libgdal",
+      "sha256": "2d5da17ca2a0a41cc98f15bcfb53ed08f0bdeb05959671373264b27db3b242c9",
+      "size": 20945337,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382296965,
       "version": "3.0.2"
     },
     "libgfortran-ng-10.2.0-h9534d94_0.tar.bz2": {
@@ -79109,6 +79215,25 @@
       "timestamp": 1624653263157,
       "version": "3.0.2"
     },
+    "gdal-3.0.2-py37h7b42fa2_2.conda": {
+      "build": "py37h7b42fa2_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgdal 3.0.2 hebbe89e_2",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "md5": "df3aaf2518292741a9e8ad103edefdfb",
+      "name": "gdal",
+      "sha256": "08c90288592a6e49c36ba29485daa91cc91d26aa1f007525edde44b2038452ad",
+      "size": 1034621,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382431980,
+      "version": "3.0.2"
+    },
     "gdal-3.0.2-py38h7b42fa2_0.conda": {
       "build": "py38h7b42fa2_0",
       "build_number": 0,
@@ -79147,6 +79272,25 @@
       "timestamp": 1624653318308,
       "version": "3.0.2"
     },
+    "gdal-3.0.2-py38h7b42fa2_2.conda": {
+      "build": "py38h7b42fa2_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgdal 3.0.2 hebbe89e_2",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "md5": "7bc24f1d9768ea348c9bc5895febcea9",
+      "name": "gdal",
+      "sha256": "fb16cb2c1106695ea39e7eb9b85c6dce2e7ca91c098409e2c586159008c891e9",
+      "size": 1043070,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382489879,
+      "version": "3.0.2"
+    },
     "gdal-3.0.2-py39h7b42fa2_0.conda": {
       "build": "py39h7b42fa2_0",
       "build_number": 0,
@@ -79183,6 +79327,25 @@
       "size": 1049342,
       "subdir": "linux-aarch64",
       "timestamp": 1624653207688,
+      "version": "3.0.2"
+    },
+    "gdal-3.0.2-py39h7b42fa2_2.conda": {
+      "build": "py39h7b42fa2_2",
+      "build_number": 2,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgdal 3.0.2 hebbe89e_2",
+        "libstdcxx-ng >=10.2.0",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "md5": "84dbab05cc72f97c8bd0ac6ea3606445",
+      "name": "gdal",
+      "sha256": "a9a4e7f61a1b231806546ae5715bcf2216e9d114cf6fd3e909ee419630da8f4b",
+      "size": 1043711,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382374058,
       "version": "3.0.2"
     },
     "gdk-pixbuf-2.38.2-h920789f_4.conda": {
@@ -86829,6 +86992,55 @@
       "size": 13059068,
       "subdir": "linux-aarch64",
       "timestamp": 1624653137137,
+      "version": "3.0.2"
+    },
+    "libgdal-3.0.2-hebbe89e_2.conda": {
+      "build": "hebbe89e_2",
+      "build_number": 2,
+      "depends": [
+        "cfitsio >=3.470,<3.471.0a0",
+        "expat >=2.3.0,<3.0a0",
+        "freexl >=1.0.6,<2.0a0",
+        "geos >=3.8.0,<3.8.1.0a0",
+        "geotiff >=1.7.0,<1.8.0a0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "hdf4 >=4.2.13,<4.2.14.0a0",
+        "hdf5 >=1.10.6,<1.10.7.0a0",
+        "icu >=68.1,<69.0a0",
+        "jpeg >=9d,<10a",
+        "json-c >=0.13.1,<0.14.0a0",
+        "kealib >=1.4.14,<1.5.0a0",
+        "libcurl >=7.80.0,<8.0a0",
+        "libdap4 >=3.19.1,<3.20.0a0",
+        "libgcc-ng >=10.2.0",
+        "libkml >=1.3.0,<1.4.0a0",
+        "libnetcdf >=4.8.1,<5.0a0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libpq >=12.9,<13.0a0",
+        "libspatialite >=4.3.0a,<4.4.0a0",
+        "libstdcxx-ng >=10.2.0",
+        "libtiff >=4.2.0,<5.0a0",
+        "libuuid >=1.0.3,<2.0a0",
+        "libwebp-base",
+        "libxml2 >=2.9.12,<2.10.0a0",
+        "openjpeg >=2.3.0,<3.0a0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "pcre >=8.45,<9.0a0",
+        "poppler >=0.81.0,<1.0a0",
+        "proj >=6.2.1,<6.2.2.0a0",
+        "sqlite >=3.37.0,<4.0a0",
+        "tiledb >=2.2,<3.0a0",
+        "xerces-c >=3.2.3,<3.3.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11,<1.3.0a0",
+        "zstd >=1.4.9,<1.5.0a0"
+      ],
+      "md5": "ecdf8f1a7bd3ed2d9de3c5fbb4e4d805",
+      "name": "libgdal",
+      "sha256": "4fd3646fcca796db07cfb3e958bca4713740935facbe06602b014913fb32aa7f",
+      "size": 13061809,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643382296965,
       "version": "3.0.2"
     },
     "libgfortran-ng-10.2.0-h9534d94_0.conda": {
