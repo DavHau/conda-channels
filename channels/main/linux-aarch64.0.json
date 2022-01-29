@@ -11853,6 +11853,56 @@
       "timestamp": 1620861313636,
       "version": "2.0.4"
     },
+    "catalogue-2.0.6-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "typing-extensions >=3.6.4",
+        "zipp >=0.5"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1c64fc7defec16a749f8d8b558ab8949",
+      "name": "catalogue",
+      "sha256": "980a4228bada7822b2235c8c627011c42b6c40234db760ec9ff8a0fb9a8bda53",
+      "size": 31139,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643444372465,
+      "version": "2.0.6"
+    },
+    "catalogue-2.0.6-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b57b33f38771ad7b37b354b7c1503b8e",
+      "name": "catalogue",
+      "sha256": "e85931d8c3b7711176d29511a945bfe64a682cd433f215bba4d09bfa09975f04",
+      "size": 31318,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643444386617,
+      "version": "2.0.6"
+    },
+    "catalogue-2.0.6-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "fc78f21d854ed4dc0e4c11a23bcc79ab",
+      "name": "catalogue",
+      "sha256": "02af298fee1dd70f4db73af28aee8f774a5b40915e3c4ab1292e0997fb5309f7",
+      "size": 31263,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643444404694,
+      "version": "2.0.6"
+    },
     "ccache-3.7.9-h8ea0f78_0.tar.bz2": {
       "build": "h8ea0f78_0",
       "build_number": 0,
@@ -71060,6 +71110,56 @@
       "subdir": "linux-aarch64",
       "timestamp": 1620861313636,
       "version": "2.0.4"
+    },
+    "catalogue-2.0.6-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.7,<3.8.0a0",
+        "typing-extensions >=3.6.4",
+        "zipp >=0.5"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "144f7aa684485243d7c69822b228afb3",
+      "name": "catalogue",
+      "sha256": "f532f78f734e82c9b6d138b764fde07b3427691b4b19f8fd8273483807470256",
+      "size": 32248,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643444372465,
+      "version": "2.0.6"
+    },
+    "catalogue-2.0.6-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d44d47acce70632f0d6c1a0fafebed50",
+      "name": "catalogue",
+      "sha256": "58324e22afc5f9af3f9650ce66bc4fc7ce125360378773b92c4c8e2c658b4faa",
+      "size": 32289,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643444386617,
+      "version": "2.0.6"
+    },
+    "catalogue-2.0.6-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a933c98c2628cc0d14cb9421194fe5f5",
+      "name": "catalogue",
+      "sha256": "a455472397cca54f0de0ea56adcde3079867c52f513249f3c62b42562ee0b7ca",
+      "size": 32277,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643444404694,
+      "version": "2.0.6"
     },
     "ccache-3.7.9-h8ea0f78_0.conda": {
       "build": "h8ea0f78_0",
