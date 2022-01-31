@@ -30308,6 +30308,54 @@
       "timestamp": 1621528172735,
       "version": "1.8.1"
     },
+    "loguru-0.5.3-py37hd43f75c_3.tar.bz2": {
+      "build": "py37hd43f75c_3",
+      "build_number": 3,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e87c76f6f3cf4d290f0418b26d5efe09",
+      "name": "loguru",
+      "sha256": "11fdcb6b4f78af8f86bf66c4c2ebbbf0de71b38ed36304b8cc76a9470c0e7b64",
+      "size": 86779,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643635383945,
+      "version": "0.5.3"
+    },
+    "loguru-0.5.3-py38hd43f75c_3.tar.bz2": {
+      "build": "py38hd43f75c_3",
+      "build_number": 3,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "065028091a67b02e70f2f3da51798bb4",
+      "name": "loguru",
+      "sha256": "a68a90094b839180fdbaacf3d58969e1fe94d375e8cef8d474a7570f02675d93",
+      "size": 87008,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643635369442,
+      "version": "0.5.3"
+    },
+    "loguru-0.5.3-py39hd43f75c_3.tar.bz2": {
+      "build": "py39hd43f75c_3",
+      "build_number": 3,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "199d687c16784e02d1c17d29329481f8",
+      "name": "loguru",
+      "sha256": "ac11608aaa087e6e9f94671d547e5852ca0063ce97b06fcacbea949287d46ecf",
+      "size": 87251,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643635355382,
+      "version": "0.5.3"
+    },
     "luigi-3.0.3-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -34921,6 +34969,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1616096534506,
       "version": "4.28"
+    },
+    "nspr-4.33-h22f4aa5_0.tar.bz2": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "MPL-2.0",
+      "license_family": "OTHER",
+      "md5": "3b735fb491221055d10b95f4a59d0e29",
+      "name": "nspr",
+      "sha256": "57078f14c81c54f6445e35b7cc2e27c27cbc2587f396e9dd6e4bc2827d4d27f5",
+      "size": 247240,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643617328843,
+      "version": "4.33"
     },
     "nss-3.56-hebea02f_0.tar.bz2": {
       "build": "hebea02f_0",
@@ -42480,6 +42545,26 @@
       "timestamp": 1621559308553,
       "version": "0.7.6"
     },
+    "pygpu-0.7.6-py37hcc56278_1.tar.bz2": {
+      "build": "py37hcc56278_1",
+      "build_number": 1,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgpuarray 0.7.6",
+        "mako >=0.7",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "license": "ISC",
+      "md5": "299ad37b97e85c9583c2e3bc0c44c234",
+      "name": "pygpu",
+      "sha256": "094c7bec5aeeff7cfe636c75a600eb5b57e3065e37cb14bd08181d383d7e9d70",
+      "size": 658257,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643631356445,
+      "version": "0.7.6"
+    },
     "pygpu-0.7.6-py38hcc56278_0.tar.bz2": {
       "build": "py38hcc56278_0",
       "build_number": 0,
@@ -42500,6 +42585,26 @@
       "timestamp": 1621559381681,
       "version": "0.7.6"
     },
+    "pygpu-0.7.6-py38hcc56278_1.tar.bz2": {
+      "build": "py38hcc56278_1",
+      "build_number": 1,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgpuarray 0.7.6",
+        "mako >=0.7",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "six"
+      ],
+      "license": "ISC",
+      "md5": "38508e6346a4573fd3228e4b515ec66e",
+      "name": "pygpu",
+      "sha256": "3f374fede117470f76e8a03419a6f63e01ff36724d987eeb140414e204c4dd0b",
+      "size": 662017,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643631275209,
+      "version": "0.7.6"
+    },
     "pygpu-0.7.6-py39hcc56278_0.tar.bz2": {
       "build": "py39hcc56278_0",
       "build_number": 0,
@@ -42518,6 +42623,26 @@
       "size": 656461,
       "subdir": "linux-aarch64",
       "timestamp": 1621559345128,
+      "version": "0.7.6"
+    },
+    "pygpu-0.7.6-py39hcc56278_1.tar.bz2": {
+      "build": "py39hcc56278_1",
+      "build_number": 1,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgpuarray 0.7.6",
+        "mako >=0.7",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "six"
+      ],
+      "license": "ISC",
+      "md5": "6e4cb6aed9b1502f723a55246a057280",
+      "name": "pygpu",
+      "sha256": "efae4d3ea0ac4fd4bd34b726c4bb2b7407565adf9103d3aab8485dfdb15013c2",
+      "size": 657332,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643631317496,
       "version": "0.7.6"
     },
     "pygraphviz-1.3-py37h2f4d8fa_1.tar.bz2": {
@@ -89678,6 +89803,54 @@
       "timestamp": 1621528172735,
       "version": "1.8.1"
     },
+    "loguru-0.5.3-py37hd43f75c_3.conda": {
+      "build": "py37hd43f75c_3",
+      "build_number": 3,
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a0cde164764ff4acd84bc70b63e1093a",
+      "name": "loguru",
+      "sha256": "27ea7ba89ab9ec3b7013445ae1662347ab052a527e9589a464f5b5dd1b68f6de",
+      "size": 85469,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643635383945,
+      "version": "0.5.3"
+    },
+    "loguru-0.5.3-py38hd43f75c_3.conda": {
+      "build": "py38hd43f75c_3",
+      "build_number": 3,
+      "depends": [
+        "python >=3.8,<3.9.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0f1f220a9b49af6b175ffdf16217f3ba",
+      "name": "loguru",
+      "sha256": "cd7f18c42467a14de338535d86f02659edbe584e04fa9abdc0344a97f60abcc7",
+      "size": 85909,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643635369442,
+      "version": "0.5.3"
+    },
+    "loguru-0.5.3-py39hd43f75c_3.conda": {
+      "build": "py39hd43f75c_3",
+      "build_number": 3,
+      "depends": [
+        "python >=3.9,<3.10.0a0"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0e590f3481eb814ec7299813fc2232bc",
+      "name": "loguru",
+      "sha256": "65fbc386acdc8cf9100215a8a8a7bd4fafe794c0b980f3535c59e13114cf0d80",
+      "size": 85995,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643635355382,
+      "version": "0.5.3"
+    },
     "luigi-3.0.3-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -94291,6 +94464,23 @@
       "subdir": "linux-aarch64",
       "timestamp": 1616096534506,
       "version": "4.28"
+    },
+    "nspr-4.33-h22f4aa5_0.conda": {
+      "build": "h22f4aa5_0",
+      "build_number": 0,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libstdcxx-ng >=10.2.0"
+      ],
+      "license": "MPL-2.0",
+      "license_family": "OTHER",
+      "md5": "8c355a4ca43f14860767f514c5d740d3",
+      "name": "nspr",
+      "sha256": "5205a6fbf73071ee412af8bfeae74e4b3406bd58efcc1794ca244a4a74557fd8",
+      "size": 234730,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643617328843,
+      "version": "4.33"
     },
     "nss-3.56-hebea02f_0.conda": {
       "build": "hebea02f_0",
@@ -101850,6 +102040,26 @@
       "timestamp": 1621559308553,
       "version": "0.7.6"
     },
+    "pygpu-0.7.6-py37hcc56278_1.conda": {
+      "build": "py37hcc56278_1",
+      "build_number": 1,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgpuarray 0.7.6",
+        "mako >=0.7",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "license": "ISC",
+      "md5": "9018bee09b8a18a66d6e83c123befcd7",
+      "name": "pygpu",
+      "sha256": "98355a81d1a302d1d16efa0b42117c2469779bff01bb8c928cf18140257b6764",
+      "size": 512057,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643631356445,
+      "version": "0.7.6"
+    },
     "pygpu-0.7.6-py38hcc56278_0.conda": {
       "build": "py38hcc56278_0",
       "build_number": 0,
@@ -101870,6 +102080,26 @@
       "timestamp": 1621559381681,
       "version": "0.7.6"
     },
+    "pygpu-0.7.6-py38hcc56278_1.conda": {
+      "build": "py38hcc56278_1",
+      "build_number": 1,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgpuarray 0.7.6",
+        "mako >=0.7",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.8,<3.9.0a0",
+        "six"
+      ],
+      "license": "ISC",
+      "md5": "cb7410cbb50728a2a4a964c8bb8d26c3",
+      "name": "pygpu",
+      "sha256": "9f3fcb0b5488e35b4e7fb93a4344f985f00fef745490245f365d20ff0e93f841",
+      "size": 516494,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643631275209,
+      "version": "0.7.6"
+    },
     "pygpu-0.7.6-py39hcc56278_0.conda": {
       "build": "py39hcc56278_0",
       "build_number": 0,
@@ -101888,6 +102118,26 @@
       "size": 510186,
       "subdir": "linux-aarch64",
       "timestamp": 1621559345128,
+      "version": "0.7.6"
+    },
+    "pygpu-0.7.6-py39hcc56278_1.conda": {
+      "build": "py39hcc56278_1",
+      "build_number": 1,
+      "depends": [
+        "libgcc-ng >=10.2.0",
+        "libgpuarray 0.7.6",
+        "mako >=0.7",
+        "numpy >=1.16.6,<2.0a0",
+        "python >=3.9,<3.10.0a0",
+        "six"
+      ],
+      "license": "ISC",
+      "md5": "24a331d14443e6e2d15de8e0a6968786",
+      "name": "pygpu",
+      "sha256": "d1821225bba77abb85a63ca9051bebb2865d68a938bd5a1ee7a54e9351cc1258",
+      "size": 512987,
+      "subdir": "linux-aarch64",
+      "timestamp": 1643631317496,
       "version": "0.7.6"
     },
     "pygraphviz-1.3-py37h2f4d8fa_1.conda": {
