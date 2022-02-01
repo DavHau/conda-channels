@@ -33594,6 +33594,102 @@
       "timestamp": 1632849856732,
       "version": "6.1.0"
     },
+    "nbconvert-6.2.0-py37hd43f75c_0.tar.bz2": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "pyppeteer ==0.2.2"
+      ],
+      "depends": [
+        "bleach",
+        "defusedxml",
+        "entrypoints >=0.2.2",
+        "jinja2 >=2.4",
+        "jupyter_core",
+        "jupyterlab_pygments",
+        "mistune >=0.8.1,<2",
+        "nbclient >=0.5.0,<0.6.0",
+        "nbformat >=4.4",
+        "pandocfilters >=1.4.1",
+        "pygments >=2.4.1",
+        "python >=3.7,<3.8.0a0",
+        "testpath",
+        "traitlets >=5.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "c4f653a97f36f6f458fb174d4c591f94",
+      "name": "nbconvert",
+      "sha256": "23b2f4a212e5e27a6bc15f914055844cadb80441e5fd0186776c4f9e46fdbcb2",
+      "size": 563473,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641309238565,
+      "version": "6.2.0"
+    },
+    "nbconvert-6.2.0-py38hd43f75c_0.tar.bz2": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "pyppeteer ==0.2.2"
+      ],
+      "depends": [
+        "bleach",
+        "defusedxml",
+        "entrypoints >=0.2.2",
+        "jinja2 >=2.4",
+        "jupyter_core",
+        "jupyterlab_pygments",
+        "mistune >=0.8.1,<2",
+        "nbclient >=0.5.0,<0.6.0",
+        "nbformat >=4.4",
+        "pandocfilters >=1.4.1",
+        "pygments >=2.4.1",
+        "python >=3.8,<3.9.0a0",
+        "testpath",
+        "traitlets >=5.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "38ebd0178e1529e4e8705c039e59d0ce",
+      "name": "nbconvert",
+      "sha256": "15148ab77d93d635f7ad84230e98fb01ce349f384b7eb4e178c86c61425ef828",
+      "size": 567332,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641309261823,
+      "version": "6.2.0"
+    },
+    "nbconvert-6.2.0-py39hd43f75c_0.tar.bz2": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "pyppeteer ==0.2.2"
+      ],
+      "depends": [
+        "bleach",
+        "defusedxml",
+        "entrypoints >=0.2.2",
+        "jinja2 >=2.4",
+        "jupyter_core",
+        "jupyterlab_pygments",
+        "mistune >=0.8.1,<2",
+        "nbclient >=0.5.0,<0.6.0",
+        "nbformat >=4.4",
+        "pandocfilters >=1.4.1",
+        "pygments >=2.4.1",
+        "python >=3.9,<3.10.0a0",
+        "testpath",
+        "traitlets >=5.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "387656718be5c6f96d11bc9e67b32167",
+      "name": "nbconvert",
+      "sha256": "d54422033268f37956e2bde503b1189c0de3a879df8f980062caf6e2d97a635b",
+      "size": 566077,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641309212858,
+      "version": "6.2.0"
+    },
     "nbconvert-6.3.0-py37hd43f75c_0.tar.bz2": {
       "build": "py37hd43f75c_0",
       "build_number": 0,
@@ -93088,6 +93184,102 @@
       "subdir": "linux-aarch64",
       "timestamp": 1632849856732,
       "version": "6.1.0"
+    },
+    "nbconvert-6.2.0-py37hd43f75c_0.conda": {
+      "build": "py37hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "pyppeteer ==0.2.2"
+      ],
+      "depends": [
+        "bleach",
+        "defusedxml",
+        "entrypoints >=0.2.2",
+        "jinja2 >=2.4",
+        "jupyter_core",
+        "jupyterlab_pygments",
+        "mistune >=0.8.1,<2",
+        "nbclient >=0.5.0,<0.6.0",
+        "nbformat >=4.4",
+        "pandocfilters >=1.4.1",
+        "pygments >=2.4.1",
+        "python >=3.7,<3.8.0a0",
+        "testpath",
+        "traitlets >=5.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "89f84e11bf6787acdf3ef74c203ab17c",
+      "name": "nbconvert",
+      "sha256": "9916522a970778b02ff1b278d2e7d928f6f1a3fd80bd142af5ff63971581faf0",
+      "size": 499441,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641309238565,
+      "version": "6.2.0"
+    },
+    "nbconvert-6.2.0-py38hd43f75c_0.conda": {
+      "build": "py38hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "pyppeteer ==0.2.2"
+      ],
+      "depends": [
+        "bleach",
+        "defusedxml",
+        "entrypoints >=0.2.2",
+        "jinja2 >=2.4",
+        "jupyter_core",
+        "jupyterlab_pygments",
+        "mistune >=0.8.1,<2",
+        "nbclient >=0.5.0,<0.6.0",
+        "nbformat >=4.4",
+        "pandocfilters >=1.4.1",
+        "pygments >=2.4.1",
+        "python >=3.8,<3.9.0a0",
+        "testpath",
+        "traitlets >=5.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "71badf7ce193bc2eeccf9a30963d02cb",
+      "name": "nbconvert",
+      "sha256": "276b3bcc5ca23dd7d0500df38fb18b292f41c621f74606e8d574146e64ffd12d",
+      "size": 500203,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641309261823,
+      "version": "6.2.0"
+    },
+    "nbconvert-6.2.0-py39hd43f75c_0.conda": {
+      "build": "py39hd43f75c_0",
+      "build_number": 0,
+      "constrains": [
+        "pyppeteer ==0.2.2"
+      ],
+      "depends": [
+        "bleach",
+        "defusedxml",
+        "entrypoints >=0.2.2",
+        "jinja2 >=2.4",
+        "jupyter_core",
+        "jupyterlab_pygments",
+        "mistune >=0.8.1,<2",
+        "nbclient >=0.5.0,<0.6.0",
+        "nbformat >=4.4",
+        "pandocfilters >=1.4.1",
+        "pygments >=2.4.1",
+        "python >=3.9,<3.10.0a0",
+        "testpath",
+        "traitlets >=5.0"
+      ],
+      "license": "BSD-3-Clause",
+      "license_family": "BSD",
+      "md5": "ea646ddb5fa9d06c403bb69f151345be",
+      "name": "nbconvert",
+      "sha256": "c51abd878797c04e6511d57bf15e5786b41799f669f7845f112e5ae30b71ad03",
+      "size": 500214,
+      "subdir": "linux-aarch64",
+      "timestamp": 1641309212858,
+      "version": "6.2.0"
     },
     "nbconvert-6.3.0-py37hd43f75c_0.conda": {
       "build": "py37hd43f75c_0",
