@@ -16865,6 +16865,39 @@
       "requires": [],
       "subdir": "osx-64"
     },
+    "python-3.8.12-hc2e94b5_4.tar.bz2": {
+      "build_number": 4,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "fa0cc8287dd2f7509a2072066a3f498b",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "openssl >=1.1.1m,<1.1.2a",
+        "sqlite >=3.37.2,<4.0a0",
+        "tk 8.6.10.*",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.8.12",
+      "build": "hc2e94b5_4",
+      "timestamp": 1645161525566,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 26776474,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "tbb4py-2020.0-py27_intel_0.tar.bz2": {
       "timestamp": 1571859267886,
       "depends": [
@@ -47973,6 +48006,38 @@
       "requires": [],
       "subdir": "osx-64"
     },
+    "python-3.9.10-hc2e94b5_1.tar.bz2": {
+      "build_number": 1,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "d51791592ddc118325f59f5d0391f2a6",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "openssl >=1.1.1m,<1.1.2a",
+        "sqlite >=3.37.2,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.9.10",
+      "build": "hc2e94b5_1",
+      "timestamp": 1645154400181,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 13101299,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "matplotlib-3.1.2-py37h7bf75b8_10.tar.bz2": {
       "timestamp": 1627708526049,
       "depends": [
@@ -64118,6 +64183,38 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 182780,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
+    "python-3.7.12-h34f9d38_1.tar.bz2": {
+      "build_number": 1,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "ac0c8222b44acd0b6e994dde13386a91",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "openssl >=1.1.1m,<1.1.2a",
+        "sqlite >=3.37.2,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.7.12",
+      "build": "h34f9d38_1",
+      "timestamp": 1645166789447,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 21659871,
       "arch": "x86_64",
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",

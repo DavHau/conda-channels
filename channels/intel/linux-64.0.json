@@ -27964,33 +27964,37 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "openvino-ie4py-2021.3-py37_ubuntu20_intel_394.tar.bz2": {
-      "features": "ubuntu20",
-      "timestamp": 1616168297299,
-      "depends": [
-        "openvino-ie 2021.3",
-        "python >=3.7,<3.8"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 463637,
-      "build_number": 394,
-      "name": "openvino-ie4py",
-      "license": "proprietary - Intel",
-      "has_prefix": false,
-      "license_family": "Proprietary",
+    "python-3.7.12-h8cee950_1.tar.bz2": {
+      "build_number": 1,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "c298bef7c4bc13c4fcf786513d495ca8",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2021.3",
-      "build": "py37_ubuntu20_intel_394",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "sqlite >=3.37.2,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.7.12",
+      "build": "h8cee950_1",
+      "timestamp": 1645147723259,
       "binstar": {
-        "package_id": "5ed9384383b66372f450f6c6",
+        "package_id": "5e416e0e778a87708f19bdcb",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "1f3c56aa28f144d5ea40f163c47f227b",
-      "requires": [],
+      "size": 42356653,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "libunistring-0.9.10-h14c3975_0.tar.bz2": {
@@ -68262,6 +68266,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "openvino-ie4py-2021.3-py37_ubuntu20_intel_394.tar.bz2": {
+      "features": "ubuntu20",
+      "timestamp": 1616168297299,
+      "depends": [
+        "openvino-ie 2021.3",
+        "python >=3.7,<3.8"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 463637,
+      "build_number": 394,
+      "name": "openvino-ie4py",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2021.3",
+      "build": "py37_ubuntu20_intel_394",
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "1f3c56aa28f144d5ea40f163c47f227b",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "nbformat-4.1.0-py27_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -79823,32 +79856,34 @@
       "md5": "f3cf4bc4eccc4bb8b41b519b9b7e919f",
       "build": "py35_intel_0"
     },
-    "dpnp-0.9.0-py37h2493cab_0.tar.bz2": {
-      "build_number": 0,
-      "name": "dpnp",
-      "license": "BSD-2-Clause",
+    "python-3.9.10-h3b4beac_1.tar.bz2": {
+      "build_number": 1,
+      "name": "python",
+      "license": "PSF",
       "has_prefix": true,
-      "md5": "ac903e7214a4b821bcca1978150da564",
+      "md5": "c2ba864ecd54eaf7029c0290ebedb95e",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "dpcpp_cpp_rt >=2021.1.1",
-        "dpctl >=0.10",
-        "mkl >=2021.1.1",
-        "mkl-dpcpp >=2021.1.1",
-        "numpy >=1.15",
-        "python >=3.7,<3.8.0a0"
+        "bzip2",
+        "libffi",
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "sqlite >=3.37.2,<4.0a0",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
       ],
-      "version": "0.9.0",
-      "build": "py37h2493cab_0",
-      "timestamp": 1635866311537,
+      "version": "3.9.10",
+      "build": "h3b4beac_1",
+      "timestamp": 1645146987384,
       "binstar": {
-        "package_id": "5f94c110a58f0d0a51929a65",
+        "package_id": "5e416e0e778a87708f19bdcb",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 7352839,
+      "size": 29238010,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -86675,54 +86710,6 @@
       "target-triplet": "x86_64-any-linux",
       "build": "11"
     },
-    "neural-compressor-1.7-py39hdless_0.tar.bz2": {
-      "timestamp": 1635178525555,
-      "depends": [
-        "flask",
-        "flask-cors",
-        "flask-socketio",
-        "gevent",
-        "gevent-websocket",
-        "hyperopt",
-        "numpy",
-        "opencv-python-headless",
-        "pandas",
-        "pillow",
-        "pip",
-        "prettytable",
-        "psutil",
-        "py-cpuinfo",
-        "pycocotools",
-        "python >=3.9,<3.10.0a0",
-        "python_abi 3.9.* *_cp39",
-        "pyyaml",
-        "requests",
-        "schema",
-        "scikit-learn",
-        "sigopt"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 348384296,
-      "build_number": 0,
-      "name": "neural-compressor",
-      "license": "Apache 2.0",
-      "has_prefix": true,
-      "license_family": "Apache",
-      "machine": "x86_64",
-      "platform": "linux",
-      "version": "1.7",
-      "build": "py39hdless_0",
-      "binstar": {
-        "package_id": "6155bffbc18da205b81fdb87",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "a5eefc4e553e4a66130cc3c4db7af867",
-      "requires": [],
-      "subdir": "linux-64"
-    },
     "matplotlib-base-3.4.3-py39hbbc1b5f_0.tar.bz2": {
       "timestamp": 1634667358391,
       "depends": [
@@ -91480,6 +91467,37 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dpnp-0.9.0-py37h2493cab_0.tar.bz2": {
+      "build_number": 0,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": true,
+      "md5": "ac903e7214a4b821bcca1978150da564",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp_cpp_rt >=2021.1.1",
+        "dpctl >=0.10",
+        "mkl >=2021.1.1",
+        "mkl-dpcpp >=2021.1.1",
+        "numpy >=1.15",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "0.9.0",
+      "build": "py37h2493cab_0",
+      "timestamp": 1635866311537,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 7352839,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "intelpython2_core-2017.0.2-0.tar.bz2": {
       "build_number": 0,
       "name": "intelpython2_core",
@@ -95614,6 +95632,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 1791112,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "python-3.8.12-h3b4beac_4.tar.bz2": {
+      "build_number": 4,
+      "name": "python",
+      "license": "PSF",
+      "has_prefix": true,
+      "md5": "05b7b7f0c1c9e61c00eac553fba967a8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "bzip2",
+        "libffi",
+        "libgcc-ng >=9.3.0",
+        "openssl >=1.1.1m,<1.1.2a",
+        "sqlite >=3.37.2,<4.0a0",
+        "tk 8.6.10.*",
+        "tk >=8.6.10,<8.7.0a0",
+        "xz >=5.2.5,<6.0a0",
+        "zlib >=1.2.11.1,<1.3.0a0"
+      ],
+      "version": "3.8.12",
+      "build": "h3b4beac_4",
+      "timestamp": 1645144781398,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 66352824,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
