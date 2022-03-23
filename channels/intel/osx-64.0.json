@@ -3490,6 +3490,33 @@
       "requires": [],
       "subdir": "osx-64"
     },
+    "openvino-ie4py-2022.1.0-py36_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "has_prefix": false,
+      "md5": "d75f22214d15272051ac2069683b34a3",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "openvino-ie 2022.1.0",
+        "python >=3.6,<3.7"
+      ],
+      "version": "2022.1.0",
+      "build": "py36_intel_643",
+      "timestamp": 1647578269821,
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1949755,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "prompt_toolkit-1.0.3-py35_intel_4.tar.bz2": {
       "build_number": 4,
       "features": "intel",
@@ -4297,6 +4324,33 @@
       },
       "md5": "ac7e7eecb15c23379babe56289e878ac",
       "requires": [],
+      "subdir": "osx-64"
+    },
+    "openvino-ie4py-2022.1.0-py38_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "has_prefix": false,
+      "md5": "f39c3bfa6d00bb8675640b70cccff3e0",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "openvino-ie 2022.1.0",
+        "python >=3.8,<3.9"
+      ],
+      "version": "2022.1.0",
+      "build": "py38_intel_643",
+      "timestamp": 1647578120951,
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1976618,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
     "nose-1.3.7-py27_intel_3.tar.bz2": {
@@ -25609,6 +25663,33 @@
       "requires": [],
       "subdir": "osx-64"
     },
+    "openvino-ie4py-2022.1.0-py39_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "has_prefix": false,
+      "md5": "263a0037c3d20fd86bc92e1821e35b3a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "openvino-ie 2022.1.0",
+        "python >=3.9,<3.10"
+      ],
+      "version": "2022.1.0",
+      "build": "py39_intel_643",
+      "timestamp": 1647578107979,
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1987283,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "mkl-devel-2020.0-intel_166.tar.bz2": {
       "timestamp": 1575020900252,
       "depends": [
@@ -32617,6 +32698,33 @@
       "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
+    "openvino-ie4py-2022.1.0-py37_intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "openvino-ie4py",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "has_prefix": false,
+      "md5": "51e99ee0182b302b25ea12efc7fad8af",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "openvino-ie 2022.1.0",
+        "python >=3.7,<3.8"
+      ],
+      "version": "2022.1.0",
+      "build": "py37_intel_643",
+      "timestamp": 1647578211988,
+      "binstar": {
+        "package_id": "5ed9384383b66372f450f6c6",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 1941066,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "mkl-2019.0-intel_117.tar.bz2": {
       "timestamp": 1535719624358,
       "depends": [
@@ -32817,6 +32925,33 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 52263,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
+    "openvino-ie-2022.1.0-intel_643.tar.bz2": {
+      "build_number": 643,
+      "name": "openvino-ie",
+      "license": "Intel\u00ae OpenVINO\u2122 Distribution License",
+      "has_prefix": false,
+      "md5": "35a24c9a1ed31634a5b2459ef7b7c576",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "numpy >=1.16.6,<1.20",
+        "tbb 2020.3"
+      ],
+      "version": "2022.1.0",
+      "build": "intel_643",
+      "timestamp": 1647578201020,
+      "binstar": {
+        "package_id": "5ed9379b83b66372f6a6b978",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 25977252,
       "arch": "x86_64",
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",
