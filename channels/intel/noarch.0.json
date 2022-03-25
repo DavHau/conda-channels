@@ -1223,6 +1223,34 @@
       "target-triplet": "None-any-None",
       "subdir": "noarch"
     },
+    "py-cpuinfo-8.0.0-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1618437396786,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 24099,
+      "build_number": 0,
+      "name": "py-cpuinfo",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "8.0.0",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "610daeeb931d4ac0f47c1644",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "17c1d857d33d94e17a91f9a156895734",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "tqdm-4.62.3-pyhd3eb1b0_1.tar.bz2": {
       "timestamp": 1635330873606,
       "depends": [
@@ -1350,34 +1378,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "bc96b6990cc55323a012e963f0175699",
-      "requires": [],
-      "subdir": "noarch"
-    },
-    "pycparser-2.21-pyhd3eb1b0_0.tar.bz2": {
-      "timestamp": 1636541382349,
-      "depends": [
-        "python >=3.6"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 96720,
-      "build_number": 0,
-      "name": "pycparser",
-      "license": "BSD-3-clause",
-      "has_prefix": false,
-      "license_family": "BSD",
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "2.21",
-      "build": "pyhd3eb1b0_0",
-      "binstar": {
-        "package_id": "5909e64d4f2a1f1218467fa5",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "e70944ff53d19af4f65073a4f21c7b05",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1734,6 +1734,32 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "tensorflow-base-2.7.0-0.tar.bz2": {
+      "timestamp": 1647996922026,
+      "depends": [],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 9859,
+      "build_number": 0,
+      "name": "tensorflow-base",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.7.0",
+      "build": "0",
+      "binstar": {
+        "package_id": "5d823ad6fe6b2a65c41f2857",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "5ea4b5bf2ef613eb711e6a1a9774f276",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "ilit-1.0-py_0.tar.bz2": {
       "timestamp": 1604077510208,
       "depends": [
@@ -2029,31 +2055,31 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "py-cpuinfo-8.0.0-pyhd3eb1b0_0.tar.bz2": {
-      "timestamp": 1618437396786,
+    "pycparser-2.21-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1636541382349,
       "depends": [
-        "python"
+        "python >=3.6"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 24099,
+      "size": 96720,
       "build_number": 0,
-      "name": "py-cpuinfo",
-      "license": "MIT",
+      "name": "pycparser",
+      "license": "BSD-3-clause",
       "has_prefix": false,
-      "license_family": "MIT",
+      "license_family": "BSD",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "8.0.0",
+      "version": "2.21",
       "build": "pyhd3eb1b0_0",
       "binstar": {
-        "package_id": "610daeeb931d4ac0f47c1644",
+        "package_id": "5909e64d4f2a1f1218467fa5",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "17c1d857d33d94e17a91f9a156895734",
+      "md5": "e70944ff53d19af4f65073a4f21c7b05",
       "requires": [],
       "subdir": "noarch"
     },
