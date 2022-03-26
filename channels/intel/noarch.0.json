@@ -229,6 +229,36 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "keras-2.7.0-pyhd8ed1ab_0.tar.bz2": {
+      "timestamp": 1637872213001,
+      "depends": [
+        "python >=3.6"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 862385,
+      "constrains": [
+        "tensorflow 2.7.*"
+      ],
+      "build_number": 0,
+      "name": "keras",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.7.0",
+      "build": "pyhd8ed1ab_0",
+      "binstar": {
+        "package_id": "61b3819427bdd9a91c1769f4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "394fc4295ee04f601e9f73503dbb935a",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "joblib-1.0.1-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1613502684514,
       "depends": [
@@ -1409,6 +1439,43 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "tensorflow-estimator-2.8.0-py_0.tar.bz2": {
+      "timestamp": 1647994913839,
+      "depends": [
+        "absl-py >=0.7.0",
+        "astor >=0.6.0",
+        "gast >=0.2.0",
+        "grpcio >=1.8.6",
+        "numpy >=1.16.1",
+        "protobuf >=3.6.1",
+        "python",
+        "six >=1.10.0",
+        "termcolor >=1.1.0",
+        "wrapt >=1.11.1"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 295501,
+      "build_number": 0,
+      "name": "tensorflow-estimator",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.8.0",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "5f21fb9a778a870a1e28bb14",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d15424ebb40897eb4dfe03c4a3452ad9",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "requests-2.25.1-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1608241453837,
       "depends": [
@@ -1757,6 +1824,43 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "5ea4b5bf2ef613eb711e6a1a9774f276",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "tensorflow-estimator-2.7.0-py_0.tar.bz2": {
+      "timestamp": 1647994909360,
+      "depends": [
+        "absl-py >=0.7.0",
+        "astor >=0.6.0",
+        "gast >=0.2.0",
+        "grpcio >=1.8.6",
+        "numpy >=1.16.1",
+        "protobuf >=3.6.1",
+        "python",
+        "six >=1.10.0",
+        "termcolor >=1.1.0",
+        "wrapt >=1.11.1"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 296043,
+      "build_number": 0,
+      "name": "tensorflow-estimator",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.7.0",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "5f21fb9a778a870a1e28bb14",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "f4d665c7c03127ffd97e8924cc193fe4",
       "requires": [],
       "subdir": "noarch"
     },
@@ -2365,6 +2469,36 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "e91ec54770326963c1b7e3641cb91e7a",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "keras-2.8.0-pyhd8ed1ab_0.tar.bz2": {
+      "timestamp": 1643987614504,
+      "depends": [
+        "python >=3.6"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 899778,
+      "constrains": [
+        "tensorflow 2.8.*"
+      ],
+      "build_number": 0,
+      "name": "keras",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.8.0",
+      "build": "pyhd8ed1ab_0",
+      "binstar": {
+        "package_id": "61b3819427bdd9a91c1769f4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "9356743aa195e3c4f024ae57f895e81b",
       "requires": [],
       "subdir": "noarch"
     },
