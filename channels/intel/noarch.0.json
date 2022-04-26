@@ -3164,5 +3164,6 @@
     "arch": null,
     "subdir": "noarch",
     "default_numpy_version": "1.7"
-  }
+  },
+  "packages.conda": {}
 }

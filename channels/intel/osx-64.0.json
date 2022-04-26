@@ -71594,5 +71594,6 @@
     "arch": "x86_64",
     "subdir": "osx-64",
     "default_numpy_version": "1.7"
-  }
+  },
+  "packages.conda": {}
 }
