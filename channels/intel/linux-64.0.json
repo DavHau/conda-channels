@@ -102209,6 +102209,5 @@
     "arch": "x86_64",
     "subdir": "linux-64",
     "default_numpy_version": "1.7"
-  },
-  "packages.conda": {}
+  }
 }
