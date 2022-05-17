@@ -1,5 +1,33 @@
 {
   "packages": {
+    "olefile-0.46-pyhd3eb1b0_1.tar.bz2": {
+      "timestamp": 1629805427745,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 33636,
+      "build_number": 1,
+      "name": "olefile",
+      "license": "BSD 2-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "0.46",
+      "build": "pyhd3eb1b0_1",
+      "binstar": {
+        "package_id": "5909e5f1b6da10122cd8aa78",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "af524bbf12e02901b8e94b168bec1ceb",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "jinja2-3.0.1-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1624781343368,
       "depends": [
@@ -112,6 +140,34 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "116611db5925f952312e4c1e799936e2",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "werkzeug-2.0.2-pyhd3eb1b0_2.tar.bz2": {
+      "timestamp": 1635505122407,
+      "depends": [
+        "python >=3.7"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 231492,
+      "build_number": 2,
+      "name": "werkzeug",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.0.2",
+      "build": "pyhd3eb1b0_2",
+      "binstar": {
+        "package_id": "596fbd35fbfe49698a4d75c7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a34e35f58f5a0f9cad2548b075b7f53b",
       "requires": [],
       "subdir": "noarch"
     },
@@ -462,33 +518,32 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "flask-cors-3.0.10-pyhd3eb1b0_0.tar.bz2": {
-      "timestamp": 1609957806451,
+    "absl-py-0.15.0-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1639803143950,
       "depends": [
-        "flask >=0.9",
         "python",
         "six"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 15519,
+      "size": 100714,
       "build_number": 0,
-      "name": "flask-cors",
-      "license": "MIT",
+      "name": "absl-py",
+      "license": "Apache 2.0",
       "has_prefix": false,
-      "license_family": "MIT",
+      "license_family": "Apache",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "3.0.10",
+      "version": "0.15.0",
       "build": "pyhd3eb1b0_0",
       "binstar": {
-        "package_id": "610daea2889c708a3626d03b",
+        "package_id": "5f21f8f383b6630a0e2293d8",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "07a04aadf1801f46d95efed914bf4e58",
+      "md5": "1b0b40e5952bf03054c99860aba6072e",
       "requires": [],
       "subdir": "noarch"
     },
@@ -535,6 +590,37 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "a35ec18217952fef0f1d0d6062762114",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "pyjwt-2.3.0-pyhd8ed1ab_1.tar.bz2": {
+      "timestamp": 1638819738885,
+      "depends": [
+        "python >=3.6"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 18106,
+      "constrains": [
+        "cryptography >=3.3.1"
+      ],
+      "build_number": 1,
+      "name": "pyjwt",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.3.0",
+      "build": "pyhd8ed1ab_1",
+      "binstar": {
+        "package_id": "5f21fac283b6630a140da394",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "b7bc0de380f114658af5fe57cebdcd9e",
       "requires": [],
       "subdir": "noarch"
     },
@@ -592,6 +678,43 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "d6d311cce452a29369c3425c41e6204a",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "hyperopt-0.2.5-pyh9f0ad1d_0.tar.bz2": {
+      "timestamp": 1602661965541,
+      "depends": [
+        "cloudpickle",
+        "future",
+        "networkx >=2.2",
+        "numpy",
+        "pymongo",
+        "python",
+        "scipy",
+        "setuptools",
+        "six",
+        "tqdm"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 780731,
+      "build_number": 0,
+      "name": "hyperopt",
+      "license": "BSD-3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "0.2.5",
+      "build": "pyh9f0ad1d_0",
+      "binstar": {
+        "package_id": "6065e728c0b1dfaea0420ec9",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "575d0c3af03ce091bdf042ef6bc63653",
       "requires": [],
       "subdir": "noarch"
     },
@@ -887,6 +1010,34 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "d042d54485268c35c7dc37366fa84225",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "fsspec-2022.2.0-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1647268095379,
+      "depends": [
+        "python >=3.7"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 94015,
+      "build_number": 0,
+      "name": "fsspec",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2022.2.0",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "62698231a3c32938bd343a84",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "abb07af60754d7ae577ed5f6dcc70672",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1468,6 +1619,118 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "parquet-cpp-1.5.1-h34088ae_4.tar.bz2": {
+      "timestamp": 1629727264131,
+      "depends": [
+        "arrow-cpp >=0.13.0"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 4926,
+      "build_number": 4,
+      "name": "parquet-cpp",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "noarch": "generic",
+      "machine": null,
+      "platform": null,
+      "version": "1.5.1",
+      "build": "h34088ae_4",
+      "binstar": {
+        "package_id": "6269825f13ef1fb79e4b0abb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "6c4dcaff3c83244e7a08d3c61666617d",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "typing-extensions-4.1.1-hd3eb1b0_0.tar.bz2": {
+      "timestamp": 1647553100260,
+      "depends": [
+        "typing_extensions 4.1.1 pyh06a4308_0"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 7817,
+      "build_number": 0,
+      "name": "typing-extensions",
+      "license": "PSF-2.0",
+      "has_prefix": false,
+      "license_family": "PSF",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "4.1.1",
+      "build": "hd3eb1b0_0",
+      "binstar": {
+        "package_id": "610daf49955e84a9b0fba86a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3a523cbd2605bb714101d7eda734c40b",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "async-timeout-4.0.1-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1637851248734,
+      "depends": [
+        "python >=3.6",
+        "typing-extensions >=3.6.5"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 10292,
+      "build_number": 0,
+      "name": "async-timeout",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "4.0.1",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "61099d10dc9f011d48e6c896",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "27d55492055e0797d7392ff45328bfd1",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "redis-py-3.5.3-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1629466606621,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 61857,
+      "build_number": 0,
+      "name": "redis-py",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "3.5.3",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "6269826839552dcb591210c9",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "65cf60efd2bb8b8da33d73b5862fc45a",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "tensorflow-estimator-2.8.0-py_0.tar.bz2": {
       "timestamp": 1647994913839,
       "depends": [
@@ -1533,6 +1796,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "b403001a8842763085ec42a635ab8a64",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "jinja2-2.11.3-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1612213176846,
+      "depends": [
+        "markupsafe >=0.23",
+        "python",
+        "setuptools"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 96029,
+      "build_number": 0,
+      "name": "jinja2",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.11.3",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "56fad2960697b60a633f7be1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e3d2afca7f53449172cb027b2164df6b",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1733,6 +2025,31 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "pytorch-mutex-1.0-cpu.tar.bz2": {
+      "timestamp": 1628062935164,
+      "track_features": "pytorch-mutex",
+      "depends": [],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 2897,
+      "build_number": 0,
+      "name": "pytorch-mutex",
+      "has_prefix": false,
+      "noarch": "generic",
+      "machine": null,
+      "platform": null,
+      "version": "1.0",
+      "build": "cpu",
+      "binstar": {
+        "package_id": "62698264464563423979d281",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "49565ed726991fd28d08a39885caa88d",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "google-auth-1.33.0-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1626320653038,
       "depends": [
@@ -1832,6 +2149,47 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "b7b765b24e416133eb9c1f7600ce5983",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "tensorboard-2.8.0-pyhd8ed1ab_1.tar.bz2": {
+      "timestamp": 1644016051370,
+      "depends": [
+        "absl-py >=0.4",
+        "google-auth >=1.6.3,<3",
+        "google-auth-oauthlib >=0.4.1,<0.5",
+        "grpcio >=1.24.3",
+        "markdown >=2.6.8",
+        "numpy >=1.12.0",
+        "protobuf >=3.6.0",
+        "python >=3.2",
+        "requests >=2.21.0,<3",
+        "setuptools >=41.0.0",
+        "six >=1.10.0",
+        "tensorboard-data-server >=0.6.0,<0.7.0",
+        "tensorboard-plugin-wit >=1.6.0",
+        "werkzeug >=0.11.15",
+        "wheel >=0.26"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 5488969,
+      "build_number": 1,
+      "name": "tensorboard",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.8.0",
+      "build": "pyhd8ed1ab_1",
+      "binstar": {
+        "package_id": "5f21fb8c83b6630a178d2e70",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "fc86861452a280db19d13feabe5220d9",
       "requires": [],
       "subdir": "noarch"
     },
@@ -1960,6 +2318,34 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "aeaf0e860fb29fc80d84cda4ed32bcf0",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "attrs-21.4.0-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1642510484417,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 49732,
+      "build_number": 0,
+      "name": "attrs",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "21.4.0",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "610dae64889c708a3626caeb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "718e897afa9f595cfe33461c0685d4da",
       "requires": [],
       "subdir": "noarch"
     },
@@ -2276,6 +2662,37 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "e70944ff53d19af4f65073a4f21c7b05",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "oauthlib-3.2.0-pyhd8ed1ab_0.tar.bz2": {
+      "timestamp": 1643508086029,
+      "depends": [
+        "blinker",
+        "cryptography",
+        "pyjwt >=1.0.0",
+        "python >=3.6"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 91890,
+      "build_number": 0,
+      "name": "oauthlib",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "3.2.0",
+      "build": "pyhd8ed1ab_0",
+      "binstar": {
+        "package_id": "5f21fa6b78705809fcd1a320",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "ecc95c82c788737d6d33f5d564566d89",
       "requires": [],
       "subdir": "noarch"
     },
@@ -2622,6 +3039,120 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "filelock-3.6.0-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1647002235757,
+      "depends": [
+        "python >=3.7"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 12335,
+      "build_number": 0,
+      "name": "filelock",
+      "license": "Unlicense",
+      "has_prefix": false,
+      "license_family": "Public-Domain",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "3.6.0",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "6269822dc0dc363ce42e1a2b",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e7beebeb55f9b9636f2d29d3ac190694",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "typing_extensions-4.1.1-pyh06a4308_0.tar.bz2": {
+      "timestamp": 1647553097996,
+      "depends": [
+        "python >=3.6"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 29684,
+      "build_number": 0,
+      "name": "typing_extensions",
+      "license": "PSF-2.0",
+      "has_prefix": false,
+      "license_family": "PSF",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "4.1.1",
+      "build": "pyh06a4308_0",
+      "binstar": {
+        "package_id": "60661bcf69aed84d14f83cf5",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "378f11bbd770821ee8589d5616aa99e7",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "typing_extensions-3.10.0.2-pyh06a4308_0.tar.bz2": {
+      "timestamp": 1631814964814,
+      "depends": [
+        "python >=3.5"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 33031,
+      "build_number": 0,
+      "name": "typing_extensions",
+      "license": "PSF-2.0",
+      "has_prefix": false,
+      "license_family": "PSF",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "3.10.0.2",
+      "build": "pyh06a4308_0",
+      "binstar": {
+        "package_id": "60661bcf69aed84d14f83cf5",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d09d17d9b56d0a70bc42ef11789570ce",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "aioredis-1.3.1-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1621433623406,
+      "depends": [
+        "async-timeout",
+        "hiredis",
+        "python >3.5"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 52196,
+      "build_number": 0,
+      "name": "aioredis",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.3.1",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "6269821839552dcb5911bc99",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "58410d07d8a309cc8d52ecd30cf08077",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "lpot-1.5.1-pyhdless_1.tar.bz2": {
       "timestamp": 1627522421692,
       "depends": [
@@ -2866,40 +3397,88 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "hyperopt-0.2.5-pyh9f0ad1d_0.tar.bz2": {
-      "timestamp": 1602661965541,
+    "flask-cors-3.0.10-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1609957806451,
       "depends": [
-        "cloudpickle",
-        "future",
-        "networkx >=2.2",
-        "numpy",
-        "pymongo",
+        "flask >=0.9",
         "python",
-        "scipy",
-        "setuptools",
-        "six",
-        "tqdm"
+        "six"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 780731,
+      "size": 15519,
       "build_number": 0,
-      "name": "hyperopt",
-      "license": "BSD-3-Clause",
-      "has_prefix": true,
-      "license_family": "BSD",
+      "name": "flask-cors",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "0.2.5",
-      "build": "pyh9f0ad1d_0",
+      "version": "3.0.10",
+      "build": "pyhd3eb1b0_0",
       "binstar": {
-        "package_id": "6065e728c0b1dfaea0420ec9",
+        "package_id": "610daea2889c708a3626d03b",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "575d0c3af03ce091bdf042ef6bc63653",
+      "md5": "07a04aadf1801f46d95efed914bf4e58",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "colorama-0.4.4-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1607707149014,
+      "depends": [
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 21360,
+      "build_number": 0,
+      "name": "colorama",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "0.4.4",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "56fad8b74733c34f5b103533",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e1f1311b37041e7a099a7a3c09106a13",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "typing-extensions-3.10.0.2-hd3eb1b0_0.tar.bz2": {
+      "timestamp": 1631814965875,
+      "depends": [
+        "typing_extensions 3.10.0.2 pyh06a4308_0"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 12327,
+      "build_number": 0,
+      "name": "typing-extensions",
+      "license": "PSF-2.0",
+      "has_prefix": false,
+      "license_family": "PSF",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "3.10.0.2",
+      "build": "hd3eb1b0_0",
+      "binstar": {
+        "package_id": "610daf49955e84a9b0fba86a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "4dff0de9d50c1fa1532791d52d9963ba",
       "requires": [],
       "subdir": "noarch"
     },
