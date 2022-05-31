@@ -3824,6 +3824,24 @@
       "timestamp": 1557934928937,
       "version": "0.2.1"
     },
+    "r-assertthat-0.2.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "6a36f63c515430e40dad926846624250",
+      "name": "r-assertthat",
+      "noarch": "generic",
+      "sha256": "57a874f7fb1a67da5cada845c83a6c2bedce4a631498221e6b3b2a93f24ee2d2",
+      "size": 71670,
+      "subdir": "noarch",
+      "timestamp": 1653521165388,
+      "version": "0.2.1"
+    },
     "r-assocafc-1.0.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -7882,6 +7900,26 @@
       "timestamp": 1557987711130,
       "version": "1.1.1"
     },
+    "r-blob-1.2.3-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-rlang",
+        "r-vctrs >=0.2.1",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5cbaea2dd6bc567b35ca75b1544b2227",
+      "name": "r-blob",
+      "noarch": "generic",
+      "sha256": "9642d612fdf75615b33fc90c554ba3bd07cf1aeae157d51eb598674c8cc8a6c3",
+      "size": 53900,
+      "subdir": "noarch",
+      "timestamp": 1653526040866,
+      "version": "1.2.3"
+    },
     "r-blockmatrix-1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -9061,6 +9099,35 @@
       "timestamp": 1558009134913,
       "version": "0.5.2"
     },
+    "r-broom-0.8.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-backports",
+        "r-base >=4.2,<4.3.0a0",
+        "r-dplyr >=1.0.0",
+        "r-ellipsis",
+        "r-generics >=0.0.2",
+        "r-ggplot2",
+        "r-glue",
+        "r-purrr",
+        "r-rlang",
+        "r-stringr",
+        "r-tibble >=3.0.0",
+        "r-tidyr >=1.0.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3c40a867054a50ade528e9a953d5d76c",
+      "name": "r-broom",
+      "noarch": "generic",
+      "sha256": "3e6a006957e2802057c4ac6dac92948018d11b9464cc19f1e6a6ff66c2991e4f",
+      "size": 1880491,
+      "subdir": "noarch",
+      "timestamp": 1653527738581,
+      "version": "0.8.0"
+    },
     "r-browndog-0.2.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -9139,6 +9206,29 @@
       "subdir": "noarch",
       "timestamp": 1567011130180,
       "version": "1.2.0"
+    },
+    "r-bslib-0.3.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-htmltools >=0.5.2",
+        "r-jquerylib >=0.1.3",
+        "r-jsonlite",
+        "r-rlang",
+        "r-sass >=0.4.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "fa47328a942c1b61a023dec987ce2a61",
+      "name": "r-bslib",
+      "noarch": "generic",
+      "sha256": "9008d2871186a681b8a91eed99a677ae9a2f481a116e151b6eda4302a91ecb05",
+      "size": 4415513,
+      "subdir": "noarch",
+      "timestamp": 1653526091412,
+      "version": "0.3.1"
     },
     "r-bspec-1.5-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -9689,6 +9779,26 @@
       "subdir": "noarch",
       "timestamp": 1557987785942,
       "version": "3.2.0"
+    },
+    "r-callr-3.7.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-processx >=3.5.0",
+        "r-r6",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "275214e54f78815e0348ef7ff0eee00a",
+      "name": "r-callr",
+      "noarch": "generic",
+      "sha256": "7a02d796f08487e4adfff6520fc32a8fc25d331b860f34957b862bafec262685",
+      "size": 446309,
+      "subdir": "noarch",
+      "timestamp": 1653525579319,
+      "version": "3.7.0"
     },
     "r-camsrad-0.3.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -10727,6 +10837,26 @@
       "size": 118444,
       "subdir": "noarch",
       "timestamp": 1557999624584,
+      "version": "1.1.0"
+    },
+    "r-cellranger-1.1.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-rematch",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7a7dd3e96dc6e31148124fc467521d98",
+      "name": "r-cellranger",
+      "noarch": "generic",
+      "sha256": "bb971e9149f481dd1b53688e8700c507c5d4db3e0d71ef36d03ce4be26f1078d",
+      "size": 109980,
+      "subdir": "noarch",
+      "timestamp": 1653526811513,
       "version": "1.1.0"
     },
     "r-cengam-0.5.3-r36h6115d3f_0.tar.bz2": {
@@ -12114,6 +12244,24 @@
       "subdir": "noarch",
       "timestamp": 1557941571141,
       "version": "0.6.0"
+    },
+    "r-clipr-0.8.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "6ae3408bae33334e5fa60a751574375b",
+      "name": "r-clipr",
+      "noarch": "generic",
+      "sha256": "e8918cefffa6abbdc37721966baba8d0cece26e30201d792c6d56d6df9437663",
+      "size": 67875,
+      "subdir": "noarch",
+      "timestamp": 1653521736497,
+      "version": "0.8.0"
     },
     "r-clisymbols-1.2.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -15395,6 +15543,24 @@
       "timestamp": 1567761492490,
       "version": "1.2"
     },
+    "r-cpp11-0.4.2-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b70ee77da02c6014e83e22a503e42db3",
+      "name": "r-cpp11",
+      "noarch": "generic",
+      "sha256": "f1486ed39c8e1a0b64b8888fe9615520097de05b0bc087c6fe7b1dcc54a4c166",
+      "size": 247972,
+      "subdir": "noarch",
+      "timestamp": 1653521839137,
+      "version": "0.4.2"
+    },
     "r-cprr-0.2.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -15602,6 +15768,24 @@
       "subdir": "noarch",
       "timestamp": 1557941514453,
       "version": "1.3.4"
+    },
+    "r-crayon-1.5.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f3c754458378407336f34133436d45a2",
+      "name": "r-crayon",
+      "noarch": "generic",
+      "sha256": "2e40b155028c0d95a37ed12f05b45a424a7ddbc9df5861e3ce8b933a484ccd1a",
+      "size": 167986,
+      "subdir": "noarch",
+      "timestamp": 1653521883714,
+      "version": "1.5.1"
     },
     "r-crblocks-1.0_0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -17561,6 +17745,24 @@
       "timestamp": 1557943265328,
       "version": "1.0.0"
     },
+    "r-dbi-1.1.2-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "LGPL-2.1",
+      "license_family": "LGPL",
+      "md5": "1ecf7e0f7f7f8aaa896f04d29cae74d2",
+      "name": "r-dbi",
+      "noarch": "generic",
+      "sha256": "cedbd72a52a2ebe80d371a90cc238b098fadc7a0e3f1fd36b8c36211d1e6eeff",
+      "size": 757115,
+      "subdir": "noarch",
+      "timestamp": 1653522058748,
+      "version": "1.1.2"
+    },
     "r-dbplyr-1.4.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -17587,6 +17789,39 @@
       "subdir": "noarch",
       "timestamp": 1558007668600,
       "version": "1.4.0"
+    },
+    "r-dbplyr-2.1.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-assertthat >=0.2.0",
+        "r-base >=4.2,<4.3.0a0",
+        "r-blob >=1.2.0",
+        "r-dbi >=1.0.0",
+        "r-dplyr >=1.0.4",
+        "r-ellipsis",
+        "r-glue >=1.2.0",
+        "r-lifecycle >=1.0.0",
+        "r-magrittr",
+        "r-purrr >=0.2.5",
+        "r-r6 >=2.2.2",
+        "r-rlang >=0.2.0",
+        "r-tibble >=1.4.2",
+        "r-tidyselect >=0.2.4",
+        "r-vctrs",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "8c9f26f2529130d782c305475a2c4dc0",
+      "name": "r-dbplyr",
+      "noarch": "generic",
+      "sha256": "cdc3aba33a283236be29a3eca8bfea6b41f260e8f0b07daa668516d53eaea325",
+      "size": 838855,
+      "subdir": "noarch",
+      "timestamp": 1653527324076,
+      "version": "2.1.1"
     },
     "r-dbstats-1.0.5-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -18505,6 +18740,27 @@
       "subdir": "noarch",
       "timestamp": 1557988776427,
       "version": "1.2.0"
+    },
+    "r-desc-1.4.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli",
+        "r-r6",
+        "r-rprojroot",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "32d57e49a56c2ebb65409ccdf5618d8f",
+      "name": "r-desc",
+      "noarch": "generic",
+      "sha256": "402d5c6c2c62c61b99d65b14792dc652648b8f3f5718fa7d4fa1c2661b85dd80",
+      "size": 337035,
+      "subdir": "noarch",
+      "timestamp": 1653525624741,
+      "version": "1.4.1"
     },
     "r-descomponer-1.5-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -21088,6 +21344,34 @@
       "subdir": "noarch",
       "timestamp": 1568123883468,
       "version": "0.1.0"
+    },
+    "r-dtplyr-1.2.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-crayon",
+        "r-data.table >=1.13.0",
+        "r-dplyr >=1.0.3",
+        "r-ellipsis",
+        "r-glue",
+        "r-lifecycle",
+        "r-rlang",
+        "r-tibble",
+        "r-tidyselect",
+        "r-vctrs",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a05b0490370cbf28be71af74487d532e",
+      "name": "r-dtplyr",
+      "noarch": "generic",
+      "sha256": "a5cb0b9d0453958ac3283cbbfab0aaf6af0a5cd58788af772acbe52d38930b38",
+      "size": 336583,
+      "subdir": "noarch",
+      "timestamp": 1653527374390,
+      "version": "1.2.1"
     },
     "r-dtrlearn2-1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -24160,6 +24444,24 @@
       "timestamp": 1557944581203,
       "version": "0.13"
     },
+    "r-evaluate-0.15-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "68556064423cbbc38731f9ee67c540d1",
+      "name": "r-evaluate",
+      "noarch": "generic",
+      "sha256": "e92bc85a7936fe5a733665e19ec77f0fac07a20c550648571e9b144f3c1df3fc",
+      "size": 84997,
+      "subdir": "noarch",
+      "timestamp": 1653522358053,
+      "version": "0.15"
+    },
     "r-evaluationmeasures-1.1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -27131,6 +27433,28 @@
       "timestamp": 1558000692271,
       "version": "0.4.0"
     },
+    "r-forcats-0.5.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-ellipsis",
+        "r-magrittr",
+        "r-rlang",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "fe29a13ecdf782779e9abb75f3e007dc",
+      "name": "r-forcats",
+      "noarch": "generic",
+      "sha256": "56b5eb4316c259b9aa869cb42c4a20e0f509cfb1fecc647ff60e5c8b2d3aedad",
+      "size": 373669,
+      "subdir": "noarch",
+      "timestamp": 1653526858612,
+      "version": "0.5.1"
+    },
     "r-foreach-1.4.4-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -28887,6 +29211,33 @@
       "timestamp": 1568363653294,
       "version": "1.1"
     },
+    "r-gargle-1.2.0-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli >=3.0.0",
+        "r-fs >=1.3.1",
+        "r-glue >=1.3.0",
+        "r-httr >=1.4.0",
+        "r-jsonlite",
+        "r-rappdirs",
+        "r-rlang >=0.4.9",
+        "r-rstudioapi",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d17219a5cf83641a7d55f675602ec000",
+      "name": "r-gargle",
+      "noarch": "generic",
+      "sha256": "8d951683f184b1f2df8b0bbf8f7c66e655d4dd8136b45a750dcb91ac77e56007",
+      "size": 493271,
+      "subdir": "noarch",
+      "timestamp": 1653526486047,
+      "version": "1.2.0"
+    },
     "r-garray-1.1.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -29468,6 +29819,24 @@
       "subdir": "noarch",
       "timestamp": 1557936809234,
       "version": "0.0.2"
+    },
+    "r-generics-0.1.2-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "927f45a7ca4072cc03e0e3471404d09d",
+      "name": "r-generics",
+      "noarch": "generic",
+      "sha256": "68d5ce1f7aed4140af333bbebef613e19c79af3870e68184b6e0bfbd1720aaf1",
+      "size": 86041,
+      "subdir": "noarch",
+      "timestamp": 1653521492078,
+      "version": "0.1.2"
     },
     "r-genesignaturefinder-2014.02.17-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -30177,6 +30546,34 @@
       "subdir": "noarch",
       "timestamp": 1557999248349,
       "version": "3.1.1"
+    },
+    "r-ggplot2-3.3.6-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-digest",
+        "r-glue",
+        "r-gtable >=0.1.1",
+        "r-isoband",
+        "r-mass",
+        "r-mgcv",
+        "r-rlang >=0.4.10",
+        "r-scales >=0.5.0",
+        "r-tibble",
+        "r-withr >=2.0.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a917516d5dab17106a3f924dfc278deb",
+      "name": "r-ggplot2",
+      "noarch": "generic",
+      "sha256": "5ff6fcf8f81d65c582aeaf8db425bb970cdb0ba53c61b1ac91fd366390cc0e3e",
+      "size": 4189453,
+      "subdir": "noarch",
+      "timestamp": 1653526762004,
+      "version": "3.3.6"
     },
     "r-ggplot2movies-0.0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -31392,6 +31789,38 @@
       "timestamp": 1568369357068,
       "version": "0.0.2"
     },
+    "r-googledrive-2.0.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli >=3.0.0",
+        "r-gargle >=1.2.0",
+        "r-glue >=1.4.2",
+        "r-httr",
+        "r-jsonlite",
+        "r-lifecycle",
+        "r-magrittr",
+        "r-pillar",
+        "r-purrr >=0.2.3",
+        "r-rlang >=0.4.9",
+        "r-tibble >=2.0.0",
+        "r-uuid",
+        "r-vctrs >=0.3.0",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "b69786136d3d37e598ba7ec45a989ef7",
+      "name": "r-googledrive",
+      "noarch": "generic",
+      "sha256": "861a7f640ec383c416fb6fa5fcdf699687d5580e75f88936e37a92c774e00131",
+      "size": 1893424,
+      "subdir": "noarch",
+      "timestamp": 1653526910553,
+      "version": "2.0.0"
+    },
     "r-googleformr-0.0.3-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -31432,6 +31861,38 @@
       "subdir": "noarch",
       "timestamp": 1568369617850,
       "version": "0.1.0"
+    },
+    "r-googlesheets4-1.0.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cellranger",
+        "r-cli >=3.0.0",
+        "r-curl",
+        "r-gargle >=1.2.0",
+        "r-glue >=1.3.0",
+        "r-googledrive >=2.0.0",
+        "r-httr",
+        "r-ids",
+        "r-magrittr",
+        "r-purrr",
+        "r-rematch2",
+        "r-rlang >=0.4.11",
+        "r-tibble >=2.1.1",
+        "r-vctrs >=0.2.3",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "232bdcb007ce267300a46591175dd50e",
+      "name": "r-googlesheets4",
+      "noarch": "generic",
+      "sha256": "6f440d42233caec2d283c29e64eee6350ced14d4c1bba3701f8dc4a2438e56a6",
+      "size": 501478,
+      "subdir": "noarch",
+      "timestamp": 1653527426493,
+      "version": "1.0.0"
     },
     "r-googlevis-0.6.4-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -32667,6 +33128,24 @@
       "size": 434705,
       "subdir": "noarch",
       "timestamp": 1557945684063,
+      "version": "0.3.0"
+    },
+    "r-gtable-0.3.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-2",
+      "license_family": "GPL2",
+      "md5": "e46db3a6a737d313e8cc5b3d196e26c8",
+      "name": "r-gtable",
+      "noarch": "generic",
+      "sha256": "242235457dd0c9fe9a84d8b900d463b3106e80d1b707a06105b6a949f600c406",
+      "size": 424352,
+      "subdir": "noarch",
+      "timestamp": 1653522870087,
       "version": "0.3.0"
     },
     "r-gtcorr-0.2_1-r36h6115d3f_0.tar.bz2": {
@@ -34025,6 +34504,25 @@
       "timestamp": 1568374491911,
       "version": "0.1"
     },
+    "r-here-1.0.1-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-rprojroot >=2.0.2",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4c6f2bad8435594c19f855d7333b73a4",
+      "name": "r-here",
+      "noarch": "generic",
+      "sha256": "2cae6b1963da3898c18af53811fe0c65f4ee5e485d28808c359b2e3e46af0065",
+      "size": 56294,
+      "subdir": "noarch",
+      "timestamp": 1653524744942,
+      "version": "1.0.1"
+    },
     "r-heritability-1.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -34381,6 +34879,25 @@
       "subdir": "noarch",
       "timestamp": 1557946340532,
       "version": "0.8"
+    },
+    "r-highr-0.9-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-xfun >=0.18",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "73a4959dfd58bcf004df7e9e37df30dc",
+      "name": "r-highr",
+      "noarch": "generic",
+      "sha256": "78fcd52e177f1b500cb54c60349fb441e93811235550d096877948c4b9f90aee",
+      "size": 57577,
+      "subdir": "noarch",
+      "timestamp": 1653524790895,
+      "version": "0.9"
     },
     "r-highscreen-0.3-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -34754,6 +35271,29 @@
       "subdir": "noarch",
       "timestamp": 1557955556659,
       "version": "0.4.2"
+    },
+    "r-hms-1.1.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-ellipsis >=0.3.2",
+        "r-lifecycle",
+        "r-pkgconfig",
+        "r-rlang",
+        "r-vctrs >=0.3.8",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d2aa9508006a271c99ed9a9dd72092e1",
+      "name": "r-hms",
+      "noarch": "generic",
+      "sha256": "2366b76b9ce17a5ff5cbd5d285a202a307e067cd5dde7dffa307c26073b57f54",
+      "size": 106624,
+      "subdir": "noarch",
+      "timestamp": 1653526331521,
+      "version": "1.1.1"
     },
     "r-hmstimer-0.0.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -35405,6 +35945,29 @@
       "subdir": "noarch",
       "timestamp": 1557994724521,
       "version": "1.4.0"
+    },
+    "r-httr-1.4.3-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-curl >=3.0.0",
+        "r-jsonlite",
+        "r-mime",
+        "r-openssl >=0.8",
+        "r-r6",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "dcbd05232805972e3239910d057d8095",
+      "name": "r-httr",
+      "noarch": "generic",
+      "sha256": "18905d7eb06ca3ee232a0fdd512c04df02db1adda64d2373bbcaeaab176856b6",
+      "size": 505535,
+      "subdir": "noarch",
+      "timestamp": 1653526239082,
+      "version": "1.4.3"
     },
     "r-hues-0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -36586,6 +37149,26 @@
       "size": 128254,
       "subdir": "noarch",
       "timestamp": 1568351490770,
+      "version": "1.0.1"
+    },
+    "r-ids-1.0.1-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-openssl",
+        "r-uuid",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1482ced07cfa641a206072b4c7daf249",
+      "name": "r-ids",
+      "noarch": "generic",
+      "sha256": "ecf78ce18734112bcea12688e26f8c1cebdae863d382e62ad40906d30a6f5011",
+      "size": 128415,
+      "subdir": "noarch",
+      "timestamp": 1653526285392,
       "version": "1.0.1"
     },
     "r-idx2r-1.0.0-r36h6115d3f_0.tar.bz2": {
@@ -38532,6 +39115,25 @@
       "timestamp": 1557996571584,
       "version": "0.7.0"
     },
+    "r-irdisplay-1.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-repr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "0d6d3650c7174ad6e80d3bebb1ce685f",
+      "name": "r-irdisplay",
+      "noarch": "generic",
+      "sha256": "e7bccfab53c724b5f7c8bd8e3d20cfc30e60d9b7b255085a5e4afa629cb67986",
+      "size": 39138,
+      "subdir": "noarch",
+      "timestamp": 1653527006605,
+      "version": "1.1"
+    },
     "r-iregression-1.2.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -38614,6 +39216,32 @@
       "subdir": "noarch",
       "timestamp": 1558000813552,
       "version": "0.8.15"
+    },
+    "r-irkernel-1.3-r42_0.tar.bz2": {
+      "build": "r42_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-crayon",
+        "r-digest",
+        "r-evaluate >=0.10",
+        "r-irdisplay >=0.3.0.9999",
+        "r-jsonlite >=0.9.6",
+        "r-pbdzmq >=0.2_1",
+        "r-repr >=0.4.99",
+        "r-uuid",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d62d0a518b8af76cf5271ceb3ae69393",
+      "name": "r-irkernel",
+      "noarch": "generic",
+      "sha256": "e2cb8c09f3911928b5a7b54c914a77d16e74b9854c51061f5857c68ba77124dc",
+      "size": 240730,
+      "subdir": "noarch",
+      "timestamp": 1653527567409,
+      "version": "1.3"
     },
     "r-irr-0.84.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -39689,6 +40317,25 @@
       "timestamp": 1568372849436,
       "version": "1.0"
     },
+    "r-jquerylib-0.1.4-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-htmltools",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4aac014f67d5c5adc572c1713d6205ac",
+      "name": "r-jquerylib",
+      "noarch": "generic",
+      "sha256": "7c90f8d2d2cb31e3d5ec9bc624b60cd531786e786868287325a71fb0f11cbeea",
+      "size": 377591,
+      "subdir": "noarch",
+      "timestamp": 1653525384263,
+      "version": "0.1.4"
+    },
     "r-jrc-0.1.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -40495,6 +41142,29 @@
       "timestamp": 1557990477724,
       "version": "1.22"
     },
+    "r-knitr-1.39-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-evaluate >=0.15",
+        "r-highr",
+        "r-stringr >=0.6",
+        "r-xfun >=0.29",
+        "r-yaml >=2.1.19",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "b8404047799de026f6dc158d5ed1995e",
+      "name": "r-knitr",
+      "noarch": "generic",
+      "sha256": "ce5929f35695237b2a4dcf5ccabe22a8c1f42cd3defa4c4a6b7bab94e625978e",
+      "size": 1386326,
+      "subdir": "noarch",
+      "timestamp": 1653525874308,
+      "version": "1.39"
+    },
     "r-knitrbootstrap-1.0.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -41070,6 +41740,24 @@
       "subdir": "noarch",
       "timestamp": 1557947384563,
       "version": "0.3"
+    },
+    "r-labeling-0.4.2-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6cc26bd9bd114b0034ec8d1770a4a3ab",
+      "name": "r-labeling",
+      "noarch": "generic",
+      "sha256": "fd2495e52b39ea95c4e2fd9c9891a076363b55038eb7422741d55455371aaccc",
+      "size": 68035,
+      "subdir": "noarch",
+      "timestamp": 1653523310266,
+      "version": "0.4.2"
     },
     "r-labelvector-0.1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -42573,6 +43261,26 @@
       "subdir": "noarch",
       "timestamp": 1568351174919,
       "version": "0.1.2"
+    },
+    "r-lifecycle-1.0.1-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-glue",
+        "r-rlang >=0.4.10",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "99099aabcb284ad96673114a76fd5c7e",
+      "name": "r-lifecycle",
+      "noarch": "generic",
+      "sha256": "0e2dac7c71dd39edb3b9cb0d5e178a0c9b4675a553e7c6ae8a54f9e8f031c029",
+      "size": 110542,
+      "subdir": "noarch",
+      "timestamp": 1653524641210,
+      "version": "1.0.1"
     },
     "r-lift-0.0.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -49537,6 +50245,32 @@
       "timestamp": 1558010963069,
       "version": "0.1.4"
     },
+    "r-modelr-0.1.8-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-broom",
+        "r-magrittr",
+        "r-purrr >=0.2.2",
+        "r-rlang >=0.2.0",
+        "r-tibble",
+        "r-tidyr >=0.8.0",
+        "r-tidyselect",
+        "r-vctrs",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "68a402aefce63d5fe60ca7921ba90139",
+      "name": "r-modelr",
+      "noarch": "generic",
+      "sha256": "dad2a189a66b44d1f4af6e466c0e2ea7701a74c821be0a9f1745840062a711d9",
+      "size": 222910,
+      "subdir": "noarch",
+      "timestamp": 1653527943855,
+      "version": "0.1.8"
+    },
     "r-modeltools-0.2_22-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -51842,6 +52576,25 @@
       "size": 260237,
       "subdir": "noarch",
       "timestamp": 1557985086349,
+      "version": "0.5.0"
+    },
+    "r-munsell-0.5.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-colorspace",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f7c29ae760e61dafec4d5834bef9a912",
+      "name": "r-munsell",
+      "noarch": "generic",
+      "sha256": "76e7180f0a9244a0d7250da5ff8f878780d925e5a34a4a608d9600500e0297bf",
+      "size": 252083,
+      "subdir": "noarch",
+      "timestamp": 1653525096170,
       "version": "0.5.0"
     },
     "r-murl-0.1_11-r36h6115d3f_0.tar.bz2": {
@@ -60405,6 +61158,33 @@
       "timestamp": 1557992092162,
       "version": "1.3.1"
     },
+    "r-pillar-1.7.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli >=2.3.0",
+        "r-crayon >=1.3.4",
+        "r-ellipsis >=0.3.2",
+        "r-fansi",
+        "r-glue",
+        "r-lifecycle",
+        "r-rlang >=0.3.0",
+        "r-utf8 >=1.1.0",
+        "r-vctrs >=0.3.8",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2a4c610293eac07a804162d4a191effd",
+      "name": "r-pillar",
+      "noarch": "generic",
+      "sha256": "4542677777ce0c8de9ebfffd84eb10e048f408e8106acf82d829f18bf1e7a6fc",
+      "size": 711420,
+      "subdir": "noarch",
+      "timestamp": 1653526190066,
+      "version": "1.7.0"
+    },
     "r-pinfsc50-1.1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -60768,6 +61548,24 @@
       "timestamp": 1557944177844,
       "version": "2.0.2"
     },
+    "r-pkgconfig-2.0.3-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "215746e97947c01114d1d7c1b037d792",
+      "name": "r-pkgconfig",
+      "noarch": "generic",
+      "sha256": "643fa25c77cdcb7bc44cb17392e82280012f3506028fedb7983e45c1e5d9b7ef",
+      "size": 24935,
+      "subdir": "noarch",
+      "timestamp": 1653523097806,
+      "version": "2.0.3"
+    },
     "r-pkgdown-1.4.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -60828,6 +61626,31 @@
       "subdir": "noarch",
       "timestamp": 1571063873208,
       "version": "0.1.4"
+    },
+    "r-pkgload-1.2.4-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli",
+        "r-crayon",
+        "r-desc",
+        "r-rlang",
+        "r-rprojroot",
+        "r-rstudioapi",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "e6e665edbf439e6925293da8a274dda4",
+      "name": "r-pkgload",
+      "noarch": "generic",
+      "sha256": "283e264f4b7eb7dde0227e155a3605bc20d11b7ee2bf2d304479bf04b965ca3d",
+      "size": 174551,
+      "subdir": "noarch",
+      "timestamp": 1653526378122,
+      "version": "1.2.4"
     },
     "r-pkgmaker-0.27-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -62785,6 +63608,24 @@
       "timestamp": 1557949697126,
       "version": "1.0.0"
     },
+    "r-praise-1.0.0-r42h6115d3f_4.tar.bz2": {
+      "build": "r42h6115d3f_4",
+      "build_number": 4,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a049d1ed241dfecfd6aacd7383223e1f",
+      "name": "r-praise",
+      "noarch": "generic",
+      "sha256": "1e9f93d8479c710633f02ee3011ce458765828584e69c1e1393e33c2bae796a1",
+      "size": 23365,
+      "subdir": "noarch",
+      "timestamp": 1653523520883,
+      "version": "1.0.0"
+    },
     "r-praktikum-0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -63069,6 +63910,24 @@
       "subdir": "noarch",
       "timestamp": 1557953714954,
       "version": "1.0.2"
+    },
+    "r-prettyunits-1.1.1-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "455c48422cce4e4da11b616f0cba2a87",
+      "name": "r-prettyunits",
+      "noarch": "generic",
+      "sha256": "37d1bc01aea3e0933260c758b0f8e5c10acd3c1b6cf3a2c1bf42d225fe9e8293",
+      "size": 42322,
+      "subdir": "noarch",
+      "timestamp": 1653523565549,
+      "version": "1.1.1"
     },
     "r-prevederer-0.0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -63565,6 +64424,28 @@
       "subdir": "noarch",
       "timestamp": 1557992166365,
       "version": "1.2.0"
+    },
+    "r-progress-1.2.2-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-crayon",
+        "r-hms",
+        "r-prettyunits",
+        "r-r6",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9ec0ac7a702fcc1a3494bb5312da07db",
+      "name": "r-progress",
+      "noarch": "generic",
+      "sha256": "3dfe18c2067f1714df68e3067efdb25bd31f2a30bff67b06f21fd2d4713adc26",
+      "size": 92687,
+      "subdir": "noarch",
+      "timestamp": 1653526580756,
+      "version": "1.2.2"
     },
     "r-projecttemplate-0.9.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -66181,6 +67062,24 @@
       "timestamp": 1557934669453,
       "version": "2.4.0"
     },
+    "r-r6-2.5.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5606cf8ba463cfa90fea90de4801d7bc",
+      "name": "r-r6",
+      "noarch": "generic",
+      "sha256": "8f67a14da831a13e34b8049856e86bb00370268340a4e11259a40d7f80324834",
+      "size": 90994,
+      "subdir": "noarch",
+      "timestamp": 1653521645899,
+      "version": "2.5.1"
+    },
     "r-r62s3-1.3.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -67852,6 +68751,24 @@
       "subdir": "noarch",
       "timestamp": 1557944001219,
       "version": "1.1_2"
+    },
+    "r-rcolorbrewer-1.1_3-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "Apache License 2.0",
+      "license_family": "APACHE",
+      "md5": "f5edb65bfd92f410fa56e12b93bf70f3",
+      "name": "r-rcolorbrewer",
+      "noarch": "generic",
+      "sha256": "129758993f2ec8833f89d75d5e1f56417dd93328893c27851df0f272fad35a0a",
+      "size": 60340,
+      "subdir": "noarch",
+      "timestamp": 1653523667129,
+      "version": "1.1_3"
     },
     "r-rconics-1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -69594,6 +70511,24 @@
       "timestamp": 1557941381811,
       "version": "1.0.1"
     },
+    "r-rematch-1.0.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2a9d42dcd091e2989adc12b5c23f63d1",
+      "name": "r-rematch",
+      "noarch": "generic",
+      "sha256": "96630e2a03c6249fbd4a7e7b8b2d41716d0a5e49b00f23f692e50189bdf03cb6",
+      "size": 19249,
+      "subdir": "noarch",
+      "timestamp": 1653521691091,
+      "version": "1.0.1"
+    },
     "r-rematch2-2.1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -69612,6 +70547,25 @@
       "subdir": "noarch",
       "timestamp": 1583933912894,
       "version": "2.1.0"
+    },
+    "r-rematch2-2.1.2-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4aeec5e8dd3934f0594ff48ac9180f51",
+      "name": "r-rematch2",
+      "noarch": "generic",
+      "sha256": "e83bfaa64a89bc698f70e9a832bbe9210f8b8e20a29dc4ce44b765830728baf5",
+      "size": 53249,
+      "subdir": "noarch",
+      "timestamp": 1653526958580,
+      "version": "2.1.2"
     },
     "r-remindr-0.0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -69865,6 +70819,28 @@
       "timestamp": 1557990921021,
       "version": "0.19.2"
     },
+    "r-repr-1.1.4-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-base64enc",
+        "r-htmltools",
+        "r-jsonlite",
+        "r-pillar >=1.4.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "f056069133143a12c9e746b8bfb7ca50",
+      "name": "r-repr",
+      "noarch": "generic",
+      "sha256": "dfe415def7d902a602081cca625ca50b5ec8a4fda6348366f82fd3841da039fd",
+      "size": 147842,
+      "subdir": "noarch",
+      "timestamp": 1653526533732,
+      "version": "1.1.4"
+    },
     "r-represent-1.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -69926,6 +70902,34 @@
       "subdir": "noarch",
       "timestamp": 1558002576600,
       "version": "0.2.1"
+    },
+    "r-reprex-2.0.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-callr >=3.6.0",
+        "r-cli >=2.3.1",
+        "r-clipr >=0.4.0",
+        "r-fs",
+        "r-glue",
+        "r-knitr >=1.23",
+        "r-rlang >=0.4.0",
+        "r-rmarkdown",
+        "r-rstudioapi",
+        "r-withr >=2.3.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c5f8263723df869da0ba76dac0c1326d",
+      "name": "r-reprex",
+      "noarch": "generic",
+      "sha256": "2bac0773ab855e31cb510dc03e25b148e93874d794a2124ce61dd79781c53104",
+      "size": 505024,
+      "subdir": "noarch",
+      "timestamp": 1653527160651,
+      "version": "2.0.1"
     },
     "r-reqs-0.8_12-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -72308,6 +73312,34 @@
       "timestamp": 1557995698396,
       "version": "1.12"
     },
+    "r-rmarkdown-2.14-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-bslib >=0.2.5.1",
+        "r-evaluate >=0.13",
+        "r-htmltools >=0.3.5",
+        "r-jquerylib",
+        "r-jsonlite",
+        "r-knitr >=1.22",
+        "r-stringr >=1.2.0",
+        "r-tinytex >=0.31",
+        "r-xfun >=0.30",
+        "r-yaml >=2.1.19",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "93cc2267a836bb7cd1933476aefe0191",
+      "name": "r-rmarkdown",
+      "noarch": "generic",
+      "sha256": "db2530bb747d72ed3ce4d419394cf9f1efe6a8fc02bee0deca2365cb65ca304b",
+      "size": 3299429,
+      "subdir": "noarch",
+      "timestamp": 1653526634274,
+      "version": "2.14"
+    },
     "r-rmawgen-1.3.3-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -74244,6 +75276,24 @@
       "timestamp": 1557955353049,
       "version": "1.3_2"
     },
+    "r-rprojroot-2.0.3-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "856d31409749aa05a6765b2de0bf3494",
+      "name": "r-rprojroot",
+      "noarch": "generic",
+      "sha256": "4c6fab6580d3be4162288017dd5ea6f775707d82d7896e4630ff93c6a1caf566",
+      "size": 106399,
+      "subdir": "noarch",
+      "timestamp": 1653522202759,
+      "version": "2.0.3"
+    },
     "r-rpsychi-0.8-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -75163,6 +76213,24 @@
       "timestamp": 1557943941047,
       "version": "0.10"
     },
+    "r-rstudioapi-0.13-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "c3ac07cd7d8d790a962e7335317e0474",
+      "name": "r-rstudioapi",
+      "noarch": "generic",
+      "sha256": "bf49792381323cd00d4ef506e274ae675928585b41d15a0ade8ebca9c3649045",
+      "size": 286596,
+      "subdir": "noarch",
+      "timestamp": 1653522766944,
+      "version": "0.13"
+    },
     "r-rsubgroup-0.6-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -75821,6 +76889,31 @@
       "subdir": "noarch",
       "timestamp": 1558001034662,
       "version": "0.3.3"
+    },
+    "r-rvest-1.0.2-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-httr >=0.5",
+        "r-lifecycle >=1.0.0",
+        "r-magrittr",
+        "r-rlang >=0.4.10",
+        "r-selectr",
+        "r-tibble",
+        "r-xml2 >=1.3",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9cacac4555ca510ff1519206b447da27",
+      "name": "r-rvest",
+      "noarch": "generic",
+      "sha256": "c8edfb66180cfaa402bb87a19f21b712f07e69b2c064104e6bff589672d6655c",
+      "size": 205388,
+      "subdir": "noarch",
+      "timestamp": 1653527210330,
+      "version": "1.0.2"
     },
     "r-rvhpdt-3.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -76947,6 +78040,32 @@
       "subdir": "noarch",
       "timestamp": 1571068236648,
       "version": "0.2_4.1"
+    },
+    "r-scales-1.2.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-farver >=2.0.3",
+        "r-labeling",
+        "r-lifecycle",
+        "r-munsell >=0.5",
+        "r-r6",
+        "r-rcolorbrewer",
+        "r-rlang >=1.0.0",
+        "r-viridislite",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "64cf379169b33f81670dcd7ec23b5397",
+      "name": "r-scales",
+      "noarch": "generic",
+      "sha256": "b0d6869dd80894707b2184d9165dc7ab2eac74a1d41a0035c032597ab406a0e7",
+      "size": 627391,
+      "subdir": "noarch",
+      "timestamp": 1653525763744,
+      "version": "1.2.0"
     },
     "r-scalreg-1.0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -78250,6 +79369,26 @@
       "subdir": "noarch",
       "timestamp": 1557993217521,
       "version": "0.4_1"
+    },
+    "r-selectr-0.4_2-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-r6",
+        "r-stringr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "BSD_3_clause",
+      "license_family": "BSD",
+      "md5": "d9130d12c015528050fb3712b1b02085",
+      "name": "r-selectr",
+      "noarch": "generic",
+      "sha256": "696e94c5de6170fe8a15e5c23226e028f26f7e85efd8fe8cc66dd98b543905e4",
+      "size": 471681,
+      "subdir": "noarch",
+      "timestamp": 1653525994895,
+      "version": "0.4_2"
     },
     "r-selemix-1.0.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -85401,6 +86540,27 @@
       "timestamp": 1557953439126,
       "version": "1.4.0"
     },
+    "r-stringr-1.4.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-glue >=1.2.0",
+        "r-magrittr",
+        "r-stringi >=1.1.7",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-2",
+      "license_family": "GPL2",
+      "md5": "a444cde7fa66c04a03782955f7084ba0",
+      "name": "r-stringr",
+      "noarch": "generic",
+      "sha256": "bb18a7cadb525b156ca4fa8f2f75e70b94a28f63c62a190f7b7b380c06062406",
+      "size": 215204,
+      "subdir": "noarch",
+      "timestamp": 1653524426224,
+      "version": "1.4.0"
+    },
     "r-strip-1.0.0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -88923,6 +90083,53 @@
       "timestamp": 1558011744897,
       "version": "1.2.1"
     },
+    "r-tidyverse-1.3.1-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-broom >=0.7.6",
+        "r-cli >=2.4.0",
+        "r-crayon >=1.4.1",
+        "r-dbplyr >=2.1.1",
+        "r-dplyr >=1.0.5",
+        "r-dtplyr >=1.1.0",
+        "r-forcats >=0.5.1",
+        "r-ggplot2 >=3.3.3",
+        "r-googledrive >=1.0.1",
+        "r-googlesheets4 >=0.3.0",
+        "r-haven >=2.3.1",
+        "r-hms >=1.0.0",
+        "r-httr >=1.4.2",
+        "r-jsonlite >=1.7.2",
+        "r-lubridate >=1.7.10",
+        "r-magrittr >=2.0.1",
+        "r-modelr >=0.1.8",
+        "r-pillar >=1.6.0",
+        "r-purrr >=0.3.4",
+        "r-readr >=1.4.0",
+        "r-readxl >=1.3.1",
+        "r-reprex >=2.0.0",
+        "r-rlang >=0.4.10",
+        "r-rstudioapi >=0.13",
+        "r-rvest >=1.0.0",
+        "r-stringr >=1.4.0",
+        "r-tibble >=3.1.0",
+        "r-tidyr >=1.1.3",
+        "r-xml2 >=1.3.2",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3166a7e81477ea6b3f97b044211ce7d1",
+      "name": "r-tidyverse",
+      "noarch": "generic",
+      "sha256": "3355cf4d990515f0c7f3449f976a85d6ebcbf9c1c11eb871aaa7801a879999d9",
+      "size": 447046,
+      "subdir": "noarch",
+      "timestamp": 1653528009748,
+      "version": "1.3.1"
+    },
     "r-tightclust-1.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -89253,6 +90460,25 @@
       "subdir": "noarch",
       "timestamp": 1557986138458,
       "version": "0.12"
+    },
+    "r-tinytex-0.38-r42h142f84f_0.tar.bz2": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-xfun >=0.29",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "160ad4f08aadb98a15a2d2d74550c67c",
+      "name": "r-tinytex",
+      "noarch": "generic",
+      "sha256": "5d6215ee7a0e44c63f393babba6ee5f48a3a8615f738f6106bfc21274ead74ba",
+      "size": 137906,
+      "subdir": "noarch",
+      "timestamp": 1653525267152,
+      "version": "0.38"
     },
     "r-tiobeindexr-0.1.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -93048,6 +94274,24 @@
       "timestamp": 1557945746797,
       "version": "0.3.0"
     },
+    "r-viridislite-0.4.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "388a9b800f83fe31296e3885b7cef2d5",
+      "name": "r-viridislite",
+      "noarch": "generic",
+      "sha256": "267b93b897a1dfa25ccb8b58c5b14bdbdaf795e2860dde3e1482970a292217e9",
+      "size": 1317925,
+      "subdir": "noarch",
+      "timestamp": 1653523996330,
+      "version": "0.4.0"
+    },
     "r-virustotal-0.2.1-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
       "build_number": 0,
@@ -93529,6 +94773,31 @@
       "subdir": "noarch",
       "timestamp": 1568622255487,
       "version": "0.0.1"
+    },
+    "r-waldo-0.4.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli",
+        "r-diffobj >=0.3.4",
+        "r-fansi",
+        "r-glue",
+        "r-rematch2",
+        "r-rlang >=1.0.0",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "136e39e01399a704fa08b6a274c4d96b",
+      "name": "r-waldo",
+      "noarch": "generic",
+      "sha256": "44552963201eec22fdc984db5ae6b508d8d4afa21f70671341ed4f79223e295b",
+      "size": 110305,
+      "subdir": "noarch",
+      "timestamp": 1653527683498,
+      "version": "0.4.0"
     },
     "r-walkscoreapi-1.2-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -94467,6 +95736,24 @@
       "subdir": "noarch",
       "timestamp": 1557941250993,
       "version": "2.1.2"
+    },
+    "r-withr-2.5.0-r42h6115d3f_0.tar.bz2": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f913b8d18a7a6e41e74e62d6522334cf",
+      "name": "r-withr",
+      "noarch": "generic",
+      "sha256": "e63af318fe3fb02ec581fc8fbf3ffc6c181f36aab6132c6605cb8d3f9f2d8298",
+      "size": 237612,
+      "subdir": "noarch",
+      "timestamp": 1653522157191,
+      "version": "2.5.0"
     },
     "r-wkb-0.3_0-r36h6115d3f_0.tar.bz2": {
       "build": "r36h6115d3f_0",
@@ -96083,7 +97370,1295 @@
   "info": {
     "subdir": "noarch"
   },
-  "packages.conda": {},
+  "packages.conda": {
+    "r-assertthat-0.2.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "b4689e72f8d919c62c0f057d3a6b58d0",
+      "name": "r-assertthat",
+      "noarch": "generic",
+      "sha256": "b4f2241664158acb19de8fc9d877069332644cf206eeec4c4e3cf7bc54661847",
+      "size": 69482,
+      "subdir": "noarch",
+      "timestamp": 1653521165388,
+      "version": "0.2.1"
+    },
+    "r-blob-1.2.3-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-rlang",
+        "r-vctrs >=0.2.1",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "63bd1cbf2752a5b9e3dccbb68800f995",
+      "name": "r-blob",
+      "noarch": "generic",
+      "sha256": "49bfb3871bfab8d0e239cffcdc4b2102857507c2528caff502d74974e3416676",
+      "size": 52395,
+      "subdir": "noarch",
+      "timestamp": 1653526040866,
+      "version": "1.2.3"
+    },
+    "r-broom-0.8.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-backports",
+        "r-base >=4.2,<4.3.0a0",
+        "r-dplyr >=1.0.0",
+        "r-ellipsis",
+        "r-generics >=0.0.2",
+        "r-ggplot2",
+        "r-glue",
+        "r-purrr",
+        "r-rlang",
+        "r-stringr",
+        "r-tibble >=3.0.0",
+        "r-tidyr >=1.0.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "f4a2b23cb0dd60dd1326556d45745d3f",
+      "name": "r-broom",
+      "noarch": "generic",
+      "sha256": "2d197ff17c0e76a9be5c54117de49f822122371378f54b9884158f8cdeb066c3",
+      "size": 1789952,
+      "subdir": "noarch",
+      "timestamp": 1653527738581,
+      "version": "0.8.0"
+    },
+    "r-bslib-0.3.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-htmltools >=0.5.2",
+        "r-jquerylib >=0.1.3",
+        "r-jsonlite",
+        "r-rlang",
+        "r-sass >=0.4.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e32ecd3946f1c5dd7fb81c8576c16724",
+      "name": "r-bslib",
+      "noarch": "generic",
+      "sha256": "fdad78e56c76ed1b92fc7df6541358365d69b75cd812bb7ea91e40a12ca5d659",
+      "size": 4042203,
+      "subdir": "noarch",
+      "timestamp": 1653526091412,
+      "version": "0.3.1"
+    },
+    "r-callr-3.7.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-processx >=3.5.0",
+        "r-r6",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5df8d2018d9def0f19fa3356d5c765d5",
+      "name": "r-callr",
+      "noarch": "generic",
+      "sha256": "84521f8bd0e01f022ebbaf8f3645c2474fc711ae70fbe9fe832841a3006af873",
+      "size": 425024,
+      "subdir": "noarch",
+      "timestamp": 1653525579319,
+      "version": "3.7.0"
+    },
+    "r-cellranger-1.1.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-rematch",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "56b0e96e3b69c1089af42dfd23c4047a",
+      "name": "r-cellranger",
+      "noarch": "generic",
+      "sha256": "6a3214fd14e763ce04fec18fc96e3bda111b5914b1396d83b9734930d84aee9d",
+      "size": 106052,
+      "subdir": "noarch",
+      "timestamp": 1653526811513,
+      "version": "1.1.0"
+    },
+    "r-clipr-0.8.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "acadb7634054253c1706832c2cfcaed0",
+      "name": "r-clipr",
+      "noarch": "generic",
+      "sha256": "22281614ffe38ee8fc5e8893f62c9861ec107ce7e2c7b121e0298d47f1daaecc",
+      "size": 67033,
+      "subdir": "noarch",
+      "timestamp": 1653521736497,
+      "version": "0.8.0"
+    },
+    "r-cpp11-0.4.2-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "e1c46bd8076f5767c04b65b424a1cf61",
+      "name": "r-cpp11",
+      "noarch": "generic",
+      "sha256": "822f9eecfac8141a86e54f226648ad06da1ca4458986e89493cec469eb7fc313",
+      "size": 231798,
+      "subdir": "noarch",
+      "timestamp": 1653521839137,
+      "version": "0.4.2"
+    },
+    "r-crayon-1.5.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2f1cc09a6f3f04b0e293ce20699cd62f",
+      "name": "r-crayon",
+      "noarch": "generic",
+      "sha256": "0c7cb58b1e8ae2b5b2865eea613a6847c91a909857cc45e7a8d0fd0d830783e0",
+      "size": 162231,
+      "subdir": "noarch",
+      "timestamp": 1653521883714,
+      "version": "1.5.1"
+    },
+    "r-dbi-1.1.2-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "LGPL-2.1",
+      "license_family": "LGPL",
+      "md5": "f3900c893a3d994fa36c4a2c31ef01b6",
+      "name": "r-dbi",
+      "noarch": "generic",
+      "sha256": "814459f053bee5621a678180bbc8be25b1959152ce33532b31e04cc4569043e2",
+      "size": 686747,
+      "subdir": "noarch",
+      "timestamp": 1653522058748,
+      "version": "1.1.2"
+    },
+    "r-dbplyr-2.1.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-assertthat >=0.2.0",
+        "r-base >=4.2,<4.3.0a0",
+        "r-blob >=1.2.0",
+        "r-dbi >=1.0.0",
+        "r-dplyr >=1.0.4",
+        "r-ellipsis",
+        "r-glue >=1.2.0",
+        "r-lifecycle >=1.0.0",
+        "r-magrittr",
+        "r-purrr >=0.2.5",
+        "r-r6 >=2.2.2",
+        "r-rlang >=0.2.0",
+        "r-tibble >=1.4.2",
+        "r-tidyselect >=0.2.4",
+        "r-vctrs",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "7a2f31df97ed59714b32c41b43d5acea",
+      "name": "r-dbplyr",
+      "noarch": "generic",
+      "sha256": "096304a634a8190e4ab677000e3d62926d9fd0546199213bba34ced9987c789f",
+      "size": 776160,
+      "subdir": "noarch",
+      "timestamp": 1653527324076,
+      "version": "2.1.1"
+    },
+    "r-desc-1.4.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli",
+        "r-r6",
+        "r-rprojroot",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3428b24dba4951c2f0c773e674115f26",
+      "name": "r-desc",
+      "noarch": "generic",
+      "sha256": "205a6b37be7a479b1b5e4cdeb3bc5f66af434ef26fdf6b64e6a05cfed2c34400",
+      "size": 327229,
+      "subdir": "noarch",
+      "timestamp": 1653525624741,
+      "version": "1.4.1"
+    },
+    "r-dtplyr-1.2.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-crayon",
+        "r-data.table >=1.13.0",
+        "r-dplyr >=1.0.3",
+        "r-ellipsis",
+        "r-glue",
+        "r-lifecycle",
+        "r-rlang",
+        "r-tibble",
+        "r-tidyselect",
+        "r-vctrs",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4f59641c8048f5fa387f23d3f7aeb131",
+      "name": "r-dtplyr",
+      "noarch": "generic",
+      "sha256": "61379e18cf34cb6e871aad5d9b87a780173728d7b6380c03ff82f192c23af14b",
+      "size": 328885,
+      "subdir": "noarch",
+      "timestamp": 1653527374390,
+      "version": "1.2.1"
+    },
+    "r-evaluate-0.15-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2607c64d6eee268355b1930331067a34",
+      "name": "r-evaluate",
+      "noarch": "generic",
+      "sha256": "cbb154bae5ab3b7099bf0ec32369f00a42b52130edc74c492e134e94563fb925",
+      "size": 83121,
+      "subdir": "noarch",
+      "timestamp": 1653522358053,
+      "version": "0.15"
+    },
+    "r-forcats-0.5.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-ellipsis",
+        "r-magrittr",
+        "r-rlang",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4d1bfcef57341cd8aa0d64ee8579b6c8",
+      "name": "r-forcats",
+      "noarch": "generic",
+      "sha256": "d59c0e82ec89c6d7360c8362a3a16582f82c9b596163b8ecb8571605a5075966",
+      "size": 357512,
+      "subdir": "noarch",
+      "timestamp": 1653526858612,
+      "version": "0.5.1"
+    },
+    "r-gargle-1.2.0-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli >=3.0.0",
+        "r-fs >=1.3.1",
+        "r-glue >=1.3.0",
+        "r-httr >=1.4.0",
+        "r-jsonlite",
+        "r-rappdirs",
+        "r-rlang >=0.4.9",
+        "r-rstudioapi",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "4f2d6aae4ce8cbda6005d526de125e39",
+      "name": "r-gargle",
+      "noarch": "generic",
+      "sha256": "b9fb7d19a400aa876f54afd5073ca55799d6e315e4b50d13e06605b066831609",
+      "size": 461721,
+      "subdir": "noarch",
+      "timestamp": 1653526486047,
+      "version": "1.2.0"
+    },
+    "r-generics-0.1.2-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "769f8b8691e1c001c2b65492b855d4c1",
+      "name": "r-generics",
+      "noarch": "generic",
+      "sha256": "821cb7425a575d69bf17f2ec3e175b8b8c3865e9bf55b074d417be2e0453fa54",
+      "size": 82570,
+      "subdir": "noarch",
+      "timestamp": 1653521492078,
+      "version": "0.1.2"
+    },
+    "r-ggplot2-3.3.6-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-digest",
+        "r-glue",
+        "r-gtable >=0.1.1",
+        "r-isoband",
+        "r-mass",
+        "r-mgcv",
+        "r-rlang >=0.4.10",
+        "r-scales >=0.5.0",
+        "r-tibble",
+        "r-withr >=2.0.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a28ddec1b3c16e407a38c82e5afb76bc",
+      "name": "r-ggplot2",
+      "noarch": "generic",
+      "sha256": "ffffc10f93611c612cbaa782d9ca92a21ac4a890b7eced2162b4d08ab30b88c7",
+      "size": 3985370,
+      "subdir": "noarch",
+      "timestamp": 1653526762004,
+      "version": "3.3.6"
+    },
+    "r-googledrive-2.0.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli >=3.0.0",
+        "r-gargle >=1.2.0",
+        "r-glue >=1.4.2",
+        "r-httr",
+        "r-jsonlite",
+        "r-lifecycle",
+        "r-magrittr",
+        "r-pillar",
+        "r-purrr >=0.2.3",
+        "r-rlang >=0.4.9",
+        "r-tibble >=2.0.0",
+        "r-uuid",
+        "r-vctrs >=0.3.0",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "040bc84c2fa3fd8628836c9c2f89ee79",
+      "name": "r-googledrive",
+      "noarch": "generic",
+      "sha256": "fe90ff4bc8dc9a04997fef701275a378a64f53f9b4cb443590c9a3f852508daa",
+      "size": 1177566,
+      "subdir": "noarch",
+      "timestamp": 1653526910553,
+      "version": "2.0.0"
+    },
+    "r-googlesheets4-1.0.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cellranger",
+        "r-cli >=3.0.0",
+        "r-curl",
+        "r-gargle >=1.2.0",
+        "r-glue >=1.3.0",
+        "r-googledrive >=2.0.0",
+        "r-httr",
+        "r-ids",
+        "r-magrittr",
+        "r-purrr",
+        "r-rematch2",
+        "r-rlang >=0.4.11",
+        "r-tibble >=2.1.1",
+        "r-vctrs >=0.2.3",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a6559d37fa11c7ee64ca0ecf34fee746",
+      "name": "r-googlesheets4",
+      "noarch": "generic",
+      "sha256": "60f0fc92272d7a6e3c2740bc556c41dc7b5f9ac348d6340cadd186594d07a895",
+      "size": 488541,
+      "subdir": "noarch",
+      "timestamp": 1653527426493,
+      "version": "1.0.0"
+    },
+    "r-gtable-0.3.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-2",
+      "license_family": "GPL2",
+      "md5": "c62f0bb9c1964cf06d370edd655cab78",
+      "name": "r-gtable",
+      "noarch": "generic",
+      "sha256": "524b79f89f86b21016903db4514b43c70144022943a102d50c03d7af6c7b34b3",
+      "size": 400125,
+      "subdir": "noarch",
+      "timestamp": 1653522870087,
+      "version": "0.3.0"
+    },
+    "r-here-1.0.1-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-rprojroot >=2.0.2",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "52440218613d414172bf102d27ee452b",
+      "name": "r-here",
+      "noarch": "generic",
+      "sha256": "9fb235b3da7f2f43aad6dbe13f2c192d2ddd83f089ceb144d402e13366d20cfc",
+      "size": 54068,
+      "subdir": "noarch",
+      "timestamp": 1653524744942,
+      "version": "1.0.1"
+    },
+    "r-highr-0.9-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-xfun >=0.18",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "932f73d43c3699cf89626da6b77fb833",
+      "name": "r-highr",
+      "noarch": "generic",
+      "sha256": "3b95cbb9cd89675e4aaa060c30529a34e646edc52d244802b3eb5be851665889",
+      "size": 56008,
+      "subdir": "noarch",
+      "timestamp": 1653524790895,
+      "version": "0.9"
+    },
+    "r-hms-1.1.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-ellipsis >=0.3.2",
+        "r-lifecycle",
+        "r-pkgconfig",
+        "r-rlang",
+        "r-vctrs >=0.3.8",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "2136262480c370b46ab6f67684825721",
+      "name": "r-hms",
+      "noarch": "generic",
+      "sha256": "49cb3ebc6d655bb1028e435618399681a93a0ab7d94fff7878b9c4bbd2a62dce",
+      "size": 103218,
+      "subdir": "noarch",
+      "timestamp": 1653526331521,
+      "version": "1.1.1"
+    },
+    "r-httr-1.4.3-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-curl >=3.0.0",
+        "r-jsonlite",
+        "r-mime",
+        "r-openssl >=0.8",
+        "r-r6",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "36c8c80176430a548dada99be646b717",
+      "name": "r-httr",
+      "noarch": "generic",
+      "sha256": "caad649a1df549d971cdd10f393e42302a2c05af54ce0a858879780d3d2a7174",
+      "size": 483313,
+      "subdir": "noarch",
+      "timestamp": 1653526239082,
+      "version": "1.4.3"
+    },
+    "r-ids-1.0.1-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-openssl",
+        "r-uuid",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6267a832f00006626822fb85d83135a6",
+      "name": "r-ids",
+      "noarch": "generic",
+      "sha256": "ef5dba569a0f04f56e50be49d646fc57fce1afa59b79228b1e7a254cc96e014a",
+      "size": 124167,
+      "subdir": "noarch",
+      "timestamp": 1653526285392,
+      "version": "1.0.1"
+    },
+    "r-irdisplay-1.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-repr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "dd763205ed614159911dff0101a21f45",
+      "name": "r-irdisplay",
+      "noarch": "generic",
+      "sha256": "e916368986b5abcc98efa8dd05e330a1ca1da8a15c00d05dc5f61fa8cde4b8e0",
+      "size": 38150,
+      "subdir": "noarch",
+      "timestamp": 1653527006605,
+      "version": "1.1"
+    },
+    "r-irkernel-1.3-r42_0.conda": {
+      "build": "r42_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-crayon",
+        "r-digest",
+        "r-evaluate >=0.10",
+        "r-irdisplay >=0.3.0.9999",
+        "r-jsonlite >=0.9.6",
+        "r-pbdzmq >=0.2_1",
+        "r-repr >=0.4.99",
+        "r-uuid",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bf337ff01577bc409613a05840d9877b",
+      "name": "r-irkernel",
+      "noarch": "generic",
+      "sha256": "c6a753a440c506204e483f291a1bbcf6d870c4a7e0c36be3a5b3e2d2e2832dfb",
+      "size": 228438,
+      "subdir": "noarch",
+      "timestamp": 1653527567409,
+      "version": "1.3"
+    },
+    "r-jquerylib-0.1.4-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-htmltools",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "21c51bcb847e0b983fa626df840fa11a",
+      "name": "r-jquerylib",
+      "noarch": "generic",
+      "sha256": "d5718352f3aaf962c6e48d46f0e37db16a5065b55cd254eab1b3f8ca1c02a19a",
+      "size": 303937,
+      "subdir": "noarch",
+      "timestamp": 1653525384263,
+      "version": "0.1.4"
+    },
+    "r-knitr-1.39-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-evaluate >=0.15",
+        "r-highr",
+        "r-stringr >=0.6",
+        "r-xfun >=0.29",
+        "r-yaml >=2.1.19",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "59b72e800334d5d9880e7eaeb33c14e7",
+      "name": "r-knitr",
+      "noarch": "generic",
+      "sha256": "56aad32a54d58faa07f0e87fa78e06066637ba53c37fbb26ca2de726211d45a9",
+      "size": 1269094,
+      "subdir": "noarch",
+      "timestamp": 1653525874308,
+      "version": "1.39"
+    },
+    "r-labeling-0.4.2-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "db57552e7fad222f729bdd82b3109b37",
+      "name": "r-labeling",
+      "noarch": "generic",
+      "sha256": "74d7cd97301e09ac22194ea9006e11c5ab67addb958071a1be7d5b9dec25a00a",
+      "size": 66132,
+      "subdir": "noarch",
+      "timestamp": 1653523310266,
+      "version": "0.4.2"
+    },
+    "r-lifecycle-1.0.1-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-glue",
+        "r-rlang >=0.4.10",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1d411972d714296ff494f38fb67c942d",
+      "name": "r-lifecycle",
+      "noarch": "generic",
+      "sha256": "4bc3461a46d9c5f7850456a97f29ce7a62e8dda46fb981358c7866d4049894cd",
+      "size": 104127,
+      "subdir": "noarch",
+      "timestamp": 1653524641210,
+      "version": "1.0.1"
+    },
+    "r-modelr-0.1.8-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-broom",
+        "r-magrittr",
+        "r-purrr >=0.2.2",
+        "r-rlang >=0.2.0",
+        "r-tibble",
+        "r-tidyr >=0.8.0",
+        "r-tidyselect",
+        "r-vctrs",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "7a2250e8c3f1bb3a1791dddb703e2ef2",
+      "name": "r-modelr",
+      "noarch": "generic",
+      "sha256": "e49c6f861b35e4db3c21b48205c7a8c3a8a13aee66ca29125ab4fe6503f9494c",
+      "size": 218325,
+      "subdir": "noarch",
+      "timestamp": 1653527943855,
+      "version": "0.1.8"
+    },
+    "r-munsell-0.5.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-colorspace",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "1823601c1550ee5782770c60fc30074f",
+      "name": "r-munsell",
+      "noarch": "generic",
+      "sha256": "e7b592e64b7aec0ee225ac4d2d8cac056b8b97723a1028ac4d11239277f10c2e",
+      "size": 243879,
+      "subdir": "noarch",
+      "timestamp": 1653525096170,
+      "version": "0.5.0"
+    },
+    "r-pillar-1.7.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli >=2.3.0",
+        "r-crayon >=1.3.4",
+        "r-ellipsis >=0.3.2",
+        "r-fansi",
+        "r-glue",
+        "r-lifecycle",
+        "r-rlang >=0.3.0",
+        "r-utf8 >=1.1.0",
+        "r-vctrs >=0.3.8",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "56226de3fc1044d4cca4e38c93a45a3b",
+      "name": "r-pillar",
+      "noarch": "generic",
+      "sha256": "5ae45476d35b62ac0ccabc60e787262fb078f8e9b170cf9eec2636dfacb2077e",
+      "size": 678024,
+      "subdir": "noarch",
+      "timestamp": 1653526190066,
+      "version": "1.7.0"
+    },
+    "r-pkgconfig-2.0.3-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "6aa6f77c8a65c8c440f6e1cd58d0b403",
+      "name": "r-pkgconfig",
+      "noarch": "generic",
+      "sha256": "3dcb1d2172e126d625379da97938fbf52d36009d92c89cd0f27e8358ab0fb23c",
+      "size": 23833,
+      "subdir": "noarch",
+      "timestamp": 1653523097806,
+      "version": "2.0.3"
+    },
+    "r-pkgload-1.2.4-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli",
+        "r-crayon",
+        "r-desc",
+        "r-rlang",
+        "r-rprojroot",
+        "r-rstudioapi",
+        "r-withr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "210a9d20be11b52893a2e88f56695c62",
+      "name": "r-pkgload",
+      "noarch": "generic",
+      "sha256": "4f4291760a536a39bf5a236dea327c5e313db48c05eb64fa2bb26f2cf05e9626",
+      "size": 170935,
+      "subdir": "noarch",
+      "timestamp": 1653526378122,
+      "version": "1.2.4"
+    },
+    "r-praise-1.0.0-r42h6115d3f_4.conda": {
+      "build": "r42h6115d3f_4",
+      "build_number": 4,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "da87d89f471379360e737aaa4e71c251",
+      "name": "r-praise",
+      "noarch": "generic",
+      "sha256": "fd573455fd970efa6c4837b5ea86b82f4e0583cdf7dd81cb033ae404e198b449",
+      "size": 22455,
+      "subdir": "noarch",
+      "timestamp": 1653523520883,
+      "version": "1.0.0"
+    },
+    "r-prettyunits-1.1.1-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "5ec87c3eedf1c834eef84ed700859746",
+      "name": "r-prettyunits",
+      "noarch": "generic",
+      "sha256": "a1d686c68468a85769ad81fb3335aac3ee12f9c98c2f24dca97c98d2d82676cd",
+      "size": 41014,
+      "subdir": "noarch",
+      "timestamp": 1653523565549,
+      "version": "1.1.1"
+    },
+    "r-progress-1.2.2-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-crayon",
+        "r-hms",
+        "r-prettyunits",
+        "r-r6",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "d210ae2ce10a65dd997a07920e8e63da",
+      "name": "r-progress",
+      "noarch": "generic",
+      "sha256": "322e90535f8ecaecf164ce01f8e310a8ae25c9b35e696cc65c9e3e04d0791c4d",
+      "size": 89604,
+      "subdir": "noarch",
+      "timestamp": 1653526580756,
+      "version": "1.2.2"
+    },
+    "r-r6-2.5.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a1eafa9e8a57e4ba58053cef746d2f5f",
+      "name": "r-r6",
+      "noarch": "generic",
+      "sha256": "22f981df713e1231d5b235671ab9f0563de1f0bba9c1905a681bfa8b36b0b801",
+      "size": 88330,
+      "subdir": "noarch",
+      "timestamp": 1653521645899,
+      "version": "2.5.1"
+    },
+    "r-rcolorbrewer-1.1_3-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "Apache License 2.0",
+      "license_family": "APACHE",
+      "md5": "d5b1f29c4d069314f38ea1142a061be6",
+      "name": "r-rcolorbrewer",
+      "noarch": "generic",
+      "sha256": "52f8380432910dc918bda4fbc2292be5eb59a28e0cc510d078ddf57d14fd2bee",
+      "size": 58102,
+      "subdir": "noarch",
+      "timestamp": 1653523667129,
+      "version": "1.1_3"
+    },
+    "r-rematch-1.0.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "9561b38cafccc2d66ad3068ae07784aa",
+      "name": "r-rematch",
+      "noarch": "generic",
+      "sha256": "4cbeebd7224188963ccb135cba62e330fbb8b66cf49ca66cf37d4b660a41ee82",
+      "size": 18721,
+      "subdir": "noarch",
+      "timestamp": 1653521691091,
+      "version": "1.0.1"
+    },
+    "r-rematch2-2.1.2-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "23c24c6a5a6773e8e0615ab4ce001308",
+      "name": "r-rematch2",
+      "noarch": "generic",
+      "sha256": "870443c854b14de7a34959c2e81a7711b3557468b61f915e74899cc0c79f23f6",
+      "size": 51684,
+      "subdir": "noarch",
+      "timestamp": 1653526958580,
+      "version": "2.1.2"
+    },
+    "r-repr-1.1.4-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-base64enc",
+        "r-htmltools",
+        "r-jsonlite",
+        "r-pillar >=1.4.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "5e16c74032385217b575a64149f6e91c",
+      "name": "r-repr",
+      "noarch": "generic",
+      "sha256": "3d32f3c93e78cda127d6c2be3b8993c3a93b493b3c31de06082e96531ff595cc",
+      "size": 137852,
+      "subdir": "noarch",
+      "timestamp": 1653526533732,
+      "version": "1.1.4"
+    },
+    "r-reprex-2.0.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-callr >=3.6.0",
+        "r-cli >=2.3.1",
+        "r-clipr >=0.4.0",
+        "r-fs",
+        "r-glue",
+        "r-knitr >=1.23",
+        "r-rlang >=0.4.0",
+        "r-rmarkdown",
+        "r-rstudioapi",
+        "r-withr >=2.3.0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a4f9ab52dc60f75c9ef7a44579fe0547",
+      "name": "r-reprex",
+      "noarch": "generic",
+      "sha256": "11a899182a85a13602dcea1add3bf13e3d05d67d79cd87e74b5ede8311cc8192",
+      "size": 495501,
+      "subdir": "noarch",
+      "timestamp": 1653527160651,
+      "version": "2.0.1"
+    },
+    "r-rmarkdown-2.14-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-bslib >=0.2.5.1",
+        "r-evaluate >=0.13",
+        "r-htmltools >=0.3.5",
+        "r-jquerylib",
+        "r-jsonlite",
+        "r-knitr >=1.22",
+        "r-stringr >=1.2.0",
+        "r-tinytex >=0.31",
+        "r-xfun >=0.30",
+        "r-yaml >=2.1.19",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-3",
+      "license_family": "GPL3",
+      "md5": "f1cc31755f54e35b2a670fede4e00849",
+      "name": "r-rmarkdown",
+      "noarch": "generic",
+      "sha256": "c1057e97f314e5c181e214f7dde3d4c6585885fbaae60c769c3a8c910ceb2958",
+      "size": 2814196,
+      "subdir": "noarch",
+      "timestamp": 1653526634274,
+      "version": "2.14"
+    },
+    "r-rprojroot-2.0.3-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3613d34203895ec03c3209d2b4a4fdd2",
+      "name": "r-rprojroot",
+      "noarch": "generic",
+      "sha256": "a209218ab7b0c7dc6cc12e8f31a4c67b58a69a557b422aff073f73f55aad49ca",
+      "size": 102692,
+      "subdir": "noarch",
+      "timestamp": 1653522202759,
+      "version": "2.0.3"
+    },
+    "r-rstudioapi-0.13-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "72c4095c5b5ff5211a2cfcc22341f309",
+      "name": "r-rstudioapi",
+      "noarch": "generic",
+      "sha256": "12b849b8e3f57c6eccb2d61dc5d3d7485db716da5d33f71288d04da2a24d14bd",
+      "size": 273235,
+      "subdir": "noarch",
+      "timestamp": 1653522766944,
+      "version": "0.13"
+    },
+    "r-rvest-1.0.2-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-httr >=0.5",
+        "r-lifecycle >=1.0.0",
+        "r-magrittr",
+        "r-rlang >=0.4.10",
+        "r-selectr",
+        "r-tibble",
+        "r-xml2 >=1.3",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "13f451baac6b5adf70319d654ee07439",
+      "name": "r-rvest",
+      "noarch": "generic",
+      "sha256": "e3d80afb389e7e08b2058a01ed6ef4d83e215291bc58a2d496d13b3b74a7e0cc",
+      "size": 198675,
+      "subdir": "noarch",
+      "timestamp": 1653527210330,
+      "version": "1.0.2"
+    },
+    "r-scales-1.2.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-farver >=2.0.3",
+        "r-labeling",
+        "r-lifecycle",
+        "r-munsell >=0.5",
+        "r-r6",
+        "r-rcolorbrewer",
+        "r-rlang >=1.0.0",
+        "r-viridislite",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "402146c9efe10cb6f258d7f8f192bbc6",
+      "name": "r-scales",
+      "noarch": "generic",
+      "sha256": "0a4b1c4916b53c638238c25a22759059fc240a64df45a8a460329c278e884ee0",
+      "size": 597056,
+      "subdir": "noarch",
+      "timestamp": 1653525763744,
+      "version": "1.2.0"
+    },
+    "r-selectr-0.4_2-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-r6",
+        "r-stringr",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "BSD_3_clause",
+      "license_family": "BSD",
+      "md5": "72f1f74e4f41017c84d94eaa3b17066d",
+      "name": "r-selectr",
+      "noarch": "generic",
+      "sha256": "b8833e10456e780484bcfc40f64deecc1757572fde3d71f55d8296e875813366",
+      "size": 418213,
+      "subdir": "noarch",
+      "timestamp": 1653525994895,
+      "version": "0.4_2"
+    },
+    "r-stringr-1.4.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-glue >=1.2.0",
+        "r-magrittr",
+        "r-stringi >=1.1.7",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "GPL-2",
+      "license_family": "GPL2",
+      "md5": "9b4e5a81da8d1f91d5043596ab20b436",
+      "name": "r-stringr",
+      "noarch": "generic",
+      "sha256": "927067b06cba808f45ea391362e643da730c3ab77080a8289d7b67b05aa01e01",
+      "size": 205830,
+      "subdir": "noarch",
+      "timestamp": 1653524426224,
+      "version": "1.4.0"
+    },
+    "r-tidyverse-1.3.1-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-broom >=0.7.6",
+        "r-cli >=2.4.0",
+        "r-crayon >=1.4.1",
+        "r-dbplyr >=2.1.1",
+        "r-dplyr >=1.0.5",
+        "r-dtplyr >=1.1.0",
+        "r-forcats >=0.5.1",
+        "r-ggplot2 >=3.3.3",
+        "r-googledrive >=1.0.1",
+        "r-googlesheets4 >=0.3.0",
+        "r-haven >=2.3.1",
+        "r-hms >=1.0.0",
+        "r-httr >=1.4.2",
+        "r-jsonlite >=1.7.2",
+        "r-lubridate >=1.7.10",
+        "r-magrittr >=2.0.1",
+        "r-modelr >=0.1.8",
+        "r-pillar >=1.6.0",
+        "r-purrr >=0.3.4",
+        "r-readr >=1.4.0",
+        "r-readxl >=1.3.1",
+        "r-reprex >=2.0.0",
+        "r-rlang >=0.4.10",
+        "r-rstudioapi >=0.13",
+        "r-rvest >=1.0.0",
+        "r-stringr >=1.4.0",
+        "r-tibble >=3.1.0",
+        "r-tidyr >=1.1.3",
+        "r-xml2 >=1.3.2",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "a275117c61d0ef36a54456b1f59a591d",
+      "name": "r-tidyverse",
+      "noarch": "generic",
+      "sha256": "d21ddb740a4acd3b12d344e641686937ca80f7665b54889958af374894b64d05",
+      "size": 430711,
+      "subdir": "noarch",
+      "timestamp": 1653528009748,
+      "version": "1.3.1"
+    },
+    "r-tinytex-0.38-r42h142f84f_0.conda": {
+      "build": "r42h142f84f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-xfun >=0.29",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "bbdb254b6578062f9c90653edbcfc01c",
+      "name": "r-tinytex",
+      "noarch": "generic",
+      "sha256": "6c9bbc03d066195cc876d0c78469a2e496292d3cf4c3a71689122572ddbe0f00",
+      "size": 135379,
+      "subdir": "noarch",
+      "timestamp": 1653525267152,
+      "version": "0.38"
+    },
+    "r-viridislite-0.4.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "83abca59df920773888f2f52fee488f7",
+      "name": "r-viridislite",
+      "noarch": "generic",
+      "sha256": "d1c2e8de162adaf198945badc769ace2d6b31ee053508b577d7c3e5f2f84c790",
+      "size": 1300218,
+      "subdir": "noarch",
+      "timestamp": 1653523996330,
+      "version": "0.4.0"
+    },
+    "r-waldo-0.4.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "r-cli",
+        "r-diffobj >=0.3.4",
+        "r-fansi",
+        "r-glue",
+        "r-rematch2",
+        "r-rlang >=1.0.0",
+        "r-tibble",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3f7fecd2a88fc9a07a5125b998b8a343",
+      "name": "r-waldo",
+      "noarch": "generic",
+      "sha256": "acc1f654697ec3aeed179d5f4e452bdd54ab9faac7fad14b7f7341d40d478218",
+      "size": 106370,
+      "subdir": "noarch",
+      "timestamp": 1653527683498,
+      "version": "0.4.0"
+    },
+    "r-withr-2.5.0-r42h6115d3f_0.conda": {
+      "build": "r42h6115d3f_0",
+      "build_number": 0,
+      "depends": [
+        "r-base >=4.2,<4.3.0a0",
+        "_r-mutex 1.* anacondar_1"
+      ],
+      "license": "MIT",
+      "license_family": "MIT",
+      "md5": "3391ef30418e5cc614593d452e170166",
+      "name": "r-withr",
+      "noarch": "generic",
+      "sha256": "11eeb2e67a33963090f45f971763db8d58f0598a41a5a68cae5e733a1ae2a079",
+      "size": 231279,
+      "subdir": "noarch",
+      "timestamp": 1653522157191,
+      "version": "2.5.0"
+    }
+  },
   "removed": [],
   "repodata_version": 1
 }
