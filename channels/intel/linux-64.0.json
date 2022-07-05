@@ -2194,6 +2194,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "oap-1.4.0.dataproc20-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "md5": "3e5447a2211315d7d9375e7b5e0768b7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.4.0.dataproc20",
+      "build": "3",
+      "timestamp": 1656643378254,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 439048093,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "cython-0.29.25-py38hab8dbbf_0.tar.bz2": {
       "build_number": 0,
       "name": "cython",
@@ -21607,6 +21636,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "oap-1.4.0.spark32.h331-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "md5": "421b761bb2ce89c8d93b63ad56655437",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.4.0.spark32.h331",
+      "build": "3",
+      "timestamp": 1656641956949,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 411313738,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "numexpr-2.7.3-py37h1d04dd3_4.tar.bz2": {
       "build_number": 4,
       "name": "numexpr",
@@ -22581,6 +22639,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 34368,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "oap-1.4.0.spark31-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "md5": "46968087fc85d8f8caef5fb298d8347a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.4.0.spark31",
+      "build": "3",
+      "timestamp": 1656646299149,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 411350776,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -71364,6 +71451,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "oap-1.4.0.spark32-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "md5": "6b0436e265b0a0ee73e12e4bb0c7b411",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.4.0.spark32",
+      "build": "3",
+      "timestamp": 1656640895630,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 411312392,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "wheel-0.31.0-py37_3.tar.bz2": {
       "build_number": 3,
       "name": "wheel",
@@ -97529,6 +97645,35 @@
       },
       "md5": "63dbc1d0736518159124550224c62e7c",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "oap-1.4.0.emr630-3.tar.bz2": {
+      "build_number": 3,
+      "name": "oap",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "md5": "754d70f2790654f01d1dc234ad197338",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "c-compiler 1.2.0.*",
+        "curl 7.78.*",
+        "cxx-compiler 1.2.0.*",
+        "libhdfs3"
+      ],
+      "version": "1.4.0.emr630",
+      "build": "3",
+      "timestamp": 1656644908072,
+      "binstar": {
+        "package_id": "5f11fe0f78705809f83118fd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 411365886,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pycosat-0.6.1-py35_intel_4.tar.bz2": {
