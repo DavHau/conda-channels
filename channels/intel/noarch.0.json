@@ -3513,37 +3513,6 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "keras-2.9.0-py_0.tar.bz2": {
-      "timestamp": 1657853246367,
-      "depends": [
-        "python >=3.6"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 985461,
-      "constrains": [
-        "tensorflow 2.9.*"
-      ],
-      "build_number": 0,
-      "name": "keras",
-      "license": "Apache 2.0",
-      "has_prefix": false,
-      "license_family": "Apache",
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "2.9.0",
-      "build": "py_0",
-      "binstar": {
-        "package_id": "61b3819427bdd9a91c1769f4",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "eb7261f5e606ca117f163d234e60ac77",
-      "requires": [],
-      "subdir": "noarch"
-    },
     "zipp-3.4.1-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1615904216969,
       "depends": [
@@ -3884,43 +3853,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "855ae785dd316068d0b6cd3a5a5d2939",
-      "requires": [],
-      "subdir": "noarch"
-    },
-    "tensorflow-estimator-2.9.0-py_0.tar.bz2": {
-      "timestamp": 1657851419058,
-      "depends": [
-        "absl-py >=0.7.0",
-        "astor >=0.6.0",
-        "gast >=0.2.0",
-        "grpcio >=1.8.6",
-        "numpy >=1.16.1",
-        "protobuf >=3.6.1",
-        "python",
-        "six >=1.10.0",
-        "termcolor >=1.1.0",
-        "wrapt >=1.11.1"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 276901,
-      "build_number": 0,
-      "name": "tensorflow-estimator",
-      "license": "Apache 2.0",
-      "has_prefix": false,
-      "license_family": "Apache",
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "2.9.0",
-      "build": "py_0",
-      "binstar": {
-        "package_id": "5f21fb9a778a870a1e28bb14",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "c7ee4e3385fb65fe45dade50a55bfc96",
       "requires": [],
       "subdir": "noarch"
     },
