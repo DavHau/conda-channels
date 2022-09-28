@@ -21319,6 +21319,42 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel-aikit-pytorch-2022.3.0-0.tar.bz2": {
+      "sha256": "2aaf0942e6513437c8c9e6bc9c01f8bee2e26473a7e43a6dba4d8c88a8e9492a",
+      "build_number": 0,
+      "name": "intel-aikit-pytorch",
+      "license": "Intel End User License Agreement for Developer Tools (Version September 2019)",
+      "has_prefix": false,
+      "md5": "62e721b55f3eb666b975241fe00d2014",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "cpuonly",
+        "intel-extension-for-pytorch 1.12.100",
+        "intel-openmp",
+        "libxml2",
+        "numpy >=1.21.4",
+        "oneccl_bind_pt 1.12.0",
+        "psutil",
+        "python >=3.9,<3.10.0a0",
+        "pytorch 1.12.0",
+        "torchvision 0.13.0"
+      ],
+      "version": "2022.3.0",
+      "build": "0",
+      "timestamp": 1663897841984,
+      "binstar": {
+        "package_id": "5f22088d778a870a1ce02b0a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 243551,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pyopenssl-17.5.0-py36_intel_0.tar.bz2": {
       "features": "intel",
       "depends": [
@@ -43926,6 +43962,39 @@
       },
       "md5": "bb433838f42ae7f91a43bdd5a98fba38",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel-aikit-tensorflow-2022.3.0-0.tar.bz2": {
+      "build_number": 0,
+      "name": "intel-aikit-tensorflow",
+      "license": "Intel End User License Agreement for Developer Tools (Version September 2019)",
+      "has_prefix": false,
+      "md5": "9f49b5d475980dfc9ed474af7add857a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "impi-devel >=2021.7.0",
+        "intel-openmp 2022.2.0",
+        "neural-compressor-full 1.13",
+        "numpy >=1.21.4",
+        "python 3.9.12",
+        "python-flatbuffers 1.12",
+        "tensorboard 2.9.0",
+        "tensorflow 2.9.1"
+      ],
+      "version": "2022.3.0",
+      "build": "0",
+      "timestamp": 1663975881599,
+      "binstar": {
+        "package_id": "5f22077efe6b2a0a2b81646d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 245968,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "astor-0.8.1-py39h06a4308_0.tar.bz2": {
