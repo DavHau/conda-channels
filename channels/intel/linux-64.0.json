@@ -15315,6 +15315,38 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dpnp-0.10.2-py38hdb35949_2.tar.bz2": {
+      "build_number": 2,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "4ddbec018172ca749ace77b4fca570f7",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt >=2022.2,<2023.0a0",
+        "dpctl >=0.13",
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "mkl-dpcpp >=2022.2,<2023.0a0",
+        "numpy >=1.21,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "version": "0.10.2",
+      "build": "py38hdb35949_2",
+      "timestamp": 1665416023884,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 5173698,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "libllvm11-11.0.0-h3826bc1_0.tar.bz2": {
       "timestamp": 1626720887434,
       "depends": [
@@ -47760,6 +47792,38 @@
       },
       "md5": "9f465eae01bbcd97b19d4b72b2dbe29c",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "dpnp-0.10.2-py39hdb35949_2.tar.bz2": {
+      "build_number": 2,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "0deb2cfbbc057e09dfe5231e8e5f5239",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt >=2022.2,<2023.0a0",
+        "dpctl >=0.13",
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "mkl-dpcpp >=2022.2,<2023.0a0",
+        "numpy >=1.21,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "version": "0.10.2",
+      "build": "py39hdb35949_2",
+      "timestamp": 1665416014863,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 5171608,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "six-1.13.0-py37_2.tar.bz2": {
