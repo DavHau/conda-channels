@@ -50480,6 +50480,33 @@
       "requires": [],
       "subdir": "osx-64"
     },
+    "libpython-static-3.8.14-h6dac835_2.tar.bz2": {
+      "build_number": 2,
+      "name": "libpython-static",
+      "license": "PSF",
+      "has_prefix": false,
+      "md5": "d5d5e8ea47c8e455fa7526013a4aff84",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "libcxx >=12.0.0",
+        "python >=3.8,<3.9.0a0 h920edcc_2"
+      ],
+      "version": "3.8.14",
+      "build": "h6dac835_2",
+      "timestamp": 1666210801464,
+      "binstar": {
+        "package_id": "631b5b737a247325bd323cc5",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10414066,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "ipp-2019.4-intel_233.tar.bz2": {
       "timestamp": 1556047455919,
       "depends": [],
