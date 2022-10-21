@@ -37252,7 +37252,7 @@
       "build": "intel_3"
     },
     "tensorflow-2.9.1-py39_1.tar.bz2": {
-      "timestamp": 1661936334769,
+      "timestamp": 1666309503403,
       "depends": [
         "python >=3.9,<3.10.0a0",
         "tensorflow-base >=2.9,<2.10",
@@ -37261,7 +37261,7 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 208213470,
+      "size": 208216209,
       "build_number": 1,
       "name": "tensorflow",
       "license": "Apache 2.0",
@@ -37276,7 +37276,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "e05f1927139e9ce051156940a7da2b25",
+      "md5": "547fa7ee01f00d4f0ec7877a5c0c698e",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -68635,16 +68635,18 @@
       "subdir": "linux-64"
     },
     "tensorflow-estimator-2.9.0-py39_1.tar.bz2": {
-      "timestamp": 1661935156842,
+      "timestamp": 1666308568671,
       "depends": [
         "openssl >=1.1.1q,<1.1.2a",
-        "python >=3.9,<3.10.0a0",
-        "tensorflow-base >=2.9,<2.10"
+        "python >=3.9,<3.10.0a0"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 612094,
+      "size": 610479,
+      "constrains": [
+        "tensorflow-base 2.9.*"
+      ],
       "build_number": 1,
       "name": "tensorflow-estimator",
       "license": "Apache 2.0",
@@ -68659,7 +68661,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "f176cee56fcd0a5f61f86df9c8923052",
+      "md5": "cff42a0b8035a9284c635f076fa843ae",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -113925,7 +113927,7 @@
       "subdir": "linux-64"
     },
     "tensorflow-base-2.9.1-py39_1.tar.bz2": {
-      "timestamp": 1661932896210,
+      "timestamp": 1666310861481,
       "depends": [
         "abseil-cpp >=20210324.2,<20210324.3.0a0",
         "absl-py >=0.4.0",
@@ -113937,33 +113939,33 @@
         "grpcio >=1.24.3,<2.0",
         "h5py >=2.9.0",
         "icu >=68.1,<69.0a0",
-        "jpeg >=9d,<10a",
+        "jpeg >=9e,<10a",
         "keras >=2.9,<2.10",
         "keras-preprocessing >=1.1.1",
         "libclang >=10.0.1",
         "libcurl >=7.84.0,<8.0a0",
         "libpng >=1.6.37,<1.7.0a0",
         "libprotobuf >=3.19.1,<3.20.0a0",
+        "libzlib >=1.2.13,<1.3.0a0",
         "numpy >=1.20",
         "openssl >=1.1.1q,<1.1.2a",
         "opt_einsum >=2.3.2",
         "packaging",
-        "protobuf >=3.9.2,<3.20",
+        "protobuf >=3.9.2",
         "python >=3.9,<3.10.0a0",
-        "python-flatbuffers >=1.12,<2",
+        "python-flatbuffers >=1.12",
         "six >=1.12",
         "snappy >=1.1.9,<2.0a0",
         "sqlite >=3.39.2,<4.0a0",
         "tensorboard >=2.9,<2.10",
         "termcolor >=1.1.0",
         "typing_extensions >=3.6.6",
-        "wrapt >=1.11.0",
-        "zlib >=1.2.12,<1.3.0a0"
+        "wrapt >=1.11.0"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 11166461,
+      "size": 31750,
       "build_number": 1,
       "name": "tensorflow-base",
       "license": "Apache 2.0",
@@ -113978,7 +113980,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "ee70ca21c6f3f377e5cdf50a138952fd",
+      "md5": "5b96fbd5b931061537dbe0c5431b4c44",
       "requires": [],
       "subdir": "linux-64"
     },
