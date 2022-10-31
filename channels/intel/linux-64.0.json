@@ -21123,6 +21123,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onedpl-devel-2021.7.1-intel_11816.tar.bz2": {
+      "sha256": "818c2086d97187365e30d4878f14b259731c964c3edc0c6ad6938f8c85ca9fb6",
+      "build_number": 11816,
+      "name": "onedpl-devel",
+      "license": "Apache-2.0 with LLVM exceptions",
+      "has_prefix": false,
+      "md5": "b62646cd583df8b0db420f359ef56011",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2021.7.1",
+      "build": "intel_11816",
+      "timestamp": 1664950046387,
+      "binstar": {
+        "package_id": "635ffc641f46b7d4c1a73c4e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 204168,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "sys_check-2021.1-0.tar.bz2": {
       "build_number": 0,
       "name": "sys_check",
