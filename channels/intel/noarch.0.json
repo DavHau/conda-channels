@@ -652,7 +652,7 @@
       "subdir": "noarch"
     },
     "neural-compressor-full-1.14.2-py_0.tar.bz2": {
-      "timestamp": 1667234383861,
+      "timestamp": 1667302201975,
       "depends": [
         "alembic 1.7.7",
         "cryptography",
@@ -665,6 +665,7 @@
         "hyperopt",
         "numpy",
         "opencv",
+        "packaging",
         "pandas",
         "pillow",
         "pip",
@@ -683,7 +684,7 @@
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 2768294,
+      "size": 2775842,
       "build_number": 0,
       "name": "neural-compressor-full",
       "license": "Apache 2.0",
@@ -699,7 +700,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "86994e48433e68bcba162fad2f945cf5",
+      "md5": "cc6b30d35e68c43801b7ec5e39cab2fb",
       "requires": [],
       "subdir": "noarch"
     },
@@ -2339,13 +2340,14 @@
       "subdir": "noarch"
     },
     "neural-compressor-1.14.2-py_0.tar.bz2": {
-      "timestamp": 1667233822386,
+      "timestamp": 1667301642574,
       "depends": [
         "cryptography",
         "cython",
         "hyperopt",
         "numpy",
         "opencv",
+        "packaging",
         "pandas",
         "pillow",
         "pip",
@@ -2363,7 +2365,7 @@
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 456570,
+      "size": 461023,
       "build_number": 0,
       "name": "neural-compressor",
       "license": "Apache 2.0",
@@ -2379,7 +2381,7 @@
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "2f6594ec02d66b3ef5b1882d802f125a",
+      "md5": "0ee5acdea775cbfa093772bbc140c3e2",
       "requires": [],
       "subdir": "noarch"
     },
