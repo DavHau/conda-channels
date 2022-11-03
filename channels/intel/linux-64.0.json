@@ -30093,6 +30093,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "dpnp-0.10.3-py39hfea1600_8.tar.bz2": {
+      "sha256": "9666b3faa06862d79a54312b7fa1d92b8761615d0dec08390bb6fa95961c6c28",
+      "build_number": 8,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "3de948263860d3ff27b0a1b3167c59d5",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt >=2022.2,<2023.0a0",
+        "dpctl >=0.13",
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "mkl-dpcpp >=2022.2,<2023.0a0",
+        "numpy >=1.19,<2.0a0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "version": "0.10.3",
+      "build": "py39hfea1600_8",
+      "timestamp": 1667499245809,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 5182325,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mkl_random-1.2.2-py39h94ca54a_16.tar.bz2": {
       "sha256": "6bf1dc6c4309c5778e0648783cf27dfb894895634f9c4379687359c7899f5e26",
       "build_number": 16,
