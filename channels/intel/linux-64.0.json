@@ -6343,6 +6343,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "dpnp-0.10.3-py38hfea1600_8.tar.bz2": {
+      "sha256": "1043707832c145bba7950dacfd33f5597048cb2355fe84e3aa52cab89677c003",
+      "build_number": 8,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
+      "has_prefix": false,
+      "md5": "8133ebb1edf7e3de66f0071c783f8c92",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-cpp-rt >=2022.2,<2023.0a0",
+        "dpctl >=0.13",
+        "libgcc-ng >=11.2.0",
+        "libstdcxx-ng >=11.2.0",
+        "mkl-dpcpp >=2022.2,<2023.0a0",
+        "numpy >=1.19,<2.0a0",
+        "python >=3.8,<3.9.0a0"
+      ],
+      "version": "0.10.3",
+      "build": "py38hfea1600_8",
+      "timestamp": 1667501666505,
+      "binstar": {
+        "package_id": "5f94c110a58f0d0a51929a65",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 5210625,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "jupyter_core-4.2.0-py35_intel_1.tar.bz2": {
       "build_number": 1,
       "features": "intel",
