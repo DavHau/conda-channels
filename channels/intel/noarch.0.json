@@ -4170,6 +4170,35 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "intel_extension_for_transformers-0.0.0-py_0.tar.bz2": {
+      "timestamp": 1668587049919,
+      "depends": [
+        "pip",
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 129990,
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "0.0.0",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "880e21a949606c5b58bf3697c211d2cd",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "typing-extensions-3.10.0.2-hd3eb1b0_0.tar.bz2": {
       "timestamp": 1631814965875,
       "depends": [
