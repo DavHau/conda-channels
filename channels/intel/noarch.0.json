@@ -632,6 +632,33 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "charset-normalizer-2.0.4-pyhd3eb1b0_0.tar.bz2": {
+      "timestamp": 1630003259346,
+      "depends": [
+        "python >=3.5"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 33999,
+      "build_number": 0,
+      "name": "charset-normalizer",
+      "license": "MIT",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.0.4",
+      "build": "pyhd3eb1b0_0",
+      "binstar": {
+        "package_id": "639210ee4f66fd116ff53893",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "544adf2677c47c9b9c891aea720678f1",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "neural-compressor-full-1.14.2-py_0.tar.bz2": {
       "timestamp": 1667302201975,
       "depends": [
