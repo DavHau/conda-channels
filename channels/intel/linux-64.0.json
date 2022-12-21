@@ -55184,6 +55184,40 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel_extension_for_transformers-1.0a-py38_0.tar.bz2": {
+      "timestamp": 1669222549491,
+      "depends": [
+        "neural_compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.8,<3.9.0a0",
+        "python_abi 3.8.* *_cp38",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 33428311,
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0a",
+      "build": "py38_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e9b1d482946327d32361501c6192ef5c",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "impi_rt-2019.3-intel_200.tar.bz2": {
       "timestamp": 1550226082505,
       "depends": [],
