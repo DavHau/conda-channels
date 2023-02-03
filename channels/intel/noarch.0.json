@@ -1895,6 +1895,35 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "tensorboard-plugin-wit-1.6.0-py_0.tar.bz2": {
+      "timestamp": 1590157851387,
+      "depends": [
+        "python >=3",
+        "setuptools"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 678459,
+      "build_number": 0,
+      "name": "tensorboard-plugin-wit",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.6.0",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "5f5d2f47bd88150a124b71a3",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d6d311cce452a29369c3425c41e6204a",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "alembic-1.7.4-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1633989481947,
       "depends": [
@@ -4664,32 +4693,56 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "tensorboard-plugin-wit-1.6.0-py_0.tar.bz2": {
-      "timestamp": 1590157851387,
+    "neural-compressor-full-1.14.2-pyhdless_2.tar.bz2": {
+      "timestamp": 1674093401337,
       "depends": [
-        "python >=3",
-        "setuptools"
+        "alembic 1.7.7",
+        "cryptography",
+        "cython",
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "hyperopt",
+        "numpy",
+        "opencv-python-headless",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn",
+        "sigopt",
+        "sqlalchemy 1.4.27"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 678459,
-      "build_number": 0,
-      "name": "tensorboard-plugin-wit",
+      "size": 2770467,
+      "sha256": "c951c7933d39681e81540fa642d927eae9622fb6fbbb6e1e3e8b74e3ab0a465e",
+      "build_number": 2,
+      "name": "neural-compressor-full",
       "license": "Apache 2.0",
       "has_prefix": false,
       "license_family": "Apache",
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "1.6.0",
-      "build": "py_0",
+      "version": "1.14.2",
+      "build": "pyhdless_2",
       "binstar": {
-        "package_id": "5f5d2f47bd88150a124b71a3",
+        "package_id": "62d81342aae6eba13acc8cce",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "d6d311cce452a29369c3425c41e6204a",
+      "md5": "23559888a1e23923496f34ac88b9dadc",
       "requires": [],
       "subdir": "noarch"
     },

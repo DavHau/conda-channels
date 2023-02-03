@@ -958,6 +958,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "torchvision-0.14.1-py39_0.tar.bz2": {
+      "sha256": "8be974f9712e17708a9db01c2baa101b0e78b1e01fd79b497fc0dbd5b126d0e9",
+      "build_number": 0,
+      "name": "torchvision",
+      "license": "BSD",
+      "has_prefix": false,
+      "md5": "226afee325c6873ee31fd0a68830d2e6",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "jpeg >=9e",
+        "libpng",
+        "numpy >=1.22.3",
+        "pillow >=9.2.0,!=8.3.*",
+        "python 3.9.*",
+        "pytorch 1.13.0.*"
+      ],
+      "version": "0.14.1",
+      "build": "py39_0",
+      "timestamp": 1674037508934,
+      "binstar": {
+        "package_id": "5f21fbb683b6630a0e235bee",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 960536,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "daal4py-2021.5.1-py37_intel_803.tar.bz2": {
       "build_number": 803,
       "name": "daal4py",
@@ -1348,32 +1381,28 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "setuptools-47.3.0-py37_0.tar.bz2": {
-      "timestamp": 1593148723736,
-      "depends": [
-        "certifi",
-        "python >=3.7,<3.8.0a0"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 651984,
-      "build_number": 0,
-      "name": "setuptools",
-      "license": "MIT",
-      "has_prefix": true,
-      "license_family": "MIT",
+    "ipp-include-2021.4.0-intel_459.tar.bz2": {
+      "build_number": 459,
+      "name": "ipp-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "4c7764790b89610930e5c90a6534c1fc",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "47.3.0",
-      "build": "py37_0",
+      "depends": [],
+      "version": "2021.4.0",
+      "build": "intel_459",
+      "timestamp": 1632482974428,
       "binstar": {
-        "package_id": "5e416e2783b66372f629ce0a",
+        "package_id": "59413712ca7a6112465e3c7d",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "0efaefa41c173d643f2f32545f9e04b4",
-      "requires": [],
+      "size": 223799,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "yaml-0.1.7-h04e08d9_7.tar.bz2": {
@@ -2072,6 +2101,36 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "oneccl_bind_pt-1.13.0-py39_cpu_0.tar.bz2": {
+      "timestamp": 1674035438151,
+      "depends": [
+        "cpuonly",
+        "python 3.9.*",
+        "pytorch 1.13.0.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 34507941,
+      "sha256": "67dd406a97e496e9dd6dd1f877b0922328e7fab8b9b9d149f2e9320be1932ba4",
+      "build_number": 0,
+      "name": "oneccl_bind_pt",
+      "license": "BSD 3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.0",
+      "build": "py39_cpu_0",
+      "binstar": {
+        "package_id": "62684423876a90bc096d67fa",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "028242743ffb065a9a65da311e628e49",
+      "requires": [],
       "subdir": "linux-64"
     },
     "mpi4py-3.0.0-py37_6.tar.bz2": {
@@ -3467,6 +3526,34 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "ipp-devel-2019.3-intel_199.tar.bz2": {
+      "timestamp": 1550225844626,
+      "depends": [
+        "ipp 2019.3 intel_199",
+        "ipp-include 2019.3 intel_199"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 3727,
+      "build_number": 199,
+      "name": "ipp-devel",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2019.3",
+      "build": "intel_199",
+      "binstar": {
+        "package_id": "594137319cf16412714b2a59",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "fa75c14877dba58215f189924e278f30",
+      "requires": [],
       "subdir": "linux-64"
     },
     "markupsafe-0.23-py27_intel_5.tar.bz2": {
@@ -7865,6 +7952,69 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "tensorflow-base-2.10.0-py39_0.tar.bz2": {
+      "timestamp": 1671594076863,
+      "depends": [
+        "abseil-cpp >=20211102.0,<20211102.1.0a0",
+        "absl-py >=1.0.0",
+        "astunparse >=1.6.0",
+        "flatbuffers >=2.0",
+        "gast >=0.2.1,<=0.4.0",
+        "giflib >=5.2.1,<5.3.0a0",
+        "google-pasta >=0.1.1",
+        "grpc-cpp >=1.46.1,<1.47.0a0",
+        "grpcio >=1.24.3,<2.0",
+        "h5py >=2.9.0",
+        "icu >=58.2,<59.0a0",
+        "jpeg >=9e,<10a",
+        "keras >=2.10,<2.11",
+        "keras-preprocessing >=1.1.1",
+        "libclang >=13.0.0",
+        "libclang13 >=14.0.6",
+        "libcurl >=7.86.0,<8.0a0",
+        "libpng >=1.6.37,<1.7.0a0",
+        "libprotobuf >=3.20.1,<3.21.0a0",
+        "numpy >=1.20",
+        "openssl >=1.1.1s,<1.1.2a",
+        "opt_einsum >=2.3.2",
+        "packaging",
+        "protobuf >=3.20",
+        "python >=3.9,<3.10.0a0",
+        "python-flatbuffers >=2.0",
+        "requests",
+        "setuptools",
+        "six >=0.12.0",
+        "snappy >=1.1.9,<2.0a0",
+        "sqlite >=3.40.0,<4.0a0",
+        "tensorboard >=2.10,<2.11",
+        "termcolor >=1.1.0",
+        "typing_extensions >=3.6.6",
+        "wrapt >=1.11.0",
+        "zlib >=1.2.13,<1.3.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 212049386,
+      "sha256": "3c92b08ba3a63fdc14bb6cdf1caa0b18f19114ed009bae13bfae7cb06fb929ee",
+      "build_number": 0,
+      "name": "tensorflow-base",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.10.0",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "5d823ad6fe6b2a65c41f2857",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "f8ce1134635c9388707c0f61f90ae9ac",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "parso-0.2.0-py36_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
@@ -7949,33 +8099,6 @@
       "md5": "99465be2628ea87bf916ea5ab49f0b85",
       "requires": [],
       "build": "intel_3"
-    },
-    "kiwisolver-1.0.1-py36_1.tar.bz2": {
-      "build_number": 1,
-      "name": "kiwisolver",
-      "license": "BSD 3-Clause",
-      "has_prefix": true,
-      "license_family": "BSD",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [
-        "intelpython",
-        "python 3.6*"
-      ],
-      "version": "1.0.1",
-      "build": "py36_1",
-      "md5": "d0a251c7dc08f00a3038258d05f2d97a",
-      "binstar": {
-        "package_id": "5e416d55fe6b2a0197aafc3d",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 945391,
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "subdir": "linux-64"
     },
     "icc_rt-2019.2-intel_187.tar.bz2": {
       "timestamp": 1548337563051,
@@ -11335,33 +11458,39 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "pycairo-1.10.0-py27_intel_4.tar.bz2": {
+    "ipyparallel-6.0.2-py35_intel_0.tar.bz2": {
+      "build_number": 0,
       "features": "intel",
-      "depends": [
-        "cairo",
-        "intelpython",
-        "python 2.7*"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 100334,
-      "build_number": 4,
-      "name": "pycairo",
-      "license": "LGPL 2.1, MPL 1.1",
+      "license": "BSD",
       "has_prefix": true,
-      "license_family": "LGPL",
+      "requires": [],
+      "name": "ipyparallel",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "1.10.0",
-      "build": "py27_intel_4",
+      "depends": [
+        "decorator",
+        "intelpython",
+        "ipykernel",
+        "ipython >=4.0",
+        "ipython_genutils",
+        "jupyter_client",
+        "python 3.5*",
+        "python-dateutil >=2.1",
+        "pyzmq >=13.0",
+        "tornado >=4.0"
+      ],
+      "version": "6.0.2",
+      "build": "py35_intel_0",
+      "md5": "79b1f300159c3ae7e2de7e7247a271c4",
       "binstar": {
-        "package_id": "57b3266f09b8ee23cebd3552",
+        "package_id": "56fad272676dfa5338be7922",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "99a2e42baf2814d2f8a946a175812e50",
-      "requires": [],
+      "size": 290920,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "intelpython-2022.0.0-0.tar.bz2": {
@@ -17322,6 +17451,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "pytorch-1.13.0-py39_xpu_0.tar.bz2": {
+      "timestamp": 1673524468340,
+      "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "blas * mkl",
+        "libuv >=1.40.0,<2.0a0",
+        "mpi4py",
+        "python 3.9.*",
+        "typing_extensions"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 122756754,
+      "sha256": "4f5182fac65fca34c1420d9009125d05efbcfd40d272b072eb53c8fdfe09fb62",
+      "build_number": 0,
+      "name": "pytorch",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.0",
+      "build": "py39_xpu_0",
+      "binstar": {
+        "package_id": "5f21fad878705809fcd1bbf1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "1b6977f6e52839f278b8fe377438de20",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "wrapt-1.13.3-py39h7f8727e_2.tar.bz2": {
       "timestamp": 1638433893758,
       "depends": [
@@ -21143,33 +21305,28 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "pexpect-4.0.1-py27_intel_4.tar.bz2": {
-      "features": "intel",
-      "depends": [
-        "intelpython",
-        "ptyprocess >=0.5",
-        "python 2.7*"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 37775,
-      "build_number": 4,
-      "name": "pexpect",
-      "license": "ISC",
+    "ipp-include-2021.3.0-intel_333.tar.bz2": {
+      "build_number": 333,
+      "name": "ipp-include",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "license_family": "Other",
+      "md5": "af50a355979b15ec4c627de07580a987",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "4.0.1",
-      "build": "py27_intel_4",
+      "depends": [],
+      "version": "2021.3.0",
+      "build": "intel_333",
+      "timestamp": 1624278511018,
       "binstar": {
-        "package_id": "56fad5b0676dfa4f4dde2622",
+        "package_id": "59413712ca7a6112465e3c7d",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "0037290d70c6e7dfdab3cf8c414e3927",
-      "requires": [],
+      "size": 218677,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "thrift-0.14.1-py37h84f2617_0.tar.bz2": {
@@ -25236,52 +25393,41 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "tensorflow-2.8.0-py39_0.tar.bz2": {
-      "timestamp": 1648000672023,
+    "scikit-image-0.13.0-np112py35_intel_1.tar.bz2": {
+      "features": "intel",
       "depends": [
-        "absl-py >=0.4.0",
-        "astunparse >=1.6.0",
-        "flatbuffers >=1.12",
-        "gast >=0.2.1",
-        "google-pasta >=0.1.1",
-        "h5py >=2.9.0",
-        "keras >=2.8.0rc0,<2.9",
-        "keras-preprocessing >=1.1.1",
-        "libclang >=9.0.1",
-        "numpy >=1.20",
-        "opt_einsum >=2.3.2",
-        "pip",
-        "protobuf >=3.9.2",
-        "python >=3.9,<3.10.0a0",
-        "setuptools",
-        "six >=1.12.0",
-        "tensorflow-estimator 2.8.0",
-        "termcolor >=1.1.0",
-        "typing-extensions >=3.6.6",
-        "wheel >=0.32.0,<1.0",
-        "wrapt >=1.11.0"
+        "intelpython",
+        "matplotlib >=1.3.1",
+        "networkx >=1.8",
+        "numpy 1.12*",
+        "pillow >=2.1",
+        "python 3.5*",
+        "pywavelets",
+        "scipy",
+        "six >=1.7.3",
+        "tornado"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 193407978,
-      "build_number": 0,
-      "name": "tensorflow",
-      "license": "Apache 2.0",
+      "size": 34459303,
+      "build_number": 1,
+      "name": "scikit-image",
+      "license": "3-clause BSD",
       "has_prefix": true,
-      "license_family": "Apache",
+      "license_family": "BSD",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2.8.0",
-      "build": "py39_0",
+      "version": "0.13.0",
+      "subdir": "linux-64",
       "binstar": {
-        "package_id": "59307ed4ad9674123d3976e3",
+        "package_id": "589ceebaf9e4b2115657b153",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "d4399a482f6c5e45939d1e2400c7b876",
+      "md5": "9cd5f9522babf2ebb48fc3e846dbb3e8",
       "requires": [],
-      "subdir": "linux-64"
+      "build": "np112py35_intel_1"
     },
     "jpeg-9d-h36c2ea0_2.tar.bz2": {
       "build_number": 2,
@@ -28089,31 +28235,32 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "pyeditline-2.0.0-py37_0.tar.bz2": {
-      "timestamp": 1574466295177,
+    "oneccl_bind_pt-1.13.100-py39_gpu_0.tar.bz2": {
+      "timestamp": 1673864054104,
       "depends": [
-        "intelpython >=2019.0",
-        "python >=3.7,<3.8.0a0"
+        "python 3.9.*",
+        "pytorch 1.13.*"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 139222,
+      "size": 37611239,
+      "sha256": "7e6edf04215866f40d43ad16422c281cebd6face72c0ba6862ce6947e8f65549",
       "build_number": 0,
-      "name": "pyeditline",
+      "name": "oneccl_bind_pt",
       "license": "BSD 3-Clause",
       "has_prefix": false,
       "license_family": "BSD",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2.0.0",
-      "build": "py37_0",
+      "version": "1.13.100",
+      "build": "py39_gpu_0",
       "binstar": {
-        "package_id": "5be4458a5c4b9a110443b594",
+        "package_id": "62684423876a90bc096d67fa",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "ca92cb94c0fc1420b25cb1342384ddde",
+      "md5": "8753ceb9432f5b1b3629b7c00606df6e",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -28537,31 +28684,29 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "chardet-3.0.4-py37h82fad40_4.tar.bz2": {
-      "build_number": 4,
-      "name": "chardet",
-      "license": "LGPL-2.1",
-      "has_prefix": true,
-      "md5": "2a3da10596f360679687834a8d8e3ecd",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [
-        "intelpython >=2019.0",
-        "python >=3.7,<3.8.0a0"
-      ],
-      "version": "3.0.4",
-      "build": "py37h82fad40_4",
-      "timestamp": 1603798151756,
-      "binstar": {
-        "package_id": "5a0600cc307dba122ab0263a",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 172477,
+    "impi_rt-2019.2-intel_187.tar.bz2": {
+      "timestamp": 1548338291151,
+      "depends": [],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 41574447,
+      "build_number": 187,
+      "name": "impi_rt",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2019.2",
+      "build": "intel_187",
+      "binstar": {
+        "package_id": "5e416d297870586e914eb0ee",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "8bdc53f6eea18b65764d8b638c69e719",
+      "requires": [],
       "subdir": "linux-64"
     },
     "tqdm-4.50.2-py37hf3d76cd_0.tar.bz2": {
@@ -29172,6 +29317,53 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "tensorflow-2.8.0-py39_0.tar.bz2": {
+      "timestamp": 1648000672023,
+      "depends": [
+        "absl-py >=0.4.0",
+        "astunparse >=1.6.0",
+        "flatbuffers >=1.12",
+        "gast >=0.2.1",
+        "google-pasta >=0.1.1",
+        "h5py >=2.9.0",
+        "keras >=2.8.0rc0,<2.9",
+        "keras-preprocessing >=1.1.1",
+        "libclang >=9.0.1",
+        "numpy >=1.20",
+        "opt_einsum >=2.3.2",
+        "pip",
+        "protobuf >=3.9.2",
+        "python >=3.9,<3.10.0a0",
+        "setuptools",
+        "six >=1.12.0",
+        "tensorflow-estimator 2.8.0",
+        "termcolor >=1.1.0",
+        "typing-extensions >=3.6.6",
+        "wheel >=0.32.0,<1.0",
+        "wrapt >=1.11.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 193407978,
+      "build_number": 0,
+      "name": "tensorflow",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.8.0",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "59307ed4ad9674123d3976e3",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d4399a482f6c5e45939d1e2400c7b876",
+      "requires": [],
       "subdir": "linux-64"
     },
     "zlib-1.2.11.1-h1e99aa7_5.tar.bz2": {
@@ -29863,6 +30055,35 @@
       "md5": "224b69a9ab2705ae6e3abd3f3e8ac78f",
       "requires": [],
       "subdir": "linux-64"
+    },
+    "pyzmq-16.0.2-py27_intel_3.tar.bz2": {
+      "features": "intel",
+      "depends": [
+        "intelpython",
+        "python 2.7*",
+        "zeromq 4.1.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 959019,
+      "build_number": 3,
+      "name": "pyzmq",
+      "license": "LGPL and BSD",
+      "has_prefix": true,
+      "license_family": "LGPL",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "16.0.2",
+      "subdir": "linux-64",
+      "binstar": {
+        "package_id": "56fad67d0697b60a633fc012",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "06eb2e7d93afa32f6903511adabc995a",
+      "requires": [],
+      "build": "py27_intel_3"
     },
     "ipyparallel-5.1.1-py35_intel_1.tar.bz2": {
       "build_number": 1,
@@ -33995,36 +34216,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "ipyparallel-6.0.2-py35_intel_0.tar.bz2": {
-      "build_number": 0,
-      "features": "intel",
-      "license": "BSD",
+    "dpnp-0.10.1-py37h91c14e1_14.tar.bz2": {
+      "sha256": "18cb953b59528e2cdf03290753c21f621476f810e2c0c45e43efb5ca010f9da7",
+      "build_number": 14,
+      "name": "dpnp",
+      "license": "BSD-2-Clause",
       "has_prefix": true,
+      "md5": "889f2cdc65e0e5c0c4174fe0c0252368",
       "requires": [],
-      "name": "ipyparallel",
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "decorator",
-        "intelpython",
-        "ipykernel",
-        "ipython >=4.0",
-        "ipython_genutils",
-        "jupyter_client",
-        "python 3.5*",
-        "python-dateutil >=2.1",
-        "pyzmq >=13.0",
-        "tornado >=4.0"
+        "dpcpp-cpp-rt >=2022.2,<2023.0a0",
+        "dpctl >=0.13",
+        "mkl-dpcpp >=2022.2,<2023.0a0",
+        "numpy >=1.15",
+        "python >=3.7,<3.8.0a0"
       ],
-      "version": "6.0.2",
-      "build": "py35_intel_0",
-      "md5": "79b1f300159c3ae7e2de7e7247a271c4",
+      "version": "0.10.1",
+      "build": "py37h91c14e1_14",
+      "timestamp": 1661390417576,
       "binstar": {
-        "package_id": "56fad272676dfa5338be7922",
+        "package_id": "5f94c110a58f0d0a51929a65",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 290920,
+      "size": 11495440,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -36236,6 +36453,34 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "tornado-6.1-py39h27cfd23_0.tar.bz2": {
+      "timestamp": 1606942359431,
+      "depends": [
+        "libgcc-ng >=7.3.0",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 661662,
+      "build_number": 0,
+      "name": "tornado",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "6.1",
+      "build": "py39h27cfd23_0",
+      "binstar": {
+        "package_id": "56fad7504733c34f5d149735",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "200e86f8d53aeebf4b7dcfc944fd7920",
+      "requires": [],
       "subdir": "linux-64"
     },
     "pydaal-2017.0.1.20161006-py35_intel_5.tar.bz2": {
@@ -41763,28 +42008,37 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "ipp-include-2021.4.0-intel_459.tar.bz2": {
-      "build_number": 459,
-      "name": "ipp-include",
-      "license": "Intel Simplified Software License",
-      "has_prefix": false,
-      "md5": "4c7764790b89610930e5c90a6534c1fc",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [],
-      "version": "2021.4.0",
-      "build": "intel_459",
-      "timestamp": 1632482974428,
-      "binstar": {
-        "package_id": "59413712ca7a6112465e3c7d",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 223799,
+    "intel-extension-for-pytorch-1.13.10-py39_xpu_0.tar.bz2": {
+      "timestamp": 1672748921458,
+      "depends": [
+        "lark-parser 0.9.0.*",
+        "numpy >=1.22.3",
+        "psutil",
+        "python 3.9.*",
+        "pytorch 1.13.*",
+        "typing_extensions 4.4.0.*"
+      ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 258164319,
+      "sha256": "02a18d8a4a9c116e3862c24bf4d29c3230ec16f1da5e41a0aea84c986198abb2",
+      "build_number": 0,
+      "name": "intel-extension-for-pytorch",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.10",
+      "build": "py39_xpu_0",
+      "binstar": {
+        "package_id": "5f5d2c62d2ff9009fd549606",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e0f5929d32b9c6a2f5b0e5d0cf5ff42f",
+      "requires": [],
       "subdir": "linux-64"
     },
     "libarchive-3.5.2-hea48a72_0.tar.bz2": {
@@ -42829,6 +43083,42 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py27_intel_4"
+    },
+    "intel-aikit-pytorch-2023.1.0-py39_0.tar.bz2": {
+      "sha256": "63e772ed34092906b72745f8d869b45f3675528966036ff747b2b5f690849c75",
+      "build_number": 0,
+      "name": "intel-aikit-pytorch",
+      "license": "Intel End User License Agreement for Developer Tools (Version October 2021)",
+      "has_prefix": false,
+      "md5": "d72692a7a0f2e447e75a92a54b00a2a2",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "intel-extension-for-pytorch 1.13.10",
+        "libxml2 2.10.3",
+        "mkl-devel 2023.0",
+        "mkl-dpcpp 2023.0",
+        "mkl-include",
+        "mkl-static 2023.0",
+        "neural-compressor-full 1.14.2",
+        "numpy >=1.22.3",
+        "oneccl_bind_pt 1.13.0",
+        "torchvision 0.14.1"
+      ],
+      "version": "2023.1.0",
+      "build": "py39_0",
+      "timestamp": 1674749728459,
+      "binstar": {
+        "package_id": "5f22088d778a870a1ce02b0a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 199613,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "thrift-cpp-0.13.0-h5dbbd93_7.tar.bz2": {
       "build_number": 7,
@@ -47022,6 +47312,37 @@
       },
       "md5": "ac70f4888848126c9b111123a16ba75e",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel-aikit-tensorflow-2023.1.0-py39_0.tar.bz2": {
+      "sha256": "06150736737ccddfad4cb6672beae616026597f28517ccd3ff13e055f380c28e",
+      "build_number": 0,
+      "name": "intel-aikit-tensorflow",
+      "license": "Intel End User License Agreement for Developer Tools (Version October 2021)",
+      "has_prefix": false,
+      "md5": "5450c0f379805a7559f13ef900c70b6c",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "impi-devel 2021.8.0",
+        "neural-compressor-full 1.14.2",
+        "numpy >=1.22.3",
+        "tensorflow 2.10.0",
+        "tensorflow-base ==2.10.0 py39_0"
+      ],
+      "version": "2023.1.0",
+      "build": "py39_0",
+      "timestamp": 1674763244560,
+      "binstar": {
+        "package_id": "5f22077efe6b2a0a2b81646d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 202072,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "mkl_random-1.0.2-py36_0.tar.bz2": {
@@ -54410,35 +54731,31 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "dpnp-0.10.1-py37h91c14e1_14.tar.bz2": {
-      "sha256": "18cb953b59528e2cdf03290753c21f621476f810e2c0c45e43efb5ca010f9da7",
-      "build_number": 14,
-      "name": "dpnp",
-      "license": "BSD-2-Clause",
-      "has_prefix": true,
-      "md5": "889f2cdc65e0e5c0c4174fe0c0252368",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+    "icc_rt-2018.0.3-intel_0.tar.bz2": {
+      "features": "intel",
       "depends": [
-        "dpcpp-cpp-rt >=2022.2,<2023.0a0",
-        "dpctl >=0.13",
-        "mkl-dpcpp >=2022.2,<2023.0a0",
-        "numpy >=1.15",
-        "python >=3.7,<3.8.0a0"
+        "openmp"
       ],
-      "version": "0.10.1",
-      "build": "py37h91c14e1_14",
-      "timestamp": 1661390417576,
-      "binstar": {
-        "package_id": "5f94c110a58f0d0a51929a65",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 11495440,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 10350384,
+      "build_number": 0,
+      "name": "icc_rt",
+      "license": "Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2018.0.3",
+      "build": "intel_0",
+      "binstar": {
+        "package_id": "5e416d987870586e9465f4cf",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "86daea4b1db291e59a840043dc632016",
+      "requires": [],
       "subdir": "linux-64"
     },
     "daal-2019.4-intel_235.tar.bz2": {
@@ -62796,6 +63113,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel-extension-for-tensorflow-1.1.0-py3.9_gpu_1.tar.bz2": {
+      "timestamp": 1672869017114,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "tensorflow-upstream 2.10.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 180843442,
+      "sha256": "aaaf041799adffe8eda3b0dac480dc85ca3638738229dd1aacbeedd52b47a577",
+      "build_number": 1,
+      "name": "intel-extension-for-tensorflow",
+      "license": "Apache License 2.0",
+      "has_prefix": false,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1.0",
+      "build": "py3.9_gpu_1",
+      "binstar": {
+        "package_id": "63d18e15cd65eb0e14a0f10f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "36c5e231f073e772a2afba7b5b0d80a6",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "ipp-devel-2021.5.1-intel_522.tar.bz2": {
       "build_number": 522,
       "name": "ipp-devel",
@@ -66433,41 +66779,34 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "scikit-image-0.13.0-np112py35_intel_1.tar.bz2": {
+    "pexpect-4.0.1-py27_intel_4.tar.bz2": {
       "features": "intel",
       "depends": [
         "intelpython",
-        "matplotlib >=1.3.1",
-        "networkx >=1.8",
-        "numpy 1.12*",
-        "pillow >=2.1",
-        "python 3.5*",
-        "pywavelets",
-        "scipy",
-        "six >=1.7.3",
-        "tornado"
+        "ptyprocess >=0.5",
+        "python 2.7*"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 34459303,
-      "build_number": 1,
-      "name": "scikit-image",
-      "license": "3-clause BSD",
-      "has_prefix": true,
-      "license_family": "BSD",
+      "size": 37775,
+      "build_number": 4,
+      "name": "pexpect",
+      "license": "ISC",
+      "has_prefix": false,
+      "license_family": "Other",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "0.13.0",
-      "subdir": "linux-64",
+      "version": "4.0.1",
+      "build": "py27_intel_4",
       "binstar": {
-        "package_id": "589ceebaf9e4b2115657b153",
+        "package_id": "56fad5b0676dfa4f4dde2622",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "9cd5f9522babf2ebb48fc3e846dbb3e8",
+      "md5": "0037290d70c6e7dfdab3cf8c414e3927",
       "requires": [],
-      "build": "np112py35_intel_1"
+      "subdir": "linux-64"
     },
     "python-leveldb-0.193-py35_intel_0.tar.bz2": {
       "build_number": 0,
@@ -67809,6 +68148,39 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "tensorflow-upstream-2.10.0-py39_0.tar.bz2": {
+      "timestamp": 1672866790190,
+      "depends": [
+        "icu >=58.2,<59.0",
+        "protobuf >=3.20",
+        "python >=3.9,<3.10.0a0",
+        "tensorboard 2.10.*",
+        "tensorflow-base 2.10.*",
+        "tensorflow-estimator 2.10.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 525579733,
+      "sha256": "308aec40dc59d1db95fdd1e9c3571e9e0e82a50c73fecc57919c935d2ee9e731",
+      "build_number": 0,
+      "name": "tensorflow-upstream",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.10.0",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "63d2c1c4dbdf7335211fa238",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3846bf4b81b03e3f8c7dbb5b22352a81",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "libgfortran-ng-9.3.0-ha5ec8a7_17.tar.bz2": {
       "build_number": 17,
       "name": "libgfortran-ng",
@@ -67894,33 +68266,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 1041491,
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "subdir": "linux-64"
-    },
-    "thrift-cpp-0.14.1-0.tar.bz2": {
-      "build_number": 0,
-      "name": "thrift-cpp",
-      "license": "Apache-2.0",
-      "has_prefix": false,
-      "md5": "21cf14f3f800d89f13b9edb432d151dd",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [
-        "libthrift 0.14.1 h36a55ba_0",
-        "thrift-compiler 0.14.1 h36a55ba_0"
-      ],
-      "version": "0.14.1",
-      "build": "0",
-      "timestamp": 1621280802089,
-      "binstar": {
-        "package_id": "5f21fbac83b6630a0e235926",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 13040,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -68811,6 +69156,39 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "b8b9171edd8174cc396c93c16d1ffb6a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "tensorflow-2.10.0-py39_0.tar.bz2": {
+      "timestamp": 1671610169422,
+      "depends": [
+        "icu >=58.2,<59.0",
+        "protobuf >=3.20",
+        "python >=3.9,<3.10.0a0",
+        "tensorboard 2.10.*",
+        "tensorflow-base 2.10.*",
+        "tensorflow-estimator 2.10.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 33506,
+      "sha256": "a6f731cb7e92ed5a193e60370173f2c39de050bb096fe5d5acf2380bf6a5a040",
+      "build_number": 0,
+      "name": "tensorflow",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.10.0",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "59307ed4ad9674123d3976e3",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "026ba5e76ce0452e86c8294eaefdbb8d",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -69931,34 +70309,34 @@
       "target-triplet": "x86_64-any-linux",
       "build": "intel_0"
     },
-    "pyzmq-16.0.2-py27_intel_3.tar.bz2": {
+    "pycairo-1.10.0-py27_intel_4.tar.bz2": {
       "features": "intel",
       "depends": [
+        "cairo",
         "intelpython",
-        "python 2.7*",
-        "zeromq 4.1.*"
+        "python 2.7*"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 959019,
-      "build_number": 3,
-      "name": "pyzmq",
-      "license": "LGPL and BSD",
+      "size": 100334,
+      "build_number": 4,
+      "name": "pycairo",
+      "license": "LGPL 2.1, MPL 1.1",
       "has_prefix": true,
       "license_family": "LGPL",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "16.0.2",
-      "subdir": "linux-64",
+      "version": "1.10.0",
+      "build": "py27_intel_4",
       "binstar": {
-        "package_id": "56fad67d0697b60a633fc012",
+        "package_id": "57b3266f09b8ee23cebd3552",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "06eb2e7d93afa32f6903511adabc995a",
+      "md5": "99a2e42baf2814d2f8a946a175812e50",
       "requires": [],
-      "build": "py27_intel_3"
+      "subdir": "linux-64"
     },
     "mkl-static-2022.1.0-intel_223.tar.bz2": {
       "build_number": 223,
@@ -74665,31 +75043,31 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "ipp-devel-2019.3-intel_199.tar.bz2": {
-      "timestamp": 1550225844626,
+    "certifi-2022.6.15-py38h06a4308_0.tar.bz2": {
+      "timestamp": 1655968918305,
       "depends": [
-        "ipp 2019.3 intel_199",
-        "ipp-include 2019.3 intel_199"
+        "python >=3.8,<3.9.0a0"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 3727,
-      "build_number": 199,
-      "name": "ipp-devel",
-      "license": "proprietary - Intel",
+      "size": 159929,
+      "sha256": "f0e2dfa161cb75f2519466ffa2bb7e19417b4c1f64da232339bf355cdccf1dee",
+      "build_number": 0,
+      "name": "certifi",
+      "license": "MPL-2.0",
       "has_prefix": false,
-      "license_family": "Proprietary",
+      "license_family": "Other",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2019.3",
-      "build": "intel_199",
+      "version": "2022.6.15",
+      "build": "py38h06a4308_0",
       "binstar": {
-        "package_id": "594137319cf16412714b2a59",
+        "package_id": "5e416dde83b66372f4394047",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "fa75c14877dba58215f189924e278f30",
+      "md5": "9cf38ee6dfce9fdea3822ad6af016018",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -78355,31 +78733,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "icc_rt-2018.0.3-intel_0.tar.bz2": {
-      "features": "intel",
-      "depends": [
-        "openmp"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 10350384,
-      "build_number": 0,
-      "name": "icc_rt",
-      "license": "Intel",
-      "has_prefix": false,
-      "license_family": "Proprietary",
+    "kiwisolver-1.0.1-py36_1.tar.bz2": {
+      "build_number": 1,
+      "name": "kiwisolver",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2018.0.3",
-      "build": "intel_0",
+      "depends": [
+        "intelpython",
+        "python 3.6*"
+      ],
+      "version": "1.0.1",
+      "build": "py36_1",
+      "md5": "d0a251c7dc08f00a3038258d05f2d97a",
       "binstar": {
-        "package_id": "5e416d987870586e9465f4cf",
+        "package_id": "5e416d55fe6b2a0197aafc3d",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "86daea4b1db291e59a840043dc632016",
-      "requires": [],
+      "size": 945391,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "cython-0.29.3-py36_1.tar.bz2": {
@@ -82730,27 +83108,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "mkl-dnn-0.14-2.tar.bz2": {
-      "build_number": 2,
-      "name": "mkl-dnn",
-      "license": "Apache License 2.0",
-      "has_prefix": false,
-      "license_family": "Apache",
+    "theano-1.1-py36_intel_4.tar.bz2": {
+      "build_number": 4,
+      "features": "intel",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
       "requires": [],
+      "name": "theano",
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "openmp"
+        "icc_rt",
+        "intelpython",
+        "mkl >=2018.0.0",
+        "numpy >=1.3.0",
+        "python 3.6*",
+        "scipy >=0.7.0",
+        "setuptools",
+        "six >=1.9.0"
       ],
-      "version": "0.14",
-      "build": "2",
-      "md5": "a8de0447309bb7913e9879213d2fa91f",
+      "version": "1.1",
+      "build": "py36_intel_4",
+      "md5": "9d0800395f1af96277f6b2b81a695cd2",
       "binstar": {
-        "package_id": "589ced81f9e4b211577b3c47",
+        "package_id": "584adbef2ab33e0fe7602387",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 33462161,
+      "size": 4066204,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -87017,6 +87402,34 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_6"
     },
+    "pyeditline-2.0.0-py37_0.tar.bz2": {
+      "timestamp": 1574466295177,
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 139222,
+      "build_number": 0,
+      "name": "pyeditline",
+      "license": "BSD 3-Clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.0.0",
+      "build": "py37_0",
+      "binstar": {
+        "package_id": "5be4458a5c4b9a110443b594",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "ca92cb94c0fc1420b25cb1342384ddde",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "wheel-0.36.2-py37ha11c92b_0.tar.bz2": {
       "build_number": 0,
       "name": "wheel",
@@ -88314,32 +88727,31 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "ipp-devel-2020.2-intel_254.tar.bz2": {
-      "timestamp": 1593114952648,
-      "depends": [
-        "ipp 2020.2 intel_254",
-        "ipp-include 2020.2 intel_254"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 3590,
-      "build_number": 254,
-      "name": "ipp-devel",
-      "license": "proprietary - Intel",
+    "thrift-cpp-0.14.1-0.tar.bz2": {
+      "build_number": 0,
+      "name": "thrift-cpp",
+      "license": "Apache-2.0",
       "has_prefix": false,
-      "license_family": "Proprietary",
+      "md5": "21cf14f3f800d89f13b9edb432d151dd",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2020.2",
-      "build": "intel_254",
+      "depends": [
+        "libthrift 0.14.1 h36a55ba_0",
+        "thrift-compiler 0.14.1 h36a55ba_0"
+      ],
+      "version": "0.14.1",
+      "build": "0",
+      "timestamp": 1621280802089,
       "binstar": {
-        "package_id": "594137319cf16412714b2a59",
+        "package_id": "5f21fbac83b6630a0e235926",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "e5b38d109c209fa1369202706723600f",
-      "requires": [],
+      "size": 13040,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "pycocotools-2.0.2-py39hce5d2b2_2.tar.bz2": {
@@ -95536,30 +95948,37 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "opencl_rt-2021.4.0-intel_3561.tar.bz2": {
-      "build_number": 3561,
-      "name": "opencl_rt",
-      "license": "Intel End User License Agreement for Developer Tools",
-      "has_prefix": false,
-      "md5": "502839b50a26152ac80b0f4ae4aabda8",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+    "intel-tensorflow-2.10.0-py39_0.tar.bz2": {
+      "timestamp": 1671610169422,
       "depends": [
-        "intel-opencl-rt >=2021.3.0"
+        "icu >=58.2,<59.0",
+        "protobuf >=3.20",
+        "python >=3.9,<3.10.0a0",
+        "tensorboard 2.10.*",
+        "tensorflow-base 2.10.*",
+        "tensorflow-estimator 2.10.*"
       ],
-      "version": "2021.4.0",
-      "build": "intel_3561",
-      "timestamp": 1632475869630,
-      "binstar": {
-        "package_id": "5f94c2d3a58f0d0a5193cd72",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 22395,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 33493,
+      "sha256": "6fc1b5135bd683c4179a8e29dfbd46c5054cb2a3e981e5dd76ca316b4b3d6c21",
+      "build_number": 0,
+      "name": "intel-tensorflow",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2.10.0",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "63d18dd20273ee116a501833",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e9837ec3cb6d83423f9a3709b3c226fa",
+      "requires": [],
       "subdir": "linux-64"
     },
     "numpy-1.21.2-py38hec4e512_7.tar.bz2": {
@@ -97028,29 +97447,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "impi_rt-2019.2-intel_187.tar.bz2": {
-      "timestamp": 1548338291151,
-      "depends": [],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 41574447,
-      "build_number": 187,
-      "name": "impi_rt",
-      "license": "proprietary - Intel",
+    "mkl-dnn-0.14-2.tar.bz2": {
+      "build_number": 2,
+      "name": "mkl-dnn",
+      "license": "Apache License 2.0",
       "has_prefix": false,
-      "license_family": "Proprietary",
+      "license_family": "Apache",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2019.2",
-      "build": "intel_187",
+      "depends": [
+        "openmp"
+      ],
+      "version": "0.14",
+      "build": "2",
+      "md5": "a8de0447309bb7913e9879213d2fa91f",
       "binstar": {
-        "package_id": "5e416d297870586e914eb0ee",
+        "package_id": "589ced81f9e4b211577b3c47",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "8bdc53f6eea18b65764d8b638c69e719",
-      "requires": [],
+      "size": 33462161,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "cffi-1.15.1-py37h74dc2b5_0.tar.bz2": {
@@ -97211,6 +97631,43 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 8888,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "intel-aikit-pytorch-gpu-2023.1.0-py39_0.tar.bz2": {
+      "sha256": "f79c4c7fb73937dce70fe14a8465c2ad68b5c0d3bf3bb7b86f233bd9fa78ae40",
+      "build_number": 0,
+      "name": "intel-aikit-pytorch-gpu",
+      "license": "Intel End User License Agreement for Developer Tools (Version October 2021)",
+      "has_prefix": false,
+      "md5": "dd13fcfb02229c8659af9b62caf99e7a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "cpuonly 1.0",
+        "intel-extension-for-pytorch 1.13.10",
+        "libxml2 2.10.3",
+        "mkl-devel 2023.0",
+        "mkl-dpcpp 2023.0",
+        "mkl-include",
+        "mkl-static 2023.0",
+        "neural-compressor-full 1.14.2",
+        "numpy >=1.22.3",
+        "oneccl_bind_pt 1.13.100",
+        "torchvision 0.14.1"
+      ],
+      "version": "2023.1.0",
+      "build": "py39_0",
+      "timestamp": 1674750937548,
+      "binstar": {
+        "package_id": "63d2ad31edf45d7c2ed87a7b",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 199061,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -99301,6 +99758,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "setuptools-47.3.0-py37_0.tar.bz2": {
+      "timestamp": 1593148723736,
+      "depends": [
+        "certifi",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 651984,
+      "build_number": 0,
+      "name": "setuptools",
+      "license": "MIT",
+      "has_prefix": true,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "47.3.0",
+      "build": "py37_0",
+      "binstar": {
+        "package_id": "5e416e2783b66372f629ce0a",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "0efaefa41c173d643f2f32545f9e04b4",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "numexpr-2.8.1-py38ha90e767_1.tar.bz2": {
       "sha256": "217a332b7d2a25cdf8c9c2bc68c1231c5ad1e335f006e945c6f665612152500b",
       "build_number": 1,
@@ -101083,6 +101568,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel-extension-for-tensorflow-1.1.0-py3.9_gpu_0.tar.bz2": {
+      "timestamp": 1672869017114,
+      "depends": [
+        "python >=3.9,<3.10.0a0",
+        "tensorflow 2.10.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 180844273,
+      "sha256": "12202324ce72bac09d9d33e65e25738b9c83256dfe13bae5c0676174e4f8cec0",
+      "build_number": 0,
+      "name": "intel-extension-for-tensorflow",
+      "license": "Apache License 2.0",
+      "has_prefix": false,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1.0",
+      "build": "py3.9_gpu_0",
+      "binstar": {
+        "package_id": "63d18e15cd65eb0e14a0f10f",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "15717c4f4cd2cec8e4b64a5f4faf900f",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "pyopenssl-17.5.0-py37_2.tar.bz2": {
       "timestamp": 1574459494791,
       "depends": [
@@ -102587,39 +103101,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 3962180,
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "subdir": "linux-64"
-    },
-    "theano-1.1-py36_intel_4.tar.bz2": {
-      "build_number": 4,
-      "features": "intel",
-      "license": "BSD 3-Clause",
-      "has_prefix": true,
-      "requires": [],
-      "name": "theano",
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [
-        "icc_rt",
-        "intelpython",
-        "mkl >=2018.0.0",
-        "numpy >=1.3.0",
-        "python 3.6*",
-        "scipy >=0.7.0",
-        "setuptools",
-        "six >=1.9.0"
-      ],
-      "version": "1.1",
-      "build": "py36_intel_4",
-      "md5": "9d0800395f1af96277f6b2b81a695cd2",
-      "binstar": {
-        "package_id": "584adbef2ab33e0fe7602387",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 4066204,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -108915,32 +109396,30 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "tornado-6.1-py39h27cfd23_0.tar.bz2": {
-      "timestamp": 1606942359431,
-      "depends": [
-        "libgcc-ng >=7.3.0",
-        "python >=3.9,<3.10.0a0"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 661662,
-      "build_number": 0,
-      "name": "tornado",
-      "license": "Apache-2.0",
+    "opencl_rt-2021.4.0-intel_3561.tar.bz2": {
+      "build_number": 3561,
+      "name": "opencl_rt",
+      "license": "Intel End User License Agreement for Developer Tools",
       "has_prefix": false,
-      "license_family": "Apache",
+      "md5": "502839b50a26152ac80b0f4ae4aabda8",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "6.1",
-      "build": "py39h27cfd23_0",
+      "depends": [
+        "intel-opencl-rt >=2021.3.0"
+      ],
+      "version": "2021.4.0",
+      "build": "intel_3561",
+      "timestamp": 1632475869630,
       "binstar": {
-        "package_id": "56fad7504733c34f5d149735",
+        "package_id": "5f94c2d3a58f0d0a5193cd72",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "200e86f8d53aeebf4b7dcfc944fd7920",
-      "requires": [],
+      "size": 22395,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "numexpr-2.6.5-np114py36_2.tar.bz2": {
@@ -108972,32 +109451,31 @@
       "target-triplet": "x86_64-any-linux",
       "build": "np114py36_2"
     },
-    "certifi-2022.6.15-py38h06a4308_0.tar.bz2": {
-      "timestamp": 1655968918305,
-      "depends": [
-        "python >=3.8,<3.9.0a0"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 159929,
-      "sha256": "f0e2dfa161cb75f2519466ffa2bb7e19417b4c1f64da232339bf355cdccf1dee",
-      "build_number": 0,
-      "name": "certifi",
-      "license": "MPL-2.0",
-      "has_prefix": false,
-      "license_family": "Other",
+    "chardet-3.0.4-py37h82fad40_4.tar.bz2": {
+      "build_number": 4,
+      "name": "chardet",
+      "license": "LGPL-2.1",
+      "has_prefix": true,
+      "md5": "2a3da10596f360679687834a8d8e3ecd",
+      "requires": [],
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2022.6.15",
-      "build": "py38h06a4308_0",
+      "depends": [
+        "intelpython >=2019.0",
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "3.0.4",
+      "build": "py37h82fad40_4",
+      "timestamp": 1603798151756,
       "binstar": {
-        "package_id": "5e416dde83b66372f4394047",
+        "package_id": "5a0600cc307dba122ab0263a",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "9cf38ee6dfce9fdea3822ad6af016018",
-      "requires": [],
+      "size": 172477,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "mkl-devel-dpcpp-2022.2.1-intel_16993.tar.bz2": {
@@ -115110,28 +115588,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "ipp-include-2021.3.0-intel_333.tar.bz2": {
-      "build_number": 333,
-      "name": "ipp-include",
-      "license": "Intel Simplified Software License",
-      "has_prefix": false,
-      "md5": "af50a355979b15ec4c627de07580a987",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [],
-      "version": "2021.3.0",
-      "build": "intel_333",
-      "timestamp": 1624278511018,
-      "binstar": {
-        "package_id": "59413712ca7a6112465e3c7d",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 218677,
+    "ipp-devel-2020.2-intel_254.tar.bz2": {
+      "timestamp": 1593114952648,
+      "depends": [
+        "ipp 2020.2 intel_254",
+        "ipp-include 2020.2 intel_254"
+      ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 3590,
+      "build_number": 254,
+      "name": "ipp-devel",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2020.2",
+      "build": "intel_254",
+      "binstar": {
+        "package_id": "594137319cf16412714b2a59",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e5b38d109c209fa1369202706723600f",
+      "requires": [],
       "subdir": "linux-64"
     },
     "conda-package-handling-1.4.0-py37_1.tar.bz2": {
@@ -119218,6 +119700,39 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 380569,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "intel-aikit-tensorflow-gpu-2023.1.0-py39_0.tar.bz2": {
+      "sha256": "78715d648ba4f8f12bb29b8a0e065c7e35ab8e143c776bc5b1fb7f18db08b471",
+      "build_number": 0,
+      "name": "intel-aikit-tensorflow-gpu",
+      "license": "Intel End User License Agreement for Developer Tools (Version October 2021)",
+      "has_prefix": false,
+      "md5": "af7c0f24547a65e403eca8115819cb43",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "impi-devel 2021.8.0",
+        "intel-extension-for-tensorflow 1.1.0",
+        "mkl-dpcpp 2023.0.*",
+        "neural-compressor-full 1.14.2",
+        "numpy >=1.22.3",
+        "tbb-devel 2021.8.0.*",
+        "tensorflow-upstream 2.10.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py39_0",
+      "timestamp": 1674847613969,
+      "binstar": {
+        "package_id": "63d2e0b568b198bb954d0563",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 250044,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
