@@ -3283,6 +3283,35 @@
       "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
+    "daal4py-2023.1.0-py39_intel_43546.tar.bz2": {
+      "sha256": "80e44f59aa40a897b365395ecacaa3ca7cef47836662ae0c7c8203f835e149bd",
+      "build_number": 43546,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "d5e5b0b9acd6b8d7cd41c7266de16a8e",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.9.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py39_intel_43546",
+      "timestamp": 1678297582355,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2360481,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
+    },
     "mkl_random-1.0.4-py27h7b7c402_2.tar.bz2": {
       "build_number": 2,
       "name": "mkl_random",
@@ -9858,6 +9887,35 @@
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",
       "build": "py27h7b7c402_11"
+    },
+    "daal4py-2023.1.0-py311_intel_43546.tar.bz2": {
+      "sha256": "3e93da3be3f4622994b7c88ed86ae6abd6e4be1fde48a1d477064f35aaaf9707",
+      "build_number": 43546,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "0d52fef0248527cab2c259a111d536d5",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.11.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py311_intel_43546",
+      "timestamp": 1678297623200,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2322093,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "subdir": "osx-64"
     },
     "cryptography-38.0.1-py310hf6deb26_0.tar.bz2": {
       "timestamp": 1665612829757,
@@ -21675,33 +21733,34 @@
       "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
-    "widgetsnbextension-2.0.0-py36_2.tar.bz2": {
-      "build_number": 2,
-      "name": "widgetsnbextension",
-      "license": "BSD 3-clause",
+    "intelpython2_core-2017.0.1-1.tar.bz2": {
+      "build_number": 1,
+      "name": "intelpython2_core",
       "has_prefix": false,
-      "license_family": "BSD",
       "requires": [],
       "machine": "x86_64",
       "platform": "osx",
       "depends": [
         "intelpython",
-        "notebook >=4.2.0",
-        "python 3.6*"
+        "mkl 2017.0.1 intel_2",
+        "numpy 1.11.2 py27_intel_2",
+        "python 2.7.12 intel_18",
+        "scipy 0.18.1 np111py27_intel_1",
+        "tbb 2017.0.2 py27_intel_0"
       ],
-      "version": "2.0.0",
+      "version": "2017.0.1",
       "subdir": "osx-64",
-      "md5": "07d09b422393c204b6cb2bb51ddc13d7",
+      "md5": "51445fb78f11aecbb7fc1bfecc22b80c",
       "binstar": {
-        "package_id": "5813bdcfd10fc211a703974e",
+        "package_id": "5702d0a9676dfa6a2fbb07f8",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 902729,
+      "size": 915,
       "arch": "x86_64",
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",
-      "build": "py36_2"
+      "build": "1"
     },
     "numpy-1.16.4-py27h7b7c402_25.tar.bz2": {
       "build_number": 25,
@@ -41557,6 +41616,38 @@
       "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
+    "dpcpp-cpp-rt-2023.1.0-intel_43547.tar.bz2": {
+      "timestamp": 1678296184507,
+      "depends": [
+        "icc_rt 2023.1.*",
+        "intel-cmplr-lic-rt 2023.1.0 intel_43547",
+        "intel-openmp 2023.1.0 intel_43547"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "size": 7329271,
+      "constrains": [
+        "dpcpp_cpp_rt >=2021.3.0"
+      ],
+      "sha256": "1f5f95cc04afd3d12fb8071718be116d50006965b89ad8288c5dac7b001d50b4",
+      "build_number": 43547,
+      "name": "dpcpp-cpp-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "osx",
+      "version": "2023.1.0",
+      "build": "intel_43547",
+      "binstar": {
+        "package_id": "60d9db265f0624224aef0354",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "fb1629b67fbcc7b5ae20fac732526987",
+      "requires": [],
+      "subdir": "osx-64"
+    },
     "idna-3.4-py310hecd8cb5_0.tar.bz2": {
       "timestamp": 1666125702178,
       "depends": [
@@ -47036,6 +47127,35 @@
       },
       "md5": "a3173f3bce7d8a999efcd7c63cfd8967",
       "requires": [],
+      "subdir": "osx-64"
+    },
+    "daal4py-2023.1.0-py37_intel_43546.tar.bz2": {
+      "sha256": "db82bf6705b0be6f5008358fc098bf66e8e33c6fb1380a952b87f91f205c1320",
+      "build_number": 43546,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "9ed41b4d3e616b6aba51454a8c5d765c",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.7.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py37_intel_43546",
+      "timestamp": 1678297748508,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2527764,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
     "sqlite-3.27.2-2.tar.bz2": {
@@ -61624,34 +61744,34 @@
       "requires": [],
       "subdir": "osx-64"
     },
-    "intelpython2_core-2017.0.1-1.tar.bz2": {
-      "build_number": 1,
-      "name": "intelpython2_core",
+    "daal4py-2023.1.0-py310_intel_43546.tar.bz2": {
+      "sha256": "07dd441171939a623984f2dead484dbd5d06db514bf1f5f926afeab6696536ae",
+      "build_number": 43546,
+      "name": "daal4py",
+      "license": "Apache v2.0",
       "has_prefix": false,
+      "md5": "dee6f175477a6a10a151c7f97d6c3861",
       "requires": [],
       "machine": "x86_64",
       "platform": "osx",
       "depends": [
-        "intelpython",
-        "mkl 2017.0.1 intel_2",
-        "numpy 1.11.2 py27_intel_2",
-        "python 2.7.12 intel_18",
-        "scipy 0.18.1 np111py27_intel_1",
-        "tbb 2017.0.2 py27_intel_0"
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.10.*"
       ],
-      "version": "2017.0.1",
-      "subdir": "osx-64",
-      "md5": "51445fb78f11aecbb7fc1bfecc22b80c",
+      "version": "2023.1.0",
+      "build": "py310_intel_43546",
+      "timestamp": 1678297741750,
       "binstar": {
-        "package_id": "5702d0a9676dfa6a2fbb07f8",
+        "package_id": "5e416dd083b66372f629ac86",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 915,
+      "size": 2319081,
       "arch": "x86_64",
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",
-      "build": "1"
+      "subdir": "osx-64"
     },
     "terminado-0.6-py27_intel_6.tar.bz2": {
       "build_number": 6,
@@ -64100,6 +64220,34 @@
       "operatingsystem": "darwin",
       "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
+    },
+    "widgetsnbextension-2.0.0-py36_2.tar.bz2": {
+      "build_number": 2,
+      "name": "widgetsnbextension",
+      "license": "BSD 3-clause",
+      "has_prefix": false,
+      "license_family": "BSD",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "intelpython",
+        "notebook >=4.2.0",
+        "python 3.6*"
+      ],
+      "version": "2.0.0",
+      "subdir": "osx-64",
+      "md5": "07d09b422393c204b6cb2bb51ddc13d7",
+      "binstar": {
+        "package_id": "5813bdcfd10fc211a703974e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 902729,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
+      "build": "py36_2"
     },
     "ipp-devel-2017.0.3-intel_1.tar.bz2": {
       "build_number": 1,
@@ -74093,6 +74241,35 @@
       },
       "md5": "f40609486661f6f872ad95528e0c0ac1",
       "requires": [],
+      "subdir": "osx-64"
+    },
+    "daal4py-2023.1.0-py38_intel_43546.tar.bz2": {
+      "sha256": "c2c944c28b8520c3640162559c2128766a361b9bfdf39311d23ddce377b4879c",
+      "build_number": 43546,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "a3aeb5644398cad1aeb80ae8a0b745a8",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "osx",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.8.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py38_intel_43546",
+      "timestamp": 1678297733226,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 2597297,
+      "arch": "x86_64",
+      "operatingsystem": "darwin",
+      "target-triplet": "x86_64-any-darwin",
       "subdir": "osx-64"
     },
     "matplotlib-3.1.2-py38h7bf75b8_10.tar.bz2": {

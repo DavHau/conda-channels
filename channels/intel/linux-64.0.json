@@ -3402,28 +3402,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "pytz-2022.1-py37h06a4308_0.tar.bz2": {
-      "sha256": "39f1d18184aa8484d46737728ec592c2cc1f37dc90d791b307e2ae9979b058d0",
-      "build_number": 0,
-      "name": "pytz",
-      "license": "MIT",
+    "daal4py-2023.1.0-py38_intel_46349.tar.bz2": {
+      "sha256": "4f3950543e927b45e8ab9f38e8b5d7af072ce901940b2f784390f8f2bb77a2e1",
+      "build_number": 46349,
+      "name": "daal4py",
+      "license": "Apache v2.0",
       "has_prefix": false,
-      "md5": "1381a60ad9b4149935d15cb64ae86a96",
+      "md5": "5038aa0f682701fc194e82b4340032a5",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "python >=3.7,<3.8.0a0"
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.8.*"
       ],
-      "version": "2022.1",
-      "build": "py37h06a4308_0",
-      "timestamp": 1654762674993,
+      "version": "2023.1.0",
+      "build": "py38_intel_46349",
+      "timestamp": 1679369266430,
       "binstar": {
-        "package_id": "5e416de57870586e8e80bb9c",
+        "package_id": "5e416dd083b66372f629ac86",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 270651,
+      "size": 10083332,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -16402,6 +16404,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "daal4py-2023.1.0-py310_intel_46349.tar.bz2": {
+      "sha256": "3661c068f7ea0ad29ea8c3ccac53bf05dfe4e22449083647697d3ee59d4997cf",
+      "build_number": 46349,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "f0f54aa4ae7e131920a42df92e26f46b",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.10.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py310_intel_46349",
+      "timestamp": 1679369355788,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10081863,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "libarchive-3.4.2-ha657d38_7.tar.bz2": {
       "timestamp": 1622095144654,
       "depends": [
@@ -17404,6 +17435,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "1b6977f6e52839f278b8fe377438de20",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel_extension_for_transformers-1.0.0-py37_0.tar.bz2": {
+      "timestamp": 1680625083818,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.7,<3.8.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44893769,
+      "sha256": "70a034ffa2c3b9903c5aedc9801f6cce6a08c52d520d8e6074466c31e758f716",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.0",
+      "build": "py37_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "59853e80174ebdf4c83548062f7ba931",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -45166,6 +45231,40 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "intel_extension_for_transformers-1.0.0-py310_0.tar.bz2": {
+      "timestamp": 1680624323721,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.10,<3.11.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44745511,
+      "sha256": "45356e08f1663eec5d1d3d8f95e5b3036ea15b41de611213c82a4a54d8346afc",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.0",
+      "build": "py310_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "5eb67beb559a93fa59f21f688b13959d",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "dal-devel-2023.0.0-intel_25395.tar.bz2": {
       "sha256": "e6cfc2f90afa6396e83601c97133bbcd14f925493c1561790409279683c100ba",
       "build_number": 25395,
@@ -50682,6 +50781,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "pytz-2022.1-py37h06a4308_0.tar.bz2": {
+      "sha256": "39f1d18184aa8484d46737728ec592c2cc1f37dc90d791b307e2ae9979b058d0",
+      "build_number": 0,
+      "name": "pytz",
+      "license": "MIT",
+      "has_prefix": false,
+      "md5": "1381a60ad9b4149935d15cb64ae86a96",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "python >=3.7,<3.8.0a0"
+      ],
+      "version": "2022.1",
+      "build": "py37h06a4308_0",
+      "timestamp": 1654762674993,
+      "binstar": {
+        "package_id": "5e416de57870586e8e80bb9c",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 270651,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pip-21.1.1-py38ha59826b_0.tar.bz2": {
       "build_number": 0,
       "name": "pip",
@@ -53839,6 +53965,40 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "intel_extension_for_transformers-1.0.0-py39_0.tar.bz2": {
+      "timestamp": 1680623692519,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.9,<3.10.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44829806,
+      "sha256": "566c8083940ff6dc2ac49163c8875aa832054ebd66d9d91784bf37f06f692f55",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.0",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "32e889b64282912505146aab4ebbfa03",
+      "requires": [],
       "subdir": "linux-64"
     },
     "caffe-1.1.0-py27_intel_4.tar.bz2": {
@@ -83249,6 +83409,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "daal4py-2023.1.0-py37_intel_46349.tar.bz2": {
+      "sha256": "78ca12f663edb2f02439136514af6cf75243f3e7eb4587cb4735fd28e33b70b0",
+      "build_number": 46349,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "9995a09460e338a59bdc34e75951db47",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.7.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py37_intel_46349",
+      "timestamp": 1679369289663,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10013679,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "tk-8.6.4-28.tar.bz2": {
       "timestamp": 1551398965622,
       "depends": [
@@ -95333,6 +95522,40 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "intel_extension_for_transformers-1.0.0-py38_0.tar.bz2": {
+      "timestamp": 1680620499710,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.8,<3.9.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44772840,
+      "sha256": "894d0e26363af24c1abf440740e7b86f962e29ef5f202e3127df7ca4f1daf7fc",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.0",
+      "build": "py38_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "7cc9be406419ce16fb05d54d974da515",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "libgcc-ng-11.2.0-h1234567_1.tar.bz2": {
       "timestamp": 1654090827491,
       "depends": [
@@ -96205,6 +96428,40 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "dpcpp-cpp-rt-2023.1.0-intel_46305.tar.bz2": {
+      "timestamp": 1679363278810,
+      "depends": [
+        "icc_rt 2023.1.*",
+        "intel-cmplr-lib-rt 2023.1.0 intel_46305",
+        "intel-cmplr-lic-rt 2023.1.0 intel_46305",
+        "intel-opencl-rt 2023.1.0 intel_46305",
+        "intel-openmp 2023.1.0 intel_46305"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1496818,
+      "constrains": [
+        "dpcpp_cpp_rt >=2021.3.0"
+      ],
+      "sha256": "c79d77b5faf00f42ba7ddd9ffef74eda95ffdd0d857501a09409868d0ddcd999",
+      "build_number": 46305,
+      "name": "dpcpp-cpp-rt",
+      "license": "Intel End User License Agreement for Developer Tools",
+      "has_prefix": false,
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2023.1.0",
+      "build": "intel_46305",
+      "binstar": {
+        "package_id": "60d9db265f0624224aef0354",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "059b9409695b543dcf2755b967dc397f",
+      "requires": [],
       "subdir": "linux-64"
     },
     "numpy-base-1.20.3-py38hf45626f_1.tar.bz2": {
@@ -105591,6 +105848,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 305105,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "daal4py-2023.1.0-py39_intel_46349.tar.bz2": {
+      "sha256": "c9c076cbe01a92dc3cfd3680637ee39f54a237b7ea538d376127d7afbdee4c06",
+      "build_number": 46349,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "014516a2469a61d722d8ab4df1711950",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.9.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py39_intel_46349",
+      "timestamp": 1679369518558,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10173266,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -121011,6 +121297,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 29180268,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "daal4py-2023.1.0-py311_intel_46349.tar.bz2": {
+      "sha256": "ee1f4912fc3952316fb75fcf14cd6583fb98188c34ec2c3c6ad84a2fec3819d1",
+      "build_number": 46349,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "191ed450ac8a975de0e2e456b5a13c3e",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.0",
+        "numpy >=1.19",
+        "python 3.11.*"
+      ],
+      "version": "2023.1.0",
+      "build": "py311_intel_46349",
+      "timestamp": 1679369424195,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9942802,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
