@@ -48087,6 +48087,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "onedpl-devel-2022.1.0-intel_43490.tar.bz2": {
+      "sha256": "37511101dbbfb7082265f471a680789b115f3f08d8758bceca6107cb7f477b90",
+      "build_number": 43490,
+      "name": "onedpl-devel",
+      "license": "Apache-2.0 with LLVM exceptions",
+      "has_prefix": false,
+      "md5": "1112b1dd077503141f5af4c41969c981",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2022.1.0",
+      "build": "intel_43490",
+      "timestamp": 1678290054451,
+      "binstar": {
+        "package_id": "635ffc641f46b7d4c1a73c4e",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 213586,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "jupyter_console-5.1.0-py27_intel_0.tar.bz2": {
       "build_number": 0,
       "features": "intel",
