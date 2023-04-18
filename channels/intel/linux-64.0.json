@@ -3150,28 +3150,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "dal-devel-2021.2.3-intel_499.tar.bz2": {
-      "build_number": 499,
-      "name": "dal-devel",
-      "license": "Intel Simplified Software License",
+    "daal4py-2023.1.1-py39_intel_48679.tar.bz2": {
+      "sha256": "e0591d04db2fb23d0b1651c834d02b874c4867120f74b3eac9bc75cb6bd79212",
+      "build_number": 48679,
+      "name": "daal4py",
+      "license": "Apache v2.0",
       "has_prefix": false,
-      "md5": "c50a16acc489087a91b13113656a1749",
+      "md5": "c29800d1590c53947ee8318588f711d2",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "dal 2021.2.3 intel_499",
-        "dal-include 2021.2.3 intel_499"
+        "dal 2023.1.1",
+        "numpy >=1.19",
+        "python 3.9.*"
       ],
-      "version": "2021.2.3",
-      "build": "intel_499",
-      "timestamp": 1621425294565,
+      "version": "2023.1.1",
+      "build": "py39_intel_48679",
+      "timestamp": 1680322405748,
       "binstar": {
-        "package_id": "5fb4e7eb78d4370a85c5ae16",
+        "package_id": "5e416dd083b66372f629ac86",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 6819,
+      "size": 10139900,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -5998,6 +6000,39 @@
       },
       "md5": "81c3dd9a9c35ecbc4874b336196d08c4",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "python-3.6.5-11.tar.bz2": {
+      "build_number": 11,
+      "name": "python",
+      "license": "PSF",
+      "timestamp": 1539372704696,
+      "md5": "304042970f7e680e830617ecb65712d2",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "bzip2",
+        "intelpython >=2019.0",
+        "openssl 1.0.2.*",
+        "sqlite 3.23.*",
+        "tcl 8.6.4.*",
+        "tk 8.6.4.*",
+        "xz 5.2.*",
+        "zlib 1.2.*"
+      ],
+      "version": "3.6.5",
+      "build": "11",
+      "has_prefix": true,
+      "binstar": {
+        "package_id": "5e416e0e778a87708f19bdcb",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 27075078,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "prompt_toolkit-1.0.3-py35_intel_4.tar.bz2": {
@@ -9608,6 +9643,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "scikit-learn-intelex-2023.1.1-py37_intel_48679.tar.bz2": {
+      "sha256": "bbb69082a4d892059a5a76ea908240cde0157ace0d29d13d7774eefe23dfd7b5",
+      "build_number": 48679,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "f5e0829957ef9aea49d30dd62a3cee8e",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2023.1.1",
+        "python 3.7.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2023.1.1",
+      "build": "py37_intel_48679",
+      "timestamp": 1680322565117,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 48697,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "freetype-2.10.4-h5ab3b9f_0.tar.bz2": {
       "build_number": 0,
       "name": "freetype",
@@ -10595,6 +10659,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 4801,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "scikit-learn-intelex-2023.1.1-py310_intel_48679.tar.bz2": {
+      "sha256": "261fc886aa712e76e756a38719402768696b153fb1f022591823972523024a43",
+      "build_number": 48679,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "ae94f6d6c49667887780d35f9b6db631",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2023.1.1",
+        "python 3.10.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2023.1.1",
+      "build": "py310_intel_48679",
+      "timestamp": 1680322541321,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 48789,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -28049,6 +28142,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "daal4py-2023.1.1-py310_intel_48679.tar.bz2": {
+      "sha256": "8a270d065af49a7ee20331e55111497086750952279d568f751a131acbac5323",
+      "build_number": 48679,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "c025e13f3da2f11a9e22f47767119eba",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.1",
+        "numpy >=1.19",
+        "python 3.10.*"
+      ],
+      "version": "2023.1.1",
+      "build": "py310_intel_48679",
+      "timestamp": 1680322587336,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10155006,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pyparsing-3.0.9-py38h06a4308_0.tar.bz2": {
       "timestamp": 1661452605147,
       "depends": [
@@ -28552,6 +28674,35 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 48510898,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "scikit-learn-intelex-2023.1.1-py38_intel_48679.tar.bz2": {
+      "sha256": "e84e326f166bf4f51a403f41b0880e6e73561541b3ed164e63a0cb7d3ea64990",
+      "build_number": 48679,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "5e42e749cfe8b1e296fac915c7d8499a",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2023.1.1",
+        "python 3.8.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2023.1.1",
+      "build": "py38_intel_48679",
+      "timestamp": 1680322432267,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 48707,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -56648,6 +56799,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "scikit-learn-intelex-2023.1.1-py311_intel_48679.tar.bz2": {
+      "sha256": "cddf6e0d1d9ba4a58c02052838baa33d493478de577534efec55447576e56a06",
+      "build_number": 48679,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "590d2c14fac3546537eb22fcc88884a3",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2023.1.1",
+        "python 3.11.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2023.1.1",
+      "build": "py311_intel_48679",
+      "timestamp": 1680322427717,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 48769,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "intel-fortran-rt-2021.3.0-intel_3350.tar.bz2": {
       "build_number": 3350,
       "name": "intel-fortran-rt",
@@ -58668,30 +58848,29 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "thrift-0.13.0-py37hf484d3e_0.tar.bz2": {
-      "build_number": 0,
-      "name": "thrift",
-      "license": "Apache 2.0",
+    "dal-static-2023.1.1-intel_48679.tar.bz2": {
+      "sha256": "e71b58d08c405c8fc190f4f9a83eb8ce34087997f4fee39d3f5d3f56e5a5fd3d",
+      "build_number": 48679,
+      "name": "dal-static",
+      "license": "Intel Simplified Software License",
       "has_prefix": false,
-      "md5": "71d898fd236619ed70db58dc43f8286d",
+      "md5": "1a30f5074317480fbd8e8561642d331d",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "libgcc-ng >=9.3.0",
-        "libstdcxx-ng >=9.3.0",
-        "python >=3.7,<3.8.0a0",
-        "six >=1.7.2"
+        "dal-include 2023.1.1 intel_48679",
+        "tbb 2021.*"
       ],
-      "version": "0.13.0",
-      "build": "py37hf484d3e_0",
-      "timestamp": 1612227573243,
+      "version": "2023.1.1",
+      "build": "intel_48679",
+      "timestamp": 1680322443151,
       "binstar": {
-        "package_id": "60627e6945c8b2069e298fc9",
+        "package_id": "5fb4e8c3d2ff900a7a3ff492",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 118879,
+      "size": 120024925,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -64775,6 +64954,33 @@
       },
       "md5": "aef743df52324fca5ab6071960159510",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "dal-2023.1.1-intel_48679.tar.bz2": {
+      "sha256": "4d5012613a0388f1fe618f1f1690366c3477645401613502752be117836e2c4e",
+      "build_number": 48679,
+      "name": "dal",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "9fa5e66314f8e789b9d3dc1d8de15629",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "tbb 2021.*"
+      ],
+      "version": "2023.1.1",
+      "build": "intel_48679",
+      "timestamp": 1680322745181,
+      "binstar": {
+        "package_id": "5f94c0eba58f0d0a49b3c6a2",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 49023051,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "tensorflow-2.7.0-py38_0.tar.bz2": {
@@ -76539,6 +76745,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dal-devel-2023.1.1-intel_48679.tar.bz2": {
+      "sha256": "79d96b0fa706dfc532b371e04b71539ce4761e1c072778ce0a82557df8b02b6e",
+      "build_number": 48679,
+      "name": "dal-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "98919fee908b6b0b629f22439eb97326",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.1 intel_48679",
+        "dal-include 2023.1.1 intel_48679"
+      ],
+      "version": "2023.1.1",
+      "build": "intel_48679",
+      "timestamp": 1680322519903,
+      "binstar": {
+        "package_id": "5fb4e7eb78d4370a85c5ae16",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9807657,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "tqdm-4.39.0-py37_2.tar.bz2": {
       "timestamp": 1584107203627,
       "depends": [
@@ -77497,6 +77731,35 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_5"
+    },
+    "thrift-0.13.0-py37hf484d3e_0.tar.bz2": {
+      "build_number": 0,
+      "name": "thrift",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "md5": "71d898fd236619ed70db58dc43f8286d",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "libstdcxx-ng >=9.3.0",
+        "python >=3.7,<3.8.0a0",
+        "six >=1.7.2"
+      ],
+      "version": "0.13.0",
+      "build": "py37hf484d3e_0",
+      "timestamp": 1612227573243,
+      "binstar": {
+        "package_id": "60627e6945c8b2069e298fc9",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 118879,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "daal-static-2019.4-intel_235.tar.bz2": {
       "timestamp": 1556532349012,
@@ -94942,34 +95205,30 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "python-3.6.5-11.tar.bz2": {
-      "build_number": 11,
-      "name": "python",
-      "license": "PSF",
-      "timestamp": 1539372704696,
-      "md5": "304042970f7e680e830617ecb65712d2",
+    "daal4py-2023.1.1-py37_intel_48679.tar.bz2": {
+      "sha256": "19e9908dd54f8a21127f9ff3cb3fac04a89c22376b89805f91e55aba2639326c",
+      "build_number": 48679,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "ec2d877a9f95f4702330266666c334dd",
       "requires": [],
       "machine": "x86_64",
       "platform": "linux",
       "depends": [
-        "bzip2",
-        "intelpython >=2019.0",
-        "openssl 1.0.2.*",
-        "sqlite 3.23.*",
-        "tcl 8.6.4.*",
-        "tk 8.6.4.*",
-        "xz 5.2.*",
-        "zlib 1.2.*"
+        "dal 2023.1.1",
+        "numpy >=1.19",
+        "python 3.7.*"
       ],
-      "version": "3.6.5",
-      "build": "11",
-      "has_prefix": true,
+      "version": "2023.1.1",
+      "build": "py37_intel_48679",
+      "timestamp": 1680322414385,
       "binstar": {
-        "package_id": "5e416e0e778a87708f19bdcb",
+        "package_id": "5e416dd083b66372f629ac86",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "size": 27075078,
+      "size": 9860715,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -113868,6 +114127,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "daal4py-2023.1.1-py38_intel_48679.tar.bz2": {
+      "sha256": "0add69a300f8c54ee7f74d8a60ec701b8fe2872b4177430db708961c5b5aeda8",
+      "build_number": 48679,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "1c95c5a69ddfd92f3076655645b1bc99",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.1",
+        "numpy >=1.19",
+        "python 3.8.*"
+      ],
+      "version": "2023.1.1",
+      "build": "py38_intel_48679",
+      "timestamp": 1680322579683,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 10139509,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "daal4py-2021.7.1-py38_intel_16996.tar.bz2": {
       "sha256": "2b1f94167af942d1dbca79f29208918bf0b6205b2be2d80985e5148857faae44",
       "build_number": 16996,
@@ -121799,6 +122087,35 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "scikit-learn-intelex-2023.1.1-py39_intel_48679.tar.bz2": {
+      "sha256": "35a65bb62ad57efe60bf1086d4371fb19787064f74bcaa4b87608d7a1327585a",
+      "build_number": 48679,
+      "name": "scikit-learn-intelex",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "b77b5e7a7a88c10633e5b8e39ae9dfdc",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "daal4py 2023.1.1",
+        "python 3.9.*",
+        "scikit-learn >=0.22"
+      ],
+      "version": "2023.1.1",
+      "build": "py39_intel_48679",
+      "timestamp": 1680322603952,
+      "binstar": {
+        "package_id": "606b50f990753595427c0cff",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 48560,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "cython-0.29.32-py38hfda35ba_0.tar.bz2": {
       "build_number": 0,
       "name": "cython",
@@ -123789,6 +124106,33 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "dal-devel-2021.2.3-intel_499.tar.bz2": {
+      "build_number": 499,
+      "name": "dal-devel",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "c50a16acc489087a91b13113656a1749",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2021.2.3 intel_499",
+        "dal-include 2021.2.3 intel_499"
+      ],
+      "version": "2021.2.3",
+      "build": "intel_499",
+      "timestamp": 1621425294565,
+      "binstar": {
+        "package_id": "5fb4e7eb78d4370a85c5ae16",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 6819,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "mkl-devel-dpcpp-2021.1.1-intel_52.tar.bz2": {
       "build_number": 52,
       "name": "mkl-devel-dpcpp",
@@ -125205,6 +125549,31 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "size": 3646073,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "dal-include-2023.1.1-intel_48679.tar.bz2": {
+      "sha256": "0c49db04bbc988afc7127fe5c5aeae0833be0c4911e8a9d1d46dd6c802658c0f",
+      "build_number": 48679,
+      "name": "dal-include",
+      "license": "Intel Simplified Software License",
+      "has_prefix": false,
+      "md5": "f6c395a1d44a47ebaf067ebf60a15955",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [],
+      "version": "2023.1.1",
+      "build": "intel_48679",
+      "timestamp": 1680322758353,
+      "binstar": {
+        "package_id": "5fb4e87478d4370a8da321ce",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 425127,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
@@ -131124,6 +131493,35 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_6"
+    },
+    "daal4py-2023.1.1-py311_intel_48679.tar.bz2": {
+      "sha256": "daaaee2d3500c9456da3630c2b006b2f7728aefd25f8cefbe8896672ab4ee67a",
+      "build_number": 48679,
+      "name": "daal4py",
+      "license": "Apache v2.0",
+      "has_prefix": false,
+      "md5": "e18058627a5ff3b128e9126c2b21f9ac",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dal 2023.1.1",
+        "numpy >=1.19",
+        "python 3.11.*"
+      ],
+      "version": "2023.1.1",
+      "build": "py311_intel_48679",
+      "timestamp": 1680322398230,
+      "binstar": {
+        "package_id": "5e416dd083b66372f629ac86",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 9945297,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
     },
     "ipyparallel-6.0.2-py36_intel_0.tar.bz2": {
       "build_number": 0,
