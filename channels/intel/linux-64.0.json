@@ -9428,33 +9428,36 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "mkl-service-2.4.0-py37h5c78031_2.tar.bz2": {
-      "build_number": 2,
-      "name": "mkl-service",
-      "license": "BSD-3-Clause",
-      "has_prefix": false,
-      "md5": "715c6641453251ad1b3576d362296256",
-      "requires": [],
-      "machine": "x86_64",
-      "platform": "linux",
+    "intel-extension-for-pytorch-1.13.120-py37_xpu_0.tar.bz2": {
+      "timestamp": 1684161938947,
       "depends": [
-        "libgcc-ng >=9.3.0",
-        "mkl",
-        "python >=3.7,<3.8.0a0",
-        "six"
+        "lark-parser 0.9.0.*",
+        "numpy 1.21.5.*",
+        "psutil",
+        "python 3.7.*",
+        "pytorch 1.13.*",
+        "typing_extensions 4.4.0.*"
       ],
-      "version": "2.4.0",
-      "build": "py37h5c78031_2",
-      "timestamp": 1630023468702,
-      "binstar": {
-        "package_id": "5e416e9f83b66372f629e6c8",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 64379,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 350620999,
+      "build_number": 0,
+      "name": "intel-extension-for-pytorch",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.120",
+      "build": "py37_xpu_0",
+      "binstar": {
+        "package_id": "5f5d2c62d2ff9009fd549606",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "c392865958038d91d12753041960b4fd",
+      "requires": [],
       "subdir": "linux-64"
     },
     "mkl-static-2019.0-intel_117.tar.bz2": {
@@ -10360,39 +10363,32 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "urllib3-1.26.11-py39h06a4308_0.tar.bz2": {
-      "timestamp": 1659110615111,
+    "openssl-1.0.2j-intel_4.tar.bz2": {
+      "features": "intel",
       "depends": [
-        "brotlipy >=0.6.0",
-        "certifi",
-        "cryptography >=1.3.4",
-        "idna >=2.0.0",
-        "pyopenssl >=0.14",
-        "pysocks >=1.5.6,<2.0,!=1.5.7",
-        "python >=3.9,<3.10.0a0"
+        "intelpython"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 183874,
-      "sha256": "affd17fe71f875a723f45e11ffb7d91f4cd7f89a39eeff63a495cb6d22d37247",
-      "build_number": 0,
-      "name": "urllib3",
-      "license": "MIT",
-      "has_prefix": false,
-      "license_family": "MIT",
+      "size": 3653009,
+      "build_number": 4,
+      "name": "openssl",
+      "license": "Apache-style (http://www.openssl.org/source/license.html)",
+      "has_prefix": true,
+      "license_family": "Apache",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "1.26.11",
-      "build": "py39h06a4308_0",
+      "version": "1.0.2j",
+      "subdir": "linux-64",
       "binstar": {
-        "package_id": "5a060257307dba1229ce2cbd",
+        "package_id": "56fad54c676dfa0a5afc98b8",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "3763a6d835897d9817ebc9a9e3d29631",
+      "md5": "f326dbd3c245b809212db48defbfed7f",
       "requires": [],
-      "subdir": "linux-64"
+      "build": "intel_4"
     },
     "intel-openmp-2022.2.1-intel_16953.tar.bz2": {
       "sha256": "f14e6914f4651579e7fc69ab55c225b553fcac19ed263e07d85acedc01bf9c78",
@@ -23144,6 +23140,39 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "intel-extension-for-pytorch-1.13.120-py39_xpu_1.tar.bz2": {
+      "timestamp": 1684173242807,
+      "depends": [
+        "dpnp 0.11.1.*",
+        "lark-parser 0.9.0.*",
+        "numpy",
+        "psutil",
+        "python 3.9.*",
+        "pytorch 1.13.*",
+        "typing_extensions 4.4.0.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 349281037,
+      "build_number": 1,
+      "name": "intel-extension-for-pytorch",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.120",
+      "build": "py39_xpu_1",
+      "binstar": {
+        "package_id": "5f5d2c62d2ff9009fd549606",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "21656704022edd5e61190afd59e20ec9",
+      "requires": [],
       "subdir": "linux-64"
     },
     "mkl_fft-1.3.1-py38h1909d4f_16.tar.bz2": {
@@ -36080,6 +36109,37 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "pytorch-1.13.0-py310_xpu_0.tar.bz2": {
+      "timestamp": 1684179218955,
+      "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libuv >=1.40.0,<2.0a0",
+        "mpi4py",
+        "python 3.10.*",
+        "typing_extensions"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 120585063,
+      "build_number": 0,
+      "name": "pytorch",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.0",
+      "build": "py310_xpu_0",
+      "binstar": {
+        "package_id": "5f21fad878705809fcd1bbf1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "19540539c6d60fdef90bb73e0bb2c36a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "grpc-cpp-1.26.0-he51042f_2.tar.bz2": {
       "timestamp": 1622783250438,
       "depends": [
@@ -48746,6 +48806,37 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "pytorch-1.13.0-py37_xpu_0.tar.bz2": {
+      "timestamp": 1684161717458,
+      "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libuv >=1.40.0,<2.0a0",
+        "mpi4py",
+        "python 3.7.*",
+        "typing_extensions"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 120507336,
+      "build_number": 0,
+      "name": "pytorch",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.0",
+      "build": "py37_xpu_0",
+      "binstar": {
+        "package_id": "5f21fad878705809fcd1bbf1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "216078ec5d9bddf2e81879d426e24dfc",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "bleach-2.1.3-py36_intel_0.tar.bz2": {
       "features": "intel",
       "depends": [
@@ -58165,6 +58256,35 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "mkl-service-2.4.0-py37h5c78031_2.tar.bz2": {
+      "build_number": 2,
+      "name": "mkl-service",
+      "license": "BSD-3-Clause",
+      "has_prefix": false,
+      "md5": "715c6641453251ad1b3576d362296256",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "libgcc-ng >=9.3.0",
+        "mkl",
+        "python >=3.7,<3.8.0a0",
+        "six"
+      ],
+      "version": "2.4.0",
+      "build": "py37h5c78031_2",
+      "timestamp": 1630023468702,
+      "binstar": {
+        "package_id": "5e416e9f83b66372f629e6c8",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 64379,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "pytables-3.3.0-np113py27_intel_15.tar.bz2": {
       "build_number": 15,
       "features": "intel",
@@ -58507,29 +58627,31 @@
       "requires": [],
       "subdir": "linux-64"
     },
-    "ipp-include-2019.0-intel_120.tar.bz2": {
-      "timestamp": 1535973078509,
-      "depends": [],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 161444,
-      "build_number": 120,
-      "name": "ipp-include",
-      "license": "proprietary - Intel",
+    "backports.functools_lru_cache-1.5-py27_intel_1.tar.bz2": {
+      "build_number": 1,
+      "features": "intel",
+      "license": "MIT",
       "has_prefix": false,
-      "license_family": "Proprietary",
+      "requires": [],
+      "name": "backports.functools_lru_cache",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2019.0",
-      "build": "intel_120",
+      "depends": [
+        "backports",
+        "python 2.7*"
+      ],
+      "version": "1.5",
+      "build": "py27_intel_1",
+      "md5": "38913bea3c0052ea471ba718e20e63ef",
       "binstar": {
-        "package_id": "59413712ca7a6112465e3c7d",
+        "package_id": "5aa9880c0b42f311f74c9b4a",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "9e7f6e4145de9952c491d25a6e105332",
-      "requires": [],
+      "size": 8757,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "freetype-2.12.1-h4956cac_1.tar.bz2": {
@@ -63926,6 +64048,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "07ed0ea2a04d98ed096b9a34e89baf81",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "urllib3-1.26.11-py39h06a4308_0.tar.bz2": {
+      "timestamp": 1659110615111,
+      "depends": [
+        "brotlipy >=0.6.0",
+        "certifi",
+        "cryptography >=1.3.4",
+        "idna >=2.0.0",
+        "pyopenssl >=0.14",
+        "pysocks >=1.5.6,<2.0,!=1.5.7",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 183874,
+      "sha256": "affd17fe71f875a723f45e11ffb7d91f4cd7f89a39eeff63a495cb6d22d37247",
+      "build_number": 0,
+      "name": "urllib3",
+      "license": "MIT",
+      "has_prefix": false,
+      "license_family": "MIT",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.26.11",
+      "build": "py39h06a4308_0",
+      "binstar": {
+        "package_id": "5a060257307dba1229ce2cbd",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3763a6d835897d9817ebc9a9e3d29631",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -83358,31 +83514,29 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "backports.functools_lru_cache-1.5-py27_intel_1.tar.bz2": {
-      "build_number": 1,
-      "features": "intel",
-      "license": "MIT",
-      "has_prefix": false,
-      "requires": [],
-      "name": "backports.functools_lru_cache",
-      "machine": "x86_64",
-      "platform": "linux",
-      "depends": [
-        "backports",
-        "python 2.7*"
-      ],
-      "version": "1.5",
-      "build": "py27_intel_1",
-      "md5": "38913bea3c0052ea471ba718e20e63ef",
-      "binstar": {
-        "package_id": "5aa9880c0b42f311f74c9b4a",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 8757,
+    "ipp-include-2019.0-intel_120.tar.bz2": {
+      "timestamp": 1535973078509,
+      "depends": [],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 161444,
+      "build_number": 120,
+      "name": "ipp-include",
+      "license": "proprietary - Intel",
+      "has_prefix": false,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2019.0",
+      "build": "intel_120",
+      "binstar": {
+        "package_id": "59413712ca7a6112465e3c7d",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "9e7f6e4145de9952c491d25a6e105332",
+      "requires": [],
       "subdir": "linux-64"
     },
     "openjdk-8.0.302-h7f98852_0.tar.bz2": {
@@ -94601,6 +94755,37 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "pytorch-1.13.0-py38_xpu_0.tar.bz2": {
+      "timestamp": 1684222937880,
+      "depends": [
+        "__glibc >=2.17,<3.0.a0",
+        "libuv >=1.40.0,<2.0a0",
+        "mpi4py",
+        "python 3.8.*",
+        "typing_extensions"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 120480464,
+      "build_number": 0,
+      "name": "pytorch",
+      "license": "BSD 3-Clause",
+      "has_prefix": true,
+      "license_family": "BSD",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.0",
+      "build": "py38_xpu_0",
+      "binstar": {
+        "package_id": "5f21fad878705809fcd1bbf1",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "4f9a4a71a716f25e9d4c7ce62963967a",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "daal-static-2017.0.4.20170817-0.tar.bz2": {
       "build_number": 0,
       "name": "daal-static",
@@ -99978,32 +100163,38 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "openssl-1.0.2j-intel_4.tar.bz2": {
-      "features": "intel",
+    "intel-extension-for-pytorch-1.13.120-py38_xpu_0.tar.bz2": {
+      "timestamp": 1684223229902,
       "depends": [
-        "intelpython"
+        "dpnp 0.11.1.*",
+        "lark-parser 0.9.0.*",
+        "numpy",
+        "psutil",
+        "python 3.8.*",
+        "pytorch 1.13.*",
+        "typing_extensions 4.4.0.*"
       ],
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
-      "size": 3653009,
-      "build_number": 4,
-      "name": "openssl",
-      "license": "Apache-style (http://www.openssl.org/source/license.html)",
+      "size": 350699440,
+      "build_number": 0,
+      "name": "intel-extension-for-pytorch",
+      "license": "Apache License 2.0",
       "has_prefix": true,
-      "license_family": "Apache",
+      "license_family": "APACHE",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "1.0.2j",
-      "subdir": "linux-64",
+      "version": "1.13.120",
+      "build": "py38_xpu_0",
       "binstar": {
-        "package_id": "56fad54c676dfa0a5afc98b8",
+        "package_id": "5f5d2c62d2ff9009fd549606",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "f326dbd3c245b809212db48defbfed7f",
+      "md5": "9480f01dc85054daffdac37145dae6aa",
       "requires": [],
-      "build": "intel_4"
+      "subdir": "linux-64"
     },
     "mkl-static-2018.0.1-intel_4.tar.bz2": {
       "build_number": 4,
@@ -109819,6 +110010,39 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "c0ab8e7166703125ec2f4c22d9dc4e55",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel-extension-for-pytorch-1.13.120-py310_xpu_0.tar.bz2": {
+      "timestamp": 1684179551737,
+      "depends": [
+        "dpnp 0.11.1.*",
+        "lark-parser 0.9.0.*",
+        "numpy",
+        "psutil",
+        "python 3.10.*",
+        "pytorch 1.13.*",
+        "typing_extensions 4.4.0.*"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 349182790,
+      "build_number": 0,
+      "name": "intel-extension-for-pytorch",
+      "license": "Apache License 2.0",
+      "has_prefix": true,
+      "license_family": "APACHE",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.13.120",
+      "build": "py310_xpu_0",
+      "binstar": {
+        "package_id": "5f5d2c62d2ff9009fd549606",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "6d1cbd175abf72f5e464b0535fe9988d",
       "requires": [],
       "subdir": "linux-64"
     },
