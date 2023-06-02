@@ -8213,6 +8213,40 @@
       "requires": [],
       "subdir": "linux-64"
     },
+    "intel_extension_for_transformers-1.0.1-py38_0.tar.bz2": {
+      "timestamp": 1685679603407,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.8,<3.9.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44829930,
+      "sha256": "cfb367a64d785c07beda5da66dd49b845fb818b754755a657210907ad8c7cede",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.1",
+      "build": "py38_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "56b5374da26869cac19c671d07bbf2d9",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "dpnp-0.10.1-py39h91c14e1_14.tar.bz2": {
       "sha256": "fe3b800f2c9ddac7654732eec1e666dd730bea113ff7dfeabb3800e0f6a08f0b",
       "build_number": 14,
@@ -39237,6 +39271,40 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_5"
     },
+    "intel_extension_for_transformers-1.0.1-py39_0.tar.bz2": {
+      "timestamp": 1685670464912,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.9,<3.10.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44798421,
+      "sha256": "1c1d5079d823a91a4c132b712bdcf47ca55e466ee0ee00607624fe86356fd814",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.1",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "e4541cec4a279679226d3a4edfbf4d73",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "mkl-service-2.4.0-py38h5c78031_1.tar.bz2": {
       "build_number": 1,
       "name": "mkl-service",
@@ -55647,6 +55715,40 @@
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
+    "intel_extension_for_transformers-1.0.1-py37_0.tar.bz2": {
+      "timestamp": 1685680378742,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.7,<3.8.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44813580,
+      "sha256": "635f96def16a762203ac2770ddce3a98f74b5e37be553db4c2998ad06f0a2fb3",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.1",
+      "build": "py37_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "051195083528e239359bc30ac81098ad",
+      "requires": [],
       "subdir": "linux-64"
     },
     "mkl_umath-0.1.1-py38h0348192_26.tar.bz2": {
@@ -128813,6 +128915,40 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "build": "py35_intel_4"
+    },
+    "intel_extension_for_transformers-1.0.1-py310_0.tar.bz2": {
+      "timestamp": 1685679693800,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.10,<3.11.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 44876209,
+      "sha256": "9f4d8810e63e56f5f707bda3bb51d4eeb73a83d525daaf691f127aef02bc2b48",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.0.1",
+      "build": "py310_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "be6840adda9c1d7624ba7aec0045e320",
+      "requires": [],
+      "subdir": "linux-64"
     },
     "ruamel.yaml.clib-0.2.6-py38h5eee18b_1.tar.bz2": {
       "timestamp": 1666302290504,
