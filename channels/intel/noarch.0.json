@@ -4115,6 +4115,42 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "dataset_librarian-1.0.2-py_0.tar.bz2": {
+      "timestamp": 1685994692356,
+      "depends": [
+        "docx2txt",
+        "openpyxl",
+        "pandas",
+        "pillow",
+        "python >=3.9,<3.11",
+        "python-dotenv",
+        "scikit-learn-intelex",
+        "tqdm",
+        "wget"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 17601,
+      "sha256": "747b090ea90591627f4d75fec45efcb038d0b6fd27fe28f7edba4f6769978b61",
+      "build_number": 0,
+      "name": "dataset_librarian",
+      "license": "APACHE",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.0.2",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "647a76796c2dfd21648c6c41",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a2444fd8a0db198751be8b69795f587d",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "astunparse-1.6.3-py_0.tar.bz2": {
       "timestamp": 1589913528863,
       "depends": [
