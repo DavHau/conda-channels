@@ -3348,6 +3348,42 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "dataset_librarian-1.0.3-py_0.tar.bz2": {
+      "timestamp": 1686696138969,
+      "depends": [
+        "docx2txt",
+        "openpyxl",
+        "pandas",
+        "pillow",
+        "python >=3.9,<3.11",
+        "python-dotenv",
+        "scikit-learn-intelex",
+        "tqdm",
+        "wget"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 18129,
+      "sha256": "8cfc8693f49ed2a39bf2f43861191eef1ab05e9c4080b423f6bc2adf1dc89d18",
+      "build_number": 0,
+      "name": "dataset_librarian",
+      "license": "APACHE",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "1.0.3",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "647a76796c2dfd21648c6c41",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "37c849c7546904c573355ac0d0ef319e",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "lpot-1.5-py_0.tar.bz2": {
       "timestamp": 1626095293324,
       "depends": [
