@@ -2165,6 +2165,41 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "neural-insights-2.2-py_0.tar.bz2": {
+      "timestamp": 1687350929982,
+      "depends": [
+        "flask",
+        "flask-cors",
+        "flask-socketio",
+        "gevent",
+        "gevent-websocket",
+        "neural_compressor >=2.2",
+        "pip",
+        "python"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 6858843,
+      "build_number": 0,
+      "name": "neural-insights",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.2",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "6487940dcf08de727e0df15b",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "978c5fcf0903705a4ccabd59662b4431",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "alembic-1.7.4-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1633989481947,
       "depends": [
@@ -4417,6 +4452,42 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "neural-solution-2.2-py_0.tar.bz2": {
+      "timestamp": 1687350873169,
+      "depends": [
+        "fastapi",
+        "grpcio",
+        "mpi4py",
+        "neural_compressor >=2.2",
+        "pip",
+        "protobuf",
+        "pydantic",
+        "python",
+        "watchdog"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 38314,
+      "build_number": 0,
+      "name": "neural-solution",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.2",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "6487941cf9e6e3207527615c",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "d852132e83a30dac57df4c23285318cb",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "lpot-1.5.1-pyhdless_1.tar.bz2": {
       "timestamp": 1627522421692,
       "depends": [
@@ -4715,6 +4786,49 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "e1f1311b37041e7a099a7a3c09106a13",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "neural-compressor-2.2-py_0.tar.bz2": {
+      "timestamp": 1687351490717,
+      "depends": [
+        "deprecated",
+        "numpy <=1.22.3",
+        "opencv",
+        "packaging",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 731333,
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.2",
+      "build": "py_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "fc1f2df06a8912250669d99dc47b6b89",
       "requires": [],
       "subdir": "noarch"
     },
