@@ -13066,6 +13066,40 @@
       "target-triplet": "x86_64-any-linux",
       "build": "py36_0"
     },
+    "intel_extension_for_transformers-1.1-py38_0.tar.bz2": {
+      "timestamp": 1689320844079,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.8,<3.9.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 35229052,
+      "sha256": "043a10424576aba0bb3ba59d53be25081cb4ae8d88dbf5f49d0bf74563b8f8f9",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1",
+      "build": "py38_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "a0836cbcaa89b0dd3add8df84c7a72f1",
+      "requires": [],
+      "subdir": "linux-64"
+    },
     "backports-1.0-py27_intel_3.tar.bz2": {
       "build_number": 3,
       "features": "intel",
@@ -51815,6 +51849,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "bd023c3adcb79559ae3a1b0d0485f64e",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel_extension_for_transformers-1.1-py39_0.tar.bz2": {
+      "timestamp": 1689321683877,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.9,<3.10.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 35123344,
+      "sha256": "6d8803bd8f40de93e0dd11aec14b8f7a11e5e2354bc970a78015843dd1b675a9",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1",
+      "build": "py39_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "fed15cfd4d01a1964724ff1278c549dc",
       "requires": [],
       "subdir": "linux-64"
     },
@@ -123921,6 +123989,40 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "40eec1a44e2e24e96cc086b78fbd5166",
+      "requires": [],
+      "subdir": "linux-64"
+    },
+    "intel_extension_for_transformers-1.1-py310_0.tar.bz2": {
+      "timestamp": 1689322538267,
+      "depends": [
+        "neural-compressor",
+        "numpy",
+        "packaging",
+        "pip",
+        "protobuf",
+        "python >=3.10,<3.11.0a0",
+        "transformers"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 35234637,
+      "sha256": "341f74824b47ea564c4f9f26e61e9282e841a0fc188bed65b89741ba122ed38f",
+      "build_number": 0,
+      "name": "intel_extension_for_transformers",
+      "license": "Apache 2.0",
+      "has_prefix": true,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "1.1",
+      "build": "py310_0",
+      "binstar": {
+        "package_id": "63780563ead2dcc8c223c9ab",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "c45f99b4418c3f6ea7a9d7355fc4bb15",
       "requires": [],
       "subdir": "linux-64"
     },
