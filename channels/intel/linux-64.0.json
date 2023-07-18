@@ -124958,36 +124958,6 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "python_abi-3.9-2_cp39.tar.bz2": {
-      "timestamp": 1624472010037,
-      "depends": [
-        "python 3.9.*"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 4017,
-      "constrains": [
-        "pypy <0a0"
-      ],
-      "build_number": 2,
-      "name": "python_abi",
-      "license": "BSD-3-Clause",
-      "has_prefix": false,
-      "license_family": "BSD",
-      "machine": "x86_64",
-      "platform": "linux",
-      "version": "3.9",
-      "build": "2_cp39",
-      "binstar": {
-        "package_id": "60661d52dcb792e0ca3513f9",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "39adde4247484de2bb4000122fdcf665",
-      "requires": [],
-      "subdir": "linux-64"
-    },
     "intel-extension-for-pytorch-1.8.0-py37_0.tar.bz2": {
       "timestamp": 1626695019863,
       "depends": [
