@@ -6055,6 +6055,46 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "cloud-data-connector-1.0.2-py_0.tar.bz2": {
+      "sha256": "17e5da71fab2ffb3dbe69b22359a7fac5f8e79a75018312ae7b31291ba1910da",
+      "build_number": 0,
+      "name": "cloud-data-connector",
+      "has_prefix": false,
+      "md5": "1a84e926cd9677991870ad273a5b65a5",
+      "requires": [],
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "depends": [
+        "azure-ai-ml >=2023.06.01",
+        "azure-core >=2023.06.01",
+        "azure-identity >=2023.06.01",
+        "azure-storage-blob >=1.4.1",
+        "boto3 >=1.26.154",
+        "google-api-core >=2.0.0",
+        "google-auth >=1.33.0",
+        "google-auth-oauthlib >=0.4.1",
+        "google-cloud-bigquery >=2.1.0",
+        "google-cloud-storage >=2.1.0",
+        "packaging >=21.3",
+        "python >=3.9,<3.11",
+        "python-dotenv >=1.0.0",
+        "zlib >=1.2.13"
+      ],
+      "version": "1.0.2",
+      "subdir": "noarch",
+      "timestamp": 1689980023848,
+      "binstar": {
+        "package_id": "647a8f6514c7384af4073cca",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 27472,
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "build": "py_0"
+    },
     "pyopenssl-23.2.0-pyhd8ed1ab_1.tar.bz2": {
       "timestamp": 1685514648328,
       "depends": [
