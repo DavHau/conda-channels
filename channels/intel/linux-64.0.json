@@ -67607,6 +67607,40 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "modin-core-0.23.0-py39_0.tar.bz2": {
+      "timestamp": 1690825218279,
+      "depends": [
+        "fsspec",
+        "numpy >=1.23.5",
+        "packaging",
+        "pandas >=2,<2.1",
+        "psutil",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 1615658,
+      "sha256": "a5f6713db0b015273df260864faa3cf12449954b0a53d3fa085cafcd28822fc7",
+      "build_number": 0,
+      "name": "modin-core",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.23.0",
+      "subdir": "linux-64",
+      "binstar": {
+        "package_id": "61b0c7f9061d72975eea6b49",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3b6b866fa765a3203c2ffe2711a50f5f",
+      "requires": [],
+      "build": "py39_0"
+    },
     "nbformat-4.1.0-py35_intel_1.tar.bz2": {
       "build_number": 1,
       "features": "intel",
@@ -78179,6 +78213,37 @@
       "md5": "b8b9171edd8174cc396c93c16d1ffb6a",
       "requires": [],
       "subdir": "linux-64"
+    },
+    "modin-all-0.23.0-py39_0.tar.bz2": {
+      "timestamp": 1690825267961,
+      "depends": [
+        "modin-core 0.23.0 py39_0",
+        "modin-ray 0.23.0 py39_0",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 128322,
+      "sha256": "fde422ef36ee55a9fd72ebedad601f57eb4224c00be5b98a6b6f0d6440edb79d",
+      "build_number": 0,
+      "name": "modin-all",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.23.0",
+      "subdir": "linux-64",
+      "binstar": {
+        "package_id": "61b0c7f2a3c32938bd109890",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "7c3467a2d7b38b49a727769b2d60136f",
+      "requires": [],
+      "build": "py39_0"
     },
     "tensorflow-2.10.0-py39_0.tar.bz2": {
       "timestamp": 1671610169422,
@@ -109966,6 +110031,41 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "modin-ray-0.23.0-py39_0.tar.bz2": {
+      "timestamp": 1690825237970,
+      "depends": [
+        "grpcio !=1.45.*",
+        "grpcio !=1.46.*",
+        "modin-core 0.23.0 py39_0",
+        "pyarrow",
+        "pydantic <2",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39",
+        "ray-core >=1.13.0,!=2.5.0"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 128462,
+      "sha256": "fbed471114cad1a98159c5e1737e689b837b3f1d1c75164f4aa4042f5653785c",
+      "build_number": 0,
+      "name": "modin-ray",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.23.0",
+      "subdir": "linux-64",
+      "binstar": {
+        "package_id": "61b0c80f9501cf2a1d6a2fb4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "3e8d9a999a7d79d1c02e164dc4ed549b",
+      "requires": [],
+      "build": "py39_0"
+    },
     "mkl-dnn-0.14-2.tar.bz2": {
       "build_number": 2,
       "name": "mkl-dnn",
@@ -128903,6 +129003,36 @@
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
+    },
+    "modin-0.23.0-py39_0.tar.bz2": {
+      "timestamp": 1690825253177,
+      "depends": [
+        "modin-ray 0.23.0 py39_0",
+        "python >=3.9,<3.10.0a0",
+        "python_abi 3.9.* *_cp39"
+      ],
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "size": 128279,
+      "sha256": "0f40ddcf38b343841080d8bbe2b2d75ee3bf4418102a8822d3de69b1b5efa7ea",
+      "build_number": 0,
+      "name": "modin",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "0.23.0",
+      "subdir": "linux-64",
+      "binstar": {
+        "package_id": "5f22f1a883b6630a0e74a3f7",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "db33be618a89d63cedb44de864c61032",
+      "requires": [],
+      "build": "py39_0"
     },
     "torchvision-0.14.1-py39_1.tar.bz2": {
       "sha256": "456201bdeb89bc97d289d244f5191d4337783d0dc8a3fcef6459a5f7cd67153f",
