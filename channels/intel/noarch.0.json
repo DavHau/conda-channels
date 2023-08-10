@@ -2990,6 +2990,50 @@
       "requires": [],
       "subdir": "noarch"
     },
+    "neural-compressor-2.2-pyhdless_0.tar.bz2": {
+      "timestamp": 1687351490717,
+      "depends": [
+        "deprecated",
+        "numpy",
+        "opencv-python-headless",
+        "packaging",
+        "pandas",
+        "pillow",
+        "pip",
+        "prettytable",
+        "psutil",
+        "py-cpuinfo",
+        "pycocotools",
+        "python",
+        "pyyaml",
+        "requests",
+        "schema",
+        "scikit-learn"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 731295,
+      "sha256": "dcccc6bebace6f336e7a5b48a7bac72530bd7c432d16eca6c42b675f69fb0bb9",
+      "build_number": 0,
+      "name": "neural-compressor",
+      "license": "Apache 2.0",
+      "has_prefix": false,
+      "license_family": "Apache",
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.2",
+      "build": "pyhdless_0",
+      "binstar": {
+        "package_id": "6155bffbc18da205b81fdb87",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "47e277f6ae315ad2de005bea46ae6c5b",
+      "requires": [],
+      "subdir": "noarch"
+    },
     "fonttools-4.25.0-pyhd3eb1b0_0.tar.bz2": {
       "timestamp": 1625743217109,
       "depends": [
@@ -5302,6 +5346,37 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "58410d07d8a309cc8d52ecd30cf08077",
+      "requires": [],
+      "subdir": "noarch"
+    },
+    "keras-2.13.1-pyhd8ed1ab_1.tar.bz2": {
+      "timestamp": 1689277298285,
+      "depends": [
+        "python >=3.6,<3.11"
+      ],
+      "arch": null,
+      "operatingsystem": null,
+      "target-triplet": "None-any-None",
+      "size": 982222,
+      "constrains": [
+        "tensorflow 2.13.*"
+      ],
+      "sha256": "93014f935271ca8d31ae1338442108690f9d8db19960b85ce859e73ac8a03d3b",
+      "build_number": 1,
+      "name": "keras",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "noarch": "python",
+      "machine": null,
+      "platform": null,
+      "version": "2.13.1",
+      "build": "pyhd8ed1ab_1",
+      "binstar": {
+        "package_id": "61b3819427bdd9a91c1769f4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "25b8f959ad00a75fd247464fad0cb3c4",
       "requires": [],
       "subdir": "noarch"
     },
