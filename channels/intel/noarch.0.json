@@ -312,34 +312,6 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "python-flatbuffers-2.0-pyhd8ed1ab_0.tar.bz2": {
-      "timestamp": 1620719110882,
-      "depends": [
-        "python >=3.6"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 28606,
-      "build_number": 0,
-      "name": "python-flatbuffers",
-      "license": "Apache-2.0",
-      "has_prefix": false,
-      "license_family": "Apache",
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "2.0",
-      "build": "pyhd8ed1ab_0",
-      "binstar": {
-        "package_id": "610daf1001e704e8d94dd794",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "4df5b030a147e0e86cba6a08b4e3a89a",
-      "requires": [],
-      "subdir": "noarch"
-    },
     "neural-compressor-2.1.1-py_0.tar.bz2": {
       "timestamp": 1683774374904,
       "depends": [
@@ -1113,34 +1085,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "d6d311cce452a29369c3425c41e6204a",
-      "requires": [],
-      "subdir": "noarch"
-    },
-    "platformdirs-3.6.0-pyhd8ed1ab_0.tar.bz2": {
-      "timestamp": 1687097265472,
-      "depends": [
-        "python >=3.7",
-        "typing-extensions >=4.6.3"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 18080,
-      "build_number": 0,
-      "name": "platformdirs",
-      "license": "MIT",
-      "has_prefix": false,
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "3.6.0",
-      "build": "pyhd8ed1ab_0",
-      "binstar": {
-        "package_id": "64a6f7c4ead61a9059b91cc0",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "0df9a23689a27cc3bdc7ce12ad9f4c05",
       "requires": [],
       "subdir": "noarch"
     },
@@ -3689,44 +3633,6 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "tensorboard-2.6.0-py_1.tar.bz2": {
-      "timestamp": 1633093625693,
-      "depends": [
-        "absl-py >=0.4",
-        "google-auth-oauthlib 0.4.1",
-        "grpcio >=1.24.3",
-        "markdown >=2.6.8",
-        "numpy >=1.12.0",
-        "protobuf >=3.6.0",
-        "python >=3.2",
-        "six >=1.10.0",
-        "tensorboard-data-server >=0.6.0,<0.7.0",
-        "tensorboard-plugin-wit >=1.6.0",
-        "werkzeug >=0.11.15",
-        "wheel >=0.26"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 5271835,
-      "build_number": 1,
-      "name": "tensorboard",
-      "license": "Apache-2.0",
-      "has_prefix": false,
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "2.6.0",
-      "build": "py_1",
-      "binstar": {
-        "package_id": "5f21fb8c83b6630a178d2e70",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "b7b765b24e416133eb9c1f7600ce5983",
-      "requires": [],
-      "subdir": "noarch"
-    },
     "pytz-2023.3-pyhd8ed1ab_0.tar.bz2": {
       "timestamp": 1680088891597,
       "depends": [
@@ -3778,47 +3684,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "b13419182dcc451f61e0188f0fb3fa0f",
-      "requires": [],
-      "subdir": "noarch"
-    },
-    "tensorboard-2.8.0-pyhd8ed1ab_1.tar.bz2": {
-      "timestamp": 1644016051370,
-      "depends": [
-        "absl-py >=0.4",
-        "google-auth >=1.6.3,<3",
-        "google-auth-oauthlib >=0.4.1,<0.5",
-        "grpcio >=1.24.3",
-        "markdown >=2.6.8",
-        "numpy >=1.12.0",
-        "protobuf >=3.6.0",
-        "python >=3.2",
-        "requests >=2.21.0,<3",
-        "setuptools >=41.0.0",
-        "six >=1.10.0",
-        "tensorboard-data-server >=0.6.0,<0.7.0",
-        "tensorboard-plugin-wit >=1.6.0",
-        "werkzeug >=0.11.15",
-        "wheel >=0.26"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 5488969,
-      "build_number": 1,
-      "name": "tensorboard",
-      "license": "Apache-2.0",
-      "has_prefix": false,
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "2.8.0",
-      "build": "pyhd8ed1ab_1",
-      "binstar": {
-        "package_id": "5f21fb8c83b6630a178d2e70",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "fc86861452a280db19d13feabe5220d9",
       "requires": [],
       "subdir": "noarch"
     },
@@ -4291,40 +4156,31 @@
       "requires": [],
       "subdir": "noarch"
     },
-    "tensorboard-2.5.0-py_0.tar.bz2": {
-      "timestamp": 1622025889778,
+    "platformdirs-3.6.0-pyhd8ed1ab_0.tar.bz2": {
+      "timestamp": 1687097265472,
       "depends": [
-        "absl-py >=0.4",
-        "google-auth-oauthlib 0.4.1",
-        "grpcio >=1.24.3",
-        "markdown >=2.6.8",
-        "numpy >=1.12.0",
-        "protobuf >=3.6.0",
-        "python >=3.2",
-        "six >=1.10.0",
-        "tensorboard-plugin-wit >=1.6.0",
-        "werkzeug >=0.11.15",
-        "wheel >=0.26"
+        "python >=3.7",
+        "typing-extensions >=4.6.3"
       ],
       "arch": null,
       "operatingsystem": null,
       "target-triplet": "None-any-None",
-      "size": 5691766,
+      "size": 18080,
       "build_number": 0,
-      "name": "tensorboard",
-      "license": "Apache-2.0",
+      "name": "platformdirs",
+      "license": "MIT",
       "has_prefix": false,
       "noarch": "python",
       "machine": null,
       "platform": null,
-      "version": "2.5.0",
-      "build": "py_0",
+      "version": "3.6.0",
+      "build": "pyhd8ed1ab_0",
       "binstar": {
-        "package_id": "5f21fb8c83b6630a178d2e70",
+        "package_id": "64a6f7c4ead61a9059b91cc0",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "5b8235df00bc37946ec4007d7904eeed",
+      "md5": "0df9a23689a27cc3bdc7ce12ad9f4c05",
       "requires": [],
       "subdir": "noarch"
     },
@@ -4504,34 +4360,6 @@
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
       "md5": "e482aa236f5541461d285cc979323035",
-      "requires": [],
-      "subdir": "noarch"
-    },
-    "python-flatbuffers-1.12-pyhd3eb1b0_0.tar.bz2": {
-      "timestamp": 1614345770718,
-      "depends": [
-        "python >=3.6"
-      ],
-      "arch": null,
-      "operatingsystem": null,
-      "target-triplet": "None-any-None",
-      "size": 21459,
-      "build_number": 0,
-      "name": "python-flatbuffers",
-      "license": "Apache-2.0",
-      "has_prefix": false,
-      "license_family": "Apache",
-      "noarch": "python",
-      "machine": null,
-      "platform": null,
-      "version": "1.12",
-      "build": "pyhd3eb1b0_0",
-      "binstar": {
-        "package_id": "610daf1001e704e8d94dd794",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "md5": "eda5d5525a29e027e0ad03507236d5df",
       "requires": [],
       "subdir": "noarch"
     },
