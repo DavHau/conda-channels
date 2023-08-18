@@ -1408,6 +1408,40 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
+    "numba-dpex-0.21.2-py39h6ff846d_2.tar.bz2": {
+      "sha256": "0232f9f8231e2936ebc28b6327ae8e693b636d1a295f3f664ca1efeac17a1de7",
+      "build_number": 2,
+      "name": "numba-dpex",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "md5": "982aae416ad91e17561e4421f967d833",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-llvm-spirv",
+        "dpctl >=0.14*",
+        "dpnp >=0.11*",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "numba >=0.57*",
+        "packaging",
+        "python >=3.9,<3.10.0a0"
+      ],
+      "version": "0.21.2",
+      "build": "py39h6ff846d_2",
+      "timestamp": 1692182203611,
+      "binstar": {
+        "package_id": "632b521f66d161b096fcb0d4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 345043,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
+      "subdir": "linux-64"
+    },
     "matplotlib-3.1.2-py38h46ca533_9.tar.bz2": {
       "timestamp": 1622731999841,
       "depends": [
@@ -43955,6 +43989,40 @@
       },
       "md5": "2933b16eaf3d9e261dd760e192693f82",
       "requires": [],
+      "subdir": "linux-64"
+    },
+    "numba-dpex-0.21.2-py310h6ff846d_2.tar.bz2": {
+      "sha256": "1257dccf783aaf5becb838e8ec1e7ede05f49ba2a4dd67c6b11e685904e3a20f",
+      "build_number": 2,
+      "name": "numba-dpex",
+      "license": "Apache-2.0",
+      "has_prefix": false,
+      "md5": "c8f4cddaf676966f54e26c4c70d7ad94",
+      "requires": [],
+      "machine": "x86_64",
+      "platform": "linux",
+      "depends": [
+        "dpcpp-llvm-spirv",
+        "dpctl >=0.14*",
+        "dpnp >=0.11*",
+        "libgcc-ng >=7.5.0",
+        "libstdcxx-ng >=7.5.0",
+        "numba >=0.57*",
+        "packaging",
+        "python >=3.10,<3.11.0a0"
+      ],
+      "version": "0.21.2",
+      "build": "py310h6ff846d_2",
+      "timestamp": 1692182182473,
+      "binstar": {
+        "package_id": "632b521f66d161b096fcb0d4",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "size": 346628,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "cython-0.29.23-py37hb3b8d61_0.tar.bz2": {
