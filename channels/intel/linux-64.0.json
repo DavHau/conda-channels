@@ -44898,34 +44898,41 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "pydaal-2018.0.2.20180124-np114py27_intel_0.tar.bz2": {
+    "ipython-6.3.1-py36_intel_1.tar.bz2": {
+      "build_number": 1,
       "features": "intel",
-      "depends": [
-        "daal 2018.0.2.20180124",
-        "numpy 1.14*",
-        "python 2.7*",
-        "tbb"
-      ],
-      "arch": "x86_64",
-      "operatingsystem": "linux",
-      "target-triplet": "x86_64-any-linux",
-      "size": 202481359,
-      "build_number": 0,
-      "name": "pydaal",
-      "license": "Intel",
+      "license": "BSD",
       "has_prefix": true,
-      "license_family": "Proprietary",
+      "requires": [],
+      "name": "ipython",
       "machine": "x86_64",
       "platform": "linux",
-      "version": "2018.0.2.20180124",
-      "build": "np114py27_intel_0",
+      "depends": [
+        "backcall",
+        "decorator",
+        "get_terminal_size",
+        "intelpython",
+        "jedi",
+        "pexpect",
+        "pickleshare",
+        "prompt_toolkit",
+        "pygments",
+        "python 3.6*",
+        "simplegeneric >0.8",
+        "traitlets"
+      ],
+      "version": "6.3.1",
+      "build": "py36_intel_1",
+      "md5": "d7dfbb5f9be9d73b7f51c84eaebb38b5",
       "binstar": {
-        "package_id": "56fad5ed676dfa0a5afcab71",
+        "package_id": "56fad27f0697b64f422057b9",
         "channel": "main",
         "owner_id": "562a4813d6f51f0b81b0fb82"
       },
-      "md5": "b2258df673fbfd2aad563aa3c5a48dd8",
-      "requires": [],
+      "size": 1057238,
+      "arch": "x86_64",
+      "operatingsystem": "linux",
+      "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
     "onednn-cpu-iomp-2021.2.0-intel_228.tar.bz2": {
@@ -78561,41 +78568,34 @@
       "target-triplet": "x86_64-any-linux",
       "subdir": "linux-64"
     },
-    "ipython-6.3.1-py36_intel_1.tar.bz2": {
-      "build_number": 1,
+    "pydaal-2018.0.2.20180124-np114py27_intel_0.tar.bz2": {
       "features": "intel",
-      "license": "BSD",
-      "has_prefix": true,
-      "requires": [],
-      "name": "ipython",
-      "machine": "x86_64",
-      "platform": "linux",
       "depends": [
-        "backcall",
-        "decorator",
-        "get_terminal_size",
-        "intelpython",
-        "jedi",
-        "pexpect",
-        "pickleshare",
-        "prompt_toolkit",
-        "pygments",
-        "python 3.6*",
-        "simplegeneric >0.8",
-        "traitlets"
+        "daal 2018.0.2.20180124",
+        "numpy 1.14*",
+        "python 2.7*",
+        "tbb"
       ],
-      "version": "6.3.1",
-      "build": "py36_intel_1",
-      "md5": "d7dfbb5f9be9d73b7f51c84eaebb38b5",
-      "binstar": {
-        "package_id": "56fad27f0697b64f422057b9",
-        "channel": "main",
-        "owner_id": "562a4813d6f51f0b81b0fb82"
-      },
-      "size": 1057238,
       "arch": "x86_64",
       "operatingsystem": "linux",
       "target-triplet": "x86_64-any-linux",
+      "size": 202481359,
+      "build_number": 0,
+      "name": "pydaal",
+      "license": "Intel",
+      "has_prefix": true,
+      "license_family": "Proprietary",
+      "machine": "x86_64",
+      "platform": "linux",
+      "version": "2018.0.2.20180124",
+      "build": "np114py27_intel_0",
+      "binstar": {
+        "package_id": "56fad5ed676dfa0a5afcab71",
+        "channel": "main",
+        "owner_id": "562a4813d6f51f0b81b0fb82"
+      },
+      "md5": "b2258df673fbfd2aad563aa3c5a48dd8",
+      "requires": [],
       "subdir": "linux-64"
     },
     "pathlib2-2.1.0-py27_intel_4.tar.bz2": {
